@@ -8,11 +8,11 @@
 - **Never commit:** Games Workshop PDFs, official images, webp/png binaries, or other copyrighted GW assets.
 - **External library:** `C:\Personal\40K` remains outside this repo — use path pointers only.
 
-## Contents (populated by later slices)
+## Contents (populated by slice)
 
 | Path | Added by | Notes |
 |------|----------|-------|
-| `Necron_Lists.md` | S2 | Copy after Preflight ownership patch |
-| `pointers/` | S2 | Source_Library ingest stubs |
+| `Necron_Lists.md` | S2 | Copy after Preflight ownership patch (2026-08-16) |
+| `pointers/` | S2 | Source_Library ingest stubs — see [`reference/Source_Library.md`](../reference/Source_Library.md) |
 
 Librarian **never writes** under `raw/` (Karpathy layer contract).
