@@ -67,3 +67,47 @@ Nothing under `raw/` was created, modified, or deleted. No git commit, no push.
 Next step: **S1** (core RT docs + Game_System_Scaffold), then S2 sources, then **L1** for the first real ingest.
 
 ---
+
+## [2026-08-16] ingest | L1 - first real ingest (Necron_Lists, Source_Library, pointers)
+
+The first end-to-end ingest, which is what actually validates the contract written in [[ingest_procedure]]. Five sources filed, fifteen entity pages created, one L0 error corrected.
+
+**Track / slice:** v1_scaffold / L1 (Librarian, Tier 0)
+**Depends on:** S2 (Resolved - Implemented)
+**Model:** `claude-opus-5-thinking-high` - waiver, locked `claude-fable-5-thinking-high` unavailable
+
+**Sources ingested:**
+
+| Source | Class | Read? |
+|--------|-------|-------|
+| `raw/Necron_Lists.md` | Owner's own notes | **In full** |
+| `reference/Source_Library.md` | Project catalog | **In full** |
+| `raw/pointers/*.md` (8 stubs) | Pointer stubs | **In full** |
+| Wahapedia | Living web reference | **No** - registered only |
+| Warhammer Community | Living web reference | **No** - registered only |
+
+**Pages created (15):**
+
+- Sources: `necron_lists_owner_notes`, `source_library`, `local_library_pointers`, `wahapedia`, `warhammer_community`
+- Factions: `necrons`, `space_marines`
+- Detachments: `canoptek_court`, `cryptek_conclave`, `gladius_task_force`
+- Concepts: `power_matrix`, `reanimation_protocols`, `oath_of_moment`, `objective_control`
+- Analyses: `inherited_docs_for_S3`
+
+**Pages updated (4):** `glossary`, `index`, `overview`, `changelog`
+
+**Key additions:**
+
+- **Power Matrix attribution corrected.** L0 seeded the term with an explicit warning that it might belong to *Kill Team* rather than 40K, reasoning from the owner's Hierotek Circle box. Two independent in-repo sources - `raw/Necron_Lists.md` and `docs/Game_System_Scaffold.md` - name it as the **Canoptek Court detachment rule in Warhammer 40,000**. Resolved on `power_matrix`, corrected in `glossary`, and added to the deprecated list so the old claim cannot quietly return. The rule's *wording* remains unverified; only its system and detachment are settled.
+- **Ownership captured as of 2026-08-16:** 10 Warriors, 3 Scarab Swarms, 5 Immortals - all purchased and unassembled; Hierotek Circle used set game-ready with datasheets TBD pending photos; Kill Team: Tomb World **not owned**.
+- **Glossary expanded from 4 terms to 32**, sectioned by scope (core rules, Necrons, Space Marines, other systems, project vocabulary) for S3 `Keyword_Glossary` alignment. Four promoted terms now carry concept pages with glossary stubs pointing at them, per `AGENTS.md` Sec 5.
+- **"Data Package Detachment" flagged `unresolved`** - it appears in the owner's notes as a tier label and maps to no recognised 40K term. Recorded rather than propagated.
+- **Kill Team added as a glossary entry** specifically to keep the two game systems apart, since conflating them caused the one error this ingest had to fix.
+
+**The honest headline:** no rules document was read. The owned core rules, both faction packs, the terrain PDFs, and the points manuals are all catalogued in `local_library_pointers` and all unopened. Zero game terms are `verified`. The project's gap moved from "no sources" to "unread sources", which is a better problem and a different one.
+
+Nothing under `raw/` was created, modified, or deleted. No git commit, no push.
+
+Next step: **S3** (rules + setup + Keyword_Glossary). Start by reading `raw/pointers/rules_core.md`; the handoff is `inherited_docs_for_S3`.
+
+---

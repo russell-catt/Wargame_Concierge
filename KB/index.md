@@ -4,7 +4,7 @@ type: index
 system: warhammer_40k_11e
 created: 2026-08-16
 updated: 2026-08-16
-sources: []
+sources: [necron_lists_owner_notes, source_library, local_library_pointers]
 confidence: verified
 tags: [index, catalog, kb]
 ---
@@ -15,7 +15,9 @@ Master catalog of every page in this knowledge base. Read this first when answer
 
 **Schema source of truth:** [`AGENTS.md`](../AGENTS.md) at the repo root. Entity types, YAML frontmatter, naming, and the ingest / query / lint workflows are defined there, not here. This file is the catalog only.
 
-**Status:** bootstrapped in slice L0 (2026-08-16). No sources ingested yet - the typed sections below are empty on purpose and fill in from S2 onward.
+**Status:** first ingest complete, slice **L1** (2026-08-16). 5 sources, 15 entity pages. Bootstrapped in L0; the typed sections below now carry content.
+
+> **Nothing here is `verified` on rules.** No rules document has been read - the owned core rules, both faction packs, and the points manuals are catalogued and unopened ([[local_library_pointers]]). Treat every `draft` and `unverified` row as "check before the table."
 
 ---
 
@@ -25,7 +27,7 @@ Each typed section is a table:
 
 | Column | Meaning |
 |--------|---------|
-| Page | `[[wikilink]]` to the KB page |
+| Page | A `[[wikilink]]` to the KB page (backticked here so link lint does not read the example as a real target) |
 | Summary | The one-line summary from the top of that page, copied verbatim |
 | Confidence | `verified` / `draft` / `stub` / `unverified` - see [`AGENTS.md`](../AGENTS.md) Sec 6 |
 | Updated | Date of the last substantive change |
@@ -39,7 +41,7 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-16 |
-| [[glossary]] | Living terminology; the single home for all Keyword entries | stub | 2026-08-16 |
+| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-16 |
 | [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-16 |
 | [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-16 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
@@ -50,7 +52,13 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 
 One page per ingested source. Location: `KB/sources/`.
 
-*(Empty - nothing ingested yet. Sources arrive in S2. Drop an allowed source into `raw/`, then say "ingest [filename]".)*
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-16 |
+| [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-16 |
+| [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
+| [[wahapedia]] | The community rules aggregator used to cross-check datasheets - registered as a source, not yet read | stub | 2026-08-16 |
+| [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-16 |
 
 ---
 
@@ -58,7 +66,12 @@ One page per ingested source. Location: `KB/sources/`.
 
 Rules ideas and tactical principles. Location: `KB/concepts/`.
 
-*(Empty - populates from S3 rules work.)*
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[objective_control]] | A characteristic on every model's profile representing how strongly it holds ground - and the metric that decides who wins | unverified | 2026-08-16 |
+| [[power_matrix]] | The Canoptek Court detachment rule in 40K 11e: hit re-rolls in controlled territory. **Corrects the L0 Kill Team attribution** | draft | 2026-08-16 |
+| [[reanimation_protocols]] | The Necron army rule: units recover during the game, which makes partial damage wasted damage | unverified | 2026-08-16 |
+| [[oath_of_moment]] | The Space Marine army rule: nominate one enemy unit per turn and attack it better. Turns target priority into the defining decision | unverified | 2026-08-16 |
 
 ---
 
@@ -66,7 +79,10 @@ Rules ideas and tactical principles. Location: `KB/concepts/`.
 
 One page per army. Location: `KB/factions/`.
 
-*(Empty - Necrons and Space Marines land in S4 and S5.)*
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[necrons]] | The owner's primary army: an attrition faction that recovers models as fast as most opponents remove them | draft | 2026-08-16 |
+| [[space_marines]] | The opposing army, played by the son: straightforward and forgiving, built from existing older kits, used to teach contrast | stub | 2026-08-16 |
 
 ---
 
@@ -74,7 +90,11 @@ One page per army. Location: `KB/factions/`.
 
 One page per detachment and its rules package. Location: `KB/detachments/`.
 
-*(Empty - populates from S4 and S5.)*
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[canoptek_court]] | The Necron detachment built around robotic constructs, whose rule is the Power Matrix - hit re-rolls in controlled territory | draft | 2026-08-16 |
+| [[cryptek_conclave]] | The Necron detachment built around Cryptek characters leading massed infantry, stacking buffs and reanimation | draft | 2026-08-16 |
+| [[gladius_task_force]] | The generalist Space Marine detachment named as the son's learning target. **Stub - no source read** | stub | 2026-08-16 |
 
 ---
 
@@ -82,7 +102,7 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 
 One page per datasheet, written in play terms. Location: `KB/units/`.
 
-*(Empty - populates from S4, S5, and the full research pass in S6.)*
+*(Empty - populates from S4, S5, and the full research pass in S6. Deliberately not started: no datasheet source has been read, and [[ingest_procedure]] puts core rules and setup before units.)*
 
 ---
 
@@ -90,7 +110,7 @@ One page per datasheet, written in play terms. Location: `KB/units/`.
 
 Deployment, terrain, missions, and scoring. Location: `KB/setup/`.
 
-*(Empty - populates from S3.)*
+*(Empty - populates from S3. The terrain and core-rules pointers that would fill it are catalogued in [[local_library_pointers]] and unread.)*
 
 ---
 
@@ -98,7 +118,11 @@ Deployment, terrain, missions, and scoring. Location: `KB/setup/`.
 
 Synthesized outputs: matchups, list comparisons, and query answers worth keeping. Location: `KB/analyses/`.
 
-*(Empty - file your first query answer here to start compounding.)*
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-16 |
+
+*(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
 
 ---
 
