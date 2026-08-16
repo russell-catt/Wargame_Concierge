@@ -1,0 +1,18 @@
+# raw/ — immutable sources
+
+**Purpose:** Allowed source material copied or authored for this project. Treat as **read-only** after ingest unless Coordinator authorizes a correction.
+
+## Rules
+
+- **Allowed:** Markdown notes, imported list blueprints, Source_Library pointer stubs, Wahapedia research excerpts we author.
+- **Never commit:** Games Workshop PDFs, official images, webp/png binaries, or other copyrighted GW assets.
+- **External library:** `C:\Personal\40K` remains outside this repo — use path pointers only.
+
+## Contents (populated by later slices)
+
+| Path | Added by | Notes |
+|------|----------|-------|
+| `Necron_Lists.md` | S2 | Copy after Preflight ownership patch |
+| `pointers/` | S2 | Source_Library ingest stubs |
+
+Librarian **never writes** under `raw/` (Karpathy layer contract).

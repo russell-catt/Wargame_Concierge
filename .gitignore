@@ -1,0 +1,45 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Secrets — never commit
+.env
+.env.*
+secrets/
+credentials.json
+*.pem
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratchpad / ephemeral (Rising Tide pattern)
+scratchpad/
+Scratchpad/
+**/scratchpad/**
+
+# GW official binaries — NEVER commit (path pointers in markdown OK)
+*.pdf
+*.PDF
+*.webp
+*.WEBP
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+
+# Allow markdown and Obsidian vault config
+!**/*.md
+!.obsidian/**
+!.obsidian/**/*
+
+# Build / output (future)
+output/**
+!output/README.md
