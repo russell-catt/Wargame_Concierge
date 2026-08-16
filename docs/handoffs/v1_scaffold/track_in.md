@@ -59,8 +59,9 @@ An unavailable locked model may be substituted **within the same family**, with 
 | L0 | `claude-fable-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model unavailable at dispatch; same-family substitute | `slices/L0_librarian.md` |
 | S1 | `claude-sonnet-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model blocked/unavailable at dispatch; same-family substitute | `slices/S1_implementer.md` |
 | L1 | `claude-fable-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model unavailable at dispatch; same-family substitute | `slices/L1_librarian.md` |
+| S3 | `claude-sonnet-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model blocked at dispatch; same-family substitute | `slices/S3_implementer.md` |
 
-**Coordinator decision now overdue:** three slices have run on a substitute, and **both Librarian slices so far have waived on the same locked model**. `claude-fable-5-thinking-high` has not been available at any dispatch. Either revise the locked Librarian and Implementer-content rows to match reality, or accept that L2 will waive identically. Cross-family QA separation has held throughout — `gpt-5.6-sol-medium` is a different family from the substitute.
+**Coordinator decision now overdue:** four slices have run on a substitute, and **every non-`composer` slice on this track has run on `claude-opus-5-thinking-high`**. Neither `claude-fable-5-thinking-high` nor `claude-sonnet-5-thinking-high` has been available at any dispatch, so the locked matrix describes a configuration that has never been used. Either revise the Librarian and Implementer-content rows to match reality, or accept that S4, S5, and L2 will waive identically. Cross-family QA separation has held throughout — `gpt-5.6-sol-medium` is a different family from the substitute.
 
 ## Rollup
 
@@ -72,7 +73,7 @@ An unavailable locked model may be substituted **within the same family**, with 
 | **S1** | Core RT docs + Game_System_Scaffold | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Resolved - Implemented (awaiting QA) |
 | **S2** | Sources + Necron import | Implementer `composer-2.5-fast` | `gemini-3.7-flash-high` | **Done** |
 | **L1** | Librarian ingest (Tier 0) | Librarian `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
-| **S3** | Rules + setup + Keyword_Glossary | Implementer `claude-sonnet-5-thinking-high` | `gpt-5.6-sol-medium` | pending |
+| **S3** | Rules + setup + Keyword_Glossary | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
 | **S4** | Necron starters + laminate guide | Implementer `claude-sonnet-5-thinking-high` | `gpt-5.6-sol-medium` | pending |
 | **S5** | SM Oath/Gladius + laminate | Implementer `claude-sonnet-5-thinking-high` | `gpt-5.6-sol-medium` | pending |
 | **S6** | Full unit research (Necron + SM) | Opus + Sonnet parallel | `gpt-5.6-sol-medium` / `gemini-3.7-flash-high` | pending |
@@ -84,6 +85,8 @@ An unavailable locked model may be substituted **within the same family**, with 
 > **Rollup drift flagged by S1 (2026-08-16), not corrected here.** The **S0** row still reads "In Progress" and the **L0** row still reads "pending", but both slices are complete and both are contained in commit `1fa3b7c "Bootstrap Rising Tide spine and Karpathy KB schema (S0+L0)."` The L0 row also still names the locked Librarian model rather than the substitute that actually ran. S1 updated only its own row; the rest belongs to the Coordinator's bookkeeping and was left visibly stale rather than silently fixed. Actual models used are recorded in the Model waivers table above and in each slice report.
 
 > **L1 (2026-08-16) updated the S2 and L1 rows only**, per the brief, and added its own waiver row. The S0 and L0 rows above are still stale and are still the Coordinator's to fix. L1 also **converted this file from UTF-16LE to UTF-8** — see Known repo defects.
+
+> **S3 (2026-08-16) updated its own row only.** The S0 and L0 rows remain stale and remain the Coordinator's to fix. S3 found **this file had reverted to UTF-16LE** when the agent editor rewrote it mid-edit, and converted it back to UTF-8. The "Editor writes UTF-16LE" defect below is **live, not historical** — it fires on every edit, not just on file creation.
 
 ## Git state
 
@@ -108,4 +111,4 @@ An unavailable locked model may be substituted **within the same family**, with 
 |--------|--------|-------|
 | Playbook dead links | `docs/operations/multiagent_coordinator_strategy.md` carries 26 relative links inherited from the `daily_report` repo pointing at directories that do not exist here. Prose is authoritative; links are not | Later cleanup slice |
 | UTF-16LE files | **Resolved as of L1 (2026-08-16).** The five files listed by L0 (`checkins/README.md`, `prompts/README.md`, `docs/handoffs/README.md`, `slices/S0_brief.md`, `raw/pointers/README.md`) are all UTF-8 today. **This file was not on that list and was itself UTF-16LE**; L1 converted it, which is why its diff is whole-file. A repo-wide scan after L1 finds **0** UTF-16 markdown files. `raw/pointers/README.md` was never touched by L1 — it was already UTF-8 | Closed - verify at L2 |
-| Editor writes UTF-16LE | New markdown written through the agent editor in this environment lands as **UTF-16LE without BOM** unless explicitly converted. L1 hit this on all 22 files it touched and converted them as a final step. **Any slice writing markdown must byte-check its output before reporting done** | All slices - **check before exit** |
+| Editor writes UTF-16LE | New markdown written through the agent editor in this environment lands as **UTF-16LE without BOM** unless explicitly converted. L1 hit this on all 22 files it touched and converted them as a final step. **S3 (2026-08-16) confirmed it also fires on _edits to existing UTF-8 files_**, not just on creation - a single string replace into `track_in.md` silently re-encoded the whole file back to UTF-16LE. **Any slice writing or editing markdown must byte-check its output before reporting done** | All slices - **check before exit** |

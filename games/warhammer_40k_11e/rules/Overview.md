@@ -1,0 +1,191 @@
+<!--
+FILE: games/warhammer_40k_11e/rules/Overview.md
+VERSION: v1.0 (2026-08-16)
+OWNER: Russell Catt
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+
+DOCUMENT_TYPE: Teaching Guide / Beginner Overview
+PROJECT_NAME: Wargame_Concierge
+GAME_SYSTEM: Warhammer 40,000 - 11th Edition
+REFERENCE_STATUS: Active - draft, spot-checked against owned PDFs 2026-08-16
+
+SOURCES:
+  - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf (read 2026-08-16)
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf (Version 1.1, read 2026-08-16)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, read 2026-08-16)
+  - reference/Source_Library.md
+  - KB/analyses/inherited_docs_for_S3.md
+
+PURPOSE:
+  Answer "what actually happens in a game of Warhammer 40,000?" for someone who
+  has never played. Covers the shape of a game, how you win, what an army is
+  made of, and what you need on the table.
+
+PRIMARY_AUDIENCE:
+  - Parent and son learning 11th Edition together, from zero
+  - Later sessions needing the shared vocabulary before army content
+
+KEY_SECTIONS_EXPECTED:
+  - What a game is
+  - The shape of a game
+  - How you win
+  - What an army is made of
+  - What you need to play
+  - Your realistic first game
+
+UPDATE_TRIGGER:
+  Update when a new Core Rules version, Munitorum Field Manual, Event Companion,
+  or balance dataslate changes battle sizes, scoring caps, or board size.
+-->
+
+# Overview - what a game of Warhammer 40,000 is
+
+Everything below is written in plain language for a first-time player. Nothing here is copied from Games Workshop text; it is our own explanation of how the game works, checked against the owned Core Rules PDF on **2026-08-16**.
+
+---
+
+## What a game actually is
+
+Two players each command an **army** of miniatures. You take turns moving those models around a table dressed with scenery, shooting at each other, and fighting hand-to-hand. Dice decide whether attacks land and whether they hurt.
+
+The single most important thing a beginner gets wrong: **you do not win by killing the most models.** You win by scoring **victory points (VP)**, and most VP come from standing on the right pieces of ground at the right moment. Killing things is a means to that end, not the end itself.
+
+A game is a self-contained story that runs for **five battle rounds** and then stops, whether or not either army has been wiped out. If you have no models left, you still play out your remaining turns.
+
+---
+
+## The shape of a game
+
+The game is built out of nested pieces. Learn these four words and the structure stops being confusing.
+
+| Piece | What it is |
+|-------|-----------|
+| **Battle** | The whole game. Normally five battle rounds long. |
+| **Battle round** | One full cycle in which **both** players take a turn. Same player always goes first each round. |
+| **Turn** | One player's go. Contains a Start of Turn step, five phases, and an End of Turn step. |
+| **Phase** | One kind of activity - marshalling, moving, shooting, charging, fighting. |
+
+The five phases always happen in the same order:
+
+1. **Command** - both players gain 1 Command Point (CP); you check morale (battle-shock) on your shaky units.
+2. **Movement** - you move every unit, and reinforcements arrive from reserves.
+3. **Shooting** - your units fire ranged weapons.
+4. **Charge** - your units run into contact with the enemy.
+5. **Fight** - **both** players' units swing melee weapons. This is the only phase where your opponent acts during your turn.
+
+The full step-by-step checklist lives in [`Turn_Structure.md`](Turn_Structure.md).
+
+---
+
+## How you win
+
+Victory points are counted up at the end, and the higher total wins. A tie is a draw.
+
+Under the tournament framework in the owned Event Companion (Version 1.1), VP come from three places, each capped:
+
+| Source of VP | Cap | How it works |
+|--------------|-----|--------------|
+| **Primary Mission** | 45VP | Up to 15VP per battle round, almost always for controlling objectives |
+| **Secondary Missions** | 45VP | Up to 15VP per battle round, from mission cards you hold |
+| **Battle Ready army** | 10VP | A flat bonus for having your army painted to a basic standard |
+
+That is a 100VP ceiling, and **90 of those 100 points come from doing things on the board rather than from destroying the enemy.** Casual pick-up games do not have to use the event caps, but the shape is the same: objectives first.
+
+Objectives are specific spots on the table. You control one by having more **Objective Control (OC)** there than your opponent - see [`Key_Concepts.md`](Key_Concepts.md). This is why ten cheap infantry models can beat one expensive tank at the thing that actually scores.
+
+---
+
+## What an army is made of
+
+Building a list is four decisions stacked on top of each other.
+
+| Layer | What you choose | Where the rules live |
+|-------|-----------------|---------------------|
+| **Army faction** | Necrons, Space Marines, and so on. Fixes your **army rule** - a faction-wide ability every unit gets. | Faction pack / Codex |
+| **Detachment** | A rules package inside your faction. Gives a **detachment rule** plus its own enhancements and stratagems. | Faction pack / Codex |
+| **Units** | The actual squads and vehicles. Each has a **datasheet** listing its profile, weapons, abilities, and keywords. | Faction pack / app |
+| **Points** | Every unit costs points. Your list must fit the agreed limit. | Munitorum Field Manual |
+
+The two army rules in this project:
+
+- **Necrons - Reanimation Protocols.** At the end of your Command phase, your units heal wounds back. Damage that fails to finish a unit tends to get undone. *(Confirmed in the owned Necrons Faction Pack v1.1, read 2026-08-16.)*
+- **Space Marines - Oath of Moment.** You nominate an enemy unit each turn and your army attacks it better, which makes target priority the defining Space Marine decision. *(Named in the owned Space Marines Faction Pack; exact wording not yet transcribed - S5 owns this.)*
+
+### Battle sizes
+
+Games are played at named sizes. The owned Necrons Faction Pack references three by name:
+
+| Battle size | Typical use |
+|-------------|-------------|
+| **Incursion** | Small games |
+| **Strike Force** | The standard event and matched-play size |
+| **Onslaught** | Large games |
+
+> **Not verified:** the exact points limit attached to each size is set by the mission material and the Warhammer 40,000 app, and is **not stated in any PDF this project owns**. The commonly quoted figures are 1,000 / 2,000 / 3,000 points, but treat that as hearsay until checked. There is also a smaller **Combat Patrol** format, which the owned A4 terrain pack has a dedicated battlezone layout for.
+
+For learning games, ignore all of this and agree a small number with your opponent. A few hundred points a side is plenty for a first game.
+
+---
+
+## What you need to play
+
+| Thing | Detail |
+|-------|--------|
+| **Models** | Assembled miniatures for both armies |
+| **A table** | Events use a rectangle **44" by 60"**. Smaller is fine for learning games |
+| **Terrain** | Scenery, arranged in defined **terrain areas**. See [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) |
+| **Dice** | A handful of six-sided dice (D6). Twenty or more saves a lot of re-rolling |
+| **Tape measure** | Everything is measured in inches, and you may measure whenever you like |
+| **A mission** | Tells you the deployment map, the objectives, and how VP are scored |
+| **Objective markers** | Flat circular markers, 40 mm across, where an objective is not already a piece of terrain |
+| **Your rules** | Datasheets and points for your army |
+
+Board setup, deployment, and the pre-game checklist are in [`../setup/Board_Setup.md`](../setup/Board_Setup.md).
+
+---
+
+## Your realistic first game
+
+This project has a specific collection behind it, and it constrains what a first game can look like.
+
+- **Only the Hierotek Circle set is game-ready today.** The Necron Warriors, Immortals, and Canoptek Scarab Swarms are purchased but unassembled - they are "build before play". See [`../armies/necrons/Owned_Models_Inventory.md`](../armies/necrons/Owned_Models_Inventory.md).
+- The Hierotek Circle models still need to be **matched to 40K datasheets from photographs** before they can be legally fielded. That is an open task.
+- The Space Marine collection has not been audited yet.
+
+A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structure.md), then play a tiny game with two or three units per side and **no secondary missions** - just move, shoot, fight, and count OC on one objective. Add complexity once the sequence feels automatic.
+
+---
+
+## Where to check anything here
+
+| Question | Check |
+|----------|-------|
+| Core rules mechanics | `C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf` |
+| Rules that changed after release | `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf` |
+| Board size, mission sequence, scoring caps | `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf` |
+| Points | `C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf` |
+| Everything, when in doubt | [`reference/Source_Library.md`](../../../reference/Source_Library.md) |
+
+---
+
+## Related pages
+
+- [`Turn_Structure.md`](Turn_Structure.md) - the phase-by-phase checklist
+- [`Key_Concepts.md`](Key_Concepts.md) - attacks, saves, objectives, morale
+- [`Keyword_Glossary.md`](Keyword_Glossary.md) - every term in one place
+- [`../setup/Board_Setup.md`](../setup/Board_Setup.md) - table, deployment, objectives
+- [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) - terrain categories and how much you need
+
+---
+
+## Change Log
+- v1.0 (2026-08-16): Initial teaching overview (slice S3). Written from the owned Core Rules PDF and Event Companion v1.1, both read 2026-08-16.
+
+## Attribution
+- Project: Wargame_Concierge
+- Maintainer: Russell Catt
+- Warhammer 40,000 is a trademark of Games Workshop Limited. This document is a personal teaching paraphrase and reproduces no publisher text.
+
+## Rising Tide Notes
+- This document follows Rising Tide documentation standards.
+- **Verify before you play.** Cross-check anything here against the current Munitorum Field Manual and your faction pack - Games Workshop patches rules and points between publications. Content on this page reflects sources read on **2026-08-16**.
