@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v1.3 (2026-08-17)
+VERSION: v1.4 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3; slice S4 Canoptek Circle row update; slice S5 Plague Marines row update; slice S6 Angels of Death row update)
 
@@ -19,8 +19,7 @@ PURPOSE:
   assembly/paint state, 40K ruled-in status, and base-size / dual-legality honesty.
 
 UPDATE_TRIGGER:
-  Update when teams are assembled, painted, photo-IDed, or synced into 40K inventories
-  (S4–S6 for priority teams; Hierotek photo ID when photos arrive).
+  Update when teams are assembled, painted, photo-IDed, or synced into 40K inventories.
 -->
 
 # Owned Kill Team 2024 — Teams Inventory
@@ -48,11 +47,11 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 | Team | Folder | Priority | Assembly / paint | 40K ruled-in | Base size / dual-legality | Team PDF |
 |------|--------|----------|------------------|--------------|----------------------------|----------|
 | **Angels of Death** | [`angels_of_death/`](angels_of_death/) | **Full guide — S6 complete** | pending check | **known** — mapped to Space Marine Captain/Intercessor-family units in 40K inventory | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
-| **Canoptek Circle** | [`canoptek_circle/`](canoptek_circle/) | Full guide — **S4 complete** | Game ready — Tomb World box (assembled & painted) | Known — Geomancer, Tomb Crawlers, Macrocytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | Base sizes known (Wahapedia); dual-legal vs. 40K faction pack **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Canoptek Circle** | [`canoptek_circle/`](canoptek_circle/) | Full guide — **S4 complete** | Game ready — Tomb World box (assembled & painted); **photo ID done 2026-08-17** | Known — Geomancer, Tomb Crawlers, Macrocytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | Base sizes known (Wahapedia); dual-legal vs. 40K faction pack **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Celestian Insidiants** | [`celestian_insidiants/`](celestian_insidiants/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Death Korps** | [`death_korps/`](death_korps/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Deathwatch** | [`deathwatch/`](deathwatch/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
-| **Hierotek Circle** | [`hierotek_circle/`](hierotek_circle/) | Stub | **Game ready** — used set, assembled & painted (40K track) | **known** — listed in Necron inventory; **photo ID TBD** for exact 40K datasheets | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Hierotek Circle** | [`hierotek_circle/`](hierotek_circle/) | Stub | **Game ready** — used set, assembled & painted | **known** — Technomancer, Immortals, Despotek (Immortal / Warden proxy), Apprentek (KT-only / Plasmancer proxy), Plasmacytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | KT legal as built. Technomancer 50mm and Immortals/Despotek 32mm likely match 40K. Plasmacytes **25mm KT vs 28mm 40K** — likely not dual-legal until **25–28mm base rings**. Detail: [`hierotek_circle/Owned_Models_Inventory.md`](hierotek_circle/Owned_Models_Inventory.md) | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Kommandos** | [`kommandos/`](kommandos/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Murderwing** | [`murderwing/`](murderwing/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Plague Marines** | [`plague_marines/`](plague_marines/) | **Full guide - complete (S5)** | pending check | pending / N/A this track | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
@@ -60,8 +59,8 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 
 ### Cross-game notes (Necron teams)
 
-- **Canoptek Circle** — KT team distinct from the **Kill Team: Tomb World** 40K learning force, though it shares most of the same physical models. **S4 complete:** the Geomancer, both Tomb Crawlers, and all five Macrocytes (1 Accelerator + 1 Reanimator + 3 Warriors) map exactly onto the 8-operative Canoptek Circle roster — see [`canoptek_circle/Owned_Models_Inventory.md`](canoptek_circle/Owned_Models_Inventory.md). The 40K Necron inventory ([`games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md`](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md)) now cross-links back with base sizes; dual-legality (same base, both games) remains **pending check** until the 40K faction pack is audited. Necron Warriors and Scarab Swarms are **not** part of this KT team — note the Necron Warriors / "Canoptek Macrocyte Warrior" naming collision only.
-- **Hierotek Circle** — same physical used set is **game ready** in the Necron 40K inventory; exact datasheet mapping remains **photo ID TBD**. Do not block KT play on 40K ID.
+- **Canoptek Circle** — KT team distinct from the **Kill Team: Tomb World** 40K learning force, though it shares most of the same physical models. **S4 complete; photo ID 2026-08-17:** Geomancer, both Tomb Crawlers (1 twin gauss reapers + 1 transdimensional isolator), and all five Macrocytes (1 Accelerator + 1 Reanimator + 3 Warriors: 2 gauss scalpel, 1 tesla caster) map onto the 8-operative roster — see [`canoptek_circle/Owned_Models_Inventory.md`](canoptek_circle/Owned_Models_Inventory.md). Dual-legality remains **pending check**. Necron Warriors and Scarab Swarms are **not** part of this KT team — they are Tomb World extras used as 40K units and Joint Ops NPOs ([`../joint_ops/NPO_Catalog.md`](../joint_ops/NPO_Catalog.md)).
+- **Hierotek Circle** — photo ID **done**. Same physical used set is game-ready in the Necron 40K inventory with named datasheets and proxy notes. Team stays **KT-legal as based**. See [`hierotek_circle/Owned_Models_Inventory.md`](hierotek_circle/Owned_Models_Inventory.md).
 
 ### Cross-game notes (Space Marine teams)
 
@@ -103,6 +102,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v1.4 (2026-08-17): Necron photo sync — Canoptek loadouts locked; Hierotek photo ID done (Technomancer / Apprentek / Despotek / Immortals / Plasmacytes) with dual-legality summary.
 - v1.3 (2026-08-17): S6 — Angels of Death row updated to full-guide-complete: 40K ruled-in marked known (mapped to Space Marine Captain/Intercessor-family units), assembly/paint and dual-legality still pending check. Added Cross-game notes (Space Marine teams) section.
 - v1.2 (2026-08-17): S5 — Plague Marines row updated to full-guide-complete. 40K ruled-in set to `pending / N/A this track` — Death Guard has no 40K army folder in this track's locked scope (Necrons + Space Marines only). Added the Plague Marines cross-game note, pointing at the new minimal `games/warhammer_40k_11e/armies/death_guard/README.md` stub — explicitly not a full army package.
 - v1.1 (2026-08-17): S4 — Canoptek Circle row updated to full-guide-complete: assembly/paint, 40K ruled-in, and base-size detail filled in from the new `canoptek_circle/` package; dual-legality still marked pending check. Cross-game note expanded with the Necron Warriors naming-collision flag.

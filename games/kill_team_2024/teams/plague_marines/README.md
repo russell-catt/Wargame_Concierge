@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/README.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v1.1 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -31,7 +31,7 @@ UPDATE_TRIGGER:
 
 **Corrupted Death Guard.** Slow, durable Chaos Space Marine operatives that spread a stacking **Poison** condition and shrug off big hits with **Disgustingly Resilient**. This team wins by trading efficiently at mid-range and grinding objectives, not by winning a footrace.
 
-**Full guide - slice S5.** Written from the living Wahapedia Plague Marines faction page, retrieved **2026-08-17**. Status `draft` until the owned team-rules PDF is opened and cross-checked - see the Rising Tide Notes below.
+**Full guide — slice S5 + `kt24_rules_quotes`.** Team rules and ploys in [`Team_Rule_Guide.md`](Team_Rule_Guide.md) are quoted from the owned Teams PDF. Operative **statlines** are on the seven HTML datacards in [`cards/`](cards/Card_Schema.md). Role summaries below remain teaching paraphrase.
 
 **Start here:** [`Team_Rule_Guide.md`](Team_Rule_Guide.md) for the faction rules and ploys, then [`Starter_Roster.md`](Starter_Roster.md) for a first team.
 
@@ -58,7 +58,7 @@ UPDATE_TRIGGER:
 | File | Purpose |
 |------|---------|
 | [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) | Physical model checklist - assembly/paint state, and the Death Guard / 40K sync note |
-| [`cards/Card_Schema.md`](cards/Card_Schema.md) | Stable field contract for future printable operative cards (filled in **S10**, gated on user photos) |
+| [`cards/Card_Schema.md`](cards/Card_Schema.md) | Seven printable HTML datacards (stats from owned Teams PDF); S10 photo fronts optional |
 
 ---
 
@@ -92,6 +92,7 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 
 ## Change Log
 
+- v1.1 (2026-08-17): README reflects Teams PDF datacards + Team_Rule_Guide (`kt24_rules_quotes`).
 - v1.0 (2026-08-17): Full package (slice S5) - replaced the S3 placeholder with the team overview, cross-game note, and index of the six package documents.
 - v0.1 (2026-08-17): S3 placeholder.
 
@@ -104,4 +105,4 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 ## Rising Tide Notes
 
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** This package rests on the living Wahapedia Plague Marines page, retrieved **2026-08-17**. The owned team-rules PDF has not been opened this slice - cross-check before a tournament.
+- **Verify before you play.** Team rules and datacard statlines are quoted from the owned Teams PDF (2026-08-17). Role summaries in Operatives_Index remain teaching paraphrase.

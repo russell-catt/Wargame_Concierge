@@ -131,14 +131,15 @@ Spend each reanimated wound in this order:
 | Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World, game-ready |
 | Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (3 ready + 3 sprue - build before play) |
 | Necron Warriors (2nd squad) | 10 | **80** | **OWNED** - sprue, build before play |
-| Immortals | 5 | **70** | **OWNED** - sprue, build before play |
-| Plasmancer (Cryptek, Support) | 1 | **55** | `TBD` - check Hierotek Circle |
+| Immortals | 5 | **70** | **OWNED** - sprue, plus Hierotek assembled Guardians / Despotek |
+| Plasmancer (Cryptek, Support) | 1 | **55** | Not owned — buy, or Apprentek kitchen-table proxy |
+| Technomancer | 1 | **80** | **OWNED** - Hierotek |
 | Canoptek Wraiths | 3 | **95** | Not owned |
 
 **250 pts (playable tonight, zero purchases):** Geomancer 75 + Warriors 80 + Tomb Crawlers 85 = **240**.
 **500 pts, Canoptek Court:** add Macrocytes 85 + Scarabs 40 + Wraiths 95 (purchase) = **500**.
-**500 pts, Cryptek Conclave:** add Macrocytes 85 + Scarabs 40 + Immortals 70 (build first) + Plasmancer 55 (`TBD`/buy) = **490**.
-**Hierotek Circle set:** assembled and painted, datasheets `TBD` until photographed - an *additional* game-ready set, not a substitute for Tomb World.
+**500 pts, Cryptek Conclave:** add Macrocytes 85 + Scarabs 40 + Immortals 70 (build first) + Plasmancer 55 (buy / Apprentek proxy) = **490**.
+**Hierotek Circle:** Technomancer owned; Apprentek/Despotek are proxies, not extra purchased characters.
 
 ---
 

@@ -150,7 +150,7 @@ Board setup, deployment, and the pre-game checklist are in [`../setup/Board_Setu
 This project has a specific collection behind it, and it constrains what a first game can look like.
 
 - **The Kill Team: Tomb World force is game-ready today.** The Cryptek Geomancer, 2x Canoptek Tomb Crawlers, 5x Canoptek Macrocytes, 10x Necron Warriors, and 3x Canoptek Scarab Swarms are all assembled and painted - this is the preferred learning baseline. See [`../armies/necrons/Owned_Models_Inventory.md`](../armies/necrons/Owned_Models_Inventory.md).
-- The **Hierotek Circle** set is also assembled and painted, but its models still need to be **matched to 40K datasheets from photographs** before they can be legally fielded. That is an open task, and it does not block playing with Tomb World in the meantime.
+- The **Hierotek Circle** set is assembled, painted, and **photo-IDed** (Technomancer, Immortals, Despotek, Apprentek, Plasmacytes). See [`../armies/necrons/Owned_Models_Inventory.md`](../armies/necrons/Owned_Models_Inventory.md) for legal datasheets vs kitchen-table proxies. It does not block playing Tomb World.
 - A second Necron Warriors squad (10), a second Canoptek Scarab Swarms set (3), and a squad of Immortals (5) are owned but **unassembled** - build these to expand past the Tomb World force at larger points values.
 - The Space Marine collection has not been audited yet.
 

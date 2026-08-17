@@ -4,8 +4,8 @@ type: detachment
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-sources: [necron_lists_owner_notes, docs/Game_System_Scaffold.md]
+updated: 2026-08-17
+sources: [necron_lists_owner_notes, docs/Game_System_Scaffold.md, kill_team_necron_photos]
 confidence: draft
 tags: [detachment, necrons, canoptek, power_matrix, expansion_path]
 ---
@@ -76,7 +76,7 @@ Points and phases as recorded by the source; both need checking against the Muni
 | 3 (750 pts) | Three Canoptek Wraiths |
 | 4 (1,000 pts) | Three more Wraiths to a block of six, a second Doomstalker, the owned Immortals |
 
-Phase 1 is **unblocked** - it is playable from game-ready models. The Hierotek Circle set is an *alternative* Phase 1 once its photo ID lands, not a prerequisite for one.
+Phase 1 is **unblocked** - it is playable from game-ready models. Hierotek adds a Technomancer, not a second Geomancer; it is an expansion, not an alternate unidentified Phase 1.
 
 ---
 
@@ -85,7 +85,7 @@ Phase 1 is **unblocked** - it is playable from game-ready models. The Hierotek C
 - The actual wording and scope of Power Matrix
 - Which enhancements and stratagems come with the detachment - the source names none
 - Whether the phases produce legal lists under 11e detachment construction rules
-- Whether the Hierotek Circle models are even legal in this detachment
+- Whether Hierotek models are legal in this detachment on their current bases (Plasmacytes likely not; Technomancer likely yes)
 
 ---
 
@@ -96,5 +96,6 @@ Phase 1 is **unblocked** - it is playable from game-ready models. The Hierotek C
 - [[necrons]] - faction, army rule, ownership
 - [[objective_control]] - what the detachment rule is coupled to
 - [[necron_lists_owner_notes]] - the source
+- [[kill_team_necron_photos]] - Hierotek legality: Technomancer likely yes; Plasmacytes likely not
 - [[local_library_pointers]] - the faction pack that would verify this
 - [[index]] · [[glossary]]

@@ -3,8 +3,8 @@ title: Inherited docs for S3
 type: analysis
 system: warhammer_40k_11e
 created: 2026-08-16
-updated: 2026-08-16
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community]
+updated: 2026-08-17
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_necron_photos]
 confidence: verified
 tags: [analysis, handoff, s3, teaching_promotion, stable_facts]
 ---
@@ -124,7 +124,7 @@ If S3 verifies a term against a source, update the KB glossary in the same pass 
 
 | Thread | Blocks | Owner |
 |--------|--------|-------|
-| **Hierotek Circle photo ID** | Using the set in a list. **No longer blocks the first game** - the Tomb World units cover Phase 1 of both Necron paths | User photos, then S4 |
+| **Hierotek Circle photo ID** | **Closed 2026-08-17.** Technomancer + Immortals legal; Apprentek/Warden proxies; Plasmacytes likely not dual-legal | See [[kill_team_necron_photos]] |
 | Space Marine collection audit | Any S5 content | User, S5 prep |
 | Wahapedia `wh40k10ed` URL path - 10e or 11e? | Confidence of every web cross-check | S3, see [[wahapedia]] |
 | Whether owned PDFs have been superseded by a dataslate | Confidence of everything | S3, see [[warhammer_community]] |
@@ -137,5 +137,6 @@ If S3 verifies a term against a source, update the KB glossary in the same pass 
 - [[glossary]] - the working terminology surface
 - [[necrons]] · [[space_marines]] - the two factions
 - [[power_matrix]] - the correction S3 should not re-break
+- [[kill_team_necron_photos]] - Hierotek photo ID closed 2026-08-17
 - [[local_library_pointers]] - the unread material
 - [[ingest_procedure]] · [[index]] · [[overview]]

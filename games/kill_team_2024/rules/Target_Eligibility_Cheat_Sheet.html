@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kill Team 2024 — Valid Target (personal use)</title>
+<style>
+@page { size: A4 landscape; margin: 8mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 9pt;
+  line-height: 1.25;
+  margin: 0;
+  color: #1a1a1a;
+  background: #fff;
+}
+h1 { font-size: 14pt; margin: 0 0 4px; color: #8b1a1a; }
+.sub { font-size: 8pt; color: #555; margin-bottom: 8px; }
+.layout { display: grid; grid-template-columns: 1fr 280px; gap: 10px; height: calc(100vh - 16mm); max-height: 185mm; }
+.tree { border: 2px solid #8b1a1a; border-radius: 6px; padding: 8px; background: #faf8f5; overflow: hidden; }
+.node { border: 1px solid #666; border-radius: 4px; padding: 4px 6px; margin: 3px auto; max-width: 92%; text-align: center; background: #fff; font-size: 8.5pt; }
+.node.q { background: #fff3e0; border-color: #c45c00; font-weight: 600; }
+.node.y { background: #e8f5e9; border-color: #2e7d32; }
+.node.n { background: #ffebee; border-color: #c62828; }
+.node.end { background: #e3f2fd; border-color: #1565c0; font-weight: 700; }
+.arrow { text-align: center; font-size: 8pt; color: #666; margin: 0; }
+.branch { display: flex; gap: 6px; justify-content: center; align-items: flex-start; }
+.branch > div { flex: 1; max-width: 48%; }
+.side { font-size: 7.5pt; border-left: 3px solid #8b1a1a; padding-left: 8px; overflow: hidden; }
+.side h2 { font-size: 9pt; margin: 6px 0 3px; color: #8b1a1a; }
+.side ul { margin: 0 0 6px 14px; padding: 0; }
+.side li { margin-bottom: 2px; }
+cite { font-style: normal; color: #666; font-size: 7pt; }
+.footer { margin-top: 6px; font-size: 6.5pt; color: #444; border-top: 1px solid #ccc; padding-top: 4px; grid-column: 1 / -1; }
+.tag { display: inline-block; font-size: 6.5pt; padding: 1px 4px; border-radius: 3px; margin-left: 4px; }
+.tag-s { background: #c8e6c9; }
+.tag-q { background: #ffe0b2; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .layout { height: auto; max-height: none; }
+}
+</style>
+</head>
+<body>
+<h1>Can I shoot? — Valid target quick tree</h1>
+<p class="sub">Kill Team 2024 · Personal use only · Never for sale · Rules quoted from owned local PDFs (see footer)</p>
+
+<div class="layout">
+<div class="tree">
+  <div class="node q">Shooter: Conceal order OR in enemy control range?</div>
+  <p class="arrow">YES → cannot Shoot · NO ↓</p>
+  <div class="node n">Stop — not eligible to Shoot</div>
+  <p class="arrow" style="margin-top:6px">NO ↓</p>
+
+  <div class="node q">Enemy has friendly operative in its control range?</div>
+  <p class="arrow">YES → not a valid target · NO ↓</p>
+
+  <div class="node q">Weapon Range x — target within x?</div>
+  <p class="arrow">NO → not valid · YES / no Range rule ↓</p>
+
+  <div class="node q">Target visible? <cite>Full-Scan p.55</cite></div>
+  <p class="arrow">NO → not valid · YES ↓</p>
+
+  <div class="node q">Target order?</div>
+  <div class="branch">
+    <div>
+      <div class="node">Engage</div>
+      <p class="arrow">↓ valid if visible</p>
+      <div class="node end">VALID TARGET ✓</div>
+    </div>
+    <div>
+      <div class="node">Conceal</div>
+      <p class="arrow">↓ also need NOT in cover</p>
+      <div class="node q">In cover? <cite>p.47, p.42</cite></div>
+      <p class="arrow">intervening terrain in target's CR, not within 2" of shooter</p>
+      <p class="arrow">YES → not valid · NO ↓</p>
+      <div class="node end">VALID TARGET ✓</div>
+    </div>
+  </div>
+
+  <p class="arrow" style="margin-top:8px"><strong>After selected</strong> (sequence, not eligibility):</p>
+  <div class="node">Obscured? Heavy intervening, not within 1" of either · discard 1 success; crits → normal <span class="tag tag-s">SEQUENCE</span> <cite>p.53</cite></div>
+  <div class="node">Saturate weapon? Defender cannot retain cover saves <span class="tag tag-s">SEQUENCE</span> <cite>p.111</cite></div>
+  <div class="node">Cover save (Engage in cover): retain 1 defence die unrolled <span class="tag tag-s">SEQUENCE</span> <cite>p.43</cite></div>
+</div>
+
+<div class="side">
+  <h2>Modifiers when selecting</h2>
+  <ul>
+    <li><strong>Seek / Seek Light</strong> — Conceal cannot use terrain (Light only for Seek Light) for cover; save may remain <cite>p.111</cite></li>
+    <li><strong>Vantage shooter</strong> — Conceal targets ≥2" lower cannot use Light terrain for cover <cite>p.60</cite></li>
+    <li><strong>Blast / Torrent</strong> — secondary targets valid regardless of Conceal; not selected <cite>p.111, update log p.2</cite></li>
+    <li><strong>Silent</strong> — Shoot with Conceal order using this weapon <cite>p.111</cite></li>
+  </ul>
+  <h2>Intervening / lines</h2>
+  <ul>
+    <li>Targeting lines 1mm: base point → facing parts of target base <cite>p.51</cite></li>
+    <li>Blocking gaps: visibility cannot pass; counts intervening <cite>p.59</cite></li>
+    <li>Exposed: never intervening for cover/obscured <cite>p.61</cite></li>
+    <li>Cover + obscured same feature: defender picks one <cite>update log p.2</cite></li>
+  </ul>
+  <h2>Control range</h2>
+  <ul>
+    <li>Visible + within 1" · mutual between operatives <cite>p.46</cite></li>
+  </ul>
+  <h2>Golden sources</h2>
+  <ul>
+    <li>779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf</li>
+    <li>eng_jul25_kt_lite_rules-…pdf (cross-check)</li>
+    <li>eng_17-06_…core_rules_update_log-…pdf</li>
+  </ul>
+</div>
+
+<p class="footer">
+  <strong>Personal use only — never for sale.</strong> Verbatim rules from owned GW PDFs at C:\Personal\Kill Team\kill_team_2024\ (owner lock 2026-08-17).
+  Full quote appendix: <code>Target_Eligibility.md</code>.
+  Layout inspiration (not rules): <strong>u/rdditonator</strong> (Can_I_Shoot.jpeg), <strong>u/Armagonix</strong> (KT24 cheat sheets + datacard template), <strong>u/burgerdrome</strong> (LOS flowchart, 2025-12-06) on r/killteam.
+</p>
+</div>
+</body>
+</html>

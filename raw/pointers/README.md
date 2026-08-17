@@ -8,5 +8,6 @@ Path-pointer stubs for owned local libraries and living web references. **Never 
 | Kill Team 2024 (KT24 / 3e) | `C:\Personal\Kill Team\kill_team_2024` | `kill_team_2024_*.md` |
 | Kill Team 2021 (KT21 / 2e archive) | `C:\Personal\Kill Team\kill_team_2021` | `kill_team_2021_*.md` |
 | Kill Team 2024 — Community Content (draft/secondary only) | `C:\Personal\Kill Team\Community Content` | `community_kt24_*.md` |
+| Kill Team — Necron painted photos (outside git) | `C:\Personal\Kill Team\Teams\` | [`kill_team_necron_photos.md`](kill_team_necron_photos.md) |
 
 Catalog mirror: [`reference/Source_Library.md`](../../reference/Source_Library.md).

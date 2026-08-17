@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/README.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S0)
 
@@ -27,6 +27,10 @@ UPDATE_TRIGGER:
 Second game system in Wargame_Concierge. **Edition in scope: Kill Team 2024 (3rd Edition / KT24).**
 
 Priority learning teams this track: **Canoptek Circle**, **Plague Marines**, **Angels of Death**. Joint Ops (father–son co-op vs NPOs) is a first-class deliverable under `joint_ops/`; Nemesis Operatives deep-dive under `nemesis_ops/` (S0 stubs).
+
+**Personal use only — this project must never be sold.**
+
+**Rules quoting (KT24 only):** This subtree may reproduce **verbatim** rules text from owned local PDFs under `C:\Personal\Kill Team\kill_team_2024\` (read in place; never commit PDFs). Warhammer 40,000 content elsewhere in the repo remains teaching paraphrase only.
 
 **Not current play:** older Kill Team 2021 / 2e material lives under [`reference/kill_team_2e/`](../../reference/kill_team_2e/) only.
 
@@ -71,7 +75,7 @@ Rules for Kill Team and Warhammer 40,000 stay **separate**. Owned KT miniatures 
 
 | Path | Status | Purpose |
 |------|--------|---------|
-| [`rules/`](rules/) | Stub (S0) | Overview, turn structure, key concepts, keyword glossary |
+| [`rules/`](rules/) | **Populated** | Overview, turn structure, key concepts, keyword glossary; target-eligibility quote appendix + [one-page cheat sheet](rules/Target_Eligibility_Cheat_Sheet.html) |
 | [`setup/`](setup/) | **Populated (S2)** | Board setup, terrain basics, and five owned-killzone pages (Volkus, 3e Starter, Shadowhunt, Tomb World, 2e scatter) |
 | [`critical_ops/`](critical_ops/) | **Populated (S2)** | How the owned Critical/Approved Ops decks plug into a game; table aid in S7 |
 | [`joint_ops/`](joint_ops/) | Complete (S9) | Father–son Joint Ops / NPO aids |
@@ -80,7 +84,20 @@ Rules for Kill Team and Warhammer 40,000 stay **separate**. Owned KT miniatures 
 
 ---
 
+## Community thanks
+
+Huge thanks to the [/r/killteam](https://www.reddit.com/r/killteam/) community for all the guides and cheat sheets I've read over the last 2 years.
+
+Specific thanks to these users for guides used as **layout inspiration** in this subtree (rules text always comes from owned GW PDFs):
+
+- [u/rdditonator](https://www.reddit.com/user/rdditonator/) — valid-target decision tree (`Can_I_Shoot.jpeg`)
+- [u/Armagonix](https://www.reddit.com/user/Armagonix/) — KT24 cheat sheets (Vers 1.21, `kt24_reference_second.pdf`, `kt24_solo_reference.pdf`) and unit datacard template (`kt24_unit_datacards_template.pdf`)
+- [u/burgerdrome](https://www.reddit.com/user/burgerdrome/) — line-of-sight flowchart (`Kill Team LOS Flowchart`, 2025-12-06)
+
+---
+
 ## Change Log
+- v0.5 (2026-08-17): KT24 verbatim-quote policy, community thanks, target-eligibility corpus + cheat sheet, Canoptek/Plague datacards (`kt24_rules_quotes` track).
 - v0.4 (2026-08-17): `join_ops/` renamed to `joint_ops/` (nemesis_ops_research S0); `nemesis_ops/` stub subtree added.
 - v0.3 (2026-08-17): `setup/` and `critical_ops/` marked Populated after slice S2 (Board_Setup, Terrain_Basics, five killzone pages, expanded Critical Ops README).
 - v0.2 (2026-08-17): `join_ops/` marked Complete after slice S9 (Join Ops pack: README, NPO catalog, cheat sheet, owned-terrain scenario matrix).

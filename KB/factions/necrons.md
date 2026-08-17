@@ -4,8 +4,8 @@ type: faction
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-sources: [necron_lists_owner_notes, source_library, local_library_pointers]
+updated: 2026-08-17
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos]
 confidence: draft
 tags: [faction, necrons, primary, ownership, learning_army]
 ---
@@ -36,7 +36,7 @@ Full treatment, including what still needs confirming, on [[reanimation_protocol
 
 ---
 
-## Confirmed ownership - 2026-08-16
+## Confirmed ownership - 2026-08-17 (photo ID)
 
 From [[necron_lists_owner_notes]], mirrored in `games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md`.
 
@@ -47,16 +47,22 @@ From [[necron_lists_owner_notes]], mirrored in `games/warhammer_40k_11e/armies/n
 | Item | Qty | State |
 |------|-----|-------|
 | Cryptek Geomancer | 1 | Game ready |
-| Canoptek Tomb Crawlers | 2 | Game ready |
-| Canoptek Macrocytes | 5 | Game ready |
-| Necron Warriors (Tomb World squad) | 10 | Game ready |
+| Canoptek Tomb Crawlers | 2 | Game ready — 1 twin gauss reapers, 1 transdimensional isolator |
+| Canoptek Macrocytes | 5 | Game ready — 1 Accelerator, 1 Reanimator, 3 Warriors (2 gauss scalpel, 1 tesla caster) |
+| Necron Warriors (Tomb World squad) | 10 | Game ready — mixed gauss flayer / gauss reaper |
 | Canoptek Scarab Swarms (Tomb World set) | 3 | Game ready |
 
-Painted and fieldable, but not yet identified:
+**Hierotek Circle** (photo ID 2026-08-17) — assembled, painted, identified:
 
-| Item | Qty | State |
-|------|-----|-------|
-| Hierotek Circle Kill Team (used set) | 1 set | Assembled and painted; **40K datasheet mapping unknown - TBD pending owner photos** |
+| Item | Qty | 40K map |
+|------|-----|---------|
+| Technomancer (Canoptek Cloak) | 1 | Technomancer |
+| Immortal Guardians | 3 | Immortals (add to 5 sprue; do not overwrite sprue) |
+| Despotek | 1 | Immortal default; casual Royal Warden proxy |
+| Apprentek | 1 | KT-only; casual Plasmancer proxy |
+| Plasmacytes (Accelerator + Reanimator) | 2 | KT-legal; 40K likely not until **25–28mm base rings** |
+
+Not a Plasmancer. Not Deathmarks. See [[kill_team_necron_photos]].
 
 ### Owned, build before play
 
@@ -66,9 +72,9 @@ Painted and fieldable, but not yet identified:
 | Canoptek Scarab Swarms (second set) | 3 | Purchased, unassembled |
 | Immortals | 5 (1 squad) | Purchased, unassembled |
 
-**Totals:** 20 Warriors (10 ready + 10 on sprue), 6 Scarab Swarms (3 ready + 3 on sprue), plus the Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 5 Immortals, and the Hierotek Circle set.
+**Totals:** 20 Warriors, 6 Scarab Swarms, Geomancer, Tomb Crawlers, Macrocytes, Technomancer, Immortals (Hierotek assembled + 5 sprue), Apprentek, Hierotek Plasmacytes.
 
-**The shape of this collection:** there is a **playable, identified army on the table today** - the Tomb World units, which the owner prefers as the learning baseline. Everything else is an expansion of it. The Warriors and Scarabs on sprue are **assemble-to-expand**, doubling squads that already exist rather than adding new capability, and the Immortals are the one owned unit that needs building before it can be used at all. The Hierotek Circle set is painted and fieldable but still unidentified, so it can be played with only once photos resolve which datasheets its models use.
+**The shape of this collection:** there is a **playable, identified army on the table today** - the Tomb World units, which the owner prefers as the learning baseline. Hierotek adds a second Cryptek (Technomancer) and extra Immortal bodies. Apprentek and Despotek-as-Warden are kitchen-table proxies, not purchased characters. Plasmacytes stay KT-legal on 25mm bases.
 
 An earlier version of this page recorded Kill Team: Tomb World as **not owned** and its lists as superseded. That claim was erroneous and is withdrawn.
 
@@ -113,7 +119,7 @@ No per-datasheet `KB/units/` pages exist yet - [[necrons_unit_index]] explains w
 
 ## Open questions
 
-- **What is in the Hierotek Circle set?** No longer blocks the first game - the Tomb World units cover that - but it blocks using the set in a list. Needs owner photos, then a datasheet mapping.
+- Dual-legality of Hierotek Plasmacytes (25mm KT vs 28mm 40K) vs the faction pack. **To-do: purchase 25–28mm base rings** (do not rebase).
 - What does Reanimation Protocols actually do in 11th Edition - trigger, quantity restored, and what denies it?
 - Which detachment survives contact with the real rules, rather than the owner's summary of them?
 - Are the points values in the owner's notes current against the Munitorum Field Manual?
@@ -131,4 +137,5 @@ No per-datasheet `KB/units/` pages exist yet - [[necrons_unit_index]] explains w
 - [[objective_control]] - how this army actually wins
 - [[space_marines]] - the opposing force
 - [[necron_lists_owner_notes]] - the source for ownership and both paths
+- [[kill_team_necron_photos]] - photo pointer ingest
 - [[index]] · [[glossary]] · [[overview]]

@@ -5,7 +5,7 @@ system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-17
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -195,14 +195,34 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: Necrons, keyword
 
 **Cryptek** - `draft`
-: The Necron engineer-character family - Plasmancer, Technomancer, Geomancer, and others. The theme [[cryptek_conclave]] is built around, and the likely content of the owned Hierotek Circle set.
+: The Necron engineer-character family - Plasmancer, Technomancer, Geomancer, and others. The theme [[cryptek_conclave]] is built around. Owned: Geomancer (Tomb World) and Technomancer (Hierotek).
 - Faction / scope: Necrons, keyword
 
 **Hierotek Circle** - `draft`
-: A **Kill Team** boxed set of Necron Crypteks and attendants. The owner has one, used and fully painted, so it is game-ready in the physical sense - but **its 40K datasheet mapping is unknown** and pending photographs, which is what keeps it out of lists. It is no longer the only game-ready part of the collection; Kill Team: Tomb World is both painted and identified.
+: Used set, painted, **photo-IDed 2026-08-17**: Technomancer (cloak), Apprentek, Despotek, 3 Immortal Guardians, 2 Plasmacytes. 40K: Technomancer and Immortals are the legal maps; Apprentek is KT-only (casual Plasmancer proxy); Despotek defaults to Immortal (casual Royal Warden proxy). See [[necrons]] and [[kill_team_necron_photos]].
 : It is a set of models, not a rules term. L0 mistakenly treated it as evidence about [[power_matrix]]; it is not evidence about any 40K rule.
-- Faction / scope: Necrons, models - **Kill Team product, usable as 40K models once identified**
-- See also: [[necrons]]
+- Faction / scope: Necrons, models - **Kill Team product, dual-use with 40K where bases match**
+- See also: [[necrons]], [[kill_team_necron_photos]]
+
+**Apprentek** - `draft`
+: Hierotek Circle operative. No 11e datasheet. Casual proxy for a **Plasmancer** (32mm; opponent OK). Do not count as an owned Plasmancer.
+- See also: [[necrons]], [[kill_team_necron_photos]]
+
+**Despotek** - `draft`
+: Hierotek Circle “Immortal Despotek.” Default 40K use: **Immortal**. Casual proxy: **Royal Warden** (32mm; cheap Leader that stacks with Cryptek Support).
+- See also: [[necrons]], [[cryptek_conclave]]
+
+**Royal Warden** - `draft`
+: Cheap Necron **Leader** (~50 pts). Not owned. Hierotek Despotek may proxy it on the kitchen table. Gives Fall Back then shoot/charge, and a once-per-battle un-battleshock.
+- See also: [[cryptek_conclave]]
+
+**Plasmancer** - `draft`
+: Cryptek **Support**. Not owned. Hierotek Apprentek may proxy it casually (32mm). Do not count as a purchased Plasmancer for Path B / events.
+- See also: [[cryptek_conclave]], [[necrons]]
+
+**Technomancer** - `draft`
+: Cryptek **Support**. **Owned** — Hierotek Circle with Canoptek Cloak. Second owned Cryptek alongside the Tomb World Geomancer.
+- See also: [[necrons]], [[kill_team_necron_photos]]
 
 **Kill Team: Tomb World** - `draft` · **owned, game-ready**
 : A Kill Team box the owner owns, assembled and painted: **1 Cryptek Geomancer, 2 Canoptek Tomb Crawlers, 5 Canoptek Macrocytes, 10 Necron Warriors, 3 Canoptek Scarab Swarms**. Its models map to known 40K datasheets, which makes it the **preferred baseline for learning games** and the Phase 1 force for both Necron detachment paths.
@@ -355,7 +375,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 Not game terms - the words this project uses about its own state. S3 should keep them consistent in shipping content.
 
 **Game-ready** - `verified`
-: Assembled, painted or at least based, and fieldable today. Currently: the **Kill Team: Tomb World** units (Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms) and the **Hierotek Circle** set. Only the Tomb World half is also *identified*, so only it can be put in a list.
+: Assembled, painted or at least based, and fieldable today. Currently: **Kill Team: Tomb World** (identified) and **Hierotek Circle** (identified 2026-08-17 — Technomancer and Immortals are the 40K-legal maps; Apprentek/Warden uses are proxies).
 
 **Build before play** - `verified`
 : Purchased but unassembled. Excluded from any "play this weekend" advice. Currently: the second Warrior squad (10), the second Scarab Swarm set (3), and 5 Immortals.
@@ -399,7 +419,7 @@ What has to be read to clear this page. Everything here is blocked on a document
 | ~~Scientific Schemes~~ | Same | **Done.** S4 read the pack; the rule is Technosorcerous Augmentations and the old label is deprecated |
 | Oath of Moment, Gladius Task Force, Firstborn datasheets | `raw/pointers/faction_pack_space_marines.md` | **S5** |
 | Points values | `raw/pointers/points_manuals.md` | S3 / S4 |
-| Hierotek Circle datasheet mapping | **User photos** | S4 |
+| Hierotek Circle datasheet mapping | **User photos** | **Done 2026-08-17** |
 | Data Package Detachment | Ask the owner | Any |
 
 Power Matrix's **system attribution** left this queue in L1. Its **wording** did not.
@@ -414,7 +434,8 @@ How this KB writes about the game.
 |-----------|------|---------|
 | Edition naming | "11th Edition" in prose, `warhammer_40k_11e` in frontmatter and paths | "new in 11th Edition" |
 | Official term first | Official term, then community shorthand once in parentheses | "Objective Control (OC)" |
-| No verbatim rules text | Paraphrase for teaching; never transcribe datasheet or stratagem wording | [`AGENTS.md`](../AGENTS.md) Sec 10 |
+| No verbatim rules text | Paraphrase for teaching in `KB/` and 40K shipping; never transcribe datasheet or stratagem wording | [`AGENTS.md`](../AGENTS.md) Sec 10 |
+| KT24 quote exception | **`games/kill_team_2024/` only:** verbatim quotes from owned local KT24 PDFs (+ WarCom free rules) with cite; personal use, never for sale | [`AGENTS.md`](../AGENTS.md) Sec 10; [`kill_team_2024_core_rules`](../sources/kill_team_2024_core_rules.md) |
 | Cite the check | Every rules claim names where it can be verified, with a retrieval date | "Wahapedia, read 2026-08-16" |
 | Beginner voice | Explain why a rule matters, not just what it says | - |
 | Name the system | Say "Kill Team" or "40K" explicitly when both could be meant | the Power Matrix correction |

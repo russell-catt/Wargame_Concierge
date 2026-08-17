@@ -12,4 +12,4 @@
 | `C:\Personal\Kill Team\kill_team_2024\eng_17-06_kill_team_key_downloads_universal_equipment-prsd0j8pih-ikfmigl0za.pdf` | Universal equipment |
 | `C:\Personal\Kill Team\kill_team_2024\kt_sniper_rules_eng_20-puwbum7ej6-n24dgcrcdd.pdf` | Sniper rules update |
 
-**Ingest note:** Teaching paraphrase only. Never copy PDFs into the repo. Prefer core + update log over lite when they conflict; flag conflicts explicitly.
+**Ingest note:** Read in place only; never copy PDFs into the repo. **Quoting:** Verbatim KT24 core rules text is allowed under `games/kill_team_2024/` only (see `AGENTS.md` Sec 10). `KB/` and 40K shipping remain teaching paraphrase. Prefer Full-Scan + update log over lite when they conflict; flag conflicts explicitly. Owner lock 2026-08-17: no newer WarCom fetch required this pass.

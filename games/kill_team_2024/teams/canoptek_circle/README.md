@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/README.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v1.1 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -49,10 +49,10 @@ This is a different game from the 40K Necron army in the same collection ([`../.
 | Operative | Count | Base | Role in plain English |
 |-----------|-------|------|------------------------|
 | **Geomancer** | 1 | 50mm | Leader. Plants and re-anchors the Obelisk Nodes; strong in a fight; hands out free actions to nearby Canoptek |
-| **Tomb Crawler** | 2 | 50mm | Heavy hitter / tank. Big, durable, chooses between a precise anti-armour weapon or a wide sweeping one |
+| **Tomb Crawler** | 2 | 50mm | Heavy hitter / tank. Owned pair: one twin gauss reapers, one transdimensional isolator |
 | **Canoptek Macrocyte Accelerator** | 1 | 28mm | Support. Pushes a friendly operative's action economy up, or an enemy's down |
 | **Canoptek Macrocyte Reanimator** | 1 | 28mm | Support / medic. Can save a dying Canoptek at the cost of tempo, and tops up wounds elsewhere |
-| **Canoptek Macrocyte Warrior** | 3 | 28mm | Disposable screen. Cheap to lose, punishes melee on the way out, can be replenished mid-battle |
+| **Canoptek Macrocyte Warrior** | 3 | 28mm | Disposable screen. Owned three: 2 gauss scalpel, 1 tesla caster |
 
 Full teaching breakdown, plain-English fields, and card-schema notes: [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md).
 
@@ -67,7 +67,7 @@ Full teaching breakdown, plain-English fields, and card-schema notes: [`operativ
 | [`Starter_Roster.md`](Starter_Roster.md) | The learning roster built entirely from owned models |
 | [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | Two-page table laminate — habits during the game, your force today |
 | [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md) | Every operative, role in plain English, card-schema-ready fields |
-| [`cards/Card_Schema.md`](cards/Card_Schema.md) | Sketch of the Tarot-sleeve teaching card format, for S10 once photos land |
+| [`cards/Card_Schema.md`](cards/Card_Schema.md) | Five printable HTML datacards (stats from owned Teams PDF); S10 photo fronts optional |
 
 ---
 
@@ -89,7 +89,8 @@ Do not confuse the KT **Canoptek Macrocyte Warrior** operative with the 40K **Ne
 
 ## Change Log
 
-- v1.0 (2026-08-17): S4 — full package. README rewritten from S3 placeholder; added Team_Rule_Guide, Owned_Models_Inventory, Starter_Roster, Quick_Reference_Play_Guide, operatives/Operatives_Index, cards/Card_Schema. 40K Necron inventory cross-synced.
+- v1.1 (2026-08-17): Photo ID — loadouts and photo pointer in inventory.
+- v1.2 (2026-08-17): Card_Schema row updated for HTML datacards (`kt24_rules_quotes` S4).
 - v0.1 (2026-08-17): S3 placeholder.
 
 ## Attribution

@@ -21,8 +21,7 @@ PURPOSE:
   detachment guides, the starter lists, and the laminate play guide.
 
 UPDATE_TRIGGER:
-  Update when ownership changes, Hierotek Circle is photo-IDed, unit research
-  lands (S6), or a Munitorum Field Manual revision changes costs.
+  Update when ownership changes, unit research lands, or a Munitorum Field Manual revision changes costs.
 -->
 
 # Necrons - 11th Edition
@@ -40,9 +39,9 @@ Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation
 | Category | Detail |
 |----------|--------|
 | **Game-ready now (preferred learning baseline)** | **Kill Team: Tomb World** - Cryptek Geomancer (1), Canoptek Tomb Crawlers (2), Canoptek Macrocytes (5), Necron Warriors (10), Canoptek Scarab Swarms (3). All assembled and painted. |
-| **Also game-ready** | Hierotek Circle Kill Team set (assembled + painted) - datasheet mapping **pending photos** |
+| **Also game-ready** | Hierotek Circle (photo ID 2026-08-17): Technomancer, 3 Immortal Guardians, Despotek, Apprentek, 2 Plasmacytes. See inventory for legal vs proxy. |
 | **Owned, build before play (assemble-to-expand)** | 10 more Warriors (2nd squad), 3 more Scarab Swarms (2nd set), 5 Immortals - all unassembled |
-| **Ownership totals** | 20 Warriors total (10 ready + 10 sprue), 6 Scarab Swarms total (3 ready + 3 sprue), plus Geomancer, Tomb Crawlers, Macrocytes, Immortals, and Hierotek Circle (TBD) |
+| **Ownership totals** | 20 Warriors, 6 Scarab Swarms, Geomancer, Tomb Crawlers, Macrocytes, Technomancer, Immortals (Hierotek assembled + sprue), Apprentek/Plasmacytes (see dual-legality) |
 
 See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
@@ -62,7 +61,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
 | File | Purpose |
 |------|---------|
-| [`Starter_250.md`](Starter_250.md) | First-game learning list built from the game-ready Tomb World force, plus the Hierotek Circle photo-ID checklist |
+| [`Starter_250.md`](Starter_250.md) | First-game learning list built from the game-ready Tomb World force, plus Hierotek named map |
 | [`Starter_500.md`](Starter_500.md) | Both detachment paths at ~500 points, every entry tagged Tomb World / sprue / purchase |
 | [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't |
 

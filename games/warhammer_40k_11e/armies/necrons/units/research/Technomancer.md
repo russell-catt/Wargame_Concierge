@@ -9,7 +9,10 @@
 - **completeness:** partial
 
 ## Composition
-_Confirm on Wahapedia — Hierotek Circle photo ID may map here._
+Hierotek Circle **does** include this datasheet: Technomancer with Canoptek Cloak (photo 2026-08-17).
+
+## List-building notes
+Owned, game-ready, second Cryptek alongside the Tomb World Geomancer.
 
 ## Profiles
 _Pending full capture — priority inventory_candidate._
@@ -21,7 +24,7 @@ _Pending_
 _Pending_
 
 ## Abilities
-Priority for Hierotek Circle / starter path once photo-IDed.
+Abilities notes: photo ID closed 2026-08-17 — see list-building notes.
 
 ## Leader / attach options
 _Pending_
@@ -33,7 +36,7 @@ _Pending_
 Verify MFM | 2026-08-16
 
 ## List-building notes
-Hierotek Circle TBD photos may include this datasheet.
+Photo ID 2026-08-17: this datasheet **is** in Hierotek.
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Technomancer

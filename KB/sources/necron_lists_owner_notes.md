@@ -4,8 +4,8 @@ type: source
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-sources: [raw/Necron_Lists.md, raw/pointers/necron_lists_import.md]
+updated: 2026-08-17
+sources: [raw/Necron_Lists.md, raw/pointers/necron_lists_import.md, kill_team_necron_photos]
 confidence: draft
 tags: [source, necrons, ownership, list_building, canoptek_court, cryptek_conclave]
 ---
@@ -52,7 +52,7 @@ Plus the set that is playable but not yet identified:
 
 | Item | Qty | State |
 |------|-----|-------|
-| Hierotek Circle Kill Team (used set) | 1 set | Assembled and painted - **game ready**; 40K datasheet mapping **TBD pending owner photos** |
+| Hierotek Circle Kill Team (used set) | 1 set | Photo ID **done 2026-08-17** — Technomancer, Immortals, Despotek, Apprentek, Plasmacytes; see [[kill_team_necron_photos]] |
 
 ### Owned, build before play
 
@@ -62,7 +62,7 @@ Plus the set that is playable but not yet identified:
 | Canoptek Scarab Swarms (second set) | 3 | Purchased, **unassembled** |
 | Immortals | 5 (1 squad) | Purchased, **unassembled** |
 
-**Totals:** 20 Necron Warriors (10 game-ready + 10 on sprue), 6 Canoptek Scarab Swarms (3 game-ready + 3 on sprue), plus 1 Cryptek Geomancer, 2 Canoptek Tomb Crawlers, 5 Canoptek Macrocytes, 5 Immortals, and the Hierotek Circle set.
+**Totals:** 20 Necron Warriors (10 game-ready + 10 on sprue), 6 Canoptek Scarab Swarms (3 game-ready + 3 on sprue), plus 1 Cryptek Geomancer, 2 Canoptek Tomb Crawlers, 5 Canoptek Macrocytes, 5 sprue Immortals, and Hierotek (Technomancer, 3 Immortal Guardians, Despotek, Apprentek, 2 Plasmacytes). See [[kill_team_necron_photos]].
 
 Three consequences the source states plainly, and this KB carries forward:
 
@@ -134,7 +134,7 @@ The source also uses **"Data Package Detachment"** as a tier label ("3 Data Pack
 - The Necron army rule itself - Reanimation Protocols is never explained here
 - Datasheet detail beyond names and points
 - Space Marines, in any form
-- Which Hierotek Circle models map to which 40K datasheets - the central open TODO
+- Dual-legality of Hierotek Plasmacytes vs 40K Plasmacyte bases — photo ID of the set itself is **done** (2026-08-17); see [[kill_team_necron_photos]]
 
 ---
 
@@ -149,9 +149,9 @@ What that reverses, concretely:
 | "Kill Team: Tomb World - not owned" | Owned. Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms are all **game ready** |
 | Tomb World lists are superseded path notes | They are the **current** Phase 1 lists for both detachment paths |
 | "Do not let Tomb World content leak into current advice" | Retired. Tomb World *is* the current advice |
-| The Hierotek Circle set is the only thing that can be fielded | Tomb World can be fielded today against **known** datasheets; Hierotek supplements it once photo ID lands |
+| The Hierotek Circle set is the only thing that can be fielded | Tomb World is the baseline; Hierotek is identified (Technomancer + Immortals; proxies for Plasmancer/Warden) |
 
-The Hierotek Circle thread is unchanged and still open: the set is game-ready, but its 40K datasheet mapping is unknown pending owner photos. What changed is that it no longer gates the first game.
+The Hierotek Circle thread is **closed for identification** (2026-08-17). Remaining honesty: Apprentek/Warden are proxies; Plasmacytes likely not dual-legal.
 
 The final third of the source is a Facebook Marketplace sourcing guide for Canada - keyword strategies and legacy box sets worth targeting. Useful, entirely non-rules, and not otherwise filed in the KB. Its bundle arithmetic now assumes 20 Warriors and 6 Scarab Swarms already owned, so duplicate battleline in a bundle carries little value.
 
@@ -171,7 +171,7 @@ The final third of the source is a Facebook Marketplace sourcing guide for Canad
 
 ## Open questions
 
-- What is in the Hierotek Circle set, and which 40K datasheets do those models use? No longer blocks a first game - the Tomb World units cover that - but it blocks counting the set toward either detachment path.
+- What 40K dual-legality remains for Hierotek Plasmacytes (25mm vs 28mm)? Identification of the set is **done**. **To-do: purchase 25–28mm base rings.**
 - What does Power Matrix actually do in 11th Edition wording?
 - Is "Data Package Detachment" a real term, a community coinage, or a drafting artifact?
 - Are the listed points values current, or carried over from 10th Edition?
@@ -183,5 +183,6 @@ The final third of the source is a Facebook Marketplace sourcing guide for Canad
 - [[source_library]] - the catalog this import is registered in
 - [[local_library_pointers]] - the owned PDFs that would verify these claims
 - [[necrons]] - the faction page this feeds
+- [[kill_team_necron_photos]] - 2026-08-17 photo ID of Hierotek / Canoptek / NPO models
 - [[index]] - master catalog
 - [[ingest_procedure]] - source classes and confidence rules

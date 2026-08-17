@@ -33,7 +33,7 @@ _Pending_
 Verify Munitorum Field Manual — research 2026-08-16.
 
 ## List-building notes
-Roster entry for later list-building / datasheet cards.
+Not owned. Hierotek Despotek is a casual 32mm proxy (opponent OK). Cheap Leader that stacks with Cryptek Support.
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Royal-Warden

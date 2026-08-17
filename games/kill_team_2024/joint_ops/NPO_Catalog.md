@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/joint_ops/NPO_Catalog.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v1.2 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, nemesis_ops_research S3; prior S9)
 
@@ -86,6 +86,19 @@ Six missions, built for **Killzone: Tomb World**, each usable with any of six in
 
 **Notable overlap:** these are the same Necron unit families already in this project's owned Tomb World collection (see the Necrons faction pages under `games/warhammer_40k_11e/armies/necrons/`) — once Tomb World terrain is assembled, the models a father-son session fights *against* here are close cousins of the models the Necron player already owns and plays *with* in 40K and in Canoptek Circle.
 
+### Owned painted models that can stand in as Tomb World NPOs
+
+Photos: [`raw/pointers/kill_team_necron_photos.md`](../../../raw/pointers/kill_team_necron_photos.md) (`necron_NPOs\` + `Canoptek_circle\`). **Not a kill team** — do not add a `teams/necron_npos/` folder. Terrain still gates play ([`Playable_Scenarios_Owned_Terrain.md`](Playable_Scenarios_Owned_Terrain.md)).
+
+| Physical models | Qty (photo-backed) | Notes |
+|-----------------|--------------------|-------|
+| Necron Warriors | **10** | Mixed **gauss flayer** and **gauss reaper**. Confirm WYSIWYG if the mission pack cares. Same 10 as 40K Tomb World Warriors. |
+| Canoptek Scarab Swarms | **3 bases** | Matches 40K game-ready Scarabs. |
+| Canoptek Tomb Crawlers | 2 | From Canoptek Circle — 1 twin gauss reapers, 1 transdimensional isolator. |
+| Canoptek Macrocytes | 5 | From Canoptek Circle — Accelerator, Reanimator, 3 Warriors. |
+
+Using these as NPOs and as the player's Canoptek Circle in the same session means the same physical minis cannot be on both sides. Pick one role per model.
+
 ---
 
 ## 4. Joint Ops: Shadowhunt mission pack — `draft`
@@ -140,11 +153,13 @@ Three cooperative missions using the **Descent killzone** — two linked half-bo
 - [`NPO_Cheat_Sheet.md`](NPO_Cheat_Sheet.md) — mid-game behaviour and action-loop aid
 - [`Playable_Scenarios_Owned_Terrain.md`](Playable_Scenarios_Owned_Terrain.md) — every mission above matched to owned terrain
 - [`../nemesis_ops/`](../nemesis_ops/) — Custom Builder How-To, packs, WarCom catalog
+- [`raw/pointers/kill_team_necron_photos.md`](../../../raw/pointers/kill_team_necron_photos.md) — painted Warriors/Scarabs/Canoptek photos
 - [`raw/pointers/kill_team_2024_nemesis_operatives.md`](../../../raw/pointers/kill_team_2024_nemesis_operatives.md)
 - [`raw/pointers/kill_team_2024_terror_on_devlan.md`](../../../raw/pointers/kill_team_2024_terror_on_devlan.md)
 - [`raw/pointers/kill_team_2024_missions.md`](../../../raw/pointers/kill_team_2024_missions.md)
 
 ## Change Log
+- v1.2 (2026-08-17): Owned painted Tomb World NPO stand-ins (Warriors ×10 mixed flayer/reaper, Scarabs ×3, plus Canoptek Crawlers/Macrocytes).
 - v1.1 (2026-08-17): S3 — §5 slimmed to `nemesis_ops/`; Gaps updated after OCR + eng.pdf delete.
 - v1.0 (2026-08-17): Initial catalog (slice S9). Six sections, six-row gap table, full sourcing.
 

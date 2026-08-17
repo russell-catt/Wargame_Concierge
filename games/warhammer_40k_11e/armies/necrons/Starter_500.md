@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v1.3 (2026-08-17)
+VERSION: v1.4 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; Path A cheaper-first)
 
@@ -27,8 +27,7 @@ PRIMARY_AUDIENCE:
   - Anyone deciding what to buy next
 
 UPDATE_TRIGGER:
-  Update when models are assembled or acquired, when the Hierotek Circle is
-  identified, or when a Munitorum Field Manual revision changes any cost.
+  Update when models are assembled or acquired, or when a Munitorum Field Manual revision changes any cost.
 -->
 
 # Starter list - 500 points
@@ -52,7 +51,7 @@ Both lists below **start from the full, owned Kill Team: Tomb World box** - noth
 
 **Do not re-shop any line above** - all five units are already on the table. The Macrocytes and this set of Scarab Swarms in particular are Tomb World stock, not shopping targets.
 
-Plus the **Hierotek Circle** set, assembled and painted, still `TBD` pending photo identification. If it contains a Cryptek, one of the purchases below may become optional.
+Plus the **Hierotek Circle** set (photo ID 2026-08-17): **Technomancer** owned; assembled Immortals; Apprentek is **not** a legal Plasmancer. Path B still needs a purchased Plasmancer for events (or kitchen-table Apprentek proxy).
 
 ---
 
@@ -91,9 +90,11 @@ The detachment the Immortals and second Warriors squad feed once built. See [`Cr
 | Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World |
 | Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
-| Immortals | 5 | **70** | **OWNED** - sprue, build before play |
-| Plasmancer | 1 | **55** | `TBD` / **PURCHASE** - check the Hierotek Circle first |
+| Immortals | 5 | **70** | **OWNED** - sprue, build before play (Hierotek also has 3 assembled Guardians + Despotek) |
+| Plasmancer | 1 | **55** | **PURCHASE** for events. Hierotek Apprentek is a **casual proxy only** — not in the box as a Plasmancer |
 | | | **490** | |
+
+Optional extra (not in the 490): **Technomancer** (Hierotek, owned) as a second Cryptek Support on another brick, or swap vs buying Plasmancer if you attach him to Immortals/Warriors/Wraiths instead.
 
 **How it is meant to be arranged:**
 
@@ -117,11 +118,12 @@ The detachment the Immortals and second Warriors squad feed once built. See [`Cr
 | Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - sprue | - |
 | Immortals (5) | 70 | - | **OWNED** - sprue |
 | Canoptek Wraiths (3) | 95 | Optional (full 500) | - |
-| Plasmancer | 55 | - | `TBD` / buy |
+| Plasmancer | 55 | - | Buy for events (Apprentek proxy kitchen-table only) |
+| Technomancer | 80 | Optional extra Cryptek | **OWNED** (Hierotek) |
 
 Retail and second-hand price tracking for genuinely-unowned models lives in [`Necron_Lists.md`](Necron_Lists.md) - **its shopping tracker already excludes the full Tomb World box, the 2nd Warriors squad, the 2nd Scarab set, and the Immortals as owned.**
 
-**Check the Hierotek Circle before buying a Plasmancer.** A Cryptek in that box removes the one repeated purchase on Path B.
+**Hierotek does not give a legal Plasmancer.** It gives a **Technomancer**. Buy a Plasmancer for events; Apprentek may stand in with opponent agreement.
 
 ---
 
@@ -158,6 +160,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 ---
 
 ## Change Log
+- v1.4 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase / Apprentek proxy; Path B table updated.
 - v1.3 (2026-08-17): Path A active list is now the cheaper no-purchase variant (405 / 500) - foundation plus 2nd Scarab set; Wraiths demoted to an optional full-500 upgrade.
 - v1.2 (2026-08-16): Rebuilt both paths around the corrected ownership decision - the full Kill Team: Tomb World box (Geomancer, Warriors, Tomb Crawlers, Macrocytes, Scarab Swarms) is the 365-point owned foundation for both detachments. Shopping summary now explicitly excludes owned Macrocytes and Tomb World Scarab Swarms; sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not shopping targets (slice S2, `tomb_world_ownership`).
 - v1.1 (2026-08-16): Ownership tags re-verified against then-current FOUNDATION; described Tomb World as not owned. *(That claim was erroneous - superseded by v1.2.)*

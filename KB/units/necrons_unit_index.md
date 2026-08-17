@@ -4,8 +4,8 @@ type: unit
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-sources: [games/warhammer_40k_11e/armies/necrons/units/Unit_Index.md, docs/handoffs/v1_scaffold/slices/S6_necrons_implementer.md]
+updated: 2026-08-17
+sources: [games/warhammer_40k_11e/armies/necrons/units/Unit_Index.md, docs/handoffs/v1_scaffold/slices/S6_necrons_implementer.md, kill_team_necron_photos]
 confidence: draft
 tags: [unit, necrons, index, s6, research_corpus, pointer]
 ---
@@ -50,7 +50,7 @@ The rule this KB follows instead: **a unit earns a `KB/units/` page when it has 
 | `priority` | Count | Meaning |
 |------------|-------|---------|
 | `starter` | 3 | Tagged as the owned models needed for the first games |
-| `inventory_candidate` | 10 | Tagged as possible Hierotek Circle contents, pending photo ID |
+| `inventory_candidate` | 10 | Originally tagged as possible Hierotek contents; photo ID 2026-08-17 closed the guess — see [[kill_team_necron_photos]] |
 | `roster` | 52 | Catalogued for completeness |
 
 The three `starter` files are the three `full` files - **Necron Warriors**, **Immortals**, **Canoptek Scarab Swarms** - and the research effort lines up with the tagging, which was the right shape for a first pass.
@@ -70,8 +70,10 @@ Ordered by what unblocks a game, not by datasheet order.
 | Cryptek Geomancer | 1, **game ready** | `partial` | The Cryptek character [[cryptek_conclave]] is built on; leads the Warrior squad in both Phase 1 lists |
 | Canoptek Tomb Crawlers | 2, **game ready** | `stub` | Phase 1 screening in both paths |
 | Canoptek Macrocytes | 5, **game ready** | `stub` | Phase 2 in both paths. Note the owner's *Ignores Cover* claim was **disproven** in S4 - see [[glossary]] |
-| Immortals | 5, unassembled | `full` | Battleline; the Plasmancer's intended bodyguard unit. The one owned unit that must be built before it can be fielded |
-| Plasmancer, Technomancer, Chronomancer, Psychomancer, Apprentek, Deathmarks, Cryptothralls | **Unknown** | `partial` | The `inventory_candidate` set - still blocked on the **Hierotek Circle photo ID** |
+| Immortals | 5 sprue + Hierotek 3 Guardians + Despotek | `full` | Battleline; Hierotek bodies already assembled |
+| Technomancer | 1, Hierotek, **game ready** | `partial` | Second Cryptek Support |
+| Apprentek | 1, Hierotek, KT-only | `partial` | Casual Plasmancer proxy |
+| Plasmancer, Chronomancer, Psychomancer, Deathmarks, Cryptothralls | **Not in Hierotek** | `partial` | Photo ID closed 2026-08-17 |
 | Canoptek Wraiths, Canoptek Doomstalker | No | `stub` | The two units [[canoptek_court]] is built around, and neither is owned or researched |
 
 **The research corpus is now mis-aligned with the collection.** Three units are game-ready and identified but thinly researched: the Geomancer is `partial` and the Tomb Crawlers and Macrocytes are `stub`, because S6 tagged research priority against an inventory that wrongly excluded Kill Team: Tomb World. The units most likely to hit a table first are not the best-researched ones. Re-prioritising those five Tomb World datasheets to `starter` is the highest-value follow-up on this corpus, and it belongs to the corpus owner under `games/`, not to the Librarian.
@@ -98,14 +100,14 @@ Recorded here so a future session does not rediscover them.
 - **Local pack cross-check.** The three `full` files record `partial`; the other 62 record `pending`. No unit in this corpus has been fully cross-checked against the owned faction pack.
 - **Points.** Captured only in the three `full` files, spot-checked against Munitorum Field Manual v1.2. Everything else says "verify Munitorum".
 - **Statlines.** The three `full` files carry model profile and weapon profile tables. [`AGENTS.md`](../../AGENTS.md) Sec 10 and [`units/README.md`](README.md) both forbid transcribing statlines. Flagged for the Coordinator in the L2 report; `games/` is not the Librarian's surface to edit.
-- **Hierotek Circle.** The `inventory_candidate` set is placeholders for a box nobody has photographed. Still worth doing, but it no longer gates a first game.
+- **Hierotek Circle.** Photo ID **closed 2026-08-17** — Technomancer, Immortals, Despotek, Apprentek, Plasmacytes. See [[kill_team_necron_photos]].
 - **Priority drift from the Tomb World correction.** Three of those ten candidates - Geomancer, Canoptek Tomb Crawlers, Canoptek Macrocytes - are in fact **owned and game-ready** Kill Team: Tomb World models. Their research is thin (`partial`, `stub`, `stub`) precisely because the inventory they were prioritised against was wrong. This is the most consequential corpus gap today.
 
 ---
 
 ## Related pages
 
-- [[necrons]] - the faction, the ownership record, and both detachment paths
+- [[kill_team_necron_photos]] - 2026-08-17 photo ID
 - [[canoptek_court]] · [[cryptek_conclave]] - the detachments these units are chosen for
 - [[space_marines_unit_index]] - the same overview for the opposing army
 - [[wahapedia]] - the URL-path question that affects all 65 files

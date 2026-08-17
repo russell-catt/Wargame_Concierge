@@ -4,8 +4,8 @@ type: detachment
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-sources: [necron_lists_owner_notes]
+updated: 2026-08-17
+sources: [necron_lists_owner_notes, kill_team_necron_photos]
 confidence: draft
 tags: [detachment, necrons, cryptek, technosorcerous_augmentations, expansion_path]
 ---
@@ -53,14 +53,15 @@ For a beginner this is the **more forgiving** of the two Necron paths. Fewer mov
 | Necron Warriors (20, merging toward a max block) | **Yes** - 10 game ready, 10 on sprue |
 | Canoptek Scarab Swarms (6) | **Yes** - 3 game ready, 3 on sprue |
 | Immortals (5, first box) | **Yes** - purchased, unassembled |
-| Plasmancer | No |
+| Plasmancer | No (Apprentek is a casual proxy only) |
+| Technomancer | **Yes** - Hierotek Circle |
 | Illuminor Szeras | No |
 | Lychguard (10) | No |
 | Immortals (second box of 5) | No |
 
 **This is the cheaper path to a legal, playable list from what is already owned - and it is playable now.** The Geomancer is a real, owned, painted Cryptek leading a real, owned, painted squad of ten Warriors. The detachment no longer depends on an assumption about an unidentified box.
 
-That is the substantive change from the earlier version of this page, which had this whole path resting on the guess that the Hierotek Circle contained a Cryptek. The photo ID is still worth doing - it may add a second character and more bodies - but nothing here is blocked on it.
+That is the substantive change from the earlier version of this page, which had this whole path resting on the guess that the Hierotek Circle contained a Cryptek. Photo ID 2026-08-17 added a **Technomancer**; Apprentek is not a legal Plasmancer.
 
 The owner's estimate to complete the full path is roughly $310 CAD retail, or $155-220 second-hand - more than Canoptek Court, because the path adds more model count rather than fewer, more expensive kits.
 
@@ -91,7 +92,8 @@ Points come from the source and need checking against the Munitorum Field Manual
 
 - Whether Crypteks can attach to these units the way the source assumes - the faction pack v1.1 moved Crypteks from **Leader** to **Support**, which changes what stacks with what
 - Whether merged blocks of 20 Warriors and 10 Immortals are legal unit sizes in 11e
-- Whether the Hierotek Circle contains additional usable Cryptek characters - an upside now, not a dependency: the owned Geomancer already covers the role
+
+**Photo ID (closed 2026-08-17):** Hierotek contains a **Technomancer**, not a Plasmancer. Despotek may proxy a Royal Warden. See [[kill_team_necron_photos]].
 
 ---
 
@@ -102,5 +104,6 @@ Points come from the source and need checking against the Munitorum Field Manual
 - [[reanimation_protocols]] - what this detachment is said to multiply
 - [[objective_control]] - what the castle is standing on
 - [[necron_lists_owner_notes]] - the source
+- [[kill_team_necron_photos]] - Hierotek Technomancer owned; Plasmancer/Warden proxy-only
 - [[local_library_pointers]] - the faction pack that would verify this
 - [[index]] · [[glossary]]

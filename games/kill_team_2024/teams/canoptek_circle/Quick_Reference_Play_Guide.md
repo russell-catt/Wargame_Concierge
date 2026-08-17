@@ -99,10 +99,10 @@ UPDATE_TRIGGER:
 | Operative | Count | Base | Role |
 |-----------|-------|------|------|
 | Geomancer | 1 | 50mm | Leader — plants/moves nodes, strong in a fight, hands out free actions |
-| Tomb Crawler | 2 | 50mm | Heavy hitter/tank — weapon option **pending check** |
+| Tomb Crawler | 2 | 50mm | Heavy hitter/tank — 1 twin gauss reapers, 1 transdimensional isolator |
 | Macrocyte Accelerator | 1 | 28mm | Support — pushes APL up (ally) or down (enemy) |
 | Macrocyte Reanimator | 1 | 28mm | Support/medic — can save a dying Canoptek at a tempo cost |
-| Macrocyte Warrior | 3 | 28mm | Disposable screen — weapon option **pending check**, replenishable |
+| Macrocyte Warrior | 3 | 28mm | Disposable screen — 2 gauss scalpel, 1 tesla caster; replenishable |
 
 **8 operatives, full legal team, no substitutions.** Full detail: [`Starter_Roster.md`](Starter_Roster.md) and [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
@@ -133,7 +133,7 @@ UPDATE_TRIGGER:
 
 ## PRE-GAME CHECKLIST
 
-- [ ] Confirm Tomb Crawler and Macrocyte Warrior weapon options against the physical models.
+- [ ] Loadouts confirmed (photos 2026-08-17): Crawlers one of each gun; Warriors 2 gauss / 1 tesla.
 - [ ] Decide your opening node triangle before deployment, not after.
 - [ ] Have 3 Obelisk Node markers, Matrix template, and status tokens (Reanimate, Molecular Breach, Phase Shifter) at hand.
 - [ ] Note archetype: **Security/Recon** — check which Tac Op archetype pool applies this mission.

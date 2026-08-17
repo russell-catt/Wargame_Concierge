@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/Starter_Roster.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v1.1 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -17,8 +17,7 @@ PURPOSE:
   painted models. No substitutions, no shopping list.
 
 UPDATE_TRIGGER:
-  Update if weapon-option inspection (pending check in Owned_Models_Inventory)
-  changes what is written on operative cards, or if any model is re-based.
+  Update if loadouts change or if any model is re-based.
 -->
 
 # Starter Roster — Canoptek Circle
@@ -32,10 +31,12 @@ UPDATE_TRIGGER:
 | Operative | Count | Weapon option | Source |
 |-----------|-------|----------------|--------|
 | Geomancer | 1 | Fixed to the model (tremorglaive, three modes) | Tomb World — Cryptek Geomancer |
-| Tomb Crawler | 2 | **Pending check** — twin gauss reapers or transdimensional isolator, per model (max one isolator per team) | Tomb World — Canoptek Tomb Crawlers |
+| Tomb Crawler | 1 | Twin gauss reapers | Tomb World — Canoptek Tomb Crawlers |
+| Tomb Crawler | 1 | Transdimensional isolator | Tomb World — Canoptek Tomb Crawlers |
 | Macrocyte Accelerator | 1 | Fixed to the model | Tomb World — Canoptek Macrocytes |
 | Macrocyte Reanimator | 1 | Fixed to the model | Tomb World — Canoptek Macrocytes |
-| Macrocyte Warrior | 3 | **Pending check** — gauss scalpel or tesla caster, per model | Tomb World — Canoptek Macrocytes |
+| Macrocyte Warrior | 2 | Gauss scalpel | Tomb World — Canoptek Macrocytes |
+| Macrocyte Warrior | 1 | Tesla caster | Tomb World — Canoptek Macrocytes |
 
 **Team total: 8 operatives.** No unused models, no gaps.
 
@@ -43,7 +44,7 @@ UPDATE_TRIGGER:
 
 ## Before your first game
 
-1. **Confirm the two pending weapon options above** by looking at the assembled models — Kill Team weapon loadouts are fixed at assembly, so this is a five-minute check, not a purchase.
+1. **Loadouts are photo-confirmed** (2026-08-17) — one of each Tomb Crawler gun; Warriors are 2 gauss scalpel / 1 tesla caster. See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 2. **Read [`Team_Rule_Guide.md`](Team_Rule_Guide.md)** — the Obelisk Node Matrix is this team's entire game plan; know it before you deploy.
 3. **Print or open [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md)** for the table.
 
@@ -68,6 +69,7 @@ UPDATE_TRIGGER:
 
 ## Change Log
 
+- v1.1 (2026-08-17): Weapon options photo-confirmed (owner).
 - v1.0 (2026-08-17): Initial starter roster (slice S4) — full 8-operative team, entirely from owned models.
 
 ## Attribution
@@ -77,4 +79,4 @@ UPDATE_TRIGGER:
 ## Rising Tide Notes
 
 - This document follows Rising Tide documentation standards.
-- Weapon-option cells are honestly `pending check` — confirm against the physical models before writing operative cards.
+- Loadouts locked from owner photos 2026-08-17.

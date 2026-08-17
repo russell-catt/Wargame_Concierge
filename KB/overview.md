@@ -5,7 +5,7 @@ system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-17
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -47,7 +47,7 @@ The edition is **new**, which shapes how this KB is written:
 **Kill Team and Warhammer 40,000 are two separate Games Workshop products, played with separate rulebooks, and this KB treats them as such:**
 
 - **Rules stay split.** No page merges KT24 and 40K rules content. A term that exists in both games (Cover, Charge, Engagement Range / Control Range, Command Point, Engage/Injured vs Battle-shock) gets **two glossary entries, cross-linked with a collision flag** - see [[glossary]]. Neither entry is allowed to quietly describe the other system's mechanic.
-- **The miniature relationship runs the other way.** Rules do not cross over, but **models do**: several of the owner's Kill Team boxes (Canoptek Circle, Hierotek Circle, and others) are the same physical Citadel miniatures that could, once matched to a datasheet, sit in a 40K army list. `track_in.md`'s cross-game policy locks the handling - owned KT miniatures get listed in the matching 40K faction's inventory with explicit provenance ("Kill Team ownership") and a **base-size / dual-legality** note, because owning a model for one game is not the same as it being tournament-legal in the other. Canoptek Circle -> the Necron [`Owned_Models_Inventory.md`](../games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) is the template for this sync, planned for slice S3/S4 of the KT track.
+- **The miniature relationship runs the other way.** Rules do not cross over, but **models do**: Canoptek Circle and Hierotek Circle miniatures are listed in the Necron 40K inventory with provenance and **base-size / dual-legality** notes. Photo ID closed 2026-08-17 — see [[kill_team_necron_photos]] and [[necrons]].
 - **KT24 has its own subtree**, `games/kill_team_2024/`, using `teams/` (not `armies/`) as its faction-equivalent folder name, per the vocabulary mapping in [`games/kill_team_2024/README.md`](../games/kill_team_2024/README.md).
 
 **What L1 actually did.** Read Wahapedia's Kill Team 3 Core Rules page (retrieved 2026-08-17) as a living-reference cross-check; the owned Core Rules PDF pointer stays unopened - the Librarian cannot read binaries and never copies them in. Produced one source page and six concept pages covering turning points, activations/APL, orders, cover, control range, and injured operatives - the KT24 equivalent of what 40K's S3 slice did for core rules, but from a community-aggregated source rather than the owned PDF directly. See [[kill_team_2024_core_rules]] for exactly what is and is not covered.
@@ -71,17 +71,17 @@ The learning army. Ownership confirmed 2026-08-16 (see the Preflight notes in [`
 | Canoptek Macrocytes (Tomb World) | 5 | **Game ready** |
 | Necron Warriors (Tomb World squad) | 10 | **Game ready** |
 | Canoptek Scarab Swarms (Tomb World set) | 3 | **Game ready** |
-| Hierotek Circle (used set) | 1 set | Game ready; datasheet mapping pending photo ID |
+| Hierotek Circle (used set) | 1 set | **Photo ID done** — Technomancer, Immortals, Despotek, Apprentek, Plasmacytes |
 | Necron Warriors (second squad) | 10 | Purchased, unassembled |
 | Canoptek Scarab Swarms (second set) | 3 | Purchased, unassembled |
 | Immortals | 5 | Purchased, unassembled |
 
-**Totals:** 20 Warriors, 6 Scarab Swarms, plus the Geomancer, Tomb Crawlers, Macrocytes, Immortals, and the Hierotek Circle set.
+**Totals:** 20 Warriors, 6 Scarab Swarms, Geomancer, Tomb Crawlers, Macrocytes, Technomancer, Immortals (Hierotek assembled + sprue), Apprentek, Hierotek Plasmacytes.
 
-Full page: [[necrons]]. Two open threads worth carrying forward:
+Full page: [[necrons]]. Open threads:
 
-- **Hierotek Circle contents are not yet identified.** The set is painted and fieldable, but its models still need mapping to 40K datasheets from user photos before it can appear in a list. It no longer gates the first game.
-- **Three owned units still need building.** The second Warrior squad and second Scarab set are **assemble-to-expand** - they widen squads that already exist - while the Immortals are the one unit the collection cannot field at all until built.
+- **Hierotek photo ID is closed.** Legal 40K maps are Technomancer and Immortals; Apprentek/Warden are proxies; Plasmacytes likely not dual-legal (25mm vs 28mm).
+- **Sprue still needs building.** Second Warriors, second Scarabs, 5 Immortals.
 
 The collection's shape, stated plainly: **there is a complete, painted, identified army available today.** The Kill Team: Tomb World units are the owner's preferred learning baseline, and everything else in the collection expands them.
 
@@ -145,11 +145,17 @@ The L0 flag is why this cost one ingest to fix rather than surfacing halfway thr
 
 The lesson is the mirror image of the Power Matrix one. A loud flag made that error cheap to fix; a *negative* ownership claim written as settled fact propagated across the KB before anyone checked it. Inventory claims should carry the same "verify against the owner" discipline as rules claims.
 
+## Resolved 2026-08-17 — Necron painted-model photo sync
+
+- **Hierotek Circle identified.** Technomancer (cloak), Apprentek, Despotek, 3 Immortal Guardians, 2 Plasmacytes. Not Plasmancer, not Deathmarks. See [[kill_team_necron_photos]].
+- **Canoptek Circle loadouts locked.** Tomb Crawlers 1 twin gauss reapers + 1 transdimensional isolator; Macrocyte Warriors 2 gauss scalpel + 1 tesla caster.
+- **NPO Warriors counted as 10**, mixed flayer/reaper. Scarabs 3 bases.
+
 ---
 
 ## Open questions
 
-- What are the actual contents of the Hierotek Circle set, and which 40K datasheets do they map to?
+- Dual-legality of Hierotek Plasmacytes (KT 25mm vs legacy 40K Plasmacyte 28mm) vs the faction pack. **To-do: purchase 25–28mm base rings.**
 - What does Power Matrix actually *say* in 11th Edition? The name is settled; the wording is not.
 - Which Necron detachment best suits a beginner with this specific model pool? [[cryptek_conclave]] is the current hypothesis - now resting on owned, game-ready models rather than on an unopened box, so what remains unknown is the detachment rules, not the inventory.
 - What Space Marine ownership exists? The worksheet is empty and this gates all S5 content.
@@ -169,7 +175,7 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - Necron army rule detail - [[reanimation_protocols]] is `unverified`
 - Space Marine army rule and detachment - [[oath_of_moment]] and [[gladius_task_force]] are `unverified` and `stub`
 - Unit pages - none, deliberately: [[ingest_procedure]] puts core rules and setup first so unit pages have something to link to
-- List-building from the owned pool - **unblocked** for the Tomb World units, which have known datasheets; only the Hierotek Circle half still waits on a photo ID, which no amount of reading fixes
+- List-building from the owned pool - **unblocked** for Tomb World and for Hierotek's Technomancer/Immortals; Apprentek and Warden remain proxy-only
 - **Kill Team 2024, entirely** - only the core rules have been cross-checked (and only against Wahapedia, not the owned PDF); all ten owned team-rule PDFs, killzones, Critical Ops, and Nemesis Operatives are unread pointers
 
 ---
@@ -181,6 +187,7 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] - the KT24 concept pages
 - [[inherited_docs_for_S3]] - what is stable enough to teach from
+- [[kill_team_necron_photos]] - painted Necron photo ID (2026-08-17)
 - [[necrons]] · [[space_marines]] - the two factions
 - [[ingest_procedure]] - how sources become KB pages
 - [[log]] - what has happened and when

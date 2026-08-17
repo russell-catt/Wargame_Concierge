@@ -73,4 +73,4 @@ Research date: 2026-08-16. Points age — verify Munitorum before play.
 **Index rows:** 65  
 **Research files:** 65 (must match)
 
-Open follow-up: Hierotek Circle photo ID → map physical models to datasheets.
+Open follow-up: none for Hierotek photo ID (closed 2026-08-17). Dual-legality vs faction-pack bases still pending.

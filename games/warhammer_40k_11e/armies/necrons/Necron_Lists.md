@@ -13,21 +13,25 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 | Unit | Qty | 40K Datasheet | Pts | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | Cryptek Geomancer | 1 | Cryptek Geomancer | 75 | Game ready |
-| Canoptek Tomb Crawlers | 2 | Canoptek Tomb Crawlers | 85 | Game ready |
-| Canoptek Macrocytes | 5 | Canoptek Macrocytes | 85 | Game ready |
-| Necron Warriors | 10 | Necron Warriors | 100 | Game ready (Tomb World) |
+| Canoptek Tomb Crawlers | 2 | Canoptek Tomb Crawlers | 85 | Game ready — 1 twin gauss reapers + 1 transdimensional isolator |
+| Canoptek Macrocytes | 5 | Canoptek Macrocytes | 85 | Game ready — 1 Accelerator, 1 Reanimator, 3 Warriors (2 gauss scalpel, 1 tesla caster) |
+| Necron Warriors | 10 | Necron Warriors | 100 | Game ready — mixed gauss flayer / gauss reaper (photo shows 10) |
 | Canoptek Scarab Swarms | 3 | Canoptek Scarab Swarms | 40 | Game ready (Tomb World) |
 | **Tomb World subtotal** | | | **385** | |
 
-**Hierotek Circle Kill Team (used)** — assembled + painted; exact 40K datasheets **TBD pending photos**:
+**Hierotek Circle Kill Team (used)** — assembled + painted; **photo ID 2026-08-17**:
 
-| Unit (physical — TBD) | Qty | 40K Datasheet | Pts | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| *TBD after photos* | 1 set | — | — | Game ready; ID pending |
+| Unit | Qty | 40K Datasheet | Notes |
+| :--- | :--- | :--- | :--- |
+| Technomancer (Canoptek Cloak) | 1 | Technomancer | Legal count-as when loadout matches |
+| Immortal Guardians | 3 | Immortals | Add to 5 sprue Immortals; do not overwrite sprue |
+| Despotek | 1 | Immortal (default) / Royal Warden (casual proxy) | Not a purchased Warden |
+| Apprentek | 1 | KT-only / Plasmancer casual proxy | Not a purchased Plasmancer |
+| Plasmacyte Accelerator + Reanimator | 2 | KT-only unless 11e Plasmacyte; 25mm vs 28mm | Likely not dual-legal until **25–28mm base rings** |
 
-> **TODO:** Hierotek Circle photo ID → map to 40K datasheets
+Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](../../../../raw/pointers/kill_team_necron_photos.md).
 
-**Preferred learning baseline:** Tomb World units above (full datasheet list, 385 pts base). Hierotek supplements once photo ID complete.
+**Preferred learning baseline:** Tomb World units above. Hierotek adds a Technomancer and extra Immortal bodies; Plasmancer/Warden remain **proxy-only**.
 
 ### 🔧 Build-before-play (owned, not yet on table)
 
@@ -37,7 +41,7 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 | **Canoptek Scarab Swarms** | 3 (2nd set) | Purchased, unassembled | Assemble-to-expand beyond Tomb World swarms |
 | **Immortals** | 5 (1 squad) | Purchased, unassembled | Build before play — do **not** list as future "Need 1 box" without adjusting shopping |
 
-**Ownership totals:** 20 Warriors (10 game-ready + 10 sprue), 6 Scarab Swarms (3 game-ready + 3 sprue), plus Geomancer, Tomb Crawlers, Macrocytes, Immortals, and Hierotek Circle (TBD).
+**Ownership totals:** 20 Warriors (10 game-ready + 10 sprue), 6 Scarab Swarms (3 game-ready + 3 sprue), Geomancer, Tomb Crawlers, Macrocytes, Technomancer (Hierotek), Immortals (Hierotek assembled + 5 sprue), Apprentek (proxy-only), Hierotek Plasmacytes (KT-legal, 40K likely not).
 
 ---
 
@@ -47,7 +51,7 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 | :--- | :--- | :--- |
 | **Primary Focus** | Canoptek Constructs (Wraiths, Doomstalkers) | Cryptek Leaders & Battleline Infantry |
 | **Main Detachment Rule** | **The Power Matrix**: Full accuracy hit re-rolls within controlled territory. | **Scientific Schemes**: Stacking ranged profile buffs and reanimation multipliers. |
-| **Owned Synergy** | Tomb World Macrocytes + Crawlers + Geomancer for Matrix; extra Scarabs/Warriors once built. | Tomb World Crypteks + owned Immortals/Warriors (once built); Hierotek Circle TBD after photo ID. |
+| **Owned Synergy** | Tomb World Macrocytes + Crawlers + Geomancer for Matrix; extra Scarabs/Warriors once built. | Tomb World Geomancer + Hierotek **Technomancer**; Immortals (Hierotek assembled + sprue); Apprentek/Despotek proxies only. |
 | **Playstyle** | Aggressive midfield bullying and heavy backline artillery. | Slow, defensive "castle" that out-attritions the enemy with constant revives. |
 | **Tier Status** | Highly competitive (3 Data Package Detachment). | Flavorful, casual-to-mid tier (2 Data Package Detachment). |
 
@@ -61,7 +65,7 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 * **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (100 pts) + **2x Canoptek Tomb Crawlers** (85 pts) = **260 pts**
 * *Strategy:* Attach Geomancer and Tomb Crawlers to Warriors for Power Matrix re-roll practice.
 
-**Alternate once IDed:** Hierotek Circle units *(datasheets TBD — see Foundation)*.
+**Alternate:** Hierotek Technomancer + assembled Immortals (see Foundation). Plasmancer remains a purchase or Apprentek proxy.
 
 **Build before play (not yet on table):** Extra Warriors (10), Scarab Swarms (3), Immortals (5) — all on sprue. Assemble-to-expand; do not count toward learning games until built.
 
@@ -112,7 +116,7 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 * **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (100 pts) + **2x Canoptek Tomb Crawlers** (85 pts) = **260 pts**
 * *Strategy:* Geomancer leads Warriors; Tomb Crawlers screen for Conclave practice.
 
-**Alternate once IDed:** Hierotek Circle units *(datasheets TBD — likely includes Cryptek characters usable in Conclave)*.
+**Hierotek:** Technomancer owned. Plasmancer is **not** in the box (Apprentek is a casual proxy only).
 
 **Build before play (not yet on table):** Extra Warriors (10), Scarab Swarms (3), Immortals (5) — all on sprue.
 
@@ -172,8 +176,8 @@ Instead of just searching "Necrons," loop through these ultra-specific query ter
 
 ### 📦 Key Legacy Box Sets & Bundles to Target
 If a seller lists a sealed or partially built bundle box, it is almost always significantly cheaper than buying individual kits. Keep an eye out for these specific names:
-1. **"Worldscour Legion" (Past Christmas Battleforce):** The absolute holy grail for a **Canoptek Court** player. It contains 1x Psychomancer, 1x Doomstalker, 3x Ophydian Destroyers, 3x Canoptek Wraiths, 5x Immortals, and 10x Warriors. *(Note: you already own 5 Immortals and 20 Warriors total — value the rest of the bundle accordingly.)*
-2. **"Ergadic Extermination" (Past Christmas Battleforce):** Incredible if you are expanding into a **Cryptek Conclave**. It includes a Technomancer, 10x Lychguard, 10x Immortals, and various heavy constructs. *(Note: you already own 5 Immortals and 20 Warriors — adjust bundle math.)*
+1. **"Worldscour Legion" (Past Christmas Battleforce):** The absolute holy grail for a **Canoptek Court** player. It contains 1x Psychomancer, 1x Doomstalker, 3x Ophydian Destroyers, 3x Canoptek Wraiths, 5x Immortals, and 10x Warriors. *(Note: you already own 20 Warriors, 5 sprue Immortals, plus Hierotek assembled Immortals — value the rest of the bundle accordingly.)*
+2. **"Ergadic Extermination" (Past Christmas Battleforce):** Incredible if you are expanding into a **Cryptek Conclave**. It includes a Technomancer, 10x Lychguard, 10x Immortals, and various heavy constructs. *(Note: you already own a Hierotek Technomancer, 20 Warriors, and Immortals from Hierotek + sprue — adjust bundle math.)*
 3. **"Indomitus - Necron Half":** If you see anyone selling the Necron side of the 9th edition launch box, buy it instantly. It provides a massive stack of Warriors, Scarabs, Plasmancers, and Cryptothralls for a fraction of retail price.
 4. **"Combat Patrol: Necrons" (9th Edition/Older Version):** Contains a Night Scythe, Tomb Blades, Immortals, and an Overlord.
 5. **"Combat Patrol: Necrons" (10th/11th Edition Version):** An excellent pickup. It contains 1x Overlord, 10x Necron Warriors, 3x Canoptek Scarab Swarms, 3x Skorpekh Destroyers, and **1x Canoptek Doomstalker**. *(You already own 20 Warriors and 6 Scarabs — weigh duplicate battleline vs. Doomstalker/Destroyers value.)*

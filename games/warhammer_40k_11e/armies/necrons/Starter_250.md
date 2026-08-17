@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_250.md
-VERSION: v1.2 (2026-08-16)
+VERSION: v1.3 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -8,7 +8,7 @@ DOCUMENT_TYPE: Learning List / Starter Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Active - Tomb World force is game-ready today; Hierotek Circle photo ID remains open; Warriors points verified against MFM v1.2 on 2026-08-16, Geomancer/Tomb Crawler points sourced from Necron_Lists.md pending independent MFM re-verification
+REFERENCE_STATUS: Active - Tomb World force is game-ready today; Hierotek Circle photo ID closed 2026-08-17; Warriors points verified against MFM v1.2 on 2026-08-16, Geomancer/Tomb Crawler points sourced from Necron_Lists.md pending independent MFM re-verification
 
 SOURCES:
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - Necron Warriors points value on this page
@@ -25,8 +25,8 @@ PRIMARY_AUDIENCE:
   - The Necron player setting up a first learning game against Space Marines
 
 UPDATE_TRIGGER:
-  Update the moment the Hierotek Circle set is photographed and mapped to
-  datasheets, or when a Munitorum Field Manual revision changes any cost.
+  Update when a Munitorum Field Manual revision changes any cost, or when
+  Hierotek proxies are used in a written list.
 -->
 
 # Starter list - 250 points
@@ -62,32 +62,22 @@ These are **assemble-to-expand** kits - they grow the Tomb World force at 500 po
 | Necron Warriors (10, 2nd squad) | Purchased, **unassembled** | Build before play - merges into a 20-model block later |
 | Canoptek Scarab Swarms (3, 2nd set) | Purchased, **unassembled** | Build before play - merges into a 6-model block later |
 | Immortals (5) | Purchased, **unassembled** | Build before play |
-| Hierotek Circle Kill Team set | Assembled and painted - **game-ready** | Datasheets not yet identified - see checklist below |
+| Hierotek Circle Kill Team set | Assembled and painted - **game-ready** | Photo ID done — Technomancer, Immortals, Despotek, Apprentek, Plasmacytes. See inventory. |
 
 ---
 
-## Hierotek Circle - the photo-ID checklist (`TBD`, optional alternate)
+## Hierotek Circle - identified (optional extra, not required tonight)
 
-The Tomb World list above is enough for tonight. Once you have an evening free, photo-ID the Hierotek Circle set to unlock it as an **additional** game-ready option alongside Tomb World - not a replacement for it.
+Photo ID **done 2026-08-17**. Details in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
-Kill Team sets do not always map cleanly onto 40K datasheets: some operatives have a direct 40K equivalent, and some have none at all. Work through this rather than guessing.
+| Physical | 40K use |
+|----------|---------|
+| Technomancer (cloak) | **Technomancer** — second Cryptek |
+| Immortal Guardians ×3 + Despotek | **Immortals** (Despotek can instead proxy **Royal Warden**, opponent OK) |
+| Apprentek | KT-only; casual **Plasmancer** proxy only |
+| Plasmacytes ×2 | Likely KT-only on 25mm bases until **25–28mm base rings** |
 
-1. Photograph each model individually, front and back.
-2. Match each one against the datasheet artwork in your own Necrons faction pack or the Warhammer 40,000 app.
-3. Write the confirmed datasheet name into [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
-4. Cost it from the table below and drop it into a list alongside or instead of Tomb World units.
-
-**Candidate datasheets to check against** - these are *lookup targets, not a claim about what is in the box*. Points are MFM v1.2, 2026-08-16.
-
-| Candidate datasheet | MFM v1.2 | Notes |
-|---------------------|----------|-------|
-| Plasmancer | **55** | Cryptek, **Support**; attaches to Immortals or Necron Warriors |
-| Psychomancer | **55** | Cryptek, Support; same attachment options |
-| Chronomancer | **70** first / **80** second | Cryptek, Support |
-| Technomancer | **80** first / **90** second | Cryptek, Support; also attaches to Canoptek Wraiths |
-| Cryptothralls (2) | **60** | The construct escort that accompanies Crypteks |
-| Immortals (5) | **70** | If the set includes Immortals-pattern warriors |
-| Deathmarks (5) | **60** / 120 for 10 | If the set includes long-rifle snipers |
+The Tomb World list above is still the first-game pick. Hierotek does **not** replace buying a Plasmancer for events.
 
 **If a model has no 40K datasheet:** leave it out of matched-play lists. Use it in friendly games as an agreed proxy, and write down what it is standing in for.
 
@@ -109,10 +99,11 @@ Three units is enough to practise everything that matters and few enough to fini
 
 ## Before the first game
 
-- [ ] Nothing to build - the Tomb World list above is ready tonight.
+- [x] Nothing to build - the Tomb World list above is ready tonight.
 - [ ] (Optional) Build the three sprue boxes (Warriors, Scarabs, Immortals) when you have bench time, to unlock Starter_500.
-- [ ] (Optional) Photograph the Hierotek Circle and complete the checklist above.
-- [ ] Update [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) with any results.
+- [ ] **Purchase 25–28mm base rings** for Hierotek Plasmacytes (two) — 40K footprint without rebasing.
+- [x] Hierotek Circle photo ID is done — see inventory for proxies vs legal datasheets.
+- [x] Update [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) with any results.
 - [ ] Re-check every points value against the current Munitorum Field Manual - patches happen.
 - [ ] Print the two-page [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 - [ ] Read [`../../setup/Board_Setup.md`](../../setup/Board_Setup.md) and set out terrain before anybody deploys.
@@ -133,6 +124,7 @@ Three units is enough to practise everything that matters and few enough to fini
 ---
 
 ## Change Log
+- v1.3 (2026-08-17): Hierotek photo ID closed; checklist replaced with named 40K map and proxy notes. Plasmacyte to-do added: 25–28mm base rings.
 - v1.2 (2026-08-16): Rebuilt around the corrected ownership decision - Kill Team: Tomb World (Geomancer + Warriors + Tomb Crawlers) is the game-ready Phase 1 list, playable tonight with zero purchases. Hierotek Circle demoted to an optional alternate/expansion, no longer described as the only table-ready option. Extra Warriors/Scarabs/Immortals clearly flagged sprue / build-before-play (slice S2, `tomb_world_ownership`).
 - v1.1 (2026-08-16): Ownership re-verified against then-current FOUNDATION (Hierotek preferred once IDed; Warriors/Scarabs/Immortals build-before-play; Tomb World described as not owned). *(That "not owned" claim was erroneous - superseded by v1.2.)*
 - v1.0 (2026-08-16): Initial 250-point learning list (slice S4). Costed from Munitorum Field Manual v1.2; Hierotek Circle left explicitly `TBD` with a photo-ID checklist.

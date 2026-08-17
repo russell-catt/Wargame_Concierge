@@ -3,7 +3,7 @@ title: Source Library (catalog)
 type: source
 system: warhammer_40k_11e
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-17
 sources: [reference/Source_Library.md, raw/pointers/]
 confidence: verified
 tags: [source, catalog, provenance, copyright, pointers]
@@ -80,7 +80,7 @@ The catalog registers the one source that was actually copied into the repo - `N
 
 It also carries an ownership snapshot duplicating the FOUNDATION table from those notes. Filed on [[necrons]]; if the copies ever disagree, prefer `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` unless the external Personal\40K source is clearly newer, then re-sync `raw/` from the winner.
 
-**Ownership snapshot corrected 2026-08-16.** The FOUNDATION table now records **Kill Team: Tomb World as owned and game-ready** - Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms - alongside a second Warrior squad and second Scarab set on sprue, 5 unassembled Immortals, and the Hierotek Circle set with datasheets still TBD. Any snapshot that still says Tomb World is *not owned* is stale and should be re-synced from the project armies copy, not trusted. Totals: 20 Warriors, 6 Scarab Swarms.
+**Ownership snapshot corrected 2026-08-16; Hierotek photo ID 2026-08-17.** Kill Team: Tomb World is owned and game-ready. Hierotek is identified (Technomancer, Immortals, Despotek, Apprentek, Plasmacytes) — see [[kill_team_necron_photos]]. Any snapshot that still says Tomb World is *not owned* or Hierotek is unidentified is stale. Totals: 20 Warriors, 6 Scarab Swarms.
 
 ---
 

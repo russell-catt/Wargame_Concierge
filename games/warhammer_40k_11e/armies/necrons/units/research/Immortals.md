@@ -40,7 +40,7 @@ INFANTRY, BATTLELINE, IMMORTALS / FACTION: NECRONS
 Verify MFM for 5/10 costs — research 2026-08-16
 
 ## List-building notes
-Owned x5 unassembled — build before play.
+Owned: 5 unassembled (sprue) plus Hierotek 3 Guardians + Despotek (counts as Immortal by default).
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Immortals

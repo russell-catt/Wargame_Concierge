@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Canoptek_Court.md
-VERSION: v1.1 (2026-08-16)
+VERSION: v1.2 (2026-08-17)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -114,6 +114,15 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | **Yes** - Canoptek. Your cheapest Matrix-flipper |
 | Necron Warriors (10) | **80** | **Yes - game ready** | No - screen and objective body only |
 
+**Game-ready today - Hierotek Circle (photo ID 2026-08-17).** KT-legal as based. See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
+
+| Unit | MFM v1.2 | Owned? | Matrix benefit? |
+|------|----------|--------|-----------------|
+| Technomancer | **80** first / **90** second | **Yes - game ready** | **Yes** - Cryptek |
+| Immortal Guardians (3) + Despotek | *see Immortals 70 for 5* | Assembled Immortals; Despotek defaults to Immortal (Warden is proxy-only) | No |
+| Apprentek | — | KT-only; casual Plasmancer proxy | If proxied as Plasmancer: Cryptek |
+| Hierotek Plasmacytes (2) | — | KT-legal; 40K likely not until **25–28mm base rings** | Do not count |
+
 **Owned but on sprue - build before play.**
 
 | Unit | MFM v1.2 | Owned? | Matrix benefit? |
@@ -128,8 +137,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 |------|----------|------|
 | Canoptek Wraiths (3) | **95** first unit / **115** second | Melee construct that takes midfield |
 | Canoptek Doomstalker | **140** | The backline gun this detachment is named for |
-| Plasmancer | **55** | Cryptek. **May be in the Hierotek Circle set** - pending photo ID |
-| Technomancer | **80** first / **90** second | Cryptek; can support Wraiths, Immortals or Warriors. Same photo-ID question |
+| Plasmancer | **55** | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
 
 > **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list. Everything else on this page was read from MFM v1.2 on 2026-08-16.
 
@@ -163,6 +171,7 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 ---
 
 ## Change Log
+- v1.2 (2026-08-17): Hierotek photo ID — Technomancer moved to game-ready; Plasmancer remains unowned / Apprentek proxy; Plasmacytes likely not dual-legal.
 - v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table and the beginner verdict were both built on the erroneous claim that Kill Team: Tomb World was not owned. Fit table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units - Geomancer, 2x Tomb Crawlers, 5x Macrocytes, 10x Warriors, 3x Scarab Swarms. Warriors and Scarabs re-tagged from "unassembled" to game-ready, with their owned duplicates flagged as build-before-play. The verdict "not first, on this collection" reversed: four of five game-ready units benefit from Power Matrix and Phase 1 is playable with zero purchases. Three units flagged as not yet costed from MFM v1.2. No rules content changed.
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S4). Power Matrix wording verified against Wahapedia and the owned faction pack FAQ; all points re-costed from Munitorum Field Manual v1.2.
 

@@ -5,7 +5,7 @@ system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-17
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
 ---
@@ -16,7 +16,7 @@ Master catalog of every page in this knowledge base. Read this first when answer
 
 **Schema source of truth:** [`AGENTS.md`](../AGENTS.md) at the repo root. Entity types, YAML frontmatter, naming, and the ingest / query / lint workflows are defined there, not here. This file is the catalog only.
 
-**Status:** lint complete for Warhammer 40,000 through slice **L2** of `tomb_world_ownership` (2026-08-16); first Kill Team 2024 ingest, slice **L1** of `kill_team_2024_scaffold` (2026-08-17), added below and **not yet lint-passed**; slice **S9** (Join Ops) added one further KT24 source page (`nemesis_operatives`, gapped - see the page) the same day. 7 sources, 25 entity pages across two systems.
+**Status:** lint complete for Warhammer 40,000 through slice **L2** of `tomb_world_ownership` (2026-08-16); first Kill Team 2024 ingest, slice **L1** of `kill_team_2024_scaffold` (2026-08-17), added below and **not yet lint-passed**; slice **S9** (Join Ops) added one further KT24 source page (`nemesis_operatives`, gapped - see the page) the same day. Necron painted-model photo ingest the same day added [[kill_team_necron_photos]].
 
 **Two systems now.** Everything in the typed sections below (Sources through Analyses) is `system: warhammer_40k_11e` unless it appears in the dedicated **Kill Team 2024 (KT24)** section, which carries its own Sources and Concepts tables and is kept visually separate rather than interleaved - Kill Team and 40K stay split at every layer, including the index. Check a page's own `system:` frontmatter if in doubt.
 
@@ -43,10 +43,10 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-16 |
-| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-16 |
-| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-16 |
-| [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-16 |
+| [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-17 |
+| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-17 |
+| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-17 |
+| [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-17 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 
 ---
@@ -57,8 +57,8 @@ One page per ingested source. Location: `KB/sources/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-16 |
-| [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-16 |
+| [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-17 |
+| [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-17 |
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
 | [[wahapedia]] | The community rules aggregator used to cross-check datasheets - registered as a source, not yet read | stub | 2026-08-16 |
 | [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-16 |
@@ -84,7 +84,7 @@ One page per army. Location: `KB/factions/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necrons]] | The owner's primary army: an attrition faction that recovers models as fast as most opponents remove them | draft | 2026-08-16 |
+| [[necrons]] | The owner's primary army: an attrition faction that recovers models as fast as most opponents remove them | draft | 2026-08-17 |
 | [[space_marines]] | The opposing army, played by the son: straightforward and forgiving, built from existing older kits, used to teach contrast | stub | 2026-08-16 |
 
 ---
@@ -95,8 +95,8 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[canoptek_court]] | The Necron detachment built around robotic constructs, whose rule is the Power Matrix - hit re-rolls in controlled territory | draft | 2026-08-16 |
-| [[cryptek_conclave]] | The Necron detachment built around Cryptek characters leading massed infantry, stacking buffs and reanimation | draft | 2026-08-16 |
+| [[canoptek_court]] | The Necron detachment built around robotic constructs, whose rule is the Power Matrix - hit re-rolls in controlled territory | draft | 2026-08-17 |
+| [[cryptek_conclave]] | The Necron detachment built around Cryptek characters leading massed infantry, stacking buffs and reanimation | draft | 2026-08-17 |
 | [[gladius_task_force]] | The generalist Space Marine detachment named as the son's learning target. **Stub - no source read** | stub | 2026-08-16 |
 
 ---
@@ -123,7 +123,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-16 |
+| [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
 
@@ -137,10 +137,11 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[kill_team_2024_core_rules]] | The KT24 core rulebook: turning points, activations, orders, actions, the Shoot/Fight sequences, and the Key Principles glossary - cross-checked against Wahapedia (retrieved 2026-08-17), owned PDF still unopened | draft | 2026-08-17 |
+| [[kill_team_2024_core_rules]] | Owned KT24 PDF pointers + quote policy; shipping: Target_Eligibility.md, cheat sheet HTML, Canoptek/Plague datacards (`kt24_rules_quotes` 2026-08-17) | draft | 2026-08-17 |
 | [[nemesis_operatives]] | Nemesis Operatives dossier — OCR + vision spot-check 2026-08-17; process/titles verified in shipping; tables stay book-only | draft | 2026-08-17 |
 | [[warcom_nemesis_operatives_free]] | WarCom preview articles surveyed for free Nemesis numeric profiles — none found (2026-08-17) | draft | 2026-08-17 |
 | [[community_kt24_npo_aids]] | Community NPO/KT24 cheat sheets — draft secondary, stale-risk | unverified | 2026-08-17 |
+| [[kill_team_necron_photos]] | Path pointer to owner photos of painted Necron models under `C:\Personal\Kill Team\Teams\` used to identify Canoptek Circle, Hierotek Circle, and Tomb World Warrior/Scarab NPOs. Binaries stay outside git. | draft | 2026-08-17 |
 
 ### Concepts (KT24)
 

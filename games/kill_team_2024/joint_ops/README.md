@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/joint_ops/README.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v1.1 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer + Librarian-assist, slice S9)
 
@@ -64,6 +64,8 @@ NPOs are not built like normal kill teams — they use pre-made **datacards** de
 
 Full catalog of what each tier contains: [`NPO_Catalog.md`](NPO_Catalog.md). Mid-game table aid for running any of it: [`NPO_Cheat_Sheet.md`](NPO_Cheat_Sheet.md).
 
+**Owned painted NPO stand-ins (2026-08-17):** Tomb World **Warriors ×10** (mixed gauss flayer / gauss reaper) and **Scarabs ×3**, plus Canoptek **Tomb Crawlers** and **Macrocytes**, can stand in as Tomb World NPOs once Killzone: Tomb World terrain is built. Photos: [`raw/pointers/kill_team_necron_photos.md`](../../../raw/pointers/kill_team_necron_photos.md). These are **not** a kill team — do not create `teams/necron_npos/`. Detail: [`NPO_Catalog.md`](NPO_Catalog.md).
+
 ---
 
 ## Who to play
@@ -113,6 +115,7 @@ Killzone pages this README links to directly (S2, now live): [`../setup/killzone
 ---
 
 ## Change Log
+- v1.1 (2026-08-17): Owned painted Tomb World NPO stand-ins (Warriors, Scarabs, Canoptek Crawlers/Macrocytes) — pointer to photos and `NPO_Catalog.md`.
 - v1.0 (2026-08-17): Full Join Ops pack (slice S9). Replaces the S0 stub.
 
 ## Attribution

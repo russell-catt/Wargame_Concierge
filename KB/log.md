@@ -279,3 +279,29 @@ Key additions: OCR available outside git; eng.pdf deleted; `join_ops` renamed to
 Pages consulted: nemesis_operatives.md, games/kill_team_2024/nemesis_ops/*, OCR_Spotcheck_Matrix.md
 Output filed: yes — confidence bumps on How-To / Custom_Builder / Mission_Packs (process+titles verified); tables remain out of git
 Key additions: OCR page-order vs printed-footer offset noted; Ambull/Archivist titles vision-confirmed
+
+## [2026-08-17] ingest | Necron painted-model photo sync
+
+Pages created: `kill_team_necron_photos` (KB source); `raw/pointers/kill_team_necron_photos.md` (Implementer); `games/kill_team_2024/teams/hierotek_circle/Owned_Models_Inventory.md`
+
+Pages updated: `necrons`, `glossary`, `overview`, `index`, `log`, `changelog`, `necron_lists_owner_notes`, `source_library`, `cryptek_conclave`, `canoptek_court`, `necrons_unit_index`, `inherited_docs_for_S3`; shipping KT Canoptek/Hierotek inventories, `_Owned_Teams_Inventory`, Joint Ops `NPO_Catalog`; 40K `Owned_Models_Inventory`, `Necron_Lists` (games + raw FOUNDATION), `Starter_250`, `Starter_500`, `Cryptek_Conclave`, `Canoptek_Court`
+
+Key additions:
+- Canoptek Circle loadouts locked: Tomb Crawlers 1 twin gauss reapers + 1 transdimensional isolator; Macrocyte Warriors 2 gauss scalpel + 1 tesla caster
+- Hierotek roster: Technomancer (cloak), Apprentek, Despotek, 3 Immortal Guardians, 2 Plasmacytes — not Plasmancer, not Deathmarks
+- Proxies: Apprentek → casual Plasmancer; Despotek → Immortal default / casual Royal Warden
+- Base-size gap: Hierotek Plasmacytes KT ⌀25mm vs legacy 40K Plasmacyte ⌀28mm — likely not dual-legal
+- Warrior mix: 10 models, mixed gauss flayer / gauss reaper; Scarabs 3 bases
+- Hierotek `WIN_*.jpg` renamed on disk; photos remain outside git
+
+## [2026-08-17] query | Plasmacyte 25–28mm base rings
+
+Pages consulted: hierotek_circle/Owned_Models_Inventory, necrons Owned_Models_Inventory, Starter_250, Necron_Lists, necrons faction page
+Output filed: no new analysis page — shopping to-do filed on inventories
+Key additions: **To-do: purchase 25–28mm base rings** (two) for Hierotek Plasmacytes; do not rebase; KT stays legal on 25mm
+
+## [2026-08-17] ingest | kt24_rules_quotes (L1 + L2)
+
+Pages created: (none — shipping-only corpus)
+Pages updated: [[glossary]] (KT24 quote exception row), [[kill_team_2024_core_rules]], [[index]], [[changelog]], [[log]]
+Key additions: Target eligibility quote appendix (35 blocks); one-page HTML cheat sheet; Canoptek 5 + Plague 7 HTML datacards; AGENTS Sec 10 KT24 exception; community thanks on KT README; pointers updated; Full-Scan OCR-via-transcription note; owner lock 2026-08-17; no WarCom fetch; no git commit

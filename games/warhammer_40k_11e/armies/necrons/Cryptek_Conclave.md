@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
-VERSION: v1.1 (2026-08-16)
+VERSION: v1.2 (2026-08-17)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -121,6 +121,15 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Canoptek Macrocytes (5) | *not yet costed from MFM v1.2* | **Yes - game ready** | Phase 2 bodies. See the Macrocytes correction below |
 | Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | Objective-grabbers; no Cryptek synergy |
 
+**Game-ready today - Hierotek Circle (photo ID 2026-08-17).**
+
+| Unit | MFM v1.2 | Owned? | Note |
+|------|----------|--------|------|
+| Technomancer | **80** first / **90** second | **Yes - game ready** | Second Cryptek (Canoptek Cloak). Attaches to Wraiths, Immortals or Warriors |
+| Immortal Guardians (3) + Despotek | *see Immortals 70 for 5* | Assembled; add to sprue Immortals. Despotek defaults to Immortal; Warden is proxy-only | |
+| Apprentek | — | KT-only; casual Plasmancer proxy. Not a purchased Plasmancer | |
+| Hierotek Plasmacytes (2) | — | KT-legal; 40K likely not until **25–28mm base rings** | |
+
 **Owned but on sprue - build before play.**
 
 | Unit | MFM v1.2 | Owned? | Note |
@@ -134,9 +143,8 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Unit | MFM v1.2 | Note |
 |------|----------|------|
 | Immortals (second box, merging to 10) | **140** for 10 | Merging to 10 is legal |
-| Plasmancer | **55** | Cheapest Cryptek; attaches to Immortals or Warriors. **May be in the Hierotek Circle set** - pending photo ID |
-| Technomancer | **80** first / **90** second | Attaches to Wraiths, Immortals or Warriors. Same photo-ID question |
-| Royal Warden | **50** | Cheap **Leader**, so it stacks with a Cryptek Support |
+| Plasmancer | **55** | Cheapest Cryptek; attaches to Immortals or Warriors. **Not in Hierotek** — Apprentek is a kitchen-table proxy only. Buy for events. |
+| Royal Warden | **50** | Cheap **Leader**, so it stacks with a Cryptek Support. **Not owned** — Despotek is a casual proxy (32mm). |
 | Lychguard (5) | **80** | Bodyguard wall. The old note's 170 for five was badly wrong |
 | Illuminor Szeras | **175** | Expensive; leave until well past 500 points |
 
@@ -154,7 +162,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 **And the character question is already answered.** The Tomb World **Cryptek Geomancer** is owned, painted, and identified - a real Cryptek to attach to a real squad of ten painted Warriors. Nothing here waits on anything.
 
-> **This section used to end differently.** v1.0 said "the whole path hinges on one unanswered question: is there a Cryptek in the Hierotek Circle set?" That was a consequence of the erroneous "Tomb World not owned" claim. The Hierotek photo ID is now an **upside** - it may add a second Cryptek and more bodies - not a dependency. See [`Starter_250.md`](Starter_250.md).
+> **This section used to end differently.** v1.0 said "the whole path hinges on one unanswered question: is there a Cryptek in the Hierotek Circle set?" That was a consequence of the erroneous "Tomb World not owned" claim. Photo ID 2026-08-17 added a second Cryptek — **Technomancer** — plus Immortal bodies. Apprentek is not a legal Plasmancer. See [`Starter_250.md`](Starter_250.md) and [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
 ---
 
@@ -170,6 +178,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 ---
 
 ## Change Log
+- v1.2 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase or Apprentek proxy.
 - v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table was built on the erroneous claim that Kill Team: Tomb World was not owned: it tagged the Warriors and Scarabs "unassembled", and it omitted the owned **Cryptek Geomancer** altogether. Table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units, with Tomb Crawlers and Macrocytes added. Three units flagged as not yet costed from MFM v1.2. The beginner verdict no longer "hinges on" whether the Hierotek Circle contains a Cryptek - the owned Geomancer fills that role, and the photo ID is an upside rather than a dependency. The KB-drift note updated: `KB/` was renamed to Technosorcerous Augmentations in the same slice. No rules content changed.
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S4). Detachment rule name corrected to Technosorcerous Augmentations from the owned faction pack v1.1; all points re-costed from Munitorum Field Manual v1.2; the Macrocytes `[IGNORES COVER]` claim disproved from the datasheet.
 

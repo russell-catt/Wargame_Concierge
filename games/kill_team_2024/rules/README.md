@@ -38,6 +38,8 @@ Everything here is **teaching paraphrase** - our own explanation of how the rule
 | 2 | [`Turn_Structure.md`](Turn_Structure.md) | A checklist for one turning point - Strategy phase (Initiative, Ready, Gambit) then Firefight phase (the activation loop and Counteract) |
 | 3 | [`Key_Concepts.md`](Key_Concepts.md) | The mechanics everything else sits on: APL and the ±1 activation cap, Conceal vs Engage, control range, cover/obscured, the Shoot and Fight sequences, Injured, and mission scoring at a high level |
 | 4 | [`Keyword_Glossary.md`](Keyword_Glossary.md) | Every term in one place, grouped by phase/activation, movement, shooting/fighting, damage state, mission/scoring, and team/equipment - plus a dedicated table flagging terms that collide with a different 40K meaning |
+| — | [`Target_Eligibility.md`](Target_Eligibility.md) | **Verbatim quote appendix** — every core rule that gates valid targets for Shoot (owned local PDFs; personal use) |
+| — | [`Target_Eligibility_Cheat_Sheet.html`](Target_Eligibility_Cheat_Sheet.html) | **One-page printed valid-target tree** — layout inspired by community sheets; every node traces to `Target_Eligibility.md` |
 
 Setup and kill zones will land one level across, in [`../setup/`](../setup/), once S2 populates it.
 

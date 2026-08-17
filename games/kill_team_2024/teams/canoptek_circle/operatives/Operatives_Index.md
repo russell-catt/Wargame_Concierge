@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/operatives/Operatives_Index.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v1.2 (2026-08-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -51,10 +51,10 @@ Five operative types, eight bodies total. Each entry below is written to plug di
 | **Count in team** | 2 |
 | **Base** | 50mm |
 | **Keywords (role, not full list)** | Canoptek |
-| **Plain-English role** | The team's tank/heavy hitter. Big base, high durability. Chooses between a precise anti-armour weapon or a wide sweeping one at assembly — **weapon option pending check** against the physical models. |
+| **Plain-English role** | The team's tank/heavy hitter. Big base, high durability. Owned pair is **one of each weapon**: twin gauss reapers on one, transdimensional isolator on the other (legal max one isolator). |
 | **Signature habit** | Hard to remove from an objective once it plants itself there; treat its control rating as reliable even under pressure. |
 | **Support given to others** | None — a self-contained bruiser. |
-| **Card-schema tags** | `heavy`, `durable`, `weapon-option-pending` |
+| **Card-schema tags** | `heavy`, `durable` |
 
 ---
 
@@ -93,10 +93,26 @@ Five operative types, eight bodies total. Each entry below is written to plug di
 | **Count in team** | 3 |
 | **Base** | 28mm |
 | **Keywords (role, not full list)** | Canoptek, Macrocyte |
-| **Plain-English role** | The disposable screen. Cheap, forgettable, but punishes an enemy in melee on the way out and is deliberately excluded from how the enemy's kill-count scoring treats it. Can be replenished mid-battle if your numbers drop. |
+| **Plain-English role** | The disposable screen. Cheap, forgettable, but punishes an enemy in melee on the way out and is deliberately excluded from how the enemy's kill-count scoring treats it. Can be replenished mid-battle if your numbers drop. Owned three: **2 gauss scalpel, 1 tesla caster**. |
 | **Signature habit** | Screen aggressively — this operative is built to trade, not to survive the battle. Losing all three and bringing one back is a normal turning point, not a crisis. |
 | **Support given to others** | None directly, but its expendability protects the rest of the team's tempo. |
-| **Card-schema tags** | `screen`, `expendable`, `replenishable`, `weapon-option-pending` |
+| **Card-schema tags** | `screen`, `expendable`, `replenishable` |
+
+---
+
+## Printable datacards
+
+Stats and rules text live on the HTML datacards (quoted from the owned Teams PDF). Role notes above stay teaching-only.
+
+| Operative | Datacard |
+|-----------|----------|
+| Geomancer | [`../cards/Geomancer.html`](../cards/Geomancer.html) |
+| Tomb Crawler | [`../cards/Tomb_Crawler.html`](../cards/Tomb_Crawler.html) |
+| Macrocyte Accelerator | [`../cards/Macrocyte_Accelerator.html`](../cards/Macrocyte_Accelerator.html) |
+| Macrocyte Reanimator | [`../cards/Macrocyte_Reanimator.html`](../cards/Macrocyte_Reanimator.html) |
+| Macrocyte Warrior | [`../cards/Macrocyte_Warrior.html`](../cards/Macrocyte_Warrior.html) |
+
+Index of all five: [`../cards/Card_Schema.md`](../cards/Card_Schema.md).
 
 ---
 
@@ -105,12 +121,13 @@ Five operative types, eight bodies total. Each entry below is written to plug di
 - [`../README.md`](../README.md) — package entry point
 - [`../Team_Rule_Guide.md`](../Team_Rule_Guide.md) — the Obelisk Node Matrix these operatives play around
 - [`../Owned_Models_Inventory.md`](../Owned_Models_Inventory.md) — physical model mapping
-- [`../cards/Card_Schema.md`](../cards/Card_Schema.md) — the S10 teaching card format these entries feed
 
 ---
 
 ## Change Log
 
+- v1.2 (2026-08-17): Linked printable HTML datacards (`kt24_rules_quotes` S4).
+- v1.1 (2026-08-17): Tomb Crawler and Macrocyte Warrior loadouts photo-confirmed.
 - v1.0 (2026-08-17): Initial operative index (slice S4) — five entries, card-schema-ready fields, no full stat blocks.
 
 ## Attribution

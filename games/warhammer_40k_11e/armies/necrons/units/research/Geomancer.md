@@ -9,7 +9,10 @@
 - **completeness:** partial
 
 ## Composition
-_Confirm on Wahapedia — Hierotek Circle photo ID may map here._
+_Not in the owned Hierotek Circle set_ (photo ID 2026-08-17). Geomancer is the Tomb World / Canoptek Circle Cryptek.
+
+## List-building notes
+Owned via Kill Team: Tomb World, not Hierotek.
 
 ## Profiles
 _Pending full capture — priority inventory_candidate._
@@ -21,7 +24,7 @@ _Pending_
 _Pending_
 
 ## Abilities
-Priority for Hierotek Circle / starter path once photo-IDed.
+Owned via Tomb World / Canoptek Circle, not Hierotek.
 
 ## Leader / attach options
 _Pending_
@@ -33,7 +36,7 @@ _Pending_
 Verify MFM | 2026-08-16
 
 ## List-building notes
-Hierotek Circle TBD photos may include this datasheet.
+Photo ID 2026-08-17: Geomancer is Tomb World, not Hierotek.
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Geomancer

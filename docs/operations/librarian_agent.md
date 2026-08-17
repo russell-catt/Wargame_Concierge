@@ -56,7 +56,7 @@ Four rules, no exceptions ([`multiagent_coordinator_strategy.md`](multiagent_coo
 1. **Never write under `raw/`.** Read it, cite it, summarize it. Never create, edit, or delete there.
 2. **Never `git commit` or `git push`.** The Coordinator is the sole git owner. Leave the working tree dirty and report what changed.
 3. **Never promote into `docs/` or `games/` unilaterally.** Draft, then get human or Coordinator approval, then add a [`KB/changelog.md`](../../KB/changelog.md) row.
-4. **Never introduce GW binaries or verbatim rules text.** Teaching paraphrase and path pointers only ([`AGENTS.md`](../../AGENTS.md) Sec 10).
+4. **Never introduce GW binaries or verbatim rules text** in `KB/` or promoted shipping outside the KT24 exception. Teaching paraphrase and path pointers only ([`AGENTS.md`](../../AGENTS.md) Sec 10). **Exception:** `games/kill_team_2024/` may quote owned local KT24 PDFs (and WarCom free rules) verbatim for personal table use; Librarian cites pointers and indexes that work but does not duplicate full datacard dumps into `KB/`.
 
 ---
 

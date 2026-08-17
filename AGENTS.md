@@ -197,12 +197,13 @@ The repo also carries Rising Tide HTML-comment headers and Change Log / Attribut
 
 ## 10. Copyright and sourcing
 
-Non-negotiable. This is a personal learning KB, not a redistribution channel.
+Non-negotiable. This is a personal learning KB, not a redistribution channel. **Personal use only — this project must never be sold.**
 
 - **Never** ingest Games Workshop PDFs, official datasheet images, or other GW binaries into `raw/` - or anywhere in this repo
 - **Never** commit binaries: `.pdf`, `.webp`, `.png`, `.jpg` and friends are blocked in [`.gitignore`](.gitignore). Do not bypass it
 - The external library at `C:\Personal\40K` stays **outside** this repo - reference it with **markdown path pointers only**
 - Write **teaching paraphrase**: explain how a rule works in your own words, with the reasoning a player needs. Do not transcribe datasheet statlines, stratagem text, or rules text verbatim
+- **KT24 quote exception (scoped):** Under `games/kill_team_2024/` only, you may quote **verbatim** rules text from owned local KT24 PDFs (`C:\Personal\Kill Team\kill_team_2024\` root + `Teams\`) and from WarCom free rules downloads, with filename + page/section cite on every block. Read PDFs **in place**; never copy binaries into git. This exception does **not** apply to `KB/`, `docs/`, or `games/warhammer_40k_11e/` — those remain teaching paraphrase only.
 - Cite where a claim can be checked (source page, Wahapedia URL, local PDF path) so the reader can verify against material they own
 - No secrets, credentials, or `.env` content in `KB/` - ever
 
