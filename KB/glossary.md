@@ -19,22 +19,24 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Read this first
 
-**Status after L1 (2026-08-16).** The L0 seed of four terms has been expanded to 32 from the first real ingest. Each is sorted by what actually backs it.
+**Status after L2 (2026-08-16).** L0 seeded four terms, L1 expanded them to 32, and **L2 reconciled the page against the rules documents S3, S4 and S5 actually read.** Three new terms were added in that pass: Territory, Support, and Combat Doctrines.
 
-**Game terms (26):**
+**Game terms (29):**
 
 | Status | Meaning | Count |
 |--------|---------|-------|
-| `verified` | Cross-checked against a rules source; retrieval date recorded | **0** |
-| `draft` | Named by a source that was read; effect not cross-checked | 13 |
-| `unverified` | Written from familiarity or a prior edition. **Confirm before use** | 12 |
+| `verified` | Cross-checked against a rules source; retrieval date recorded | **24** |
+| `draft` | Named by a source that was read; effect not cross-checked | 4 |
+| `unverified` | Written from familiarity or a prior edition. **Confirm before use** | **0** |
 | `unresolved` | Appeared in a source and maps to nothing recognised | 1 |
 
 **Project vocabulary (6):** all `verified` - these describe this project's own conventions, not the game, so they can be confirmed from the repo itself.
 
-**No game term is `verified`, because no rules document has been read yet.** The owned core rules, both faction packs, and the points manuals are all catalogued and all unopened - see [[local_library_pointers]]. Until they are read, this page tells you the right words to use, not the right rules.
+**The headline reversed in L2.** L1's version of this block said "no game term is `verified`, because no rules document has been read yet." That is no longer true. S3 read the owned Core Rules, the Universal Rules Updates v1.0, both faction packs v1.1, and the Event Companion v1.1; S4 and S5 read the two Munitorum Field Manuals v1.2 and both detachment sections. Every `verified` entry below traces to one of those, read **2026-08-16**, or to the shipping glossary that records them.
 
-S3 owns the shipping `games/warhammer_40k_11e/rules/Keyword_Glossary.md` and draws from this page. See [[inherited_docs_for_S3]] for what is safe to promote.
+**What `verified` still does not mean.** It means someone read it on 2026-08-16 and wrote down where. It does not mean a dataslate has not landed since - nothing in this repo records when the owned PDFs were downloaded. See [[warhammer_community]].
+
+**The shipping surface.** [`games/warhammer_40k_11e/rules/Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md) is the player-facing glossary S3 owns; it is longer than this page and carries the weapon-ability keywords in full. **This page is the KB-side working surface and defers to it on any term both define.** Where the two ever disagree, that disagreement is a lint finding, not a preference.
 
 ---
 
@@ -50,75 +52,92 @@ S3 owns the shipping `games/warhammer_40k_11e/rules/Keyword_Glossary.md` and dra
 
 ## Core rules and scoring
 
-**Objective Control** *(OC)* - `unverified`
+**Objective Control** *(OC)* - `verified` · **upgraded in L2**
 : A characteristic on a model's profile representing how strongly it holds ground. Players total the OC of their eligible models within range of an objective marker; the higher total controls it. It is why a cheap, numerous unit can hold ground an elite unit cannot, and why the game is won by positioning rather than kill count.
+: **Confirmed in 11th Edition (S3, owned Core Rules, read 2026-08-16):** control is re-checked at the end of **every phase and every turn**, and a **battle-shocked** unit contributes no OC at all.
 - Faction / scope: core rules, system-wide
-- Verify against: `raw/pointers/rules_core.md` - objective control and scoring
-- See also: **[[objective_control]]** - promoted to a concept page in L1
+- Verify against: the shipping [`Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md) and `Key_Concepts.md`, both S3
+- See also: **[[objective_control]]** - promoted to a concept page in L1, verified in L2
 
-**Objective marker** - `unverified`
+**Objective marker** - `verified` · **upgraded in L2**
 : The physical marker on the table whose control is scored. Control is decided by totalling Objective Control within range of it, and can flip as models move, die, or arrive.
+: **Confirmed:** a 40 mm circular marker; a model is within range at **3" horizontally and 5" vertically**. Where the objective is a terrain area instead, a model is in range simply by being inside that area.
 - Faction / scope: core rules
-- Verify against: `raw/pointers/rules_core.md`
+- Verify against: shipping `Keyword_Glossary.md`; `../games/warhammer_40k_11e/setup/Board_Setup.md`
 
-**No Man's Land** - `unverified`
-: The contested middle of the table, outside either deployment zone. Named in the owner's Necron notes as the ground [[canoptek_court]] wants to open up for its detachment rule.
+**No Man's Land** - `verified` · **upgraded in L2**
+: The contested middle of the table, outside either deployment zone, and where most objectives live. Named in the owner's Necron notes as the ground [[canoptek_court]] wants to open up for its detachment rule - which the verified [[power_matrix]] wording confirms.
 - Faction / scope: core rules / deployment
-- Verify against: `raw/pointers/rules_core.md`; terrain and deployment work in S3
+- Verify against: shipping `Keyword_Glossary.md`; `Board_Setup.md`
+- See also: **Territory**, below - the two are not the same region
 
-**Battle round** - `unverified`
-: One full cycle in which both players take a turn. Sequencing matters for any rule that triggers "at the start of" or "at the end of" something - notably [[reanimation_protocols]].
+**Territory** - `verified` · **new in L2**
+: The half of the battlefield containing a player's deployment zone. Distinct from that player's **deployment zone** and from **No Man's Land**, and the distinction is load-bearing: [[power_matrix]] keys off regions, and reading "territory" loosely is the easiest way to play it wrong.
+- Faction / scope: core rules; several detachment rules key off it
+- Verify against: shipping `Keyword_Glossary.md`
+
+**Battle round** - `verified` · **upgraded in L2**
+: Start-of-round rules, then **both** players take a turn, then end-of-round rules. The same player takes the first turn every round; the mission says who. Sequencing matters for any rule triggering "at the start of" or "at the end of" something - notably [[reanimation_protocols]], which fires at the end of **your** Command phase and therefore once per round.
 - Faction / scope: core rules
-- Verify against: `raw/pointers/rules_core.md`
+- Verify against: `../games/warhammer_40k_11e/rules/Turn_Structure.md` (S3, from the owned Core Rules, read 2026-08-16)
 
-**Datasheet** - `draft`
+**Datasheet** - `verified` · **upgraded in L2**
 : The rules entry for one unit: profile, weapons, abilities, keywords. This project's generic term for it is "unit entry" (`docs/Game_System_Scaffold.md` vocabulary mapping). Datasheet text is **never reproduced** in this repo - see [`AGENTS.md`](../AGENTS.md) Sec 10.
 - Faction / scope: system-wide
-- Verify against: faction pack pointers; [[wahapedia]] for lookup
+- Verify against: your own faction pack or the Warhammer 40,000 app; [[wahapedia]] for lookup
 
-**Detachment** - `draft`
+**Detachment** - `verified` · **upgraded in L2**
 : The rules package a list is built under, sitting between "army" and "unit". It supplies a **detachment rule**, plus enhancements and stratagems. Choosing one is the first real list-building decision, and it determines which units the army wants.
 - Faction / scope: system-wide
-- Verify against: `raw/pointers/rules_core.md`
+- Verify against: shipping `Keyword_Glossary.md`
 - See also: [[canoptek_court]], [[cryptek_conclave]], [[gladius_task_force]]
 
-**Detachment rule** - `draft`
-: The army-wide ability granted by the chosen detachment - [[power_matrix]] for [[canoptek_court]], Scientific Schemes for [[cryptek_conclave]]. Distinct from the **army rule**, which applies regardless of detachment.
+**Detachment rule** - `verified` · **upgraded in L2**
+: The army-wide ability granted by the chosen detachment - [[power_matrix]] for [[canoptek_court]], **Technosorcerous Augmentations** for [[cryptek_conclave]], **Combat Doctrines** for [[gladius_task_force]]. Distinct from the **army rule**, which applies regardless of detachment.
 - Faction / scope: system-wide
 
-**Army rule** - `draft`
+**Army rule** - `verified` · **upgraded in L2**
 : The faction-wide ability every list of that faction has, independent of detachment: [[reanimation_protocols]] for Necrons, [[oath_of_moment]] for Space Marines.
 - Faction / scope: system-wide
 
-**Battleline** - `draft`
-: The role keyword for a faction's core infantry - Necron Warriors and Immortals in this collection. Detachments built on massed infantry, such as [[cryptek_conclave]], are described as feeding off battleline units.
+**Battleline** - `verified` · **upgraded in L2**
+: The role keyword for a faction's core infantry - Necron Warriors and Immortals in this collection. Detachments built on massed infantry, such as [[cryptek_conclave]], feed off battleline units.
 - Faction / scope: system-wide
-- Verify against: `raw/pointers/faction_pack_necrons.md`
+- Verify against: shipping `Keyword_Glossary.md`
 
-**Leader / attached unit** - `unverified`
-: A character joining a squad and fighting as part of it, conferring abilities on the whole unit. The owner's notes assume this throughout - a Plasmancer leading Immortals, Szeras behind a Warrior block.
+**Leader / attached unit** - `verified` · **upgraded in L2**
+: A character joining a squad and fighting as part of it. The two become **one unit for all rules purposes**, the bodyguard's Toughness is used for the whole thing, and the attached unit holds **every keyword of its parts** - which can expose it to `[ANTI-X]` weapons it would otherwise dodge.
+: **Two things L1 could not know.** Attachment happens during the pre-game **Declare Battle Formations** step, not mid-game. And 11th Edition adds a second slot, **Support**, so a bodyguard unit can normally take one Leader **and** one Support.
+: The owner's assumptions turned out to be sound - a Plasmancer can lead Immortals - but the Plasmancer is now a **Support**, not a Leader, which is what makes a Cryptek plus a Royal Warden on the same squad legal. See [[cryptek_conclave]].
 - Faction / scope: core rules
-- Verify against: `raw/pointers/rules_core.md`; the attachment rules changed between editions
+- Verify against: shipping `Keyword_Glossary.md`; `Key_Concepts.md`
 
-**Points** *(pts)* - `draft`
-: The cost of a unit, used to build lists to an agreed size. Values live in the Munitorum Field Manual and **move when a balance dataslate lands** - which is why every points figure in [[necron_lists_owner_notes]] needs re-checking.
+**Support** - `verified` · **new in L2**
+: The second attachment slot alongside Leader, given new emphasis in 11th Edition. The owned Necrons Faction Pack v1.1 moved the Crypteks (Chronomancer, Geomancer, Plasmancer, Psychomancer, Technomancer, Orikan) from Leader to Support. **Check your own datasheet** - this moved recently and older printings disagree.
+- Faction / scope: core rules
+- Verify against: shipping `Keyword_Glossary.md`; your own datasheets
+
+**Points** *(pts)* - `verified` · **upgraded in L2**
+: The cost of a unit, used to build lists to an agreed size. Values live in the Munitorum Field Manual - **v1.2, printed 2026-08-13** is the version this project has read - and they **move when a balance dataslate lands**.
+: **Every points figure in [[necron_lists_owner_notes]] was wrong.** S3 found six of eight stale, S4 found two more, and S4 re-costed everything the shipping content prints. Space Marines have their own separate Munitorum file. Several datasheets now use **first-unit / second-unit pricing**, so a list cannot be costed by multiplication.
 - Faction / scope: system-wide
-- Verify against: `raw/pointers/points_manuals.md`
+- Verify against: the owned Munitorum Field Manual v1.2, and re-check before any event
 
-**Armour Penetration** *(AP)* - `unverified`
-: How much an attack degrades the target's save. Referenced in the owner's notes as an aura effect from Illuminor Szeras.
+**Armour Penetration** *(AP)* - `verified` · **upgraded in L2**
+: A negative modifier to the target's armour save - AP -2 makes a 3+ save behave like a 5+. An **invulnerable save ignores AP entirely**, so use whichever save is better per attack.
 - Faction / scope: core rules
-- Verify against: `raw/pointers/rules_core.md`
+- Verify against: shipping `Keyword_Glossary.md`
 
-**Critical hit** - `unverified`
-: An attack roll good enough to trigger additional effects. Named in the owner's notes as something a Plasmancer improves for the unit it leads.
+**Critical hit / critical wound** - `verified` · **upgraded in L2**
+: An **unmodified 6** on the hit or wound roll. It is still an ordinary hit or wound, but it switches on `[LETHAL HITS]`, `[SUSTAINED HITS X]`, `[DEVASTATING WOUNDS]`, and `[ANTI-X Y+]`.
 - Faction / scope: core rules
-- Verify against: `raw/pointers/rules_core.md`
+- Verify against: shipping `Keyword_Glossary.md`
 
-**Ignores Cover** - `unverified`
-: An ability that strips the defensive benefit a target would get from terrain. Written as `[IGNORES COVER]` in the owner's notes, which is the datasheet convention for a named ability.
+**`[IGNORES COVER]`** - `verified` · **upgraded in L2**
+: The target cannot have the benefit of cover against this attack, and it also beats abilities that grant cover, such as Stealth. Worth knowing precisely, because **cover in 11th Edition worsens the attacker's Ballistic Skill by 1** rather than improving the target's save.
+: **The owner's note about this keyword was wrong.** It attributed `[IGNORES COVER]` to a Canoptek Macrocytes aura; S4 checked the datasheet and disproved it. `[IGNORES COVER]` is one of the options on the [[cryptek_conclave]] detachment menu - the two rules had been run together. See the deprecated list.
 - Faction / scope: core rules keyword
-- Verify against: `raw/pointers/rules_core.md`
+- Verify against: shipping `Keyword_Glossary.md`
 
 ---
 
@@ -290,3 +309,10 @@ How this KB writes about the game.
 - [[inherited_docs_for_S3]] - what S3 may safely promote from this page
 - [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted concept pages
 - [`AGENTS.md`](../AGENTS.md) - Sec 5 Keyword rule, Sec 9 terminology discipline
+
+
+## L2 lint note (2026-08-16)
+
+- **Power Matrix** — Canoptek Court detachment rule in Warhammer 40,000 11e (not Kill Team-only). See teaching guide under armies/necrons.
+- **Cryptek Conclave rule name** — prefer **Technosorcerous Augmentations** (owned faction pack). Deprecated informal label: Scientific Schemes.
+- Shipping Keyword_Glossary remains SoT for table keywords; this glossary is the KB working set.

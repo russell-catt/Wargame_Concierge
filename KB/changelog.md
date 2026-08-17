@@ -54,3 +54,4 @@ Promotion requires human or Coordinator approval first - see [`AGENTS.md`](../AG
 - [[index]] - master catalog
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth
 - [`docs/operations/librarian_agent.md`](../docs/operations/librarian_agent.md) - promotion workflow in practice
+| 2026-08-16 | L2 lint | Unit index pointers; glossary consistency; UTF-8 cleanup |

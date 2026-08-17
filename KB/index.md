@@ -159,3 +159,7 @@ Short per-directory README stubs restate the page contract for each entity type.
 - [[glossary]] - terminology lookup
 - [[ingest_procedure]] - how to add to this catalog
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth
+
+## Units (pointers)
+- [[necrons_unit_index]] — Necrons research corpus overview
+- [[space_marines_unit_index]] — Space Marines research corpus overview

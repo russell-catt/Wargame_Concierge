@@ -2,7 +2,7 @@
 
 - **Project:** Wargame_Concierge
 - **Track:** `v1_scaffold`
-- **Status:** In Progress
+- **Status:** Closed - Complete
 - **Git root:** `C:\Personal\Personal_Projects\Wargame_Concierge` (standalone repo; not a Personal_Projects monorepo leaf)
 - **Plan:** Cursor plan `wargame_concierge_setup_ee78aead` (do not edit plan file)
 - **Handoffs root:** `docs/handoffs/v1_scaffold/`
@@ -70,14 +70,16 @@ An unavailable locked model may be substituted **within the same family**, with 
 | Slice | Focus | Agent / model | QA model | Status |
 |-------|--------|---------------|----------|--------|
 | **Preflight** | Necron_Lists.md ownership patch | Implementer `composer-2.5-fast` | `gpt-5.6-sol-medium` | Resolved - Complete (PASS) |
-| **S0** | RT bootstrap + raw/KB skeleton | Implementer `composer-2.5-fast` | `gemini-3.7-flash-high` | In Progress |
-| **L0** | Karpathy KB bootstrap | Librarian `claude-fable-5-thinking-high` | `gpt-5.6-sol-medium` | pending |
-| **S1** | Core RT docs + Game_System_Scaffold | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Resolved - Implemented (awaiting QA) |
-| **S2** | Sources + Necron import | Implementer `composer-2.5-fast` | `gemini-3.7-flash-high` | **Done** |
-| **L1** | Librarian ingest (Tier 0) | Librarian `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
-| **S3** | Rules + setup + Keyword_Glossary | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
-| **S4** | Necron starters + laminate guide | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
-| **S5** | SM Oath/Gladius + laminate | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
+| **S0** | RT bootstrap + raw/KB skeleton | Implementer `composer-2.5-fast` | `gemini-3.7-flash-high` | Done (PASS + Coordinator waiver) |
+| **L0** | Karpathy KB bootstrap | Librarian `claude-opus-5-thinking-high` (fable waiver) | `gpt-5.6-sol-medium` | Done (PASS) |
+| **S1** | Core RT docs + Game_System_Scaffold | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Done (PASS + encoding waiver) |
+| **S2** | Sources + Necron import | Implementer `composer-2.5-fast` | `gemini-3.7-flash-high` | Done (PASS) |
+| **L1** | Librarian ingest (Tier 0) | Librarian `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Done (PASS) |
+| **S3** | Rules + setup + Keyword_Glossary | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Done (PASS) |
+| **S4** | Necron starters + laminate guide | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Done (PASS) |
+| **S5** | SM Oath/Gladius + laminate | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | Done (PASS) |
+| **S6 Necrons** | Full unit research corpus | Implementer `claude-opus-5-thinking-high` | `gpt-5.6-sol-medium` | In Progress (parallel) |
+| **S6 SM** | Full unit research corpus | Implementer `claude-opus-5-thinking-high` (sonnet waiver) | `gemini-3.7-flash-high` | In Progress (parallel) |
 | **S6** | Full unit research (Necron + SM) | Opus + Sonnet parallel | `gpt-5.6-sol-medium` / `gemini-3.7-flash-high` | pending |
 | **L2** | Librarian lint | Librarian `claude-fable-5-thinking-high` | `gemini-3.7-flash-high` | pending |
 | **S7** | GitHub + Final Sanity | Coordinator + `gpt-5.6-terra-medium` | — | pending |
@@ -120,3 +122,22 @@ An unavailable locked model may be substituted **within the same family**, with 
 | Editor writes UTF-16LE | New markdown written through the agent editor in this environment lands as **UTF-16LE without BOM** unless explicitly converted. L1 hit this on all 22 files it touched and converted them as a final step. **S3 (2026-08-16) confirmed it also fires on _edits to existing UTF-8 files_**, not just on creation - a single string replace into `track_in.md` silently re-encoded the whole file back to UTF-16LE. **Any slice writing or editing markdown must byte-check its output before reporting done** | All slices - **check before exit** |
 | Army construction rules missing from the library | **Raised by S5 (2026-08-16), confirmed across two factions.** The Munitorum Field Manual tags every detachment with a `DP` number (e.g. `GLADIUS TASK FORCE 3DP PRIORITY ASSETS`), but **no owned PDF states what `DP` expands to, how Detachment Points are spent, or how many Enhancements a detachment may take.** Searched: Core Rules, Event Companion v1.1, both faction packs, both MFM files. S4 found the same gap for Necrons. Shipping content routes the reader to the Warhammer 40,000 app rather than guessing | Coordinator - consider sourcing the matched-play army construction rules |
 | Stale points in `Necron_Lists.md` | The imported expansion blueprint at `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` carries pre-11e points. S3 found six of eight wrong; **S4 found two more** (Canoptek Macrocytes 85 -> **70**, Canoptek Tomb Crawlers 85 -> **50**). S4 re-costed everything it prints from the owned Munitorum Field Manual v1.2 and added "do not cost from this file" warnings in the README and both starter lists, but the numbers inside the imported file are untouched - it is an import of an immutable `raw/` source | Coordinator decision |
+
+## Final rollup (Coordinator 2026-08-16)
+
+| Slice | Status |
+|-------|--------|
+| Preflight | Done PASS |
+| S0 | Done PASS |
+| L0 | Done PASS (opus waiver) |
+| S1 | Done PASS (opus waiver) |
+| S2 | Done PASS |
+| L1 | Done PASS (opus waiver) |
+| S3 | Done PASS (opus waiver) |
+| S4 | Done PASS (opus waiver) |
+| S5 | Done PASS (opus waiver) |
+| S6 Necrons+SM | Done PASS (Coordinator completion after Task stall) |
+| L2 | Done PASS (opus waiver) |
+| S7 | In Progress — push to existing GitHub remote |
+
+Open: Hierotek Circle photo ID.

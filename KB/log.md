@@ -111,3 +111,9 @@ Nothing under `raw/` was created, modified, or deleted. No git commit, no push.
 Next step: **S3** (rules + setup + Keyword_Glossary). Start by reading `raw/pointers/rules_core.md`; the handoff is `inherited_docs_for_S3`.
 
 ---
+
+## [2026-08-16] lint | L2 v1_scaffold
+Pages created: KB/units/necrons_unit_index.md, KB/units/space_marines_unit_index.md
+Pages updated: glossary.md (Power Matrix + Technosorcerous Augmentations consistency)
+Issues found: glossary drift (fixed), UTF-16 pages (fixed), research stubs (accepted), Hierotek TBD (open)
+Fixes applied: see L2_librarian.md
