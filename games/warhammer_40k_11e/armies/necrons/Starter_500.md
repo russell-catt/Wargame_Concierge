@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -158,6 +158,7 @@ Retail and second-hand price tracking lives in [`Necron_Lists.md`](Necron_Lists.
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): Ownership tags re-verified against current FOUNDATION; shopping still excludes owned Warriors/Scarabs/first Immortals box; Hierotek Cryptek remains `TBD`.
 - v1.0 (2026-08-16): Initial 500-point expansion lists (slice S4). Both paths costed from Munitorum Field Manual v1.2, with owned and purchase tags on every entry.
 
 ## Attribution

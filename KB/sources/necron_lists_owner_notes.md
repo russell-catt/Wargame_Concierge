@@ -21,11 +21,11 @@ The owner's own Necron expansion blueprint: what is actually owned as of 2026-08
 | Field | Value |
 |-------|-------|
 | Repo path | `raw/Necron_Lists.md` |
-| Working copy | `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` (byte-identical per S2) |
-| External origin | `C:\Personal\40K\rules\Necron_Lists.md` |
+| Working copy | `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` (byte-identical after 2026-08-16 re-sync; prefer this copy if copies diverge) |
+| External origin | `C:\Personal\40K\rules\Necron_Lists.md` (also byte-identical to working copy as of re-sync) |
 | Source class | **Owner's own notes** ([[ingest_procedure]] Sec "four source classes") |
 | Edition claimed | Warhammer 40,000, 11th Edition |
-| Last updated at origin | 2026-08-16 (Preflight ownership patch) |
+| Last updated at origin | 2026-08-16 (Preflight ownership patch; raw re-synced same day after a stale Tomb-World-owned drift) |
 | Retrieval date | 2026-08-16 |
 
 This is a **planning document, not a rules document**. Per [[ingest_procedure]], owner's notes carry the *highest* trust for ownership and preference facts and **no** authority for rules text. Everything below is filed on that split: ownership facts are treated as confirmed, rules claims are treated as leads to verify.

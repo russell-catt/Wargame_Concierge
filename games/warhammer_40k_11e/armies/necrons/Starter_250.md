@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_250.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -147,6 +147,7 @@ Four units is enough to practise everything that matters and few enough to finis
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): Ownership re-verified against current FOUNDATION (Hierotek preferred once IDed; Warriors/Scarabs/Immortals build-before-play; Tomb World not owned).
 - v1.0 (2026-08-16): Initial 250-point learning list (slice S4). Costed from Munitorum Field Manual v1.2; Hierotek Circle left explicitly `TBD` with a photo-ID checklist.
 
 ## Attribution

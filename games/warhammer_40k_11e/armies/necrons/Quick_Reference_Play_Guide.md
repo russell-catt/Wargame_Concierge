@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Quick_Reference_Play_Guide.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -25,6 +25,7 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
+  - v1.1 (2026-08-16): Starter snapshot ownership re-verified against FOUNDATION (build-before-play + Hierotek TBD).
   - v1.0 (2026-08-16): Initial two-page laminate (slice S4).
 
 ATTRIBUTION:

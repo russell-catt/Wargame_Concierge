@@ -1,15 +1,16 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; ownership re-verify)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 FACTION: Necrons
 
 SOURCES:
-  - C:\Personal\40K\rules\Necron_Lists.md (FOUNDATION section, Preflight 2026-08-16)
+  - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION; preferred project copy)
+  - C:\Personal\40K\rules\Necron_Lists.md (external; byte-identical to project copy as of 2026-08-16)
   - docs/Project_Planning.md Sec 3
 
 PURPOSE:
@@ -69,6 +70,7 @@ Use **assembly state** and **paint state** to decide what is playable this weeke
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): Re-verified against current `Necron_Lists.md` FOUNDATION; confirmed no Tomb World ownership; noted project copy as preferred source when copies diverge.
 - v1.0 (2026-08-16): Initial inventory from Preflight FOUNDATION (slice S2).
 
 ## Attribution

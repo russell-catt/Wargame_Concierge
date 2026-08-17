@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v2.0 (2026-08-16)
+VERSION: v2.1 (2026-08-16)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -90,6 +90,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 ---
 
 ## Change Log
+- v2.1 (2026-08-16): Re-confirmed collection status against current `Necron_Lists.md` FOUNDATION after raw/ copy re-sync (Tomb World not owned; Hierotek photo ID still open).
 - v2.0 (2026-08-16): Indexed the six S4 documents - army rule guide, both detachment guides, two starter lists, and the laminate. Added the points and rule-name corrections.
 - v1.0 (2026-08-16): Initial faction README and inventory (slice S2).
 

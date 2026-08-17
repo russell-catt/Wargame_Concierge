@@ -117,3 +117,12 @@ Pages created: KB/units/necrons_unit_index.md, KB/units/space_marines_unit_index
 Pages updated: glossary.md (Power Matrix + Technosorcerous Augmentations consistency)
 Issues found: glossary drift (fixed), UTF-16 pages (fixed), research stubs (accepted), Hierotek TBD (open)
 Fixes applied: see L2_librarian.md
+
+## [2026-08-16] sync | Necron ownership re-align
+
+Re-synced `raw/Necron_Lists.md` to the armies working copy after a working-tree drift that again treated **Kill Team: Tomb World** as owned. Project armies copy and `C:\Personal\40K\rules\Necron_Lists.md` were already byte-identical and correct; preferred the project copy. Committed HEAD already matched the correct FOUNDATION.
+
+**Ownership confirmed (unchanged):** 10 Warriors, 3 Scarab Swarms, 5 Immortals (purchased, unassembled); Hierotek Circle used set game-ready (datasheets TBD pending photos); Tomb World **not owned**.
+
+**Also updated:** `raw/pointers/necron_lists_import.md`, `KB/sources/necron_lists_owner_notes.md`, `KB/sources/source_library.md` (prefer armies copy on divergence), inventory/README/starters/laminate version bumps, `docs/Project_Planning.md` completed-to-date note.
+

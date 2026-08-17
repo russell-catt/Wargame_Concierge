@@ -78,7 +78,7 @@ The catalog flags one thing worth repeating: the Wahapedia faction URLs it lists
 
 The catalog registers the one source that was actually copied into the repo - `Necron_Lists.md`, the owner's own notes, allowed because it is not GW material. Both repo copies were SHA-256 verified against the origin in S2.
 
-It also carries an ownership snapshot duplicating the FOUNDATION table from those notes. The two agree as of 2026-08-16. Filed on [[necrons]]; if they ever disagree, `raw/Necron_Lists.md` is the origin and wins.
+It also carries an ownership snapshot duplicating the FOUNDATION table from those notes. The two agree as of 2026-08-16. Filed on [[necrons]]; if they ever disagree, prefer `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` unless the external Personal\40K source is clearly newer, then re-sync `raw/` from the winner.
 
 ---
 

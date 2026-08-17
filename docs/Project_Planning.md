@@ -192,6 +192,7 @@ This is the single highest-value open item. The only game-ready models in the co
 | Slice | Delivered |
 |-------|-----------|
 | **Preflight** | Necron ownership patched into `C:\Personal\40K\rules\Necron_Lists.md` at source; Tomb World marked superseded; Hierotek Circle TODO opened |
+| **Ownership re-sync** | `raw/Necron_Lists.md` re-aligned to armies + Personal\40K copies (stale Tomb-World-owned drift cleared); inventory/README/KB source notes bumped |
 | **S0** | Repo bootstrap: `git init` (no commits), Rising Tide `templates/`, adapted playbook, `docs/handoffs/` with the `v1_scaffold` track, `.gitignore`, `raw/` and `KB/` skeletons |
 | **L0** | Karpathy KB bootstrap: `AGENTS.md` schema, `librarian_agent.md`, all six KB core pages, typed-directory guides, glossary seeded with four terms, `.obsidian/` vault |
 | **S1** | Core Rising Tide documents: `START_HERE.md`, `README.md`, this file and its siblings under `docs/`, `Game_System_Scaffold.md`, and the `reference/` seed context |
