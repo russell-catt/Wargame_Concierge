@@ -60,8 +60,10 @@ An unavailable locked model may be substituted **within the same family**, with 
 | S1 | `claude-sonnet-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model blocked/unavailable at dispatch; same-family substitute | `slices/S1_implementer.md` |
 | L1 | `claude-fable-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model unavailable at dispatch; same-family substitute | `slices/L1_librarian.md` |
 | S3 | `claude-sonnet-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model blocked at dispatch; same-family substitute | `slices/S3_implementer.md` |
+| S4 | `claude-sonnet-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model blocked at dispatch; same-family substitute | `slices/S4_implementer.md` |
+| S5 | `claude-sonnet-5-thinking-high` | `claude-opus-5-thinking-high` | Locked model blocked at dispatch; same-family substitute | `slices/S5_implementer.md` |
 
-**Coordinator decision now overdue:** four slices have run on a substitute, and **every non-`composer` slice on this track has run on `claude-opus-5-thinking-high`**. Neither `claude-fable-5-thinking-high` nor `claude-sonnet-5-thinking-high` has been available at any dispatch, so the locked matrix describes a configuration that has never been used. Either revise the Librarian and Implementer-content rows to match reality, or accept that S4, S5, and L2 will waive identically. Cross-family QA separation has held throughout — `gpt-5.6-sol-medium` is a different family from the substitute.
+**Coordinator decision now overdue:** six slices have run on a substitute, and **every non-`composer` slice on this track has run on `claude-opus-5-thinking-high`**. Neither `claude-fable-5-thinking-high` nor `claude-sonnet-5-thinking-high` has been available at any dispatch, so the locked matrix describes a configuration that has never been used. S3 asked for this decision, S4 waived identically and predicted S5 would too, and **S5 did**. Either revise the Librarian and Implementer-content rows to match reality, or accept that L2 will waive the same way. Cross-family QA separation has held throughout — `gpt-5.6-sol-medium` is a different family from the substitute.
 
 ## Rollup
 
@@ -74,8 +76,8 @@ An unavailable locked model may be substituted **within the same family**, with 
 | **S2** | Sources + Necron import | Implementer `composer-2.5-fast` | `gemini-3.7-flash-high` | **Done** |
 | **L1** | Librarian ingest (Tier 0) | Librarian `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
 | **S3** | Rules + setup + Keyword_Glossary | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
-| **S4** | Necron starters + laminate guide | Implementer `claude-sonnet-5-thinking-high` | `gpt-5.6-sol-medium` | pending |
-| **S5** | SM Oath/Gladius + laminate | Implementer `claude-sonnet-5-thinking-high` | `gpt-5.6-sol-medium` | pending |
+| **S4** | Necron starters + laminate guide | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
+| **S5** | SM Oath/Gladius + laminate | Implementer `claude-opus-5-thinking-high` (waiver) | `gpt-5.6-sol-medium` | **Resolved - Implemented (awaiting QA)** |
 | **S6** | Full unit research (Necron + SM) | Opus + Sonnet parallel | `gpt-5.6-sol-medium` / `gemini-3.7-flash-high` | pending |
 | **L2** | Librarian lint | Librarian `claude-fable-5-thinking-high` | `gemini-3.7-flash-high` | pending |
 | **S7** | GitHub + Final Sanity | Coordinator + `gpt-5.6-terra-medium` | — | pending |
@@ -87,6 +89,10 @@ An unavailable locked model may be substituted **within the same family**, with 
 > **L1 (2026-08-16) updated the S2 and L1 rows only**, per the brief, and added its own waiver row. The S0 and L0 rows above are still stale and are still the Coordinator's to fix. L1 also **converted this file from UTF-16LE to UTF-8** — see Known repo defects.
 
 > **S3 (2026-08-16) updated its own row only.** The S0 and L0 rows remain stale and remain the Coordinator's to fix. S3 found **this file had reverted to UTF-16LE** when the agent editor rewrote it mid-edit, and converted it back to UTF-8. The "Editor writes UTF-16LE" defect below is **live, not historical** — it fires on every edit, not just on file creation.
+
+> **S4 (2026-08-16) updated its own row and waiver row only.** The S0 and L0 rows remain stale and remain the Coordinator's to fix. S4 hit the UTF-16LE defect on this file three times in a single sitting - every string replacement re-encoded it - and converted it back each time. **The defect is not just live, it fires on every individual edit.**
+
+> **S5 (2026-08-16) updated its own row and waiver row only.** The S0 and L0 rows remain stale and remain the Coordinator's to fix. S5 reproduced S4's UTF-16LE experience exactly: the first string replacement re-encoded the whole file, which then blocked the second replacement from matching until the file was converted back. **Editing this file is a convert-edit-convert loop.** S5 also confirms `docs/handoffs/v1_scaffold/slices/S3_qa.md` is still UTF-16LE - S4 flagged it, and S5 likewise declined to rewrite another agent's artifact.
 
 ## Git state
 
@@ -112,3 +118,5 @@ An unavailable locked model may be substituted **within the same family**, with 
 | Playbook dead links | `docs/operations/multiagent_coordinator_strategy.md` carries 26 relative links inherited from the `daily_report` repo pointing at directories that do not exist here. Prose is authoritative; links are not | Later cleanup slice |
 | UTF-16LE files | **Resolved as of L1 (2026-08-16).** The five files listed by L0 (`checkins/README.md`, `prompts/README.md`, `docs/handoffs/README.md`, `slices/S0_brief.md`, `raw/pointers/README.md`) are all UTF-8 today. **This file was not on that list and was itself UTF-16LE**; L1 converted it, which is why its diff is whole-file. A repo-wide scan after L1 finds **0** UTF-16 markdown files. `raw/pointers/README.md` was never touched by L1 — it was already UTF-8 | Closed - verify at L2 |
 | Editor writes UTF-16LE | New markdown written through the agent editor in this environment lands as **UTF-16LE without BOM** unless explicitly converted. L1 hit this on all 22 files it touched and converted them as a final step. **S3 (2026-08-16) confirmed it also fires on _edits to existing UTF-8 files_**, not just on creation - a single string replace into `track_in.md` silently re-encoded the whole file back to UTF-16LE. **Any slice writing or editing markdown must byte-check its output before reporting done** | All slices - **check before exit** |
+| Army construction rules missing from the library | **Raised by S5 (2026-08-16), confirmed across two factions.** The Munitorum Field Manual tags every detachment with a `DP` number (e.g. `GLADIUS TASK FORCE 3DP PRIORITY ASSETS`), but **no owned PDF states what `DP` expands to, how Detachment Points are spent, or how many Enhancements a detachment may take.** Searched: Core Rules, Event Companion v1.1, both faction packs, both MFM files. S4 found the same gap for Necrons. Shipping content routes the reader to the Warhammer 40,000 app rather than guessing | Coordinator - consider sourcing the matched-play army construction rules |
+| Stale points in `Necron_Lists.md` | The imported expansion blueprint at `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` carries pre-11e points. S3 found six of eight wrong; **S4 found two more** (Canoptek Macrocytes 85 -> **70**, Canoptek Tomb Crawlers 85 -> **50**). S4 re-costed everything it prints from the owned Munitorum Field Manual v1.2 and added "do not cost from this file" warnings in the README and both starter lists, but the numbers inside the imported file are untouched - it is an import of an immutable `raw/` source | Coordinator decision |
