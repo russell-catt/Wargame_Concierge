@@ -14,17 +14,19 @@ SOURCES:
   - docs/handoffs/v1_scaffold/slices/Preflight_qa.md
 
 PURPOSE:
-  Catalog of local and living web sources for Warhammer 40,000 11th Edition.
-  Every entry is a path pointer or URL — never a binary copy.
+  Catalog of local and living web sources for Warhammer 40,000 11th Edition
+  and Kill Team 2024 / 2021. Every entry is a path pointer or URL — never a
+  binary copy.
 
 PRIMARY_AUDIENCE:
-  - Librarian (L1 ingest)
-  - Implementers building rules and army content
+  - Librarian (ingest)
+  - Implementers building rules and force/team content
   - QA cross-checking claims
 
 KEY_SECTIONS_EXPECTED:
   - Copyright policy
   - Local library (C:\Personal\40K)
+  - Local library (C:\Personal\Kill Team)
   - Living web references
   - Imported markdown sources
 
@@ -46,9 +48,10 @@ Catalog of **local path pointers** and **living web references** for this projec
 | Rule | Detail |
 |------|--------|
 | **Never commit GW binaries** | No PDFs, webp, png, or official images in this repository |
-| **Path pointers only** | Local files stay under `C:\Personal\40K`; the repo records paths |
+| **Path pointers only** | Local files stay under `C:\Personal\40K` or `C:\Personal\Kill Team`; the repo records paths |
 | **Teaching paraphrase** | Written content in `docs/` and `games/` explains rules in our own words |
 | **Cross-check before play** | Verify claims against owned PDFs and living web sources with a retrieval date |
+| **White Dwarf captures** | Secondary trust — never override official rules/team/mission/Nemesis PDFs |
 
 ---
 
@@ -110,9 +113,45 @@ All paths below are on the owner's machine. **Do not copy these files into git.*
 
 ---
 
+## Local library — `C:\Personal\Kill Team`
+
+All paths below are on the owner's machine. **Do not copy these files into git.**  
+Obsolete: former flat `C:\Personal\Kill Team\rules\` — use `kill_team_2024\` / `kill_team_2021\` only.
+
+**Mirror stubs:** `raw/pointers/kill_team_*.md`
+
+### Kill Team 2024 (KT24 / 3e) — current play
+
+| Area | Pointer file | Notes |
+|------|--------------|-------|
+| Core / lite / update logs / universal equipment / sniper | [`raw/pointers/kill_team_2024_core.md`](../raw/pointers/kill_team_2024_core.md) | Primary: `779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` |
+| Approved Ops | [`raw/pointers/kill_team_2024_approved_ops.md`](../raw/pointers/kill_team_2024_approved_ops.md) | Tournament companion + update log |
+| Teams (10 owned) | [`raw/pointers/kill_team_2024_teams.md`](../raw/pointers/kill_team_2024_teams.md) | Angels of Death, Canoptek Circle, Celestian Insidiants, Death Korps, Deathwatch, Hierotek Circle, Kommandos, Murderwing, Plague Marines, Vespid Stingwings |
+| Mission packs | [`raw/pointers/kill_team_2024_missions.md`](../raw/pointers/kill_team_2024_missions.md) | Volkus, Shadowhunt, Tomb World, Hivestorm, Titus, Terror on Devlan, terrain templates |
+| Critical Ops 2024 + 2025 | [`raw/pointers/kill_team_2024_critical_ops.md`](../raw/pointers/kill_team_2024_critical_ops.md) | Physical decks owned; printables on disk |
+| Nemesis Operatives / NPO | [`raw/pointers/kill_team_2024_nemesis_operatives.md`](../raw/pointers/kill_team_2024_nemesis_operatives.md) | Join Ops SoT |
+| Terror on Devlan Dossier | [`raw/pointers/kill_team_2024_terror_on_devlan.md`](../raw/pointers/kill_team_2024_terror_on_devlan.md) | Dossier + mission pack |
+| Screen_Captures (White Dwarf) | [`raw/pointers/kill_team_2024_screen_captures.md`](../raw/pointers/kill_team_2024_screen_captures.md) | **Secondary trust** — WD517 Necrons + Procession PvE; never commit `.webp` |
+
+Root: `C:\Personal\Kill Team\kill_team_2024\`
+
+### Kill Team 2021 (KT21 / 2e) — archive only
+
+| Area | Pointer file | Notes |
+|------|--------------|-------|
+| Core book + compendium | [`raw/pointers/kill_team_2021_archive.md`](../raw/pointers/kill_team_2021_archive.md) | Not for current play; see [`reference/kill_team_2e/`](kill_team_2e/) |
+
+Root: `C:\Personal\Kill Team\kill_team_2021\`
+
+**Out of scope this track:** `C:\Personal\Kill Team\Community Content\` (homebrew / community sheets — not authoritative).
+
+---
+
 ## Living web references
 
 Use these for edition drift checks. Record a **retrieval date** on any claim sourced from the web.
+
+### Warhammer 40,000
 
 | Source | URL | Use |
 |--------|-----|-----|
@@ -120,6 +159,16 @@ Use these for edition drift checks. Record a **retrieval date** on any claim sou
 | **Wahapedia (index)** | https://wahapedia.ru/ | Community rules reference; cross-check against owned PDFs |
 | **Wahapedia — Necrons** | https://wahapedia.ru/wh40k10ed/factions/necrons | Necron faction hub (11th Edition content) |
 | **Wahapedia — Space Marines** | https://wahapedia.ru/wh40k10ed/factions/space-marines | Space Marines faction hub (11th Edition content) |
+
+### Kill Team
+
+| Source | URL | Use |
+|--------|-----|-----|
+| **Warhammer Community — Kill Team** | https://www.warhammer-community.com/en-gb/kill-team/ | Official KT downloads, FAQs, updates |
+| **Wahapedia — Kill Team 3 / KT24** | https://wahapedia.ru/kill-team3/ | Community KT24 reference; cross-check owned PDFs |
+| **Wahapedia — Kill Team 2 (archive)** | https://wahapedia.ru/kill-team2/the-rules/core-rules/ | 2e archive only — not current play |
+
+Pointer: [`raw/pointers/kill_team_web_living_sources.md`](../raw/pointers/kill_team_web_living_sources.md)
 
 ---
 
@@ -160,6 +209,7 @@ Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb Worl
 ---
 
 ## Change Log
+- v1.2 (2026-08-17): Kill Team 2024 + 2021 library rows, living KT web refs, Screen_Captures secondary-trust note (slice S0, kill_team_2024_scaffold).
 - v1.1 (2026-08-16): Ownership snapshot aligned to FOUNDATION — Tomb World owned and game-ready; dual Warriors/Scarabs; Immortals sprue; Hierotek TBD. Removed stale "Not owned — superseded" row. S4 coord preflight.
 - v1.0 (2026-08-16): Initial catalog (slice S2). Local library paths, living web refs, Preflight Necron_Lists import noted.
 

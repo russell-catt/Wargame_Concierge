@@ -1,12 +1,13 @@
 ---
 title: Log
 type: log
-system: warhammer_40k_11e
+system: multi_system
+systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-17
 sources: []
 confidence: verified
-tags: [log, activity, append-only]
+tags: [log, activity, append-only, kill_team_2024]
 ---
 
 # KB Log
@@ -228,3 +229,53 @@ Nothing under `raw/` was created, modified, or deleted. No git commit, no push -
 
 Next step: **S4** (Final Sanity, then commit and push).
 
+---
+
+## [2026-08-17] ingest | L1 `kill_team_2024_scaffold` - first Kill Team 2024 ingest (core rules)
+
+**The first ingest for the KB's second game system.** Kill Team 2024 (KT24 / 3rd Edition) joins Warhammer 40,000 11th Edition as a tracked system, with its own `system: kill_team_2024` pages and its own section in every multi-system core file.
+
+**Track / slice:** `kill_team_2024_scaffold` / L1 (Librarian, Tier 0)
+**Depends on:** Preflight, S0 (both Resolved - Complete)
+**Model:** `claude-sonnet-5-thinking-high` (locked matrix value; **not** `claude-fable-5-thinking-high` per the standing exclusion in `track_in.md`). No waiver needed this slice.
+
+**Sources ingested:**
+
+| Source | Class | Read? |
+|--------|-------|-------|
+| Wahapedia - Kill Team 3 Core Rules, <https://wahapedia.ru/kill-team3/the-rules/core-rules/> | Living web reference | **In full**, retrieved 2026-08-17 |
+| `raw/pointers/kill_team_2024_core.md` (owned Core Rules PDF, lite rules, update log, universal equipment, sniper update) | Pointer stub to owned PDFs | Registered only - the Librarian cannot open binaries |
+| `raw/pointers/kill_team_web_living_sources.md` | Pointer stub | Read in full |
+
+**Pages created (7):**
+
+- Sources: `kill_team_2024_core_rules`
+- Concepts: `turning_points`, `activations_apl`, `orders_conceal_engage`, `cover_kill_team`, `control_range_kill_team`, `injured_operatives`
+
+**Pages updated (5):** `glossary` (new Kill Team 2024 section, 20 terms; 6 collision-flag pairs against existing 40K terms), `overview` (new "Second system" section; multi-system frontmatter and metrics), `index` (new Kill Team 2024 section with its own Sources/Concepts tables; multi-system frontmatter), `log` (this entry; multi-system frontmatter), `changelog` (no-promotion row, see below).
+
+**Key additions:**
+
+- **Kill Team and 40K rules stay split, enforced structurally.** The new KT24 glossary section sits separate from the 40K sections, not interleaved, and every shared-sounding term (Cover, Charge, Engagement Range/Control Range, Command Point, Engage vs nothing, Injured vs Battle-shock) carries an explicit, bidirectional **collision flag** in both entries. This is the same discipline the Power Matrix error taught in the 40K track, applied pre-emptively this time instead of after a mistake.
+- **One naming deviation from the brief, recorded rather than silently applied.** The brief suggested `engagement_range_kill_team.md` as a concept-page filename, pattern-matching 40K's term. KT24's actual rule is **Control Range** - a different mechanic (visibility-gated, 1", decides marker control by APL total) from 40K's Engagement Range (non-visibility-gated, 2"/5", decides melee/movement legality). Filed as `control_range_kill_team.md` per [`AGENTS.md`](../AGENTS.md) Sec 9 ("never guess a rules term"); the deviation and reasoning are recorded on the page itself, in `glossary.md`, and in `L1_librarian.md`.
+- **Honest confidence throughout: everything is `draft`, nothing is `verified`.** The only KT24 material read this pass is a community aggregator (Wahapedia), not the owned Core Rules PDF - the Librarian cannot open binaries, and the pointer stub at `raw/pointers/kill_team_2024_core.md` stays exactly that. A `verified` KT24 page needs a future pass where a human (or an Implementer with file access) reads the owned PDF and the Librarian cross-checks against it.
+- **Wahapedia's own book-version table flags a live risk.** The KT3 Core Rules page shows a "June 2026" Core Book update, one version ahead of "February 2026" - i.e. the rules have already been revised at least once since KT24 launched, and where the owned Full-Scan PDF sits relative to that update is unknown. Recorded as an open question on `kill_team_2024_core_rules`.
+- **Second-system plumbing landed in the shared core files**, not just new pages: `glossary.md` and `overview.md` frontmatter changed from single-`system` to a `systems:` list, and `index.md` gained a visually separate Kill Team 2024 section rather than interleaving KT24 rows into the 40K tables.
+
+**What was not done, on purpose:** no `KB/factions/`, `KB/detachments/`, or `KB/units/` KT24 pages - core rules and setup come before team/operative content, mirroring the 40K `ingest_procedure` ordering. The ten owned team-rule PDFs, killzone/mission-pack terrain, Critical Ops, and Nemesis Operatives are all unread pointers, catalogued but not opened.
+
+Nothing under `raw/` was created, modified, or deleted. No git commit, no push - Coordinator-owned per the standing guardrail.
+
+Next step: **S1** (KT24 rules teaching docs under `games/kill_team_2024/rules/`), then **S2** (setup + killzones). See `L1_librarian.md` for the full inherited-documentation block.
+
+
+## [2026-08-17] ingest | nemesis_ops_research L1 — Nemesis OCR + WarCom
+
+Pages created: `warcom_nemesis_operatives_free`, `community_kt24_npo_aids`
+Pages updated: `nemesis_operatives`, `index`, `glossary` (Nemesis Ops term stubs)
+Key additions: OCR available outside git; eng.pdf deleted; `join_ops` renamed to `joint_ops`; no dossier datasheet paste into KB; WarCom free full profiles = none found.
+
+## [2026-08-17] lint | nemesis_ops_ocr_spotcheck
+Pages consulted: nemesis_operatives.md, games/kill_team_2024/nemesis_ops/*, OCR_Spotcheck_Matrix.md
+Output filed: yes — confidence bumps on How-To / Custom_Builder / Mission_Packs (process+titles verified); tables remain out of git
+Key additions: OCR page-order vs printed-footer offset noted; Ambull/Archivist titles vision-confirmed

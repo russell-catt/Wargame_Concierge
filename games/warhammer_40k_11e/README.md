@@ -78,10 +78,12 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 | [`setup/README.md`](setup/README.md) | Stub | Board and terrain setup |
 | [`armies/necrons/`](armies/necrons/) | Partial | Parent's Necron force |
 | [`armies/space_marines/`](armies/space_marines/) | Partial | Son's Space Marine force |
+| [`armies/death_guard/`](armies/death_guard/) | **Cross-link stub only** | Not in 40K teaching scope — pointer for Plague Marines KT miniatures ([`kill_team_2024` track](../../docs/handoffs/kill_team_2024_scaffold/track_in.md)); no army package |
 
 ---
 
 ## Change Log
+- v1.1 (2026-08-17): Noted Death Guard folder as KT cross-link stub only (slice S5, kill_team_2024_scaffold) — locked 40K forces remain Necrons + Space Marines.
 - v1.0 (2026-08-16): Initial scaffold (slice S2). README, army folders, Necron import.
 
 ## Attribution

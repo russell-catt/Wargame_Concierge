@@ -33,9 +33,9 @@ UPDATE_TRIGGER:
 
 **Wargame_Concierge is a personal concierge for learning tabletop wargames.** It teaches the rules, walks through setting up a board, and helps build beginner army lists from the models actually sitting on the shelf.
 
-The first system in scope is **Warhammer 40,000, 11th Edition**, with **Necrons** as the learning army and **Space Marines** as the opposing force. The structure underneath is deliberately game-agnostic - 40K is the first worked example, not the only intended one.
+The first systems in scope are **Warhammer 40,000, 11th Edition** (Necrons + Space Marines) and **Kill Team 2024 / 3e** (scaffold track in progress — see [`docs/handoffs/kill_team_2024_scaffold/track_in.md`](docs/handoffs/kill_team_2024_scaffold/track_in.md)). The structure underneath is deliberately game-agnostic.
 
-**Status: track `v1_scaffold` is in progress.** The scaffolding, schema, and conventions exist. Most of the teaching content does not yet. See [`docs/handoffs/v1_scaffold/track_in.md`](docs/handoffs/v1_scaffold/track_in.md) for exactly which slices have landed.
+**Status:** `v1_scaffold` Closed - Complete for 40K beginner spine; `kill_team_2024_scaffold` In Progress (teaching tree + Join Ops landed 2026-08-17; commits + Final Sanity pending).
 
 ---
 

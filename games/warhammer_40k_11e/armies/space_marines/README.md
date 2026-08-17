@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v2.0 (2026-08-16)
+VERSION: v2.1 (2026-08-17)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-link)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -88,10 +88,12 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 - Web: [Wahapedia Space Marines](https://wahapedia.ru/wh40k10ed/factions/space-marines)
 - Shared rules spine: [`../../rules/README.md`](../../rules/README.md) and [`../../setup/README.md`](../../setup/README.md)
 - Companion army: [`../necrons/README.md`](../necrons/README.md) - the other side of the first game
+- Cross-game (Kill Team): [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) now carries a "Kill Team ownership sync" section against the [Angels of Death KT package](../../../kill_team_2024/teams/angels_of_death/README.md) (slice S6) - same Intercessor-family kits, separate rules, dual-legality pending check
 
 ---
 
 ## Change Log
+- v2.1 (2026-08-17): Cross-linked the new Kill Team "Angels of Death" ownership sync (slice S6) under Sources.
 - v2.0 (2026-08-16): Indexed the five S5 documents - army rule guide, detachment guide, two starter lists, and the laminate - and rebuilt the inventory worksheet. Recorded the Chapter-mixing cost, the Legends exclusions, and non-linear unit pricing. Collection status remains honestly unknown (slice S5).
 - v1.0 (2026-08-16): Initial faction README stub (slice S2).
 

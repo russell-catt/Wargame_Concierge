@@ -1,27 +1,32 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v2.0 (2026-08-16)
+VERSION: v2.2 (2026-08-17)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-sync)
 
 DOCUMENT_TYPE: Inventory / Worksheet Template
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
-REFERENCE_STATUS: Worksheet - still unfilled. Every datasheet name and cost referenced here is from MFM Marines v1.2, read 2026-08-16
+REFERENCE_STATUS: Worksheet - still unfilled. Every datasheet name and cost referenced here is from MFM Marines v1.2, read 2026-08-16. Kill Team cross-sync (S6) uses base sizes from the living Wahapedia Angel of Death page, retrieved 2026-08-17.
 
 SOURCES:
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, printed 13 Aug 2026; read 2026-08-16) - which datasheets exist in matched play, and what they cost
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1; Legends section read 2026-08-16) - which older kits are Legends
+  - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17) - Kill Team operative list and base sizes for the S6 cross-sync section
+  - games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md (slice S6, KT-side half of this sync)
 
 PURPOSE:
   Worksheet for cataloguing the son's Space Marine models. S5 kept it a fill-in
   and added the two things that actually make the audit hard: telling Firstborn
   from Primaris, and knowing which older kits are no longer matched-play legal.
+  S6 added the Kill Team ownership sync section below.
 
 UPDATE_TRIGGER:
   Replace the template rows with confirmed ownership when the collection is
-  audited. Re-check the Legends list on each faction pack revision.
+  audited. Re-check the Legends list on each faction pack revision. Re-check
+  the Kill Team sync table if Angel of Death base sizes or operative list
+  change in an update log.
 -->
 
 # Space Marine Owned Models Inventory
@@ -136,6 +141,26 @@ Kept so shopping lists never double-count something already on the shelf.
 
 ---
 
+## Kill Team ownership sync — Angels of Death (slice S6)
+
+The **Angels of Death** Kill Team 2024 team ([`games/kill_team_2024/teams/angels_of_death/`](../../../kill_team_2024/teams/angels_of_death/)) is built entirely from Intercessor-family Adeptus Astartes kits — the same kits this 40K collection draws on. Per the locked cross-game policy in [`docs/handoffs/kill_team_2024_scaffold/track_in.md`](../../../../docs/handoffs/kill_team_2024_scaffold/track_in.md), those KT operatives are recorded here as **available via Kill Team ownership**, with an explicit provenance tag — **this is not the same as confirming they are owned, assembled, or dual-legal for 40K.**
+
+| 40K datasheet (this collection) | Kill Team source operative(s) | Base size (KT datacard, Wahapedia 2026-08-17) | Provenance | Dual-legal for 40K on this base? |
+|----------------------------------|--------------------------------|-------------------------------------------------|------------|-------------------------------------|
+| Captain | Angel of Death — Space Marine Captain | 40mm | Kill Team (Angels of Death) | pending check |
+| Intercessor Squad | Angel of Death — Intercessor Sergeant, Intercessor Gunner, Intercessor Warrior | 32mm | Kill Team (Angels of Death) | pending check |
+| Assault Intercessor Squad | Angel of Death — Assault Intercessor Sergeant, Assault Intercessor Grenadier, Assault Intercessor Warrior | 32mm | Kill Team (Angels of Death) | pending check |
+| Eliminator Squad | Angel of Death — Eliminator Sniper | 40mm | Kill Team (Angels of Death) | pending check |
+| Heavy Intercessor Squad | Angel of Death — Heavy Intercessor Gunner | 40mm | Kill Team (Angels of Death) | pending check |
+
+**Read this table carefully:**
+
+- **"Available via Kill Team ownership" is not "confirmed owned."** The Angels of Death team's own worksheet ([`games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md)) still marks assembly and paint as `pending check` — no photos or audit yet (S10 gate).
+- **Base size is a physical spec pulled from the KT datacard footer, not an invented 40K legality claim.** Whether that same base also satisfies the current 40K faction pack's basing requirement for each datasheet is a separate, unaudited question — hence `pending check` in every row.
+- **Do not move any of these rows into "Game-ready" or "Owned - build before play" above** until both the KT-side assembly/paint state and the 40K-side base-size/legality check are actually confirmed. Keep this table as the honest holding area for "might be the same models" until then.
+
+---
+
 ## Chapter and mixing note
 
 Write down which **Chapter** the collection is painted as. It matters for one specific reason: if the army includes any **Blood Angels, Dark Angels, Deathwatch or Space Wolves** units, the Oath of Moment army rule loses its +1 to Wound for the whole game. See [`Oath_of_Moment.md`](Oath_of_Moment.md).
@@ -161,9 +186,18 @@ Write down which **Chapter** the collection is painted as. It matters for one sp
 - [`README.md`](README.md) - faction entry point
 - [`Oath_of_Moment.md`](Oath_of_Moment.md) - why the Chapter question matters
 
+### Cross-game (Kill Team)
+
+- ["Kill Team ownership sync" section above](#kill-team-ownership-sync--angels-of-death-slice-s6) — the mapping table itself
+- [`games/kill_team_2024/teams/angels_of_death/`](../../../kill_team_2024/teams/angels_of_death/) — Angels of Death KT package (same physical Marines may map here)
+- [`games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md) — KT-side worksheet; fill with base size + dual-legality when audited
+- Policy: owned ≠ dual-legal — see [`docs/handoffs/kill_team_2024_scaffold/track_in.md`](../../../../docs/handoffs/kill_team_2024_scaffold/track_in.md)
+
 ---
 
 ## Change Log
+- v2.2 (2026-08-17): Slice S6 — added the full "Kill Team ownership sync" section: a 40K-datasheet-to-KT-operative mapping table (Captain, Intercessor Squad, Assault Intercessor Squad, Eliminator Squad, Heavy Intercessor Squad) with base sizes from the living Wahapedia Angel of Death page, provenance tagged "Kill Team (Angels of Death)", and dual-legality/ownership left honestly `pending check` throughout.
+- v2.1 (2026-08-17): Slice S6 closeout — cross-link Angels of Death Kill Team package; dual-legality remains pending until SM audit + base check.
 - v2.0 (2026-08-16): Rebuilt as a working audit worksheet (slice S5). Added the Firstborn/Primaris identification test, a Legends-vs-legal table checked against the owned faction pack v1.1 with MFM Marines v1.2 costs, an "owned but Legends or unidentified" bucket, and the Chapter-mixing note. Fill-in structure preserved throughout - **no ownership has been assumed or invented.**
 - v1.0 (2026-08-16): Empty worksheet template (slice S2).
 

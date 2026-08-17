@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v1.2 (2026-08-16)
+VERSION: v1.3 (2026-08-17)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; Path A cheaper-first)
 
 DOCUMENT_TYPE: Learning List / Expansion Guide
 PROJECT_NAME: Wargame_Concierge
@@ -56,9 +56,9 @@ Plus the **Hierotek Circle** set, assembled and painted, still `TBD` pending pho
 
 ---
 
-## Path A - Canoptek Court, 500 / 500
+## Path A - Canoptek Court, 405 / 500
 
-The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawlers, and Macrocytes all benefit from the Power Matrix. See [`Canoptek_Court.md`](Canoptek_Court.md).
+The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawlers, and Macrocytes all benefit from the Power Matrix. See [`Canoptek_Court.md`](Canoptek_Court.md). Active list needs no purchase: build the 2nd Scarab set and you are ready.
 
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
@@ -68,16 +68,15 @@ The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawler
 | Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms (2nd set) | 3 | **40** | **OWNED** - sprue, build before play |
-| Canoptek Wraiths | 3 | **95** | **PURCHASE** |
-| | | **500** | |
+| | | **405** | Zero purchases, one bench evening |
 
 **How it is meant to be arranged:**
 
 - **Geomancer joins the Warriors.** Keeps them alive on the home objective while everything else pushes for Power Matrix territory.
-- **Tomb Crawlers and Wraiths take the middle.** Control half the No Man's Land objectives at the start of a phase and the whole region joins your Matrix for that phase - which upgrades both units at once.
+- **Tomb Crawlers take the middle.** Control half the No Man's Land objectives at the start of a phase and the whole region joins your Matrix for that phase - which upgrades the Crawlers and any other Canoptek in that region.
 - **Macrocytes and both Scarab units go wide.** Cheap Objective Control bodies that also count as Canoptek for the Matrix bonus.
 
-**Cheaper variant - 405 points, no purchase.** Drop the Wraiths and build the 2nd Scarab set: Geomancer 75 + Warriors 80 + Tomb Crawlers 85 + Macrocytes 85 + Scarabs (both sets) 80 = 405. Zero purchases, one bench evening.
+**Full 500 variant - add Wraiths.** Buy Canoptek Wraiths (3) for 95: 405 + 95 = 500. Pair them with the Tomb Crawlers in the middle so both units upgrade together when the Matrix is up.
 
 ---
 
@@ -117,7 +116,7 @@ The detachment the Immortals and second Warriors squad feed once built. See [`Cr
 | Canoptek Scarab Swarms (3) | 40 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - sprue | - |
 | Immortals (5) | 70 | - | **OWNED** - sprue |
-| Canoptek Wraiths (3) | 95 | Buy | - |
+| Canoptek Wraiths (3) | 95 | Optional (full 500) | - |
 | Plasmancer | 55 | - | `TBD` / buy |
 
 Retail and second-hand price tracking for genuinely-unowned models lives in [`Necron_Lists.md`](Necron_Lists.md) - **its shopping tracker already excludes the full Tomb World box, the 2nd Warriors squad, the 2nd Scarab set, and the Immortals as owned.**
@@ -159,6 +158,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 ---
 
 ## Change Log
+- v1.3 (2026-08-17): Path A active list is now the cheaper no-purchase variant (405 / 500) - foundation plus 2nd Scarab set; Wraiths demoted to an optional full-500 upgrade.
 - v1.2 (2026-08-16): Rebuilt both paths around the corrected ownership decision - the full Kill Team: Tomb World box (Geomancer, Warriors, Tomb Crawlers, Macrocytes, Scarab Swarms) is the 365-point owned foundation for both detachments. Shopping summary now explicitly excludes owned Macrocytes and Tomb World Scarab Swarms; sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not shopping targets (slice S2, `tomb_world_ownership`).
 - v1.1 (2026-08-16): Ownership tags re-verified against then-current FOUNDATION; described Tomb World as not owned. *(That claim was erroneous - superseded by v1.2.)*
 - v1.0 (2026-08-16): Initial 500-point expansion lists (slice S4). Both paths costed from Munitorum Field Manual v1.2, with owned and purchase tags on every entry.

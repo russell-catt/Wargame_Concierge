@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
-VERSION: v1.2 (2026-08-16)
+VERSION: v1.3 (2026-08-17)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; slice S4 KT cross-sync)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -12,6 +12,7 @@ SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION; preferred project copy)
   - docs/handoffs/tomb_world_ownership/track_in.md (locked ownership decision, 2026-08-16)
   - docs/Project_Planning.md Sec 3
+  - games/kill_team_2024/teams/canoptek_circle/Owned_Models_Inventory.md (KT cross-sync, slice S4, 2026-08-17)
 
 PURPOSE:
   Physical model inventory for the Necron collection. Every list document must
@@ -19,12 +20,15 @@ PURPOSE:
 
 UPDATE_TRIGGER:
   Update when models are assembled, painted, acquired, or sold. Sync with
-  Necron_Lists.md FOUNDATION when ownership changes.
+  Necron_Lists.md FOUNDATION when ownership changes. Sync with the Kill Team
+  Canoptek Circle inventory when KT base-size/dual-legality audits complete.
 -->
 
 # Necron Owned Models Inventory
 
-**Confirmed ownership as of 2026-08-16.** Mirrors the FOUNDATION section of [`Necron_Lists.md`](Necron_Lists.md).
+**Confirmed ownership as of 2026-08-16; Kill Team cross-sync added 2026-08-17.** Mirrors the FOUNDATION section of [`Necron_Lists.md`](Necron_Lists.md).
+
+> **Cross-game note (slice S4):** the Kill Team: Tomb World models below are the same physical minis used by the **Kill Team 2024 Canoptek Circle** team. KT rules and 40K rules stay separate — see [`games/kill_team_2024/teams/canoptek_circle/README.md`](../../../kill_team_2024/teams/canoptek_circle/README.md). Owning the models for both games does not make them dual-legal in both; see the **KT provenance / dual-legality** column below.
 
 > **Correction (2026-08-16):** an earlier version of this document listed Kill Team: Tomb World as **not owned**. That was erroneous. Tomb World **is owned** and its five units are assembled, painted, and game-ready. The table below reflects the corrected, locked ownership decision.
 
@@ -36,13 +40,13 @@ Use **assembly state** and **paint state** to decide what is playable this weeke
 
 **Kill Team: Tomb World** — the preferred learning baseline. All five units below are assembled, painted, and playable now:
 
-| Item | Qty | Assembly | Paint | Notes |
-|------|-----|----------|-------|-------|
-| Cryptek Geomancer | 1 | Assembled | Painted | Kill Team: Tomb World |
-| Canoptek Tomb Crawlers | 2 | Assembled | Painted | Kill Team: Tomb World |
-| Canoptek Macrocytes | 5 | Assembled | Painted | Kill Team: Tomb World |
-| Necron Warriors | 10 (1st squad) | Assembled | Painted | Kill Team: Tomb World |
-| Canoptek Scarab Swarms | 3 (1st set) | Assembled | Painted | Kill Team: Tomb World |
+| Item | Qty | Assembly | Paint | Notes | KT provenance / dual-legality |
+|------|-----|----------|-------|-------|--------------------------------|
+| Cryptek Geomancer | 1 | Assembled | Painted | Kill Team: Tomb World | KT: Canoptek Circle **Geomancer**. Base 50mm (Wahapedia, 2026-08-17). Dual-legal for 40K on current base: **pending check** |
+| Canoptek Tomb Crawlers | 2 | Assembled | Painted | Kill Team: Tomb World | KT: Canoptek Circle **Tomb Crawler** ×2. Base 50mm (Wahapedia, 2026-08-17). Dual-legal for 40K on current base: **pending check** |
+| Canoptek Macrocytes | 5 | Assembled | Painted | Kill Team: Tomb World | KT: Canoptek Circle **Macrocytes** — splits as 1 Accelerator + 1 Reanimator + 3 Warriors. Base 28mm each (Wahapedia, 2026-08-17). Dual-legal for 40K on current base: **pending check** |
+| Necron Warriors | 10 (1st squad) | Assembled | Painted | Kill Team: Tomb World | Not a Canoptek Circle operative. **Naming collision only** — KT's "Canoptek Macrocyte Warrior" is a different, unrelated model (tracked above under Macrocytes) |
+| Canoptek Scarab Swarms | 3 (1st set) | Assembled | Painted | Kill Team: Tomb World | Not part of the Canoptek Circle 8-operative roster — no KT cross-reference this slice |
 
 **Hierotek Circle Kill Team (used set)** — also game-ready, but its exact 40K datasheets are unidentified:
 
@@ -92,7 +96,16 @@ Second copies of the Tomb World battleline, plus a squad of Immortals, all still
 
 ---
 
+## Related pages (cross-game)
+
+- [`games/kill_team_2024/teams/canoptek_circle/README.md`](../../../kill_team_2024/teams/canoptek_circle/README.md) — the KT team package built from the Geomancer, Tomb Crawlers, and Macrocytes above
+- [`games/kill_team_2024/teams/canoptek_circle/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/canoptek_circle/Owned_Models_Inventory.md) — the KT-side inventory this page cross-links; owns the base-size / dual-legality detail
+- [`docs/handoffs/kill_team_2024_scaffold/track_in.md`](../../../../docs/handoffs/kill_team_2024_scaffold/track_in.md) — locked cross-game policy (rules stay separate; inventories sync)
+
+---
+
 ## Change Log
+- v1.3 (2026-08-17): Slice S4 — cross-synced with the new Kill Team 2024 Canoptek Circle inventory. Added a "KT provenance / dual-legality" column to the Game-ready table (Geomancer, Tomb Crawlers, Macrocytes now note their KT operative mapping, Wahapedia base size, and pending 40K dual-legality check). Flagged the Necron Warriors / "Canoptek Macrocyte Warrior" naming collision explicitly so the two are never conflated. Added Related pages (cross-game) section.
 - v1.2 (2026-08-16): Corrected Tomb World ownership per locked decision in `docs/handoffs/tomb_world_ownership/track_in.md` - Geomancer, 2x Tomb Crawlers, 5x Macrocytes, 10x Warriors, and 3x Scarab Swarms moved to Game-ready (Kill Team: Tomb World). Removed the erroneous "Explicitly NOT owned" section. Added ownership totals table.
 - v1.1 (2026-08-16): Re-verified against current `Necron_Lists.md` FOUNDATION; confirmed no Tomb World ownership; noted project copy as preferred source when copies diverge. *(Superseded - see v1.2.)*
 - v1.0 (2026-08-16): Initial inventory from Preflight FOUNDATION (slice S2).

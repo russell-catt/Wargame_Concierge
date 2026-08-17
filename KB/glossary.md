@@ -1,12 +1,13 @@
 ---
 title: Glossary
 type: glossary
-system: warhammer_40k_11e
+system: multi_system
+systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-16
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md]
+updated: 2026-08-17
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules]
 confidence: draft
-tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines]
+tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
 
 # Glossary
@@ -19,7 +20,9 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Read this first
 
-**Status after L2 (2026-08-16).** L0 seeded four terms, L1 expanded them to 32, and **L2 reconciled the page against the rules documents S3, S4 and S5 actually read.** Three new terms were added in that pass: Territory, Support, and Combat Doctrines.
+**This page is now multi-system (2026-08-17, `kill_team_2024_scaffold` L1).** Wargame_Concierge's second game system, **Kill Team 2024 (KT24 / 3rd Edition)**, has its own section below, clearly separated from the Warhammer 40,000 11e sections above and below it. **Kill Team and 40K are separate games with separate rules** - this page is the *one place* both systems' terminology lives, precisely so a shared word (Cover, Charge, Engage, Objective marker, Command Point...) never gets read as meaning the same thing in both. Every such term carries a **collision flag** in both its 40K entry and its Kill Team entry, cross-linking to the other. See the **Kill Team** entry under "Other game systems" below for the standing warning this project already carries against conflating the two systems' rules or models.
+
+**Status after L2 40K pass (2026-08-16).** L0 seeded four terms, L1 expanded them to 32, and **L2 reconciled the page against the rules documents S3, S4 and S5 actually read.** Three new terms were added in that pass: Territory, Support, and Combat Doctrines.
 
 **Game terms (29):**
 
@@ -139,6 +142,30 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: core rules keyword
 - Verify against: shipping `Keyword_Glossary.md`
 
+**Cover** - `verified` · **collision flag added 2026-08-17**
+: Worsens the *attacking* weapon's Ballistic Skill by 1. Cover is a property of terrain and positioning checked in the shooting sequence; it does not touch the target's save directly. This is an 11th Edition change from the prior "cover improves your save" wording - see the deprecated list.
+: **Collision flag.** Kill Team 2024 also has a rule called "Cover", and it works the opposite way round - it grants the *defender* a free retained defence success rather than penalising the attacker's accuracy. **Do not read one system's Cover into the other.** See **Cover** in the Kill Team 2024 section below and [[cover_kill_team]] for the full comparison table.
+- Faction / scope: core rules
+- Verify against: shipping `Keyword_Glossary.md` ("Benefit of cover")
+
+**Charge** - `verified` · **collision flag added 2026-08-17**
+: Declare a charge within 12" of an enemy unit, roll 2D6, and move up to that distance to end engaged with every unit you declared against. Cannot be attempted after Advancing or Falling Back; a double 1 always fails.
+: **Collision flag.** Kill Team 2024 also has an action called "Charge" - a 1AP move action, no dice roll involved, that lets the active operative move Move+2" and must end within 1" control range of an enemy operative. Same word, unrelated resolution. See **Charge** in the Kill Team 2024 section below.
+- Faction / scope: core rules
+- Verify against: shipping `Keyword_Glossary.md`
+
+**Engagement Range** - `verified` · **collision flag added 2026-08-17**
+: A fixed zone of 2" horizontally and 5" vertically around a model. Being inside an enemy unit's Engagement Range is what "in melee" means for movement, shooting, and phase-transition purposes - a pure geometric distance test, independent of visibility.
+: **Collision flag.** Kill Team 2024 has no term called "Engagement Range" - its nearest equivalent is **Control Range**, a visibility-gated 1" zone with a different job (marker contests by APL total, cover eligibility, Fight legality). The two are not interchangeable despite the naming brief for the `kill_team_2024_scaffold` L1 pass suggesting the filename `engagement_range_kill_team` by pattern-matching this term. See [[control_range_kill_team]] for the full comparison.
+- Faction / scope: core rules
+- Verify against: shipping `Keyword_Glossary.md`
+
+**Command Point (CP)** - `verified` · **collision flag added 2026-08-17**
+: The currency spent on stratagems. Both players gain 1 CP in the Command phase each battle round.
+: **Collision flag.** Kill Team 2024 also has Command Points, gained in the Ready step of the Strategy phase and spent on ploys instead of stratagems - similar *idea* (a resource economy for one-off effects), different *gain rule* (KT24 gives the player *without* initiative 2 CP instead of 1, from turning point two onward; 40K gives both players 1 flat). See **Command Point (CP)** in the Kill Team 2024 section below.
+- Faction / scope: core rules
+- Verify against: shipping `Keyword_Glossary.md`
+
 ---
 
 ## Necrons
@@ -208,10 +235,118 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Other game systems
 
-**Kill Team** - `draft`
+**Kill Team** - `draft` · **now a full system in scope, see below (2026-08-17)**
 : A **separate Games Workshop game**, not a mode of Warhammer 40,000. Small squads, different rules, different points.
 : It earns a glossary entry because conflating it with 40K already caused one error in this KB - see the Power Matrix entry above. Kill Team *models* can be used in 40K once matched to a datasheet; Kill Team *rules terms* have no standing in 40K content. **Keep the box and the ruleset separate.**
-- Faction / scope: outside this KB's scope, except as a source of models
+: **Kill Team 2024 (KT24 / 3rd Edition) is now a tracked system with its own KB pages** - `system: kill_team_2024` - as of the `kill_team_2024_scaffold` track. The line above still holds: this entry described the relationship correctly before a single KT24 page existed, and nothing about that relationship has changed now that pages do.
+- Faction / scope: outside 40K's scope; own system below
+- See also: the **Kill Team 2024** section below, [[kill_team_2024_core_rules]]
+
+---
+
+## Kill Team 2024 (KT24 / 3rd Edition)
+
+**Second game system, added 2026-08-17 (`kill_team_2024_scaffold` L1).** Everything in this section carries `system: kill_team_2024` in its source pages. **These are not Warhammer 40,000 terms.** Where a word is shared with the 40K sections above, both entries carry a **collision flag** pointing at each other - check both before assuming they mean the same thing. All terms below are `draft`: cross-checked against Wahapedia's Kill Team 3 Core Rules page (retrieved 2026-08-17), not yet against the owned Core Rules PDF, which the Librarian cannot open. See [[kill_team_2024_core_rules]].
+
+**Turning Point** - `draft`
+: One round of a KT24 battle: a Strategy phase then a Firefight phase, repeated a fixed number of times (four by default). No 40K equivalent term - the nearest 40K idea is **Battle round**, which is structured completely differently (each player takes a full sequential turn, rather than both sides interleaving single-operative activations). See [[turning_points]].
+- Faction / scope: Kill Team 2024, core rules, system-wide
+- Verify against: `kill_team_2024_core_rules`, then the owned Core Rules PDF
+
+**Strategy phase** / **Firefight phase** - `draft`
+: The two phases inside every Turning Point. Strategy handles Initiative, Ready (CP gain, readying operatives), and Gambit (Strategy ploys). Firefight is where operatives actually activate and act.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[turning_points]]
+
+**Activation** - `draft`
+: The unit of play in the Firefight phase: one operative, chosen by its controlling player, given an order then spending AP on actions until its player is done, then flipped to expended. Players strictly alternate single-operative activations. No 40K equivalent - 40K has no per-model activation inside a phase. See [[activations_apl]].
+- Faction / scope: Kill Team 2024, core rules
+- See also: **Command Point (CP)** below (gained at Ready, spent on ploys)
+
+**APL (Action Point Limit)** - `draft`
+: The AP budget an operative can spend during one activation, printed on its datacard. Also the value totalled to decide marker control (see Control Range, below).
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[activations_apl]]
+
+**Order: Engage** - `draft` · **collision flag**
+: One of two states chosen every time an operative activates. Engage lets it act fully (Shoot, Charge, counteract) but makes it a valid target regardless of cover.
+: **Collision flag.** Not related to 40K's **Engagement Range** (a fixed geometric zone, not a per-model order). See [[orders_conceal_engage]] and the Engagement Range collision entry in the core-rules section above.
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Order: Conceal** - `draft`
+: The other order state. Blocks Shoot, Charge, and counteracting, but the operative is not a valid target while it is in cover.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[orders_conceal_engage]]
+
+**Control Range** - `draft` · **collision flag**
+: The 1"-and-visible zone around an operative that governs marker contests (by total APL, not model count), cover eligibility, Fight legality, and move restrictions.
+: **Collision flag.** This is the closest KT24 concept to 40K's **Engagement Range**, but the two are built differently: Control Range is visibility-gated at 1" and decides marker/cover/Fight questions; Engagement Range is a pure 2"/5" distance test with no visibility component, deciding melee/movement legality. **Do not use "Engagement Range" for the KT24 term** - it does not exist in KT24. See [[control_range_kill_team]].
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Cover** (Kill Team) - `draft` · **collision flag**
+: Grants the *defender* one free retained defence success ("cover save") when a target in cover is shot, and (combined with a Conceal order) can make the target not a valid target at all.
+: **Collision flag.** Runs in the **opposite mechanical direction** from 40K's Cover, which worsens the *attacker's* Ballistic Skill instead of helping the defender's save. See the Cover entry in the core-rules section above and [[cover_kill_team]] for the full table.
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Obscured** - `draft`
+: A separate check from Cover: intervening *Heavy* terrain (not within 1" of either operative) forces the attacker to discard one success and downgrades their critical successes to normal. An operative cannot be both in cover and obscured from the same terrain feature - the defender picks one.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[cover_kill_team]]
+
+**Valid Target** - `draft`
+: The targeting test for shooting (and some rare rules): an Engage-ordered operative is valid if visible; a Conceal-ordered operative is valid only if visible **and not in cover**.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[orders_conceal_engage]], [[cover_kill_team]]
+
+**Counteract** - `draft`
+: When one side has expended every operative but the other still has ready ones, an expended Engage-ordered operative can perform one free 1AP action (not Guard), capped at once per operative per turning point and a 2" move limit. Not an activation - action restrictions from that operative's own earlier activation don't apply.
+: No 40K equivalent. The nearest 40K idea, Fire Overwatch, is a stratagem-gated reactive shoot rather than a universal end-of-phase option.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[activations_apl]]
+
+**Injured** - `draft` · **collision flag**
+: An operative below half its starting Wounds: -2" Move, and all its weapons' Hit stat worsens by 1.
+: **Collision flag.** Do not conflate with 40K's **Battle-shock**. Injured triggers off an individual model's own Wounds; Battle-shock triggers off a failed Leadership test (itself gated by unit strength) and has entirely different effects (zeroes Objective Control, blocks stratagem targeting and actions). See [[injured_operatives]].
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Incapacitated** - `draft`
+: An operative at 0 Wounds or less - the KT24 equivalent moment to a 40K model being destroyed. Separated from "removed from the killzone" so certain free actions (e.g. Place Marker) can trigger in between.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[injured_operatives]]
+
+**Command Point (CP)** (Kill Team) - `draft` · **collision flag**
+: Gained in the Ready step of the Strategy phase - 1 CP per player normally, but 2 CP for whichever player does **not** have initiative, from turning point two onward. Spent on ploys (Strategy ploys in the Gambit step, Firefight ploys during activations).
+: **Collision flag.** 40K also has Command Points, but gains a flat 1 CP per player per battle round with no initiative-based asymmetry, and spends them on stratagems rather than ploys. See the Command Point entry in the core-rules section above.
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Ploy** - `draft`
+: A CP-bought one-off rules effect. **Strategy ploys** are used in the Gambit step and are a type of `STRATEGIC GAMBIT`; **Firefight ploys** are used during activations. Every player has access to the universal **Command Re-roll** firefight ploy (1CP, re-roll one attack or defence die) plus their kill team's own ploys. Roughly analogous in *role* to a 40K stratagem, but gated by phase (Strategy vs Firefight) rather than by a stratagem's own stated timing window.
+- Faction / scope: Kill Team 2024, core rules
+- See also: **Command Point (CP)** (Kill Team), above
+
+**Operative** - `draft`
+: A KT24 model. "Friendly operative" / "enemy operative" from each player's perspective - the direct equivalent of a 40K model, but note KT24 has no unit grouping above the operative for activation purposes (each operative activates individually).
+- Faction / scope: Kill Team 2024, core rules
+
+**Datacard** - `draft`
+: An operative's rules entry: type, stats (APL, Move, Save, Wounds), weapons, additional rules, keywords, base size. The KT24 equivalent of a 40K datasheet. **Never reproduced verbatim in this repo.**
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`; your own team's rules
+
+**Killzone** - `draft`
+: The game board and terrain set a KT24 battle is played on - the rough KT24 equivalent of a 40K battlefield/board, but killzones are named, packaged terrain sets (Volkus, Shadowhunt, Tomb World, etc.) rather than a generic table.
+- Faction / scope: Kill Team 2024, setup
+- Verify against: `raw/pointers/kill_team_2024_missions.md` (unread)
+
+**Marker** - `draft`
+: A placed token affecting the game and nearby operatives. Objective markers are 40mm; all others are 20mm. Controlled by whichever side's contesting operatives have the higher total APL (see Control Range, above) - a different control mechanism from 40K's Objective Control characteristic.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[control_range_kill_team]]
 
 ---
 
@@ -316,9 +451,17 @@ How this KB writes about the game.
 - [[index]] - master catalog
 - [[overview]] - big-picture synthesis
 - [[inherited_docs_for_S3]] - what S3 may safely promote from this page
-- [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted concept pages
+- [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted 40K concept pages
+- [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] - promoted Kill Team 2024 concept pages
+- [[kill_team_2024_core_rules]] - the KT24 core-rules source page
 - [`AGENTS.md`](../AGENTS.md) - Sec 5 Keyword rule, Sec 9 terminology discipline
 
+## L1 note - `kill_team_2024_scaffold` (2026-08-17)
+
+- **Kill Team 2024 added as a full glossary section.** 20 new terms under "Kill Team 2024 (KT24 / 3rd Edition)", all `draft`, cross-checked against Wahapedia's Kill Team 3 Core Rules page (retrieved 2026-08-17). The owned Core Rules PDF is unopened by the Librarian - it is a pointer stub, not a readable file in this environment.
+- **Six 40K terms gained explicit collision flags** against their KT24 counterparts: Cover, Charge, Engagement Range, and Command Point (CP) in the core-rules section above; Engage (via Orders) and Injured (via Battle-shock) flagged from the KT24 side. Every flag is bidirectional - each entry names and links the other system's entry.
+- **Naming deviation recorded.** The ingest brief suggested `engagement_range_kill_team` as a concept-page filename. KT24's actual term is **Control Range**, a different mechanic (visibility-gated, 1", APL-based marker control) from 40K's Engagement Range (non-visibility-gated, 2"/5", movement/melee legality). Filed as `[[control_range_kill_team]]` instead, per [`AGENTS.md`](../AGENTS.md) Sec 9's "never guess a rules term."
+- **No 40K game term's status changed in this pass.** This was a pure addition; nothing above the new section was rewritten except the "Other game systems" Kill Team stub, which was extended rather than replaced.
 
 ## L2 lint note (2026-08-16)
 
@@ -338,3 +481,15 @@ How this KB writes about the game.
 - **The Technosorcerous Augmentations rename is now applied, not just preferred.** The `v1_scaffold` L2 pass recorded the preference in the note above but left the headword entry, [[cryptek_conclave]], [[necrons]], and [[power_matrix]] all still reading "Scientific Schemes". That intra-KB drift is closed in this pass, and the old label is now on the deprecated list.
 - **Source pages keep the old label on purpose.** [[necron_lists_owner_notes]] quotes `raw/Necron_Lists.md`, which says "Scientific Schemes". Per [`AGENTS.md`](../AGENTS.md) Sec 9 the conflict is recorded there rather than overwritten — the source said what it said.
 - **No ownership terms changed in this pass.** The L1 note above still stands as written. L2 re-ran the sweep and found no live Tomb World ownership denial anywhere in `KB/`.
+
+## Kill Team 2024 — Nemesis Ops terms (nemesis_ops_research L1, 2026-08-17)
+
+| Term | Definition (teaching paraphrase) | Confidence | Notes |
+|------|-----------------------------------|------------|-------|
+| Nemesis Operative | Boss-scale operative built or shipped for Joint Ops / Nemesis content; often NPO | draft | Distinct from **Nemesis Claw** player team |
+| Nemesis Custom Builder | Dossier toolkit: allegiance → size → behaviour → weapons → traits | draft | Shipping How-To in `games/kill_team_2024/nemesis_ops/` |
+| Joint Ops | Official co-op / solo PvE vs NPOs (project folder `joint_ops/`) | draft | Formerly path `join_ops/` |
+| Adversary Ops | PvP-with-NPO-assist style missions (WarCom / packs) | draft | Naming overlaps **Nemesis Ops** in dossier |
+| Nemesis Ops | Dossier mode wording alongside Joint Ops | draft | See Modes_And_Cards open naming note |
+| NPO | Non-player operative | draft | Core + expansion packs |
+
