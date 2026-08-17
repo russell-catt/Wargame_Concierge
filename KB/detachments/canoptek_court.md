@@ -43,14 +43,17 @@ That is a coherent gameplan and a demanding one - it asks a beginner to fight fo
 
 | Needed | Owned? |
 |--------|--------|
-| Canoptek Scarab Swarms (3) | **Yes** - purchased, unassembled |
-| Necron Warriors (10) | **Yes** - purchased, unassembled |
+| Cryptek Geomancer | **Yes** - Tomb World, game ready |
+| Canoptek Tomb Crawlers (2) | **Yes** - Tomb World, game ready |
+| Canoptek Macrocytes (5) | **Yes** - Tomb World, game ready |
+| Necron Warriors (20) | **Yes** - 10 game ready, 10 on sprue |
+| Canoptek Scarab Swarms (6) | **Yes** - 3 game ready, 3 on sprue |
 | Canoptek Wraiths (6, two boxes) | No |
 | Canoptek Doomstalker (2) | No |
 
-**This detachment is not currently playable.** The two units it is named for are both unowned, and the owner's estimate to complete the path is roughly $260 CAD retail, or $130-180 second-hand.
+**This detachment is playable today.** The Tomb World units are Canoptek-heavy by construction - Tomb Crawlers, Macrocytes, and Scarab Swarms are exactly the construct bodies the detachment is themed around - and they are assembled, painted, and mapped to known datasheets. The owner's notes cost a Geomancer, ten Warriors, and two Tomb Crawlers at 260 points as the Phase 1 learning force.
 
-The screening half of the list exists but needs assembling first. See [[necrons]] for the full build-before-play position.
+What is still missing is the **top end**: the Wraiths and Doomstalkers the detachment is named for. The owner's estimate to complete the path is roughly $260 CAD retail, or $130-180 second-hand. See [[necrons]] for the full inventory position.
 
 ---
 
@@ -68,12 +71,12 @@ Points and phases as recorded by the source; both need checking against the Muni
 
 | Phase | Adds |
 |-------|------|
-| 1 (250 pts) | Hierotek Circle units, once photo ID is complete |
-| 2 (500 pts) | Owned Scarab Swarms; a Doomstalker; Macrocytes if sourced |
+| 1 (250 pts) | Owned Tomb World units - Geomancer, ten Warriors, two Tomb Crawlers (260 pts by the source's count) |
+| 2 (500 pts) | Owned Macrocytes, game ready; the second Scarab set once built; a Doomstalker |
 | 3 (750 pts) | Three Canoptek Wraiths |
 | 4 (1,000 pts) | Three more Wraiths to a block of six, a second Doomstalker, the owned Immortals |
 
-Phase 1 is **blocked on the Hierotek Circle identification**, same as everything else in the collection.
+Phase 1 is **unblocked** - it is playable from game-ready models. The Hierotek Circle set is an *alternative* Phase 1 once its photo ID lands, not a prerequisite for one.
 
 ---
 

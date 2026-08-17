@@ -15,9 +15,9 @@ Master catalog of every page in this knowledge base. Read this first when answer
 
 **Schema source of truth:** [`AGENTS.md`](../AGENTS.md) at the repo root. Entity types, YAML frontmatter, naming, and the ingest / query / lint workflows are defined there, not here. This file is the catalog only.
 
-**Status:** first ingest complete, slice **L1** (2026-08-16). 5 sources, 15 entity pages. Bootstrapped in L0; the typed sections below now carry content.
+**Status:** lint complete, slice **L2** of `tomb_world_ownership` (2026-08-16). 5 sources, 17 entity pages. Bootstrapped in L0; first ingest in L1; the typed sections below carry content.
 
-> **Nothing here is `verified` on rules.** No rules document has been read - the owned core rules, both faction packs, and the points manuals are catalogued and unopened ([[local_library_pointers]]). Treat every `draft` and `unverified` row as "check before the table."
+> **Rules sources have now been read, but most `KB/` pages predate that reading.** The claim that used to sit here - "no rules document has been read" - was true at L1 and is false now: S3, S4 and S5 read the owned core rules, both faction packs, and Munitorum Field Manual v1.2, and [[glossary]] carries 24 `verified` game terms as a result. What has **not** happened is a back-fill: the faction, detachment and concept pages below still mostly rest on the owner's planning notes. Treat every `draft` and `unverified` row as "check before the table", and prefer the shipping teaching content under `games/warhammer_40k_11e/` where the two disagree.
 
 ---
 

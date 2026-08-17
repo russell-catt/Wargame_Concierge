@@ -7,24 +7,31 @@ created: 2026-08-16
 updated: 2026-08-16
 sources: [necron_lists_owner_notes]
 confidence: draft
-tags: [detachment, necrons, cryptek, scientific_schemes, expansion_path]
+tags: [detachment, necrons, cryptek, technosorcerous_augmentations, expansion_path]
 ---
 
 # Cryptek Conclave
 
-The Necron detachment built around Cryptek characters leading massed infantry, whose detachment rule - **Scientific Schemes** - stacks ranged buffs and multiplies the army's reanimation.
+The Necron detachment built around Cryptek characters leading massed infantry, whose detachment rule - **Technosorcerous Augmentations** - upgrades the guns of whichever squad a Cryptek is standing with, one choice at a time, every Shooting phase.
 
 ---
 
-## The detachment rule: Scientific Schemes
+## The detachment rule: Technosorcerous Augmentations
 
-Named by [[necron_lists_owner_notes]] and described there as stacking ranged profile buffs together with reanimation multipliers. Nothing beyond the name and that one-line shape is confirmed.
+**The rule name changed in L2, and the old one was wrong.** [[necron_lists_owner_notes]] calls it "Scientific Schemes" and describes it as stacking ranged profile buffs with reanimation multipliers. That label appears nowhere in the owned Necrons faction pack v1.1 and nowhere on [[wahapedia]] - both checked 2026-08-16. It came from the owner's pre-project blueprint notes. The deprecated label is recorded in [[glossary]].
 
-If the description holds, the rule points the detachment at the opposite extreme from [[canoptek_court]]: rather than earning accuracy by taking ground, it improves the shooting of infantry that is already standing still, and makes them harder to shift by amplifying [[reanimation_protocols]].
+What the rule actually does, read off page 7 of the owned faction pack:
 
-That combination produces the "castle" the source describes - a defensive block that out-attritions an opponent instead of out-manoeuvring one.
+- **Cryptek guns become mobile.** Ranged weapons on Cryptek models gain `[ASSAULT]`, so the unit can advance and still shoot.
+- **A menu pick, per unit, per phase.** Each time a Cryptek unit is selected to shoot, choose one ability - `[ANTI-INFANTRY 3+]`, `[ANTI-MOUNTED 4+]`, `[ASSAULT]`, `[HEAVY]`, or `[IGNORES COVER]` - and every ranged weapon in that unit has it until the end of the phase.
 
-**Verify before use.** The detachment name is reliable; the effect is a paraphrase of a paraphrase. Check `raw/pointers/faction_pack_necrons.md`.
+The keyword mechanic is what makes this worth building around: an attached Cryptek character lends the Cryptek keyword to its whole bodyguard unit, so the upgrade lands on ten Warriors' guns rather than on one character's pistol. An unattached Cryptek is close to a wasted pick.
+
+So the source's one-line summary was directionally right about the *shape* - this detachment stands still and shoots better - but wrong about both the name and the reanimation half. The reanimation interaction is a stratagem, not the detachment rule.
+
+That still points the detachment at the opposite extreme from [[canoptek_court]]: rather than earning accuracy by taking ground, it improves the shooting of infantry that is already standing still, and [[reanimation_protocols]] makes them hard to shift.
+
+**Confidence.** The rule name and both effects are `verified` against the owned faction pack; this page stays `draft` overall because its ownership costings and expansion phases still come from the owner's notes. The full teaching treatment is at [`games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md`](../../games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md).
 
 ---
 
@@ -42,19 +49,20 @@ For a beginner this is the **more forgiving** of the two Necron paths. Fewer mov
 
 | Needed | Owned? |
 |--------|--------|
-| Necron Warriors (10, first box) | **Yes** - purchased, unassembled |
+| A Cryptek character | **Yes** - the Tomb World **Cryptek Geomancer**, game ready |
+| Necron Warriors (20, merging toward a max block) | **Yes** - 10 game ready, 10 on sprue |
+| Canoptek Scarab Swarms (6) | **Yes** - 3 game ready, 3 on sprue |
 | Immortals (5, first box) | **Yes** - purchased, unassembled |
-| Canoptek Scarab Swarms (3) | **Yes** - purchased, unassembled |
-| A Cryptek character (Plasmancer) | Not confirmed - **may be in the Hierotek Circle set** |
+| Plasmancer | No |
 | Illuminor Szeras | No |
 | Lychguard (10) | No |
-| Necron Warriors (second box of 10) | No |
+| Immortals (second box of 5) | No |
 
-**This is the cheaper path to a legal, playable list from what is already owned.** The Warriors and Immortals sitting on sprue are precisely this detachment's battleline, and the Hierotek Circle is a Cryptek-themed set, so it is plausible - not confirmed - that the one game-ready box supplies the character the detachment is named for.
+**This is the cheaper path to a legal, playable list from what is already owned - and it is playable now.** The Geomancer is a real, owned, painted Cryptek leading a real, owned, painted squad of ten Warriors. The detachment no longer depends on an assumption about an unidentified box.
 
-That plausibility is the single most useful reason to prioritise the Hierotek Circle photo identification. If those models are Crypteks, the owner has a nearly complete small Conclave list without buying anything; if they are not, both Necron paths reset to the same starting line.
+That is the substantive change from the earlier version of this page, which had this whole path resting on the guess that the Hierotek Circle contained a Cryptek. The photo ID is still worth doing - it may add a second character and more bodies - but nothing here is blocked on it.
 
-The owner's estimate to complete the full path is roughly $375 CAD retail, or $190-265 second-hand - more than Canoptek Court, because the path adds more model count rather than fewer, more expensive kits.
+The owner's estimate to complete the full path is roughly $310 CAD retail, or $155-220 second-hand - more than Canoptek Court, because the path adds more model count rather than fewer, more expensive kits.
 
 ---
 
@@ -70,21 +78,20 @@ Worth stating plainly: **the weaker-rated detachment is the better beginner choi
 
 | Phase | Adds |
 |-------|------|
-| 1 (250 pts) | Hierotek Circle units, once photo ID is complete |
-| 2 (500 pts) | Owned Scarabs and Immortals; a Plasmancer; Macrocytes if sourced |
-| 3 (750 pts) | Illuminor Szeras; a second Warrior box, merging to twenty |
+| 1 (250 pts) | Owned Tomb World units - Geomancer leading ten Warriors, with two Tomb Crawlers screening (260 pts by the source's count) |
+| 2 (500 pts) | Owned Macrocytes, game ready; the second Scarab set and the Immortals once built; a Plasmancer |
+| 3 (750 pts) | Illuminor Szeras; the owned second Warrior squad, built and merged to twenty |
 | 4 (1,000 pts) | Ten Lychguard; a second Immortal box, merging to ten |
 
-Points come from the source and need checking against the Munitorum Field Manual.
+Points come from the source and need checking against the Munitorum Field Manual. Phase 1 needs no purchase and no identification; Phase 3's Warrior block needs assembly, not shopping.
 
 ---
 
 ## What is not known
 
-- What Scientific Schemes actually does
-- Whether Crypteks can attach to these units the way the source assumes
+- Whether Crypteks can attach to these units the way the source assumes - the faction pack v1.1 moved Crypteks from **Leader** to **Support**, which changes what stacks with what
 - Whether merged blocks of 20 Warriors and 10 Immortals are legal unit sizes in 11e
-- Whether the Hierotek Circle contains a usable Cryptek character - the assumption this whole path leans on
+- Whether the Hierotek Circle contains additional usable Cryptek characters - an upside now, not a dependency: the owned Geomancer already covers the role
 
 ---
 

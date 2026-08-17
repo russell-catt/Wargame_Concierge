@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Canoptek_Court.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -102,16 +102,36 @@ The detachment's stratagems reward the same behaviour as the rule: rewarding a C
 
 Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
-| Unit | MFM v1.2 | Owned? | Note |
-|------|----------|--------|------|
-| Canoptek Scarab Swarms (3) | **40** | Yes - unassembled | Build before play. Your cheapest Matrix-flipper |
-| Canoptek Scarab Swarms (6) | **80** | Half | Merging to 6 is legal and cheap |
-| Necron Warriors (10) | **80** | Yes - unassembled | Screen and objective body. No detachment benefit |
-| Immortals (5) | **70** | Yes - unassembled | Same - good unit, no detachment benefit |
-| Canoptek Wraiths (3) | **95** first unit / **115** second | No | Melee construct that takes midfield |
-| Canoptek Doomstalker | **140** | No | The backline gun this detachment is built around |
-| Plasmancer | **55** | **Unknown - may be in the Hierotek Circle set** | Cryptek, so it benefits from the Matrix |
-| Technomancer | **80** first / **90** second | Unknown - same | Cryptek; can support Canoptek Wraiths, Immortals or Warriors |
+> **Ownership on this page was corrected on 2026-08-16 (slice L2, `tomb_world_ownership`).** The original v1.0 table was built against an inventory that wrongly recorded **Kill Team: Tomb World as not owned**. It is owned, and its five units are assembled, painted, and game-ready. Four of them are Cryptek or Canoptek, which changes this detachment's verdict completely.
+
+**Game-ready today - Kill Team: Tomb World.** These are on a shelf, painted, and mapped to known datasheets.
+
+| Unit | MFM v1.2 | Owned? | Matrix benefit? |
+|------|----------|--------|-----------------|
+| Cryptek Geomancer | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Cryptek |
+| Canoptek Tomb Crawlers (2) | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Canoptek |
+| Canoptek Macrocytes (5) | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Canoptek |
+| Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | **Yes** - Canoptek. Your cheapest Matrix-flipper |
+| Necron Warriors (10) | **80** | **Yes - game ready** | No - screen and objective body only |
+
+**Owned but on sprue - build before play.**
+
+| Unit | MFM v1.2 | Owned? | Matrix benefit? |
+|------|----------|--------|-----------------|
+| Necron Warriors (second 10, merging to 20) | **190** for 20 | Yes - on sprue | No |
+| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | **Yes** - merging to 6 is legal and cheap |
+| Immortals (5) | **70** | Yes - on sprue | No - good unit, no detachment benefit |
+
+**Not owned.**
+
+| Unit | MFM v1.2 | Note |
+|------|----------|------|
+| Canoptek Wraiths (3) | **95** first unit / **115** second | Melee construct that takes midfield |
+| Canoptek Doomstalker | **140** | The backline gun this detachment is named for |
+| Plasmancer | **55** | Cryptek. **May be in the Hierotek Circle set** - pending photo ID |
+| Technomancer | **80** first / **90** second | Cryptek; can support Wraiths, Immortals or Warriors. Same photo-ID question |
+
+> **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list. Everything else on this page was read from MFM v1.2 on 2026-08-16.
 
 > **Points health warning.** The older figures in [`Necron_Lists.md`](Necron_Lists.md) are stale - Wraiths were listed at 125 and the Doomstalker at 145. Every number on this page was read from the owned Munitorum Field Manual v1.2 on **2026-08-16**. Use these, and re-check before any event.
 
@@ -121,9 +141,13 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 ## Should a beginner pick this detachment?
 
-Honestly: **not first, on this collection.** The models that make Power Matrix sing - Wraiths and Doomstalkers - are the ones not yet owned, and the models that are owned get nothing from the rule. Come back to Canoptek Court once a Doomstalker and a Wraith unit exist on the table.
+**Yes - this is playable tonight.** Kill Team: Tomb World is Canoptek-heavy by construction: the Tomb Crawlers, Macrocytes and Scarab Swarms are exactly the construct bodies the rule rewards, the Geomancer is a Cryptek, and all of them are assembled, painted, and identified. Four of the five game-ready units benefit from Power Matrix. A Geomancer leading ten Warriors with two Tomb Crawlers screening is a real Phase 1 list, costed at roughly 260 points in the owner's notes and needing no purchase.
 
-Until then, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md), which the current sprues actually feed.
+**What you are still missing is the top end**, not the floor. Wraiths and Doomstalkers are what make Power Matrix sing at 750 points and up, and neither is owned - roughly $260 CAD retail, or $130-180 second-hand, to complete the path.
+
+> **This section said the opposite in v1.0.** It read "not first, on this collection - the models that are owned get nothing from the rule", which was drawn straight from the erroneous belief that Tomb World was not owned. If you are reading an older printout, distrust it.
+
+Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both are now playable from game-ready models, and the choice is about which rule you want to learn rather than which one you can afford.
 
 ---
 
@@ -139,6 +163,7 @@ Until then, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md), which the current 
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table and the beginner verdict were both built on the erroneous claim that Kill Team: Tomb World was not owned. Fit table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units - Geomancer, 2x Tomb Crawlers, 5x Macrocytes, 10x Warriors, 3x Scarab Swarms. Warriors and Scarabs re-tagged from "unassembled" to game-ready, with their owned duplicates flagged as build-before-play. The verdict "not first, on this collection" reversed: four of five game-ready units benefit from Power Matrix and Phase 1 is playable with zero purchases. Three units flagged as not yet costed from MFM v1.2. No rules content changed.
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S4). Power Matrix wording verified against Wahapedia and the owned faction pack FAQ; all points re-costed from Munitorum Field Manual v1.2.
 
 ## Attribution

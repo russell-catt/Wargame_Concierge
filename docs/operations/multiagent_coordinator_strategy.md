@@ -19,8 +19,11 @@ Use this document when a task is too large for one agent session, needs independ
 | Track | Path |
 |-------|------|
 | v1 scaffold — 40K 11e beginner content + Karpathy KB | [docs/handoffs/v1_scaffold/](../handoffs/v1_scaffold/) |
+| Tomb World ownership sync | [docs/handoffs/tomb_world_ownership/](../handoffs/tomb_world_ownership/) |
 
 **Librarian slices in v1_scaffold:** L0 (KB bootstrap), L1 (Tier 0 ingest), L2 (lint) — see §18.4–18.5.
+
+**Librarian slices in tomb_world_ownership:** L1 (KB ownership ingest), L2 (audit + lint) — see §18.4–18.5.
 
 **Normative playbook for this repo:** this file.
 

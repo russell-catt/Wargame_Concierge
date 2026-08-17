@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -48,7 +48,7 @@ The Necron detachment where **Cryptek characters upgrade the guns of whoever the
 
 "Scientific Schemes" appears nowhere in the owned faction pack and nowhere on Wahapedia. It came from the owner's pre-project blueprint notes, was flagged by slice S3, and is corrected here for shipping content.
 
-**Still carrying the old name, and not corrected by this slice:** [`Necron_Lists.md`](Necron_Lists.md) (imported source document), `KB/glossary.md`, and `KB/detachments/cryptek_conclave.md`. Those belong to the Librarian, not to this slice. If you read the old name anywhere, this page wins.
+**The KB has since caught up.** `KB/glossary.md` and `KB/detachments/cryptek_conclave.md` were renamed to Technosorcerous Augmentations in slice L2 of `tomb_world_ownership`, and "Scientific Schemes" is on the KB's deprecated list. The one place the old label still appears as a live term is [`Necron_Lists.md`](Necron_Lists.md), the imported source document, where it is preserved deliberately because that is what the source says. If you read the old name anywhere, this page wins.
 
 ---
 
@@ -109,18 +109,38 @@ The stratagems cover: ignoring hit-roll and Ballistic Skill modifiers, granting 
 
 Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
+> **Ownership on this page was corrected on 2026-08-16 (slice L2, `tomb_world_ownership`).** The original v1.0 table was built against an inventory that wrongly recorded **Kill Team: Tomb World as not owned**, which is why it listed the Warriors and Scarabs as unassembled and left the owned **Cryptek Geomancer** off the table entirely.
+
+**Game-ready today - Kill Team: Tomb World.**
+
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
-| Necron Warriors (10) | **80** | Yes - unassembled | The detachment's bread and butter |
-| Necron Warriors (20) | **190** | Half | Merging to 20 is legal |
-| Immortals (5) | **70** | Yes - unassembled | Better guns, fewer bodies |
-| Immortals (10) | **140** | Half | Merging to 10 is legal |
-| Canoptek Scarab Swarms (3) | **40** | Yes - unassembled | Objective-grabbers; no Cryptek synergy |
-| Plasmancer | **55** | **Unknown - check the Hierotek Circle set** | Cheapest Cryptek; attaches to Immortals or Warriors |
-| Technomancer | **80** first / **90** second | Unknown - same | Attaches to Wraiths, Immortals or Warriors |
-| Royal Warden | **50** | No | Cheap **Leader**, so it stacks with a Cryptek Support |
-| Lychguard (5) | **80** | No | Bodyguard wall. The old note's 170 for five was badly wrong |
-| Illuminor Szeras | **175** | No | Expensive; leave until well past 500 points |
+| Cryptek Geomancer | *not yet costed from MFM v1.2* | **Yes - game ready** | **The Cryptek this whole detachment needs.** Attach it to the Warriors and the detachment works |
+| Necron Warriors (10) | **80** | **Yes - game ready** | The detachment's bread and butter, and the Geomancer's bodyguard unit |
+| Canoptek Tomb Crawlers (2) | *not yet costed from MFM v1.2* | **Yes - game ready** | Screening. No Cryptek synergy, but they buy the castle time |
+| Canoptek Macrocytes (5) | *not yet costed from MFM v1.2* | **Yes - game ready** | Phase 2 bodies. See the Macrocytes correction below |
+| Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | Objective-grabbers; no Cryptek synergy |
+
+**Owned but on sprue - build before play.**
+
+| Unit | MFM v1.2 | Owned? | Note |
+|------|----------|--------|------|
+| Necron Warriors (second 10, merging to 20) | **190** for 20 | Yes - on sprue | Merging to 20 is legal, and a 20-body block is what the rule wants |
+| Immortals (5) | **70** | Yes - on sprue | Better guns, fewer bodies |
+| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | Merging to 6 is legal |
+
+**Not owned.**
+
+| Unit | MFM v1.2 | Note |
+|------|----------|------|
+| Immortals (second box, merging to 10) | **140** for 10 | Merging to 10 is legal |
+| Plasmancer | **55** | Cheapest Cryptek; attaches to Immortals or Warriors. **May be in the Hierotek Circle set** - pending photo ID |
+| Technomancer | **80** first / **90** second | Attaches to Wraiths, Immortals or Warriors. Same photo-ID question |
+| Royal Warden | **50** | Cheap **Leader**, so it stacks with a Cryptek Support |
+| Lychguard (5) | **80** | Bodyguard wall. The old note's 170 for five was badly wrong |
+| Illuminor Szeras | **175** | Expensive; leave until well past 500 points |
+
+> **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list.
 
 > **Points health warning.** [`Necron_Lists.md`](Necron_Lists.md) carries stale figures - Lychguard at 170 for five (actually **80**), Warriors at 100 (actually **80**), Immortals at 75 (actually **70**), Plasmancer at 65 (actually **55**). Everything on this page was read from the owned Munitorum Field Manual v1.2 on **2026-08-16**.
 
@@ -130,9 +150,11 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 ## Should a beginner pick this detachment?
 
-**Yes, on this collection.** The Warriors, Immortals and Scarabs already purchased are exactly what it wants, it forgives standing still, and it needs one cheap character rather than two expensive constructs. The owner's older notes rate it the weaker of the two detachments; over a first ten games that difference is invisible, and being able to field the list at all is not.
+**Yes, on this collection.** The Warriors and Scarabs are painted and on a shelf, the Immortals are a box away, it forgives standing still, and it needs one cheap character rather than two expensive constructs. The owner's older notes rate it the weaker of the two detachments; over a first ten games that difference is invisible, and being able to field the list at all is not.
 
-The whole path hinges on one unanswered question: **is there a Cryptek in the Hierotek Circle set?** See [`Starter_250.md`](Starter_250.md).
+**And the character question is already answered.** The Tomb World **Cryptek Geomancer** is owned, painted, and identified - a real Cryptek to attach to a real squad of ten painted Warriors. Nothing here waits on anything.
+
+> **This section used to end differently.** v1.0 said "the whole path hinges on one unanswered question: is there a Cryptek in the Hierotek Circle set?" That was a consequence of the erroneous "Tomb World not owned" claim. The Hierotek photo ID is now an **upside** - it may add a second Cryptek and more bodies - not a dependency. See [`Starter_250.md`](Starter_250.md).
 
 ---
 
@@ -148,6 +170,7 @@ The whole path hinges on one unanswered question: **is there a Cryptek in the Hi
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table was built on the erroneous claim that Kill Team: Tomb World was not owned: it tagged the Warriors and Scarabs "unassembled", and it omitted the owned **Cryptek Geomancer** altogether. Table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units, with Tomb Crawlers and Macrocytes added. Three units flagged as not yet costed from MFM v1.2. The beginner verdict no longer "hinges on" whether the Hierotek Circle contains a Cryptek - the owned Geomancer fills that role, and the photo ID is an upside rather than a dependency. The KB-drift note updated: `KB/` was renamed to Technosorcerous Augmentations in the same slice. No rules content changed.
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S4). Detachment rule name corrected to Technosorcerous Augmentations from the owned faction pack v1.1; all points re-costed from Munitorum Field Manual v1.2; the Macrocytes `[IGNORES COVER]` claim disproved from the datasheet.
 
 ## Attribution

@@ -132,21 +132,35 @@ These files were **copied into the repo** as allowed personal notes (not GW PDFs
 | [`raw/Necron_Lists.md`](../raw/Necron_Lists.md) | `C:\Personal\40K\rules\Necron_Lists.md` | **Preflight-updated 2026-08-16.** Expansion blueprint with confirmed ownership. Authoritative for Necron collection planning. |
 | [`games/warhammer_40k_11e/armies/necrons/Necron_Lists.md`](../games/warhammer_40k_11e/armies/necrons/Necron_Lists.md) | Same source | Working copy in the 40K game subtree |
 
-### Ownership snapshot (from Preflight import)
+### Ownership snapshot (from FOUNDATION — 2026-08-16)
 
-Confirmed **2026-08-16** in the FOUNDATION section of `Necron_Lists.md`:
+Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb World is owned and game-ready** — the preferred learning baseline.
+
+**Game-ready (Tomb World + Hierotek):**
 
 | Item | Qty | Status |
 |------|-----|--------|
-| Necron Warriors | 10 (1 squad) | Purchased, unassembled |
-| Canoptek Scarab Swarms | 3 | Purchased, unassembled |
+| Cryptek Geomancer | 1 | Game ready (Tomb World) |
+| Canoptek Tomb Crawlers | 2 | Game ready (Tomb World) |
+| Canoptek Macrocytes | 5 | Game ready (Tomb World) |
+| Necron Warriors | 10 (1st squad) | Game ready (Tomb World) |
+| Canoptek Scarab Swarms | 3 (1st set) | Game ready (Tomb World) |
+| Hierotek Circle Kill Team (used) | 1 set | Game ready; 40K datasheets TBD pending photos |
+
+**Build before play (owned, on sprue):**
+
+| Item | Qty | Status |
+|------|-----|--------|
+| Necron Warriors | 10 (2nd squad) | Purchased, unassembled |
+| Canoptek Scarab Swarms | 3 (2nd set) | Purchased, unassembled |
 | Immortals | 5 (1 squad) | Purchased, unassembled |
-| Hierotek Circle Kill Team (used) | 1 set | Assembled + painted (game ready); unit ID pending photos |
-| Kill Team: Tomb World | — | **Not owned** — superseded historical reference only |
+
+**Totals:** 20 Warriors (10 game-ready + 10 sprue), 6 Scarab Swarms (3 game-ready + 3 sprue), plus Geomancer, Tomb Crawlers, Macrocytes, Immortals, and Hierotek Circle (TBD).
 
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): Ownership snapshot aligned to FOUNDATION — Tomb World owned and game-ready; dual Warriors/Scarabs; Immortals sprue; Hierotek TBD. Removed stale "Not owned — superseded" row. S4 coord preflight.
 - v1.0 (2026-08-16): Initial catalog (slice S2). Local library paths, living web refs, Preflight Necron_Lists import noted.
 
 ## Attribution

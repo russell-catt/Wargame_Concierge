@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v2.1 (2026-08-16)
+VERSION: v2.2 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -13,7 +13,8 @@ SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1, read 2026-08-16)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, read 2026-08-16)
   - https://wahapedia.ru/wh40k10ed/factions/necrons (retrieved 2026-08-16)
-  - raw/Necron_Lists.md (Preflight-updated 2026-08-16; points stale)
+  - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION, corrected 2026-08-16)
+  - docs/handoffs/tomb_world_ownership/track_in.md (locked ownership decision)
 
 PURPOSE:
   Entry point for the parent's Necron force. Indexes the army rule guide, both
@@ -30,7 +31,7 @@ UPDATE_TRIGGER:
 
 Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation**, **methodical shooting**, and **Canoptek construct** synergies. Two detachment paths are documented from this collection: **Canoptek Court** and **Cryptek Conclave**.
 
-**Start here:** [`Reanimation_Protocols.md`](Reanimation_Protocols.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game.
+**Start here:** [`Reanimation_Protocols.md`](Reanimation_Protocols.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game using the owned **Kill Team: Tomb World** force.
 
 ---
 
@@ -38,9 +39,10 @@ Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready now** | Hierotek Circle Kill Team set (assembled + painted) - datasheet mapping **pending photos** |
-| **Owned, build before play** | 10 Warriors, 3 Scarab Swarms, 5 Immortals (all unassembled) |
-| **Not owned** | Kill Team: Tomb World (superseded historical reference only) |
+| **Game-ready now (preferred learning baseline)** | **Kill Team: Tomb World** - Cryptek Geomancer (1), Canoptek Tomb Crawlers (2), Canoptek Macrocytes (5), Necron Warriors (10), Canoptek Scarab Swarms (3). All assembled and painted. |
+| **Also game-ready** | Hierotek Circle Kill Team set (assembled + painted) - datasheet mapping **pending photos** |
+| **Owned, build before play (assemble-to-expand)** | 10 more Warriors (2nd squad), 3 more Scarab Swarms (2nd set), 5 Immortals - all unassembled |
+| **Ownership totals** | 20 Warriors total (10 ready + 10 sprue), 6 Scarab Swarms total (3 ready + 3 sprue), plus Geomancer, Tomb Crawlers, Macrocytes, Immortals, and Hierotek Circle (TBD) |
 
 See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
@@ -60,8 +62,8 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
 | File | Purpose |
 |------|---------|
-| [`Starter_250.md`](Starter_250.md) | First-game learning list, with the Hierotek Circle photo-ID checklist |
-| [`Starter_500.md`](Starter_500.md) | Both detachment paths at 500 points, every entry tagged owned or purchase |
+| [`Starter_250.md`](Starter_250.md) | First-game learning list built from the game-ready Tomb World force, plus the Hierotek Circle photo-ID checklist |
+| [`Starter_500.md`](Starter_500.md) | Both detachment paths at ~500 points, every entry tagged Tomb World / sprue / purchase |
 | [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't |
 
 ### Collection and research
@@ -69,14 +71,14 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 | File | Purpose |
 |------|---------|
 | [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) | Physical model checklist - the ownership source of truth |
-| [`Necron_Lists.md`](Necron_Lists.md) | Expansion blueprint and shopping tracker (imported). **Its points are stale - cost from the starter lists instead** |
+| [`Necron_Lists.md`](Necron_Lists.md) | Expansion blueprint and shopping tracker (imported). **Its points are stale for units other than Tomb World - cost Warriors/Immortals/Scarabs from the starter lists instead** |
 | [`units/README.md`](units/README.md) | Unit research stub (S6) |
 
 ---
 
 ## Two corrections worth knowing
 
-1. **Points in the imported blueprint are wrong.** Six of eight figures checked against the owned Munitorum Field Manual v1.2 were stale - Lychguard were listed at 170 for five when they cost **80**. Every number in the guides above was re-read from the MFM on **2026-08-16**.
+1. **Kill Team: Tomb World is owned.** A prior version of these docs incorrectly stated Tomb World was not owned and that Hierotek Circle was the only table-ready set. Both statements were wrong: Tomb World's five units (Geomancer, 2x Tomb Crawlers, 5x Macrocytes, 10x Warriors, 3x Scarab Swarms) are assembled, painted, and game-ready, and are now the preferred learning baseline. Hierotek Circle is also game-ready but its exact datasheets remain TBD.
 2. **The Cryptek Conclave detachment rule is Technosorcerous Augmentations**, not "Scientific Schemes". Confirmed in the owned faction pack v1.1 and on Wahapedia, both 2026-08-16.
 
 ---
@@ -90,7 +92,8 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 ---
 
 ## Change Log
-- v2.1 (2026-08-16): Re-confirmed collection status against current `Necron_Lists.md` FOUNDATION after raw/ copy re-sync (Tomb World not owned; Hierotek photo ID still open).
+- v2.2 (2026-08-16): Corrected collection status - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not a "not owned" historical reference. Hierotek Circle remains an additional game-ready set, ID pending. Updated document index and corrections list accordingly (slice S2, `tomb_world_ownership`).
+- v2.1 (2026-08-16): Re-confirmed collection status against current `Necron_Lists.md` FOUNDATION after raw/ copy re-sync. *(This version incorrectly stated Tomb World was not owned - superseded by v2.2.)*
 - v2.0 (2026-08-16): Indexed the six S4 documents - army rule guide, both detachment guides, two starter lists, and the laminate. Added the points and rule-name corrections.
 - v1.0 (2026-08-16): Initial faction README and inventory (slice S2).
 

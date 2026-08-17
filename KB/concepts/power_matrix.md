@@ -72,7 +72,7 @@ Do not learn this rule first. Learn [[objective_control]] and the turn sequence,
 
 ## Related terminology
 
-**Scientific Schemes** is the equivalent rule for [[cryptek_conclave]] and is at the same confidence level - name reliable, effect unverified. Both are recorded in [[glossary]].
+**Technosorcerous Augmentations** is the equivalent rule for [[cryptek_conclave]]. Its name and effect are both better established than this one's: the owned faction pack v1.1 was read directly for it on 2026-08-16, whereas Power Matrix's exact wording is still unverified. The owner's notes call it "Scientific Schemes", which is wrong - see the deprecated list in [[glossary]].
 
 ---
 

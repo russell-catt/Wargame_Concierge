@@ -30,7 +30,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 | `unverified` | Written from familiarity or a prior edition. **Confirm before use** | **0** |
 | `unresolved` | Appeared in a source and maps to nothing recognised | 1 |
 
-**Project vocabulary (6):** all `verified` - these describe this project's own conventions, not the game, so they can be confirmed from the repo itself.
+**Project vocabulary (7):** all `verified` - these describe this project's own conventions, not the game, so they can be confirmed from the repo itself. **Assemble-to-expand** is new in the `tomb_world_ownership` L1 pass.
 
 **The headline reversed in L2.** L1's version of this block said "no game term is `verified`, because no rules document has been read yet." That is no longer true. S3 read the owned Core Rules, the Universal Rules Updates v1.0, both faction packs v1.1, and the Event Companion v1.1; S4 and S5 read the two Munitorum Field Manuals v1.2 and both detachment sections. Every `verified` entry below traces to one of those, read **2026-08-16**, or to the shipping glossary that records them.
 
@@ -156,10 +156,12 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Verify against: `raw/pointers/faction_pack_necrons.md`, then [[wahapedia]]
 - See also: **[[power_matrix]]** - promoted to a concept page in L1, with the full correction
 
-**Scientific Schemes** - `draft`
-: The [[cryptek_conclave]] detachment rule. Described in the owner's notes as stacking ranged profile buffs together with reanimation multipliers, producing a defensive army that wins by attrition. Name reliable, effect unverified.
-- Faction / scope: Necrons, detachment rule
-- Verify against: `raw/pointers/faction_pack_necrons.md`
+**Technosorcerous Augmentations** - `draft` - **renamed in L2**
+: The [[cryptek_conclave]] detachment rule. Two effects: ranged weapons on Cryptek models gain `[ASSAULT]`, and each time a Cryptek unit is selected to shoot it picks one ability from a short menu for that phase. Because an attached Cryptek character lends its keyword to the whole squad, the pick lands on the bodyguard unit's guns, not on the character's pistol.
+: **"Scientific Schemes" was the wrong name and is deprecated.** It came from the owner's pre-project notes and appears nowhere in the owned faction pack v1.1 or on [[wahapedia]]. Both were checked on 2026-08-16.
+- Faction / scope: Necrons, [[cryptek_conclave]] detachment rule
+- Deprecated label: Scientific Schemes - see the deprecated list below
+- Verify against: `raw/pointers/faction_pack_necrons.md`, then [[wahapedia]]
 
 **Canoptek** - `draft`
 : The Necron robotic-construct family: Scarab Swarms, Wraiths, Doomstalkers, and others. The theme [[canoptek_court]] is built around.
@@ -170,15 +172,16 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: Necrons, keyword
 
 **Hierotek Circle** - `draft`
-: A **Kill Team** boxed set of Necron Crypteks and attendants. The owner has one, used and fully painted, and it is currently the only game-ready part of the collection. **Its 40K datasheet mapping is unknown** and pending photographs.
+: A **Kill Team** boxed set of Necron Crypteks and attendants. The owner has one, used and fully painted, so it is game-ready in the physical sense - but **its 40K datasheet mapping is unknown** and pending photographs, which is what keeps it out of lists. It is no longer the only game-ready part of the collection; Kill Team: Tomb World is both painted and identified.
 : It is a set of models, not a rules term. L0 mistakenly treated it as evidence about [[power_matrix]]; it is not evidence about any 40K rule.
 - Faction / scope: Necrons, models - **Kill Team product, usable as 40K models once identified**
 - See also: [[necrons]]
 
-**Kill Team: Tomb World** - `draft` · **not owned**
-: A different Kill Team box, assumed in an earlier version of the owner's blueprint and since **confirmed not owned**. Its lists survive as historical path notes only. Do not let them drive shopping or teaching content.
-- Faction / scope: Necrons, models - historical only
-- See also: the deprecated list below
+**Kill Team: Tomb World** - `draft` · **owned, game-ready**
+: A Kill Team box the owner owns, assembled and painted: **1 Cryptek Geomancer, 2 Canoptek Tomb Crawlers, 5 Canoptek Macrocytes, 10 Necron Warriors, 3 Canoptek Scarab Swarms**. Its models map to known 40K datasheets, which makes it the **preferred baseline for learning games** and the Phase 1 force for both Necron detachment paths.
+: **An earlier KB entry said this box was "confirmed not owned" and its lists historical only.** That was wrong. The old standing instruction not to let Tomb World content "leak" into current advice is withdrawn - it is the current advice.
+- Faction / scope: Necrons, models - **owned; current, not historical**
+- See also: [[necrons]], [[necron_lists_owner_notes]], and the deprecated list below
 
 ---
 
@@ -217,10 +220,13 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 Not game terms - the words this project uses about its own state. S3 should keep them consistent in shipping content.
 
 **Game-ready** - `verified`
-: Assembled, painted or at least based, and fieldable today. Currently true of exactly one thing: the Hierotek Circle set.
+: Assembled, painted or at least based, and fieldable today. Currently: the **Kill Team: Tomb World** units (Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms) and the **Hierotek Circle** set. Only the Tomb World half is also *identified*, so only it can be put in a list.
 
 **Build before play** - `verified`
-: Purchased but unassembled. Excluded from any "play this weekend" advice. Currently: 10 Warriors, 3 Scarab Swarms, 5 Immortals.
+: Purchased but unassembled. Excluded from any "play this weekend" advice. Currently: the second Warrior squad (10), the second Scarab Swarm set (3), and 5 Immortals.
+
+**Assemble-to-expand** - `verified`
+: Owned-but-unassembled models that duplicate a unit already game-ready, so building them widens an existing squad rather than adding a new capability. Currently the second Warrior squad and the second Scarab set. Distinct from **build before play**, which is the same physical state but gates a unit the collection does not otherwise have - the Immortals.
 
 **Pointer stub** - `verified`
 : A markdown file in `raw/pointers/` recording the local path to an owned PDF and what it contains. The sanctioned substitute for a binary this repo may not hold. See [[local_library_pointers]].
@@ -254,7 +260,8 @@ What has to be read to clear this page. Everything here is blocked on a document
 |---------|-----------|--------------|
 | Objective Control, objective marker, battle round, No Man's Land, AP, critical hit, Ignores Cover, leader/attached | `raw/pointers/rules_core.md` | **S3** |
 | Detachment, detachment rule, army rule, datasheet, battleline | `raw/pointers/rules_core.md` | **S3** |
-| Reanimation Protocols, Power Matrix wording, Scientific Schemes, Canoptek, Cryptek | `raw/pointers/faction_pack_necrons.md` | **S4** |
+| Reanimation Protocols, Power Matrix wording, Canoptek, Cryptek | `raw/pointers/faction_pack_necrons.md` | **S4** - still outstanding for `KB/`; S4 read the pack for `games/` but the KB pages were not back-filled |
+| ~~Scientific Schemes~~ | Same | **Done.** S4 read the pack; the rule is Technosorcerous Augmentations and the old label is deprecated |
 | Oath of Moment, Gladius Task Force, Firstborn datasheets | `raw/pointers/faction_pack_space_marines.md` | **S5** |
 | Points values | `raw/pointers/points_manuals.md` | S3 / S4 |
 | Hierotek Circle datasheet mapping | **User photos** | S4 |
@@ -284,8 +291,10 @@ How this KB writes about the game.
 | Avoid | Use instead | Reason |
 |-------|-------------|--------|
 | "Power Matrix may be a Kill Team term" | Power Matrix is the [[canoptek_court]] detachment rule in 40K | **Corrected in L1.** The L0 warning is superseded - see [[power_matrix]] |
-| "Kill Team: Tomb World" as current inventory | The confirmed 2026-08-16 ownership | Superseded; historical only |
-| Tomb World unit lists as shopping targets | The corrected retail lists in [[necron_lists_owner_notes]] | Caused double-counting of owned models |
+| "Kill Team: Tomb World is not owned" / "Tomb World is historical only" | Tomb World is **owned and game-ready** - see [[necrons]] | **Corrected 2026-08-16.** The "not owned" claim was erroneous and drove several downstream pages |
+| "Do not let Tomb World content leak into current advice" | Tomb World *is* the current advice, and the preferred learning baseline | Retired as a current rule in the same correction |
+| Re-shopping Necron Warriors or Canoptek Scarab Swarms | 20 Warriors and 6 Scarab Swarms are **owned**; the unbuilt halves are assemble-to-expand | Double-counting owned models is the recurring error on this collection |
+| "Scientific Schemes" as the [[cryptek_conclave]] detachment rule | **Technosorcerous Augmentations** - see the Necrons section above | **Corrected in L2.** The old label came from the owner's pre-project notes and appears in neither the owned faction pack v1.1 nor [[wahapedia]]. It survives only where a source page quotes the source verbatim |
 | "Data Package Detachment" | Say plainly which detachment is stronger and why | Unrecognised term - see above |
 | "Need 1 box of Immortals" | Immortals are **owned** (5, unassembled) | Corrected at Preflight; do not re-shop |
 | Bare "OC" on first use | "Objective Control (OC)" | Expand on first use, then shorthand is fine |
@@ -316,3 +325,16 @@ How this KB writes about the game.
 - **Power Matrix** — Canoptek Court detachment rule in Warhammer 40,000 11e (not Kill Team-only). See teaching guide under armies/necrons.
 - **Cryptek Conclave rule name** — prefer **Technosorcerous Augmentations** (owned faction pack). Deprecated informal label: Scientific Schemes.
 - Shipping Keyword_Glossary remains SoT for table keywords; this glossary is the KB working set.
+
+## L1 ownership note — `tomb_world_ownership` (2026-08-16)
+
+- **Kill Team: Tomb World is owned and game-ready.** The prior "not owned" entry was erroneous; the entry and the deprecated list are both rewritten.
+- **"Do not let Tomb World content leak" is retired** as a current rule. It survives only as a deprecated-claim row, so the old instruction cannot quietly return as guidance.
+- **Ownership vocabulary updated:** `Game-ready` and `Build before play` now describe the real inventory, and **Assemble-to-expand** was added for owned duplicates of already-fielded squads.
+- No game term's `verified` / `draft` status changed in this pass. Ownership is not a rules claim.
+
+## L2 lint note — `tomb_world_ownership` (2026-08-16)
+
+- **The Technosorcerous Augmentations rename is now applied, not just preferred.** The `v1_scaffold` L2 pass recorded the preference in the note above but left the headword entry, [[cryptek_conclave]], [[necrons]], and [[power_matrix]] all still reading "Scientific Schemes". That intra-KB drift is closed in this pass, and the old label is now on the deprecated list.
+- **Source pages keep the old label on purpose.** [[necron_lists_owner_notes]] quotes `raw/Necron_Lists.md`, which says "Scientific Schemes". Per [`AGENTS.md`](../AGENTS.md) Sec 9 the conflict is recorded there rather than overwritten — the source said what it said.
+- **No ownership terms changed in this pass.** The L1 note above still stands as written. L2 re-ran the sweep and found no live Tomb World ownership denial anywhere in `KB/`.

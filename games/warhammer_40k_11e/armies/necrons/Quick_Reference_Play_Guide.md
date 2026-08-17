@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Quick_Reference_Play_Guide.md
-VERSION: v1.1 (2026-08-16)
+VERSION: v1.2 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -15,6 +15,7 @@ SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2)
   - https://wahapedia.ru/wh40k10ed/factions/necrons (retrieved 2026-08-16)
+  - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (ownership, corrected 2026-08-16)
 
 PURPOSE:
   Table-side laminate. Two printed pages, page break marked with an HTML
@@ -25,7 +26,8 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
-  - v1.1 (2026-08-16): Starter snapshot ownership re-verified against FOUNDATION (build-before-play + Hierotek TBD).
+  - v1.2 (2026-08-16): Page 2 starter snapshot rebuilt around the owned, game-ready Kill Team: Tomb World force (Geomancer + Warriors + Tomb Crawlers = 240 pts). Sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not blockers (slice S2, `tomb_world_ownership`).
+  - v1.1 (2026-08-16): Starter snapshot ownership re-verified against FOUNDATION (build-before-play + Hierotek TBD). *(Described Tomb World as not owned - superseded by v1.2.)*
   - v1.0 (2026-08-16): Initial two-page laminate (slice S4).
 
 ATTRIBUTION:
@@ -119,22 +121,24 @@ Spend each reanimated wound in this order:
 
 # NECRONS - TABLE REFERENCE | Page 2 of 2
 
-## STARTER SNAPSHOT - points from MFM v1.2 (2026-08-16)
+## STARTER SNAPSHOT - Kill Team: Tomb World force (owned, game-ready)
 
 | Unit | Models | Pts | State |
 |------|--------|-----|-------|
-| Necron Warriors | 10 | **80** | Owned - build before play |
-| Immortals | 5 / 10 | **70 / 140** | Owned (5) - build before play |
-| Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | Owned (3) - build before play |
+| Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World, game-ready |
+| Necron Warriors | 10 | **80** | **OWNED** - Tomb World, game-ready |
+| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World, game-ready |
+| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World, game-ready |
+| Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (3 ready + 3 sprue - build before play) |
+| Necron Warriors (2nd squad) | 10 | **80** | **OWNED** - sprue, build before play |
+| Immortals | 5 | **70** | **OWNED** - sprue, build before play |
 | Plasmancer (Cryptek, Support) | 1 | **55** | `TBD` - check Hierotek Circle |
-| Royal Warden (Leader) | 1 | **50** | Not owned |
-| Lychguard | 5 / 10 | **80 / 160** | Not owned |
-| Canoptek Wraiths | 3 | **95** 1st / **115** 2nd | Not owned |
-| Canoptek Doomstalker | 1 | **140** | Not owned |
+| Canoptek Wraiths | 3 | **95** | Not owned |
 
-**250 pts:** Cryptek 55 + Warriors 80 + Immortals 70 + Scarabs 40 = **245**.
-**500 pts (Conclave):** Plasmancer 55 + Royal Warden 50 + Warriors 80 + Immortals x10 140 + Scarabs 40 + Lychguard 80 + Tomb Crawlers 50 = **495**.
-**Hierotek Circle set:** assembled and painted, datasheets `TBD` until photographed.
+**250 pts (playable tonight, zero purchases):** Geomancer 75 + Warriors 80 + Tomb Crawlers 85 = **240**.
+**500 pts, Canoptek Court:** add Macrocytes 85 + Scarabs 40 + Wraiths 95 (purchase) = **500**.
+**500 pts, Cryptek Conclave:** add Macrocytes 85 + Scarabs 40 + Immortals 70 (build first) + Plasmancer 55 (`TBD`/buy) = **490**.
+**Hierotek Circle set:** assembled and painted, datasheets `TBD` until photographed - an *additional* game-ready set, not a substitute for Tomb World.
 
 ---
 
@@ -154,9 +158,9 @@ Spend each reanimated wound in this order:
 
 ## KEYWORD MINI-STRIP
 
-`[ASSAULT]` fire after advancing · `[HEAVY]` +1 to hit if unengaged and nothing moved over 3" · `[RAPID FIRE X]` +X attacks within half range · `[LETHAL HITS]` critical hit may skip the wound roll (optional) · `[SUSTAINED HITS X]` critical hit = +X hits · `[DEVASTATING WOUNDS]` critical wound = mortal wounds equal to Damage · `[IGNORES COVER]` target gets no cover benefit · `[TWIN-LINKED]` re-roll the **wound** roll · `[ANTI-X N+]` wound roll of N+ against keyword X is critical · `[BLAST]` +1 attack per five models in the target, never against an engaged unit · `[CLEAVE X]` Blast for melee: +X dice per five models, all attacks at one target · `[PRECISION]` can pick out an attached character · `[HAZARDOUS]` 1-2 on the hazard die costs you a mortal wound · `[INDIRECT FIRE]` shoot unseen, heavy penalty, gives cover · `[MELTA X]` +X Damage within half range · `[CLOSE-QUARTERS]` / `[PISTOL]` identical - shoot while engaged.
+`[ASSAULT]` fire after advancing • `[HEAVY]` +1 to hit if unengaged and nothing moved over 3" • `[RAPID FIRE X]` +X attacks within half range • `[LETHAL HITS]` critical hit may skip the wound roll (optional) • `[SUSTAINED HITS X]` critical hit = +X hits • `[DEVASTATING WOUNDS]` critical wound = mortal wounds equal to Damage • `[IGNORES COVER]` target gets no cover benefit • `[TWIN-LINKED]` re-roll the **wound** roll • `[ANTI-X N+]` wound roll of N+ against keyword X is critical • `[BLAST]` +1 attack per five models in the target, never against an engaged unit • `[CLEAVE X]` Blast for melee: +X dice per five models, all attacks at one target • `[PRECISION]` can pick out an attached character • `[HAZARDOUS]` 1-2 on the hazard die costs you a mortal wound • `[INDIRECT FIRE]` shoot unseen, heavy penalty, gives cover • `[MELTA X]` +X Damage within half range • `[CLOSE-QUARTERS]` / `[PISTOL]` identical - shoot while engaged.
 
-**OC** objective control · **InSv** invulnerable save (ignores AP) · **Ld** rolled on 2D6 against a target such as 7+ · **Engagement Range** 2" horizontally, 5" vertically · **Coherency** within 2" of one model and 9" of all · **Objective marker** 3" horizontally, 5" vertically.
+**OC** objective control • **InSv** invulnerable save (ignores AP) • **Ld** rolled on 2D6 against a target such as 7+ • **Engagement Range** 2" horizontally, 5" vertically • **Coherency** within 2" of one model and 9" of all • **Objective marker** 3" horizontally, 5" vertically.
 
 ---
 

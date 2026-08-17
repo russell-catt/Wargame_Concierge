@@ -78,7 +78,9 @@ The catalog flags one thing worth repeating: the Wahapedia faction URLs it lists
 
 The catalog registers the one source that was actually copied into the repo - `Necron_Lists.md`, the owner's own notes, allowed because it is not GW material. Both repo copies were SHA-256 verified against the origin in S2.
 
-It also carries an ownership snapshot duplicating the FOUNDATION table from those notes. The two agree as of 2026-08-16. Filed on [[necrons]]; if they ever disagree, prefer `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` unless the external Personal\40K source is clearly newer, then re-sync `raw/` from the winner.
+It also carries an ownership snapshot duplicating the FOUNDATION table from those notes. Filed on [[necrons]]; if the copies ever disagree, prefer `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md` unless the external Personal\40K source is clearly newer, then re-sync `raw/` from the winner.
+
+**Ownership snapshot corrected 2026-08-16.** The FOUNDATION table now records **Kill Team: Tomb World as owned and game-ready** - Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms - alongside a second Warrior squad and second Scarab set on sprue, 5 unassembled Immortals, and the Hierotek Circle set with datasheets still TBD. Any snapshot that still says Tomb World is *not owned* is stale and should be re-synced from the project armies copy, not trusted. Totals: 20 Warriors, 6 Scarab Swarms.
 
 ---
 

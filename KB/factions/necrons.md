@@ -42,25 +42,35 @@ From [[necron_lists_owner_notes]], mirrored in `games/warhammer_40k_11e/armies/n
 
 ### Game-ready today
 
+**Kill Team: Tomb World** - owned, assembled, painted, and mapped to known 40K datasheets:
+
 | Item | Qty | State |
 |------|-----|-------|
-| Hierotek Circle Kill Team (used set) | 1 set | Assembled and painted; **40K datasheet mapping unknown** |
+| Cryptek Geomancer | 1 | Game ready |
+| Canoptek Tomb Crawlers | 2 | Game ready |
+| Canoptek Macrocytes | 5 | Game ready |
+| Necron Warriors (Tomb World squad) | 10 | Game ready |
+| Canoptek Scarab Swarms (Tomb World set) | 3 | Game ready |
+
+Painted and fieldable, but not yet identified:
+
+| Item | Qty | State |
+|------|-----|-------|
+| Hierotek Circle Kill Team (used set) | 1 set | Assembled and painted; **40K datasheet mapping unknown - TBD pending owner photos** |
 
 ### Owned, build before play
 
 | Item | Qty | State |
 |------|-----|-------|
-| Necron Warriors | 10 (1 squad) | Purchased, unassembled |
-| Canoptek Scarab Swarms | 3 | Purchased, unassembled |
+| Necron Warriors (second squad) | 10 | Purchased, unassembled |
+| Canoptek Scarab Swarms (second set) | 3 | Purchased, unassembled |
 | Immortals | 5 (1 squad) | Purchased, unassembled |
 
-### Explicitly not owned
+**Totals:** 20 Warriors (10 ready + 10 on sprue), 6 Scarab Swarms (3 ready + 3 on sprue), plus the Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 5 Immortals, and the Hierotek Circle set.
 
-| Item | Note |
-|------|------|
-| Kill Team: Tomb World | Superseded assumption from an earlier blueprint. Its lists survive as historical path notes only and must not drive shopping or teaching content. |
+**The shape of this collection:** there is a **playable, identified army on the table today** - the Tomb World units, which the owner prefers as the learning baseline. Everything else is an expansion of it. The Warriors and Scarabs on sprue are **assemble-to-expand**, doubling squads that already exist rather than adding new capability, and the Immortals are the one owned unit that needs building before it can be used at all. The Hierotek Circle set is painted and fieldable but still unidentified, so it can be played with only once photos resolve which datasheets its models use.
 
-**The awkward shape of this collection:** the only painted, assembled, table-ready models are the ones whose datasheets nobody has identified, and the only identified models are still on sprue. Both halves of the collection are blocked, for opposite reasons. Resolving the Hierotek Circle photo ID unblocks a game this week; building the three boxes unblocks list-building against known datasheets.
+An earlier version of this page recorded Kill Team: Tomb World as **not owned** and its lists as superseded. That claim was erroneous and is withdrawn.
 
 ---
 
@@ -70,12 +80,14 @@ Two paths are costed from this collection. Neither is committed to.
 
 | Detachment | Wants | Fit with what is owned |
 |------------|-------|------------------------|
-| [[canoptek_court]] | Canoptek constructs - Wraiths, Doomstalkers | Owned Scarabs fit; the expensive constructs are not owned |
-| [[cryptek_conclave]] | Cryptek characters leading infantry | Owned Warriors and Immortals fit directly; needs a Cryptek character |
+| [[canoptek_court]] | Canoptek constructs - Wraiths, Doomstalkers | Owned Macrocytes, Tomb Crawlers, and Scarabs are all Canoptek and all game-ready; the Wraiths and Doomstalkers it is named for are still unowned |
+| [[cryptek_conclave]] | Cryptek characters leading infantry | Owned Warriors are exactly its battleline, and the game-ready **Cryptek Geomancer** supplies the character type the detachment is built on; Immortals join once built |
 
-On the models actually on hand, **Cryptek Conclave is the cheaper path to a legal list** - Warriors and Immortals are exactly the battleline it wants, and the Hierotek Circle set is likely to contain Cryptek characters. Canoptek Court is rated the stronger detachment by the owner's notes but asks for roughly two Doomstalkers and six Wraiths, none of which exist yet.
+**Both paths now start from a playable list.** The Tomb World units give either detachment a legal Phase 1 force - the owner's notes cost Geomancer plus ten Warriors plus two Tomb Crawlers at 260 points - so the choice between detachments is no longer gated on buying or identifying anything.
 
-That recommendation is **provisional**. It rests on an unconfirmed guess about what is in the Hierotek Circle box, and on detachment rules nobody has read. It is a starting hypothesis for S4, not advice.
+Cryptek Conclave remains the cheaper route to a *complete* path, and it no longer depends on a guess: the Geomancer is a real, owned, painted Cryptek, where before this rested on an assumption about the Hierotek Circle box. Canoptek Court is rated the stronger detachment by the owner's notes and now has real Canoptek bodies behind it, but still asks for roughly two Doomstalkers and six Wraiths.
+
+The recommendation is still **provisional** on the rules themselves - the detachment wording matters more than the model count, and points values need re-checking against the Munitorum Field Manual.
 
 ---
 
@@ -87,7 +99,7 @@ That recommendation is **provisional**. It rests on an unconfirmed guess about w
 | **Cryptek** | The engineer-character family. The [[cryptek_conclave]] theme |
 | **Reanimation Protocols** | The army rule - see [[reanimation_protocols]] |
 | **Power Matrix** | The [[canoptek_court]] detachment rule - see [[power_matrix]] |
-| **Scientific Schemes** | The [[cryptek_conclave]] detachment rule |
+| **Technosorcerous Augmentations** | The [[cryptek_conclave]] detachment rule. The owner's notes call it "Scientific Schemes"; that name is deprecated - see [[glossary]] |
 
 All are recorded in [[glossary]] with their current confidence.
 
@@ -95,13 +107,13 @@ All are recorded in [[glossary]] with their current confidence.
 
 ## What this page does not yet cover
 
-No unit pages exist. Nothing has been written about the turn sequence, deployment, or scoring, so there is no tactical content here that survives contact with an actual game. This page is a frame for S4 to fill, not a play guide.
+No per-datasheet `KB/units/` pages exist yet - [[necrons_unit_index]] explains why, and which units would earn one first. Turn sequence, deployment, and scoring now live in shipping teaching content under `games/warhammer_40k_11e/rules/` and `setup/` rather than here, so this page stays a faction frame rather than a play guide.
 
 ---
 
 ## Open questions
 
-- **What is in the Hierotek Circle set?** Blocks the first game. Needs owner photos, then a datasheet mapping.
+- **What is in the Hierotek Circle set?** No longer blocks the first game - the Tomb World units cover that - but it blocks using the set in a list. Needs owner photos, then a datasheet mapping.
 - What does Reanimation Protocols actually do in 11th Edition - trigger, quantity restored, and what denies it?
 - Which detachment survives contact with the real rules, rather than the owner's summary of them?
 - Are the points values in the owner's notes current against the Munitorum Field Manual?
@@ -112,7 +124,8 @@ No unit pages exist. Nothing has been written about the turn sequence, deploymen
 ## Related pages
 
 - [[canoptek_court]] - detachment, Power Matrix
-- [[cryptek_conclave]] - detachment, Scientific Schemes
+- [[cryptek_conclave]] - detachment, Technosorcerous Augmentations
+- [[necrons_unit_index]] - the KB entry point into the 65-file unit research corpus
 - [[reanimation_protocols]] - the army rule
 - [[power_matrix]] - the detachment rule, and the L0 correction
 - [[objective_control]] - how this army actually wins

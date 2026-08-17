@@ -25,7 +25,7 @@ The owner's own Necron expansion blueprint: what is actually owned as of 2026-08
 | External origin | `C:\Personal\40K\rules\Necron_Lists.md` (also byte-identical to working copy as of re-sync) |
 | Source class | **Owner's own notes** ([[ingest_procedure]] Sec "four source classes") |
 | Edition claimed | Warhammer 40,000, 11th Edition |
-| Last updated at origin | 2026-08-16 (Preflight ownership patch; raw re-synced same day after a stale Tomb-World-owned drift) |
+| Last updated at origin | 2026-08-16 (FOUNDATION rewritten to confirm **Kill Team: Tomb World owned and game-ready**; the earlier "not owned" reading was erroneous) |
 | Retrieval date | 2026-08-16 |
 
 This is a **planning document, not a rules document**. Per [[ingest_procedure]], owner's notes carry the *highest* trust for ownership and preference facts and **no** authority for rules text. Everything below is filed on that split: ownership facts are treated as confirmed, rules claims are treated as leads to verify.
@@ -36,18 +36,39 @@ This is a **planning document, not a rules document**. Per [[ingest_procedure]],
 
 The FOUNDATION section is the authoritative inventory for this project. It is mirrored in `games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md` and summarized on [[necrons]].
 
+### Game-ready today
+
+**Kill Team: Tomb World** - owned, assembled, painted, playable:
+
 | Item | Qty | State |
 |------|-----|-------|
-| Necron Warriors | 10 (1 squad) | Purchased, **unassembled** |
-| Canoptek Scarab Swarms | 3 | Purchased, **unassembled** |
+| Cryptek Geomancer | 1 | **Game ready** |
+| Canoptek Tomb Crawlers | 2 | **Game ready** |
+| Canoptek Macrocytes | 5 | **Game ready** |
+| Necron Warriors (Tomb World squad) | 10 | **Game ready** |
+| Canoptek Scarab Swarms (Tomb World set) | 3 | **Game ready** |
+
+Plus the set that is playable but not yet identified:
+
+| Item | Qty | State |
+|------|-----|-------|
+| Hierotek Circle Kill Team (used set) | 1 set | Assembled and painted - **game ready**; 40K datasheet mapping **TBD pending owner photos** |
+
+### Owned, build before play
+
+| Item | Qty | State |
+|------|-----|-------|
+| Necron Warriors (second squad) | 10 | Purchased, **unassembled** |
+| Canoptek Scarab Swarms (second set) | 3 | Purchased, **unassembled** |
 | Immortals | 5 (1 squad) | Purchased, **unassembled** |
-| Hierotek Circle Kill Team (used set) | 1 set | Assembled and painted - **game ready**; datasheet mapping pending photos |
-| Kill Team: Tomb World | - | **Not owned.** Superseded historical assumption |
 
-Two consequences the source states plainly, and this KB carries forward:
+**Totals:** 20 Necron Warriors (10 game-ready + 10 on sprue), 6 Canoptek Scarab Swarms (3 game-ready + 3 on sprue), plus 1 Cryptek Geomancer, 2 Canoptek Tomb Crawlers, 5 Canoptek Macrocytes, 5 Immortals, and the Hierotek Circle set.
 
-- **Build before play.** The only thing that can be put on a table today is the Hierotek Circle set. Warriors, Scarabs, and Immortals are bought but on sprue, so no teaching content should assume they are available for a first game.
-- **Do not re-shop what is owned.** The source explicitly strikes Immortals, Scarabs, and the first box of Warriors off the retail list. An earlier version of the blueprint double-counted them.
+Three consequences the source states plainly, and this KB carries forward:
+
+- **There is a playable army today.** The Tomb World units are the **preferred learning baseline**: a complete, identified, painted force with known datasheets. The blueprint costs the five Tomb World datasheets at 385 points, a figure that still needs checking against the Munitorum Field Manual.
+- **Extra Warriors and Scarabs are assemble-to-expand, not purchases.** Building the second squad merges the Warriors toward a 20-model block; building the second set doubles the Scarab swarms. Neither belongs on a shopping list.
+- **Do not re-shop what is owned.** The source strikes the Tomb World box, the Immortals, both Warrior squads, and both Scarab sets off the retail list. An earlier version of the blueprint double-counted them.
 
 ---
 
@@ -61,9 +82,13 @@ The source compares two Necron detachments as expansion routes from the same mod
 | Detachment rule | **Power Matrix** - hit re-rolls for units in territory the Necron player controls | **Scientific Schemes** - stacking ranged buffs and reanimation multipliers |
 | Playstyle | Aggressive midfield pressure plus backline shooting | Defensive castle that wins by attrition and repeated revives |
 | Owner's tier read | Highly competitive | Flavourful, casual-to-mid |
-| Remaining spend (owner's CAD estimate) | ~$260 retail, target $130-180 second-hand | ~$375 retail, target $190-265 second-hand |
+| Remaining spend (owner's CAD estimate) | ~$260 retail, target $130-180 second-hand | ~$310 retail, target $155-220 second-hand |
 
-Both rule names and both tier judgements come from this source alone and are **not** cross-checked against the Necrons faction pack. Treat the *names* as reliable and the *effects* as unverified.
+Both tier judgements come from this source alone and are **not** cross-checked against anything.
+
+> **One of those rule names is wrong, and the row above deliberately keeps it.** The Cryptek Conclave rule is **Technosorcerous Augmentations**, confirmed on page 7 of the owned faction pack v1.1 and on [[wahapedia]], both read 2026-08-16. "Scientific Schemes" appears in neither. This is a source page, so it records what the source says and flags the conflict rather than rewriting it ([`AGENTS.md`](../../AGENTS.md) Sec 9). Use the corrected name everywhere else - see [[cryptek_conclave]] and the deprecated list in [[glossary]].
+>
+> Power Matrix, by contrast, survived its cross-check: the name is right, and only the exact wording is still unverified.
 
 ---
 
@@ -92,8 +117,8 @@ What is now settled, and what is not:
 
 Named by this source in passing, all `unverified` until an 11e source confirms them:
 
-- **Scientific Schemes** as the Cryptek Conclave detachment rule
-- Canoptek Macrocytes granting *Ignores Cover* to nearby infantry
+- **Scientific Schemes** as the Cryptek Conclave detachment rule - **disproven**: the rule is **Technosorcerous Augmentations**, read off the owned faction pack v1.1 and cross-checked on [[wahapedia]] on 2026-08-16. The source's label appears in neither. See [[cryptek_conclave]]
+- Canoptek Macrocytes granting *Ignores Cover* to nearby infantry - **disproven**: S4 read the datasheet and found `[IGNORES COVER]` is a [[cryptek_conclave]] detachment option, not a Macrocytes aura. Worth flagging loudly now that the Macrocytes are game-ready
 - Illuminor Szeras providing an armour-penetration aura to a nearby Warrior block
 - A Plasmancer improving critical hits for the Immortals it leads
 - Squad merging: Warriors to a 20-model block, Immortals to 10, Wraiths to 6
@@ -113,13 +138,22 @@ The source also uses **"Data Package Detachment"** as a tier label ("3 Data Pack
 
 ---
 
-## Historical material inside the source
+## The Tomb World correction
 
-Roughly a third of the document describes lists built around **Kill Team: Tomb World** (Cryptek Geomancer, Canoptek Tomb Crawlers, Canoptek Macrocytes). The source marks all of it superseded and verify-only. It is retained as a path note in case the box is ever bought.
+**Tomb World content is current advice, not historical material.** An earlier reading of this source recorded Kill Team: Tomb World as *not owned*, marked every list built on it superseded, and left a standing instruction not to let that content "leak" into current advice. That instruction is **withdrawn as a current rule**. The box is owned, its units are assembled and painted, and they are the preferred baseline for learning games.
 
-**Do not let Tomb World content leak into current advice.** It is the single most likely stale-data mistake in this collection, and it already caused one round of bad shopping maths.
+What that reverses, concretely:
 
-The final third is a Facebook Marketplace sourcing guide for Canada - keyword strategies and legacy box sets worth targeting. Useful, entirely non-rules, and not otherwise filed in the KB.
+| Retired claim | Current fact |
+|---------------|--------------|
+| "Kill Team: Tomb World - not owned" | Owned. Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms are all **game ready** |
+| Tomb World lists are superseded path notes | They are the **current** Phase 1 lists for both detachment paths |
+| "Do not let Tomb World content leak into current advice" | Retired. Tomb World *is* the current advice |
+| The Hierotek Circle set is the only thing that can be fielded | Tomb World can be fielded today against **known** datasheets; Hierotek supplements it once photo ID lands |
+
+The Hierotek Circle thread is unchanged and still open: the set is game-ready, but its 40K datasheet mapping is unknown pending owner photos. What changed is that it no longer gates the first game.
+
+The final third of the source is a Facebook Marketplace sourcing guide for Canada - keyword strategies and legacy box sets worth targeting. Useful, entirely non-rules, and not otherwise filed in the KB. Its bundle arithmetic now assumes 20 Warriors and 6 Scarab Swarms already owned, so duplicate battleline in a bundle carries little value.
 
 ---
 
@@ -130,14 +164,14 @@ The final third is a Facebook Marketplace sourcing guide for Canada - keyword st
 - [[cryptek_conclave]] - detachment rule, expansion path, shopping state
 - [[power_matrix]] - the attribution correction
 - [[reanimation_protocols]] - referenced obliquely via "reanimation multipliers"
-- [[glossary]] - Power Matrix resolved; Scientific Schemes, Canoptek, Cryptek, Battleline and others added
+- [[glossary]] - Power Matrix resolved; Canoptek, Cryptek, Battleline and others added; this source's "Scientific Schemes" label deprecated in L2
 - [[overview]] - ownership snapshot and open threads
 
 ---
 
 ## Open questions
 
-- What is in the Hierotek Circle set, and which 40K datasheets do those models use? Blocks Phase 1 of both paths.
+- What is in the Hierotek Circle set, and which 40K datasheets do those models use? No longer blocks a first game - the Tomb World units cover that - but it blocks counting the set toward either detachment path.
 - What does Power Matrix actually do in 11th Edition wording?
 - Is "Data Package Detachment" a real term, a community coinage, or a drafting artifact?
 - Are the listed points values current, or carried over from 10th Edition?

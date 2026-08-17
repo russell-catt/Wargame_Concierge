@@ -216,7 +216,7 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 | "Cover improves your save" | Cover worsens the attacker's BS by 1 | 10th Edition wording. It does not work that way now |
 | "Pistol is its own thing" | Pistol and Close-quarters are identical; Close-quarters is the current term | Stated explicitly in the owned Core Rules |
 | "Data Package Detachment" | Say plainly which detachment is stronger, and why | Not a recognised Warhammer 40,000 term |
-| "Kill Team: Tomb World" as owned inventory | The confirmed 2026-08-16 ownership | Superseded; historical reference only |
+| "Kill Team: Tomb World is not owned / superseded" | Tomb World is **owned and game-ready** (Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarabs); prefer it for learning games | Prior "not owned" claim was erroneous; corrected on the `tomb_world_ownership` track (2026-08-16) |
 | Bare "OC" on first use | "Objective Control (OC)" | Expand once, then shorthand is fine |
 
 ---

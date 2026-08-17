@@ -8,7 +8,8 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 
 | Track | Folder | Status |
 |-------|--------|--------|
-| v1 scaffold (40K 11e beginner content + Karpathy KB) | [`v1_scaffold/`](v1_scaffold/) | In Progress |
+| v1 scaffold (40K 11e beginner content + Karpathy KB) | [`v1_scaffold/`](v1_scaffold/) | Closed - Complete |
+| Tomb World ownership sync | [`tomb_world_ownership/`](tomb_world_ownership/) | In Progress |
 
 ## Artifact lifecycle (summary)
 

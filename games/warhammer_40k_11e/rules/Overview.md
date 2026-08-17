@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Overview.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v1.1 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
 DOCUMENT_TYPE: Teaching Guide / Beginner Overview
 PROJECT_NAME: Wargame_Concierge
@@ -15,6 +15,7 @@ SOURCES:
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, read 2026-08-16)
   - reference/Source_Library.md
   - KB/analyses/inherited_docs_for_S3.md
+  - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (ownership, corrected 2026-08-16)
 
 PURPOSE:
   Answer "what actually happens in a game of Warhammer 40,000?" for someone who
@@ -148,8 +149,9 @@ Board setup, deployment, and the pre-game checklist are in [`../setup/Board_Setu
 
 This project has a specific collection behind it, and it constrains what a first game can look like.
 
-- **Only the Hierotek Circle set is game-ready today.** The Necron Warriors, Immortals, and Canoptek Scarab Swarms are purchased but unassembled - they are "build before play". See [`../armies/necrons/Owned_Models_Inventory.md`](../armies/necrons/Owned_Models_Inventory.md).
-- The Hierotek Circle models still need to be **matched to 40K datasheets from photographs** before they can be legally fielded. That is an open task.
+- **The Kill Team: Tomb World force is game-ready today.** The Cryptek Geomancer, 2x Canoptek Tomb Crawlers, 5x Canoptek Macrocytes, 10x Necron Warriors, and 3x Canoptek Scarab Swarms are all assembled and painted - this is the preferred learning baseline. See [`../armies/necrons/Owned_Models_Inventory.md`](../armies/necrons/Owned_Models_Inventory.md).
+- The **Hierotek Circle** set is also assembled and painted, but its models still need to be **matched to 40K datasheets from photographs** before they can be legally fielded. That is an open task, and it does not block playing with Tomb World in the meantime.
+- A second Necron Warriors squad (10), a second Canoptek Scarab Swarms set (3), and a squad of Immortals (5) are owned but **unassembled** - build these to expand past the Tomb World force at larger points values.
 - The Space Marine collection has not been audited yet.
 
 A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structure.md), then play a tiny game with two or three units per side and **no secondary missions** - just move, shoot, fight, and count OC on one objective. Add complexity once the sequence feels automatic.
@@ -179,6 +181,7 @@ A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structur
 ---
 
 ## Change Log
+- v1.1 (2026-08-16): Corrected "Your realistic first game" - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not just the Hierotek Circle set. Removed the "only Hierotek is table-ready" claim; flagged the second Warriors squad, second Scarab set, and Immortals as owned/unassembled (slice S2, `tomb_world_ownership`).
 - v1.0 (2026-08-16): Initial teaching overview (slice S3). Written from the owned Core Rules PDF and Event Companion v1.1, both read 2026-08-16.
 
 ## Attribution

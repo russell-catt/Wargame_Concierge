@@ -35,25 +35,29 @@ S3 writes `rules/`, `setup/`, and the shipping `Keyword_Glossary` under `games/w
 
 | Fact | Detail |
 |------|--------|
-| Necron Warriors | 10 (1 squad), purchased, **unassembled** |
-| Canoptek Scarab Swarms | 3, purchased, **unassembled** |
-| Immortals | 5 (1 squad), purchased, **unassembled** |
+| **Kill Team: Tomb World** | **Owned and game-ready** - 1 Cryptek Geomancer, 2 Canoptek Tomb Crawlers, 5 Canoptek Macrocytes, 10 Necron Warriors, 3 Canoptek Scarab Swarms. Assembled, painted, known datasheets |
 | Hierotek Circle Kill Team (used) | 1 set, assembled and painted, **game ready** - 40K datasheets **TBD pending photos** |
-| Kill Team: Tomb World | **Not owned.** Superseded historical reference only |
+| Necron Warriors, second squad | 10, purchased, **unassembled** - assemble-to-expand |
+| Canoptek Scarab Swarms, second set | 3, purchased, **unassembled** - assemble-to-expand |
+| Immortals | 5 (1 squad), purchased, **unassembled** - build before play |
+| Totals | **20 Necron Warriors, 6 Canoptek Scarab Swarms**, plus Geomancer, Tomb Crawlers, Macrocytes, Immortals, Hierotek Circle |
 
-Sourced from `raw/Necron_Lists.md` FOUNDATION, mirrored in the S2 inventory and in [[necrons]]. Three separate repo documents agree.
+Sourced from the FOUNDATION section of `games/warhammer_40k_11e/armies/necrons/Necron_Lists.md`, mirrored in `raw/` and the S2 inventory, and summarized on [[necrons]].
 
-**Two teaching constraints follow, and both are hard:**
+**Superseded, and S3 must not reintroduce it:** an earlier version of this table recorded Kill Team: Tomb World as *not owned* and its lists as historical. That was erroneous. There is no "Tomb World is not owned" fact anywhere in this KB any more, and content that assumes one is wrong.
 
-1. **Build before play.** Only the Hierotek Circle set can go on a table today. Any "play this weekend" content that assumes Warriors, Scarabs, or Immortals is wrong.
-2. **Do not re-shop owned models.** An earlier blueprint double-counted the Immortals and the first Warrior box. The corrected version strikes them off the retail list.
+**Three teaching constraints follow:**
+
+1. **There is a playable army today.** The Tomb World units are the preferred learning baseline - a full, identified, painted force. "Play this weekend" content should be written against them.
+2. **Build before play still applies, but narrowly.** The Immortals are the only owned unit that cannot be fielded at all until built. The spare Warriors and Scarabs widen squads that already exist.
+3. **Do not re-shop owned models.** An earlier blueprint double-counted the Immortals and a Warrior box. The corrected version strikes the Tomb World box, both Warrior squads, both Scarab sets, and the Immortals off the retail list.
 
 ### Terminology and attribution
 
 | Fact | Support |
 |------|---------|
 | **Power Matrix is a Warhammer 40,000 term**, the [[canoptek_court]] detachment rule - **not** Kill Team | Two independent in-repo sources; supersedes the L0 glossary warning. See [[power_matrix]] |
-| **Scientific Schemes** is the [[cryptek_conclave]] detachment rule | `raw/Necron_Lists.md` |
+| **Technosorcerous Augmentations** is the [[cryptek_conclave]] detachment rule | Owned faction pack v1.1 p.7 and [[wahapedia]], both 2026-08-16. **This row said "Scientific Schemes" when it was handed to S3.** S3 caught the conflict, S4 shipped the correct name, and L2 applied it across `KB/` |
 | **Reanimation Protocols** is the Necron army rule | Consistent across every repo source |
 | **Oath of Moment** is the Space Marine army rule | Consistent across every repo source |
 | **Gladius Task Force** is the chosen Space Marine learning detachment | Project decision of record |
@@ -78,7 +82,7 @@ S3 may use the names. It must not present the effects as fact.
 | Term | What the source says | Missing |
 |------|---------------------|---------|
 | Power Matrix | Hit re-rolls within controlled territory | What "controlled territory" means; whether melee, shooting, or both |
-| Scientific Schemes | Stacking ranged buffs plus reanimation multipliers | Everything past the one-line summary |
+| ~~Scientific Schemes~~ Technosorcerous Augmentations | The source claimed stacking ranged buffs plus reanimation multipliers | **Resolved after S3.** The name was wrong and the effect was half wrong - the reanimation half is a stratagem, not the detachment rule. See [[cryptek_conclave]] |
 | Points values (Warriors 100, Immortals 75, Scarabs 40, Wraiths 125, Doomstalker 145, Szeras 175, Lychguard 170, Plasmancer 65) | Owner's notes | Cross-check against the Munitorum Field Manual - a dataslate may have moved them |
 | Squad merging (Warriors to 20, Immortals to 10, Wraiths to 6) | Owner's notes | Whether these are legal unit sizes in 11e |
 | Unit ability leads (Macrocytes granting *Ignores Cover*; Szeras AP aura; Plasmancer improving critical hits) | Owner's notes | All of it |
@@ -110,7 +114,7 @@ Nothing in this group has a source behind it. Each row names the pointer that wo
 
 - **The status marker.** Every term carries `verified` / `draft` / `unverified`. Dropping it in the shipping version would ship confidence the KB does not have.
 - **Terms grouped by scope** - core rules, Necrons, Space Marines, project vocabulary. The KB glossary is already sectioned this way.
-- **The deprecated list.** Tomb World as current inventory, and "Data Package Detachment", both need to stay flagged.
+- **The deprecated list.** "Tomb World is not owned", the retired "do not let Tomb World leak" rule, and "Data Package Detachment" all need to stay flagged as claims **not** to reuse.
 
 If S3 verifies a term against a source, update the KB glossary in the same pass and record the retrieval date. Verification that only lands in shipping content is lost to every future session.
 
@@ -120,7 +124,7 @@ If S3 verifies a term against a source, update the KB glossary in the same pass 
 
 | Thread | Blocks | Owner |
 |--------|--------|-------|
-| **Hierotek Circle photo ID** | The first playable game; Phase 1 of both Necron paths | User photos, then S4 |
+| **Hierotek Circle photo ID** | Using the set in a list. **No longer blocks the first game** - the Tomb World units cover Phase 1 of both Necron paths | User photos, then S4 |
 | Space Marine collection audit | Any S5 content | User, S5 prep |
 | Wahapedia `wh40k10ed` URL path - 10e or 11e? | Confidence of every web cross-check | S3, see [[wahapedia]] |
 | Whether owned PDFs have been superseded by a dataslate | Confidence of everything | S3, see [[warhammer_community]] |

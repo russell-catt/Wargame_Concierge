@@ -1,27 +1,29 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v1.1 (2026-08-16)
+VERSION: v1.2 (2026-08-16)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
 DOCUMENT_TYPE: Learning List / Expansion Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Provisional - assumes the three owned boxes are built; all points verified against MFM v1.2 on 2026-08-16
+REFERENCE_STATUS: Active - built on the game-ready Tomb World force; assumes the sprue extras (2nd Warriors, 2nd Scarabs, Immortals) are built where noted; Warriors/Immortals/Scarabs points verified against MFM v1.2 on 2026-08-16, Geomancer/Tomb Crawler/Macrocyte points sourced from Necron_Lists.md pending independent MFM re-verification
 
 SOURCES:
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - every points value on this page
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1; read 2026-08-16)
-  - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (ownership, 2026-08-16)
+  - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (ownership, corrected 2026-08-16)
   - games/warhammer_40k_11e/armies/necrons/Starter_250.md (the list this grows from)
 
 PURPOSE:
-  Two 500-point lists - one per detachment - that use the owned kits once built
-  and tag every other model as a purchase.
+  Two ~500-point lists - one per detachment - that grow directly out of the
+  owned Kill Team: Tomb World force and tag every other model as sprue
+  (owned, build-before-play) or purchase. Shopping never re-lists anything
+  already owned, including Tomb World's Macrocytes and Scarab Swarms.
 
 PRIMARY_AUDIENCE:
-  - A player who has played two or three 250-point games and wants a real one
+  - A player who has played two or three games with the Tomb World Starter_250 list
   - Anyone deciding what to buy next
 
 UPDATE_TRIGGER:
@@ -33,74 +35,74 @@ UPDATE_TRIGGER:
 
 500 points is the first size that feels like Warhammer 40,000 rather than a demo: two objectives worth fighting over, a real character, and enough units that the order you activate them starts to matter.
 
-**Every points value below was read from the owned Munitorum Field Manual v1.2 on 2026-08-16.** The older figures in [`Necron_Lists.md`](Necron_Lists.md) are stale.
+Both lists below **start from the full, owned Kill Team: Tomb World box** - nothing needs to be built or bought to reach the 365-point foundation.
 
 ---
 
-## The foundation: what you already own
+## The foundation: the full Tomb World box (owned, game-ready)
 
-Assumes the three purchased boxes have been built. Until they are, none of this is playable - see [`Starter_250.md`](Starter_250.md).
+| Unit | Models | Pts | Ownership |
+|------|--------|-----|-----------|
+| Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World, game-ready |
+| Necron Warriors | 10 | **80** | **OWNED** - Tomb World, game-ready |
+| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World, game-ready |
+| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World, game-ready |
+| Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World, game-ready |
+| | | **365** | Zero purchases, zero assembly - 73% of a 500-point army |
 
-| Unit | Models | MFM v1.2 | Tag |
-|------|--------|----------|-----|
-| Necron Warriors | 10 | **80** | **OWNED** - build before play |
-| Immortals | 5 | **70** | **OWNED** - build before play |
-| Canoptek Scarab Swarms | 3 | **40** | **OWNED** - build before play |
-| | | **190** | 38% of a 500-point army, already paid for |
+**Do not re-shop any line above** - all five units are already on the table. The Macrocytes and this set of Scarab Swarms in particular are Tomb World stock, not shopping targets.
 
-Plus the **Hierotek Circle** set, assembled and painted, still `TBD` pending photo identification. If it contains a Cryptek, one of the purchases below disappears.
+Plus the **Hierotek Circle** set, assembled and painted, still `TBD` pending photo identification. If it contains a Cryptek, one of the purchases below may become optional.
 
 ---
 
-## Path A - Cryptek Conclave, 495 / 500 *(recommended)*
+## Path A - Canoptek Court, 500 / 500
 
-The detachment the owned sprues actually feed. See [`Cryptek_Conclave.md`](Cryptek_Conclave.md).
+The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawlers, and Macrocytes all benefit from the Power Matrix. See [`Canoptek_Court.md`](Canoptek_Court.md).
 
-| Unit | Models | MFM v1.2 | Tag |
-|------|--------|----------|-----|
-| **Plasmancer** | 1 | **55** | `TBD` / **PURCHASE** - check the Hierotek Circle first |
-| **Royal Warden** | 1 | **50** | **PURCHASE** |
-| **Necron Warriors** | 10 | **80** | **OWNED** |
-| **Immortals** | 10 | **140** | **OWNED** (5) **+ PURCHASE** (5, merges into one unit of 10) |
-| **Canoptek Scarab Swarms** | 3 | **40** | **OWNED** |
-| **Lychguard** | 5 | **80** | **PURCHASE** |
-| **Canoptek Tomb Crawlers** | 2 | **50** | **PURCHASE** |
-| | | **495** | |
+| Unit | Models | Pts | Ownership |
+|------|--------|-----|-----------|
+| Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
+| Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
+| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World |
+| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World |
+| Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
+| Canoptek Scarab Swarms (2nd set) | 3 | **40** | **OWNED** - sprue, build before play |
+| Canoptek Wraiths | 3 | **95** | **PURCHASE** |
+| | | **500** | |
 
 **How it is meant to be arranged:**
 
-- **Plasmancer joins the Immortals.** A Cryptek attached to ten Immortals means the detachment's ability menu upgrades ten guns each Shooting phase.
-- **Royal Warden joins the Warriors.** A Leader and a Support can sit on the same squad, so this stacks legally alongside a Cryptek if you would rather double up.
-- **Tomb Crawlers join a Cryptek-led unit** during pre-game setup using their own Canoptek Retinue ability - they become part of that squad rather than a separate unit. Read that ability on the datasheet before deploying.
-- **Lychguard hold the second objective.** Tough bodies that make the opponent commit more than they wanted to.
-- **Scarabs go and be annoying** on whatever the third objective is.
+- **Geomancer joins the Warriors.** Keeps them alive on the home objective while everything else pushes for Power Matrix territory.
+- **Tomb Crawlers and Wraiths take the middle.** Control half the No Man's Land objectives at the start of a phase and the whole region joins your Matrix for that phase - which upgrades both units at once.
+- **Macrocytes and both Scarab units go wide.** Cheap Objective Control bodies that also count as Canoptek for the Matrix bonus.
 
-**Cheaper variant - 375 points, one purchase.** Drop the Tomb Crawlers and the second Immortals box: Plasmancer 55, Royal Warden 50, Warriors 80, Immortals (5) 70, Scarabs 40, Lychguard 80. Play it as a 400-point game. Two purchases instead of four, and it teaches the same lessons.
+**Cheaper variant - 405 points, no purchase.** Drop the Wraiths and build the 2nd Scarab set: Geomancer 75 + Warriors 80 + Tomb Crawlers 85 + Macrocytes 85 + Scarabs (both sets) 80 = 405. Zero purchases, one bench evening.
 
 ---
 
-## Path B - Canoptek Court, 490 / 500
+## Path B - Cryptek Conclave, 490 / 500
 
-The stronger detachment on paper, and the more expensive one to reach. See [`Canoptek_Court.md`](Canoptek_Court.md).
+The detachment the Immortals and second Warriors squad feed once built. See [`Cryptek_Conclave.md`](Cryptek_Conclave.md).
 
-| Unit | Models | MFM v1.2 | Tag |
-|------|--------|----------|-----|
-| **Plasmancer** | 1 | **55** | `TBD` / **PURCHASE** - Cryptek, so it benefits from the Power Matrix |
-| **Necron Warriors** | 10 | **80** | **OWNED** |
-| **Immortals** | 5 | **70** | **OWNED** |
-| **Canoptek Scarab Swarms** | 3 | **40** | **OWNED** |
-| **Canoptek Wraiths** | 3 | **95** | **PURCHASE** - first-unit price; a second unit costs **115** |
-| **Canoptek Doomstalker** | 1 | **140** | **PURCHASE** |
-| Enhancement: Metalodermal Tesla Weave | - | **10** | On the Plasmancer. Optional |
+| Unit | Models | Pts | Ownership |
+|------|--------|-----|-----------|
+| Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
+| Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
+| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World |
+| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World |
+| Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
+| Immortals | 5 | **70** | **OWNED** - sprue, build before play |
+| Plasmancer | 1 | **55** | `TBD` / **PURCHASE** - check the Hierotek Circle first |
 | | | **490** | |
 
 **How it is meant to be arranged:**
 
-- **Doomstalker stays home.** Your deployment zone is permanently inside your Power Matrix, so it always has the better re-rolls without you having to earn them.
-- **Wraiths and Scarabs take the middle.** Control half the No Man's Land objectives at the start of a phase and the whole region joins your Matrix for that phase - which upgrades the Doomstalker and the Wraiths at the same time.
-- **Warriors and Immortals get nothing from the detachment rule.** They are here to hold the home objective and screen. Do not expect them to carry the game.
+- **Plasmancer joins the Immortals** once both are on the table - a Cryptek attached to Immortals upgrades five decent guns each Shooting phase under Technosorcerous Augmentations.
+- **Geomancer stays with the Warriors** on the home objective.
+- **Tomb Crawlers and Scarabs** screen and contest - they get nothing from Conclave's ability, but they are free Objective Control.
 
-**Why this is Path B for now:** two of its six entries are unpurchased, and they are the two expensive ones. It is the better army once they exist.
+**Cheaper variant - 365 points, no purchase.** Just the Tomb World foundation above, no Immortals, no Plasmancer. Add the Immortals (build first) for 435 with no purchase at all.
 
 ---
 
@@ -108,20 +110,19 @@ The stronger detachment on paper, and the more expensive one to reach. See [`Can
 
 | Model | Points | Path A | Path B |
 |-------|--------|--------|--------|
-| Necron Warriors (10) | 80 | **OWNED** | **OWNED** |
-| Immortals (5, first box) | 70 | **OWNED** | **OWNED** |
-| Canoptek Scarab Swarms (3) | 40 | **OWNED** | **OWNED** |
-| Plasmancer | 55 | `TBD` / buy | `TBD` / buy |
-| Royal Warden | 50 | Buy | - |
-| Immortals (5, second box) | +70 | Buy | - |
-| Lychguard (5) | 80 | Buy | - |
-| Canoptek Tomb Crawlers (2) | 50 | Buy | - |
-| Canoptek Wraiths (3) | 95 | - | Buy |
-| Canoptek Doomstalker | 140 | - | Buy |
+| Cryptek Geomancer | 75 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Necron Warriors (10) | 80 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Canoptek Tomb Crawlers (2) | 85 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Canoptek Macrocytes (5) | 85 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Canoptek Scarab Swarms (3) | 40 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - sprue | - |
+| Immortals (5) | 70 | - | **OWNED** - sprue |
+| Canoptek Wraiths (3) | 95 | Buy | - |
+| Plasmancer | 55 | - | `TBD` / buy |
 
-Retail and second-hand price tracking lives in [`Necron_Lists.md`](Necron_Lists.md) - **but its points values are stale, so use this page for costs and that page only for shopping.**
+Retail and second-hand price tracking for genuinely-unowned models lives in [`Necron_Lists.md`](Necron_Lists.md) - **its shopping tracker already excludes the full Tomb World box, the 2nd Warriors squad, the 2nd Scarab set, and the Immortals as owned.**
 
-**Check the Hierotek Circle before buying anything.** A Cryptek in that box removes the single most repeated purchase on this page.
+**Check the Hierotek Circle before buying a Plasmancer.** A Cryptek in that box removes the one repeated purchase on Path B.
 
 ---
 
@@ -132,14 +133,14 @@ Retail and second-hand price tracking lives in [`Necron_Lists.md`](Necron_Lists.
 | Phase order, and not forgetting reanimation | Activation order in the Fight phase, where sequencing wins games |
 | The attack sequence | Which target is worth shooting, rather than which is easiest |
 | Objective Control on one objective | Holding two while contesting a third |
-| One character, attached | Two characters, and which squad each is worth more on |
+| One character, attached | Choosing which squad a character is worth more on |
 | Losing a unit | Not losing the **last model** of a unit, so it can reanimate |
 
 ---
 
 ## Before you play this size
 
-- [ ] Everything in the list is built. Unassembled models are not units.
+- [ ] Everything in the chosen list is built. Unassembled models are not units - build the sprue extras (2nd Scarabs for Path A, or Immortals for Path B) first.
 - [ ] Re-check every cost against the current Munitorum Field Manual - patches happen.
 - [ ] Write your detachment, characters, and attachments down **before** deployment. Attachments are declared pre-game and cannot be changed mid-battle.
 - [ ] Print the two-page [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
@@ -149,16 +150,17 @@ Retail and second-hand price tracking lives in [`Necron_Lists.md`](Necron_Lists.
 
 ## Related pages
 
-- [`Starter_250.md`](Starter_250.md) - the smaller list and the build-before-play problem
+- [`Starter_250.md`](Starter_250.md) - the Tomb World-only list this grows from
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) - the two detachments
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) - the army rule
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - ownership source of truth
-- [`Necron_Lists.md`](Necron_Lists.md) - shopping tracker (stale points; do not cost from it)
+- [`Necron_Lists.md`](Necron_Lists.md) - shopping tracker (excludes all owned Tomb World / sprue stock)
 
 ---
 
 ## Change Log
-- v1.1 (2026-08-16): Ownership tags re-verified against current FOUNDATION; shopping still excludes owned Warriors/Scarabs/first Immortals box; Hierotek Cryptek remains `TBD`.
+- v1.2 (2026-08-16): Rebuilt both paths around the corrected ownership decision - the full Kill Team: Tomb World box (Geomancer, Warriors, Tomb Crawlers, Macrocytes, Scarab Swarms) is the 365-point owned foundation for both detachments. Shopping summary now explicitly excludes owned Macrocytes and Tomb World Scarab Swarms; sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not shopping targets (slice S2, `tomb_world_ownership`).
+- v1.1 (2026-08-16): Ownership tags re-verified against then-current FOUNDATION; described Tomb World as not owned. *(That claim was erroneous - superseded by v1.2.)*
 - v1.0 (2026-08-16): Initial 500-point expansion lists (slice S4). Both paths costed from Munitorum Field Manual v1.2, with owned and purchase tags on every entry.
 
 ## Attribution

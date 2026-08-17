@@ -49,21 +49,28 @@ The learning army. Ownership confirmed 2026-08-16 (see the Preflight notes in [`
 
 | Models | Count | State |
 |--------|-------|-------|
-| Necron Warriors | 10 | Purchased, unassembled |
-| Canoptek Scarab Swarms | 3 | Purchased, unassembled |
-| Immortals | 5 | Purchased, unassembled |
+| Cryptek Geomancer (Tomb World) | 1 | **Game ready** |
+| Canoptek Tomb Crawlers (Tomb World) | 2 | **Game ready** |
+| Canoptek Macrocytes (Tomb World) | 5 | **Game ready** |
+| Necron Warriors (Tomb World squad) | 10 | **Game ready** |
+| Canoptek Scarab Swarms (Tomb World set) | 3 | **Game ready** |
 | Hierotek Circle (used set) | 1 set | Game ready; datasheet mapping pending photo ID |
+| Necron Warriors (second squad) | 10 | Purchased, unassembled |
+| Canoptek Scarab Swarms (second set) | 3 | Purchased, unassembled |
+| Immortals | 5 | Purchased, unassembled |
+
+**Totals:** 20 Warriors, 6 Scarab Swarms, plus the Geomancer, Tomb Crawlers, Macrocytes, Immortals, and the Hierotek Circle set.
 
 Full page: [[necrons]]. Two open threads worth carrying forward:
 
-- **Hierotek Circle contents are not yet identified.** The set is game-ready and therefore the preferred starting point for early games, but its models still need to be mapped to 40K datasheets from user photos.
-- **Everything else needs building before it can be played.** Early teaching content should account for build-before-play, not assume a painted army.
+- **Hierotek Circle contents are not yet identified.** The set is painted and fieldable, but its models still need mapping to 40K datasheets from user photos before it can appear in a list. It no longer gates the first game.
+- **Three owned units still need building.** The second Warrior squad and second Scarab set are **assemble-to-expand** - they widen squads that already exist - while the Immortals are the one unit the collection cannot field at all until built.
 
-The collection has an awkward shape worth stating plainly: **the only table-ready models are the ones nobody has identified, and the only identified models are still on sprue.** Both halves are blocked, for opposite reasons. The photo ID is the cheaper of the two to unblock.
+The collection's shape, stated plainly: **there is a complete, painted, identified army available today.** The Kill Team: Tomb World units are the owner's preferred learning baseline, and everything else in the collection expands them.
 
-Two detachment paths are costed from this collection - [[canoptek_court]] and [[cryptek_conclave]]. On the models actually owned, the Conclave is the shorter route to a legal list, because Warriors and Immortals are exactly its battleline and the Hierotek Circle plausibly supplies the Cryptek character. That is a hypothesis resting on an unopened box, not a recommendation.
+Two detachment paths are costed from this collection - [[canoptek_court]] and [[cryptek_conclave]] - and Tomb World gives **both** of them a legal Phase 1 force, so the choice is no longer gated on a purchase or an identification. The Conclave stays the shorter route to a finished path, and it is now grounded in a real model rather than a hypothesis: the game-ready Geomancer is the Cryptek character it needs.
 
-An earlier blueprint assumed **Kill Team: Tomb World**. That is **superseded and historical** - it does not describe current ownership and should not be treated as such.
+**Correction of record.** An earlier version of this KB recorded **Kill Team: Tomb World as not owned**, treated its lists as superseded history, and carried a standing rule against letting that content reach current advice. All of that was erroneous and is withdrawn. See the deprecated list in [[glossary]].
 
 ### Space Marines - secondary
 
@@ -78,18 +85,20 @@ The comparison and opponent army, played by the owner's son. Used to teach contr
 | Metric | Value |
 |--------|-------|
 | Sources ingested | 5 (2 read in full, 3 registered only) |
-| KB entity pages | 15 |
+| KB entity pages | 17 |
 | KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) |
-| Glossary terms | 32 - 0 game terms `verified` |
-| Last ingest | 2026-08-16 (L1) |
-| Last lint | - (L2) |
+| Glossary terms | 36 - 24 game terms `verified` |
+| Last ingest | 2026-08-16 (L1, `tomb_world_ownership` - ownership correction) |
+| Last lint | 2026-08-16 (L2, `tomb_world_ownership` - full re-lint) |
 | Schema version | AGENTS.md v1.0 (2026-08-16) |
 
 The KB was bootstrapped in slice **L0** and took its first real ingest in **L1**, both on 2026-08-16. The ingest contract now has a worked example behind it rather than only a procedure.
 
 **What that ingest did and did not establish.** It read the owner's Necron notes and the source catalog in full, and it registered the two living web references without opening them. It produced faction, detachment, and concept pages that are honest about resting on one planning document. It did **not** read a single rules document: the core rules, both faction packs, the terrain PDFs, and the points manuals are all sitting on the owner's disk, catalogued in [[local_library_pointers]], unopened.
 
-So the shape of the gap has changed. It is no longer "we do not have sources." It is **"we have not read the sources we have."** Rules and setup arrive in **S3**, faction starters in **S4** and **S5**, full unit research in **S6**, and a lint pass in **L2**.
+So the shape of the gap has changed - twice. At L1 it was no longer "we do not have sources" but **"we have not read the sources we have."** That second gap has since closed on the shipping side: S3 read the core rules and setup, S4 and S5 read both faction packs and Munitorum Field Manual v1.2 for the faction starters, and S6 enumerated both unit rosters.
+
+**The gap now is a back-fill gap.** The rules have been read into `games/`, not into `KB/`. The faction, detachment and concept pages here still mostly rest on the owner's planning notes, which is why they remain `draft` and `unverified` while the shipping teaching content carries verified rule text. Where the two disagree, the shipping content is newer and better sourced. Closing that gap - re-ingesting the shipping pages back into `KB/` - is the largest single piece of Librarian work outstanding.
 
 ---
 
@@ -110,13 +119,21 @@ Expect these to be the organizing ideas as content lands. They are hypotheses ri
 
 The L0 flag is why this cost one ingest to fix rather than surfacing halfway through S4. Writing uncertainty down loudly is working.
 
+## Resolved in L1 - `tomb_world_ownership` (2026-08-16)
+
+- **Kill Team: Tomb World is owned and game-ready.** Five datasheets' worth of assembled, painted, identified models. The KB had recorded the box as *not owned* and its lists as superseded, which was wrong in the other direction from the Power Matrix error: this time the KB was confidently denying something the owner has on a shelf.
+- **The "do not let Tomb World leak" rule is retired.** It was written as a guardrail against stale data and became the stale data itself. It now exists only as a deprecated-claim row, so it cannot return as guidance.
+- **Dual Warriors and Scarabs recorded.** 20 Warriors and 6 Scarab Swarms owned, half of each game-ready and half on sprue.
+
+The lesson is the mirror image of the Power Matrix one. A loud flag made that error cheap to fix; a *negative* ownership claim written as settled fact propagated across the KB before anyone checked it. Inventory claims should carry the same "verify against the owner" discipline as rules claims.
+
 ---
 
 ## Open questions
 
 - What are the actual contents of the Hierotek Circle set, and which 40K datasheets do they map to?
 - What does Power Matrix actually *say* in 11th Edition? The name is settled; the wording is not.
-- Which Necron detachment best suits a beginner with this specific model pool? [[cryptek_conclave]] is the current hypothesis, resting on an unopened box.
+- Which Necron detachment best suits a beginner with this specific model pool? [[cryptek_conclave]] is the current hypothesis - now resting on owned, game-ready models rather than on an unopened box, so what remains unknown is the detachment rules, not the inventory.
 - What Space Marine ownership exists? The worksheet is empty and this gates all S5 content.
 - Which 11th Edition rules genuinely changed from 10th, and which carried over unchanged?
 - What is the target game size for early games (Combat Patrol, Incursion, Strike Force)?
@@ -134,7 +151,7 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - Necron army rule detail - [[reanimation_protocols]] is `unverified`
 - Space Marine army rule and detachment - [[oath_of_moment]] and [[gladius_task_force]] are `unverified` and `stub`
 - Unit pages - none, deliberately: [[ingest_procedure]] puts core rules and setup first so unit pages have something to link to
-- List-building from the owned pool - blocked on the Hierotek Circle photo ID, which no amount of reading fixes
+- List-building from the owned pool - **unblocked** for the Tomb World units, which have known datasheets; only the Hierotek Circle half still waits on a photo ID, which no amount of reading fixes
 
 ---
 

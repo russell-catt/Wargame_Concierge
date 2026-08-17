@@ -126,3 +126,105 @@ Re-synced `raw/Necron_Lists.md` to the armies working copy after a working-tree 
 
 **Also updated:** `raw/pointers/necron_lists_import.md`, `KB/sources/necron_lists_owner_notes.md`, `KB/sources/source_library.md` (prefer armies copy on divergence), inventory/README/starters/laminate version bumps, `docs/Project_Planning.md` completed-to-date note.
 
+---
+
+## [2026-08-16] ingest | L1 - Tomb World ownership correction
+
+**This entry corrects the two entries above.** Both recorded **Kill Team: Tomb World as not owned**, and the 2026-08-16 sync entry described a working-tree state that "again treated Tomb World as owned" as a drift to be reverted. That was backwards. The box **is** owned, its units are assembled and painted, and the "not owned" reading was the error.
+
+**Track / slice:** `tomb_world_ownership` / L1 (Librarian, Tier 0)
+**Depends on:** S3 (Resolved - Complete)
+**Model:** `claude-opus-5-thinking-high` - **waiver**: locked `claude-fable-5-thinking-high` was blocked/unavailable at dispatch. Same Anthropic family. QA is `gpt-5.6-sol-medium` (different family, so the cross-family QA requirement still holds).
+
+**Locked ownership now recorded across the KB:**
+
+*Game-ready - Kill Team: Tomb World, assembled and painted, known datasheets:*
+
+| Unit | Qty |
+|------|-----|
+| Cryptek Geomancer | 1 |
+| Canoptek Tomb Crawlers | 2 |
+| Canoptek Macrocytes | 5 |
+| Necron Warriors | 10 |
+| Canoptek Scarab Swarms | 3 |
+
+*Also game-ready:* Hierotek Circle used set - datasheets still **TBD pending owner photos**.
+
+*Owned, unassembled:* second Necron Warriors squad (10), second Canoptek Scarab Swarms set (3), Immortals (5).
+
+**Totals:** 20 Necron Warriors, 6 Canoptek Scarab Swarms, plus Geomancer, Tomb Crawlers, Macrocytes, Immortals, and Hierotek Circle.
+
+**Rules removed as current guidance:**
+
+- **"Do not let Tomb World content leak into current advice."** Written as a guardrail against stale data, it had become the stale data. Retired to the [[glossary]] deprecated list so it cannot return as guidance.
+- **"Kill Team: Tomb World - not owned."** Deleted as a fact everywhere in `KB/`; retained only as a named, deprecated claim.
+
+**KB pages updated (11 files):**
+
+| Page | What changed |
+|------|--------------|
+| `sources/necron_lists_owner_notes` | FOUNDATION table rewritten; "Historical material" section replaced by "The Tomb World correction"; Conclave spend corrected to ~$310 / $155-220 |
+| `factions/necrons` | Ownership section rewritten; "Explicitly not owned" removed; detachment-fit and recommendation rewritten around game-ready models |
+| `glossary` | Tomb World entry inverted to owned/game-ready; Hierotek entry no longer claims sole game-readiness; `Game-ready` and `Build before play` re-scoped; **Assemble-to-expand** added; deprecated list rewritten; L1 ownership note appended |
+| `overview` | Ownership table rewritten with totals; "awkward shape" framing replaced; new "Resolved in L1 - tomb_world_ownership" section; glossary metrics and last-ingest row refreshed |
+| `sources/source_library` | Ownership snapshot corrected; stale "not owned" snapshots explicitly marked untrustworthy |
+| `analyses/inherited_docs_for_S3` | Stable-ownership table rewritten with totals; teaching constraints re-derived; Hierotek thread de-escalated |
+| `detachments/canoptek_court` | "Not currently playable" reversed - Tomb World supplies real Canoptek bodies; Phase 1 unblocked |
+| `detachments/cryptek_conclave` | Cryptek requirement satisfied by the owned Geomancer rather than a Hierotek guess; spend corrected; phases re-derived |
+| `units/necrons_unit_index` | Owned-units table rebuilt; priority mis-tagging of Geomancer / Tomb Crawlers / Macrocytes recorded as a `games/` follow-up |
+| `log`, `changelog` | This entry and the promotion row |
+
+**Also corrected in passing:** the owner's *Ignores Cover* claim for Canoptek Macrocytes is now flagged as disproven on `necron_lists_owner_notes`, matching what [[glossary]] already recorded from S4. It matters more now that the Macrocytes are game-ready.
+
+**The lesson, stated for future sessions.** The Power Matrix error was cheap to fix because L0 wrote its uncertainty down loudly. This error was expensive because a **negative ownership claim** was written as settled fact, propagated across the KB, and then defended by a guardrail rule. Inventory claims deserve the same "verify against the owner" discipline as rules claims, and a *denial* deserves it most.
+
+Nothing under `raw/` was created, modified, or deleted. No git commit, no push - the single deferred commit is Coordinator-owned at S4.
+
+Next step: **L2** (audit + lint), then **S4** (Final Sanity, then commit and push).
+
+---
+
+## [2026-08-16] lint | L2 - audit of `v1_scaffold` L2, plus full re-lint
+
+**Track / slice:** `tomb_world_ownership` / L2 (Librarian, Tier 0)
+**Depends on:** L1 (Resolved - Complete)
+**Model:** `claude-opus-5-thinking-high` - **waiver**: locked `claude-fable-5-thinking-high` was blocked/unavailable at dispatch. Same Anthropic family. QA is `gemini-3.7-flash-high` (different family, so the cross-family QA requirement holds).
+
+**Audit of the `v1_scaffold` L2 gate:** PASS with a delta. Its four hard exit criteria all still hold on disk - the lint report exists with severities, the agreed fixes are present, `log` and `changelog` carry L2 entries, and both unit-index pointer pages exist and link to the shipping `Unit_Index.md` files. Two of its *open items* had gone stale, and its glossary fix turned out to be narrower than it read.
+
+**Why a full re-lint rather than a targeted one.** The re-execute rule fires on either a failed exit criterion **or** L1 ownership edits reintroducing contradictions, orphans, or glossary drift. Criteria 1-4 passed; the second clause tripped. L1 correctly rewrote nine `KB/` pages around the true ownership, which left two shipping detachment guides asserting the opposite, and the deferred "Scientific Schemes" rename was still live in four `KB/` pages.
+
+Issues found: 13 (3 High, 5 Medium, 3 Low, 2 Info). Fixed: 9. Flagged in place rather than guessed: 1 (missing MFM points). Deferred to the Coordinator: 2. Recorded only: 1.
+
+**Ownership sweep result.** Zero live "Tomb World not owned / superseded" assertions remain in `KB/`. Every surviving string is a deprecated-claim row, an explicit correction note, or append-only log history that a later entry corrects. The two live denials outside `KB/` that L1 flagged - `docs/Rehydration_Prompt.md` and `reference/Source_Library.md` - were fixed by the Coordinator at S4 preflight and re-verified clean here. One live denial remains, in `games/warhammer_40k_11e/rules/Keyword_Glossary.md`, outside this slice's edit surface.
+
+**Pages updated (13 files):**
+
+| Page | What changed |
+|------|--------------|
+| `glossary` | **Scientific Schemes** headword replaced by **Technosorcerous Augmentations**, with both effects from the owned faction pack v1.1; deprecated-list row added for the old label; verification-queue row closed; L2 lint note appended |
+| `detachments/cryptek_conclave` | Renamed throughout; the rule's two real effects and the attached-unit keyword mechanic written up; "what Scientific Schemes actually does" removed from Open questions because it is now known |
+| `concepts/power_matrix` | Related-terminology paragraph renamed and re-levelled - the sibling rule is now better established than this one, not equally uncertain |
+| `factions/necrons` | Terminology table renamed; `[[necrons_unit_index]]` back-link added; "No unit pages exist" replaced with an accurate statement |
+| `factions/space_marines` | `[[space_marines_unit_index]]` back-link added |
+| `sources/necron_lists_owner_notes` | Old label **kept** in the source-quoting table per Sec 9, with a conflict flag beside it; rules-lead row marked disproven |
+| `analyses/inherited_docs_for_S3` | Two rows corrected - the name handed to S3 was wrong, and S3 caught it |
+| `index` | "5 sources, 15 entity pages" corrected to 17; the "no rules document has been read" banner replaced - true at L1, false since S3 |
+| `overview` | Entity-page count, last-lint row, and the "we have not read the sources we have" framing all corrected; the real remaining gap named as a `KB/` back-fill gap |
+| `games/.../necrons/Canoptek_Court` | Ownership correction - see below |
+| `games/.../necrons/Cryptek_Conclave` | Ownership correction - see below |
+| `log`, `changelog` | This entry and the promotion rows |
+
+**Two shipping teaching pages corrected under the ownership-lint mandate.** Both were `v1_scaffold` S4 output, both were written against the false inventory, and both now contradicted the `KB/` pages L1 had fixed:
+
+- `Canoptek_Court.md` rated itself **"not first, on this collection - the models that are owned get nothing from the rule."** Four of the five game-ready Tomb World units are Cryptek or Canoptek and do benefit. Verdict reversed, fit table rebuilt.
+- `Cryptek_Conclave.md` said **"the whole path hinges on one unanswered question: is there a Cryptek in the Hierotek Circle set?"** The owned Geomancer is that Cryptek. The photo ID is an upside now, not a dependency. The page had also omitted the Geomancer from its own fit table.
+
+**A gap the ownership error left behind that nobody has closed.** The Geomancer, Tomb Crawlers and Macrocytes have **no Munitorum Field Manual v1.2 points** anywhere in the repo, because the slice that read the MFM did so believing those models were not owned. They are the models most likely to hit a table first. Both teaching pages now say so explicitly rather than guessing a number.
+
+**The lesson, stated for future sessions.** L1 fixed the ownership fact and the `KB/` pages that asserted it. What it could not fix from its own surface were the pages that had silently *reasoned* from the false fact - a detachment verdict, a fit table, a research-priority tag. A false claim propagates twice: once as a statement, and once as everything derived from it. The second wave is harder to grep for, because it never repeats the words you would search on.
+
+Nothing under `raw/` was created, modified, or deleted. No git commit, no push - the single deferred commit is Coordinator-owned at S4.
+
+Next step: **S4** (Final Sanity, then commit and push).
+

@@ -84,6 +84,7 @@ This is the largest single unknown on the Space Marine side, and it gates real c
 
 - [[oath_of_moment]] - the army rule
 - [[gladius_task_force]] - the target detachment
+- [[space_marines_unit_index]] - the KB entry point into the unit research corpus
 - [[necrons]] - the army this one is the foil for
 - [[objective_control]] - the shared win condition
 - [[local_library_pointers]] - the unread faction pack

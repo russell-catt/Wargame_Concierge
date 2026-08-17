@@ -129,11 +129,12 @@ STATE AS OF 2026-08-16
   russell-catt/Wargame_Concierge, created at S7 behind a user gate.
 - KB maturity level 1 (pilot). No sources ingested yet - the first real
   ingest is L1.
-- Confirmed Necron ownership: 10 Warriors, 3 Canoptek Scarab Swarms and
-  5 Immortals, all purchased and unassembled; plus one used Hierotek
-  Circle Kill Team set, assembled and painted and therefore game ready,
-  with unit identification still pending owner photos.
-- Kill Team: Tomb World is superseded and historical, not current ownership.
+- Confirmed Necron ownership (2026-08-16 FOUNDATION): Kill Team: Tomb World
+  owned, assembled, painted, game-ready (Geomancer, 2 Tomb Crawlers,
+  5 Macrocytes, 10 Warriors, 3 Scarab Swarms — preferred learning baseline).
+  Also owned on sprue: 2nd Warriors squad (10), 2nd Scarab set (3), Immortals
+  (5). Hierotek Circle Kill Team (used) game-ready; 40K datasheets TBD pending
+  owner photos. Totals: 20 Warriors, 6 Scarab Swarms.
 - Power Matrix is the Canoptek Court detachment rule in 40K. The KB
   glossary still carries an older unresolved-attribution warning; the
   Librarian corrects it at L1.
@@ -197,7 +198,7 @@ If you cannot answer these from what you just read, read again rather than guess
 | Writing a Rising Tide HTML header onto a `KB/` page | Every other document in the repo has one | Breaks YAML frontmatter parsing in Obsidian and Dataview |
 | Writing under `raw/` | It looks like an ordinary directory | Destroys the immutability every KB citation depends on |
 | Marking a page `verified` after one unchecked read | Optimism | The confidence field is the entire trust model; inflating it breaks it |
-| Treating Kill Team: Tomb World as current inventory | Older drafts and blueprints mention it | Starter lists built on models that are not owned |
+| Denying Tomb World ownership or calling it superseded | v1_scaffold drafts wrongly recorded Tomb World as not owned | Starter lists ignore the game-ready learning baseline; sprue-only assumptions |
 | Committing "just this one change" | Helpfulness | The Coordinator is the sole git owner - no exceptions |
 | Copying rules text to save time | Speed | Copyright violation, and it stops being a teaching document |
 | Writing UTF-16 | Some PowerShell redirection defaults do this on Windows | Unreadable diffs; some tooling treats the file as binary |
@@ -220,6 +221,7 @@ Re-read section 2 against [`Project_Planning.md`](Project_Planning.md) and [`han
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v1.1 | 2026-08-16 | Ownership block and failure mode aligned to FOUNDATION — Tomb World owned and game-ready; dual Warriors/Scarabs; Immortals sprue; Hierotek TBD. S4 coord preflight |
 | v1.0 | 2026-08-16 | Initial rehydration prompt - four-step read order, paste-ready session block, bootstrap commands, cold-start failure modes. Created in slice S1 |
 
 ## Attribution
