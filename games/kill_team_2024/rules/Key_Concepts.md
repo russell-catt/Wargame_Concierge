@@ -1,19 +1,21 @@
 <!--
 FILE: games/kill_team_2024/rules/Key_Concepts.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; patch sync slice P)
 
 DOCUMENT_TYPE: Teaching Guide / Core Mechanics
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
-REFERENCE_STATUS: Draft - written from the living Wahapedia core rules page; not yet cross-checked against the owned Core Rules PDF
+REFERENCE_STATUS: Draft teaching paraphrase — defence dice / Severe / cover-obscured pick-one aligned to Full-Scan + Jun 17 update log + Jul 25 lite (2026-08-18). Table disputes: Target_Eligibility.md
 
 SOURCES:
-  - raw/pointers/kill_team_2024_core.md (points at C:\Personal\Kill Team\kill_team_2024\779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf - not yet opened this slice)
-  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17)
+  - raw/pointers/kill_team_2024_core.md
+  - games/kill_team_2024/rules/Patch_Manifest.md
+  - games/kill_team_2024/rules/Target_Eligibility.md (verbatim quotes)
+  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17; living cross-check only)
   - https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/ (retrieved 2026-08-17)
-  - KB/concepts/activations_apl.md, KB/concepts/orders_conceal_engage.md, KB/concepts/control_range_kill_team.md, KB/concepts/cover_kill_team.md, KB/concepts/injured_operatives.md (Librarian L1, landed in parallel with this slice - same living source, cross-checked as consistent)
+  - KB/concepts/activations_apl.md, KB/concepts/orders_conceal_engage.md, KB/concepts/control_range_kill_team.md, KB/concepts/cover_kill_team.md, KB/concepts/injured_operatives.md
 
 PURPOSE:
   Explain the mechanics everything else in Kill Team is built from: APL and
@@ -46,7 +48,7 @@ UPDATE_TRIGGER:
 
 A handful of ideas carry almost the whole game. Learn these and most datacard text becomes readable.
 
-Written from the living Wahapedia core rules page, retrieved **2026-08-17**. Status: `draft` - not yet cross-checked against the owned Core Rules PDF.
+Teaching paraphrase. Cover, obscured, and defence-dice wording below was aligned **2026-08-18** to owned Full-Scan + Jun 17 update log + Jul 25 lite. For table disputes, use [`Target_Eligibility.md`](Target_Eligibility.md). Status: `draft` until you read your physical book for the rest of this page.
 
 ---
 
@@ -117,10 +119,10 @@ Two separate, stackable effects apply based on terrain between two operatives - 
 
 | Effect | Trigger | What it does |
 |--------|---------|--------------|
-| **Cover** | Intervening terrain is within the *target's* control range (and the target is more than 2" from the shooter) | A Conceal target in cover is not a valid target at all. An Engage target in cover gives the defender **one free retained normal success** on defence dice (a **cover save**) before rolling the rest |
-| **Obscured** | Intervening **Heavy** terrain lies between the two operatives, more than 1" from both | The attacker must **discard one success of their choice**, and none of their successes can be critical that activation |
+| **Cover** | Intervening terrain is within the *target's* control range (and the target is more than 2" from the shooter) | A Conceal target in cover is not a valid target at all. An Engage target in cover gets a **cover save**: the defender collects **three** defence dice, retains **one normal success without rolling**, and rolls the remainder |
+| **Obscured** | Intervening **Heavy** terrain lies between the two operatives. Being within 1" of Heavy ignores **only that part** of the feature, not the whole ruin | The attacker must **discard one success of their choice**, and none of their successes can be critical that sequence |
 
-A target can be in cover *or* obscured by the same terrain feature, never both from the same feature at once - the defender's controller picks which applies if both would otherwise be true.
+A target can be in cover *or* obscured by the same terrain feature, never both from the same feature at once - the defender picks which applies if both would otherwise be true (Jun 17 update log p.2). Cover-save and Accurate dice that are retained without rolling cannot be re-rolled and have no numerical result; a die can only be retained once, though Severe can *change* a retained die.
 
 Full concept page, with the 40K collision table: [`../../../KB/concepts/cover_kill_team.md`](../../../KB/concepts/cover_kill_team.md).
 
@@ -131,10 +133,14 @@ Full concept page, with the 40K collision table: [`../../../KB/concepts/cover_ki
 Shooting is one operative's action, resolved attacker-then-defender:
 
 1. **Select weapon and target.** Pick one ranged weapon; the target must be a **valid target** (visible; and if it's on Conceal, also not in cover) with no friendly operative in its control range.
-2. **Roll attack dice** - one D6 per the weapon's Atk stat. Meet or beat the weapon's Hit stat for a success; an unmodified 6 is always a **critical success**, an unmodified 1 is always a fail. If the target is **obscured**, discard one success and cap the rest at normal.
-3. **Roll defence dice** - the defender rolls three D6 (minus one, replaced by a free normal success, if the target is in cover), each needing to meet or beat the operative's Save stat.
+2. **Roll attack dice** - one D6 per the weapon's Atk stat. Meet or beat the weapon's Hit stat for a success; an unmodified 6 is always a **critical success**, an unmodified 1 is always a fail. If the target is **obscured**, discard one success and cap the rest at normal. See Core Book p.42 for the printed success/fail/crit lines.
+3. **Roll defence dice** - the defender **collects three** defence dice. If the target is in cover, they may retain **one normal success without rolling** (a **cover save**) and **roll the remainder**. Each rolled die needs to meet or beat the operative's Save stat. Saturate weapons cannot retain cover saves.
 4. **Resolve defence dice.** The defender allocates successes to block: a normal success blocks a normal success; two normal successes block a critical success; a critical success blocks either.
 5. **Resolve attack dice.** Every unblocked success inflicts damage - Normal Dmg for a normal success, Critical Dmg for a critical success.
+
+**Vantage vs Engage (SEQUENCE, not eligibility):** shooting an Engage target from Vantage, the weapon gains Accurate 1 if the target is at least 2" lower, or Accurate 2 if at least 4" below (Full-Scan p.60).
+
+**Severe (patched):** if you retain no critical successes, you may change one normal success to a critical. **Devastating** and **Piercing Crits** still apply; **Punishing** and **Rending** do not (Jun 17 update log p.2 / Jul 25 lite p.3).
 
 ---
 
@@ -152,7 +158,7 @@ There is no separate "save roll" in melee - defence is entirely about racing to 
 
 ## Damage, Wounded, and Injured
 
-- **Damage** reduces an operative's remaining **Wounds**. At 0 or below, it is **incapacitated** and removed from the killzone (some rules let it perform one free action first).
+- **Damage** reduces an operative's remaining **Wounds**. At 0 or below, it is **incapacitated**. Incapacitated and **removed from the killzone** are separate timing windows — some rules trigger on incapacitated *before* removal. Some rules allow one free action (excluding Place Marker) before removal; that operative's player orders those rules. If wounds hit 0, a heal-on-incap action does not stop it being removed afterwards (update log).
 - **Wounded** simply means "has taken damage" - fewer than its starting Wounds remaining.
 - **Injured** is the harder threshold: fewer than **half** its starting Wounds remaining. An injured operative suffers **-2" Move** and its weapons' **Hit stat worsens by 1**. There is no squad-level morale test in Kill Team - Injured is the game's pressure mechanic, applied operative by operative.
 
@@ -183,11 +189,15 @@ Each player also secretly locks in one op as their **primary op** during the fir
 - [`Overview.md`](Overview.md) - what a game is and how you win
 - [`Turn_Structure.md`](Turn_Structure.md) - when each of these comes up
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) - one-line definitions for every term above, with 40K collisions flagged
+- [`Target_Eligibility.md`](Target_Eligibility.md) - verbatim valid-target quotes (personal use)
+- [`Patch_Manifest.md`](Patch_Manifest.md) - errata ledger
 - [`../../../KB/concepts/activations_apl.md`](../../../KB/concepts/activations_apl.md), [`../../../KB/concepts/orders_conceal_engage.md`](../../../KB/concepts/orders_conceal_engage.md), [`../../../KB/concepts/control_range_kill_team.md`](../../../KB/concepts/control_range_kill_team.md), [`../../../KB/concepts/cover_kill_team.md`](../../../KB/concepts/cover_kill_team.md), [`../../../KB/concepts/injured_operatives.md`](../../../KB/concepts/injured_operatives.md) - the Librarian's concept pages for this material, landed in parallel
 
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v1.1 (2026-08-18): Slice P — defence dice = collect three / cover save / roll remainder; Severe vs Punishing/Rending; incapacitated vs removed; Vantage Accurate; sources point at Patch_Manifest + Target_Eligibility.
 - v1.0 (2026-08-17): Initial core mechanics guide (slice S1), from the living Wahapedia core rules and Approved Ops 2025 pages, both retrieved 2026-08-17. Cross-cited against five KB concept pages (`activations_apl`, `orders_conceal_engage`, `control_range_kill_team`, `cover_kill_team`, `injured_operatives`), landed by the Librarian (L1) in parallel with this slice from the same source.
 
 ## Attribution
@@ -197,4 +207,4 @@ Each player also secretly locks in one op as their **primary op** during the fir
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check anything here against the owned Core Rules PDF - this page currently rests on a living web source only, retrieved **2026-08-17**.
+- **Verify before you play.** Cover/obscured/defence-dice aligned to owned PDFs 2026-08-18. Other sections still began as Wahapedia paraphrase (retrieved **2026-08-17**) — see [`Target_Eligibility.md`](Target_Eligibility.md) for table disputes.

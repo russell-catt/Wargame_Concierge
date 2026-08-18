@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Rehydration_Prompt.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -51,10 +51,11 @@ Four reads, in this sequence. Each one assumes the previous.
 
 | # | Read | Why it is in this position |
 |---|------|---------------------------|
-| 1 | [`../AGENTS.md`](../AGENTS.md) | **Schema source of truth.** The layer contract, the eight entity types, required YAML frontmatter, naming rules, copyright rules, and the ingest / query / lint workflows. Everything else assumes you have read this |
-| 2 | [`../KB/index.md`](../KB/index.md) | Master catalog. Tells you what knowledge already exists and at what confidence, so you do not re-derive it |
-| 3 | **The last ~5 entries in** [`../KB/log.md`](../KB/log.md) | What actually happened most recently, in order. The command is in section 3 |
-| 4 | [`handoffs/v1_scaffold/track_in.md`](handoffs/v1_scaffold/track_in.md) | Current track state: constraints, locked model matrix, per-slice rollup, and what is still pending |
+| 1 | [`../AGENTS.md`](../AGENTS.md) | **Schema source of truth.** Layer contract, entity types, YAML (`version:`), copyright / KT24 quote exception + hierarchy |
+| 2 | [`../KB/index.md`](../KB/index.md) | Master catalog |
+| 3 | **The last ~5 entries in** [`../KB/log.md`](../KB/log.md) | What happened recently |
+| 4 | [`../games/kill_team_2024/README.md`](../games/kill_team_2024/README.md), [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) | KT24 shipping spine (if the session touches Kill Team) |
+| 5 | [`handoffs/README.md`](handoffs/README.md) | Later tracks index — **do not treat frozen slice briefs as living status** |
 
 **Then, depending on what you are about to do:**
 
@@ -81,16 +82,17 @@ C:\Personal\Personal_Projects\Wargame_Concierge.
 
 WHAT IT IS
 A personal knowledge base and teaching assistant for learning tabletop
-wargames: rules, board setup, and beginner army lists built from models
-actually owned. First system: Warhammer 40,000, 11th Edition. Necrons are the
-learning army; Space Marines are the opposing force. The structure is
-game-agnostic - 40K 11e is the first worked example, not the only one.
+wargames: rules, board setup, and beginner lists from models actually owned.
+Systems: Warhammer 40,000 11th Edition (Necrons + Space Marines) and Kill Team
+2024. Personal use only — never for sale.
 
 READ THESE FIRST, IN ORDER, BEFORE WRITING ANYTHING
-1. AGENTS.md                            - schema source of truth
-2. KB/index.md                          - master catalog of knowledge
-3. KB/log.md, last ~5 entries           - what happened recently
-4. docs/handoffs/v1_scaffold/track_in.md - current track state
+1. AGENTS.md
+2. KB/index.md
+3. KB/log.md, last ~5 entries
+4. games/kill_team_2024/README.md, rules/Patch_Manifest.md, rules/Target_Eligibility.md
+   (if the work touches Kill Team)
+5. docs/handoffs/README.md — later tracks; slice files are frozen
 
 ARCHITECTURE - FOUR LAYERS, DO NOT CONFLATE
   raw/          immutable allowed sources     (never write here)
@@ -101,15 +103,23 @@ The middle layer is KB/, never wiki/. Do not create a wiki/ directory.
 
 HARD RULES
 - Never write under raw/.
-- Never git commit or git push. The Coordinator is the sole git owner;
-  pushing is a user gate at slice S7.
+- Never git commit or git push unless the user explicitly gates it.
+  Coordinator is the sole git owner on all other work.
 - Never commit Games Workshop binaries: no PDFs, images, .webp, .png.
-  The owned library at C:\Personal\40K stays outside the repo and is
-  referenced by markdown path pointer only.
-- Teaching paraphrase only. Never transcribe datasheet statlines,
-  stratagem text, or rules text verbatim.
-- Only the Librarian writes under KB/.
+  Owned libraries stay outside the repo (C:\Personal\40K and
+  C:\Personal\Kill Team) — markdown path pointers only.
+- Teaching paraphrase in KB/ and 40K shipping. KT24 verbatim quotes only
+  under games/kill_team_2024/ (Full-Scan baseline; dated eng_* patches
+  supersede; Jul 25 lite is intro; omission is not a patch).
+- Only the Librarian writes under KB/. YAML version: on every KB page.
 - Write UTF-8, no BOM.
+
+STATE AS OF v0.5.0 (2026-08-18)
+- Git tags: v0.1.0 on 1fa3b7c (S0+L0 bootstrap); v0.5.0 this snapshot.
+- KT24 Target_Eligibility owner-verified; Patch_Manifest shipped.
+- KB paraphrased from that shipping (targeting subset verified).
+- Living docs VERSION: v0.5.0 (2026-08-18). Do not rewrite historical
+  Change Log bullets. Do not edit docs/handoffs slice files.
 
 CONVENTIONS
 - KB/** uses YAML frontmatter only. docs/**, games/**, and root docs use
@@ -120,30 +130,13 @@ CONVENTIONS
 - Every KB page carries confidence: verified | draft | stub | unverified.
   Be conservative; an honest unverified beats a confident guess.
 - Every rules claim from a living reference records a retrieval date.
-
-STATE AS OF 2026-08-16
-- Track v1_scaffold in progress. Order: Preflight, S0, L0, S1, S2, L1,
-  S3, S4, S5, S6, L2, S7. Preflight, S0, L0 and S1 have landed.
-- Local repository only, no remote. The Coordinator commits after each
-  slice passes QA. Target is a private GitHub repo,
-  russell-catt/Wargame_Concierge, created at S7 behind a user gate.
-- KB maturity level 1 (pilot). No sources ingested yet - the first real
-  ingest is L1.
-- Confirmed Necron ownership (2026-08-16 FOUNDATION): Kill Team: Tomb World
-  owned, assembled, painted, game-ready (Geomancer, 2 Tomb Crawlers,
-  5 Macrocytes, 10 Warriors, 3 Scarab Swarms — preferred learning baseline).
-  Also owned on sprue: 2nd Warriors squad (10), 2nd Scarab set (3), Immortals
-  (5). Hierotek Circle Kill Team (used) game-ready; 40K datasheets TBD pending
-  owner photos. Totals: 20 Warriors, 6 Scarab Swarms.
-- Power Matrix is the Canoptek Court detachment rule in 40K. The KB
-  glossary still carries an older unresolved-attribution warning; the
-  Librarian corrects it at L1.
+- YAML version: on KB pages (project semver, distinct from GW product editions).
 
 LIVING REFERENCES - patches happen, always record a retrieval date
 - https://www.warhammer-community.com/en-gb/
 - https://wahapedia.ru/
 
-Confirm you have read the four files above and state the current slice
+Confirm you have read the files above and state the current slice
 before proposing any work.
 ```
 
@@ -165,7 +158,7 @@ Select-String -Path "$root\docs\handoffs\v1_scaffold\track_in.md" -Pattern "^\| 
 # Commit history so far, and what is uncommitted right now
 git -C $root log --oneline
 git -C $root status --short
-git -C $root remote -v   # expect empty until S7
+git -C $root remote -v
 
 # Confirm no GW binaries have crept in
 @(Get-ChildItem $root -Recurse -Include *.pdf,*.webp,*.png,*.jpg,*.jpeg,*.gif -File -Force -ErrorAction SilentlyContinue).Count
@@ -221,6 +214,7 @@ Re-read section 2 against [`Project_Planning.md`](Project_Planning.md) and [`han
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.5.0 | 2026-08-18 | Project-wide semver. Read order: AGENTS + KB index + KT README / Patch_Manifest / Target_Eligibility; tags; quote exception + hierarchy |
 | v1.1 | 2026-08-16 | Ownership block and failure mode aligned to FOUNDATION — Tomb World owned and game-ready; dual Warriors/Scarabs; Immortals sprue; Hierotek TBD. S4 coord preflight |
 | v1.0 | 2026-08-16 | Initial rehydration prompt - four-step read order, paste-ready session block, bootstrap commands, cold-start failure modes. Created in slice S1 |
 

@@ -4,7 +4,8 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-17
+updated: 2026-08-18
+version: 0.5.0
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -305,3 +306,35 @@ Key additions: **To-do: purchase 25–28mm base rings** (two) for Hierotek Plasm
 Pages created: (none — shipping-only corpus)
 Pages updated: [[glossary]] (KT24 quote exception row), [[kill_team_2024_core_rules]], [[index]], [[changelog]], [[log]]
 Key additions: Target eligibility quote appendix (35 blocks); one-page HTML cheat sheet; Canoptek 5 + Plague 7 HTML datacards; AGENTS Sec 10 KT24 exception; community thanks on KT README; pointers updated; Full-Scan OCR-via-transcription note; owner lock 2026-08-17; no WarCom fetch; no git commit
+
+## [2026-08-18] query | KT24 target-eligibility owner verification + Slice P patch sync
+
+Pages consulted: [[kill_team_2024_core_rules]], [[glossary]], [[index]], shipping `games/kill_team_2024/rules/Target_Eligibility.md` (and cheat sheet), Patch_Manifest, Key_Concepts, Keyword_Glossary, Turn_Structure, Overview, Terrain_Basics, volkus, tomb_world
+
+Output filed: no — verification pass on shipping quotes, not a new analysis page
+
+Key additions:
+- Quote appendix restored from owner Full-Scan pastes + Jun 17 update log + Jul 25 lite (35 → 52 verbatim blocks)
+- Hierarchy kept: Full-Scan baseline; dated `eng_*` patches supersede; lite is intro (omission ≠ patch)
+- Slice P: Patch_Manifest.md created; Heavy counteract + Guard; Severe Punishing/Rending; Volkus Door Fight / fire step; Tomb World Close Quarters Guard
+- KB paraphrase only (Cover / Obscured / Heavy / Severe / Connected stubs); no rule dump
+- No git commit, no push, no `raw/` binaries
+
+## [2026-08-18] ingest | v0.5.0 — games/kill_team_2024 shipping → KB paraphrase
+
+**Track:** living-docs snapshot + Librarian pass (user-gated commit+push; Coordinator git-lock waived for this request).
+
+Pages created: `valid_target`, `kill_team_terrain`, `killzones_volkus_tomb_world`
+
+Pages updated: `kill_team_2024_core_rules` (targeting subset `verified`; other Core stays draft), `turning_points`, `activations_apl`, `orders_conceal_engage`, `cover_kill_team`, `control_range_kill_team`, `injured_operatives`, `glossary`, `index`, `overview`, `changelog`, `log`, `ingest_procedure` (`version:` field only)
+
+Key additions:
+- **Flag then replace** L1 Wahapedia drafts — did not pretend they were always verified
+- Hierarchy: Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro; omission ≠ patch
+- Cover save = collect three / retain one normal success; same-feature cover vs obscured pick-one; Heavy on activation **or** counteract (does not prevent Guard)
+- Setup pages paraphrase Terrain_Basics / Volkus Door Fight / Tomb World Close Quarters Guard
+- No quote dump, no datacard statlines, no `raw/` binaries
+- Teams / joint_ops / nemesis_ops / critical_ops remain index-only
+
+Nothing under `raw/` written. Git commit/tag/push is the explicit user-gated snapshot for this pass.
+

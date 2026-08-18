@@ -1,12 +1,12 @@
 <!--
 FILE: README.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
 DOCUMENT_TYPE: Project Overview
 PROJECT_NAME: Wargame_Concierge
-PROJECT_STATUS: Active - track v1_scaffold in progress
+PROJECT_STATUS: Active - v0.5.0 snapshot
 
 SOURCES:
   - START_HERE.md
@@ -48,11 +48,11 @@ Most wargame rulebooks are written as reference, not as teaching. They tell you 
 
 That "file it once, answer forever" behaviour is the Karpathy **LLM Wiki** pattern (see [`reference/llm-wiki.md`](reference/llm-wiki.md)), adapted here to wargames. Knowledge **compounds** - the same ground is never covered twice.
 
-**First system:** Warhammer 40,000, 11th Edition.
-**Armies:** Necrons (the learning army) and Space Marines (the opposing force).
-**Why those two:** see [`docs/Project_Origin_Story.md`](docs/Project_Origin_Story.md).
+**First system:** Warhammer 40,000, 11th Edition (Necrons + Space Marines).
+**Second system:** Kill Team 2024 — onboarded under [`games/kill_team_2024/`](games/kill_team_2024/README.md).
+**Personal use only — this project must never be sold.**
 
-The architecture is game-agnostic. 40K 11e is the **first worked example**, and [`docs/Game_System_Scaffold.md`](docs/Game_System_Scaffold.md) is the reusable checklist for adding the next system.
+The architecture is game-agnostic. [`docs/Game_System_Scaffold.md`](docs/Game_System_Scaffold.md) is the checklist for **system #3**.
 
 ---
 
@@ -96,7 +96,7 @@ Wargame_Concierge/
 ├── .gitignore                     <- blocks GW binaries, secrets, scratchpad
 ├── .obsidian/                     <- Obsidian vault config
 ├── raw/                           <- immutable allowed sources
-│   └── pointers/                  <- path pointers to C:\Personal\40K and living URLs
+│   └── pointers/                  <- path pointers to C:\Personal\40K, C:\Personal\Kill Team, and living URLs
 ├── KB/                            <- the knowledge base (Librarian owns)
 │   ├── index.md                   <- master catalog - start every lookup here
 │   ├── log.md                     <- append-only activity log
@@ -115,7 +115,8 @@ Wargame_Concierge/
 │   ├── operations/                <- playbook + Librarian day-to-day ops
 │   └── handoffs/                  <- multi-agent track artifacts
 ├── games/                         <- per-system teaching content
-│   └── warhammer_40k_11e/         <- first worked example (arrives S2 onward)
+│   ├── warhammer_40k_11e/         <- first system
+│   └── kill_team_2024/            <- second system (Patch_Manifest, Target_Eligibility)
 ├── reference/                     <- external patterns and seed context
 ├── templates/                     <- Rising Tide header/footer fragments
 ├── checkins/                      <- decision and build session notes
@@ -158,7 +159,7 @@ Open the repo root as a vault. `[[wikilinks]]` and the graph view span `KB/`, `d
 | **Confidence** | Every KB page carries `verified` / `draft` / `stub` / `unverified`. Be conservative |
 | **Retrieval dates** | Every living-reference rules claim records the date it was read. A claim with no date is a lint finding |
 | **Encoding** | UTF-8, no BOM |
-| **Git** | The Coordinator alone commits. Push is a user gate at slice S7 |
+| **Git** | Coordinator alone commits, except when the user explicitly gates commit+push |
 
 ---
 
@@ -168,7 +169,7 @@ This is a personal learning knowledge base, **not** a redistribution channel.
 
 - **Never** commit Games Workshop PDFs, official datasheet images, or other GW binaries. [`.gitignore`](.gitignore) blocks them; do not bypass it
 - The owned library at `C:\Personal\40K` stays **outside** this repo - markdown path pointers only
-- Write **teaching paraphrase**. Never transcribe datasheet statlines, stratagem text, or rules text verbatim
+- Write **teaching paraphrase** in `KB/` and 40K shipping. **KT24 quote exception** under `games/kill_team_2024/` only (owned local PDFs; Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro)
 - Cite where every claim can be checked, so a reader can verify against material they own
 
 ### Living references
@@ -187,9 +188,7 @@ Patches happen. Re-check before a real game.
 
 ## Project status
 
-**Track `v1_scaffold`, in progress.** Slices run Preflight → S0 → L0 → S1 → S2 → L1 → S3 → S4 → S5 → S6 → L2 → S7. Current state, model matrix, and per-slice rollup: [`docs/handoffs/v1_scaffold/track_in.md`](docs/handoffs/v1_scaffold/track_in.md).
-
-Repository target: **private** GitHub repo `russell-catt/Wargame_Concierge`, created and pushed at S7 behind an explicit user gate.
+**v0.5.0 snapshot (2026-08-18).** Tags `v0.1.0` (bootstrap) and `v0.5.0`. KT24 rules/reference landed. Later tracks: [`docs/handoffs/README.md`](docs/handoffs/README.md). 40K beginner spine: [`docs/handoffs/v1_scaffold/track_in.md`](docs/handoffs/v1_scaffold/track_in.md) (historical).
 
 ---
 
@@ -212,6 +211,7 @@ Repository target: **private** GitHub repo `russell-catt/Wargame_Concierge`, cre
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Second system KT24; read-order and quote exception.
 - v1.0 (2026-08-16): Initial project overview - goals, four-layer architecture, structure map, conventions, copyright policy. Created in slice S1.
 
 ## Attribution

@@ -4,7 +4,8 @@ type: overview
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-17
+updated: 2026-08-18
+version: 0.5.0
 sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
@@ -22,7 +23,7 @@ A personal **wargame concierge**: a knowledge base that helps its owner learn a 
 
 It is built on the Karpathy "LLM Wiki" pattern (see [`reference/llm-wiki.md`](../reference/llm-wiki.md)): immutable sources in `raw/`, an LLM-maintained knowledge layer in `KB/`, and player-facing content promoted into `docs/` and `games/`. The point is **compounding** - each source read and each question answered gets filed, so the same ground is never re-covered from scratch.
 
-The project is **game-agnostic by design**. `games/` holds one subtree per system, and the KB entity types (Faction, Detachment, Unit, Setup/Mission, Concept, Analysis) are deliberately generic enough to carry a second system later. Warhammer 40,000 is the first worked example, not the only intended one.
+The project is **game-agnostic by design**. `games/` holds one subtree per system. **Warhammer 40,000 11e** is the first worked example; **Kill Team 2024** is the second (onboarded). [`docs/Game_System_Scaffold.md`](../docs/Game_System_Scaffold.md) is the checklist for system #3.
 
 ---
 
@@ -42,17 +43,17 @@ The edition is **new**, which shapes how this KB is written:
 
 ## Second system: Kill Team 2024 (KT24 / 3rd Edition)
 
-**Added 2026-08-17, track `kill_team_2024_scaffold`, slice L1.** This is the second game system the KB is designed to carry - proof that the "game-agnostic by design" claim above holds up in practice, not just in the abstract. Everything under this heading carries `system: kill_team_2024`.
+**Added 2026-08-17, track `kill_team_2024_scaffold`, slice L1; shipping-backed rewrite 2026-08-18 (v0.5.0).** This is the second game system the KB is designed to carry. Everything under this heading carries `system: kill_team_2024`.
 
-**Kill Team and Warhammer 40,000 are two separate Games Workshop products, played with separate rulebooks, and this KB treats them as such:**
+**Kill Team and Warhammer 40,000 are two separate Games Workshop products:**
 
-- **Rules stay split.** No page merges KT24 and 40K rules content. A term that exists in both games (Cover, Charge, Engagement Range / Control Range, Command Point, Engage/Injured vs Battle-shock) gets **two glossary entries, cross-linked with a collision flag** - see [[glossary]]. Neither entry is allowed to quietly describe the other system's mechanic.
-- **The miniature relationship runs the other way.** Rules do not cross over, but **models do**: Canoptek Circle and Hierotek Circle miniatures are listed in the Necron 40K inventory with provenance and **base-size / dual-legality** notes. Photo ID closed 2026-08-17 — see [[kill_team_necron_photos]] and [[necrons]].
-- **KT24 has its own subtree**, `games/kill_team_2024/`, using `teams/` (not `armies/`) as its faction-equivalent folder name, per the vocabulary mapping in [`games/kill_team_2024/README.md`](../games/kill_team_2024/README.md).
+- **Rules stay split.** Collision flags in [[glossary]]. Neither entry describes the other system's mechanic.
+- **Models can dual-use** with base-size honesty — [[kill_team_necron_photos]], [[necrons]].
+- **KT24 shipping** lives under [`games/kill_team_2024/`](../games/kill_team_2024/README.md) (`teams/` not `armies/`). **Quote exception** is scoped to that subtree only. **Hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches supersede; Jul 25 lite is intro — **omission is not a patch.** Ledger: [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md). Targeting quotes: [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) (owner-verified **2026-08-18**).
 
-**What L1 actually did.** Read Wahapedia's Kill Team 3 Core Rules page (retrieved 2026-08-17) as a living-reference cross-check; the owned Core Rules PDF pointer stays unopened - the Librarian cannot read binaries and never copies them in. Produced one source page and six concept pages covering turning points, activations/APL, orders, cover, control range, and injured operatives - the KT24 equivalent of what 40K's S3 slice did for core rules, but from a community-aggregated source rather than the owned PDF directly. See [[kill_team_2024_core_rules]] for exactly what is and is not covered.
+**What the v0.5.0 Librarian pass did.** Flagged the L1 Wahapedia drafts, then replaced them with teaching paraphrase of shipping. [[kill_team_2024_core_rules]] is `verified` **for the targeting subset only**. New pages: [[valid_target]], [[kill_team_terrain]], [[killzones_volkus_tomb_world]]. Teams / joint_ops / nemesis_ops / critical_ops stay index-only.
 
-**What is still open.** The ten owned team-rule PDFs, the killzone/mission-pack terrain rules, Critical Ops, and Nemesis Operatives are all catalogued in `raw/pointers/kill_team_2024_*.md` and unread. No KT24 term above `draft` confidence exists yet, because nothing has been cross-checked against the owned PDF itself - only against a community aggregator. That is the same shape of gap 40K started with in L0/L1, and the same fix applies: read the owned material, then upgrade confidence.
+**What is still open.** Ten owned team-rule PDFs as full KB faction/unit trees; ops card text; remaining Core chapters unread. Most KT24 glossary rows stay `draft`.
 
 ---
 
@@ -101,14 +102,14 @@ The comparison and opponent army, played by the owner's son. Used to teach contr
 
 | Metric | Value |
 |--------|-------|
-| Systems in scope | 2 - `warhammer_40k_11e` (primary), `kill_team_2024` (added 2026-08-17) |
-| Sources ingested | 6 - 5 40K (2 read in full, 3 registered only) + 1 KT24 (Wahapedia cross-check, owned PDF pointer still unopened) |
-| KB entity pages | 24 - 17 40K + 7 KT24 (1 source, 6 concepts) |
-| KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) - `glossary` and `overview` are now multi-system |
-| Glossary terms | 56 - 36 40K terms (24 `verified`) + 20 KT24 terms (all `draft`), plus 6 explicit cross-system collision flags |
-| Last ingest | 2026-08-17 (`kill_team_2024_scaffold` L1 - first Kill Team 2024 ingest) |
-| Last lint | 2026-08-16 (L2, `tomb_world_ownership` - full re-lint; **40K only**, KT24 content has not been lint-passed yet) |
-| Schema version | AGENTS.md v1.0 (2026-08-16) |
+| Systems in scope | 2 - `warhammer_40k_11e` (primary), `kill_team_2024` (second system, shipping + KB v0.5.0) |
+| Sources ingested | 40K set + KT24 core (targeting **verified** 2026-08-18; other Core `draft`) + Nemesis/photo sources |
+| KB entity pages | 40K set + KT24 (1 source, 7 concepts, 2 setup) |
+| KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) — YAML `version: 0.5.0` |
+| Glossary terms | 40K verified set + KT24 section expanded (Visible, Vantage, Seek, Blast, Torrent, Guard, Valid Target → [[valid_target]]) |
+| Last ingest | 2026-08-18 (v0.5.0 — shipping → KB paraphrase; no quote dump) |
+| Last lint | 2026-08-16 (L2, `tomb_world_ownership` - **40K only**) |
+| Schema / project version | AGENTS.md **v0.5.0** (2026-08-18); git tags `v0.1.0` (bootstrap) and `v0.5.0` (this snapshot) |
 
 The KB was bootstrapped in slice **L0** and took its first real ingest in **L1**, both on 2026-08-16. The ingest contract now has a worked example behind it rather than only a procedure.
 
@@ -176,7 +177,8 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - Space Marine army rule and detachment - [[oath_of_moment]] and [[gladius_task_force]] are `unverified` and `stub`
 - Unit pages - none, deliberately: [[ingest_procedure]] puts core rules and setup first so unit pages have something to link to
 - List-building from the owned pool - **unblocked** for Tomb World and for Hierotek's Technomancer/Immortals; Apprentek and Warden remain proxy-only
-- **Kill Team 2024, entirely** - only the core rules have been cross-checked (and only against Wahapedia, not the owned PDF); all ten owned team-rule PDFs, killzones, Critical Ops, and Nemesis Operatives are unread pointers
+- **Kill Team 2024, core targeting** - shipping-backed; remaining Core chapters and team trees still open
+- Core 11th Edition rules back-fill into KB from `games/warhammer_40k_11e/`
 
 ---
 
@@ -185,7 +187,8 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - [[index]] - full catalog of KB pages
 - [[glossary]] - terminology and Keyword entries, now multi-system
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
-- [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] - the KT24 concept pages
+- [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]]
+- [[kill_team_terrain]] · [[killzones_volkus_tomb_world]]
 - [[inherited_docs_for_S3]] - what is stable enough to teach from
 - [[kill_team_necron_photos]] - painted Necron photo ID (2026-08-17)
 - [[necrons]] · [[space_marines]] - the two factions

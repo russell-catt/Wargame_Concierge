@@ -74,6 +74,7 @@ Vocabulary: **team / operative**, not army / unit (40K).
 
 
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.5 (2026-08-17): S6 — Angels of Death marked full package complete (Team_Rule_Guide, Owned_Models_Inventory, Starter_Roster, Quick_Reference_Play_Guide, operatives/, cards/), with 40K Space Marine `Owned_Models_Inventory.md` cross-sync.
 
 - v0.4 (2026-08-17): S5 — Plague Marines marked full package complete (Team_Rule_Guide, Owned_Models_Inventory, Starter_Roster, Quick_Reference_Play_Guide, operatives/, cards/). No 40K Death Guard army in this track's scope — ruled-in `pending / N/A this track`, minimal cross-link stub at `games/warhammer_40k_11e/armies/death_guard/README.md`.

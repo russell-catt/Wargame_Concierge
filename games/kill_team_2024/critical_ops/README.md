@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/critical_ops/README.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -102,6 +102,7 @@ Per the learning-game shortcuts in [`../setup/Board_Setup.md`](../setup/Board_Se
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Expanded from S0 stub to a teaching page (slice S2) - deck contents, terminology-drift flag (Critical Ops vs Approved Ops), how it plugs into the game sequence, and when to introduce it. No card art or full text transcribed.
 - v0.1 (2026-08-17): S0 stub - ownership note and pointer link only.
 

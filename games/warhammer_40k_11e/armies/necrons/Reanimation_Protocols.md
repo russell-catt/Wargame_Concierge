@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -112,6 +112,7 @@ Put a physical reminder on the table - a dice, a token, a note on your list - th
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial army rule teaching guide (slice S4), written from the owned Necrons Faction Pack v1.1 and the Wahapedia Necrons army rule, both read 2026-08-16. Supersedes the `unverified` sketch in `KB/concepts/reanimation_protocols.md`.
 
 ## Attribution

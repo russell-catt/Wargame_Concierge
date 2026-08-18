@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Starter_Roster.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -72,6 +72,7 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial starter roster (slice S5) - role-coverage table across all seven operatives, suggested first four, ownership tagged `pending check` throughout since no audit has run.
 
 ## Attribution

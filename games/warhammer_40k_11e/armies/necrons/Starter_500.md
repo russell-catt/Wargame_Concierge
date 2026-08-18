@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v1.4 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; Path A cheaper-first)
 
@@ -160,6 +160,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.4 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase / Apprentek proxy; Path B table updated.
 - v1.3 (2026-08-17): Path A active list is now the cheaper no-purchase variant (405 / 500) - foundation plus 2nd Scarab set; Wraiths demoted to an optional full-500 upgrade.
 - v1.2 (2026-08-16): Rebuilt both paths around the corrected ownership decision - the full Kill Team: Tomb World box (Geomancer, Warriors, Tomb Crawlers, Macrocytes, Scarab Swarms) is the 365-point owned foundation for both detachments. Shopping summary now explicitly excludes owned Macrocytes and Tomb World Scarab Swarms; sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not shopping targets (slice S2, `tomb_world_ownership`).

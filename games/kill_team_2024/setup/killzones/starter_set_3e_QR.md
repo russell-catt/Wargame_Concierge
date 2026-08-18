@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/starter_set_3e_QR.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 DOCUMENT_TYPE: Table Aid
 -->
 

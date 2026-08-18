@@ -27,3 +27,5 @@ Setup pages are natural hubs - link them from `KB/concepts/` pages on scoring an
 `deployment_maps.md`, `terrain_rules.md`, `primary_scoring.md`, `pre_game_sequence.md`
 
 See also: [`KB/concepts/`](../concepts/README.md) · [`KB/index.md`](../index.md)
+
+**Kill Team 2024 (2026-08-18):** [[kill_team_terrain]], [[killzones_volkus_tomb_world]] — 40K setup pages still empty.

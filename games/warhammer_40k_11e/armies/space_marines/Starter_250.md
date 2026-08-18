@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_250.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -168,6 +168,7 @@ Put two tokens on the table edge. One goes on the oathed enemy unit; one sits on
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial 250-point learning list (slice S5). Three costed paths - Primaris, Firstborn, and no-character - because the collection has never been audited. Every figure from MFM Marines v1.2; Legends exclusions from the owned faction pack v1.1; Support attachment confirmed in the owned Core Rules. All read 2026-08-16.
 
 ## Attribution

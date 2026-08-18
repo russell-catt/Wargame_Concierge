@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Game_System_Scaffold.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -22,7 +22,7 @@ PURPOSE:
   or vocabulary.
 
 PRIMARY_AUDIENCE:
-  - Whoever onboards the second game system
+  - Whoever onboards system #3 (KT24 is already onboarded)
   - Coordinator planning a new content track
   - AI systems asked to "add game X"
 
@@ -48,7 +48,7 @@ The reusable checklist for adding a wargame to this repository.
 
 **This document is deliberately game-agnostic.** It never assumes phases, dice, points, or army structure. Every item is phrased as a *job to be done*, and each one names the system-specific vocabulary it might map to only as an example.
 
-**Warhammer 40,000, 11th Edition is the first worked example of this scaffold**, not a special case. Where a section is illustrated with 40K, treat that as one instantiation. The second system should copy the checklist, not the 40K folder.
+**Warhammer 40,000, 11th Edition is the first worked example of this scaffold**; **Kill Team 2024 is onboarded** as system #2 under [`games/kill_team_2024/`](../games/kill_team_2024/README.md) (rules spine, Patch_Manifest, Target_Eligibility, setup/killzones, teams, ops). This checklist is the pattern for **system #3**. Copy the checklist, not a 40K folder name, and use the KT subtree as the second worked example (including `teams/` vs `armies/` vocabulary).
 
 ---
 
@@ -57,7 +57,7 @@ The reusable checklist for adding a wargame to this repository.
 | Situation | Do this |
 |-----------|---------|
 | Brand-new repository | Run **section A** once, then **A2**, then **B** onward for the first system |
-| Adding a second (or later) system | Skip A - it already exists. Run **A2**, then **B**, **C**, **D** |
+| Adding a later system | Skip A - it already exists. Run **A2**, then **B**, **C**, **D**. Use `games/kill_team_2024/` as the second worked example |
 | Just want to play *something* soon | Run **section F**, the minimum viable order, and come back for the rest |
 | Planning a track | Sections B and C map cleanly onto slices; **E** is the backlog |
 
@@ -384,6 +384,7 @@ Distilled from building the first system. Each one costs more than it looks like
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). KT24 onboarded; scaffold is the pattern for system #3.
 - v1.0 (2026-08-16): Initial reusable scaffold - sections A through F, vocabulary mapping, per-section acceptance checks, trust ladder, 40K 11e worked example, anti-patterns. Created in slice S1.
 
 ## Attribution

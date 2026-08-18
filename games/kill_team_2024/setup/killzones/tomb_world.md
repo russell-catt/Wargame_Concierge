@@ -1,17 +1,18 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/tomb_world.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; patch sync slice P)
 
 DOCUMENT_TYPE: Teaching Guide / Killzone Reference
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team 2024 (3rd Edition / KT24)
 OWNERSHIP_STATUS: UNASSEMBLED (track_in.md, Preflight lock 2026-08-17)
-REFERENCE_STATUS: Active - draft, teaching paraphrase cross-checked against Wahapedia KT3 "Killzones" page (retrieved 2026-08-17); not yet spot-checked against the owned printed mission pack
+REFERENCE_STATUS: Active - teaching paraphrase; Close Quarters Guard aligned to Jun 17 update log p.3 (2026-08-18)
 
 SOURCES:
   - raw/pointers/kill_team_2024_missions.md (Killzone: Tomb World mission pack PDF, owned)
+  - games/kill_team_2024/rules/Patch_Manifest.md
   - Wahapedia Kill Team 3 - Killzones page (Killzone: Tomb World section, retrieved 2026-08-17)
   - Games Workshop webstore - "Killzone: Tomb World" product listing (component list, retrieved 2026-08-17)
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (cross-game note on Tomb World operatives)
@@ -61,6 +62,15 @@ The models can already stand in for a Necron force in a 40K game today (see the 
 3. Agree hatchway and breach point starting states (closed, per the core rules) before deployment.
 4. Consider this killzone's Close Quarters rules (Gallowdark-lineage) as a step up in complexity from Volkus - a better second or third killzone than a first one.
 
+### Close Quarters Guard (Gallowdark and Tomb World)
+
+There is no separate Gallowdark killzone page yet. These two patches apply to **both** Close Quarters killzones (Jun 17 update log p.3):
+
+- **Guard action:** the first bullet also fires if the operative **performs any action, moves, or is set up**.
+- **On Guard:** if you use On Guard, that friendly operative **cannot counteract** that turning point.
+
+Read the full Close Quarters section in the Core Book / mission pack before play — this is the errata delta, not the whole rule.
+
 ---
 
 ## What to check in the owned PDFs before your first game
@@ -74,6 +84,7 @@ The models can already stand in for a Necron force in a 40K game today (see the 
 ## Related pages
 
 - [`README.md`](README.md) - all owned kill zones
+- [`../../rules/Patch_Manifest.md`](../../rules/Patch_Manifest.md) - Close Quarters Guard errata
 - [`shadowhunt.md`](shadowhunt.md) - depends on this terrain for full Descent missions
 - [`../../teams/README.md`](../../teams/README.md) - Canoptek Circle and Deathwatch ownership
 - [`../../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md`](../../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) - the already-game-ready Tomb World operatives (40K side)
@@ -81,6 +92,8 @@ The models can already stand in for a Necron force in a 40K game today (see the 
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v1.1 (2026-08-18): Slice P — Close Quarters Guard (moves/set up; On Guard blocks counteract that TP). Shared with Gallowdark until that killzone page exists.
 - v1.0 (2026-08-17): Initial killzone page (slice S2), cross-checked against Wahapedia KT3 Killzones and the GW webstore product listing, both read 2026-08-17. Cross-linked to the 40K Necron inventory to separate operative readiness from terrain build status.
 
 ## Attribution

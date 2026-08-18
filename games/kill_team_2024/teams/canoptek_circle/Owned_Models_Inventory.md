@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/Owned_Models_Inventory.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; photo ID 2026-08-17)
 
@@ -78,6 +78,7 @@ Loadouts are no longer pending. First game is unblocked.
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Photo ID — owner-confirmed group roster; Tomb Crawlers one of each weapon; Macrocyte Warriors 2 gauss scalpel / 1 tesla caster.
 - v1.0 (2026-08-17): Initial mapping (slice S4) — Tomb World box to eight Canoptek Circle operative slots; base sizes from Wahapedia; dual-legality marked pending check throughout.
 

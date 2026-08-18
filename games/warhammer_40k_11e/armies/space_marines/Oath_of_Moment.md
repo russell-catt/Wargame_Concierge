@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Oath_of_Moment.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -123,6 +123,7 @@ Put a physical token on the oath target. Every Command phase, move it. The rule 
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial army rule teaching guide (slice S5), written from the owned Space Marines Faction Pack v1.1 Rules Updates and FAQs sections, read 2026-08-16. Upgrades the `draft` Oath of Moment entry in `Keyword_Glossary.md` and supersedes the `unverified` sketch in `KB/concepts/oath_of_moment.md`.
 
 ## Attribution

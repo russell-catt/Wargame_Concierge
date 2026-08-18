@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/joint_ops/NPO_Cheat_Sheet.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer + Librarian-assist, slice S9)
 

@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/vespid_stingwings/README.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -20,6 +20,7 @@ T'au Empire allied kill team — airborne Vespid operatives with mobility and bu
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.1 (2026-08-17): S3 stub.
 
 ## Attribution

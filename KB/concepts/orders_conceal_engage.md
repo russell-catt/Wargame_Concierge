@@ -3,8 +3,9 @@ title: Orders - Conceal and Engage
 type: concept
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-17
-sources: [kill_team_2024_core_rules]
+updated: 2026-08-18
+version: 0.5.0
+sources: [kill_team_2024_core_rules, games/kill_team_2024/rules/Key_Concepts.md, games/kill_team_2024/rules/Target_Eligibility.md]
 confidence: draft
 tags: [concept, kill_team_2024, core_rules, orders, conceal, engage, stealth]
 ---
@@ -12,6 +13,8 @@ tags: [concept, kill_team_2024, core_rules, orders, conceal, engage, stealth]
 # Orders - Conceal and Engage
 
 Every Kill Team operative carries one of two **orders** at all times, chosen fresh each time it activates: **Engage** or **Conceal**. The order is the single biggest tactical lever in the game - it decides whether an operative can act freely or hide, and it feeds directly into whether it is even a legal target.
+
+**L1 flag, then replace:** rewritten from shipping (**2026-08-18**). Shoot-step valid-target wording uses visible to the **active** operative. See [[valid_target]] (`verified` targeting subset). This page stays `draft`.
 
 ---
 
@@ -54,6 +57,7 @@ Operatives are set up with a Conceal order at the start of the battle and can sw
 
 - [[activations_apl]] - where the order is chosen, at the top of every activation
 - [[cover_kill_team]] - how cover interacts differently with each order
+- [[valid_target]] - the selection test
 - [[control_range_kill_team]] - the zone that Conceal's cover exemption depends on
 - [[kill_team_2024_core_rules]] - source
 - [[glossary]] - the "Engage" / "Engagement Range" collision flag

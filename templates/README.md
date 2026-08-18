@@ -1,6 +1,6 @@
 <!--
 FILE: templates/README.md
-VERSION: v1.1 (2026-05-27)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor
 
@@ -49,6 +49,7 @@ Rendered by [`scripts/render_release.py`](../scripts/render_release.py). Output 
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-05-27): Documented `email/` Jinja template location.
 - v1.0 (2026-05-26): Template index; added Reference and Check-in templates.
 

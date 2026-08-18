@@ -4,6 +4,7 @@ type: source
 system: kill_team_2024
 created: 2026-08-17
 updated: 2026-08-17
+version: 0.5.0
 sources:
   - "https://www.warhammer-community.com/en-gb/articles/jwpyca89/adepticon-preview-2026-the-red-terror-hunts-elite-cadians-in-new-kill-team-expansion/ (retrieved 2026-08-17)"
   - "https://www.warhammer-community.com/en-gb/articles/mmvq6nnx/sunday-preview-take-on-the-red-terror/ (retrieved 2026-08-17)"

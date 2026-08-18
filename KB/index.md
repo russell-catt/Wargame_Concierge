@@ -4,7 +4,8 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-17
+updated: 2026-08-18
+version: 0.5.0
 sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
@@ -16,7 +17,7 @@ Master catalog of every page in this knowledge base. Read this first when answer
 
 **Schema source of truth:** [`AGENTS.md`](../AGENTS.md) at the repo root. Entity types, YAML frontmatter, naming, and the ingest / query / lint workflows are defined there, not here. This file is the catalog only.
 
-**Status:** lint complete for Warhammer 40,000 through slice **L2** of `tomb_world_ownership` (2026-08-16); first Kill Team 2024 ingest, slice **L1** of `kill_team_2024_scaffold` (2026-08-17), added below and **not yet lint-passed**; slice **S9** (Join Ops) added one further KT24 source page (`nemesis_operatives`, gapped - see the page) the same day. Necron painted-model photo ingest the same day added [[kill_team_necron_photos]].
+**Status:** lint complete for Warhammer 40,000 through slice **L2** of `tomb_world_ownership` (2026-08-16); Kill Team 2024 **v0.5.0 Librarian pass (2026-08-18)** rewrote L1 Wahapedia drafts from shipping (targeting subset `verified` on [[kill_team_2024_core_rules]] / [[valid_target]]; other Core topics still `draft`). Teams / ops trees remain index-only.
 
 **Two systems now.** Everything in the typed sections below (Sources through Analyses) is `system: warhammer_40k_11e` unless it appears in the dedicated **Kill Team 2024 (KT24)** section, which carries its own Sources and Concepts tables and is kept visually separate rather than interleaved - Kill Team and 40K stay split at every layer, including the index. Check a page's own `system:` frontmatter if in doubt.
 
@@ -43,9 +44,9 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-17 |
-| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-17 |
-| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-17 |
+| [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-18 |
+| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-18 |
+| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-18 |
 | [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-17 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 
@@ -113,7 +114,7 @@ One page per datasheet, written in play terms. Location: `KB/units/`.
 
 Deployment, terrain, missions, and scoring. Location: `KB/setup/`.
 
-*(Empty - populates from S3. The terrain and core-rules pointers that would fill it are catalogued in [[local_library_pointers]] and unread.)*
+40K setup remains empty (S3 shipping lives under `games/warhammer_40k_11e/setup/`). **Kill Team 2024** setup pages are catalogued in the KT24 section above ([[kill_team_terrain]], [[killzones_volkus_tomb_world]]).
 
 ---
 
@@ -137,7 +138,7 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[kill_team_2024_core_rules]] | Owned KT24 PDF pointers + quote policy; shipping: Target_Eligibility.md, cheat sheet HTML, Canoptek/Plague datacards (`kt24_rules_quotes` 2026-08-17) | draft | 2026-08-17 |
+| [[kill_team_2024_core_rules]] | Owned KT24 PDF pointers + quote policy; Full-Scan baseline, `eng_*` patches supersede, Jul 25 lite is intro (omission ≠ patch). Targeting subset owner-verified 2026-08-18 (Patch_Manifest + Target_Eligibility) | verified | 2026-08-18 |
 | [[nemesis_operatives]] | Nemesis Operatives dossier — OCR + vision spot-check 2026-08-17; process/titles verified in shipping; tables stay book-only | draft | 2026-08-17 |
 | [[warcom_nemesis_operatives_free]] | WarCom preview articles surveyed for free Nemesis numeric profiles — none found (2026-08-17) | draft | 2026-08-17 |
 | [[community_kt24_npo_aids]] | Community NPO/KT24 cheat sheets — draft secondary, stale-risk | unverified | 2026-08-17 |
@@ -147,14 +148,22 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[turning_points]] | The Strategy-phase / Firefight-phase round structure that replaces 40K's battle round | draft | 2026-08-17 |
-| [[activations_apl]] | The alternating single-operative activation loop and the APL action-point budget that gates it | draft | 2026-08-17 |
-| [[orders_conceal_engage]] | Engage vs Conceal - the per-activation order that decides what an operative can do and whether it can be targeted | draft | 2026-08-17 |
-| [[cover_kill_team]] | KT24's Cover rule - a defender's-dice bonus, the mechanical opposite of 40K's attacker-side Cover penalty | draft | 2026-08-17 |
-| [[control_range_kill_team]] | Control Range - the 1", visibility-gated zone behind marker control, cover, and Fight legality. Not the same thing as 40K's Engagement Range, despite the brief's suggested filename | draft | 2026-08-17 |
-| [[injured_operatives]] | The half-Wounds threshold that worsens Move and Hit - not the same mechanic as 40K's Battle-shock | draft | 2026-08-17 |
+| [[turning_points]] | The Strategy-phase / Firefight-phase round structure that replaces 40K's battle round | draft | 2026-08-18 |
+| [[activations_apl]] | The alternating single-operative activation loop and the APL action-point budget that gates it | draft | 2026-08-18 |
+| [[orders_conceal_engage]] | Engage vs Conceal - the per-activation order that decides what an operative can do and whether it can be targeted | draft | 2026-08-18 |
+| [[cover_kill_team]] | KT24 Cover / Obscured / cover save / Vantage — defender-dice bonus, opposite of 40K cover | draft | 2026-08-18 |
+| [[control_range_kill_team]] | Control Range - the 1", visibility-gated zone behind marker control, cover, and Fight legality | draft | 2026-08-18 |
+| [[injured_operatives]] | The half-Wounds threshold that worsens Move and Hit - not 40K Battle-shock | draft | 2026-08-18 |
+| [[valid_target]] | Shoot selection test: visible + order/cover split; Blast/Torrent/Heavy/Seek notes. Quotes stay in shipping | verified | 2026-08-18 |
 
-*(Teams, killzones, Critical Ops, and Nemesis Operatives are all unread pointers - see [[kill_team_2024_core_rules]] Open questions. No `KB/factions/`, `KB/detachments/`, or `KB/units/` KT24 pages exist yet; KT24 uses `teams/` as its faction-equivalent layer once that slice lands.)*
+### Setup (KT24)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[kill_team_terrain]] | Terrain features are parts (Heavy/Light/Vantage/Accessible); cover vs obscured | draft | 2026-08-18 |
+| [[killzones_volkus_tomb_world]] | Volkus Door Fight / fire step; Tomb World Close Quarters Guard; operatives vs terrain ownership | draft | 2026-08-18 |
+
+*(Teams, Critical Ops, Joint Ops, and Nemesis Operatives stay index-only this pass — source pages already exist; no faction/unit trees.) *
 
 ---
 

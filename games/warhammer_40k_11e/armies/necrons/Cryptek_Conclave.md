@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
-VERSION: v1.2 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
 
@@ -178,6 +178,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase or Apprentek proxy.
 - v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table was built on the erroneous claim that Kill Team: Tomb World was not owned: it tagged the Warriors and Scarabs "unassembled", and it omitted the owned **Cryptek Geomancer** altogether. Table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units, with Tomb Crawlers and Macrocytes added. Three units flagged as not yet costed from MFM v1.2. The beginner verdict no longer "hinges on" whether the Hierotek Circle contains a Cryptek - the owned Geomancer fills that role, and the photo ID is an upside rather than a dependency. The KB-drift note updated: `KB/` was renamed to Technosorcerous Augmentations in the same slice. No rules content changed.
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S4). Detachment rule name corrected to Technosorcerous Augmentations from the owned faction pack v1.1; all points re-costed from Munitorum Field Manual v1.2; the Macrocytes `[IGNORES COVER]` claim disproved from the datasheet.

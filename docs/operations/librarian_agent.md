@@ -1,6 +1,6 @@
 <!--
 FILE: docs/operations/librarian_agent.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Librarian, slice L0)
 
@@ -113,6 +113,8 @@ The main event. Full project procedure: [`KB/ingest_procedure.md`](../../KB/inge
 
 Shape of it: confirm the source is allowed -> read and agree scope -> write the `KB/sources/` page -> fan out to entity pages -> set confidence honestly -> flag contradictions -> update glossary, index, overview -> log.
 
+**After owner verification of shipping:** ingest from `games/kill_team_2024/` (teaching paraphrase into `KB/`). **Do not** dump `Target_Eligibility.md` quotes or datacard statlines into `KB/`. KT verbatim quotes stay under `games/kill_team_2024/` only ([`AGENTS.md`](../../AGENTS.md) Sec 10). Promote path: shipping quotes (KT) vs KB paraphrase (always).
+
 A meaningful ingest touches **5-15 pages**. That is the pattern working, not scope creep.
 
 ### Lint - health-check the KB
@@ -217,6 +219,7 @@ The **inherited block** is the part downstream slices actually consume - paste-r
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Ingest-from-shipping after owner verification; KT quotes vs KB paraphrase.
 - v1.0 (2026-08-16): Initial operations guide. Created in slice L0 alongside `AGENTS.md`; combines the Karpathy query / ingest / lint / promote loop with the L0-L1-L2 slice pattern and maturity model from the coordinator playbook Sec 18.
 
 ## Attribution

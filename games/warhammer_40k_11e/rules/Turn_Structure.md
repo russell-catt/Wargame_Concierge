@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Turn_Structure.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -181,6 +181,7 @@ Your turn ends. Your opponent takes theirs. When both have gone, the battle roun
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial phase checklist (slice S3), written from the owned Core Rules PDF read 2026-08-16.
 
 ## Attribution

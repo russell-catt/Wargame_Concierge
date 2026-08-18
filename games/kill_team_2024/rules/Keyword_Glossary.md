@@ -1,21 +1,23 @@
 <!--
 FILE: games/kill_team_2024/rules/Keyword_Glossary.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; patch sync slice P)
 
 DOCUMENT_TYPE: Reference / Term Glossary
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
-REFERENCE_STATUS: Draft - written from the living Wahapedia core rules and Approved Ops 2025 pages; not yet cross-checked against the owned Core Rules PDF
+REFERENCE_STATUS: Draft teaching glossary — Heavy / Severe / connected / cover save aligned to Full-Scan + Jun 17 update log + Jul 25 lite (2026-08-18). Table disputes: Target_Eligibility.md
 
 SOURCES:
-  - raw/pointers/kill_team_2024_core.md (points at C:\Personal\Kill Team\kill_team_2024\779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf - not yet opened this slice)
-  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17)
+  - raw/pointers/kill_team_2024_core.md
+  - games/kill_team_2024/rules/Patch_Manifest.md
+  - games/kill_team_2024/rules/Target_Eligibility.md
+  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17; living cross-check only)
   - https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/ (retrieved 2026-08-17)
   - https://wahapedia.ru/kill-team3/the-rules/tac-ops/ (retrieved 2026-08-17)
   - games/warhammer_40k_11e/rules/Keyword_Glossary.md (for 40K collision checks)
-  - KB/glossary.md (Kill Team 2024 section) and KB/sources/kill_team_2024_core_rules.md (Librarian L1, landed in parallel with this slice - same living source, same collision flags, cross-checked as consistent)
+  - KB/glossary.md (Kill Team 2024 section) and KB/sources/kill_team_2024_core_rules.md
 
 PURPOSE:
   At-a-glance reference for every Kill Team rules term this project uses.
@@ -52,14 +54,15 @@ One line per term, in plain English, grouped by the situation you'll be in when 
 
 ## How to read this glossary
 
-Every entry carries a **status**, because this slice has read the living Wahapedia core rules pages but has **not yet opened the owned Core Rules PDF**.
+Every entry carries a **status**. Targeting, cover save, Heavy, and Severe were aligned to owned PDFs on **2026-08-18**; other rows still began as Wahapedia paraphrase (retrieved **2026-08-17**). Table disputes: [`Target_Eligibility.md`](Target_Eligibility.md).
 
 | Status | Meaning |
 |--------|---------|
-| `draft` | Named and explained from a source read this slice (Wahapedia, retrieved **2026-08-17**), but not yet cross-checked against the owned PDF |
+| `draft` | Named and explained from a source, but not fully owner-verified against the physical book |
 | `unverified` | Written from general familiarity, not directly confirmed by any source read this slice |
+| `patched 2026-08-18` | Wording checked against Full-Scan + Jun 17 update log + Jul 25 lite |
 
-There are no `verified` entries yet. Every term here should be confirmed against `C:\Personal\Kill Team\kill_team_2024\779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` before it settles an argument at the table.
+There are no fully `verified` entries yet for the whole glossary. Targeting-adjacent terms below marked `patched 2026-08-18` match the quote appendix. Confirm the rest against `C:\Personal\Kill Team\kill_team_2024\` before they settle an argument at the table.
 
 **Cross-checked against the KB.** The Librarian's L1 pass landed [`KB/glossary.md`](../../../KB/glossary.md) (Kill Team 2024 section) and six concept pages in parallel with this slice, reading the same living Wahapedia source. The two independently arrived at the same status (`draft`, nothing `verified`) and the same collision flags. Where a KB concept page exists, its entry below links to it directly.
 
@@ -115,17 +118,20 @@ There are no `verified` entries yet. Every term here should be confirmed against
 | **Fight** | 1AP action: both operatives roll and alternate resolving successes | Requires an enemy operative already within control range | `draft` |
 | **Atk / Hit / Dmg** | Weapon stats: attack dice rolled, result needed to succeed, damage per normal/critical success | Read straight off the datacard - never reproduced here | `draft` |
 | **Attack dice** | Dice rolled by the attacker in Shoot or Fight | One D6 per the weapon's Atk stat | `draft` |
-| **Defence dice** | Dice rolled by the defender when shot | Three D6, minus one replaced by a free success if the target is in cover | `draft` |
+| **Defence dice** | Dice collected by the defender when shot — three; if in cover, retain one normal success without rolling (cover save) and roll the remainder | Saturate prevents retaining cover saves | `patched 2026-08-18` |
 | **Normal success** | An attack or defence die meeting or beating its target number | Blocks, or is blocked by, another normal success | `draft` |
 | **Critical success** | An unmodified roll of 6 | Two normal successes are needed to block one critical success | `draft` |
-| **Valid target** | An Engage operative that's visible, or a Conceal operative that's visible **and not in cover** | Checked before a Shoot action can even be declared | `draft` |
-| **Cover** | Intervening terrain within the target's own control range (and target more than 2" from the shooter) | Removes Conceal targets from being valid at all; grants Engage targets a free "cover save" success. KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `draft` |
-| **Cover save** | The one free retained normal defence success granted by cover | Only applies to operatives that are in cover; rolled dice still follow after it | `draft` |
-| **Obscured** | Intervening Heavy terrain more than 1" from both operatives | Forces the attacker to discard one success and caps the rest at normal (no criticals). KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `draft` |
-| **Intervening** | Terrain that lies between two operatives, checked via targeting/visibility lines when unclear | The basis for both cover and obscured | `draft` |
-| **Blast X** | A weapon rule: after the primary target, shoot again at each other operative within X of it | Secondary targets are valid regardless of order; resolved as separate Shoot sequences | `draft` |
-| **Torrent X** | A weapon rule: shoot the primary target and any other valid targets within X of it that aren't near friendly operatives | Similar to Blast but with its own targeting restriction | `draft` |
-| **Guard** | 1AP action treated as a Shoot action; sets the operative on guard until it acts, is targeted nearby, or the turning point ends | Not usable on Conceal or while in an enemy's control range | `draft` |
+| **Valid target** | An Engage operative that's visible, or a Conceal operative that's visible **and not in cover** (p.42: visible to the **active** operative) | Checked before a Shoot action can even be declared | `patched 2026-08-18` |
+| **Cover** | Intervening terrain within the target's own control range (and target more than 2" from the shooter) | Removes Conceal targets from being valid at all; grants Engage targets a cover save. KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `patched 2026-08-18` |
+| **Cover save** | Retain one **normal success** without rolling it, after collecting three defence dice; roll the remainder | Cannot be re-rolled; has no numerical result; Saturate blocks it | `patched 2026-08-18` |
+| **Obscured** | Intervening Heavy terrain; 1" ignores **only that part** of Heavy, not the whole feature | Forces the attacker to discard one success and caps the rest at normal (no criticals). KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `patched 2026-08-18` |
+| **Intervening** | Terrain that targeting lines cross (shooter chooses origin on own base; markers treated as a base) | The basis for both cover and obscured | `patched 2026-08-18` |
+| **Connected (Vantage)** | Any part of the **same terrain feature** as the Vantage the shooter or target is on | Ignore that connected Heavy for obscured | `patched 2026-08-18` |
+| **Blast X** | A weapon rule: after the primary target, shoot again at each other operative within X of it | Secondaries are valid regardless of order and are **not selected**; cover/obscured copy the primary | `patched 2026-08-18` |
+| **Torrent X** | A weapon rule: shoot the primary target and any other valid targets within X of it that aren't in friendly CR | Similar to Blast but secondaries must themselves be valid targets | `patched 2026-08-18` |
+| **Heavy** | Cannot use this weapon in an activation **or counteraction** in which it moved (and cannot move in one in which it used this weapon). Heavy (x only) allows that move. **Does not prevent Guard** | Shooter gate, not a valid-target gate | `patched 2026-08-18` |
+| **Severe** | If you retain no crits, change one normal success to a critical | Devastating and Piercing Crits still apply; Punishing and Rending do not | `patched 2026-08-18` |
+| **Guard** | 1AP action treated as a Shoot action; sets the operative on guard until it acts, is targeted nearby, or the turning point ends | Not usable on Conceal or while in an enemy's control range. Heavy does not prevent Guard. Close Quarters: see Tomb World | `patched 2026-08-18` |
 
 ---
 
@@ -198,6 +204,8 @@ Terms that sound the same as a Warhammer 40,000 term but **mean something differ
 - [`Overview.md`](Overview.md) - what a game is
 - [`Turn_Structure.md`](Turn_Structure.md) - when each term comes up
 - [`Key_Concepts.md`](Key_Concepts.md) - the mechanics these terms modify
+- [`Target_Eligibility.md`](Target_Eligibility.md) - verbatim valid-target quotes
+- [`Patch_Manifest.md`](Patch_Manifest.md) - errata ledger
 - [`../README.md`](../README.md) - the top-level vocabulary mapping (team/operative, not army/unit)
 - [`../../warhammer_40k_11e/rules/Keyword_Glossary.md`](../../warhammer_40k_11e/rules/Keyword_Glossary.md) - the 40K glossary this page cross-checks collisions against
 - [`../../../KB/glossary.md`](../../../KB/glossary.md) - the Kill Team 2024 section of the working KB glossary, landed by L1 in parallel with this slice, with matching collision flags
@@ -206,6 +214,8 @@ Terms that sound the same as a Warhammer 40,000 term but **mean something differ
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v1.1 (2026-08-18): Slice P — Heavy (counteract + Guard), Severe Punishing/Rending, connected = same feature, cover save collect-three wording.
 - v1.0 (2026-08-17): Initial shipping glossary (slice S1). Terms drafted from the living Wahapedia core rules, Approved Ops 2025, and Tac Ops pages, all retrieved 2026-08-17. Owned Core Rules PDF not yet opened - every entry is `draft`, none `verified`. Added a dedicated 40K-collision table per plan requirement. Cross-cited against `KB/glossary.md` (Kill Team 2024 section) and six KB concept pages, landed by the Librarian (L1) in parallel with this slice from the same source - independently arrived at matching collision flags.
 
 ## Attribution
@@ -215,4 +225,4 @@ Terms that sound the same as a Warhammer 40,000 term but **mean something differ
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check every entry against the owned Core Rules PDF - this page currently rests on living web sources only, retrieved **2026-08-17**.
+- **Verify before you play.** Heavy / Severe / cover save / connected aligned to owned PDFs **2026-08-18**. Remaining rows still began as living-web paraphrase (retrieved **2026-08-17**).

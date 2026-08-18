@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/joint_ops/Playable_Scenarios_Owned_Terrain.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer + Librarian-assist, slice S9)
 
@@ -107,6 +107,7 @@ Every Kill Team 2024 scenario this project knows about, matched against what is 
 - [`raw/pointers/kill_team_2024_screen_captures.md`](../../../raw/pointers/kill_team_2024_screen_captures.md)
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial matrix (slice S9). First-session, later-session, PvP-only, and secondary-trust tiers.
 
 ## Attribution

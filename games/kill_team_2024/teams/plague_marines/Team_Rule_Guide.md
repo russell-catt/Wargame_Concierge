@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Team_Rule_Guide.md
-VERSION: v2.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5 — kt24_rules_quotes)
 
@@ -63,6 +63,7 @@ Seven HTML cards: [`cards/Card_Schema.md`](cards/Card_Schema.md).
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-17): Local Teams PDF quotes + seven datacards (`kt24_rules_quotes` S5).
 - v1.0 (2026-08-17): Wahapedia teaching draft (scaffold S5).
 

@@ -1,6 +1,6 @@
 <!--
 FILE: AGENTS.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Librarian, slice L0)
 
@@ -129,13 +129,16 @@ system: warhammer_40k_11e
 faction: <faction name, or omit if system-wide>
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
+version: 0.5.0
 sources: [raw/... paths or source page names that informed this page]
 confidence: verified | draft | stub | unverified
 tags: [relevant tags]
 ---
 ```
 
-Core files (`index`, `log`, `overview`, `glossary`, `changelog`, `ingest_procedure`) use the same block with `type:` set to their own name.
+Core files (`index`, `log`, `overview`, `glossary`, `changelog`, `ingest_procedure`) and every entity page carry `version:` next to `updated:` (project semver of the living KB, distinct from Games Workshop product editions).
+
+Core files use the same block with `type:` set to their own name.
 
 **`confidence` is mandatory and load-bearing.** 11th Edition is new; much of what we write starts unverified.
 
@@ -203,7 +206,7 @@ Non-negotiable. This is a personal learning KB, not a redistribution channel. **
 - **Never** commit binaries: `.pdf`, `.webp`, `.png`, `.jpg` and friends are blocked in [`.gitignore`](.gitignore). Do not bypass it
 - The external library at `C:\Personal\40K` stays **outside** this repo - reference it with **markdown path pointers only**
 - Write **teaching paraphrase**: explain how a rule works in your own words, with the reasoning a player needs. Do not transcribe datasheet statlines, stratagem text, or rules text verbatim
-- **KT24 quote exception (scoped):** Under `games/kill_team_2024/` only, you may quote **verbatim** rules text from owned local KT24 PDFs (`C:\Personal\Kill Team\kill_team_2024\` root + `Teams\`) and from WarCom free rules downloads, with filename + page/section cite on every block. Read PDFs **in place**; never copy binaries into git. This exception does **not** apply to `KB/`, `docs/`, or `games/warhammer_40k_11e/` — those remain teaching paraphrase only.
+- **KT24 quote exception (scoped):** Under `games/kill_team_2024/` only, you may quote **verbatim** rules text from owned local KT24 PDFs (`C:\Personal\Kill Team\kill_team_2024\` root + `Teams\`) and from WarCom free rules downloads, with filename + page/section cite on every block. Read PDFs **in place**; never copy binaries into git. This exception does **not** apply to `KB/`, `docs/`, or `games/warhammer_40k_11e/` — those remain teaching paraphrase only. **KT24 hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches (update log, team PDFs, universal equipment) supersede on the same topic; Jul 25 lite is simplified intro — omission is not a patch.
 - Cite where a claim can be checked (source page, Wahapedia URL, local PDF path) so the reader can verify against material they own
 - No secrets, credentials, or `.env` content in `KB/` - ever
 
@@ -322,6 +325,8 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Sec 6 — core + entity pages carry YAML `version:`.
+- v1.1 (2026-08-18): Sec 10 — one sentence on KT24 `eng_*` patch hierarchy (Full-Scan baseline; dated patches supersede; Jul 25 lite is intro; omission is not a patch).
 - v1.0 (2026-08-16): Initial schema. Adapted the Karpathy `CLAUDE.md` technical-writer schema to the wargames domain - `wiki/` becomes `KB/`, wargame entity types, glossary-only Keywords, `confidence` field, copyright and living-reference rules. Created in slice L0.
 
 ## Attribution

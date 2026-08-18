@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Project_Origin_Story.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -138,12 +138,17 @@ Get to the first game. Then get to a better second game.
 
 After that, the structure is deliberately reusable - the pattern here is not specific to Warhammer 40,000, and [`Game_System_Scaffold.md`](Game_System_Scaffold.md) is the checklist for pointing the same machinery at a different wargame entirely. 40K 11e is the first worked example. It was never meant to be the last.
 
+**Personal use only — this project must never be sold.**
+
+The **second system** is **Kill Team 2024** (skirmish, operatives, turning points). Same household, same models in some cases, **different rulebook**. Kill Team teaching content lives under `games/kill_team_2024/`. Do not mix those rules with 40K.
+
 But that is later. Right now there are ten unassembled Warriors in a box, a son with an army to learn, and a table that needs terrain on it.
 
 ---
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Second system Kill Team 2024; personal use, never for sale.
 - v1.0 (2026-08-16): Initial origin story - the problem, what a wargame is, the two armies and why they teach well together, project promises, copyright and accuracy posture. Created in slice S1.
 
 ## Attribution

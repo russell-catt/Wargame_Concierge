@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/cards/Card_Schema.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4 — kt24_rules_quotes)
 
@@ -38,6 +38,7 @@ PURPOSE:
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Printable schema + five HTML datacards (`kt24_rules_quotes` S4). Supersedes S10 photo-gated sketch.
 
 ## Attribution

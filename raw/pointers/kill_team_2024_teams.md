@@ -18,4 +18,6 @@
 | Plague Marines | `C:\Personal\Kill Team\kill_team_2024\Teams\eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf` |
 | Vespid Stingwings | `C:\Personal\Kill Team\kill_team_2024\Teams\eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf` |
 
+**Date-stamp rule:** For the **same team**, a later `eng_*` filename date wins (e.g. `eng_29-04_…` supersedes `eng_28-01_…` or `eng_17-06_…` for that team). Core-rules patches live in the update log, not these team files, unless the log names a team rule.
+
 **Ingest note:** Read in place only; never copy PDFs into the repo. **Quoting:** Verbatim operative datacards and team rules are allowed as printable/HTML cards under `games/kill_team_2024/teams/` only (see `AGENTS.md` Sec 10). `KB/` does not store full datacard dumps. This pass: Canoptek Circle + Plague Marines datacards. Others: inventory + stub. Owner lock 2026-08-17.

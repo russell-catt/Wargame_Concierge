@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/README.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -83,6 +83,7 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Noted Death Guard folder as KT cross-link stub only (slice S5, kill_team_2024_scaffold) — locked 40K forces remain Necrons + Space Marines.
 - v1.0 (2026-08-16): Initial scaffold (slice S2). README, army folders, Necron import.
 

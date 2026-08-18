@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/nemesis_ops/WarCom_Free_Statlines.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1b — nemesis_ops_research)
 
@@ -83,6 +83,7 @@ UPDATE_TRIGGER:
 - No dossier OCR datasheet paste on this page.
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): S1b WarCom + Community catalog.
 
 ## Attribution

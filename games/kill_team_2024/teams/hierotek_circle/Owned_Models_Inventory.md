@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/hierotek_circle/Owned_Models_Inventory.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, Necron photo sync)
 
@@ -74,6 +74,7 @@ Do not conflate Hierotek Plasmacytes (⌀25mm) with Canoptek Circle Macrocytes (
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Plasmacyte to-do — purchase 25–28mm base rings (do not rebase).
 - v1.0 (2026-08-17): Photo ID + dual-legality columns; proxies for Apprentek (Plasmancer) and Despotek (Immortal / Royal Warden).
 

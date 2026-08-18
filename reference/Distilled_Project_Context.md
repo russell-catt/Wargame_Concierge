@@ -1,6 +1,6 @@
 <!--
 FILE: reference/Distilled_Project_Context.md
-VERSION: v1.2 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; ownership digest realigned in track tomb_world_ownership slice S3)
 
@@ -296,6 +296,7 @@ Terms this project uses in a specific way.
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-16): Sec 9 — false Tomb World ownership denials in `KB/` marked Closed/resolved at L1. S4 coord preflight.
 - v1.1 (2026-08-16): Ownership realignment, track `tomb_world_ownership` slice S3. Sec 5 rebuilt against FOUNDATION - Kill Team: Tomb World owned and game-ready, extras on sprue, totals of 20 Warriors and 6 Scarab Swarms - and the "superseded and historical" line replaced with an explicit note that the prior claim was erroneous. Added the authoritative order for ownership facts to Sec 6. Rewrote Sec 8 for the current track and the closed `v1_scaffold`. Downgraded the Hierotek Circle photo ID to non-blocking and added the open `KB/` ownership-denial thread. Refreshed git, model-matrix, and reference pointers.
 - v1.0 (2026-08-16): Initial distilled context - identity, scope, four-layer architecture, hard rules, confirmed ownership, sources and trust ladder, agents, track state, open threads, vocabulary. Created in slice S1. *(Its ownership section wrongly recorded Tomb World as superseded - see v1.1.)*

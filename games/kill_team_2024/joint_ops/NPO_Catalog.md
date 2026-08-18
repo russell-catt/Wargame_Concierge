@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/joint_ops/NPO_Catalog.md
-VERSION: v1.2 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, nemesis_ops_research S3; prior S9)
 
@@ -159,6 +159,7 @@ Three cooperative missions using the **Descent killzone** — two linked half-bo
 - [`raw/pointers/kill_team_2024_missions.md`](../../../raw/pointers/kill_team_2024_missions.md)
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Owned painted Tomb World NPO stand-ins (Warriors ×10 mixed flayer/reaper, Scarabs ×3, plus Canoptek Crawlers/Macrocytes).
 - v1.1 (2026-08-17): S3 — §5 slimmed to `nemesis_ops/`; Gaps updated after OCR + eng.pdf delete.
 - v1.0 (2026-08-17): Initial catalog (slice S9). Six sections, six-row gap table, full sourcing.

@@ -1,20 +1,21 @@
 <!--
 FILE: games/kill_team_2024/rules/Overview.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
 DOCUMENT_TYPE: Teaching Guide / Beginner Overview
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
-REFERENCE_STATUS: Draft - written from the living Wahapedia core rules page; not yet cross-checked against the owned Core Rules PDF
+REFERENCE_STATUS: Draft teaching overview — sources now include owned Full-Scan + Jun 17 update log + Jul 25 lite (2026-08-18). Targeting disputes: Target_Eligibility.md
 
 SOURCES:
-  - raw/pointers/kill_team_2024_core.md (points at C:\Personal\Kill Team\kill_team_2024\779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf - not yet opened this slice)
-  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17)
+  - raw/pointers/kill_team_2024_core.md
+  - games/kill_team_2024/rules/Patch_Manifest.md
+  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17; living cross-check only)
   - https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/ (retrieved 2026-08-17)
   - games/kill_team_2024/README.md (vocabulary mapping)
-  - KB/sources/kill_team_2024_core_rules.md and KB/concepts/turning_points.md (Librarian L1, landed in parallel with this slice - same living source, cross-checked as consistent)
+  - KB/sources/kill_team_2024_core_rules.md and KB/concepts/turning_points.md
 
 PURPOSE:
   Answer "what actually happens in a game of Kill Team?" for someone who
@@ -41,7 +42,7 @@ UPDATE_TRIGGER:
 
 # Overview - what a game of Kill Team is
 
-Everything below is teaching paraphrase - our own explanation of how the game works, cross-checked against the living Wahapedia core rules page on **2026-08-17**. The owned Core Rules PDF has not been opened yet this slice; treat everything here as `draft` until it is.
+Everything below is teaching paraphrase. Targeting and terrain patches are in [`Patch_Manifest.md`](Patch_Manifest.md) and [`Target_Eligibility.md`](Target_Eligibility.md) (owner verified **2026-08-18**). The rest of this overview still began as Wahapedia paraphrase (retrieved **2026-08-17**).
 
 ---
 
@@ -141,12 +142,16 @@ Full term-by-term list, including flagged collisions: [`Keyword_Glossary.md`](Ke
 - [`Turn_Structure.md`](Turn_Structure.md) - the Strategy phase and Firefight phase, step by step
 - [`Key_Concepts.md`](Key_Concepts.md) - APL, Orders, control range, cover, Injured, and mission scoring
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) - every term in one place, with 40K collisions flagged
+- [`Target_Eligibility.md`](Target_Eligibility.md) - verbatim valid-target quotes
+- [`Patch_Manifest.md`](Patch_Manifest.md) - errata ledger
 - [`../README.md`](../README.md) - the vocabulary mapping table for this whole game system
 - [`../setup/README.md`](../setup/README.md) - killzones and board setup (populated in S2)
 
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v1.1 (2026-08-18): Slice P — SOURCES now Full-Scan + update log + lite; point at Patch_Manifest / Target_Eligibility. Overview body still teaching paraphrase.
 - v1.0 (2026-08-17): Initial teaching overview (slice S1), written from the living Wahapedia core rules and Approved Ops 2025 pages, both retrieved 2026-08-17. Owned Core Rules PDF not yet opened - status `draft`. Cross-cited against `KB/concepts/turning_points.md` and `KB/sources/kill_team_2024_core_rules.md`, landed by the Librarian (L1) in parallel with this slice from the same source.
 
 ## Attribution
@@ -156,4 +161,4 @@ Full term-by-term list, including flagged collisions: [`Keyword_Glossary.md`](Ke
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check anything here against the owned Core Rules PDF and current Approved Ops pack - this page currently rests on a living web source only, retrieved **2026-08-17**.
+- **Verify before you play.** Targeting quotes are owner-verified **2026-08-18**. This overview is still teaching paraphrase — confirm battle length and scoring against your mission pack.

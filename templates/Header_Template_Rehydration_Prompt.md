@@ -1,6 +1,6 @@
 <!--
 FILE: templates/Header_Template_Rehydration_Prompt.md
-VERSION: v1.0 (<YYYY-MM-DD>)
+VERSION: v0.5.0 (<YYYY-MM-DD>)
 OWNER: <Project Owner>
 AUTHOR_OF_NOTES: <Human / ChatGPT / Cursor>
 

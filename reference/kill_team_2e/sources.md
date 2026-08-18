@@ -1,6 +1,6 @@
 <!--
 FILE: reference/kill_team_2e/sources.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S8)
 
@@ -68,6 +68,7 @@ Pointer mirror: [`raw/pointers/kill_team_2021_archive.md`](../../raw/pointers/ki
 - [`reference/kill_team_2e/core_rules_index.md`](core_rules_index.md) — paraphrased structural index built from this page
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.1 (2026-08-17): Initial sources page (slice S8).
 
 ## Attribution

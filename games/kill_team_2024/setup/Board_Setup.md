@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/Board_Setup.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -10,7 +10,8 @@ GAME_SYSTEM: Kill Team 2024 (3rd Edition / KT24)
 REFERENCE_STATUS: Active - draft, teaching paraphrase cross-checked against Wahapedia KT3 (retrieved 2026-08-17); not yet spot-checked line-by-line against the owned printed rulebook
 
 SOURCES:
-  - raw/pointers/kill_team_2024_core.md (Core Rules, primary PDF owned; not read directly this slice)
+  - raw/pointers/kill_team_2024_core.md (Core Rules; hierarchy: Full-Scan + Jun 17 update log over Jul 25 lite)
+  - games/kill_team_2024/rules/Patch_Manifest.md
   - raw/pointers/kill_team_2024_approved_ops.md (Approved Ops 2025 tournament companion)
   - raw/pointers/kill_team_2024_missions.md (mission packs incl. Volkus Compound)
   - Wahapedia Kill Team 3 rules hub - https://wahapedia.ru/kill-team3/the-rules/ (community cross-check, retrieved 2026-08-17)
@@ -175,6 +176,7 @@ Add one real piece of the sequence back per game. By game three or four you'll b
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial board setup guide (slice S2), cross-checked against the Wahapedia KT3 rules hub and Approved Ops 2025 summary, both read 2026-08-17.
 
 ## Attribution

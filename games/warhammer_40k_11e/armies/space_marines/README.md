@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v2.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-link)
 
@@ -93,6 +93,7 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.1 (2026-08-17): Cross-linked the new Kill Team "Angels of Death" ownership sync (slice S6) under Sources.
 - v2.0 (2026-08-16): Indexed the five S5 documents - army rule guide, detachment guide, two starter lists, and the laminate - and rebuilt the inventory worksheet. Recorded the Chapter-mixing cost, the Legends exclusions, and non-linear unit pricing. Collection status remains honestly unknown (slice S5).
 - v1.0 (2026-08-16): Initial faction README stub (slice S2).

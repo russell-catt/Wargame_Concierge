@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/README.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -89,6 +89,7 @@ Do not confuse the KT **Canoptek Macrocyte Warrior** operative with the 40K **Ne
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Photo ID — loadouts and photo pointer in inventory.
 - v1.2 (2026-08-17): Card_Schema row updated for HTML datacards (`kt24_rules_quotes` S4).
 - v0.1 (2026-08-17): S3 placeholder.

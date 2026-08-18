@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/Team_Rule_Guide.md
-VERSION: v2.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4 — kt24_rules_quotes)
 
@@ -76,6 +76,7 @@ See [`cards/Card_Schema.md`](cards/Card_Schema.md) — five HTML cards with full
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-17): Local Teams PDF quotes + datacards (`kt24_rules_quotes` S4). Supersedes Wahapedia-only draft.
 - v1.0 (2026-08-17): Initial teaching draft (kill_team_2024_scaffold S4).
 

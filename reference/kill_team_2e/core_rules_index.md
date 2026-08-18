@@ -1,6 +1,6 @@
 <!--
 FILE: reference/kill_team_2e/core_rules_index.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S8)
 
@@ -151,6 +151,7 @@ Full KT24 vocabulary mapping (current play) lives in [`games/kill_team_2024/READ
 - [`games/kill_team_2024/README.md`](../../games/kill_team_2024/README.md) — current play truth (KT24)
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.1 (2026-08-17): Initial paraphrased index built from Wahapedia KT2 core rules (slice S8).
 
 ## Attribution

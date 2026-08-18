@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Keyword_Glossary.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -232,6 +232,7 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial shipping glossary (slice S3). Terms verified against the owned Core Rules PDF, Universal Rules Updates v1.0, Necrons Faction Pack v1.1, and Event Companion v1.1, all read 2026-08-16, plus the Wahapedia Necrons page retrieved 2026-08-16. Power Matrix upgraded to `verified` with its full effect. Records a new conflict on the Cryptek Conclave detachment rule name.
 
 ## Attribution

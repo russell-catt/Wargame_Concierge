@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/shadowhunt.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -83,6 +83,7 @@ This creates the slightly odd-looking order in the track priority list - **Volku
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial killzone page (slice S2), from Warhammer Community's Descent killzone preview and third-party Shadowhunt reviews, all read 2026-08-17.
 
 ## Attribution

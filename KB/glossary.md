@@ -4,7 +4,8 @@ type: glossary
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-17
+updated: 2026-08-18
+version: 0.5.0
 sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
@@ -266,7 +267,9 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Kill Team 2024 (KT24 / 3rd Edition)
 
-**Second game system, added 2026-08-17 (`kill_team_2024_scaffold` L1).** Everything in this section carries `system: kill_team_2024` in its source pages. **These are not Warhammer 40,000 terms.** Where a word is shared with the 40K sections above, both entries carry a **collision flag** pointing at each other - check both before assuming they mean the same thing. All terms below are `draft`: cross-checked against Wahapedia's Kill Team 3 Core Rules page (retrieved 2026-08-17), not yet against the owned Core Rules PDF, which the Librarian cannot open. See [[kill_team_2024_core_rules]].
+**Second game system, added 2026-08-17 (`kill_team_2024_scaffold` L1).** Everything in this section carries `system: kill_team_2024` in its source pages. **These are not Warhammer 40,000 terms.** Where a word is shared with the 40K sections above, both entries carry a **collision flag** pointing at each other - check both before assuming they mean the same thing.
+
+**v0.5.0 Librarian pass (2026-08-18):** L1 Wahapedia drafts were **flagged then replaced** from shipping paraphrase. Targeting-adjacent terms below that match [[valid_target]] / [[cover_kill_team]] are aligned to owner-verified quotes (**2026-08-18**); they stay `draft` here because this glossary is paraphrase, not the quote appendix. Other rows still began as Wahapedia (retrieved 2026-08-17). See [[kill_team_2024_core_rules]].
 
 **Turning Point** - `draft`
 : One round of a KT24 battle: a Strategy phase then a Firefight phase, repeated a fixed number of times (four by default). No 40K equivalent term - the nearest 40K idea is **Battle round**, which is structured completely differently (each player takes a full sequential turn, rather than both sides interleaving single-operative activations). See [[turning_points]].
@@ -305,21 +308,60 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: Kill Team 2024, core rules
 - Verify against: `kill_team_2024_core_rules`
 
-**Cover** (Kill Team) - `draft` · **collision flag**
-: Grants the *defender* one free retained defence success ("cover save") when a target in cover is shot, and (combined with a Conceal order) can make the target not a valid target at all.
+**Cover** (Kill Team) - `draft` · **collision flag** · **see [[cover_kill_team]]**
+: Grants the *defender* a **cover save** when a target in cover is shot: collect three defence dice, retain one **normal success** without rolling, roll the remainder. Combined with a Conceal order, cover can make the target not a valid target at all. Same feature cannot also apply **obscured** — defender picks one.
 : **Collision flag.** Runs in the **opposite mechanical direction** from 40K's Cover, which worsens the *attacker's* Ballistic Skill instead of helping the defender's save. See the Cover entry in the core-rules section above and [[cover_kill_team]] for the full table.
 - Faction / scope: Kill Team 2024, core rules
 - Verify against: `kill_team_2024_core_rules`
 
 **Obscured** - `draft`
-: A separate check from Cover: intervening *Heavy* terrain (not within 1" of either operative) forces the attacker to discard one success and downgrades their critical successes to normal. An operative cannot be both in cover and obscured from the same terrain feature - the defender picks one.
+: A separate check from Cover: intervening *Heavy* terrain forces the attacker to discard one success and downgrades their critical successes to normal. Being within 1" of Heavy ignores **only that part** of the feature, not the whole ruin. An operative cannot be both in cover and obscured from the same terrain feature - the defender picks one.
 - Faction / scope: Kill Team 2024, core rules
 - See also: [[cover_kill_team]]
 
-**Valid Target** - `draft`
-: The targeting test for shooting (and some rare rules): an Engage-ordered operative is valid if visible; a Conceal-ordered operative is valid only if visible **and not in cover**.
+**Valid Target** - `draft` · **see [[valid_target]]**
+: Selection test for shooting (and some rare rules): Engage if visible; Conceal if visible **and not in cover**. Shoot step uses visible to the **active** operative. Friendly operative in the target's control range blocks a Shoot selection. **Not** the same as the obscured/cover-save SEQUENCE. Shipping quotes: `games/kill_team_2024/rules/Target_Eligibility.md` (owner-verified 2026-08-18).
 - Faction / scope: Kill Team 2024, core rules
-- See also: [[orders_conceal_engage]], [[cover_kill_team]]
+- See also: [[valid_target]], [[orders_conceal_engage]], [[cover_kill_team]]
+
+**Visible** - `draft`
+: Unobstructed 1 mm-wide line from the operative's head to any part of the target miniature. Required for valid target and for control range.
+- See also: [[valid_target]], [[control_range_kill_team]]
+
+**Vantage** - `draft`
+: Terrain type (also Light): an upper level operatives can **be placed** on. Accurate 1/2 vs Engage targets below is SEQUENCE, not eligibility. "Heavy connected to Vantage" = any part of the **same terrain feature**.
+- See also: [[cover_kill_team]], [[kill_team_terrain]]
+
+**Seek / Seek Light** - `draft`
+: Selection modifiers (often with Vantage). Update-log FAQ: Vantage + Seek Light — may elect Seek only. Confirm against the quote appendix; do not invent team-specific Seek rules here.
+- See also: [[valid_target]]
+
+**Blast X** - `draft`
+: After the primary target, resolve again at other operatives within X. Secondaries are **not selected** as valid targets; "cannot be selected" does not stop them. Cover/obscured copy the primary.
+- See also: [[valid_target]]
+
+**Torrent X** - `draft`
+: Shoot the primary and other **valid targets** within X that are not in friendly control range. Unlike Blast, secondaries must themselves be valid targets.
+- See also: [[valid_target]]
+
+**Guard** - `draft`
+: 1AP action treated as a Shoot action; sets the operative on guard. Not usable on Conceal or while in an enemy's control range. **Heavy does not prevent Guard.** Close Quarters: performing any action / moving / being set up can fire Guard; On Guard cannot counteract that turning point ([[killzones_volkus_tomb_world]]).
+- See also: [[activations_apl]]
+
+**Heavy** (weapon rule) - `draft`
+: Cannot use the weapon in an activation **or counteraction** in which the operative moved (and cannot move in one in which it used the weapon). Heavy (x only) allows that move. **Does not prevent Guard.**
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Severe** (weapon rule) - `draft`
+: If you retain no critical successes, you may change one normal success to a critical. Devastating and Piercing Crits still apply; Punishing and Rending do not (Jun 17 update log / Jul 25 lite).
+- Faction / scope: Kill Team 2024, core rules
+- Verify against: `kill_team_2024_core_rules`
+
+**Connected** (Vantage / obscured) - `draft`
+: "Heavy terrain connected to Vantage" means any part of the **same terrain feature**.
+- Faction / scope: Kill Team 2024, core rules
+- See also: [[cover_kill_team]]
 
 **Counteract** - `draft`
 : When one side has expended every operative but the other still has ready ones, an expended Engage-ordered operative can perform one free 1AP action (not Guard), capped at once per operative per turning point and a 2" move limit. Not an activation - action restrictions from that operative's own earlier activation don't apply.
@@ -435,7 +477,7 @@ How this KB writes about the game.
 | Edition naming | "11th Edition" in prose, `warhammer_40k_11e` in frontmatter and paths | "new in 11th Edition" |
 | Official term first | Official term, then community shorthand once in parentheses | "Objective Control (OC)" |
 | No verbatim rules text | Paraphrase for teaching in `KB/` and 40K shipping; never transcribe datasheet or stratagem wording | [`AGENTS.md`](../AGENTS.md) Sec 10 |
-| KT24 quote exception | **`games/kill_team_2024/` only:** verbatim quotes from owned local KT24 PDFs (+ WarCom free rules) with cite; personal use, never for sale | [`AGENTS.md`](../AGENTS.md) Sec 10; [`kill_team_2024_core_rules`](../sources/kill_team_2024_core_rules.md) |
+| KT24 quote exception | **`games/kill_team_2024/` only:** verbatim quotes from owned local KT24 PDFs (+ WarCom free rules) with cite; personal use, never for sale. Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro (omission ≠ patch) | [`AGENTS.md`](../AGENTS.md) Sec 10; [`kill_team_2024_core_rules`](../sources/kill_team_2024_core_rules.md) |
 | Cite the check | Every rules claim names where it can be verified, with a retrieval date | "Wahapedia, read 2026-08-16" |
 | Beginner voice | Explain why a rule matters, not just what it says | - |
 | Name the system | Say "Kill Team" or "40K" explicitly when both could be meant | the Power Matrix correction |
@@ -473,7 +515,8 @@ How this KB writes about the game.
 - [[overview]] - big-picture synthesis
 - [[inherited_docs_for_S3]] - what S3 may safely promote from this page
 - [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted 40K concept pages
-- [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] - promoted Kill Team 2024 concept pages
+- [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]] - promoted Kill Team 2024 concept pages
+- [[kill_team_terrain]] · [[killzones_volkus_tomb_world]] - KT24 setup
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
 - [`AGENTS.md`](../AGENTS.md) - Sec 5 Keyword rule, Sec 9 terminology discipline
 

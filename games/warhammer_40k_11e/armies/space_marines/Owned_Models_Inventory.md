@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v2.2 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-sync)
 
@@ -196,6 +196,7 @@ Write down which **Chapter** the collection is painted as. It matters for one sp
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.2 (2026-08-17): Slice S6 — added the full "Kill Team ownership sync" section: a 40K-datasheet-to-KT-operative mapping table (Captain, Intercessor Squad, Assault Intercessor Squad, Eliminator Squad, Heavy Intercessor Squad) with base sizes from the living Wahapedia Angel of Death page, provenance tagged "Kill Team (Angels of Death)", and dual-legality/ownership left honestly `pending check` throughout.
 - v2.1 (2026-08-17): Slice S6 closeout — cross-link Angels of Death Kill Team package; dual-legality remains pending until SM audit + base check.
 - v2.0 (2026-08-16): Rebuilt as a working audit worksheet (slice S5). Added the Firstborn/Primaris identification test, a Legends-vs-legal table checked against the owned faction pack v1.1 with MFM Marines v1.2 costs, an "owned but Legends or unidentified" bucket, and the Chapter-mixing note. Fill-in structure preserved throughout - **no ownership has been assumed or invented.**

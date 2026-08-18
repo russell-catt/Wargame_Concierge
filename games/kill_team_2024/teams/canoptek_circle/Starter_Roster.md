@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/Starter_Roster.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -69,6 +69,7 @@ UPDATE_TRIGGER:
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Weapon options photo-confirmed (owner).
 - v1.0 (2026-08-17): Initial starter roster (slice S4) — full 8-operative team, entirely from owned models.
 

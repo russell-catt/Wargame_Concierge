@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/cards/Card_Schema.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 DOCUMENT_TYPE: Schema sketch for S10 Tarot teaching cards
 -->
 

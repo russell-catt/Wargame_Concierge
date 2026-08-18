@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/operatives/Operatives_Index.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -71,6 +71,7 @@ Seven named operatives, no duplicates — your kill team can only include each o
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Datacard links + Teams PDF cross-check (`kt24_rules_quotes` S5).
 - v1.0 (2026-08-17): Initial operatives index (slice S5) - seven operatives, role slots, base size, keywords, and paraphrased signature traits from the living Wahapedia Plague Marines page retrieved 2026-08-17. No statlines included by design.
 

@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v2.2 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -91,6 +91,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.2 (2026-08-16): Corrected collection status - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not a "not owned" historical reference. Hierotek Circle remains an additional game-ready set, ID pending. Updated document index and corrections list accordingly (slice S2, `tomb_world_ownership`).
 - v2.1 (2026-08-16): Re-confirmed collection status against current `Necron_Lists.md` FOUNDATION after raw/ copy re-sync. *(This version incorrectly stated Tomb World was not owned - superseded by v2.2.)*
 - v2.0 (2026-08-16): Indexed the six S4 documents - army rule guide, both detachment guides, two starter lists, and the laminate. Added the points and rule-name corrections.

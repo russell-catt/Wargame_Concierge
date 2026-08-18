@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Project_Planning.md
-VERSION: v1.1 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; ownership sections rewritten in track tomb_world_ownership slice S3)
 
@@ -50,15 +50,13 @@ Decisions of record for Wargame_Concierge. If a question here is marked resolved
 
 | Field | Value |
 |-------|-------|
-| Phase | Bootstrap |
-| Active track | `tomb_world_ownership` - Necron ownership correction |
-| Track status | In progress |
-| Active slice order | S0 → S1 → S2 → **S3** → L1 → L2 → S4 |
-| Prior track | `v1_scaffold` - closed. Order was Preflight → S0 → **L0** → **S1** → S2 → **L1** → S3 → S4 → S5 → S6 → **L2** → S7 |
-| This document written in | **S1** of `v1_scaffold`; ownership sections rewritten in **S3** of `tomb_world_ownership` |
-| Live rollup | [`handoffs/tomb_world_ownership/track_in.md`](handoffs/tomb_world_ownership/track_in.md) |
-| KB maturity | Level 1 (pilot), entered 2026-08-16 at L0 |
-| Git state | `main` is **1 commit ahead** of `origin/main` (`5a7679c`). The current track takes a **single deferred commit at its S4**; the Coordinator commits and pushes, subagents never do |
+| Phase | Active — two systems |
+| Snapshot | **v0.5.0** (2026-08-18). Git tags `v0.1.0` (bootstrap commit `1fa3b7c`) and `v0.5.0` (this snapshot) |
+| Closed tracks | `v1_scaffold` (40K beginner spine); `tomb_world_ownership` (ownership correction); KT scaffold / quotes / Nemesis tracks as indexed in [`handoffs/README.md`](handoffs/README.md) |
+| KT24 shipping | Rules/reference landed: [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) owner-verified 2026-08-18; [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md); hierarchy Full-Scan / `eng_*` / lite |
+| KB | Librarian pass paraphrased shipping into `KB/` (targeting subset verified; no quote dump) |
+| Git | Coordinator remains sole git owner **except** this explicit user-gated commit+push |
+| Live rollup | [`handoffs/README.md`](handoffs/README.md) — later tracks; frozen slice files |
 
 ---
 
@@ -80,12 +78,12 @@ Private is a deliberate choice, not a default. The unit research corpus is perso
 
 | Decision | Detail |
 |----------|--------|
-| **First system** | **Warhammer 40,000, 11th Edition** - the first and currently only system in scope |
+| **First system** | **Warhammer 40,000, 11th Edition** |
 | Primary army | **Necrons** - the learning army, built from models owned |
 | Secondary army | **Space Marines** - the opposing force, drawn from an existing pile of older models |
-| Game-agnostic by design | `games/` holds one subtree per system; 40K 11e is the **first worked example**, not a special case |
-| Second-system path | Follow [`Game_System_Scaffold.md`](Game_System_Scaffold.md) rather than inventing folders ad hoc |
-| Out of scope for v1 | Factions beyond Necrons and Space Marines; a web app or army builder; automated list validation; a finished printable datasheet pack; print-CSS/PDF pipeline for the laminate guides |
+| Game-agnostic by design | `games/` holds one subtree per system |
+| **Second system** | **Kill Team 2024** — onboarded (see `games/kill_team_2024/`). Scaffold is the pattern for system #3 |
+| Out of scope for v1 | Factions beyond Necrons and Space Marines for 40K; a web app or army builder; automated list validation; selling the project |
 
 ### Copyright and sourcing
 
@@ -94,7 +92,7 @@ Private is a deliberate choice, not a default. The unit research corpus is perso
 | **No GW binaries in git** | No PDFs, official datasheet images, `.webp`, or `.png`. Enforced by `.gitignore`; bypassing it is a defect |
 | External library | `C:\Personal\40K` stays **outside** the repo. Markdown path pointers only |
 | One exception, already taken | The Preflight slice edited `C:\Personal\40K\rules\Necron_Lists.md` at source. That single file is imported into the project in S2. Everything else in that directory is read-only |
-| Writing style | **Teaching paraphrase only.** No verbatim datasheet statlines, stratagem text, or rules text |
+| Writing style | **Teaching paraphrase** in `KB/` and 40K shipping. **KT24 quote exception** under `games/kill_team_2024/` only (owned local PDFs; personal use, never for sale) |
 | Citation | Every rules claim names where it can be checked, **with a retrieval date** |
 | Unit research | Personal structured notes with source pointers - not a redistribution of official datasheets |
 
@@ -249,16 +247,14 @@ Still worth closing, but no longer critical path. It dropped from blocker to nic
 
 ## 6. Immediate next actions
 
-Current track: `tomb_world_ownership`.
+Status as of **v0.5.0**. Coordinator still owns routine git; this snapshot is the exception.
 
-| # | Action | Owner | Slice |
-|---|--------|-------|-------|
-| 1 | QA the planning and context realignment against the S3 brief | QA | S3 |
-| 2 | KB ownership ingest - Tomb World game-ready across the KB targets; retire "do not let Tomb World leak" as a live rule | Librarian | L1 |
-| 3 | Audit the `v1_scaffold` L2 lint output and clear any remaining false Tomb World ownership denials in `KB/` | Librarian | L2 |
-| 4 | Final Sanity, then the single deferred commit and push - including the unpushed `5a7679c` | Final Sanity, then **Coordinator** | S4 |
-| 5 | Correct the surviving supersession language in [`Rehydration_Prompt.md`](Rehydration_Prompt.md) and [`../reference/Source_Library.md`](../reference/Source_Library.md) - outside the S3 file scope | Implementer or Coordinator | S4 or a follow-up slice |
-| 6 | Post Hierotek Circle photos, then map them to 40K datasheets | **Owner**, then Librarian | Follow-up |
+| # | Action | Owner |
+|---|--------|-------|
+| 1 | Play a first KT24 game from shipping (Volkus or 3e Starter; Target_Eligibility at the table) | Owner |
+| 2 | Optional: ingest remaining Core chapters / team trees into KB when needed | Librarian |
+| 3 | Space Marine ownership inventory still open | Owner / later slice |
+| 4 | Playbook 26 dead links remain a known issue — do not rewrite Sec 17–18 | Later cleanup |
 
 ### Known defects carried forward
 
@@ -274,6 +270,7 @@ Current track: `tomb_world_ownership`.
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Status: KT24 rules/reference landed; tags `v0.1.0` / `v0.5.0`; Coordinator git owner except this user-gated commit+push.
 - v1.1 (2026-08-16): Ownership correction, track `tomb_world_ownership` slice S3. Sec 3 rewritten against FOUNDATION: Kill Team: Tomb World is **owned and game-ready** (Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms), with the second Warriors squad, second Scarab set, and Immortals owned on sprue, and totals of 20 Warriors and 6 Scarab Swarms. Removed the "Superseded: Kill Team: Tomb World" section and replaced it with a correction note recording that the prior claim was erroneous. Added the authoritative order for ownership facts. Downgraded the Hierotek Circle photo ID from blocker to open-but-non-blocking. Refreshed current status, completed-to-date, and next actions for the current track.
 - v1.0 (2026-08-16): Initial planning record - locked decisions, confirmed 2026-08-16 Necron ownership, Tomb World superseded, Power Matrix resolved to the Canoptek Court detachment rule, Hierotek Circle photo ID open, next actions. Created in slice S1. *(The Tomb World supersession recorded here was erroneous - see v1.1.)*
 

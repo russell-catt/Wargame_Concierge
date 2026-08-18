@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/joint_ops/README.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer + Librarian-assist, slice S9)
 
@@ -115,6 +115,7 @@ Killzone pages this README links to directly (S2, now live): [`../setup/killzone
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Owned painted Tomb World NPO stand-ins (Warriors, Scarabs, Canoptek Crawlers/Macrocytes) — pointer to photos and `NPO_Catalog.md`.
 - v1.0 (2026-08-17): Full Join Ops pack (slice S9). Replaces the S0 stub.
 

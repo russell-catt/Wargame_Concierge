@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
-VERSION: v1.5 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; slice S4 KT cross-sync)
 
@@ -120,6 +120,7 @@ Second copies of the Tomb World battleline, plus a squad of Immortals, all still
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.5 (2026-08-17): Plasmacyte to-do — purchase 25–28mm base rings (do not rebase).
 - v1.4 (2026-08-17): Hierotek photo ID — named rows (Technomancer, Immortals, Despotek, Apprentek, Plasmacytes); Tomb World loadouts and Warrior/Scarab photos; dual-legality notes.
 - v1.3 (2026-08-17): Slice S4 — cross-synced with the new Kill Team 2024 Canoptek Circle inventory. Added a "KT provenance / dual-legality" column to the Game-ready table (Geomancer, Tomb Crawlers, Macrocytes now note their KT operative mapping, Wahapedia base size, and pending 40K dual-legality check). Flagged the Necron Warriors / "Canoptek Macrocyte Warrior" naming collision explicitly so the two are never conflated. Added Related pages (cross-game) section.

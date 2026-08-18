@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/nemesis_ops/How_To_Create_A_Nemesis_Operative.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2 — nemesis_ops_ocr_spotcheck)
 DOCUMENT_TYPE: Teaching Guide
@@ -119,6 +119,7 @@ Pointer: [`raw/pointers/community_kt24_npo_cheat_sheet.md`](../../../raw/pointer
 - [`../../../docs/handoffs/nemesis_ops_ocr_spotcheck/OCR_Spotcheck_Matrix.md`](../../../docs/handoffs/nemesis_ops_ocr_spotcheck/OCR_Spotcheck_Matrix.md)
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): OCR spot-check — process steps → `verified`; VERIFY table updated.
 - v1.0 (2026-08-17): S2 required How-To (process paraphrase; no dossier numbers).
 - v0.1 (2026-08-17): S0 stub.

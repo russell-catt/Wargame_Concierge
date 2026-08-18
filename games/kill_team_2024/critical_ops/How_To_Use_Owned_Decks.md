@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/critical_ops/How_To_Use_Owned_Decks.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 DOCUMENT_TYPE: Table Aid
 -->
 

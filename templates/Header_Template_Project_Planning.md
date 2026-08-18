@@ -1,6 +1,6 @@
 <!--
 FILE: templates/Header_Template_Project_Planning.md
-VERSION: v1.0 (<YYYY-MM-DD>)
+VERSION: v0.5.0 (<YYYY-MM-DD>)
 OWNER: <Project Owner>
 AUTHOR_OF_NOTES: <Human / ChatGPT / Cursor>
 
@@ -35,6 +35,7 @@ UPDATE_TRIGGER:
 
 ---
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-04-22): Applied context-aware footer
 
 ## Attribution

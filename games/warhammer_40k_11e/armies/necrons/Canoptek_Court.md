@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Canoptek_Court.md
-VERSION: v1.2 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
 
@@ -171,6 +171,7 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer moved to game-ready; Plasmancer remains unowned / Apprentek proxy; Plasmacytes likely not dual-legal.
 - v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table and the beginner verdict were both built on the erroneous claim that Kill Team: Tomb World was not owned. Fit table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units - Geomancer, 2x Tomb Crawlers, 5x Macrocytes, 10x Warriors, 3x Scarab Swarms. Warriors and Scarabs re-tagged from "unassembled" to game-ready, with their owned duplicates flagged as build-before-play. The verdict "not first, on this collection" reversed: four of five game-ready units benefit from Power Matrix and Phase 1 is playable with zero purchases. Three units flagged as not yet costed from MFM v1.2. No rules content changed.
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S4). Power Matrix wording verified against Wahapedia and the owned faction pack FAQ; all points re-costed from Munitorum Field Manual v1.2.

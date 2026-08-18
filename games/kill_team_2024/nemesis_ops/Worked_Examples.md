@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/nemesis_ops/Worked_Examples.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2 — nemesis_ops_research)
 
@@ -31,6 +31,7 @@ Named ready NPOs (Ambull, Archivist) are separate mission-pack packages — see 
 - Numbers only if a future WarCom free article appears — then cite URL + date here.
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): S2 fill.
 
 ## Attribution

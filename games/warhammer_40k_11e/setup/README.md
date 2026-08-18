@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/README.md
-VERSION: v2.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -68,6 +68,7 @@ Full catalogue: [`reference/Source_Library.md`](../../../reference/Source_Librar
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-16): Replaced the S2 stub with a real index. Board_Setup and Terrain_Basics authored (slice S3).
 - v1.0 (2026-08-16): Stub created (slice S2).
 

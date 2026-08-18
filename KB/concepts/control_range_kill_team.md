@@ -3,8 +3,9 @@ title: Control Range (Kill Team 2024)
 type: concept
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-17
-sources: [kill_team_2024_core_rules]
+updated: 2026-08-18
+version: 0.5.0
+sources: [kill_team_2024_core_rules, games/kill_team_2024/rules/Key_Concepts.md, games/kill_team_2024/setup/Terrain_Basics.md]
 confidence: draft
 tags: [concept, kill_team_2024, core_rules, control_range, markers, collision_flag]
 ---
@@ -12,6 +13,8 @@ tags: [concept, kill_team_2024, core_rules, control_range, markers, collision_fl
 # Control Range (Kill Team 2024)
 
 **Naming note.** The brief for this ingest suggested the filename `engagement_range_kill_team`, matching Warhammer 40,000's "Engagement Range" naming pattern. Kill Team 2024's actual term for its nearest equivalent concept is **Control Range** - a materially different zone with a different job. This page uses the correct KT24 term and records the naming collision explicitly, per [`AGENTS.md`](../../AGENTS.md) Sec 9 ("never guess a rules term").
+
+**L1 flag, then replace:** rewritten from shipping (**2026-08-18**). Volkus "ignore door for CR visibility" does **not** make a non-visible target shootable — [[killzones_volkus_tomb_world]].
 
 ---
 
@@ -59,6 +62,7 @@ The suggested filename for this page collided with 40K's term precisely because 
 
 - [[cover_kill_team]] - cover is checked within control range
 - [[orders_conceal_engage]] - Conceal changes what counts as a valid target inside control range
+- [[valid_target]] · [[kill_team_terrain]] · [[killzones_volkus_tomb_world]]
 - [[activations_apl]] - APL is both the action budget and the marker-control currency
 - [[kill_team_2024_core_rules]] - source
 - [[glossary]] - the Control Range / Engagement Range collision flag

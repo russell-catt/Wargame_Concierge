@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [games/warhammer_40k_11e/armies/space_marines/README.md, reference/Initial_Prompt.md]
 confidence: stub
 tags: [detachment, space_marines, gladius, stub, s5]

@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Terrain_Basics.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -211,6 +211,7 @@ Full catalogue with descriptions: [`reference/Source_Library.md`](../../../refer
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial terrain guide (slice S3), from the owned Core Rules PDF Section 13 and Event Companion v1.1, both read 2026-08-16. A4 footprint packs recorded as path pointers only.
 
 ## Attribution

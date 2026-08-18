@@ -4,6 +4,7 @@ type: source
 system: kill_team_2024
 created: 2026-08-17
 updated: 2026-08-17
+version: 0.5.0
 sources:
   - raw/pointers/kill_team_2024_nemesis_operatives.md
   - docs/handoffs/nemesis_ops_ocr_spotcheck/OCR_Spotcheck_Matrix.md

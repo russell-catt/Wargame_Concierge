@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v1.4 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3; slice S4 Canoptek Circle row update; slice S5 Plague Marines row update; slice S6 Angels of Death row update)
 
@@ -102,6 +102,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.4 (2026-08-17): Necron photo sync — Canoptek loadouts locked; Hierotek photo ID done (Technomancer / Apprentek / Despotek / Immortals / Plasmacytes) with dual-legality summary.
 - v1.3 (2026-08-17): S6 — Angels of Death row updated to full-guide-complete: 40K ruled-in marked known (mapped to Space Marine Captain/Intercessor-family units), assembly/paint and dual-legality still pending check. Added Cross-game notes (Space Marine teams) section.
 - v1.2 (2026-08-17): S5 — Plague Marines row updated to full-guide-complete. 40K ruled-in set to `pending / N/A this track` — Death Guard has no 40K army folder in this track's locked scope (Necrons + Space Marines only). Added the Plague Marines cross-game note, pointing at the new minimal `games/warhammer_40k_11e/armies/death_guard/README.md` stub — explicitly not a full army package.

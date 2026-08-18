@@ -1,6 +1,6 @@
 <!--
 FILE: templates/Footer_Template_Rehydration.md
-VERSION: v1.0 (2026-04-23)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: ChatGPT
 DOCUMENT_TYPE: Footer Template

@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
 updated: 2026-08-17
+version: 0.5.0
 sources: [games/warhammer_40k_11e/armies/necrons/units/Unit_Index.md, docs/handoffs/v1_scaffold/slices/S6_necrons_implementer.md, kill_team_necron_photos]
 confidence: draft
 tags: [unit, necrons, index, s6, research_corpus, pointer]

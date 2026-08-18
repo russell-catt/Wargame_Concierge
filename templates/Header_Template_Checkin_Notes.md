@@ -1,6 +1,6 @@
 <!--
 FILE: templates/Header_Template_Checkin_Notes.md
-VERSION: v1.0 (2026-04-22)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: ChatGPT
 

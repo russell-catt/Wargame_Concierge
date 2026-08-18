@@ -4,6 +4,7 @@ type: source
 system: kill_team_2024
 created: 2026-08-17
 updated: 2026-08-17
+version: 0.5.0
 sources:
   - raw/pointers/community_kt24_npo_cheat_sheet.md
   - raw/pointers/community_kt24_cheat_sheet.md

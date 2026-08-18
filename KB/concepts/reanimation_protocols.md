@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [necron_lists_owner_notes, local_library_pointers]
 confidence: unverified
 tags: [concept, necrons, army_rule, attrition, reanimation]

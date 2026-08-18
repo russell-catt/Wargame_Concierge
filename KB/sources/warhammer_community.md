@@ -4,6 +4,7 @@ type: source
 system: warhammer_40k_11e
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [raw/pointers/web_living_sources.md, reference/Source_Library.md]
 confidence: stub
 tags: [source, living_reference, web, official, errata, dataslate]

@@ -1,12 +1,12 @@
 <!--
 FILE: START_HERE.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
 DOCUMENT_TYPE: Onboarding / Entry Point
 PROJECT_NAME: Wargame_Concierge
-PROJECT_STATUS: Active - track v1_scaffold in progress
+PROJECT_STATUS: Active - v0.5.0 snapshot
 
 SOURCES:
   - README.md
@@ -33,9 +33,9 @@ UPDATE_TRIGGER:
 
 **Wargame_Concierge is a personal concierge for learning tabletop wargames.** It teaches the rules, walks through setting up a board, and helps build beginner army lists from the models actually sitting on the shelf.
 
-The first systems in scope are **Warhammer 40,000, 11th Edition** (Necrons + Space Marines) and **Kill Team 2024 / 3e** (scaffold track in progress — see [`docs/handoffs/kill_team_2024_scaffold/track_in.md`](docs/handoffs/kill_team_2024_scaffold/track_in.md)). The structure underneath is deliberately game-agnostic.
+The first systems in scope are **Warhammer 40,000, 11th Edition** (Necrons + Space Marines) and **Kill Team 2024 / 3e** (rules/reference shipped — see [`games/kill_team_2024/README.md`](games/kill_team_2024/README.md)). **Personal use only — never for sale.**
 
-**Status:** `v1_scaffold` Closed - Complete for 40K beginner spine; `kill_team_2024_scaffold` In Progress (teaching tree + Join Ops landed 2026-08-17; commits + Final Sanity pending).
+**Status:** **v0.5.0** (2026-08-18). Tags `v0.1.0` / `v0.5.0`. Later tracks via [`docs/handoffs/README.md`](docs/handoffs/README.md).
 
 ---
 
@@ -47,8 +47,9 @@ Four files, in this order. Stop after step 2 if you only need to find something.
 |---|------|-----|
 | 1 | **`START_HERE.md`** (this file) | What the project is, the rules, where to go |
 | 2 | [`README.md`](README.md) | Project overview, directory map, links to everything |
-| 3 | [`KB/index.md`](KB/index.md) | Master catalog of the knowledge base - every KB page is listed here |
-| 4 | [`docs/Rehydration_Prompt.md`](docs/Rehydration_Prompt.md) | Full context rebuild for an AI session |
+| 3 | [`KB/index.md`](KB/index.md) | Master catalog of the knowledge base |
+| 4 | [`games/kill_team_2024/README.md`](games/kill_team_2024/README.md) then [`Patch_Manifest.md`](games/kill_team_2024/rules/Patch_Manifest.md) and [`Target_Eligibility.md`](games/kill_team_2024/rules/Target_Eligibility.md) | KT24 shipping (if you are playing or editing Kill Team) |
+| 5 | [`docs/Rehydration_Prompt.md`](docs/Rehydration_Prompt.md) | Full context rebuild for an AI session |
 
 **If you are an AI agent about to write anything:** read [`AGENTS.md`](AGENTS.md) too. It is the schema source of truth for the knowledge base and it is not optional.
 
@@ -75,8 +76,8 @@ These are not style preferences. Breaking any of them is a defect.
 
 1. **Never write under `raw/`.** Immutability is the point of the layer. Read it, cite it, summarize it elsewhere.
 2. **Never commit GW binaries.** No PDFs, no official images, no `.webp`. The external library at `C:\Personal\40K` stays outside this repo and is referenced by **markdown path pointer only**. [`.gitignore`](.gitignore) enforces this - do not bypass it.
-3. **Teaching paraphrase only.** Explain how a rule works in your own words. Never transcribe datasheet statlines, stratagem text, or rules text verbatim.
-4. **Subagents never `git commit` or `git push`.** The Coordinator is the sole git owner; pushing is a user gate at slice S7.
+3. **Teaching paraphrase in `KB/` and 40K shipping.** Under `games/kill_team_2024/` only, verbatim quotes from owned local KT24 PDFs are allowed (cite filename + page). Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro — omission is not a patch.
+4. **Subagents never `git commit` or `git push` unless the user explicitly gates it.** Coordinator is the sole git owner otherwise.
 5. **Only the Librarian writes under `KB/`.** Everyone else reads it and promotes from it with approval.
 6. **Write UTF-8, no BOM.** A handful of early files got this wrong and produce unreadable diffs.
 
@@ -108,6 +109,7 @@ Warhammer 40,000 11th Edition is **new**, and the sources move under us. Every K
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Read order includes KT README / Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial onboarding entry point. Created in slice S1.
 
 ## Attribution

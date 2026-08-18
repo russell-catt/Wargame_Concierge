@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/operatives/Operatives_Index.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S6)
 
@@ -93,6 +93,7 @@ Six slots, six unique non-repeatable entries competing for five operative slots 
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial operatives index (slice S6), written from the living Wahapedia Angel of Death page, retrieved 2026-08-17.
 
 ## Attribution

@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
 updated: 2026-08-17
+version: 0.5.0
 sources: [raw/Necron_Lists.md, raw/pointers/necron_lists_import.md, kill_team_necron_photos]
 confidence: draft
 tags: [source, necrons, ownership, list_building, canoptek_court, cryptek_conclave]

@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [local_library_pointers]
 confidence: unverified
 tags: [concept, space_marines, army_rule, target_priority]

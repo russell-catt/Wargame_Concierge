@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/README.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -64,6 +64,7 @@ For a first game between two beginners: **Volkus** or the **3e Starter Set**. Se
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Replaced the S0 stub with a real index. Board_Setup, Terrain_Basics, and all five killzone pages authored (slice S2).
 - v0.1 (2026-08-17): Stub created (slice S0).
 

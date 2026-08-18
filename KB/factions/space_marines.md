@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [source_library, local_library_pointers, games/warhammer_40k_11e/armies/space_marines/README.md]
 confidence: stub
 tags: [faction, space_marines, secondary, opposing_force, stub]

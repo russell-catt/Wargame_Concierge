@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -109,6 +109,7 @@ Models that exist physically but have not yet been matched to a named operative 
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial worksheet (slice S5) - empty audit tables, the Death Guard / 40K sync note (no existing 40K inventory, ruled-in `pending/N/A this track`, base size `pending check`), and the minimal 40K stub cross-link.
 
 ## Attribution

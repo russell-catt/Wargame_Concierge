@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/death_guard/README.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5 - kill_team_2024_scaffold)
 
@@ -65,6 +65,7 @@ Follow [`docs/Game_System_Scaffold.md`](../../../../docs/Game_System_Scaffold.md
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.1 (2026-08-17): Initial minimal cross-link stub (slice S5, `kill_team_2024_scaffold`) - sync status fields only, explicitly not a faction package.
 
 ## Attribution

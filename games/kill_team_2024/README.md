@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/README.md
-VERSION: v0.5 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S0)
 
@@ -62,7 +62,7 @@ Rules for Kill Team and Warhammer 40,000 stay **separate**. Owned KT miniatures 
 ## How to learn
 
 1. **Sources** — [`reference/Source_Library.md`](../../reference/Source_Library.md) and [`raw/pointers/`](../../raw/pointers/) (KT24 paths under `C:\Personal\Kill Team\kill_team_2024`).
-2. **Rules spine** — `rules/` (stubs in S0; teaching content in S1).
+2. **Rules spine** — `rules/` (Overview, turn structure, key concepts, glossary, [target-eligibility quotes](rules/Target_Eligibility.md), [cheat sheet](rules/Target_Eligibility_Cheat_Sheet.html), [patch manifest](rules/Patch_Manifest.md)). Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro only.
 3. **Setup + kill zones** — `setup/` and `setup/killzones/` (S2). Prefer **Volkus** or **3e Starter** for first games.
 4. **Critical Ops** — `critical_ops/` for how owned decks plug in.
 5. **Joint Ops** — `joint_ops/` for NPO catalog, cheat sheet, and owned-terrain scenarios (S9).
@@ -75,7 +75,7 @@ Rules for Kill Team and Warhammer 40,000 stay **separate**. Owned KT miniatures 
 
 | Path | Status | Purpose |
 |------|--------|---------|
-| [`rules/`](rules/) | **Populated** | Overview, turn structure, key concepts, keyword glossary; target-eligibility quote appendix + [one-page cheat sheet](rules/Target_Eligibility_Cheat_Sheet.html) |
+| [`rules/`](rules/) | **Populated** | Overview, turn structure, key concepts, keyword glossary; [target-eligibility quote appendix](rules/Target_Eligibility.md) + [cheat sheet](rules/Target_Eligibility_Cheat_Sheet.html) + [Patch_Manifest](rules/Patch_Manifest.md) (owner verified 2026-08-18) |
 | [`setup/`](setup/) | **Populated (S2)** | Board setup, terrain basics, and five owned-killzone pages (Volkus, 3e Starter, Shadowhunt, Tomb World, 2e scatter) |
 | [`critical_ops/`](critical_ops/) | **Populated (S2)** | How the owned Critical/Approved Ops decks plug into a game; table aid in S7 |
 | [`joint_ops/`](joint_ops/) | Complete (S9) | Father–son Joint Ops / NPO aids |
@@ -97,6 +97,8 @@ Specific thanks to these users for guides used as **layout inspiration** in this
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v0.6 (2026-08-18): Slice P — Patch_Manifest; targeting quotes owner-verified vs Full-Scan + Jun 17 update log + Jul 25 lite.
 - v0.5 (2026-08-17): KT24 verbatim-quote policy, community thanks, target-eligibility corpus + cheat sheet, Canoptek/Plague datacards (`kt24_rules_quotes` track).
 - v0.4 (2026-08-17): `join_ops/` renamed to `joint_ops/` (nemesis_ops_research S0); `nemesis_ops/` stub subtree added.
 - v0.3 (2026-08-17): `setup/` and `critical_ops/` marked Populated after slice S2 (Board_Setup, Terrain_Basics, five killzone pages, expanded Critical Ops README).

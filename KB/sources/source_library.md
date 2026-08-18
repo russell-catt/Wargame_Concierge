@@ -4,6 +4,7 @@ type: source
 system: warhammer_40k_11e
 created: 2026-08-16
 updated: 2026-08-17
+version: 0.5.0
 sources: [reference/Source_Library.md, raw/pointers/]
 confidence: verified
 tags: [source, catalog, provenance, copyright, pointers]

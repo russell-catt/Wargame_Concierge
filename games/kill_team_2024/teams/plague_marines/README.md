@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/README.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -92,6 +92,7 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): README reflects Teams PDF datacards + Team_Rule_Guide (`kt24_rules_quotes`).
 - v1.0 (2026-08-17): Full package (slice S5) - replaced the S3 placeholder with the team overview, cross-game note, and index of the six package documents.
 - v0.1 (2026-08-17): S3 placeholder.

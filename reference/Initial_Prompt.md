@@ -1,6 +1,6 @@
 <!--
 FILE: reference/Initial_Prompt.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -177,6 +177,7 @@ Worth recording, because these were inferred or decided later rather than reques
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Captured all twelve seed turns verbatim with timestamps, plus what each established and what the seed did not cover. Created in slice S1.
 
 ## Attribution

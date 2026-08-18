@@ -1,6 +1,6 @@
 <!--
 FILE: templates/Markdown_Footer_Template.md
-VERSION: v1.0 (2026-04-23)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: ChatGPT
 DOCUMENT_TYPE: Footer Template
@@ -12,6 +12,7 @@ PURPOSE: Reusable markdown footer pattern including changelog, attribution, and 
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (<YYYY-MM-DD>) - Initial version.
 
 ## Attribution
@@ -25,6 +26,7 @@ PURPOSE: Reusable markdown footer pattern including changelog, attribution, and 
 
 ---
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-04-22): Applied context-aware footer
 
 ## Attribution

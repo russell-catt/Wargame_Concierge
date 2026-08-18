@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Overview.md
-VERSION: v1.1 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -181,6 +181,7 @@ A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structur
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-16): Corrected "Your realistic first game" - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not just the Hierotek Circle set. Removed the "only Hierotek is table-ready" claim; flagged the second Warriors squad, second Scarab set, and Immortals as owned/unassembled (slice S2, `tomb_world_ownership`).
 - v1.0 (2026-08-16): Initial teaching overview (slice S3). Written from the owned Core Rules PDF and Event Companion v1.1, both read 2026-08-16.
 

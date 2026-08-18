@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Project_Structure.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -64,7 +64,7 @@ Wargame_Concierge/
 │
 ├── raw/                               IMMUTABLE - allowed sources only
 │   ├── README.md                      Layer contract and contents table
-│   └── pointers/                      Path pointers to C:\Personal\40K and living URLs
+│   └── pointers/                      Path pointers to C:\Personal\40K, C:\Personal\Kill Team, and living URLs
 │
 ├── KB/                                THE KNOWLEDGE BASE - Librarian owns
 │   ├── index.md                       Master catalog; every page is listed here
@@ -78,7 +78,7 @@ Wargame_Concierge/
 │   ├── factions/                      One page per army
 │   ├── detachments/                   One page per detachment and its rules package
 │   ├── units/                         One page per datasheet, in play terms
-│   ├── setup/                         Deployment, terrain, missions, scoring
+│   ├── setup/                         Deployment, terrain, missions, scoring (KT24 pages as of v0.5.0)
 │   └── analyses/                      Matchups, list comparisons, filed answers
 │
 ├── docs/                              SHIPPING - process and project reference
@@ -93,13 +93,12 @@ Wargame_Concierge/
 │   │   └── librarian_agent.md                    Librarian day-to-day operations
 │   └── handoffs/
 │       ├── README.md                  Active tracks index + artifact lifecycle
-│       └── v1_scaffold/
-│           ├── track_in.md            Constraints, model matrix, slice rollup
-│           └── slices/                Per-slice briefs and reports
+│       └── README.md                  Later tracks index (slice files frozen)
 │
 ├── games/                             SHIPPING - per-system teaching content
 │   ├── README.md                      What goes in a game subtree
-│   └── warhammer_40k_11e/             First worked example (arrives S2 onward)
+│   ├── warhammer_40k_11e/             First system
+│   └── kill_team_2024/                Second system — rules/, setup/killzones/, teams/, joint_ops/, nemesis_ops/, critical_ops/; Patch_Manifest.md; Target_Eligibility.md
 │
 ├── reference/                         READ-ONLY - patterns and seed context
 │   ├── Initial_Prompt.md              The verbatim prompts that started the project
@@ -126,7 +125,7 @@ Directories that exist but are still empty of content are placeholders created b
 | Source library path pointers | Anything copyrighted and redistributed |
 | Research excerpts written in our own words | Secrets, credentials, `.env` content |
 
-The external library at `C:\Personal\40K` stays **outside** this repo permanently. Reference it with markdown path pointers under `raw/pointers/`.
+The external library at `C:\Personal\40K` (40K) and `C:\Personal\Kill Team` (KT24) stays **outside** this repo permanently. Reference both with markdown path pointers under `raw/pointers/`.
 
 **Who may write:** Coordinator or an Implementer slice explicitly authorized to copy a source in. The Librarian **never** writes here.
 
@@ -143,6 +142,7 @@ The compounding layer. Full contract in [`../AGENTS.md`](../AGENTS.md); the esse
 | **Filenames** | lowercase `snake_case` |
 | **Links** | `[[wikilink]]` for internal links, never bare relative paths inside `KB/` |
 | **Confidence** | Mandatory on every page: `verified` / `draft` / `stub` / `unverified` |
+| **Version** | YAML `version:` next to `updated:` (project semver, e.g. `0.5.0`) |
 | **Cataloguing** | Every new page gets a row in `KB/index.md` in the same pass |
 | **Logging** | Every ingest, query, and lint appends to `KB/log.md` |
 
@@ -161,7 +161,7 @@ Reviewed, player-facing and process-facing truth.
 | **Filenames** | Rising Tide `Snake_Case` (e.g. `Keyword_Glossary.md`) |
 | **Promotion** | A `KB/` page becomes a shipping page only after review, with a row added to `KB/changelog.md` |
 
-`docs/` holds project and process reference. `games/` holds per-system teaching content, one subtree per system - `games/warhammer_40k_11e/` is the first. The checklist for what a game subtree contains is [`Game_System_Scaffold.md`](Game_System_Scaffold.md), section B.
+`docs/` holds project and process reference. `games/` holds per-system teaching content, one subtree per system — `games/warhammer_40k_11e/` and `games/kill_team_2024/` (including `rules/Patch_Manifest.md`). The checklist for a **later** system is [`Game_System_Scaffold.md`](Game_System_Scaffold.md), section B.
 
 ---
 
@@ -214,6 +214,7 @@ Still unsure? Ask which **layer** it belongs to first - raw, knowledge, shipping
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). `games/kill_team_2024` tree; `raw/pointers` for KT + 40K; KB `version:` field; Patch_Manifest.
 - v1.0 (2026-08-16): Initial layout reference - five trees, full directory map, per-layer rules, placement decision table. Created in slice S1.
 
 ## Attribution

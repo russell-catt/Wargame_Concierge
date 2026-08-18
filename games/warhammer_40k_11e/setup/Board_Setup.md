@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Board_Setup.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -183,6 +183,7 @@ This page teaches the pattern; the numbers come from the mission you are playing
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial board setup guide (slice S3), from the owned Event Companion v1.1 and Core Rules PDF, both read 2026-08-16.
 
 ## Attribution

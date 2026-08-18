@@ -3,8 +3,9 @@ title: Activations and APL
 type: concept
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-17
-sources: [kill_team_2024_core_rules]
+updated: 2026-08-18
+version: 0.5.0
+sources: [kill_team_2024_core_rules, games/kill_team_2024/rules/Key_Concepts.md, games/kill_team_2024/rules/Turn_Structure.md, games/kill_team_2024/rules/Keyword_Glossary.md]
 confidence: draft
 tags: [concept, kill_team_2024, core_rules, activation, apl, action_economy]
 ---
@@ -12,6 +13,8 @@ tags: [concept, kill_team_2024, core_rules, activation, apl, action_economy]
 # Activations and APL
 
 Kill Team's action economy: operatives activate one at a time, alternating between players, and each activation spends Action Points (AP) up to that operative's Action Point Limit (APL).
+
+**L1 flag, then replace:** rewritten from shipping [`Key_Concepts.md`](../../games/kill_team_2024/rules/Key_Concepts.md) / [`Turn_Structure.md`](../../games/kill_team_2024/rules/Turn_Structure.md) (**2026-08-18**). **Heavy** is a shooter gate on activation **or counteraction** (does not prevent Guard). Page stays `draft` except where it points at [[valid_target]].
 
 ---
 
@@ -27,7 +30,7 @@ Kill Team's action economy: operatives activate one at a time, alternating betwe
 
 **APL also gates objective control.** Beyond limiting actions, an operative's APL is the number totalled up to decide who controls a marker it is contesting - see [[control_range_kill_team]].
 
-**Counteract.** If all your operatives are expended but your opponent still has ready ones, you may select one *expended, Engage-ordered* friendly operative to perform one free 1AP action (never Guard), capped at once per operative per turning point and at most a 2" move. This is **not an activation** - it does not trigger action restrictions from earlier in that operative's turn, and it is optional.
+**Counteract.** If all your operatives are expended but your opponent still has ready ones, you may select one *expended, Engage-ordered* friendly operative to perform one free 1AP action (never Guard), capped at once per operative per turning point and at most a 2" move. This is **not an activation** - action restrictions from that operative's earlier activation do not carry over. **Heavy** still applies to a counteraction: you cannot use a Heavy weapon in a counteraction in which the operative moved (and cannot move in one in which it used the weapon), unless Heavy (x only). Close Quarters **On Guard** blocks counteract that turning point — [[killzones_volkus_tomb_world]]. The extra 1" for Accessible terrain counts against the 2" counteract cap ([[kill_team_terrain]]).
 
 ---
 
@@ -59,5 +62,6 @@ Kill Team's action economy: operatives activate one at a time, alternating betwe
 - [[orders_conceal_engage]] - the order chosen at the start of every activation
 - [[control_range_kill_team]] - where APL is totalled for marker control
 - [[injured_operatives]] - how Wounds loss changes an activation's options
+- [[valid_target]] · [[killzones_volkus_tomb_world]]
 - [[kill_team_2024_core_rules]] - source
 - [[glossary]] · [[index]]

@@ -4,6 +4,7 @@ type: source
 system: warhammer_40k_11e
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [raw/pointers/rules_core.md, raw/pointers/faction_pack_necrons.md, raw/pointers/faction_pack_space_marines.md, raw/pointers/points_manuals.md, raw/pointers/terrain_footprints.md, raw/pointers/reference_sheet.md, raw/pointers/web_living_sources.md, raw/pointers/necron_lists_import.md]
 confidence: verified
 tags: [source, pointers, copyright, unread, backlog]

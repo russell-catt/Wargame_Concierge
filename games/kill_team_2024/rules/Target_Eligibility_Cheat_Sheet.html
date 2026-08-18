@@ -1,3 +1,7 @@
+<!--
+FILE: games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html
+VERSION: v0.5.0 (2026-08-18)
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,25 +83,27 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   </div>
 
   <p class="arrow" style="margin-top:8px"><strong>After selected</strong> (sequence, not eligibility):</p>
-  <div class="node">Obscured? Heavy intervening, not within 1" of either · discard 1 success; crits → normal <span class="tag tag-s">SEQUENCE</span> <cite>p.53</cite></div>
+  <div class="node">Obscured? Heavy intervening; 1" ignores only that part of Heavy, not the whole feature · discard 1 success; crits → normal <span class="tag tag-s">SEQUENCE</span> <cite>p.53</cite></div>
   <div class="node">Saturate weapon? Defender cannot retain cover saves <span class="tag tag-s">SEQUENCE</span> <cite>p.111</cite></div>
-  <div class="node">Cover save (Engage in cover): retain 1 defence die unrolled <span class="tag tag-s">SEQUENCE</span> <cite>p.43</cite></div>
+  <div class="node">Cover save (Engage in cover): collect three defence dice; retain one <strong>normal success</strong> without rolling; roll the remainder <span class="tag tag-s">SEQUENCE</span> <cite>p.43</cite></div>
 </div>
 
 <div class="side">
   <h2>Modifiers when selecting</h2>
   <ul>
-    <li><strong>Seek / Seek Light</strong> — Conceal cannot use terrain (Light only for Seek Light) for cover; save may remain <cite>p.111</cite></li>
-    <li><strong>Vantage shooter</strong> — Conceal targets ≥2" lower cannot use Light terrain for cover <cite>p.60</cite></li>
-    <li><strong>Blast / Torrent</strong> — secondary targets valid regardless of Conceal; not selected <cite>p.111, update log p.2</cite></li>
+    <li><strong>Seek / Seek Light</strong> — Conceal cannot use terrain (Light only for Seek Light) for cover; save may remain. On Vantage you may elect Seek only (skip Vantage improved save) <cite>p.111, update log p.5</cite></li>
+    <li><strong>Vantage shooter</strong> — Vantage is also Light. Conceal targets ≥2" lower cannot use Light for cover; improved cover save. Accurate 1/2 vs Engage ≥2"/≥4" lower is SEQUENCE <cite>p.60</cite></li>
+    <li><strong>Blast / Torrent</strong> — secondaries valid regardless of Conceal; not selected. Cover/obscured (and Vantage improved save) copy the primary <cite>p.111, update log p.2 / p.4–5</cite></li>
     <li><strong>Silent</strong> — Shoot with Conceal order using this weapon <cite>p.111</cite></li>
+    <li><strong>Heavy</strong> — cannot use in an activation <em>or counteraction</em> in which it moved (and vice versa); Heavy (x only); does not prevent Guard <cite>update log p.2, lite p.3</cite></li>
   </ul>
   <h2>Intervening / lines</h2>
   <ul>
-    <li>Targeting lines 1mm: base point → facing parts of target base <cite>p.51</cite></li>
-    <li>Blocking gaps: visibility cannot pass; counts intervening <cite>p.59</cite></li>
+    <li>Shooter chooses targeting-line origin on own base; 1mm lines to facing parts of target base; markers treated as a base <cite>p.51</cite></li>
+    <li>Blocking gaps: visibility cannot pass; counts intervening (gaps, not physical terrain) <cite>p.59</cite></li>
     <li>Exposed: never intervening for cover/obscured <cite>p.61</cite></li>
     <li>Cover + obscured same feature: defender picks one <cite>update log p.2</cite></li>
+    <li>“Connected” Heavy for Vantage obscured = any part of the same terrain feature <cite>p.60, update log p.5</cite></li>
   </ul>
   <h2>Control range</h2>
   <ul>
@@ -105,14 +111,14 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   </ul>
   <h2>Golden sources</h2>
   <ul>
-    <li>779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf</li>
-    <li>eng_jul25_kt_lite_rules-…pdf (cross-check)</li>
-    <li>eng_17-06_…core_rules_update_log-…pdf</li>
+    <li>779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf (baseline)</li>
+    <li>eng_17-06_…core_rules_update_log-…pdf (patches)</li>
+    <li>eng_jul25_kt_lite_rules-…pdf (intro subset — omission ≠ patch)</li>
   </ul>
 </div>
 
 <p class="footer">
-  <strong>Personal use only — never for sale.</strong> Verbatim rules from owned GW PDFs at C:\Personal\Kill Team\kill_team_2024\ (owner lock 2026-08-17).
+  <strong>Personal use only — never for sale.</strong> Verbatim rules from owned GW PDFs at C:\Personal\Kill Team\kill_team_2024\. Owner verified 2026-08-18 against Full-Scan + Jun 17 update log + Jul 25 lite.
   Full quote appendix: <code>Target_Eligibility.md</code>.
   Layout inspiration (not rules): <strong>u/rdditonator</strong> (Can_I_Shoot.jpeg), <strong>u/Armagonix</strong> (KT24 cheat sheets + datacard template), <strong>u/burgerdrome</strong> (LOS flowchart, 2025-12-06) on r/killteam.
 </p>

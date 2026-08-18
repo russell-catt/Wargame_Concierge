@@ -1,6 +1,6 @@
 <!--
 FILE: reference/kill_team_2e/README.md
-VERSION: v0.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S0)
 
@@ -40,5 +40,6 @@ See [`raw/pointers/kill_team_2021_archive.md`](../../raw/pointers/kill_team_2021
 - Edition drift vs KT24 is a lint finding if pages blur
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.2 (2026-08-17): S8 — added `sources.md` and `core_rules_index.md`; linked from this README.
 - v0.1 (2026-08-17): S0 seed README.

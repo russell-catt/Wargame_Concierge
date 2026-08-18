@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S6)
 
@@ -79,6 +79,7 @@ Base sizes above are read from the operative's datacard footer on the living Wah
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial worksheet (slice S6) — operative/base-size list from the living Wahapedia page, all ownership fields `pending check`.
 
 ## Attribution

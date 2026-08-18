@@ -3,37 +3,46 @@ title: Cover (Kill Team 2024)
 type: concept
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-17
-sources: [kill_team_2024_core_rules]
+updated: 2026-08-18
+version: 0.5.0
+sources: [kill_team_2024_core_rules, games/kill_team_2024/rules/Key_Concepts.md, games/kill_team_2024/rules/Keyword_Glossary.md, games/kill_team_2024/rules/Target_Eligibility.md, games/kill_team_2024/setup/Terrain_Basics.md]
 confidence: draft
-tags: [concept, kill_team_2024, core_rules, cover, obscured, collision_flag]
+tags: [concept, kill_team_2024, core_rules, cover, obscured, vantage, collision_flag]
 ---
 
 # Cover (Kill Team 2024)
 
-**This page describes Kill Team's Cover rule, which is a different mechanic from Warhammer 40,000's Cover rule despite sharing the name.** Read the collision section below before using "cover" in any cross-system sentence.
+**This page describes Kill Team's Cover rule, which is a different mechanic from Warhammer 40,000's Cover rule despite sharing the name.** Read the collision section before using "cover" in any cross-system sentence.
+
+**L1 flag, then replace:** the 2026-08-17 Wahapedia draft is superseded below. Cover save, same-feature pick-one, 1"-ignores-only-that-part, Vantage Accurate, and **connected = same terrain feature** are aligned to shipping + owned PDFs **2026-08-18**. The page stays `draft` overall (not every terrain interaction was re-read); targeting-adjacent claims cite [[valid_target]] (`verified` subset).
+
+One-line summary: KT24 Cover is a defender-dice bonus (and can make a Conceal target illegal); Obscured is a separate Heavy check; they cannot both apply from the same feature.
 
 ---
 
 ## The mechanic
 
-An operative is **in cover** (from a specific other operative, usually a would-be shooter) if there is intervening terrain within its **control range** - but it can never be in cover while within 2" of the operative checking. Cover is checked per pair of operatives, not as a battlefield-wide property of a piece of terrain.
+An operative is **in cover** from a specific other operative if there is **intervening** terrain within its **control range**, and it is more than **2"** from that operative. Cover is per pair, not a global property of a ruin.
 
-Cover's two effects, and they are different effects triggered at different points:
+Two different effects:
 
-1. **Targeting.** A **Conceal**-ordered operative in cover is **not a valid target at all** - it cannot be shot. An **Engage**-ordered operative in cover is still a fully valid target (see [[orders_conceal_engage]]).
-2. **Defence dice ("cover save").** If an Engage operative in cover *is* shot, its controlling player gets to **retain one normal success on their defence roll automatically**, without rolling it, before rolling their remaining defence dice as normal.
+1. **Targeting.** A **Conceal** operative in cover is **not a valid target**. An **Engage** operative in cover is still a valid target ([[orders_conceal_engage]], [[valid_target]]).
+2. **Cover save.** When a target in cover is shot, the defender **collects three** defence dice, **retains one normal success without rolling**, and **rolls the remainder**. Saturate blocks retaining a cover save. A retained cover-save / Accurate die has **no numerical result**, cannot be re-rolled, and can only be retained once (Severe may **change** a retained die).
 
-**Obscured is a separate, related check** with its own trigger (intervening *Heavy* terrain specifically, and never within 1" of either operative), and its own effect on the *attacker's* dice: the attacker must discard one success of their choice, and any critical successes are downgraded to normal successes for that shot. An operative can be in cover **or** obscured from the same terrain feature, never both at once - the defender chooses which applies if both would otherwise trigger.
+**Obscured** is a separate check: intervening **Heavy**. Being within 1" of Heavy ignores **only that part** of the feature, not the whole ruin. Effect: attacker **discards one success** of their choice, and remaining successes cannot be critical that sequence.
+
+**Same feature, pick one.** A target cannot be in cover **and** obscured from the **same terrain feature** — the defender chooses (Jun 17 update log). "Heavy connected to Vantage" means any part of the **same terrain feature**.
+
+**Vantage (SEQUENCE, not eligibility):** shooting an Engage target from Vantage, the weapon gains Accurate 1 if the target is at least 2" lower, or Accurate 2 if at least 4" below (Full-Scan p.60). Seek Light interaction is a FAQ on the quote appendix — see [[valid_target]].
 
 ---
 
 ## Why it matters at the table
 
-- **Cover in KT24 is a defence-dice bonus, not an accuracy penalty on the shooter.** This is the exact inverse of how 40K 11e's cover works - see the collision section.
-- **Cover's targeting effect only fires for Conceal.** Positioning an Engage operative in identical terrain gets it the cover save when shot at, but does nothing to stop it being targeted in the first place. If you want an operative to disappear from the enemy's target list entirely, it needs both the terrain *and* the Conceal order.
-- **The 2" cover-denial rule punishes point-blank shots.** Terrain stops being "cover" the moment the shooter closes to within 2" of the target, which discourages using cover as a permanent screen against an enemy that has already closed the distance.
-- **Obscured and cover are mutually exclusive per shot, defender's choice.** Know which one is better for you in the moment: cover gives you a free retained success; obscured takes away one of the attacker's successes and downgrades their crits. Against a low-volume, high-accuracy shooter, obscured (denying a crit) can matter more than the cover save.
+- **Opposite of 40K cover.** KT24 helps the *defender's dice* (or removes the target). 40K 11e worsens the *attacker's* Ballistic Skill.
+- **Conceal + terrain is the hide; Engage + terrain is a save.** Same wall, different order, different game.
+- **2" denial.** Point-blank shots strip cover. Do not treat a barricade as permanent concealment against someone already in your face.
+- **Pick cover vs obscured.** Cover save vs discarding an attack success and killing crits: against a low-volume high-crit gun, obscured can be the better pick.
 
 ---
 
@@ -41,25 +50,27 @@ Cover's two effects, and they are different effects triggered at different point
 
 | | Kill Team 2024 | Warhammer 40,000 11e |
 |---|---|---|
-| **What cover does** | Grants the *defender* one free retained defence success ("cover save") | Worsens the *attacker's* Ballistic Skill by 1 - see the shipping [`Keyword_Glossary.md`](../../games/warhammer_40k_11e/rules/Keyword_Glossary.md) "Benefit of cover" entry |
-| **Who it can protect** | Only a target that is otherwise a valid target - and it can make a **Conceal** operative not a valid target at all | Any eligible unit in cover; there is no order system to interact with |
-| **Range/trigger** | Intervening terrain within the target's 1" control range, denied within 2" of the shooter | Determined by the terrain rules in [`Terrain_Basics.md`](../../games/warhammer_40k_11e/setup/Terrain_Basics.md); no universal 2" denial rule |
+| **What cover does** | Defender retains one normal defence success, or Conceal becomes illegal | Attacker's Ballistic Skill worsens by 1 |
+| **Orders** | Conceal vs Engage changes whether cover blocks *selection* | No order system |
+| **Range** | Intervening terrain in the target's 1" control range; denied within 2" | Terrain rules in 40K `Terrain_Basics.md`; no universal 2" denial |
 
-**These are not the same rule with different numbers - they are opposite mechanical directions** (attacker penalty vs defender bonus). This is flagged explicitly in [[glossary]] because it is exactly the kind of term collision that causes a table mistake if a player carries a 40K habit into a Kill Team game, or vice versa.
+See [[glossary]] for both Cover entries.
 
 ---
 
 ## Open questions
 
-- Whether any owned killzone (Volkus, Shadowhunt, Tomb World terrain, etc.) defines terrain features with non-default cover/Vantage properties - unread killzone pointers.
-- The Vantage-terrain interaction mentioned in third-party KT24 reviews (Vantage now grants cover, plus `Accurate 1/2` for shooters on Vantage against Engage targets) was not confirmed on the Wahapedia core-rules page read this pass - needs its own cross-check before teaching as core rule rather than reviewer summary.
+- Killzone-specific part types: see [[kill_team_terrain]] and [[killzones_volkus_tomb_world]] rather than inventing them here.
+- Smoke (universal equipment): wholly within, obscured to operatives more than 2" (and vice versa) — indexed on Patch_Manifest, not expanded here.
 
 ---
 
 ## Related pages
 
-- [[orders_conceal_engage]] - cover's targeting effect only applies to Conceal
-- [[control_range_kill_team]] - the range cover is checked within
-- [[kill_team_2024_core_rules]] - source
-- [[glossary]] - the Cover collision-flag entry, both systems side by side
-- [[index]]
+- [[valid_target]] — selection test
+- [[orders_conceal_engage]] — cover's targeting effect only applies to Conceal
+- [[control_range_kill_team]] — the range cover is checked within
+- [[kill_team_terrain]] — Heavy / Light / Vantage parts
+- [[kill_team_2024_core_rules]] — source
+- [[glossary]] · [[index]]
+- Shipping: [`Key_Concepts.md`](../../games/kill_team_2024/rules/Key_Concepts.md), [`Terrain_Basics.md`](../../games/kill_team_2024/setup/Terrain_Basics.md), [`Patch_Manifest.md`](../../games/kill_team_2024/rules/Patch_Manifest.md)

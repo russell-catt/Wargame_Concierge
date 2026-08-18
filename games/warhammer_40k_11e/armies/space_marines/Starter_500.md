@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_500.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -173,6 +173,7 @@ Fill the "Own it?" column from [`Owned_Models_Inventory.md`](Owned_Models_Invent
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial 500-point expansion (slice S5). Three paths continuing the 250-point list, every entry tagged `TBD` because the collection is unaudited. All points from MFM Marines v1.2; attachment legality checked against the MFM Leader/Support lists and the owned Core Rules. Records first-unit / later-unit pricing as a purchasing hazard. All sources read 2026-08-16.
 
 ## Attribution

@@ -3,8 +3,9 @@ title: Injured Operatives
 type: concept
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-17
-sources: [kill_team_2024_core_rules]
+updated: 2026-08-18
+version: 0.5.0
+sources: [kill_team_2024_core_rules, games/kill_team_2024/rules/Key_Concepts.md]
 confidence: draft
 tags: [concept, kill_team_2024, core_rules, damage, injured, wounds, collision_flag]
 ---
@@ -12,6 +13,8 @@ tags: [concept, kill_team_2024, core_rules, damage, injured, wounds, collision_f
 # Injured Operatives
 
 Kill Team's wound-threshold debuff: an operative that has lost more than half its starting Wounds becomes **Injured**, and gets measurably worse until it dies or the game ends.
+
+**L1 flag, then replace:** rewritten from shipping [`Key_Concepts.md`](../../games/kill_team_2024/rules/Key_Concepts.md) (**2026-08-18**). **Incapacitated** and **removed from the killzone** are separate timing windows. Some rules allow one free action (excluding Place Marker) before removal; if wounds hit 0, a heal-on-incap action does not stop removal afterwards (update log). Page stays `draft`.
 
 ---
 
@@ -24,7 +27,7 @@ Damage reduces an operative's current Wounds. Two thresholds matter, and they ar
   - **-2" to its Move stat.**
   - **Worsen the Hit stat of all its weapons by 1** (so a 3+ weapon becomes 4+), both ranged and melee.
 
-At **0 Wounds or less**, the operative is **incapacitated**, then **removed from the killzone**. Some rules let an incapacitated operative perform one free action (most commonly Place Marker, if it was carrying one) before removal - "incapacitated" and "removed" are treated as separate moments specifically so those free actions have a window to happen in.
+At **0 Wounds or less**, the operative is **incapacitated**, then **removed from the killzone**. Those are separate moments so some rules can fire in between. Some rules allow one free action (excluding Place Marker) before removal; that operative's player orders those rules.
 
 ---
 

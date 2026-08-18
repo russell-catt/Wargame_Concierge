@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/starter_set_3e.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -79,6 +79,7 @@ There is currently **no local PDF** for the Starter Set / Starter Handbook under
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial killzone page (slice S2), from general product knowledge (Lexicanum, Sprues & Brews unboxing), both read 2026-08-17. Source gap flagged - no dedicated raw/ pointer yet.
 
 ## Attribution

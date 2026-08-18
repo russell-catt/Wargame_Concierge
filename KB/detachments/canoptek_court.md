@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
 updated: 2026-08-17
+version: 0.5.0
 sources: [necron_lists_owner_notes, docs/Game_System_Scaffold.md, kill_team_necron_photos]
 confidence: draft
 tags: [detachment, necrons, canoptek, power_matrix, expansion_path]

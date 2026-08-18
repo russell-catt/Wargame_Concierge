@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Key_Concepts.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -205,6 +205,7 @@ Core stratagems every army has include Command Re-roll, Insane Bravery, Fire Ove
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial core mechanics guide (slice S3), from the owned Core Rules PDF and Necrons Faction Pack v1.1, both read 2026-08-16.
 
 ## Attribution

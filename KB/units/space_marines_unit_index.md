@@ -5,6 +5,7 @@ system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
 updated: 2026-08-16
+version: 0.5.0
 sources: [games/warhammer_40k_11e/armies/space_marines/units/Unit_Index.md, docs/handoffs/v1_scaffold/slices/S6_sm_implementer.md]
 confidence: draft
 tags: [unit, space_marines, index, s6, research_corpus, pointer, firstborn]

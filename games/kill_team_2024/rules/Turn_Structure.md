@@ -1,18 +1,19 @@
 <!--
 FILE: games/kill_team_2024/rules/Turn_Structure.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; patch sync slice P)
 
 DOCUMENT_TYPE: Teaching Guide / Play Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
-REFERENCE_STATUS: Draft - written from the living Wahapedia core rules page; not yet cross-checked against the owned Core Rules PDF
+REFERENCE_STATUS: Draft teaching checklist — order tokens + setup Conceal noted from Full-Scan p.54 (2026-08-18)
 
 SOURCES:
-  - raw/pointers/kill_team_2024_core.md (points at C:\Personal\Kill Team\kill_team_2024\779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf - not yet opened this slice)
-  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17)
-  - KB/concepts/turning_points.md and KB/concepts/activations_apl.md (Librarian L1, landed in parallel with this slice - same living source, cross-checked as consistent)
+  - raw/pointers/kill_team_2024_core.md
+  - games/kill_team_2024/rules/Patch_Manifest.md
+  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17; living cross-check only)
+  - KB/concepts/turning_points.md and KB/concepts/activations_apl.md
 
 PURPOSE:
   A do-this-then-this checklist for one turning point. Written to be readable
@@ -37,7 +38,7 @@ UPDATE_TRIGGER:
 
 Read top to bottom. Kill Team has only two phases, but almost all of the game's decisions live inside the second one.
 
-Written from the living Wahapedia core rules page, retrieved **2026-08-17**. Status: `draft` - not yet cross-checked against the owned Core Rules PDF.
+Written as a table checklist. Setup Conceal and order-token sides confirmed against Full-Scan p.54 on **2026-08-18**. Rest of the page still began as Wahapedia paraphrase (retrieved **2026-08-17**).
 
 ---
 
@@ -61,7 +62,9 @@ A **battle** is a sequence of **turning points**. Each turning point is: Strateg
 ### Ready
 
 - [ ] Each player gains **1 CP**. From the second turning point onward, the player **without** initiative gains **2 CP** instead.
-- [ ] Every friendly operative is **readied** (order token flipped to its lighter, "ready" side).
+- [ ] Every friendly operative is **readied** (order token flipped to its lighter, "ready" side — the darker side is **expended**).
+
+Operatives are given a **Conceal** order when they are **set up before the battle**. You can change an operative's order whenever it is activated. First activations are therefore Conceal-in-cover invalid unless they change order.
 
 ### Gambit
 
@@ -109,6 +112,7 @@ The player with initiative activates first. Players then **alternate**, one oper
 
 - [`Overview.md`](Overview.md) - what a game is and how you win
 - [`Key_Concepts.md`](Key_Concepts.md) - APL, Orders, control range, cover, and Injured in full
+- [`Target_Eligibility.md`](Target_Eligibility.md) - valid-target quotes
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) - every term used above, one line each
 - [`../../../KB/concepts/turning_points.md`](../../../KB/concepts/turning_points.md) - the Librarian's concept page for this exact structure, landed in parallel
 - [`../../../KB/concepts/activations_apl.md`](../../../KB/concepts/activations_apl.md) - the activation loop, from the KB side
@@ -116,6 +120,8 @@ The player with initiative activates first. Players then **alternate**, one oper
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v1.1 (2026-08-18): Slice P — setup Conceal; ready/expended token sides from Full-Scan p.54.
 - v1.0 (2026-08-17): Initial phase checklist (slice S1), written from the living Wahapedia core rules page, retrieved 2026-08-17. Cross-cited against `KB/concepts/turning_points.md` and `KB/concepts/activations_apl.md`, landed by the Librarian (L1) in parallel with this slice from the same source.
 
 ## Attribution
@@ -125,4 +131,4 @@ The player with initiative activates first. Players then **alternate**, one oper
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check anything here against the owned Core Rules PDF - this page currently rests on a living web source only, retrieved **2026-08-17**.
+- **Verify before you play.** Order tokens and setup Conceal aligned to Full-Scan p.54 (**2026-08-18**). Other checklist rows still began as Wahapedia paraphrase (retrieved **2026-08-17**).

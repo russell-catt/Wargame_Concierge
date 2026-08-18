@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/starter_set_2e_scatter.md
-VERSION: v1.0 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -80,6 +80,7 @@ These pieces originate from the **2021 edition (2e)** product line. Kill Team's 
 ---
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial killzone page (slice S2), from general product knowledge of the 2022 Kill Team Starter Set, read 2026-08-17.
 
 ## Attribution

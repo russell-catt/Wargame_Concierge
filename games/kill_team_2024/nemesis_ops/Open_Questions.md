@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/nemesis_ops/Open_Questions.md
-VERSION: v1.1 (2026-08-17)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2 — nemesis_ops_ocr_spotcheck)
 -->
@@ -17,5 +17,6 @@ AUTHOR_OF_NOTES: Cursor (Implementer, slice S2 — nemesis_ops_ocr_spotcheck)
 | OCR accuracy on dense tables | **Narrowed** — process/title prose High bands PASS; **dense weapon/trait/datacard tables remain TABLE / unverified for numbers** (never copy into git). See [`OCR_Spotcheck_Matrix.md`](../../../docs/handoffs/nemesis_ops_ocr_spotcheck/OCR_Spotcheck_Matrix.md) |
 
 ## Change Log
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Spot-check — Ambull titles closed; OCR tables narrowed.
 - v1.0 (2026-08-17): S2 update after OCR + WarCom.

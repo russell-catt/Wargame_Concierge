@@ -1,6 +1,6 @@
 <!--
 FILE: docs/README.md
-VERSION: v1.0 (2026-08-16)
+VERSION: v0.5.0 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -38,7 +38,7 @@ Shipping reference for Wargame_Concierge: how the project is laid out, what has 
 | [`Project_Planning.md`](Project_Planning.md) | What has been decided, what is confirmed, what is still open? | Owner, Coordinator |
 | [`Project_Origin_Story.md`](Project_Origin_Story.md) | Why does this project exist, and who is it for? | Newcomers, beginners |
 | [`Rehydration_Prompt.md`](Rehydration_Prompt.md) | How does a cold AI session rebuild full context? | AI systems, owner during recovery |
-| [`Game_System_Scaffold.md`](Game_System_Scaffold.md) | What do I create when adding a new wargame? | Whoever onboards system #2 |
+| [`Game_System_Scaffold.md`](Game_System_Scaffold.md) | What do I create when adding a new wargame? | Whoever onboards system #3 (KT24 is onboarded) |
 
 ---
 
@@ -61,11 +61,12 @@ Multi-agent track artifacts - briefs, implementer reports, QA reports, Librarian
 
 | Entry point | Contents |
 |-------------|----------|
-| [`handoffs/README.md`](handoffs/README.md) | Active tracks index and the artifact lifecycle |
-| [`handoffs/v1_scaffold/track_in.md`](handoffs/v1_scaffold/track_in.md) | Track constraints, locked model matrix, per-slice rollup |
-| [`handoffs/v1_scaffold/slices/`](handoffs/v1_scaffold/slices/) | Per-slice `{Id}_brief.md`, `{Id}_implementer.md`, `{Id}_qa.md`, `L{n}_librarian.md` |
+| [`handoffs/README.md`](handoffs/README.md) | **Later tracks index** (`tomb_world_ownership`, `kill_team_2024_scaffold`, `kt24_rules_quotes`, Nemesis, …) and the artifact lifecycle |
+| [`handoffs/v1_scaffold/track_in.md`](handoffs/v1_scaffold/track_in.md) | Historical: 40K beginner scaffold constraints and rollup |
 
-Handoff artifacts use the **plain slice format** - no Rising Tide header or footer. Everything else under `docs/` uses the Rising Tide header and footer.
+Shipping KT24 rules/reference: [`../games/kill_team_2024/rules/Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md).
+
+Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everything else under `docs/` uses the Rising Tide header and footer.
 
 ---
 
@@ -95,6 +96,7 @@ Handoff artifacts use the **plain slice format** - no Rising Tide header or foot
 
 ## Change Log
 
+- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Later tracks via handoffs/README.md; Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial documentation index covering project documents, operations, and handoffs. Created in slice S1.
 
 ## Attribution

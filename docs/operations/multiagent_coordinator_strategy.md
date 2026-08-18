@@ -1,11 +1,11 @@
 ---
 title: Multi-agent coordinator strategy (handoff workflow)
 project: Wargame_Concierge
-version: 1.2
+version: 0.5.0
 status: active
 owner: Russell Catt
-last-updated: 2026-08-16
-lineage: Copied from daily_report docs/operations/multiagent_coordinator_strategy.md (v1.2); adapted header and handoffs table for Wargame_Concierge v1_scaffold track. Role / tier / status-machine / Librarian §18 content kept intact.
+last-updated: 2026-08-18
+lineage: Copied from daily_report docs/operations/multiagent_coordinator_strategy.md (v1.2); adapted header and handoffs table for Wargame_Concierge v1_scaffold track. Role / tier / status-machine / Librarian §18 content kept intact. Project snapshot v0.5.0 does not rewrite Sec 17–18.
 ---
 
 # Multi-agent coordinator strategy
@@ -20,6 +20,9 @@ Use this document when a task is too large for one agent session, needs independ
 |-------|------|
 | v1 scaffold — 40K 11e beginner content + Karpathy KB | [docs/handoffs/v1_scaffold/](../handoffs/v1_scaffold/) |
 | Tomb World ownership sync | [docs/handoffs/tomb_world_ownership/](../handoffs/tomb_world_ownership/) |
+| Kill Team 2024 scaffold + later KT tracks | [docs/handoffs/README.md](../handoffs/README.md) (index; slice files frozen) |
+
+**Wargame_Concierge note (v0.5.0, 2026-08-18):** Kill Team 2024 is the second onboarded system. Coordinator remains the sole git owner except when the user explicitly gates a commit+push. Do not rewrite Sec 17–18. Twenty-six inherited dead links from the `daily_report` copy stay a known issue.
 
 **Librarian slices in v1_scaffold:** L0 (KB bootstrap), L1 (Tier 0 ingest), L2 (lint) — see §18.4–18.5.
 

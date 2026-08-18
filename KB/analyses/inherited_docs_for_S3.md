@@ -4,6 +4,7 @@ type: analysis
 system: warhammer_40k_11e
 created: 2026-08-16
 updated: 2026-08-17
+version: 0.5.0
 sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_necron_photos]
 confidence: verified
 tags: [analysis, handoff, s3, teaching_promotion, stable_facts]
