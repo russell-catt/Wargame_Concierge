@@ -40,7 +40,7 @@ Paraphrase pages (Overview, Turn Structure, Key Concepts, Glossary) remain teach
 | 3 | [`Key_Concepts.md`](Key_Concepts.md) | The mechanics everything else sits on: APL and the ±1 activation cap, Conceal vs Engage, control range, cover/obscured, the Shoot and Fight sequences, Injured, and mission scoring at a high level |
 | 4 | [`Keyword_Glossary.md`](Keyword_Glossary.md) | Every term in one place, grouped by phase/activation, movement, shooting/fighting, damage state, mission/scoring, and team/equipment - plus a dedicated table flagging terms that collide with a different 40K meaning |
 | — | [`Target_Eligibility.md`](Target_Eligibility.md) | **Verbatim quote appendix** — every core rule that gates valid targets for Shoot (owned local PDFs; personal use) |
-| — | [`Target_Eligibility_Cheat_Sheet.html`](Target_Eligibility_Cheat_Sheet.html) | **One-page printed valid-target tree** — layout inspired by community sheets; every node traces to `Target_Eligibility.md` |
+| — | [`Target_Eligibility_Cheat_Sheet.html`](Target_Eligibility_Cheat_Sheet.html) | **One-page printed valid-target tree** — UML 2.5 activity shapes ([`Flowcharting.md`](../../../docs/operations/Flowcharting.md)); every node traces to `Target_Eligibility.md`. Notation is not a rules source |
 | — | [`Patch_Manifest.md`](Patch_Manifest.md) | **Errata ledger** — Full-Scan + Jun 17 update log + Jul 25 lite hierarchy |
 
 Setup and kill zones live one level across in [`../setup/`](../setup/) (populated in S2).
@@ -67,7 +67,7 @@ Every claim in this section traces to `raw/pointers/kill_team_2024_core.md`, [`P
 ---
 
 ## Change Log
-- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v0.5.0 (2026-08-18): Cheat sheet restyled to UML activity shapes (track `flowcharting_uml`); link Flowcharting.md. Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-18): Slice P — Core PDFs opened; hierarchy Full-Scan + update log over lite; Patch_Manifest indexed; targeting owner-verified.
 - v1.0 (2026-08-17): Replaced the S0 stub with a real index. Four rules documents authored (slice S1). Confidence section updated to cite the six KB concept pages the Librarian (L1) landed in parallel, from the same source.
 

@@ -53,13 +53,16 @@ Five logical roles when knowledge governance matters; four suffice for code-only
 
 ```mermaid
 flowchart TB
+  startNode((start))
   User[User / Product owner]
   Coord[Coordinator]
   Lib[Librarian subagent]
   Impl[Implementer subagent]
-  QA[QA Slice Check subagent]
+  QA{QA Slice Check subagent}
   FS[Final Sanity subagent]
+  endNode((end))
 
+  startNode --> User
   User -->|authorize track / gates| Coord
   Lib -->|inherited docs index lint| Coord
   Lib -->|ingest promote changelog| Impl
@@ -70,7 +73,10 @@ flowchart TB
   Coord -->|all slices complete| FS
   FS -->|Tier 3 Closed or Reopen| Coord
   Coord -->|git push optional| User
+  User --> endNode
 ```
+
+Notation: UML 2.5 activity shapes in Mermaid (`{}` decision, `[]` action, `(())` initial/final). Teaching reference: [uml-diagrams.org About](https://www.uml-diagrams.org/about.html). **Authored by Kirill Fakhroutdinov.** Copyright © 2009–2026 uml-diagrams.org. All rights reserved. Third-party teaching reference; not a Kill Team rules source.
 
 ### 2.1 Coordinator (parent agent)
 

@@ -6,7 +6,7 @@ systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-18
 version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -24,6 +24,8 @@ A personal **wargame concierge**: a knowledge base that helps its owner learn a 
 It is built on the Karpathy "LLM Wiki" pattern (see [`reference/llm-wiki.md`](../reference/llm-wiki.md)): immutable sources in `raw/`, an LLM-maintained knowledge layer in `KB/`, and player-facing content promoted into `docs/` and `games/`. The point is **compounding** - each source read and each question answered gets filed, so the same ground is never re-covered from scratch.
 
 The project is **game-agnostic by design**. `games/` holds one subtree per system. **Warhammer 40,000 11e** is the first worked example; **Kill Team 2024** is the second (onboarded). [`docs/Game_System_Scaffold.md`](../docs/Game_System_Scaffold.md) is the checklist for system #3.
+
+**Flowcharting (2026-08-18).** Print trees and ops mermaid charts use **UML 2.5 activity** shapes (start, action, decision+guards, end). That is project notation, not a rules term — see [[flowcharting_uml_activity]] and [[uml_diagrams_org]] (Kirill Fakhroutdinov / uml-diagrams.org). Shipping guide: [`docs/operations/Flowcharting.md`](../docs/operations/Flowcharting.md).
 
 ---
 
@@ -194,4 +196,5 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - [[necrons]] · [[space_marines]] - the two factions
 - [[ingest_procedure]] - how sources become KB pages
 - [[log]] - what has happened and when
+- [[uml_diagrams_org]] · [[flowcharting_uml_activity]] - UML activity notation (not game rules)
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth

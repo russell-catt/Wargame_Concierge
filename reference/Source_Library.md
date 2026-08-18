@@ -172,6 +172,20 @@ Pointer: [`raw/pointers/kill_team_web_living_sources.md`](../raw/pointers/kill_t
 
 ---
 
+## Notation references (not game rules)
+
+`reference/` is **not project truth.** These pages teach how this repo draws flowcharts. They are **not** Kill Team or 40K sources.
+
+| Source | URL / path | Use | Retrieved |
+|--------|------------|-----|-----------|
+| **uml-diagrams.org** (Kirill Fakhroutdinov) | https://www.uml-diagrams.org/ · [About](https://www.uml-diagrams.org/about.html) · local [`uml/`](uml/README.md) | UML 2.5 **activity** notation (actions, decision/guards, initial/final). Offline snapshots: activity family + About only. | **2026-08-18** |
+
+**Credit:** [uml-diagrams.org About](https://www.uml-diagrams.org/about.html): **Authored by Kirill Fakhroutdinov**. Copyright © 2009–2026 uml-diagrams.org. All rights reserved. Third-party teaching reference; **not** a Kill Team rules source.
+
+House mapping ships in [`docs/operations/Flowcharting.md`](../docs/operations/Flowcharting.md).
+
+---
+
 ## Imported markdown sources
 
 These files were **copied into the repo** as allowed personal notes (not GW PDFs).
@@ -209,6 +223,7 @@ Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb Worl
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): uml-diagrams.org notation row + Fakhroutdinov credit (track `flowcharting_uml` S0).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Kill Team 2024 + 2021 library rows, living KT web refs, Screen_Captures secondary-trust note (slice S0, kill_team_2024_scaffold).
 - v1.1 (2026-08-16): Ownership snapshot aligned to FOUNDATION — Tomb World owned and game-ready; dual Warriors/Scarabs; Immortals sprue; Hierotek TBD. Removed stale "Not owned — superseded" row. S4 coord preflight.

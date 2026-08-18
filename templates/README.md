@@ -32,6 +32,8 @@ Rising Tide **header/footer** fragments (from the Rising Tide meta-repo and Ross
 
 Also present: `Markdown_Header_Template.md`, `Markdown_Footer_Template.md`, `Markdown_Document_Template.md` (generic).
 
+**Flowchart HTML classes:** [`flowchart_html_classes.md`](flowchart_html_classes.md) — `node-start`, `node-action`, `node-decision`, `node-end`, `guard`. Pair with [`docs/operations/Flowcharting.md`](../docs/operations/Flowcharting.md).
+
 ## `email/` — Jinja e-mail body
 
 | File | Role |
@@ -49,7 +51,7 @@ Rendered by [`scripts/render_release.py`](../scripts/render_release.py). Output 
 
 ## Change Log
 
-- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
+- v0.5.0 (2026-08-18): Indexed `flowchart_html_classes.md` (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-05-27): Documented `email/` Jinja template location.
 - v1.0 (2026-05-26): Template index; added Reference and Check-in templates.
 

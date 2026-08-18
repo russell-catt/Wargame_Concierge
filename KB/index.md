@@ -6,7 +6,7 @@ systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-18
 version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
 ---
@@ -19,7 +19,7 @@ Master catalog of every page in this knowledge base. Read this first when answer
 
 **Status:** lint complete for Warhammer 40,000 through slice **L2** of `tomb_world_ownership` (2026-08-16); Kill Team 2024 **v0.5.0 Librarian pass (2026-08-18)** rewrote L1 Wahapedia drafts from shipping (targeting subset `verified` on [[kill_team_2024_core_rules]] / [[valid_target]]; other Core topics still `draft`). Teams / ops trees remain index-only.
 
-**Two systems now.** Everything in the typed sections below (Sources through Analyses) is `system: warhammer_40k_11e` unless it appears in the dedicated **Kill Team 2024 (KT24)** section, which carries its own Sources and Concepts tables and is kept visually separate rather than interleaved - Kill Team and 40K stay split at every layer, including the index. Check a page's own `system:` frontmatter if in doubt.
+**Two systems now.** Everything in the typed sections below (Sources through Analyses) is `system: warhammer_40k_11e` unless it appears in **Project notation** (`system: multi_system`, not game rules) or the dedicated **Kill Team 2024 (KT24)** section. Kill Team and 40K stay split at every layer, including the index. Check a page's own `system:` frontmatter if in doubt.
 
 > **Rules sources have now been read, but most `KB/` pages predate that reading.** The claim that used to sit here - "no rules document has been read" - was true at L1 and is false now: S3, S4 and S5 read the owned core rules, both faction packs, and Munitorum Field Manual v1.2, and [[glossary]] carries 24 `verified` game terms as a result. What has **not** happened is a back-fill: the faction, detachment and concept pages below still mostly rest on the owner's planning notes. Treat every `draft` and `unverified` row as "check before the table", and prefer the shipping teaching content under `games/warhammer_40k_11e/` where the two disagree.
 
@@ -47,7 +47,7 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 | [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-18 |
 | [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-18 |
 | [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-18 |
-| [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-17 |
+| [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-18 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 
 ---
@@ -63,6 +63,24 @@ One page per ingested source. Location: `KB/sources/`.
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
 | [[wahapedia]] | The community rules aggregator used to cross-check datasheets - registered as a source, not yet read | stub | 2026-08-16 |
 | [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-16 |
+
+---
+
+## Project notation (not game rules)
+
+These pages are `system: multi_system`. They describe how this repo draws charts. They are **not** Kill Team or 40K rules.
+
+### Sources (notation)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[uml_diagrams_org]] | Offline snapshots of Kirill Fakhroutdinov's uml-diagrams.org activity-family pages; a notation teaching reference, **not** a wargame rules source | draft | 2026-08-18 |
+
+### Concepts (notation)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[flowcharting_uml_activity]] | House flowcharting maps to UML 2.5 activity diagrams: filled-circle start, rounded-rect actions, diamond decisions with guards, bullseye end | draft | 2026-08-18 |
 
 ---
 
@@ -198,6 +216,7 @@ Short per-directory README stubs restate the page contract for each entity type.
 
 - [[overview]] - what this KB is about and where it stands
 - [[glossary]] - terminology lookup
+- [[uml_diagrams_org]] · [[flowcharting_uml_activity]] - project flowchart notation (not game rules)
 - [[ingest_procedure]] - how to add to this catalog
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth
 

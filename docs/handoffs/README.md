@@ -13,6 +13,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | Kill Team 2024 scaffold (KT24 / 3e + Join Ops + 2e archive) | [`kill_team_2024_scaffold/`](kill_team_2024_scaffold/) | In Progress |
 | Nemesis Ops research (OCR + joint_ops rename + nemesis_ops/) | [`nemesis_ops_research/`](nemesis_ops_research/) | Closed - Complete (commits pending) |
 | Nemesis Ops OCR spot-check | [`nemesis_ops_ocr_spotcheck/`](nemesis_ops_ocr_spotcheck/) | Closed - Complete (commits pending) |
+| Flowcharting UML (activity notation + valid-target sheet restyle) | [`flowcharting_uml/`](flowcharting_uml/) | Closed - Complete (this commit) |
 
 ## Artifact lifecycle (summary)
 

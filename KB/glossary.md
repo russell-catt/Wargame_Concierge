@@ -6,7 +6,7 @@ systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-18
 version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -34,7 +34,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 | `unverified` | Written from familiarity or a prior edition. **Confirm before use** | **0** |
 | `unresolved` | Appeared in a source and maps to nothing recognised | 1 |
 
-**Project vocabulary (7):** all `verified` - these describe this project's own conventions, not the game, so they can be confirmed from the repo itself. **Assemble-to-expand** is new in the `tomb_world_ownership` L1 pass.
+**Project vocabulary (7):** all `verified` - these describe this project's own conventions, not the game, so they can be confirmed from the repo itself. **Assemble-to-expand** is new in the `tomb_world_ownership` L1 pass. **Flowcharting (UML activity)** terms (activity, action, decision node, guard, initial/final) are additional `draft` notation entries (2026-08-18) — not game keywords.
 
 **The headline reversed in L2.** L1's version of this block said "no game term is `verified`, because no rules document has been read yet." That is no longer true. S3 read the owned Core Rules, the Universal Rules Updates v1.0, both faction packs v1.1, and the Event Companion v1.1; S4 and S5 read the two Munitorum Field Manuals v1.2 and both detachment sections. Every `verified` entry below traces to one of those, read **2026-08-16**, or to the shipping glossary that records them.
 
@@ -437,6 +437,27 @@ Not game terms - the words this project uses about its own state. S3 should keep
 **Confidence** - `verified`
 : The mandatory frontmatter field carrying how much a page can be trusted: `verified`, `draft`, `stub`, `unverified`. It is the KB's trust model; inflating it breaks it.
 
+### Flowcharting (UML activity) — project notation, not game rules
+
+These terms describe how this repo draws yes/no trees. They are **not** Kill Team or 40K keywords. See [[flowcharting_uml_activity]]. Source: [[uml_diagrams_org]] (retrieved **2026-08-18**).
+
+**Activity** - `draft`
+: The whole flowchart: a coordinated flow of actions and control nodes. House charts map to UML activity diagrams, not class or sequence diagrams.
+- Scope: project notation
+- See also: [[flowcharting_uml_activity]]
+
+**Action** - `draft`
+: A single step in the flow. Drawn as a **rounded rectangle**. Outcomes such as `Stop — not eligible` or `VALID TARGET ✓` are actions, not decisions.
+
+**Decision node** - `draft`
+: A question that picks **one** outgoing path. Drawn as a **diamond**. Do not use a rectangle for a question.
+
+**Guard** - `draft`
+: The label on an **edge** leaving a decision (`[YES]`, `[NO]`, `[Engage]`, `[else]`). Guards live on arrows, not as the only copy of the branch inside the diamond.
+
+**Initial / final** - `draft`
+: **Initial** (filled circle) is where the flow starts. **Activity final** (bullseye) is where it ends. Distinct from actions. (Flow-final — circled X — is optional and unused on the valid-target sheet.)
+
 ---
 
 ## Unresolved terms
@@ -513,6 +534,7 @@ How this KB writes about the game.
 
 - [[index]] - master catalog
 - [[overview]] - big-picture synthesis
+- [[flowcharting_uml_activity]] · [[uml_diagrams_org]] - flowchart notation (not game rules)
 - [[inherited_docs_for_S3]] - what S3 may safely promote from this page
 - [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted 40K concept pages
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]] - promoted Kill Team 2024 concept pages

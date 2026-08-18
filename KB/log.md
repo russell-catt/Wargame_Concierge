@@ -338,3 +338,20 @@ Key additions:
 
 Nothing under `raw/` written. Git commit/tag/push is the explicit user-gated snapshot for this pass.
 
+## [2026-08-18] ingest | flowcharting_uml — UML 2.5 activity notation
+
+**Track / slice:** flowcharting_uml / L1 (Librarian hat) + L2 promotion row.
+
+Pages created: `uml_diagrams_org`, `flowcharting_uml_activity`
+
+Pages updated: `glossary` (activity, action, decision node, guard, initial/final), `index`, `overview`, `changelog`, `log`
+
+Key additions:
+- Teaching paraphrase of uml-diagrams.org activity family (retrieved **2026-08-18**); no prose dump
+- Credit: Kirill Fakhroutdinov / uml-diagrams.org About; not a Kill Team rules source
+- House mapping: filled-circle start, rounded-rect actions, diamond decisions with guards on edges, bullseye end
+- `system: multi_system` — project notation, not a KT rules term
+- Shipping (S1/S2, logged here for the ingest): `docs/operations/Flowcharting.md`; cheat sheet restyle only
+
+Nothing under `raw/` written. Coordinator one commit at track close; no push.
+

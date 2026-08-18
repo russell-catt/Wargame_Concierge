@@ -144,6 +144,8 @@ Record the results as a table in the slice report and append a lint entry to the
 4. Add a row to [`KB/changelog.md`](../../KB/changelog.md)
 5. Hand to the Coordinator to commit
 
+**Printable flowcharts / cheat-sheet trees:** follow [`Flowcharting.md`](Flowcharting.md) (UML 2.5 activity shapes). Notation is not a game-rules claim. HTML class names: [`templates/flowchart_html_classes.md`](../../templates/flowchart_html_classes.md).
+
 ---
 
 ## 5. Maturity model
@@ -219,7 +221,7 @@ The **inherited block** is the part downstream slices actually consume - paste-r
 
 ## Change Log
 
-- v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Ingest-from-shipping after owner verification; KT quotes vs KB paraphrase.
+- v0.5.0 (2026-08-18): Link Flowcharting.md for print sheets (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z). Ingest-from-shipping after owner verification; KT quotes vs KB paraphrase.
 - v1.0 (2026-08-16): Initial operations guide. Created in slice L0 alongside `AGENTS.md`; combines the Karpathy query / ingest / lint / promote loop with the L0-L1-L2 slice pattern and maturity model from the coordinator playbook Sec 18.
 
 ## Attribution
