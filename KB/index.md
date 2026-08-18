@@ -170,7 +170,7 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 | [[activations_apl]] | The alternating single-operative activation loop and the APL action-point budget that gates it | draft | 2026-08-18 |
 | [[orders_conceal_engage]] | Engage vs Conceal - the per-activation order that decides what an operative can do and whether it can be targeted | draft | 2026-08-18 |
 | [[cover_kill_team]] | KT24 Cover / Obscured / cover save / Vantage — defender-dice bonus, opposite of 40K cover | draft | 2026-08-18 |
-| [[control_range_kill_team]] | Control Range - the 1", visibility-gated zone behind marker control, cover, and Fight legality | draft | 2026-08-18 |
+| [[control_range_kill_team]] | 1" Control Range - the visibility-gated zone behind marker control, cover, and Fight legality | draft | 2026-08-18 |
 | [[injured_operatives]] | The half-Wounds threshold that worsens Move and Hit - not 40K Battle-shock | draft | 2026-08-18 |
 | [[valid_target]] | Shoot selection test: visible + order/cover split; Blast/Torrent/Heavy/Seek notes. Quotes stay in shipping | verified | 2026-08-18 |
 

@@ -77,7 +77,7 @@ These are the two rules that make terrain matter when someone is shooting, and b
 
 ### Cover
 
-An operative is **in cover** from another operative if there's terrain between them within its control range (roughly, within 1" and visible to it) - but only if the two operatives are more than 2" apart. Being in cover matters differently depending on order:
+An operative is **in cover** from another operative if there's terrain between them within its 1" control range (and visible to it) - but only if the two operatives are more than 2" apart. Being in cover matters differently depending on order:
 
 - **Concealed and in cover:** not a valid target at all.
 - **Engaged and in cover:** a valid target, but the defender gets a **cover save** — collect three defence dice, retain one **normal success** without rolling, roll the remainder.

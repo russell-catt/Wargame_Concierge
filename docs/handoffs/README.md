@@ -14,6 +14,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | Nemesis Ops research (OCR + joint_ops rename + nemesis_ops/) | [`nemesis_ops_research/`](nemesis_ops_research/) | Closed - Complete (commits pending) |
 | Nemesis Ops OCR spot-check | [`nemesis_ops_ocr_spotcheck/`](nemesis_ops_ocr_spotcheck/) | Closed - Complete (commits pending) |
 | Flowcharting UML (activity notation + valid-target sheet restyle) | [`flowcharting_uml/`](flowcharting_uml/) | Closed - Complete (this commit) |
+| KT24 doc follow-ups (Letter print, freshness dates, complete cards) | [`kt24_doc_followups/`](kt24_doc_followups/) | Open (parked) |
 
 ## Artifact lifecycle (summary)
 

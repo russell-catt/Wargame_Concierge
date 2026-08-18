@@ -38,7 +38,7 @@ This is a different game from the 40K Necron army in the same collection ([`../.
 - **The models are already on the table.** Every operative this team needs is part of the owned, assembled, painted **Kill Team: Tomb World** box — see [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md). No shopping, no bench time, before a first game.
 - **It teaches spatial thinking, not memorisation.** The whole team rule is "where do I put three markers and when do I move them" — a puzzle that rewards planning ahead rather than a long stratagem list.
 - **It rewards patience.** Canoptek Warriors are built to die and come back (`A Ceaseless Scuttling`); Macrocytes exist to make each other better. The team plays a longer, more attritional game than a beginner might expect from "robot swarm."
-- **Archetype: Security / Recon** — objective-holding and board-control focused, which suits learning **control range** and **marker control** before diving into a kill-heavy archetype.
+- **Archetype: Security / Recon** — objective-holding and board-control focused, which suits learning **1" control range** and **marker control** before diving into a kill-heavy archetype.
 
 ---
 

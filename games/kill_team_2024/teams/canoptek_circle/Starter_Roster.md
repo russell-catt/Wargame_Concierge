@@ -53,7 +53,7 @@ UPDATE_TRIGGER:
 ## What this roster is good at learning
 
 - **Marker control without spending an operative's turn** — nodes hold ground on their own.
-- **Control range and cover**, since Warriors (28mm) and Tomb Crawlers (50mm) present very different silhouettes to hide.
+- **1" control range and cover**, since Warriors (28mm) and Tomb Crawlers (50mm) present very different silhouettes to hide.
 - **Tempo trades** — Accelerator/Reanimator APL manipulation is a gentler introduction to "spend a resource to warp the initiative order" than a full ploy-heavy team.
 
 ---

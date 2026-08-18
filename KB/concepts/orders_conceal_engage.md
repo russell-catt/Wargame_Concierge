@@ -23,7 +23,7 @@ Every Kill Team operative carries one of two **orders** at all times, chosen fre
 | Order | Can do | Cannot do | Targeting |
 |-------|--------|-----------|-----------|
 | **Engage** | Everything: Shoot, Charge, counteract, all universal actions | - | Valid target if visible to the shooter, cover or not |
-| **Conceal** | Reposition, Dash, Fall Back, Fight (if already in control range), Pick Up/Place Marker, Guard is unavailable (Guard is treated as Shoot) | **Shoot**, **Charge**, and **counteracting** | Valid target only if visible **and not in cover** |
+| **Conceal** | Reposition, Dash, Fall Back, Fight (if already in 1" control range), Pick Up/Place Marker, Guard is unavailable (Guard is treated as Shoot) | **Shoot**, **Charge**, and **counteracting** | Valid target only if visible **and not in cover** |
 
 Operatives are set up with a Conceal order at the start of the battle and can switch orders every time they are next activated - you are not locked into your starting choice, and you decide the new order at the top of each activation, before performing any actions.
 

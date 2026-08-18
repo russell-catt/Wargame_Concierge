@@ -91,6 +91,7 @@ When promoting a printable tree, follow this guide **and** [`librarian_agent.md`
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
 - Structured using the Rising Tide framework
+- **Kill Team is Copyright Games Workshop Limited 2024**
 - Notation reference: [uml-diagrams.org About](https://www.uml-diagrams.org/about.html). **Authored by Kirill Fakhroutdinov.** Copyright © 2009–2026 uml-diagrams.org. All rights reserved. Third-party teaching reference; **not** a Kill Team rules source.
 
 ## Rising Tide Notes

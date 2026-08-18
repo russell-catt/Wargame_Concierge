@@ -162,7 +162,7 @@ Lite omits **1mm diameter** and **always visible to itself**. Keep the Core extr
 
 p.42 uses **within 2" of the active operative**; p.47 / lite use **within 2" of the other operative**. Same 2" gate; keep both as printed.
 
-**Teaching note (p.47 diagrams, not extra rules):** Cover needs intervening terrain **and** that terrain within the target's control range **and** the other operative more than 2" away. Terrain in CR that is not intervening is not cover. Intervening terrain not in CR is not cover. Within 2" you cannot be in cover ("too close to hide" on lite).
+**Teaching note (p.47 diagrams, not extra rules):** Cover needs intervening terrain **and** that terrain within the target's 1" control range **and** the other operative more than 2" away. Terrain in 1" control range that is not intervening is not cover. Intervening terrain not in 1" control range is not cover. Within 2" you cannot be in cover ("too close to hide" on lite).
 
 Wounds-tracking and incapacitated-before-removal from the same p.47 sidebar are **not** eligibility — see [`Key_Concepts.md`](Key_Concepts.md).
 
@@ -188,7 +188,7 @@ Wounds-tracking and incapacitated-before-removal from the same p.47 sidebar are 
 
 ---
 
-## Control range
+## 1" control range
 
 **Source:** `779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` — p.46 — **SELECT**
 
@@ -200,11 +200,11 @@ Wounds-tracking and incapacitated-before-removal from the same p.47 sidebar are 
 
 > Something is within an operative's control range if it's visible to and within 1" of that operative. Control range between operatives is mutual, therefore operatives are within each other's control range even if the above is only true for one of them.
 
-**Source:** `779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` — p.42 — **SELECT** *(friendly-in-CR gate)*
+**Source:** `779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` — p.42 — **SELECT** *(friendly-in-1" control range gate)*
 
 > The attacker selects an enemy operative that's a valid target and has **no friendly operatives within its control range**.
 
-**Teaching note (p.46 diagrams):** Control range needs **visibility**, not just distance. Terrain can sit in an operative's CR; two operatives within 1" of each other are **not** in each other's CR if terrain blocks visibility. That matters for "no friendly in the target's CR" and "cannot Shoot while in enemy CR."
+**Teaching note (p.46 diagrams):** 1" control range needs **visibility**, not just distance. Terrain can sit in an operative's 1" control range; two operatives within 1" of each other are **not** in each other's control range if terrain blocks visibility. That matters for "no friendly in the target's 1" control range" and "cannot Shoot while in enemy 1" control range."
 
 ---
 
@@ -398,7 +398,7 @@ Use **update log p.2 + Jul 25 lite p.3**, not unpatched Full-Scan p.111 (activat
 
 ---
 
-## Shoot action restrictions (Conceal / control range)
+## Shoot action restrictions (Conceal / 1" control range)
 
 **Source:** `779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` — p.42 — **SELECT** *(shooter gates)*
 
@@ -468,7 +468,7 @@ Use **update log p.2 + Jul 25 lite p.3**, not unpatched Full-Scan p.111 (activat
 >
 > A: No, a dice can only be retained once. Note, however, that some rules refer specifically to changing a retained dice (e.g. the Severe weapon rule) and that these allow a dice to be changed after being retained.
 
-Volkus fire-step / door CR-visibility commentaries are killzone rules — [`../setup/killzones/volkus.md`](../setup/killzones/volkus.md), not this core tree. Door Fight is not merged into the generic valid-target path.
+Volkus fire-step / door 1" control range visibility commentaries are killzone rules — [`../setup/killzones/volkus.md`](../setup/killzones/volkus.md), not this core tree. Door Fight is not merged into the generic valid-target path.
 
 ---
 
@@ -481,7 +481,7 @@ Verbatim quote blocks only (teaching notes are not counted). A block is one Sour
 | Valid target / orders | 8 | Full-Scan + lite (p.55; p.42 SELECT; lite Shoot step 2; update log pick-one; Conceal body; Conceal setup; Conceal lite; Engage) |
 | Visible | 2 | Full-Scan + lite |
 | Cover / intervening / targeting lines | 5 | Full-Scan + lite (Cover body; Cover sidebar; Cover lite; intervening body; intervening sidebar) |
-| Control range / enemy operative | 4 | Full-Scan + lite |
+| 1" control range / enemy operative | 4 | Full-Scan + lite |
 | Obscured | 3 | Full-Scan (body; sidebar; p.42 dice) |
 | Cover save (p.43) | 1 | Full-Scan |
 | Terrain types | 8 | Full-Scan (parts intro; Heavy; Light; Light-on-markers; Blocking; Exposed; Vantage SELECT; Vantage connected) |
@@ -519,6 +519,7 @@ Previous harvest: **35** blocks (v1.0, 2026-08-17).
 
 - Project: Wargame_Concierge · Maintainer: Russell Catt
 - **Personal use only. Never for sale.**
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 

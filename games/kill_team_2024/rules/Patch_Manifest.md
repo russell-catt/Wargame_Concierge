@@ -43,7 +43,7 @@ Quote appendix for table disputes: [`Target_Eligibility.md`](Target_Eligibility.
 | Rule topic | Update log ref | Lite ref | Supersedes Full-Scan? | Docs to touch |
 |------------|----------------|----------|----------------------|---------------|
 | Cover and obscured from the **same** terrain feature — defender picks one | p.2 SELECT VALID TARGET | Not restated (omission ≠ patch) | **Adds** to p.42 / p.53 | Target_Eligibility, cheat sheet, Key_Concepts |
-| Torrent first sentence — primary + other valid targets within x, not in friendly CR | p.2 TORRENT | p.3 (matches) | Matches current Full-Scan p.111 | Target_Eligibility (already harvested) |
+| Torrent first sentence — primary + other valid targets within x, not in friendly 1" control range | p.2 TORRENT | p.3 (matches) | Matches current Full-Scan p.111 | Target_Eligibility (already harvested) |
 | Blast secondaries are **not selected** — “cannot be selected” does not stop them | p.4 FAQ | — | Commentary on p.111 Blast | Target_Eligibility |
 | Blast copies primary cover/obscured | p.4 FAQ | p.3 Blast already says this | Clarifies p.111 | Target_Eligibility |
 | Blast + Vantage improved cover save copies to secondaries | p.5 FAQ | — | Commentary on p.60 / Blast | Target_Eligibility |
@@ -62,11 +62,11 @@ Quote appendix for table disputes: [`Target_Eligibility.md`](Target_Eligibility.
 |------------|----------------|---------------|
 | Gallowdark & Tomb World Close Quarters — Guard: add performs any action, **moves or is set up**; On Guard: cannot counteract that TP | p.3 | [`../setup/killzones/tomb_world.md`](../setup/killzones/tomb_world.md) |
 | Volkus Door Fight — Select Enemy Operative = enemy on killzone floor, within 2" of, other side of a door the active operative is touching | p.3 | [`../setup/killzones/volkus.md`](../setup/killzones/volkus.md) |
-| Volkus Large ruin — upper level Ceiling and Vantage; door Accessible and Heavy; ignore door for CR visibility | p.3 | volkus.md |
+| Volkus Large ruin — upper level Ceiling and Vantage; door Accessible and Heavy; ignore door for 1" control range visibility | p.3 | volkus.md |
 | Volkus Stronghold — upper level(s) Ceiling and Vantage; extra parts (barrels, ramparts, gap, Stronghold B roof) | p.3 | volkus.md |
 | Volkus Condensed Stronghold — target wholly within a stronghold and on killzone floor or fire step | p.2 | volkus.md |
 | Volkus fire step — do **not** ignore the rest of the stronghold for obscured | p.5 FAQ | volkus.md |
-| Ignoring a door for CR visibility does **not** let you Shoot a target that is not visible | p.6 FAQ | volkus.md |
+| Ignoring a door for 1" control range visibility does **not** let you Shoot a target that is not visible | p.6 FAQ | volkus.md |
 
 ---
 
@@ -102,6 +102,7 @@ Damage (one free action before remove), distances (carried marker), datacard sta
 
 - Project: Wargame_Concierge · Maintainer: Russell Catt
 - **Personal use only. Never for sale.**
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 

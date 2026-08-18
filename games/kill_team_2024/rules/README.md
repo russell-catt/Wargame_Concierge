@@ -37,13 +37,15 @@ Paraphrase pages (Overview, Turn Structure, Key Concepts, Glossary) remain teach
 |---|------|----------------|
 | 1 | [`Overview.md`](Overview.md) | What a game of Kill Team is: turning points, the two-phase structure, how you win, what a kill team is made of, a coming-from-40K comparison table |
 | 2 | [`Turn_Structure.md`](Turn_Structure.md) | A checklist for one turning point - Strategy phase (Initiative, Ready, Gambit) then Firefight phase (the activation loop and Counteract) |
-| 3 | [`Key_Concepts.md`](Key_Concepts.md) | The mechanics everything else sits on: APL and the ±1 activation cap, Conceal vs Engage, control range, cover/obscured, the Shoot and Fight sequences, Injured, and mission scoring at a high level |
+| 3 | [`Key_Concepts.md`](Key_Concepts.md) | The mechanics everything else sits on: APL and the ±1 activation cap, Conceal vs Engage, 1" control range, cover/obscured, the Shoot and Fight sequences, Injured, and mission scoring at a high level |
 | 4 | [`Keyword_Glossary.md`](Keyword_Glossary.md) | Every term in one place, grouped by phase/activation, movement, shooting/fighting, damage state, mission/scoring, and team/equipment - plus a dedicated table flagging terms that collide with a different 40K meaning |
 | — | [`Target_Eligibility.md`](Target_Eligibility.md) | **Verbatim quote appendix** — every core rule that gates valid targets for Shoot (owned local PDFs; personal use) |
 | — | [`Target_Eligibility_Cheat_Sheet.html`](Target_Eligibility_Cheat_Sheet.html) | **One-page printed valid-target tree** — UML 2.5 activity shapes ([`Flowcharting.md`](../../../docs/operations/Flowcharting.md)); every node traces to `Target_Eligibility.md`. Notation is not a rules source |
 | — | [`Patch_Manifest.md`](Patch_Manifest.md) | **Errata ledger** — Full-Scan + Jun 17 update log + Jul 25 lite hierarchy |
 
 Setup and kill zones live one level across in [`../setup/`](../setup/) (populated in S2).
+
+**Open (parked):** US Letter landscape print for the cheat sheet, KT freshness dates from `eng_DD-MM_` PDFs, and complete operative cards — [`kt24_doc_followups/track_in.md`](../../../docs/handoffs/kt24_doc_followups/track_in.md).
 
 ---
 
@@ -74,7 +76,9 @@ Every claim in this section traces to `raw/pointers/kill_team_2024_core.md`, [`P
 ## Attribution
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.
 - **Verify before you play.** Targeting quotes owner-verified **2026-08-18**. Paraphrase pages still need the physical book for anything not in the quote appendix.
+- The [`Target_Eligibility_Cheat_Sheet.html`](Target_Eligibility_Cheat_Sheet.html) footer must include: **Kill Team is Copyright Games Workshop Limited 2024**

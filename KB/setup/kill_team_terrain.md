@@ -39,7 +39,7 @@ Stop treating a ruin as one blob. A feature is several **parts**; a rule that ig
 
 ## Cover and obscured (table habits)
 
-- **Cover:** intervening terrain in the target's control range, and more than 2" from the shooter. Conceal + cover = not a valid target. Engage + cover = **cover save** (collect three defence dice, retain one **normal success**, roll the remainder).
+- **Cover:** intervening terrain in the target's 1" control range, and more than 2" from the shooter. Conceal + cover = not a valid target. Engage + cover = **cover save** (collect three defence dice, retain one **normal success**, roll the remainder).
 - **Obscured:** intervening Heavy. Being within 1" of Heavy ignores **only that part**, not the whole ruin. Attacker discards one success; remaining successes cannot be critical that sequence.
 - Same feature cannot apply both — defender picks ([[cover_kill_team]], [[valid_target]]).
 

@@ -111,7 +111,7 @@ The player with initiative activates first. Players then **alternate**, one oper
 ## Related pages
 
 - [`Overview.md`](Overview.md) - what a game is and how you win
-- [`Key_Concepts.md`](Key_Concepts.md) - APL, Orders, control range, cover, and Injured in full
+- [`Key_Concepts.md`](Key_Concepts.md) - APL, Orders, 1" control range, cover, and Injured in full
 - [`Target_Eligibility.md`](Target_Eligibility.md) - valid-target quotes
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) - every term used above, one line each
 - [`../../../KB/concepts/turning_points.md`](../../../KB/concepts/turning_points.md) - the Librarian's concept page for this exact structure, landed in parallel
@@ -128,6 +128,7 @@ The player with initiative activates first. Players then **alternate**, one oper
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
 - Kill Team is a trademark of Games Workshop Limited. This document is a personal teaching paraphrase and reproduces no publisher text.
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.

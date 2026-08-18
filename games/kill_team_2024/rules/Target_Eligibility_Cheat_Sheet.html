@@ -22,55 +22,447 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
 .sub { font-size: 8pt; color: #555; margin-bottom: 4px; }
 .legend { font-size: 6.5pt; color: #555; margin: 0 0 4px; }
 .legend span { margin-right: 10px; white-space: nowrap; }
-.layout { display: grid; grid-template-columns: 1fr 280px; gap: 10px; height: calc(100vh - 16mm); max-height: 185mm; }
-.tree { border: 2px solid #8b1a1a; border-radius: 6px; padding: 6px 8px; background: #faf8f5; overflow: hidden; }
-/* UML activity shapes */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 10px;
+  align-items: start;
+}
+.tree {
+  --dw: 158px;
+  --dh: 66px;
+  --gap: 24px;
+  --stub: 14px;
+  --diag: 90px;      /* ≈ dw/2 + stub: continue down-line lands on next peak */
+  --minarr: 26px;
+  --stopw: 150px;
+  --cdw: 128px;
+  --cdh: 56px;
+  --line: #555;
+  --sw: 1.6px;
+  --n: 0;
+  border: 2px solid #8b1a1a;
+  border-radius: 6px;
+  padding: 6px 4px 6px 8px;
+  background: #faf8f5;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.flow-spine {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: visible;
+}
+/* Right-anchored: [growing left + diamond + reach] | aligned stop column */
+.start-block,
+.vin-row,
+.dblock {
+  /* --reach must be computed here so --n on this block is used (not the inherited --n: 0 from .tree). */
+  --reach: calc(var(--minarr) + (var(--n) * var(--diag)));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--stopw);
+  width: 100%;
+  overflow: visible;
+}
+.d-main {
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--dw) var(--reach);
+  overflow: visible;
+  min-width: 0;
+}
+.start-block { --n: 0; }
+.start-block .d-main { grid-template-rows: auto; align-items: center; }
+.start-block .node-start {
+  grid-column: 2;
+  justify-self: center;
+  margin: 2px 0 0;
+}
+.start-block .cap {
+  grid-column: 3;
+  margin: 0;
+  text-align: left;
+  align-self: center;
+  padding-left: 4px;
+}
+.vin-row { --n: 0; height: 18px; }
+.vin-row .d-main { grid-template-rows: 18px; }
+.vin-row .arr-down {
+  grid-column: 2;
+  justify-self: center;
+  overflow: visible;
+}
+.dblock {
+  grid-template-rows: var(--dh) var(--gap);
+  position: relative;
+}
+.dblock .d-main {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  grid-template-rows: var(--dh) var(--gap);
+}
+.dblock .d-main > .node-decision {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0;
+  align-self: center;
+  justify-self: stretch;
+  width: var(--dw);
+  min-width: var(--dw);
+  max-width: var(--dw);
+  height: var(--dh);
+  min-height: var(--dh);
+  max-height: var(--dh);
+  padding: 0.4rem 1.35rem;
+}
+.dblock .g-left {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: end;
+  transform: translateY(-10px);
+  text-align: right;
+  font-size: 7pt;
+  line-height: 1.15;
+  padding: 0 2px 0 0;
+  z-index: 1;
+}
+/* Continue: stub left of left vertex, then straight down into next peak. */
+.wires-cont {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  justify-self: end;
+  align-self: stretch;
+  width: var(--stub);
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}
+/* Reach: horizontal from right vertex into the stop column. */
+.reach-stop {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 0;
+  overflow: visible;
+}
+.reach-stop .h-rail {
+  flex: 1 1 auto;
+  height: 0;
+  border-top: var(--sw) solid var(--line);
+  min-width: 8px;
+}
+.dead {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  justify-self: start;
+  min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  text-align: center;
+  font-size: 7.5pt;
+}
+.dead-body { min-width: 0; }
+.dead .node-action { margin-left: 0; margin-right: auto; }
+.arr-right, .arr-left, .arr-down {
+  overflow: visible;
+  flex: 0 0 auto;
+  display: block;
+}
+.arr-right { margin-left: -1px; }
+/* UML activity shapes. Decision diamond is an in-box SVG background (no rotate). */
 .node-start {
-  width: 12px; height: 12px; margin: 2px auto 0;
+  width: 12px; height: 12px;
   background: #111; border-radius: 50%;
 }
 .node-end {
-  width: 12px; height: 12px; margin: 2px auto 4px;
+  width: 14px; height: 14px; margin: 2px auto 4px;
+  border: 2px solid #1565c0; border-radius: 50%;
+  background: #fff; position: relative;
+}
+.node-end::after {
+  content: "";
+  position: absolute; inset: 2px;
   border-radius: 50%; background: #1565c0;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #1565c0;
 }
 .node-action {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
   border: 1px solid #666; border-radius: 12px;
-  padding: 3px 8px; margin: 2px auto;
-  max-width: 92%; text-align: center; background: #fff; font-size: 8pt;
+  padding: 2px 7px; margin: 2px auto;
+  text-align: center; background: #fff; font-size: 8pt;
 }
 .node-decision {
   position: relative;
   display: flex; align-items: center; justify-content: center;
-  margin: 6px auto; max-width: 94%; min-height: 34px;
-  padding: 10px 38px; text-align: center;
+  margin: 4px auto;
+  width: fit-content;
+  max-width: min(92%, 15.5em);
+  min-height: 4.6em;
+  padding: 0.55rem 1.7rem;
+  text-align: center;
   font-size: 8pt; font-weight: 600;
-  background: transparent; border: none;
+  line-height: 1.15;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 40' preserveAspectRatio='none'%3E%3Cpolygon points='50,2.2 97.6,20 50,37.8 2.4,20' fill='%23ffe0b2' stroke='%23c45c00' stroke-width='1.8' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 }
-.node-decision::before {
-  content: "";
-  position: absolute; inset: 0;
-  background: #fff3e0; border: 1.5px solid #c45c00;
-  transform: scaleY(0.62) rotate(45deg);
-  z-index: 0;
+.node-decision > span {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
 }
-.node-decision > * { position: relative; z-index: 1; }
-.tone-q::before { background: #fff3e0; border-color: #c45c00; }
+.node-decision .pg {
+  display: block;
+  font-weight: 500;
+  font-size: 6.5pt;
+  color: #555;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
 .tone-n { background: #ffebee; border-color: #c62828; }
 .tone-y { background: #e8f5e9; border-color: #2e7d32; }
 .tone-s { background: #e3f2fd; border-color: #1565c0; }
-.row-dec {
-  display: flex; gap: 6px; align-items: center; justify-content: center;
-}
-.row-dec .node-decision { flex: 1; max-width: 70%; margin: 4px 0; }
-.dead {
-  flex: 0 0 118px; text-align: center; font-size: 7.5pt;
-}
 .arrow { text-align: center; font-size: 7.5pt; color: #666; margin: 0; }
 .guard { font-weight: 700; color: #333; }
-.branch { display: flex; gap: 6px; justify-content: center; align-items: flex-start; }
-.branch > div { flex: 1; max-width: 48%; }
-.side { font-size: 7.5pt; border-left: 3px solid #8b1a1a; padding-left: 8px; overflow: hidden; }
+/* D1 + D1b: YES-right drops into Silent; [NO] continue spans to Friendly CR */
+.dblock-d1s {
+  --stopstack: 72px;
+  grid-template-rows: var(--dh) var(--gap) var(--cdh) var(--stopstack);
+}
+.dblock-d1s .d-main {
+  grid-template-rows: var(--dh) var(--gap) var(--cdh) var(--stopstack);
+}
+.dblock-d1s .wires-cont {
+  grid-row: 1 / -1;
+}
+.silent-stack {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: var(--dh) var(--gap) var(--cdh) var(--stopstack);
+  overflow: visible;
+  min-width: 0;
+  align-items: stretch;
+}
+.silent-in {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}
+.silent-in-lab {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  justify-self: end;
+  margin: 2px 4px 0 0;
+  z-index: 1;
+  font-size: 7pt;
+}
+.dblock-d1s .silent-d {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  max-width: 100%;
+  height: var(--cdh);
+  min-height: var(--cdh);
+  max-height: var(--cdh);
+  margin: 0;
+  padding: 0.3rem 0.85rem;
+  font-size: 7.5pt;
+  justify-self: stretch;
+  align-self: center;
+  z-index: 1;
+}
+.silent-yes-wire {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}
+.g-silent-yes {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: start;
+  justify-self: end;
+  transform: translateY(-2px);
+  text-align: right;
+  font-size: 7pt;
+  line-height: 1.15;
+  padding: 0 2px 0 0;
+  z-index: 1;
+}
+.silent-stop {
+  grid-column: 1;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 7.5pt;
+  z-index: 1;
+}
+.silent-stop .node-action { margin-left: auto; margin-right: auto; }
+/* D5: left = Engage / VALID TARGET; right = Conceal → In cover */
+.dblock-tail {
+  grid-template-rows: var(--dh) var(--gap) var(--cdh) auto;
+}
+.dblock-tail .d-main {
+  grid-template-rows: var(--dh) var(--gap) var(--cdh) auto;
+}
+.dblock-tail .wires-cont { display: none; } /* Engage valid sits left of D5, not down */
+.dblock-tail .g-left {
+  align-self: start;
+  transform: translateY(8px);
+}
+.dblock-tail .valid-engage {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: end;
+  align-self: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  text-align: center;
+  margin: 0 2px 0 0;
+}
+.dblock-tail .valid-engage .dead-body { text-align: center; }
+.dblock-tail .conceal-stack {
+  grid-column: 3;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--cdw) 22px;
+  grid-template-rows: var(--dh) var(--gap) var(--cdh) auto;
+  align-items: center;
+  overflow: visible;
+  min-width: 0;
+}
+.conceal-rail {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 0;
+  height: 100%;
+}
+.conceal-rail .h-rail {
+  flex: 1 1 auto;
+  height: 0;
+  border-top: var(--sw) solid var(--line);
+  min-width: 8px;
+}
+.conceal-label {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  text-align: center;
+  font-size: 7pt;
+  line-height: 1.15;
+  z-index: 1;
+}
+.cover-down {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12px;
+  overflow: visible;
+}
+.cover-down .v-rail {
+  flex: 1 1 auto;
+  width: 0;
+  border-left: var(--sw) solid var(--line);
+  min-height: 8px;
+}
+.cover-valid {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  z-index: 1;
+}
+.cover-valid .dead-body { text-align: center; }
+.dblock-tail .cover-d {
+  grid-column: 2;
+  grid-row: 3;
+  width: var(--cdw);
+  height: var(--cdh);
+  min-width: var(--cdw);
+  max-width: var(--cdw);
+  min-height: var(--cdh);
+  max-height: var(--cdh);
+  margin: 0;
+  padding: 0.3rem 0.95rem;
+  font-size: 7.5pt;
+  justify-self: stretch;
+  align-self: center;
+}
+.cover-to-stop {
+  grid-column: 3;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  overflow: visible;
+}
+.cover-to-stop .h-rail {
+  flex: 1;
+  height: 0;
+  border-top: var(--sw) solid var(--line);
+}
+.dblock-tail .dead-cover {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+}
+.cover-note {
+  grid-column: 1 / -1;
+  grid-row: 4;
+  margin: 3px 0 0;
+  font-size: 6pt;
+  color: #666;
+  text-align: center;
+}
+.side { font-size: 7.5pt; border-left: 3px solid #8b1a1a; padding-left: 8px; overflow: visible; text-align: left; }
 .side h2 { font-size: 9pt; margin: 6px 0 3px; color: #8b1a1a; }
 .side ul { margin: 0 0 6px 14px; padding: 0; }
 .side li { margin-bottom: 2px; }
@@ -79,6 +471,7 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
 .tag { display: inline-block; font-size: 6.5pt; padding: 1px 4px; border-radius: 3px; margin-left: 4px; }
 .tag-s { background: #c8e6c9; }
 .cap { font-size: 6pt; color: #666; text-align: center; margin: 0 0 2px; }
+.seq-label { text-align: center; }
 @media print {
   body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .layout { height: auto; max-height: none; }
@@ -97,76 +490,195 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
 
 <div class="layout">
 <div class="tree">
-  <div class="node-start" title="initial node"></div>
-  <p class="cap">start</p>
-
-  <div class="row-dec">
-    <div class="node-decision tone-q"><span>Shooter: Conceal order OR in enemy control range?</span></div>
-    <div class="dead">
-      <p class="arrow"><span class="guard">[YES]</span> → cannot Shoot</p>
-      <div class="node-action tone-n">Stop — not eligible to Shoot</div>
-      <div class="node-end" title="activity final"></div>
+  <div class="flow-spine">
+  <div class="start-block">
+    <div class="d-main">
+      <div class="node-start" title="initial node"></div>
+      <p class="cap">start</p>
     </div>
   </div>
-  <p class="arrow"><span class="guard">[NO]</span> ↓</p>
 
-  <div class="row-dec">
-    <div class="node-decision tone-q"><span>Enemy has friendly operative in its control range?</span></div>
-    <div class="dead">
-      <p class="arrow"><span class="guard">[YES]</span></p>
-      <div class="node-action tone-n">not a valid target</div>
-      <div class="node-end" title="activity final"></div>
+  <div class="vin-row">
+    <div class="d-main">
+      <svg class="arr-down" width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false">
+        <line x1="5" y1="0" x2="5" y2="10" stroke="#555" stroke-width="1.6"/>
+        <polygon points="1,9 5,17 9,9" fill="#555"/>
+      </svg>
     </div>
   </div>
-  <p class="arrow"><span class="guard">[NO]</span> ↓</p>
 
-  <div class="row-dec">
-    <div class="node-decision tone-q"><span>Weapon Range x — target within x?</span></div>
-    <div class="dead">
-      <p class="arrow"><span class="guard">[NO]</span></p>
-      <div class="node-action tone-n">not valid</div>
-      <div class="node-end" title="activity final"></div>
+  <!-- D1 n=0: [NO] continue LEFT then down; [YES] RIGHT into D1b Silent (row 2) -->
+  <div class="dblock dblock-d1s" style="--n: 0">
+    <div class="d-main">
+      <svg class="wires-cont" viewBox="0 0 14 218" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M14,33 H3 V208" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,206 3,218 6,206" fill="#555"/>
+      </svg>
+      <span class="g-left"><span class="guard">[NO]</span></span>
+      <div class="node-decision tone-q"><span>Shooter: Conceal order OR in enemy 1" control range?</span></div>
+      <div class="reach-stop">
+        <div class="h-rail"></div>
+      </div>
+      <svg class="silent-yes-wire" viewBox="0 0 184 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M184,28 H3 V118" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,116 3,128 6,116" fill="#555"/>
+      </svg>
+      <span class="g-silent-yes"><span class="guard">[YES]</span></span>
     </div>
-  </div>
-  <p class="arrow"><span class="guard">[YES]</span> / no Range rule ↓</p>
-
-  <div class="row-dec">
-    <div class="node-decision tone-q"><span>Target visible? <cite>Full-Scan p.55</cite></span></div>
-    <div class="dead">
-      <p class="arrow"><span class="guard">[NO]</span></p>
-      <div class="node-action tone-n">not valid</div>
-      <div class="node-end" title="activity final"></div>
-    </div>
-  </div>
-  <p class="arrow"><span class="guard">[YES]</span> ↓</p>
-
-  <div class="node-decision tone-q"><span>Target order?</span></div>
-  <div class="branch">
-    <div>
-      <p class="arrow"><span class="guard">[Engage]</span> ↓ valid if visible</p>
-      <div class="node-action tone-y">VALID TARGET ✓</div>
-      <div class="node-end" title="activity final"></div>
-    </div>
-    <div>
-      <p class="arrow"><span class="guard">[Conceal]</span> ↓ also need NOT in cover</p>
-      <div class="node-decision tone-q"><span>In cover? <cite>p.47, p.42</cite></span></div>
-      <p class="arrow">intervening terrain in target's CR, not within 2" of shooter</p>
-      <div class="row-dec">
-        <div class="dead" style="flex:1">
-          <p class="arrow"><span class="guard">[YES]</span></p>
-          <div class="node-action tone-n">not valid</div>
-          <div class="node-end" title="activity final"></div>
-        </div>
-        <div class="dead" style="flex:1">
-          <p class="arrow"><span class="guard">[NO]</span> ↓</p>
-          <div class="node-action tone-y">VALID TARGET ✓</div>
-          <div class="node-end" title="activity final"></div>
-        </div>
+    <div class="silent-stack">
+      <svg class="silent-in" viewBox="0 0 150 90" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0,33 H75 V82" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="71,80 75,90 79,80" fill="#555"/>
+      </svg>
+      <p class="arrow silent-in-lab"><span class="guard">[YES]</span></p>
+      <div class="node-decision silent-d tone-q"><span>Shooter: Silent weapon?<span class="pg">(e.g. rules p.111)</span></span></div>
+      <div class="silent-stop">
+        <svg class="arr-down" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+          <polygon points="1,1 5,9 9,1" fill="#555"/>
+        </svg>
+        <p class="arrow"><span class="guard">[NO]</span></p>
+        <div class="node-action tone-n">Stop — not eligible to Shoot</div>
+        <div class="node-end" title="activity final"></div>
       </div>
     </div>
   </div>
 
-  <p class="arrow" style="margin-top:6px"><strong>After selected</strong> (sequence, not eligibility):</p>
+  <!-- D2 n=1: Friendly CR — two inputs at top: D1 [NO] and Silent [YES] -->
+  <div class="dblock" style="--n: 1">
+    <div class="d-main">
+      <svg class="wires-cont" viewBox="0 0 14 90" preserveAspectRatio="xMaxYMin meet" aria-hidden="true" focusable="false">
+        <path d="M14,33 H3 V82" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,80 3,90 6,80" fill="#555"/>
+      </svg>
+      <span class="g-left"><span class="guard">[NO]</span></span>
+      <div class="node-decision tone-q"><span>Enemy has friendly operative in its 1" control range?</span></div>
+      <div class="reach-stop">
+        <div class="h-rail"></div>
+        <svg class="arr-right" width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" focusable="false">
+          <polygon points="2,1.2 11,5 2,8.8" fill="#555"/>
+        </svg>
+      </div>
+    </div>
+    <div class="dead">
+      <div class="dead-body">
+        <p class="arrow"><span class="guard">[YES]</span></p>
+        <div class="node-action tone-n">not a valid target</div>
+        <div class="node-end" title="activity final"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- D3 n=2 -->
+  <div class="dblock" style="--n: 2">
+    <div class="d-main">
+      <svg class="wires-cont" viewBox="0 0 14 90" preserveAspectRatio="xMaxYMin meet" aria-hidden="true" focusable="false">
+        <path d="M14,33 H3 V82" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,80 3,90 6,80" fill="#555"/>
+      </svg>
+      <span class="g-left"><span class="guard">[YES]</span> / no Range rule</span>
+      <div class="node-decision tone-q"><span>Weapon Range x — target within x?</span></div>
+      <div class="reach-stop">
+        <div class="h-rail"></div>
+        <svg class="arr-right" width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" focusable="false">
+          <polygon points="2,1.2 11,5 2,8.8" fill="#555"/>
+        </svg>
+      </div>
+    </div>
+    <div class="dead">
+      <div class="dead-body">
+        <p class="arrow"><span class="guard">[NO]</span></p>
+        <div class="node-action tone-n">not valid</div>
+        <div class="node-end" title="activity final"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- D4 n=3 -->
+  <div class="dblock" style="--n: 3">
+    <div class="d-main">
+      <svg class="wires-cont" viewBox="0 0 14 90" preserveAspectRatio="xMaxYMin meet" aria-hidden="true" focusable="false">
+        <path d="M14,33 H3 V82" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,80 3,90 6,80" fill="#555"/>
+      </svg>
+      <span class="g-left"><span class="guard">[YES]</span></span>
+      <div class="node-decision tone-q"><span>Target visible?<span class="pg">(e.g. rules p.55)</span></span></div>
+      <div class="reach-stop">
+        <div class="h-rail"></div>
+        <svg class="arr-right" width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" focusable="false">
+          <polygon points="2,1.2 11,5 2,8.8" fill="#555"/>
+        </svg>
+      </div>
+    </div>
+    <div class="dead">
+      <div class="dead-body">
+        <p class="arrow"><span class="guard">[NO]</span></p>
+        <div class="node-action tone-n">not valid</div>
+        <div class="node-end" title="activity final"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- D5 n=4: [Engage] LEFT / valid; [Conceal] RIGHT into In cover -->
+  <div class="dblock dblock-tail" style="--n: 4">
+    <div class="d-main">
+      <span class="g-left"><span class="guard">[Engage]</span></span>
+      <div class="node-decision tone-q"><span>Target order?</span></div>
+      <div class="valid-engage">
+        <div class="dead-body">
+          <p class="arrow">valid if visible</p>
+          <div class="node-action tone-y">VALID TARGET ✓</div>
+          <div class="node-end" title="activity final"></div>
+        </div>
+        <svg class="arr-left" width="14" height="10" viewBox="0 0 14 10" aria-hidden="true" focusable="false">
+          <line x1="14" y1="5" x2="6" y2="5" stroke="#555" stroke-width="1.6"/>
+          <polygon points="8,1.2 1,5 8,8.8" fill="#555"/>
+        </svg>
+      </div>
+      <div class="conceal-stack">
+        <div class="conceal-rail">
+          <div class="h-rail"></div>
+          <svg class="arr-right" width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" focusable="false">
+            <polygon points="2,1.2 11,5 2,8.8" fill="#555"/>
+          </svg>
+        </div>
+        <p class="arrow conceal-label"><span class="guard">[Conceal]</span> also need NOT in cover</p>
+        <div class="cover-down">
+          <div class="v-rail"></div>
+          <svg class="arr-down" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+            <polygon points="1,1 5,9 9,1" fill="#555"/>
+          </svg>
+        </div>
+        <div class="cover-valid">
+          <div class="dead-body">
+            <p class="arrow"><span class="guard">[NO]</span></p>
+            <div class="node-action tone-y">VALID TARGET ✓</div>
+            <div class="node-end" title="activity final"></div>
+          </div>
+          <svg class="arr-left" width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" focusable="false">
+            <polygon points="10,1.2 1,5 10,8.8" fill="#555"/>
+          </svg>
+        </div>
+        <div class="node-decision cover-d tone-q"><span>In cover?<span class="pg">(e.g. rules p.42, 47)</span></span></div>
+        <div class="cover-to-stop">
+          <div class="h-rail"></div>
+          <svg class="arr-right" width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" focusable="false">
+            <polygon points="2,1.2 11,5 2,8.8" fill="#555"/>
+          </svg>
+        </div>
+        <p class="cover-note">intervening terrain in target's 1" control range, not within 2" of shooter</p>
+      </div>
+    </div>
+    <div class="dead dead-cover">
+      <div class="dead-body">
+        <p class="arrow"><span class="guard">[YES]</span></p>
+        <div class="node-action tone-n">not valid</div>
+        <div class="node-end" title="activity final"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <p class="arrow seq-label" style="margin-top:6px"><strong>After selected</strong> (sequence, not eligibility):</p>
   <div class="node-action tone-s">Obscured? Heavy intervening; 1" ignores only that part of Heavy, not the whole feature · discard 1 success; crits → normal <span class="tag tag-s">SEQUENCE</span> <cite>p.53</cite></div>
   <div class="node-action tone-s">Saturate weapon? Defender cannot retain cover saves <span class="tag tag-s">SEQUENCE</span> <cite>p.111</cite></div>
   <div class="node-action tone-s">Cover save (Engage in cover): collect three defence dice; retain one <strong>normal success</strong> without rolling; roll the remainder <span class="tag tag-s">SEQUENCE</span> <cite>p.43</cite></div>
@@ -178,7 +690,7 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
     <li><strong>Seek / Seek Light</strong> — Conceal cannot use terrain (Light only for Seek Light) for cover; save may remain. On Vantage you may elect Seek only (skip Vantage improved save) <cite>p.111, update log p.5</cite></li>
     <li><strong>Vantage shooter</strong> — Vantage is also Light. Conceal targets ≥2" lower cannot use Light for cover; improved cover save. Accurate 1/2 vs Engage ≥2"/≥4" lower is SEQUENCE <cite>p.60</cite></li>
     <li><strong>Blast / Torrent</strong> — secondaries valid regardless of Conceal; not selected. Cover/obscured (and Vantage improved save) copy the primary <cite>p.111, update log p.2 / p.4–5</cite></li>
-    <li><strong>Silent</strong> — Shoot with Conceal order using this weapon <cite>p.111</cite></li>
+    <li><strong>Silent</strong> — Shoot with Conceal order using this weapon; does not lift in-enemy 1" control range <cite>p.111</cite></li>
     <li><strong>Heavy</strong> — cannot use in an activation <em>or counteraction</em> in which it moved (and vice versa); Heavy (x only); does not prevent Guard <cite>update log p.2, lite p.3</cite></li>
   </ul>
   <h2>Intervening / lines</h2>
@@ -189,7 +701,7 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
     <li>Cover + obscured same feature: defender picks one <cite>update log p.2</cite></li>
     <li>“Connected” Heavy for Vantage obscured = any part of the same terrain feature <cite>p.60, update log p.5</cite></li>
   </ul>
-  <h2>Control range</h2>
+  <h2>1" control range</h2>
   <ul>
     <li>Visible + within 1" · mutual between operatives <cite>p.46</cite></li>
   </ul>
@@ -202,7 +714,7 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
 </div>
 
 <p class="footer">
-  <strong>Personal use only — never for sale.</strong> Verbatim rules from owned GW PDFs at C:\Personal\Kill Team\kill_team_2024\. Owner verified 2026-08-18 against Full-Scan + Jun 17 update log + Jul 25 lite.
+  <strong>Personal use only — never for sale.</strong> Kill Team is Copyright Games Workshop Limited 2024. Verbatim rules from owned GW PDFs at C:\Personal\Kill Team\kill_team_2024\. Owner verified 2026-08-18 against Full-Scan + Jun 17 update log + Jul 25 lite.
   Full quote appendix: <code>Target_Eligibility.md</code>.
   Layout inspiration (not rules): <strong>u/rdditonator</strong> (Can_I_Shoot.jpeg), <strong>u/Armagonix</strong> (KT24 cheat sheets + datacard template), <strong>u/burgerdrome</strong> (LOS flowchart, 2025-12-06) on r/killteam.
   Flowchart shapes: UML 2.5 activity notation. Teaching reference: <a href="https://www.uml-diagrams.org/about.html">uml-diagrams.org About</a>. <strong>Authored by Kirill Fakhroutdinov.</strong> Copyright © 2009–2026 uml-diagrams.org. All rights reserved. Not a Kill Team rules source.

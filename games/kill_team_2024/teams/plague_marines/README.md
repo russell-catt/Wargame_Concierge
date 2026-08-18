@@ -85,7 +85,7 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 - [`../README.md`](../README.md) - teams subtree index
 - [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md) - all 10 owned teams
 - [`../../README.md`](../../README.md) - KT24 system entry + vocabulary mapping
-- [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - APL, orders, control range, cover, Injured (shared mechanics this guide leans on)
+- [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - APL, orders, 1" control range, cover, Injured (shared mechanics this guide leans on)
 - [`raw/pointers/kill_team_2024_teams.md`](../../../../raw/pointers/kill_team_2024_teams.md) - the owned team PDF pointer
 
 ---

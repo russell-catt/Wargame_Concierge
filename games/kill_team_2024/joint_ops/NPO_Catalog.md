@@ -68,7 +68,7 @@ A self-contained boxed narrative release, not an accessory to Nemesis Operatives
 
 | NPO | Paraphrase |
 |-----|------------|
-| **Red Terror** | The headline threat — a fast, regenerating melee monster. Its behaviour always drives it toward the nearest player operative; it cannot be permanently removed, only forced to retreat and heal, so the mission design is about surviving and objective-running around it rather than killing it outright. Its control range is described as unusually tall, so being on an upper floor is not automatically safe. |
+| **Red Terror** | The headline threat — a fast, regenerating melee monster. Its behaviour always drives it toward the nearest player operative; it cannot be permanently removed, only forced to retreat and heal, so the mission design is about surviving and objective-running around it rather than killing it outright. Its 1" control range is described as unusually tall, so being on an upper floor is not automatically safe. |
 | **Termagants** | Numerous, individually weak Tyranid NPOs — a swarm that punishes splitting your attention away from the Red Terror. |
 | **Ripper Swarms** | A second lesser Tyranid NPO type filling out the swarm alongside Termagants. |
 

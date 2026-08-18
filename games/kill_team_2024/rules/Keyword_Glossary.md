@@ -96,12 +96,12 @@ There are no fully `verified` entries yet for the whole glossary. Targeting-adja
 
 | Term | What it means | When it matters | Status |
 |------|---------------|-----------------|--------|
-| **Reposition** | 1AP: move up to the operative's Move stat, in straight-line increments | The default move; cannot start within control range of an enemy | `draft` |
+| **Reposition** | 1AP: move up to the operative's Move stat, in straight-line increments | The default move; cannot start within 1" control range of an enemy | `draft` |
 | **Dash** | 1AP: move up to 3" regardless of Move stat, no climbing | Cannot be used in the same activation as Charge | `draft` |
-| **Fall Back** | 2AP: move away while starting within an enemy's control range | The only move that's allowed to start engaged; expensive at 2AP | `draft` |
-| **Charge** | 1AP: Reposition plus an extra 2", must end within control range of an enemy | Not usable on a Conceal order, or if already in an enemy's control range | `draft` |
-| **Control range** | Visible to, and within 1" of, an operative - mutual between both operatives | Gates Fight eligibility, cover, obscured, and marker control. KB: [`control_range_kill_team`](../../../KB/concepts/control_range_kill_team.md) | `draft` |
-| **Visible** | An unobstructed 1mm-wide line from the operative's head to any part of the target's miniature | The basis for valid targets and for control range | `draft` |
+| **Fall Back** | 2AP: move away while starting within an enemy's 1" control range | The only move that's allowed to start engaged; expensive at 2AP | `draft` |
+| **Charge** | 1AP: Reposition plus an extra 2", must end within 1" control range of an enemy | Not usable on a Conceal order, or if already in an enemy's 1" control range | `draft` |
+| **1" control range** | Visible to, and within 1" of, an operative - mutual between both operatives | Gates Fight eligibility, cover, obscured, and marker control. KB: [`control_range_kill_team`](../../../KB/concepts/control_range_kill_team.md) | `draft` |
+| **Visible** | An unobstructed 1mm-wide line from the operative's head to any part of the target's miniature | The basis for valid targets and for 1" control range | `draft` |
 | **Base** | The physical base a miniature stands on; used for all distance measuring | Bases can touch but never stack; friendly bases can pass through each other, enemy bases cannot | `draft` |
 | **Climbing** | Moving up terrain within 1" horizontally / 3" vertically of it | Each climb counts as a minimum 2" vertical distance | `draft` |
 | **Dropping** | Moving down off terrain, or after jumping | First 2" of any drop in an action is ignored | `draft` |
@@ -114,24 +114,24 @@ There are no fully `verified` entries yet for the whole glossary. Targeting-adja
 
 | Term | What it means | When it matters | Status |
 |------|---------------|-----------------|--------|
-| **Shoot** | 1AP action: attacker rolls attack dice, defender rolls defence dice, successes resolve | Cannot be performed on a Conceal order, or while in an enemy's control range | `draft` |
-| **Fight** | 1AP action: both operatives roll and alternate resolving successes | Requires an enemy operative already within control range | `draft` |
+| **Shoot** | 1AP action: attacker rolls attack dice, defender rolls defence dice, successes resolve | Cannot be performed on a Conceal order, or while in an enemy's 1" control range | `draft` |
+| **Fight** | 1AP action: both operatives roll and alternate resolving successes | Requires an enemy operative already within 1" control range | `draft` |
 | **Atk / Hit / Dmg** | Weapon stats: attack dice rolled, result needed to succeed, damage per normal/critical success | Read straight off the datacard - never reproduced here | `draft` |
 | **Attack dice** | Dice rolled by the attacker in Shoot or Fight | One D6 per the weapon's Atk stat | `draft` |
 | **Defence dice** | Dice collected by the defender when shot — three; if in cover, retain one normal success without rolling (cover save) and roll the remainder | Saturate prevents retaining cover saves | `patched 2026-08-18` |
 | **Normal success** | An attack or defence die meeting or beating its target number | Blocks, or is blocked by, another normal success | `draft` |
 | **Critical success** | An unmodified roll of 6 | Two normal successes are needed to block one critical success | `draft` |
 | **Valid target** | An Engage operative that's visible, or a Conceal operative that's visible **and not in cover** (p.42: visible to the **active** operative) | Checked before a Shoot action can even be declared | `patched 2026-08-18` |
-| **Cover** | Intervening terrain within the target's own control range (and target more than 2" from the shooter) | Removes Conceal targets from being valid at all; grants Engage targets a cover save. KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `patched 2026-08-18` |
+| **Cover** | Intervening terrain within the target's own 1" control range (and target more than 2" from the shooter) | Removes Conceal targets from being valid at all; grants Engage targets a cover save. KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `patched 2026-08-18` |
 | **Cover save** | Retain one **normal success** without rolling it, after collecting three defence dice; roll the remainder | Cannot be re-rolled; has no numerical result; Saturate blocks it | `patched 2026-08-18` |
 | **Obscured** | Intervening Heavy terrain; 1" ignores **only that part** of Heavy, not the whole feature | Forces the attacker to discard one success and caps the rest at normal (no criticals). KB: [`cover_kill_team`](../../../KB/concepts/cover_kill_team.md) | `patched 2026-08-18` |
 | **Intervening** | Terrain that targeting lines cross (shooter chooses origin on own base; markers treated as a base) | The basis for both cover and obscured | `patched 2026-08-18` |
 | **Connected (Vantage)** | Any part of the **same terrain feature** as the Vantage the shooter or target is on | Ignore that connected Heavy for obscured | `patched 2026-08-18` |
 | **Blast X** | A weapon rule: after the primary target, shoot again at each other operative within X of it | Secondaries are valid regardless of order and are **not selected**; cover/obscured copy the primary | `patched 2026-08-18` |
-| **Torrent X** | A weapon rule: shoot the primary target and any other valid targets within X of it that aren't in friendly CR | Similar to Blast but secondaries must themselves be valid targets | `patched 2026-08-18` |
+| **Torrent X** | A weapon rule: shoot the primary target and any other valid targets within X of it that aren't in friendly 1" control range | Similar to Blast but secondaries must themselves be valid targets | `patched 2026-08-18` |
 | **Heavy** | Cannot use this weapon in an activation **or counteraction** in which it moved (and cannot move in one in which it used this weapon). Heavy (x only) allows that move. **Does not prevent Guard** | Shooter gate, not a valid-target gate | `patched 2026-08-18` |
 | **Severe** | If you retain no crits, change one normal success to a critical | Devastating and Piercing Crits still apply; Punishing and Rending do not | `patched 2026-08-18` |
-| **Guard** | 1AP action treated as a Shoot action; sets the operative on guard until it acts, is targeted nearby, or the turning point ends | Not usable on Conceal or while in an enemy's control range. Heavy does not prevent Guard. Close Quarters: see Tomb World | `patched 2026-08-18` |
+| **Guard** | 1AP action treated as a Shoot action; sets the operative on guard until it acts, is targeted nearby, or the turning point ends | Not usable on Conceal or while in an enemy's 1" control range. Heavy does not prevent Guard. Close Quarters: see Tomb World | `patched 2026-08-18` |
 
 ---
 
@@ -159,8 +159,8 @@ There are no fully `verified` entries yet for the whole glossary. Targeting-adja
 | **Tac Op** | Approved Ops 2025 op: a secretly-chosen secondary objective from your kill team's archetype | Capped at 6VP; revealed on its own stated trigger | `draft` |
 | **Primary op** | Whichever of the three ops a player secretly locks in during turning point one | Scores a bonus at battle's end equal to half that op's VP, rounded up | `draft` |
 | **Archetype** | A Tac Op category: Infiltration, Recon, Security, Seek & Destroy | Which archetypes you can pick from is set by your kill team's rules | `draft` |
-| **Marker** | A token placed on the killzone; objective markers are 40mm, all others are 20mm | Contested and controlled based on operatives' control range and total APL | `draft` |
-| **Contest / control a marker** | Contest: within control range of it. Control: your side's total APL contesting it beats the enemy's | Control cannot change mid-action | `draft` |
+| **Marker** | A token placed on the killzone; objective markers are 40mm, all others are 20mm | Contested and controlled based on operatives' 1" control range and total APL | `draft` |
+| **Contest / control a marker** | Contest: within 1" control range of it. Control: your side's total APL contesting it beats the enemy's | Control cannot change mid-action | `draft` |
 | **Mission action** | An action defined by the mission pack or killzone rather than the core rules | Where Pick Up Marker / Place Marker usually live | `draft` |
 
 ---
@@ -184,7 +184,7 @@ Terms that sound the same as a Warhammer 40,000 term but **mean something differ
 
 | Term | Kill Team meaning | 40K meaning | Why it matters |
 |------|--------------------|-------------|-----------------|
-| **Control range** | 1", mutual, visibility-gated - gates Fight, cover, and marker control | Engagement Range: 2" horizontal / 5" vertical - gates melee and most move types | Roughly four times tighter, and does far more work in Kill Team |
+| **1" control range** | mutual, visibility-gated - gates Fight, cover, and marker control | Engagement Range: 2" horizontal / 5" vertical - gates melee and most move types | Roughly four times tighter, and does far more work in Kill Team |
 | **Cover** | Grants a free retained defence success (a "cover save"), or removes a Conceal target from being valid at all | Worsens the attacker's Ballistic Skill by 1 | Kill Team's cover helps the *defender's dice*; 40K's cover hurts the *attacker's dice* |
 | **Charge** | 1AP action, deterministic (Move + 2"), no dice roll | 2D6 roll for maximum charge distance, can fail outright | Kill Team's Charge always succeeds distance-wise if you have the AP and the inches |
 | **Fall Back** | 2AP action; disengages from an already-engaged operative | A move type chosen for the whole unit at Movement phase, with Ordered Retreat / Desperate Escape modes | Different cost structure and no battle-shock interaction in Kill Team |
@@ -222,6 +222,7 @@ Terms that sound the same as a Warhammer 40,000 term but **mean something differ
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
 - Kill Team and Warhammer 40,000 are trademarks of Games Workshop Limited. This document is a personal teaching paraphrase and reproduces no publisher text.
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.

@@ -49,8 +49,8 @@ The board is a standard **30" x 22"** double-sided killzone board (see [`../Boar
   - **Door Fight:** in the Select Enemy Operative step, pick an enemy on the **killzone floor**, within **2"** of, and on the **other side of**, a door the active operative is **touching**.
   - **Condensed Stronghold** (update log): the stronghold weapon interaction cares whether the target is **wholly within** a stronghold and on the **killzone floor or a fire step**.
   - Being on a **fire step** does **not** let you ignore the rest of the stronghold for **obscured**.
-- **Doors and windows matter for line of sight.** A large ruin's **upper level is Ceiling and Vantage**; its **door is Accessible and Heavy**. For **control range**, ignore that door when determining visibility — but ignoring the door for CR does **not** let you Shoot a target that is not actually **visible**.
-- **Stronghold extra parts** (update log; confirm against your terrain sheet): barrels on Stronghold A are Blocking and Heavy; small broken ramparts on Stronghold A's Vantage edge are Insignificant and Exposed; the gap on Stronghold B's lower Vantage is Accessible; Stronghold B's highest roof is one friendly operative at a time, placed to one side (treat-as-there for CR, visibility, and distance if the base will not fit).
+- **Doors and windows matter for line of sight.** A large ruin's **upper level is Ceiling and Vantage**; its **door is Accessible and Heavy**. For **1" control range**, ignore that door when determining visibility — but ignoring the door for 1" control range does **not** let you Shoot a target that is not actually **visible**.
+- **Stronghold extra parts** (update log; confirm against your terrain sheet): barrels on Stronghold A are Blocking and Heavy; small broken ramparts on Stronghold A's Vantage edge are Insignificant and Exposed; the gap on Stronghold B's lower Vantage is Accessible; Stronghold B's highest roof is one friendly operative at a time, placed to one side (treat-as-there for 1" control range, visibility, and distance if the base will not fit).
 
 For the shared vocabulary (Heavy, Light, Vantage, Cover, Obscured) see [`../Terrain_Basics.md`](../Terrain_Basics.md).
 
@@ -92,7 +92,7 @@ For the shared vocabulary (Heavy, Light, Vantage, Cover, Obscured) see [`../Terr
 
 ## Change Log
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
-- v1.1 (2026-08-18): Slice P — Door Fight, Large ruin Ceiling+Vantage / door CR, Stronghold parts, Condensed Stronghold, fire step does not ignore stronghold for obscured, door CR ≠ Shoot if not visible.
+- v1.1 (2026-08-18): Slice P — Door Fight, Large ruin Ceiling+Vantage / door 1" control range, Stronghold parts, Condensed Stronghold, fire step does not ignore stronghold for obscured, door 1" control range ≠ Shoot if not visible.
 - v1.0 (2026-08-17): Initial killzone page (slice S2), cross-checked against Wahapedia KT3 Killzones and the Warhammer Community Brutal and Cunning preview, both read 2026-08-17.
 
 ## Attribution

@@ -108,6 +108,7 @@ Specific thanks to these users for guides used as **layout inspiration** in this
 ## Attribution
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.

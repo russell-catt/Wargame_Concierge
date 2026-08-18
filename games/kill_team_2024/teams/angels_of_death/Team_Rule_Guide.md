@@ -13,7 +13,7 @@ REFERENCE_STATUS: Draft — written from the living Wahapedia Angel of Death pag
 SOURCES:
   - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17)
   - raw/pointers/kill_team_2024_teams.md — local PDF pointer, not opened this slice
-  - games/kill_team_2024/rules/Key_Concepts.md (APL, Orders, control range vocabulary used below)
+  - games/kill_team_2024/rules/Key_Concepts.md (APL, Orders, 1" control range vocabulary used below)
 
 PURPOSE:
   Explain what Astartes, Chapter Tactics, and the team's ploys and equipment
@@ -22,7 +22,7 @@ PURPOSE:
 
 PRIMARY_AUDIENCE:
   - A player building or fielding an Angels of Death roster for the first time
-  - A reader who already knows KT24 Key_Concepts (APL, Orders, control range)
+  - A reader who already knows KT24 Key_Concepts (APL, Orders, 1" control range)
 
 UPDATE_TRIGGER:
   Update on any Kill Team update log or errata that touches Angel of Death, or
@@ -62,7 +62,7 @@ At list-build, select a **primary** and a **secondary** Chapter Tactic from a sh
 | **Dueller** | In a Fight, your normal successes can cancel out the opponent's unresolved crits, not just their normal successes |
 | **Resolute** | Ignore stat-lowering effects on your APL, including the enemy's stun-style weapon rule |
 | **Stealthy** | While the operative has any cover save available, you get a better version of it (an extra save, or the save upgraded to a critical) |
-| **Mobile** | Cheaper to Fall Back, and can Charge even while already in an enemy's control range, escaping that engagement to do so |
+| **Mobile** | Cheaper to Fall Back, and can Charge even while already in an enemy's 1" control range, escaping that engagement to do so |
 | **Hardy** | Defence dice crit more easily when the operative is shot, and its first big hit taken while retaliating in melee is softened |
 | **Sharpshooter** | Bolt weapons get more reliable *first* shots on an activation where the operative didn't Charge, Fall Back, or Reposition |
 | **Siege Specialist** | Ranged weapons ignore the target's cover benefit; in melee, the enemy can't call in an assisting operative against you |
@@ -128,7 +128,7 @@ At list-build, select a **primary** and a **secondary** Chapter Tactic from a sh
 - [`Starter_Roster.md`](Starter_Roster.md) — a first roster built around these rules
 - [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md) — per-operative role notes
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) — table laminate
-- [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) — APL, Orders, control range vocabulary used above
+- [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) — APL, Orders, 1" control range vocabulary used above
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) — where Strategy Ploys and counteracting fit in a turning point
 
 ---

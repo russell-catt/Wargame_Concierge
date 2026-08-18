@@ -115,7 +115,7 @@ UPDATE_TRIGGER:
 | **DO** tag targets early with Poison sources | **DON'T** treat Poison as a big hit - it is a small, repeating tax you cash in on later |
 | **DO** let a stranded Conceal Plague Marine counteract | **DON'T** assume it needs Engage to counteract - this team ignores that rule |
 | **DO** use Disgustingly Resilient as a bonus | **DON'T** walk an operative into open fire counting on the reroll - it is not guaranteed |
-| **DO** check the Icon Bearer's control-range APL bonus before contesting a marker | **DON'T** forget it is a bonus for control purposes only, not a stat change |
+| **DO** check the Icon Bearer's 1" control-range APL bonus before contesting a marker | **DON'T** forget it is a bonus for control purposes only, not a stat change |
 
 ---
 
@@ -123,7 +123,7 @@ UPDATE_TRIGGER:
 
 **Poison** target takes chip damage every time it activates until removed · **Toxic** (on a weapon) hits harder specifically against a target that already carries your token · **Severe** lets you upgrade one success to critical if you have none already · **Ceaseless** re-roll one named die result on your attack dice · **Saturate** target cannot keep a cover save · **Blast X / Torrent X** the shot also hits other operatives within X of the primary/first target · **Piercing X** defender rolls X fewer defence dice.
 
-**Control range** 1" and visible, mutual · **APL** total AP an operative can spend this activation · **Injured** below half starting Wounds: -2" Move, Hit worsens by 1.
+**1" control range** visible, mutual · **APL** total AP an operative can spend this activation · **Injured** below half starting Wounds: -2" Move, Hit worsens by 1.
 
 ---
 

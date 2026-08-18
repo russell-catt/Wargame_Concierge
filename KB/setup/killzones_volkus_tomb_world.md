@@ -25,7 +25,7 @@ Two owned killzones, paraphrased from shipping (Door Fight / ruin / stronghold /
 Cityfight extras (update log; read the shipping page before a tournament):
 
 - **Door Fight:** when selecting an enemy, you may pick one on the **killzone floor**, within **2"** of, and on the **other side of**, a door the active operative is **touching**.
-- **Large ruin:** upper level is Ceiling and Vantage; door is Accessible and Heavy. For **control range**, ignore that door when determining visibility — ignoring the door for CR does **not** let you Shoot a target that is not actually **visible**.
+- **Large ruin:** upper level is Ceiling and Vantage; door is Accessible and Heavy. For **1" control range**, ignore that door when determining visibility — ignoring the door for 1" control range does **not** let you Shoot a target that is not actually **visible**.
 - **Stronghold** upper level(s) are Ceiling and Vantage. Extra parts (barrels, ramparts, gaps, Stronghold B roof) are on the terrain sheet / shipping page.
 - **Condensed Stronghold:** cares whether the target is **wholly within** a stronghold and on the **killzone floor or a fire step**.
 - Being on a **fire step** does **not** let you ignore the rest of the stronghold for **obscured**.

@@ -22,7 +22,7 @@ One-line summary: KT24 Cover is a defender-dice bonus (and can make a Conceal ta
 
 ## The mechanic
 
-An operative is **in cover** from a specific other operative if there is **intervening** terrain within its **control range**, and it is more than **2"** from that operative. Cover is per pair, not a global property of a ruin.
+An operative is **in cover** from a specific other operative if there is **intervening** terrain within its **1" control range**, and it is more than **2"** from that operative. Cover is per pair, not a global property of a ruin.
 
 Two different effects:
 

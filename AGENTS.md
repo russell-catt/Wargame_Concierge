@@ -200,7 +200,7 @@ The repo also carries Rising Tide HTML-comment headers and Change Log / Attribut
 
 ## 10. Copyright and sourcing
 
-Non-negotiable. This is a personal learning KB, not a redistribution channel. **Personal use only — this project must never be sold.**
+Non-negotiable. This is a personal learning KB, not a redistribution channel. **Personal use only — this project must never be sold.** **Kill Team is Copyright Games Workshop Limited 2024**
 
 - **Never** ingest Games Workshop PDFs, official datasheet images, or other GW binaries into `raw/` - or anywhere in this repo
 - **Never** commit binaries: `.pdf`, `.webp`, `.png`, `.jpg` and friends are blocked in [`.gitignore`](.gitignore). Do not bypass it
@@ -326,6 +326,7 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 ## Change Log
 
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Sec 6 — core + entity pages carry YAML `version:`.
+- v0.5.0 (2026-08-18): Sec 10 — house copyright line for Kill Team shipping: Kill Team is Copyright Games Workshop Limited 2024.
 - v1.1 (2026-08-18): Sec 10 — one sentence on KT24 `eng_*` patch hierarchy (Full-Scan baseline; dated patches supersede; Jul 25 lite is intro; omission is not a patch).
 - v1.0 (2026-08-16): Initial schema. Adapted the Karpathy `CLAUDE.md` technical-writer schema to the wargames domain - `wiki/` becomes `KB/`, wargame entity types, glossary-only Keywords, `confidence` field, copyright and living-reference rules. Created in slice L0.
 

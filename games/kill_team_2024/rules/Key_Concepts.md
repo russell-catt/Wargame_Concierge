@@ -19,7 +19,7 @@ SOURCES:
 
 PURPOSE:
   Explain the mechanics everything else in Kill Team is built from: APL and
-  activation, Orders, control range, cover, the attack sequence, Injured, and
+  activation, Orders, 1" control range, cover, the attack sequence, Injured, and
   a high-level look at mission scoring.
 
 PRIMARY_AUDIENCE:
@@ -31,7 +31,7 @@ KEY_SECTIONS_EXPECTED:
   - Reading a datacard
   - APL and activation
   - Orders - Conceal vs Engage
-  - Control range
+  - 1" control range
   - Cover and Obscured
   - The Shoot sequence
   - The Fight sequence
@@ -40,7 +40,7 @@ KEY_SECTIONS_EXPECTED:
 
 UPDATE_TRIGGER:
   Update when a new Core Rules printing or errata changes APL rules, Orders,
-  control range, cover, the attack sequence, or the Approved Ops scoring
+  1" control range, cover, the attack sequence, or the Approved Ops scoring
   framework.
 -->
 
@@ -96,18 +96,18 @@ Full concept page: [`../../../KB/concepts/orders_conceal_engage.md`](../../../KB
 
 ---
 
-## Control range
+## 1" control range
 
-**Control range** is the tightest-radius rule in the game, and it is doing constant work: something is within an operative's control range if it is **visible to, and within 1"** of that operative. It is mutual - if A is in B's control range, B is in A's control range too.
+**Control range** is the tightest-radius rule in the game, and it is doing constant work: something is within an operative's control range if it is **visible to, and within 1"** of that operative. It is mutual - if A is in B's 1" control range, B is in A's 1" control range too.
 
-Control range governs:
+That 1" control range governs:
 
 - Whether you are **engaged** enough to Fight, or must Fall Back instead of Reposition
 - Whether terrain is **intervening** for cover purposes
-- Whether an operative is **in cover** at all (an operative cannot claim cover from something that isn't intervening within its own control range)
-- **Contesting and controlling markers** - operatives contest a marker if it is within their control range; the side with the higher **total APL** contesting it controls it
+- Whether an operative is **in cover** at all (an operative cannot claim cover from something that isn't intervening within its own 1" control range)
+- **Contesting and controlling markers** - operatives contest a marker if it is within their 1" control range; the side with the higher **total APL** contesting it controls it
 
-> **40K collision:** do not confuse this with 40K's Engagement Range (2" horizontal / 5" vertical). Kill Team's control range is **1", visibility-gated, and does far more than gate melee** - it is also the basis for cover and for controlling markers. See [`Keyword_Glossary.md`](Keyword_Glossary.md).
+> **40K collision:** do not confuse this with 40K's Engagement Range (2" horizontal / 5" vertical). Kill Team's **1" control range** is visibility-gated, and does far more than gate melee - it is also the basis for cover and for controlling markers. See [`Keyword_Glossary.md`](Keyword_Glossary.md).
 
 Full concept page, with a side-by-side collision table: [`../../../KB/concepts/control_range_kill_team.md`](../../../KB/concepts/control_range_kill_team.md).
 
@@ -115,11 +115,11 @@ Full concept page, with a side-by-side collision table: [`../../../KB/concepts/c
 
 ## Cover and Obscured
 
-Two separate, stackable effects apply based on terrain between two operatives - checked from one operative's control range, not a straight blocking line:
+Two separate, stackable effects apply based on terrain between two operatives - checked from one operative's 1" control range, not a straight blocking line:
 
 | Effect | Trigger | What it does |
 |--------|---------|--------------|
-| **Cover** | Intervening terrain is within the *target's* control range (and the target is more than 2" from the shooter) | A Conceal target in cover is not a valid target at all. An Engage target in cover gets a **cover save**: the defender collects **three** defence dice, retains **one normal success without rolling**, and rolls the remainder |
+| **Cover** | Intervening terrain is within the *target's* 1" control range (and the target is more than 2" from the shooter) | A Conceal target in cover is not a valid target at all. An Engage target in cover gets a **cover save**: the defender collects **three** defence dice, retains **one normal success without rolling**, and rolls the remainder |
 | **Obscured** | Intervening **Heavy** terrain lies between the two operatives. Being within 1" of Heavy ignores **only that part** of the feature, not the whole ruin | The attacker must **discard one success of their choice**, and none of their successes can be critical that sequence |
 
 A target can be in cover *or* obscured by the same terrain feature, never both from the same feature at once - the defender picks which applies if both would otherwise be true (Jun 17 update log p.2). Cover-save and Accurate dice that are retained without rolling cannot be re-rolled and have no numerical result; a die can only be retained once, though Severe can *change* a retained die.
@@ -132,7 +132,7 @@ Full concept page, with the 40K collision table: [`../../../KB/concepts/cover_ki
 
 Shooting is one operative's action, resolved attacker-then-defender:
 
-1. **Select weapon and target.** Pick one ranged weapon; the target must be a **valid target** (visible; and if it's on Conceal, also not in cover) with no friendly operative in its control range.
+1. **Select weapon and target.** Pick one ranged weapon; the target must be a **valid target** (visible; and if it's on Conceal, also not in cover) with no friendly operative in its 1" control range.
 2. **Roll attack dice** - one D6 per the weapon's Atk stat. Meet or beat the weapon's Hit stat for a success; an unmodified 6 is always a **critical success**, an unmodified 1 is always a fail. If the target is **obscured**, discard one success and cap the rest at normal. See Core Book p.42 for the printed success/fail/crit lines.
 3. **Roll defence dice** - the defender **collects three** defence dice. If the target is in cover, they may retain **one normal success without rolling** (a **cover save**) and **roll the remainder**. Each rolled die needs to meet or beat the operative's Save stat. Saturate weapons cannot retain cover saves.
 4. **Resolve defence dice.** The defender allocates successes to block: a normal success blocks a normal success; two normal successes block a critical success; a critical success blocks either.
@@ -148,8 +148,8 @@ Shooting is one operative's action, resolved attacker-then-defender:
 
 Fighting works differently from Shooting: **both** players roll and both can hurt each other in the same action.
 
-1. **Select enemy and weapons.** The active operative picks an adjacent (in control range) enemy operative to fight; both players pick one melee weapon each.
-2. **Roll attack dice simultaneously.** Same success/critical rules as shooting. A friendly operative **assisting** (also in that enemy's control range, and not in any other enemy's control range) improves the fighting operative's Hit stat by 1 per assist.
+1. **Select enemy and weapons.** The active operative picks an adjacent (in 1" control range) enemy operative to fight; both players pick one melee weapon each.
+2. **Roll attack dice simultaneously.** Same success/critical rules as shooting. A friendly operative **assisting** (also in that enemy's 1" control range, and not in any other enemy's 1" control range) improves the fighting operative's Hit stat by 1 per assist.
 3. **Resolve attack dice, alternating, attacker first.** Each player in turn resolves one of their own successes as either a **strike** (inflict damage immediately) or a **block** (cancel one of the opponent's still-unresolved successes). This continues until one side is out of successes or one operative is incapacitated.
 
 There is no separate "save roll" in melee - defence is entirely about racing to strike first or spending your own successes to block theirs.
@@ -204,6 +204,7 @@ Each player also secretly locks in one op as their **primary op** during the fir
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
 - Kill Team is a trademark of Games Workshop Limited. This document is a personal teaching paraphrase and reproduces no publisher text or datacard statlines.
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.

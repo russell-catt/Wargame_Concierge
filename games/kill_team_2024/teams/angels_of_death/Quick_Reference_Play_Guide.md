@@ -64,7 +64,7 @@ UPDATE_TRIGGER:
 | 2 | **Dueller** | Normal successes in a Fight can block enemy crits, not just normal successes |
 | 3 | **Resolute** | Ignore APL penalties and enemy Stun-style weapon rule |
 | 4 | **Stealthy** | Better cover save while any cover save is available |
-| 5 | **Mobile** | Cheaper Fall Back; can Charge out of an enemy's control range |
+| 5 | **Mobile** | Cheaper Fall Back; can Charge out of an enemy's 1" control range |
 | 6 | **Hardy** | Defence dice crit more easily; softens first big retaliation hit |
 | 7 | **Sharpshooter** | Bolt weapons more reliable on a turn you didn't Charge/Fall Back/Reposition |
 | 8 | **Siege Specialist** | Ranged ignores cover; melee denies enemy assist |

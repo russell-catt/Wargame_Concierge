@@ -157,7 +157,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Engagement Range** - `verified` · **collision flag added 2026-08-17**
 : A fixed zone of 2" horizontally and 5" vertically around a model. Being inside an enemy unit's Engagement Range is what "in melee" means for movement, shooting, and phase-transition purposes - a pure geometric distance test, independent of visibility.
-: **Collision flag.** Kill Team 2024 has no term called "Engagement Range" - its nearest equivalent is **Control Range**, a visibility-gated 1" zone with a different job (marker contests by APL total, cover eligibility, Fight legality). The two are not interchangeable despite the naming brief for the `kill_team_2024_scaffold` L1 pass suggesting the filename `engagement_range_kill_team` by pattern-matching this term. See [[control_range_kill_team]] for the full comparison.
+: **Collision flag.** Kill Team 2024 has no term called "Engagement Range" - its nearest equivalent is **1" control range**, a visibility-gated zone with a different job (marker contests by APL total, cover eligibility, Fight legality). The two are not interchangeable despite the naming brief for the `kill_team_2024_scaffold` L1 pass suggesting the filename `engagement_range_kill_team` by pattern-matching this term. See [[control_range_kill_team]] for the full comparison.
 - Faction / scope: core rules
 - Verify against: shipping `Keyword_Glossary.md`
 
@@ -287,7 +287,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - See also: **Command Point (CP)** below (gained at Ready, spent on ploys)
 
 **APL (Action Point Limit)** - `draft`
-: The AP budget an operative can spend during one activation, printed on its datacard. Also the value totalled to decide marker control (see Control Range, below).
+: The AP budget an operative can spend during one activation, printed on its datacard. Also the value totalled to decide marker control (see 1" Control Range, below).
 - Faction / scope: Kill Team 2024, core rules
 - See also: [[activations_apl]]
 
@@ -302,9 +302,9 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: Kill Team 2024, core rules
 - See also: [[orders_conceal_engage]]
 
-**Control Range** - `draft` · **collision flag**
+**1" Control Range** - `draft` · **collision flag**
 : The 1"-and-visible zone around an operative that governs marker contests (by total APL, not model count), cover eligibility, Fight legality, and move restrictions.
-: **Collision flag.** This is the closest KT24 concept to 40K's **Engagement Range**, but the two are built differently: Control Range is visibility-gated at 1" and decides marker/cover/Fight questions; Engagement Range is a pure 2"/5" distance test with no visibility component, deciding melee/movement legality. **Do not use "Engagement Range" for the KT24 term** - it does not exist in KT24. See [[control_range_kill_team]].
+: **Collision flag.** This is the closest KT24 concept to 40K's **Engagement Range**, but the two are built differently: **1" control range** is visibility-gated and decides marker/cover/Fight questions; Engagement Range is a pure 2"/5" distance test with no visibility component, deciding melee/movement legality. **Do not use "Engagement Range" for the KT24 term** - it does not exist in KT24. See [[control_range_kill_team]].
 - Faction / scope: Kill Team 2024, core rules
 - Verify against: `kill_team_2024_core_rules`
 
@@ -320,12 +320,12 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - See also: [[cover_kill_team]]
 
 **Valid Target** - `draft` · **see [[valid_target]]**
-: Selection test for shooting (and some rare rules): Engage if visible; Conceal if visible **and not in cover**. Shoot step uses visible to the **active** operative. Friendly operative in the target's control range blocks a Shoot selection. **Not** the same as the obscured/cover-save SEQUENCE. Shipping quotes: `games/kill_team_2024/rules/Target_Eligibility.md` (owner-verified 2026-08-18).
+: Selection test for shooting (and some rare rules): Engage if visible; Conceal if visible **and not in cover**. Shoot step uses visible to the **active** operative. Friendly operative in the target's 1" control range blocks a Shoot selection. **Not** the same as the obscured/cover-save SEQUENCE. Shipping quotes: `games/kill_team_2024/rules/Target_Eligibility.md` (owner-verified 2026-08-18).
 - Faction / scope: Kill Team 2024, core rules
 - See also: [[valid_target]], [[orders_conceal_engage]], [[cover_kill_team]]
 
 **Visible** - `draft`
-: Unobstructed 1 mm-wide line from the operative's head to any part of the target miniature. Required for valid target and for control range.
+: Unobstructed 1 mm-wide line from the operative's head to any part of the target miniature. Required for valid target and for 1" control range.
 - See also: [[valid_target]], [[control_range_kill_team]]
 
 **Vantage** - `draft`
@@ -341,11 +341,11 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - See also: [[valid_target]]
 
 **Torrent X** - `draft`
-: Shoot the primary and other **valid targets** within X that are not in friendly control range. Unlike Blast, secondaries must themselves be valid targets.
+: Shoot the primary and other **valid targets** within X that are not in friendly 1" control range. Unlike Blast, secondaries must themselves be valid targets.
 - See also: [[valid_target]]
 
 **Guard** - `draft`
-: 1AP action treated as a Shoot action; sets the operative on guard. Not usable on Conceal or while in an enemy's control range. **Heavy does not prevent Guard.** Close Quarters: performing any action / moving / being set up can fire Guard; On Guard cannot counteract that turning point ([[killzones_volkus_tomb_world]]).
+: 1AP action treated as a Shoot action; sets the operative on guard. Not usable on Conceal or while in an enemy's 1" control range. **Heavy does not prevent Guard.** Close Quarters: performing any action / moving / being set up can fire Guard; On Guard cannot counteract that turning point ([[killzones_volkus_tomb_world]]).
 - See also: [[activations_apl]]
 
 **Heavy** (weapon rule) - `draft`
@@ -406,7 +406,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Verify against: `raw/pointers/kill_team_2024_missions.md` (unread)
 
 **Marker** - `draft`
-: A placed token affecting the game and nearby operatives. Objective markers are 40mm; all others are 20mm. Controlled by whichever side's contesting operatives have the higher total APL (see Control Range, above) - a different control mechanism from 40K's Objective Control characteristic.
+: A placed token affecting the game and nearby operatives. Objective markers are 40mm; all others are 20mm. Controlled by whichever side's contesting operatives have the higher total APL (see 1" Control Range, above) - a different control mechanism from 40K's Objective Control characteristic.
 - Faction / scope: Kill Team 2024, core rules
 - See also: [[control_range_kill_team]]
 
@@ -546,7 +546,7 @@ How this KB writes about the game.
 
 - **Kill Team 2024 added as a full glossary section.** 20 new terms under "Kill Team 2024 (KT24 / 3rd Edition)", all `draft`, cross-checked against Wahapedia's Kill Team 3 Core Rules page (retrieved 2026-08-17). The owned Core Rules PDF is unopened by the Librarian - it is a pointer stub, not a readable file in this environment.
 - **Six 40K terms gained explicit collision flags** against their KT24 counterparts: Cover, Charge, Engagement Range, and Command Point (CP) in the core-rules section above; Engage (via Orders) and Injured (via Battle-shock) flagged from the KT24 side. Every flag is bidirectional - each entry names and links the other system's entry.
-- **Naming deviation recorded.** The ingest brief suggested `engagement_range_kill_team` as a concept-page filename. KT24's actual term is **Control Range**, a different mechanic (visibility-gated, 1", APL-based marker control) from 40K's Engagement Range (non-visibility-gated, 2"/5", movement/melee legality). Filed as `[[control_range_kill_team]]` instead, per [`AGENTS.md`](../AGENTS.md) Sec 9's "never guess a rules term."
+- **Naming deviation recorded.** The ingest brief suggested `engagement_range_kill_team` as a concept-page filename. KT24's actual printed term is **control range** (taught as **1" control range**), a different mechanic (visibility-gated, APL-based marker control) from 40K's Engagement Range (non-visibility-gated, 2"/5", movement/melee legality). Filed as `[[control_range_kill_team]]` instead, per [`AGENTS.md`](../AGENTS.md) Sec 9's "never guess a rules term."
 - **No 40K game term's status changed in this pass.** This was a pure addition; nothing above the new section was rewritten except the "Other game systems" Kill Team stub, which was extended rather than replaced.
 
 ## L2 lint note (2026-08-16)

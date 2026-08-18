@@ -129,7 +129,7 @@ If you already know 40K, most of the friction is vocabulary and scale, not new i
 | Battle round, five phases | **Turning point**, two phases (Strategy, Firefight) | Movement/shooting/fighting all happen inside one operative's activation, not in separate phases |
 | Alternating unit activation (Fight phase only) | **Alternating operative activation, all battle** | You alternate one operative at a time for the whole Firefight phase, not just melee |
 | Command Points (CP), stratagems | **Command Points (CP), ploys** | Same currency idea; ploys split into Strategic (Strategy phase) and Firefight (Firefight phase) |
-| Engagement Range (2"/5") | **Control range (1")** | Much tighter - see [`Key_Concepts.md`](Key_Concepts.md) |
+| Engagement Range (2"/5") | **1" control range** | Much tighter - see [`Key_Concepts.md`](Key_Concepts.md) |
 | Objective Control (OC) stat | **APL used to contest/control markers** | A model's APL, not a dedicated OC stat, decides who controls a marker |
 | Battle-shock | *(no direct equivalent)* | Kill Team's pressure valve is the **Injured** state on individual operatives, not a squad-level morale test |
 
@@ -140,7 +140,7 @@ Full term-by-term list, including flagged collisions: [`Keyword_Glossary.md`](Ke
 ## Related pages
 
 - [`Turn_Structure.md`](Turn_Structure.md) - the Strategy phase and Firefight phase, step by step
-- [`Key_Concepts.md`](Key_Concepts.md) - APL, Orders, control range, cover, Injured, and mission scoring
+- [`Key_Concepts.md`](Key_Concepts.md) - APL, Orders, 1" control range, cover, Injured, and mission scoring
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) - every term in one place, with 40K collisions flagged
 - [`Target_Eligibility.md`](Target_Eligibility.md) - verbatim valid-target quotes
 - [`Patch_Manifest.md`](Patch_Manifest.md) - errata ledger
@@ -158,6 +158,7 @@ Full term-by-term list, including flagged collisions: [`Keyword_Glossary.md`](Ke
 - Project: Wargame_Concierge
 - Maintainer: Russell Catt
 - Kill Team and Warhammer 40,000 are trademarks of Games Workshop Limited. This document is a personal teaching paraphrase and reproduces no publisher text or datacard statlines.
+- **Kill Team is Copyright Games Workshop Limited 2024**
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.

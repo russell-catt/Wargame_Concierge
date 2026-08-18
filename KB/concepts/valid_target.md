@@ -26,9 +26,9 @@ An enemy is a **valid target** if:
 2. **Order split:**
    - **Engage** — visible is enough.
    - **Conceal** — visible **and not in cover**.
-3. For a **Shoot** action, no friendly operative is in the target's **control range**.
+3. For a **Shoot** action, no friendly operative is in the target's **1" control range**.
 
-**Visible** is a 1 mm-wide unobstructed line from the shooter's head to any part of the target miniature. **In cover** is intervening terrain within the *target's* control range, and it is denied while the target is within 2" of the active operative. See [[cover_kill_team]] and [[orders_conceal_engage]].
+**Visible** is a 1 mm-wide unobstructed line from the shooter's head to any part of the target miniature. **In cover** is intervening terrain within the *target's* 1" control range, and it is denied while the target is within 2" of the active operative. See [[cover_kill_team]] and [[orders_conceal_engage]].
 
 Cover and **obscured** are different checks. Obscured (intervening Heavy) does **not** stop selection; it changes the attacker's dice after a valid target is chosen. A target cannot be in cover *and* obscured from the **same terrain feature** — the defender picks one (Jun 17 update log).
 
@@ -38,7 +38,7 @@ Cover and **obscured** are different checks. Obscured (intervening Heavy) does *
 
 - **Conceal in cover is the hide.** Flip to Engage, or leave cover, and the same miniature is suddenly legal.
 - **Closing to 2" strips cover.** A Conceal operative that felt safe behind a barricade is a valid target once you are on top of it.
-- **Blast vs Torrent.** Blast secondaries are **not selected** as valid targets (they still resolve, and they copy the primary's cover/obscured). Torrent secondaries **must themselves be valid targets** and not in friendly control range.
+- **Blast vs Torrent.** Blast secondaries are **not selected** as valid targets (they still resolve, and they copy the primary's cover/obscured). Torrent secondaries **must themselves be valid targets** and not in friendly 1" control range.
 - **Seek / Seek Light** (Vantage FAQ): you may elect Seek Light only in the stated Vantage case — it is a selection modifier, not a new order. Confirm the printed sentence in the quote appendix when it matters.
 - **Heavy is a shooter gate, not a valid-target gate.** You cannot use a Heavy weapon in an activation **or counteraction** in which the operative moved (Heavy (x only) allows that move). Heavy **does not prevent Guard**.
 
