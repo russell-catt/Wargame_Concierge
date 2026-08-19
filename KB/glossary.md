@@ -553,6 +553,7 @@ How this KB writes about the game.
 - [[flowcharting_uml_activity]] · [[uml_diagrams_org]] - flowchart notation (not game rules)
 - [[inherited_docs_for_S3]] - what S3 may safely promote from this page
 - [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted 40K concept pages
+- [[their_number_is_legion_potentiality_syphon_250]] - filed Legion + Syphon answer (2026-08-19)
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]] - promoted Kill Team 2024 concept pages
 - [[kill_team_terrain]] · [[killzones_volkus_tomb_world]] - KT24 setup
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
