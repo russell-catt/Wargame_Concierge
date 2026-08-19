@@ -100,6 +100,7 @@ Points come from the source and need checking against the Munitorum Field Manual
 
 ## Related pages
 
+- [[their_number_is_legion_potentiality_syphon_250]] - filed query: Legion re-roll + Potentiality Syphon on the 250 list
 - [[canoptek_court]] - the alternative path from the same collection
 - [[necrons]] - faction, army rule, ownership
 - [[reanimation_protocols]] - what this detachment is said to multiply

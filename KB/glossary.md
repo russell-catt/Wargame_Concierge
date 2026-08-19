@@ -4,9 +4,9 @@ type: glossary
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-18
-version: 0.5.1
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e]
+updated: 2026-08-19
+version: 0.5.2
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -179,6 +179,18 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: Necrons, army rule
 - Verify against: `raw/pointers/faction_pack_necrons.md`
 - See also: **[[reanimation_protocols]]** - promoted to a concept page in L1
+
+**Their Number is Legion** - `draft` · **filed 2026-08-19**
+: Necron Warriors datasheet ability. Each time this unit’s Reanimation Protocols activate, you may **re-roll the D3** for how many wounds are reanimated. Does not change heal-first / return-at-1W order.
+- Faction / scope: Necrons, Necron Warriors
+- Verify against: owned faction pack; [[wahapedia]] Warriors (retrieved 2026-08-19)
+- See also: [[their_number_is_legion_potentiality_syphon_250]], [[reanimation_protocols]]
+
+**Potentiality Syphon** - `draft` · **filed 2026-08-19**
+: Cryptek Conclave **1CP** Strategic Ploy. In your **opponent’s Command phase**, pick one NECRONS unit within range of an objective marker: its Reanimation Protocols activate; if it is a **CRYPTEK** unit, +1 wound.
+- Faction / scope: Necrons, [[cryptek_conclave]] stratagem
+- Verify against: owned faction pack; [[wahapedia]] Necrons hub (retrieved 2026-08-19)
+- See also: [[their_number_is_legion_potentiality_syphon_250]], [[cryptek_conclave]], [[reanimation_protocols]]
 
 **Power Matrix** - `draft` · **corrected in L1**
 : The **[[canoptek_court]] detachment rule in Warhammer 40,000**. Units re-roll hit rolls while in territory the Necron player controls, which couples the army's accuracy to its map control.

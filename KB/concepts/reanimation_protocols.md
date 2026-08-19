@@ -79,6 +79,7 @@ Learn the trigger timing before anything else about the army. Everything else - 
 
 ## Related pages
 
+- [[their_number_is_legion_potentiality_syphon_250]] - filed 250 Conclave answer: Legion re-roll + Potentiality Syphon
 - [[necrons]] - the faction this rule defines
 - [[cryptek_conclave]] - said to multiply it
 - [[canoptek_court]] · [[power_matrix]] - compound with it indirectly

@@ -396,4 +396,5 @@ Nothing under `raw/` written.
 
 ## [2026-08-19] query | Their Number is Legion + Potentiality Syphon (250 Conclave)
 Pages consulted: Army_List_250_Conclave, Reference_Guide_250/500_V1_Conclave, Reanimation_Protocols, Cryptek_Conclave; Wahapedia Warriors + Necrons hub (search retrieve 2026-08-19)
-Output filed: no
+Output filed: yes - [[their_number_is_legion_potentiality_syphon_250]]
+Also updated: [[glossary]] (two keyword stubs), [[index]], [[reanimation_protocols]], [[cryptek_conclave]] back-links

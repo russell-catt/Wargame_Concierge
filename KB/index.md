@@ -6,7 +6,7 @@ systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-19
 version: 0.5.2
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
 ---
@@ -143,6 +143,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
+| [[their_number_is_legion_potentiality_syphon_250]] | Filed query: Warrior Legion re-roll on RP activate; Conclave Potentiality Syphon off-turn RP (+1 if Cryptek) for the 250 list | draft | 2026-08-19 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
