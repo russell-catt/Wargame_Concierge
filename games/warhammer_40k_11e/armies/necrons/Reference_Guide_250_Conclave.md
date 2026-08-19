@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_250_Conclave.md
-VERSION: v1.0 (2026-08-19)
+VERSION: v1.1 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -43,7 +43,7 @@ Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 
 | Step | Rule |
 |------|------|
-| Timing | **End of your Command phase** only (not the opponent's, unless a stratagem says otherwise) |
+| Timing | **End of your Command phase** (`08.05`) only (not the opponent's, unless a **stratagem** (`15.01`) says otherwise) |
 | Who | Every eligible Necron unit still on the battlefield |
 | Amount | Roll **D3** → that many wounds return to that unit |
 | Cost | Free |
@@ -94,15 +94,15 @@ Ranged weapons on **Cryptek** models in your army gain `[ASSAULT]` (may shoot af
 
 ### Per shooting selection (the skill)
 
-When a **Cryptek unit** is selected to shoot in your Shooting phase, choose **one**:
+When a **Cryptek unit** is selected to shoot in your **Shooting phase** (`10.02`), choose **one**:
 
 | Menu pick | Effect (plain) |
 |-----------|----------------|
 | `[ANTI-INFANTRY 3+]` | Wound Infantry on 3+ (ignore normal S vs T for that test) |
 | `[ANTI-MOUNTED 4+]` | Wound Mounted on 4+ |
 | `[ASSAULT]` | Unit's ranged weapons can shoot after Advance |
-| `[HEAVY]` | Bonus to hit if the unit Remained Stationary *(confirm exact modifier on your pack)* |
-| `[IGNORES COVER]` | Target does not get the Benefit of Cover against these attacks |
+| `[HEAVY]` (`24.16`) | Bonus to hit if the unit **Remained Stationary** (`09.04`) *(confirm exact modifier on your pack)* |
+| `[IGNORES COVER]` | Target does not get **Benefit of Cover** (`13.08`) against these attacks |
 
 **Atomic Disintegrators (10 pts on Geomancer):** adds anti-**Monster** / anti-**Vehicle** options to that menu (exact keywords on your enhancement card - typically wounding those keywords on a set number).
 
@@ -161,11 +161,11 @@ Pick the **Atomic Disintegrators** anti-Vehicle or anti-Monster menu option (con
 
 ## 4. Turn script (250)
 
-1. **Command** - +1 CP; battle-shock if needed; **REANIMATE** Warriors (D3) and Crawlers (D3).
-2. **Movement** - Warriors usually Remain Stationary on home objective; Crawlers push mid.
-3. **Shooting** - Select Warriors (Cryptek unit): pick menu ability out loud; resolve flayers/reapers; then shoot Crawlers.
-4. **Charge / Fight** - only if it helps; this list wins by not dying.
-5. Opponent's turn - remember: **no army-wide reanimation** until your next Command (unless you spend the Conclave off-turn reanimation stratagem - see pack; more relevant at 500).
+1. **Command** (`08.01`–`08.05`) - +1 CP (`08.02`); **battle-shock** (`08.03`) if needed; **REANIMATE** Warriors (D3) and Crawlers (D3) at phase end (`08.05`).
+2. **Movement** (`09.02`) - Warriors usually **Remain Stationary** (`09.04`) on home objective (`14.02`); Crawlers push mid.
+3. **Shooting** (`10.02`) - Select Warriors (Cryptek unit): pick menu ability out loud; resolve flayers/reapers; then shoot Crawlers.
+4. **Charge / Fight** (`11.02`, `12.04`) - only if it helps; this list wins by not dying.
+5. Opponent's turn - remember: **no army-wide reanimation** until your next Command (`08.05`) unless you spend **Potentiality Syphon** (`15.01`) — see faction pack; more relevant at 500.
 
 ---
 

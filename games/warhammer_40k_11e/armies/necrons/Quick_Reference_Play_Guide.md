@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Quick_Reference_Play_Guide.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -51,23 +51,23 @@ UPDATE_TRIGGER:
 
 | # | Phase | Do this |
 |---|-------|---------|
-| 0 | **Start of turn** | Resolve "start of your turn" triggers |
-| 1 | **Command** | Both players +1CP. Battle-shock rolls (2D6 vs Ld) for units battle-shocked or at/below half strength. **END OF PHASE: REANIMATE** |
-| 2 | **Movement** | Select **every** unit and give it a move type. Reserves arrive. Check coherency |
-| 3 | **Shooting** | Pick unit, pick shooting type, pick targets, resolve attacks |
-| 4 | **Charge** | Within 12", not engaged, did not Advance / Fall Back. Roll 2D6. Charging unit gets Fights First |
-| 5 | **Fight** | Pile in 3" - fight (Fights First units first, then alternate) - consolidate 3" |
+| 0 | **Start of turn** (`07.02`) | Resolve "start of your turn" triggers |
+| 1 | **Command** (`08.01`–`08.05`) | Both players +1 CP (`08.02`). **Battle-shock** (`08.03`, `01.07`) — roll 2D6 vs Leadership for shaken or half-strength units. **END OF PHASE: REANIMATE** (`08.05`) |
+| 2 | **Movement** (`09.01`–`09.03`) | Select **every** unit and give it a move type. Reserves arrive. Check **coherency** (`03.03`) |
+| 3 | **Shooting** (`10.01`–`10.03`) | Pick unit, pick shooting type (`10.04`–`10.07`), pick targets (`06.01` visibility), resolve attacks (`05.01`–`05.04`) |
+| 4 | **Charge** (`11.01`–`11.03`) | Within 12", not engaged, did not Advance / Fall Back. Roll 2D6. Charging unit gets Fights First |
+| 5 | **Fight** (`12.01`–`12.09`) | **Pile in** 3" (`12.02`) — **fight** (`12.04`, Fights First first) — **consolidate** 3" (`12.07`) |
 | 6 | **End of turn** | End-of-turn triggers, score mission VP, fix coherency |
 
-**Move types:** Remain Stationary (keeps `[HEAVY]`) | Normal (M") | Advance (M + D6, no charge, `[ASSAULT]` only) | Fall Back (no shoot / charge) | Disembark | Ingress from reserves.
+**Move types:** Remain Stationary (`09.04`, keeps `[HEAVY]`) | Normal (`09.05`, M") | Advance (`09.06`, M + D6, no charge, `[ASSAULT]` only) | Fall Back (`09.07`, no shoot / charge) | Disembark | Ingress from reserves.
 
-**Shooting types:** Normal | Assault (advanced) | Close-quarters (engaged) | Indirect (unseen target, big penalty, gives cover).
+**Shooting types:** Normal (`10.04`) | Assault (`10.05`, advanced) | Close-quarters (`10.06`, engaged) | Indirect (`10.07`, unseen target, big penalty, gives cover `13.08`).
 
 ---
 
 ## ARMY RULE - REANIMATION PROTOCOLS
 
-> **End of YOUR Command phase. Every unit on the battlefield. Roll D3 wounds. Free.**
+> **End of YOUR Command phase** (`08.05`). Every unit on the battlefield. Roll D3 wounds. Free. *(Necron army rule — see faction pack.)*
 
 Spend each reanimated wound in this order:
 
@@ -87,13 +87,13 @@ Spend each reanimated wound in this order:
 
 ## DETACHMENT - CANOPTEK COURT: POWER MATRIX
 
-**Which ground is yours** (re-check at the **start of every phase**):
+**Which ground is yours** (re-check at the **start of every phase** (`07.02`)):
 
 | Region | In your Matrix when |
 |--------|---------------------|
 | Your deployment zone | **Always** |
-| No Man's Land | You control **half or more** of its objective markers |
-| Enemy deployment zone | You control **half or more** of its objective markers |
+| No Man's Land | You control **half or more** of its objective markers (`14.02`) |
+| Enemy deployment zone | You control **half or more** of its objective markers (`14.02`) |
 
 *No objective markers in a region = that region is never yours.*
 
@@ -104,18 +104,18 @@ Spend each reanimated wound in this order:
 
 *Warriors, Immortals and Lychguard get nothing from this rule. They hold ground so the constructs benefit.*
 
-**Cryptek Conclave instead?** Each time a **Cryptek unit** shoots, pick one: `[ANTI-INFANTRY 3+]` `[ANTI-MOUNTED 4+]` `[ASSAULT]` `[HEAVY]` `[IGNORES COVER]`. Attach the Cryptek so the whole squad counts.
+**Cryptek Conclave instead?** Each time a **Cryptek unit** shoots in the **Shooting phase** (`10.02`), pick one: `[ANTI-INFANTRY 3+]` `[ANTI-MOUNTED 4+]` `[ASSAULT]` `[HEAVY]` `[IGNORES COVER]`. Attach the Cryptek (`19.01`) so the whole squad counts.
 
 ---
 
 ## COMBAT SEQUENCE
 
-1. **Hit** - D6 per attack vs BS (shooting) or WS (melee). Unmodified 1 always fails; unmodified 6 is a critical hit.
-2. **Wound** - D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound.
-3. **Save** - defender rolls: armour save modified by AP, **or** invulnerable save ignoring AP. Unmodified 1 fails.
-4. **Damage** - each unsaved attack costs D wounds. Excess damage is lost, it does not spill to the next model.
+1. **Hit** (`05.01`) - D6 per attack vs BS (shooting) or WS (melee). Unmodified 1 always fails; unmodified 6 is a critical hit.
+2. **Wound** (`05.02`) - D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound.
+3. **Save** (`05.03`) - defender rolls: armour save modified by AP, **or** invulnerable save ignoring AP. Unmodified 1 fails.
+4. **Damage** (`05.04`) - each unsaved attack costs D wounds. Excess damage is lost, it does not spill to the next model.
 5. **Allocation** - defender chooses the order; already-wounded group goes first; **characters cannot be put in front**.
-6. **Cover in 11e** worsens the attacker's **Ballistic Skill by 1** - it is not a save bonus.
+6. **Cover in 11e** (`13.08`) worsens the attacker's **Ballistic Skill by 1** - it is not a save bonus.
 
 <!-- pagebreak -->
 
@@ -149,11 +149,11 @@ Spend each reanimated wound in this order:
 |---|---|
 | **DO** stand on the objective and take the hit - you reanimate, they wasted a turn | **DON'T** pull a damaged unit back out of scoring range |
 | **DO** protect the **last model** of a unit - one model reanimates, zero never returns | **DON'T** let a unit get wiped when a 2" move would have hidden a body |
-| **DO** count No Man's Land objectives at the **start** of each phase | **DON'T** assume the Matrix from last phase still applies |
-| **DO** attach characters during pre-game setup | **DON'T** plan to attach mid-game - you cannot |
-| **DO** consolidate 3" onto an objective when there is nothing to fight | **DON'T** skip pile-in and consolidation, they are free movement |
-| **DO** re-check control at the end of every phase - it flips constantly | **DON'T** count a battle-shocked unit's OC - it is zero |
-| **DO** pick one ability per Cryptek unit each Shooting phase and say it out loud | **DON'T** forget the Command phase reanimation. Put a token on the table |
+| **DO** count No Man's Land objectives at the **start** of each phase (`07.02`) | **DON'T** assume the Matrix from last phase still applies |
+| **DO** attach characters during pre-game setup (`19.01`) | **DON'T** plan to attach mid-game - you cannot |
+| **DO** consolidate 3" onto an objective when there is nothing to fight (`12.07`) | **DON'T** skip pile-in and consolidation, they are free movement |
+| **DO** re-check control at the end of every phase (`14.02`) - it flips constantly | **DON'T** count a battle-shocked unit's OC - it is zero (`08.03`) |
+| **DO** pick one ability per Cryptek unit each **Shooting phase** (`10.02`) and say it out loud | **DON'T** forget Command phase reanimation (`08.05`). Put a token on the table |
 
 ---
 
@@ -161,7 +161,7 @@ Spend each reanimated wound in this order:
 
 `[ASSAULT]` fire after advancing • `[HEAVY]` +1 to hit if unengaged and nothing moved over 3" • `[RAPID FIRE X]` +X attacks within half range • `[LETHAL HITS]` critical hit may skip the wound roll (optional) • `[SUSTAINED HITS X]` critical hit = +X hits • `[DEVASTATING WOUNDS]` critical wound = mortal wounds equal to Damage • `[IGNORES COVER]` target gets no cover benefit • `[TWIN-LINKED]` re-roll the **wound** roll • `[ANTI-X N+]` wound roll of N+ against keyword X is critical • `[BLAST]` +1 attack per five models in the target, never against an engaged unit • `[CLEAVE X]` Blast for melee: +X dice per five models, all attacks at one target • `[PRECISION]` can pick out an attached character • `[HAZARDOUS]` 1-2 on the hazard die costs you a mortal wound • `[INDIRECT FIRE]` shoot unseen, heavy penalty, gives cover • `[MELTA X]` +X Damage within half range • `[CLOSE-QUARTERS]` / `[PISTOL]` identical - shoot while engaged.
 
-**OC** objective control • **InSv** invulnerable save (ignores AP) • **Ld** rolled on 2D6 against a target such as 7+ • **Engagement Range** 2" horizontally, 5" vertically • **Coherency** within 2" of one model and 9" of all • **Objective marker** 3" horizontally, 5" vertically.
+**OC** (`14.02`) objective control - add up OC on models near a marker, like counting who holds a flag • **InSv** invulnerable save (ignores AP) • **Ld** rolled on 2D6 against a target such as 7+ • **Engagement Range** (`03.04`) 2" horizontally, 5" vertically • **Coherency** (`03.03`) within 2" of one model and 9" of all • **Objective marker** 3" horizontally, 5" vertically.
 
 ---
 

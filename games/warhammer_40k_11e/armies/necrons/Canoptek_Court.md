@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Canoptek_Court.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
 
@@ -31,7 +31,7 @@ UPDATE_TRIGGER:
 
 # Canoptek Court - the Power Matrix detachment
 
-The Necron detachment that turns **holding ground into shooting accuracy**. If you like the idea that standing in the right place makes your guns better, this is the one.
+The Necron detachment that turns **holding ground into shooting accuracy**. If you like the idea that standing in the right place makes your guns better — like a home-field advantage — this is the one.
 
 **Munitorum Field Manual v1.2 tags it:** `CANOPTEK COURT - 3DP - TAKE AND HOLD`. "Take and Hold" is the mission-type vocabulary used by the Force Disposition system in the Event Companion v1.1. **What the `3DP` figure means is not defined in any document this project owns** - it is almost certainly what the owner's older notes meant by "3 Data Package Detachment". Treat the label as unexplained, not as a power rating.
 
@@ -46,20 +46,20 @@ The important thing about Power Matrix is that most of it is **a definition of t
 | Region | When it is inside your Power Matrix |
 |--------|-------------------------------------|
 | **Your deployment zone** | Always. Permanently. Nothing can take it away |
-| **No Man's Land** | Checked at the **start of each phase**: if you control at least half the objective markers in No Man's Land, the whole region is yours for that phase |
+| **No Man's Land** | Checked at the **start of each phase** (`07.02`): if you control at least half the **objective markers** (`14.02`) in No Man's Land, the whole region is yours for that phase |
 | **Your opponent's deployment zone** | Same test, against the objective markers in their zone |
 
 Two clarifications that matter, both confirmed in the owned faction pack FAQ:
 
-- The check happens **at the start of every phase**, so a region can be in your Matrix during your Shooting phase and out of it in the Fight phase. Re-check, every phase, out loud.
+- The check happens **at the start of every phase** (`07.02`), so a region can be in your Matrix during your **Shooting phase** (`10.02`) and out of it in the **Fight phase** (`12.04`). Re-check, every phase, out loud.
 - If a region contains **no objective markers at all**, it can never be in your Matrix. "At least half of zero" does not count.
 
 ### Step 2 - what you get for it
 
 Your **Cryptek** and **Canoptek** units only:
 
-- **Anywhere on the table:** re-roll hit rolls of 1.
-- **Wholly within your Power Matrix:** re-roll the hit roll outright - any failed hit, not just 1s.
+- **Anywhere on the table:** re-roll hit rolls of 1 (`05.01`).
+- **Wholly within your Power Matrix:** re-roll the hit roll outright — any failed hit, not just 1s.
 
 "Wholly within" means every model in the unit. One straggler outside the region drops the whole unit back to re-rolling 1s.
 
@@ -73,11 +73,11 @@ Your **Cryptek** and **Canoptek** units only:
 
 Five habits to build:
 
-- **Count objectives before you shoot.** At the start of your Shooting phase, count the No Man's Land markers you control. Half or more and you are re-rolling misses - which often changes which target you should pick, not just how well you hit it.
+- **Count objectives before you shoot.** At the start of your **Shooting phase** (`10.01`), count the No Man's Land markers you control (`14.02`). Half or more and you are re-rolling misses — which often changes which target you should pick, not just how well you hit it.
 - **Move for the Matrix, not just for the objective.** Taking one more midfield objective can be worth more than the objective itself, because it upgrades every Cryptek and Canoptek unit for the phase.
 - **Keep units wholly inside.** Measure the trailing model. A unit half in and half out of No Man's Land gets the weaker benefit for no reason.
 - **Your deployment zone is a safe firebase.** A Doomstalker parked at home is always in the Matrix. That is a genuinely good beginner default: reliable re-rolls with zero decision-making.
-- **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win.
+- **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win — like sacrificing a pawn to control the center of the board.
 
 **The trap:** pushing a fragile construct forward *hoping* to control No Man's Land, and losing both the model and the region. Take the ground with cheap bodies first, then benefit with the expensive shooting.
 

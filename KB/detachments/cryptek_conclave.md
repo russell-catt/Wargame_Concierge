@@ -13,7 +13,7 @@ tags: [detachment, necrons, cryptek, technosorcerous_augmentations, expansion_pa
 
 # Cryptek Conclave
 
-The Necron detachment built around Cryptek characters leading massed infantry, whose detachment rule - **Technosorcerous Augmentations** - upgrades the guns of whichever squad a Cryptek is standing with, one choice at a time, every Shooting phase.
+The Necron detachment built around Cryptek characters leading massed infantry, whose detachment rule - **Technosorcerous Augmentations** - upgrades the guns of whichever squad a Cryptek is standing with, one choice at a time, every **Shooting phase** (`10.02`).
 
 ---
 
@@ -23,10 +23,10 @@ The Necron detachment built around Cryptek characters leading massed infantry, w
 
 What the rule actually does, read off page 7 of the owned faction pack:
 
-- **Cryptek guns become mobile.** Ranged weapons on Cryptek models gain `[ASSAULT]`, so the unit can advance and still shoot.
-- **A menu pick, per unit, per phase.** Each time a Cryptek unit is selected to shoot, choose one ability - `[ANTI-INFANTRY 3+]`, `[ANTI-MOUNTED 4+]`, `[ASSAULT]`, `[HEAVY]`, or `[IGNORES COVER]` - and every ranged weapon in that unit has it until the end of the phase.
+- **Cryptek guns become mobile.** Ranged weapons on Cryptek models gain `[ASSAULT]` (`10.05`) — shoot after **Advance** (`09.06`).
+- **A menu pick, per unit, per phase.** Each time a Cryptek unit is selected to shoot in the **Shooting phase** (`10.02`), choose one ability — `[ANTI-INFANTRY 3+]`, `[ANTI-MOUNTED 4+]`, `[ASSAULT]`, `[HEAVY]` (`24.16`), or `[IGNORES COVER]` — and every ranged weapon in that unit has it until the end of the phase.
 
-The keyword mechanic is what makes this worth building around: an attached Cryptek character lends the Cryptek keyword to its whole bodyguard unit, so the upgrade lands on ten Warriors' guns rather than on one character's pistol. An unattached Cryptek is close to a wasted pick.
+The keyword mechanic is what makes this worth building around: an attached Cryptek character (`19.01`) lends the Cryptek keyword to its whole bodyguard unit, so the upgrade lands on ten Warriors' guns rather than on one character's pistol. An unattached Cryptek is close to a wasted pick.
 
 So the source's one-line summary was directionally right about the *shape* - this detachment stands still and shoots better - but wrong about both the name and the reanimation half. The reanimation interaction is a stratagem (**Potentiality Syphon**), not the detachment rule. Teaching detail: [[their_number_is_legion_potentiality_syphon_250]].
 
@@ -91,7 +91,7 @@ Crypteks are **Support** (not Leader) in faction pack v1.1 — a Cryptek can sta
 
 ## Off-turn reanimation
 
-**Potentiality Syphon** (1CP): in the opponent’s Command phase, one NECRONS unit on an objective activates [[reanimation_protocols]]; Cryptek units get +1 wound. Full teaching answer: [[their_number_is_legion_potentiality_syphon_250]].
+**Potentiality Syphon** (`15.01`, 1CP): in the opponent's **Command phase** (`08.01`), one NECRONS unit on an objective (`14.02`) activates [[reanimation_protocols]]; Cryptek units get +1 wound. Full teaching answer: [[their_number_is_legion_potentiality_syphon_250]].
 
 ---
 

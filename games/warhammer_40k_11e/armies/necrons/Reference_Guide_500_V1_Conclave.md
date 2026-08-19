@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_500_V1_Conclave.md
-VERSION: v1.0 (2026-08-19)
+VERSION: v1.1 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -43,6 +43,8 @@ Companion to [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md). Bui
 
 ### Baseline (every unit, every your Command phase)
 
+End of **Command phase** (`08.05`) — roll D3 per eligible unit on the board.
+
 | Unit on the list | Starting wounds pool | Avg D3 / your CP | Notes |
 |------------------|----------------------|------------------|-------|
 | Warriors (10) | 10 × 1W = **10** | **2.0** | Plus Geomancer/Warden wounds if those models are in the unit |
@@ -78,7 +80,7 @@ Multi-wound models make "heal first" eat reanimation before bodies come back - s
 | Macrocytes nanoscarab (+1 wound near, once/BR) | +1 | **No** - Macrocytes not in this list |
 | Reanimator extra D3 | +avg 2 | **No** - not owned |
 | Resurrection Orb → D6 once | avg 3.5 instead of 2 | **No** - no Overlord |
-| **Conclave stratagem - Potentiality Syphon** (paraphrase) | Fires Reanimation in **opponent's Command phase** if unit is on an objective; Cryptek unit gets **+1 wound** | **Yes - 1CP** when on objective |
+| **Conclave stratagem - Potentiality Syphon** (`15.01`, paraphrase) | Fires Reanimation in **opponent's Command phase** (`08.01`) if unit is on an objective (`14.02`); Cryptek unit gets **+1 wound** | **Yes - 1CP** when on objective |
 
 ### Off-turn reanimation math (Potentiality Syphon)
 
@@ -206,11 +208,11 @@ Off-turn stratagem on the Warrior brick a few times adds another ~3 avg wounds p
 
 ## 5. Turn script (500 V1)
 
-1. **Your Command** - CP; battle-shock; **REANIMATE all three units** (say the number out loud).
-2. **Movement** - Warriors/Immortals usually hold; Scarabs Advance/screen; use Cryptek `[ASSAULT]` / menu `[ASSAULT]` if a brick must move and shoot.
-3. **Shooting** - Warriors: announce menu pick → resolve. Immortals: announce **different** pick if needed → resolve.
-4. **Opponent Command** - consider **Potentiality Syphon** (1CP) on an objective Cryptek unit for off-turn D3 (+1).
-5. Never leave a unit at 0 models if you can leave it at 1.
+1. **Your Command** (`08.01`–`08.05`) - +1 CP (`08.02`); **battle-shock** (`08.03`); **REANIMATE** all three units at phase end (`08.05`) — say the number out loud.
+2. **Movement** (`09.02`) - Warriors/Immortals usually hold objectives (`14.02`); Scarabs **Advance** (`09.06`)/screen; use Conclave menu `[ASSAULT]` (`10.05`) if a brick must move and shoot.
+3. **Shooting** (`10.02`) - Warriors: announce menu pick → resolve. Immortals: announce **different** pick if needed → resolve.
+4. **Opponent Command** (`08.01`) - consider **Potentiality Syphon** (`15.01`, 1CP) on an objective Cryptek unit for off-turn D3 (+1).
+5. Never leave a unit at 0 models if you can leave it at 1 — wiped units never reanimate.
 
 ---
 

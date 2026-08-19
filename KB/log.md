@@ -394,6 +394,19 @@ Key additions:
 
 Nothing under `raw/` written.
 
+## [2026-08-19] lint | Necron plain-language + rule ID pass
+
+Pages updated: 20+ games files under `games/warhammer_40k_11e/armies/necrons/` (teaching guides, army lists, reference guides, Quick Reference, 65 unit research files); KB [[necrons]], [[cryptek_conclave]], [[canoptek_court]], [[reanimation_protocols]], [[power_matrix]], [[necron_warriors]], [[their_number_is_legion_potentiality_syphon_250]], [[necrons_unit_index]] (unchanged body)
+
+Key additions:
+- Plain-language rewrites for phase order, reanimation, Conclave/Court detachment rules, and army list play scripts
+- Core rule ID cites on phases and mechanics: `08.05` (Command/reanimate), `10.02` (Shooting), `14.02` (OC), `15.01` (stratagems), `19.01` (attached units), `13.08` (cover), etc.
+- Generic **At the table (plain language)** block added to all 65 unit research files; Necron Warriors research expanded with unit-specific tips
+
+Fixes applied: none beyond prose clarity (no rules contradictions found)
+
+Gaps: Necron army rule and detachment rules have no Core IDs (faction pack only); Power Matrix wording still `draft` pending pack line-check
+
 ## [2026-08-19] query | Their Number is Legion + Potentiality Syphon (250 Conclave)
 Pages consulted: Army_List_250_Conclave, Reference_Guide_250/500_V1_Conclave, Reanimation_Protocols, Cryptek_Conclave; Wahapedia Warriors + Necrons hub (search retrieve 2026-08-19)
 Output filed: yes - [[their_number_is_legion_potentiality_syphon_250]]

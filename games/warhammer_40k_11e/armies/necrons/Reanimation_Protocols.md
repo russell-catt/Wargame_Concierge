@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -30,7 +30,9 @@ UPDATE_TRIGGER:
 
 # Reanimation Protocols - the Necron army rule
 
-Necron units repair themselves every single turn, for free, without spending anything. This is the whole faction in one sentence, and it is the first rule to learn properly.
+Think of your Necron units like robots with spare parts in a backpack. Every turn, they quietly fix themselves — for free. That is the whole army in one sentence, and it is the first rule to learn properly.
+
+> **Necron army rule** (see owned Necron faction pack — not a Core Rules ID). Timing lines up with the end of the **Command phase** (`08.05`).
 
 **Where to check it:** your own Necrons faction pack, `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf` (Version 1.1). Cross-checked against Wahapedia's Necrons Army Rules section on **2026-08-16**.
 
@@ -41,7 +43,7 @@ Necron units repair themselves every single turn, for free, without spending any
 | Question | Answer |
 |----------|--------|
 | **Who gets it** | Every unit in your army with the Reanimation Protocols faction ability, while it is on the battlefield |
-| **When** | At the **end of your Command phase** - so once per battle round, on your own turn, before you move |
+| **When** | At the **end of your Command phase** (`08.05`) — once per battle round, on your turn, before the **Movement phase** (`09.02`) |
 | **How much** | Roll a **D3**. That is how many wounds the unit reanimates |
 | **What it costs** | Nothing. No CP, no roll to see if it works, no choice to make |
 
@@ -58,7 +60,7 @@ That order has a consequence people miss at the table: **chip damage soaks up yo
 ## What it does not do
 
 - It does not bring back a unit that has been **wiped out**. Reanimation only reaches units still on the battlefield. Losing the last model of a unit is permanent.
-- It does not fire on your opponent's turn. Damage taken during their turn sits on the unit until your next Command phase.
+- It does not fire on your opponent's turn. Damage taken during their turn sits on the unit until your next **Command phase** (`08.01`–`08.05`) — unless a **stratagem** (`15.01`) like Potentiality Syphon says otherwise (see owned faction pack).
 - It does not choose for you which model returns - the rules do, and the returning model comes back on **1 wound**, so it can be killed again immediately.
 
 ---
@@ -69,7 +71,7 @@ That order has a consequence people miss at the table: **chip damage soaks up yo
 
 Four habits follow from that, and they are the difference between a new Necron player and a good one:
 
-- **Stand on the objective and take the hit.** The instinct to pull a damaged unit back is usually wrong. That unit is scoring [Objective Control](../../rules/Key_Concepts.md) every phase it stays, and it will get some of the damage back at the end of your next Command phase.
+- **Stand on the objective and take the hit.** The instinct to pull a damaged unit back is usually wrong. That unit is scoring **Objective Control** (`14.02`) — like holding a capture-the-flag spot — every phase it stays, and it will get some of the damage back at the end of your next **Command phase** (`08.05`).
 - **Do not lose the last model.** A unit at one model is worth far more than a unit at zero, because one model reanimates and zero models never come back. Screening, coherency, and keeping a body out of blast range all matter more than they look.
 - **Spread your own casualties, concentrate your enemy's.** You want your opponent's damage smeared thinly across several units. Deploy so no single unit is the only sensible target.
 - **The rule is worth more the longer the game runs.** A Warrior block that survives four battle rounds has effectively been re-bought. Trading it away early throws that away, even at a favourable exchange rate.
@@ -87,7 +89,7 @@ You do not need these to play, but they explain why certain models are worth the
 | **Canoptek Reanimator** | Friendly Necron units near it reanimate an extra D3 wounds when the rule fires |
 | **Resurrection Orb** (Overlord, Lokhust Lord, Catacomb Command Barge) | Once per battle, a unit resurrects - reanimating D6 instead of D3. One unit per turn only |
 | **Canoptek Macrocytes** (nanoscarab projector) | Once per battle round, a nearby Necron unit reanimates one extra wound |
-| **Cryptek Conclave stratagem - Potentiality Syphon** | Fires a unit's Reanimation Protocols **off-turn**, in your opponent's Command phase, if it is on an objective. See [`Cryptek_Conclave.md`](Cryptek_Conclave.md) |
+| **Cryptek Conclave stratagem - Potentiality Syphon** (`15.01`) | Fires a unit's Reanimation Protocols **off-turn**, in your opponent's **Command phase** (`08.01`), if it is on an objective (`14.02`). See [`Cryptek_Conclave.md`](Cryptek_Conclave.md) |
 | **Necron Warriors - Their Number is Legion** | The Warriors' own datasheet ability interacts with reanimation. Read it off your datasheet before your first game |
 
 The pattern is worth noticing: almost every Necron support piece pays into the same rule instead of adding a new one. **Stacking reanimation is the faction's design.**

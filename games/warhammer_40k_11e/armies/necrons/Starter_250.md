@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_250.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -31,7 +31,7 @@ UPDATE_TRIGGER:
 
 # Starter list - 250 points
 
-A first game should be small, short, and mostly about learning the phase order. 250 points is roughly four units a side and finishes in an evening.
+A first game should be small, short, and mostly about learning the **phase order** (`07.02` — Command, Movement, Shooting, Charge, Fight). 250 points is roughly four units a side and finishes in an evening.
 
 **The list below is playable tonight.** Every unit in it is assembled, painted, and game-ready - it is the **Kill Team: Tomb World** box, which is the preferred learning baseline for this collection. See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
@@ -92,11 +92,11 @@ Three units is enough to practise everything that matters and few enough to fini
 
 | Unit | Its job in the learning game |
 |------|------------------------------|
-| **Necron Warriors** | Stand on the home objective and never leave. Practise counting Objective Control |
-| **Canoptek Tomb Crawlers** | Push into the middle - Canoptek units get the Power Matrix bonus even without full control |
-| **Cryptek Geomancer** | Practise choosing one ability per Shooting phase (Conclave) or leaning on the re-roll (Court), and saying why out loud |
+| **Necron Warriors** | Stand on the home objective and never leave. Practise counting **Objective Control** (`14.02`) — add up OC like counting who holds a flag |
+| **Canoptek Tomb Crawlers** | Push into the middle. Canoptek units get the Power Matrix bonus even without full control |
+| **Cryptek Geomancer** | Practise choosing one ability per **Shooting phase** (`10.02`) (Conclave) or leaning on the re-roll (Court), and saying why out loud |
 
-**The one rule you must not forget:** at the **end of your Command phase**, every unit reanimates D3 wounds. Put a token on the table to remind you. See [`Reanimation_Protocols.md`](Reanimation_Protocols.md).
+**The one rule you must not forget:** at the **end of your Command phase** (`08.05`), every unit reanimates D3 wounds. Put a token on the table to remind you. See [`Reanimation_Protocols.md`](Reanimation_Protocols.md).
 
 ---
 

@@ -185,6 +185,17 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 
 ---
 
+## How to play this list (plain language)
+
+You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps**. Each brick has a Cryptek attached (`19.01`) — pick one gun bonus per brick every **Shooting phase** (`10.02`) and say it out loud.
+
+1. **Warriors + Warden + Geomancer:** Hold the home objective (`14.02`). Reanimate at end of **Command** (`08.05`). Default shoot pick: `[IGNORES COVER]` (`13.08`) in terrain.
+2. **Immortals + Technomancer or Plasmancer proxy:** Hold mid or support Warriors. Stronger guns — same Conclave menu rules.
+3. **Scarabs:** Run wide, grab flags, die cheaply. They reanimate too but do not get Conclave gun buffs.
+4. **Spend 1CP** (`15.01`) on **Potentiality Syphon** when a Cryptek brick is on an objective during the opponent's **Command phase** (`08.01`) — extra reanimation mid-round.
+
+---
+
 ## Pre-game checklist
 
 - [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; enhancement: Atomic Disintegrators

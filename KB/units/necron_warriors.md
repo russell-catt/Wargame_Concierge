@@ -5,7 +5,7 @@ system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-19
 updated: 2026-08-19
-version: 0.1.0
+version: 0.1.1
 sources:
   - games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md
   - games/warhammer_40k_11e/armies/necrons/units/research/Necron-Warriors.md
@@ -17,15 +17,17 @@ tags: [unit, necrons, battleline, warriors, starter]
 
 # Necron Warriors
 
-Battleline bodyguard brick for learning lists: hold home or mid objectives, absorb fire, and feed [[reanimation_protocols]]. Owned: 10 game-ready (Tomb World) + 10 on sprue.
+Battleline bodyguard brick for learning lists: hold home or mid objectives (`14.02`), absorb fire, and feed [[reanimation_protocols]].
+
+**Plain version:** Ten robot soldiers that stand on a flag spot, get shot, then quietly put themselves back together at the end of your **Command phase** (`08.05`).
 
 ---
 
 ## Role
 
-- **Primary:** OC2 infantry blob that scores while recovering.
-- **Conclave:** Attach a Cryptek (Geomancer / Technomancer) so the whole unit is a Cryptek unit for Technosorcerous Augmentations and for Potentiality Syphon’s +1 wound.
-- **Signature ability:** **Their Number is Legion** — re-roll the D3 whenever this unit’s Reanimation Protocols activate. Detail: [[their_number_is_legion_potentiality_syphon_250]].
+- **Primary:** OC2 infantry blob that scores while recovering (`14.02`, `08.05`).
+- **Conclave:** Attach a Cryptek (`19.01`) so the whole unit is a Cryptek unit for Technosorcerous Augmentations in the **Shooting phase** (`10.02`) and for Potentiality Syphon's +1 wound.
+- **Signature ability:** **Their Number is Legion** — re-roll the D3 whenever this unit's Reanimation Protocols activate (`08.05`). Detail: [[their_number_is_legion_potentiality_syphon_250]].
 
 ## Points (MFM v1.2)
 

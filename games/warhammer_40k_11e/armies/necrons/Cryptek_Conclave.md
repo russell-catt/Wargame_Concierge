@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
 
@@ -31,7 +31,9 @@ UPDATE_TRIGGER:
 
 # Cryptek Conclave - the Technosorcerous Augmentations detachment
 
-The Necron detachment where **Cryptek characters upgrade the guns of whoever they are standing with**, one ability at a time, every Shooting phase.
+The Necron detachment where **Cryptek characters upgrade the guns of whoever they are standing with**, one ability at a time, every **Shooting phase** (`10.02`).
+
+Think of it like a science teacher picking one bonus for the whole class each time they shoot — not a permanent upgrade for the whole army.
 
 **Munitorum Field Manual v1.2 tags it:** `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`. As with the other detachment, "Priority Assets" is mission-type vocabulary and the `2DP` figure is not defined in any owned document - see [`Canoptek_Court.md`](Canoptek_Court.md).
 
@@ -56,9 +58,9 @@ The Necron detachment where **Cryptek characters upgrade the guns of whoever the
 
 Two effects, both aimed at Cryptek models.
 
-**1. Cryptek guns become mobile.** Ranged weapons on Cryptek models in your army gain `[ASSAULT]` - meaning they can still fire after the unit makes an advance move. See [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md).
+**1. Cryptek guns become mobile.** Ranged weapons on Cryptek models in your army gain `[ASSAULT]` (`10.05`) — meaning they can still fire after the unit makes an **Advance move** (`09.06`). See [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md).
 
-**2. Pick an upgrade every time a Cryptek unit shoots.** Each time a Cryptek unit is selected to shoot in your Shooting phase, choose **one** ability from a short menu, and every ranged weapon in that unit has it until the end of the phase. The menu is `[ANTI-INFANTRY 3+]`, `[ANTI-MOUNTED 4+]`, `[ASSAULT]`, `[HEAVY]`, and `[IGNORES COVER]`.
+**2. Pick an upgrade every time a Cryptek unit shoots.** Each time a Cryptek unit is selected to shoot in your **Shooting phase** (`10.02`), choose **one** ability from a short menu, and every ranged weapon in that unit has it until the end of the phase. The menu is `[ANTI-INFANTRY 3+]`, `[ANTI-MOUNTED 4+]`, `[ASSAULT]`, `[HEAVY]` (`24.16`), and `[IGNORES COVER]`.
 
 The second effect is the detachment. It is a **per-unit, per-phase decision**, not an army-wide buff, and choosing well is the skill the detachment teaches.
 
@@ -68,11 +70,11 @@ The second effect is the detachment. It is a **per-unit, per-phase decision**, n
 
 | Situation | Pick | Why |
 |-----------|------|-----|
-| Shooting infantry sitting in the open | `[ANTI-INFANTRY 3+]` | Wounds on a 3+ regardless of Toughness comparisons |
-| Target is in cover | `[IGNORES COVER]` | Cover in 11th Edition worsens your Ballistic Skill; this cancels it |
-| You advanced and still want to shoot | `[ASSAULT]` | Turns a wasted move into a full volley |
-| You stood still and want more punch | `[HEAVY]` | Bonus to hit for remaining stationary |
-| Facing bikes and fast skimmers | `[ANTI-MOUNTED 4+]` | The niche pick - only when the target actually has the keyword |
+| Shooting infantry sitting in the open | `[ANTI-INFANTRY 3+]` | You wound Infantry on a 3+ — easier than comparing Strength vs Toughness |
+| Target is in cover | `[IGNORES COVER]` | Cover in 11th Edition makes your shots worse (`13.08`); this cancels that penalty |
+| You **Advanced** (`09.06`) and still want to shoot | `[ASSAULT]` (`10.05`) | Turns a wasted move into a full volley |
+| You **Remained Stationary** (`09.04`) and want more punch | `[HEAVY]` (`24.16`) | Bonus to hit for not moving |
+| Facing bikes and fast skimmers | `[ANTI-MOUNTED 4+]` | The niche pick — only when the target actually has the Mounted keyword |
 
 Default for a new player: `[IGNORES COVER]` far more often than you would guess, because most opponents will be standing in terrain.
 
@@ -82,11 +84,11 @@ Default for a new player: `[IGNORES COVER]` far more often than you would guess,
 
 **The gameplan in one line:** two blocks of infantry with a Cryptek in each, parked on objectives, shooting well and refusing to die.
 
-- **Attach before the game.** Leaders and Support characters join their bodyguard unit during the pre-game Declare Battle Formations step - not mid-game. Decide this while writing the list.
-- **A squad can take one Leader and one Support.** The owned faction pack v1.1 moved Crypteks (Chronomancer, Geomancer, Plasmancer, Psychomancer, Technomancer, Orikan) from **Leader** to **Support**, which is what makes a Cryptek plus a Royal Warden or Overlord on the same squad legal. Confirm on your own datasheets before list-building.
+- **Attach before the game.** Leaders and Support characters join their bodyguard unit during pre-game **Declare Battle Formations** — not mid-game. This uses **attached units** (`19.01`). Decide this while writing the list.
+- **A squad can take one Leader and one Support.** The owned faction pack v1.1 moved Crypteks from **Leader** to **Support** (`19.01`), which is what makes a Cryptek plus a Royal Warden or Overlord on the same squad legal. Confirm on your own datasheets before list-building.
 - **The Munitorum Field Manual tells you who can attach to whom.** Each character entry lists its legal bodyguard units - Plasmancer and Psychomancer list Immortals and Necron Warriors; the Technomancer adds Canoptek Wraiths. Check there before you plan an attachment.
 - **You are not going to chase the enemy.** This army stands on objectives and out-lasts. If you find yourself moving three units per turn, you are playing the other detachment.
-- **The off-turn reanimation trick.** One of the detachment's stratagems fires a unit's Reanimation Protocols during **your opponent's Command phase**, if the unit is on an objective - and a Cryptek unit reanimates one extra wound. That is a second helping of the army rule every round. See [`Reanimation_Protocols.md`](Reanimation_Protocols.md).
+- **The off-turn reanimation trick.** One of the detachment's **stratagems** (`15.01`) — **Potentiality Syphon** — fires a unit's Reanimation Protocols during **your opponent's Command phase** (`08.01`), if the unit is on an objective (`14.02`); a Cryptek unit reanimates one extra wound. That is a second helping of the army rule every round. See [`Reanimation_Protocols.md`](Reanimation_Protocols.md).
 
 ---
 

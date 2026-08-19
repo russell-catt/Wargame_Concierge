@@ -20,7 +20,7 @@ tags: [concept, necrons, army_rule, attrition, reanimation]
 
 The Necron army rule: units recover during the game, bringing back destroyed models or restoring lost wounds. It is the single mechanic that defines how the faction is played.
 
-**One-line summary:** At the end of your Command phase, every eligible Necron unit on the battlefield reanimates **D3** wounds — heal first, then return models at 1 wound; wiped units stay dead.
+**One-line summary:** At the end of your **Command phase** (`08.05`), every eligible Necron unit on the battlefield reanimates **D3** wounds — heal first, then return models at 1 wound; wiped units stay dead.
 
 ---
 
@@ -35,7 +35,7 @@ Back-filled **2026-08-19** from the shipping teaching guide [`games/warhammer_40
 | Question | Answer |
 |----------|--------|
 | **Who** | Every unit with the Reanimation Protocols ability that is still on the battlefield |
-| **When** | **End of your Command phase** (once per battle round, on your turn) |
+| **When** | **End of your Command phase** (`08.05`) — once per battle round, on your turn |
 | **How much** | Roll a **D3** — that many wounds reanimate for that unit |
 | **Cost** | Free |
 
@@ -53,7 +53,7 @@ Chip damage soaks the roll before bodies stand back up. **A wiped unit (0 models
 
 **Partial damage is wasted damage.** Opponents must kill units outright or leave them alone; splitting fire is punished harder than against most armies.
 
-- **Stand on the objective and take the hit** — the unit scores [[objective_control]] while recovering.
+- **Stand on the objective and take the hit** — the unit scores [[objective_control]] (`14.02`) while recovering.
 - **Do not lose the last model** — one model reanimates; zero never come back.
 - **The rule is worth more the longer the game runs.**
 
@@ -63,7 +63,7 @@ Chip damage soaks the roll before bodies stand back up. **A wiped unit (0 models
 
 | Source | Interaction |
 |--------|-------------|
-| [[cryptek_conclave]] — **Potentiality Syphon** | 1CP: activate RP in the **opponent’s** Command phase if the unit is on an objective; **+1 wound** if it is a **CRYPTEK** unit. See [[their_number_is_legion_potentiality_syphon_250]]. |
+| [[cryptek_conclave]] — **Potentiality Syphon** (`15.01`) | 1CP: activate RP in the **opponent's Command phase** (`08.01`) if the unit is on an objective (`14.02`); **+1 wound** if it is a **CRYPTEK** unit. See [[their_number_is_legion_potentiality_syphon_250]]. |
 | Necron Warriors — **Their Number is Legion** | Re-roll the D3 whenever this unit’s RP activates. Same analysis page. |
 | [[canoptek_court]] / [[power_matrix]] | Does not change RP amount; compounds by rewarding standing on controlled ground. |
 | Reanimator / Resurrection Orb / Macrocytes | Shipping guide lists these as optional stackers — not required for first games. |

@@ -23,13 +23,15 @@ Not because it is the easiest - because it is the one that is owned. Every teach
 
 That said, the faction suits a beginner for a real reason. Necron durability is **forgiving of positioning mistakes**. A unit left slightly too exposed often survives the punishment and partially rebuilds itself, so a new player gets a second turn to notice the error instead of losing the unit and the objective in one go.
 
-The trade is that Necrons rarely blow anything off the table. Games are won by **still being there** - which makes [[objective_control]] the metric that matters, not casualties.
+The trade is that Necrons rarely blow anything off the table. Games are won by **still being there** — which makes [[objective_control]] (`14.02`) the metric that matters, not casualties. Think capture-the-flag, not kill count.
 
 ---
 
 ## Army rule: Reanimation Protocols
 
-At the **end of your Command phase**, each eligible Necron unit on the battlefield reanimates **D3** wounds (heal first, then return models at 1W; wiped = gone). Full treatment on [[reanimation_protocols]] (`draft`, back-filled 2026-08-19 from shipping).
+At the **end of your Command phase** (`08.05`), each eligible Necron unit on the battlefield reanimates **D3** wounds (heal first, then return models at 1W; wiped = gone). Full treatment on [[reanimation_protocols]] (`draft`, back-filled 2026-08-19 from shipping).
+
+**Plain version:** Your robots fix themselves once per turn, for free, before you move. Chip damage often gets undone — but if every model in a unit dies, that unit stays dead.
 
 Short version for list-building: **damage that does not finish a unit is often damage wasted**, which is why Necrons want to hold ground with bodies rather than trade efficiently. Conclave also has **Potentiality Syphon** for off-turn RP — [[their_number_is_legion_potentiality_syphon_250]].
 

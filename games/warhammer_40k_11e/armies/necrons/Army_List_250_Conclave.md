@@ -134,6 +134,16 @@ UPDATE_TRIGGER:
 
 ---
 
+## How to play this list (plain language)
+
+1. **Before the game:** Attach the Geomancer to the Warriors (`19.01`). Write it on your list — you cannot change mid-battle.
+2. **Every your turn:** At the **end of Command** (`08.05`), roll D3 reanimation for each unit. Do not forget — put a token on the table.
+3. **Warriors:** Sit on an objective (`14.02`) like holding a flag. In **Shooting** (`10.02`), say your Conclave menu pick out loud — `[IGNORES COVER]` (`13.08`) is the usual beginner choice in terrain.
+4. **Crawlers:** Walk to the middle. They shoot without the Conclave menu but still reanimate.
+5. **Scarabs:** Run wide and annoy — they grab objectives cheaply but die if ignored.
+
+---
+
 ## Pre-game checklist
 
 - [ ] Detachment: Cryptek Conclave; Warlord: Geomancer
@@ -152,7 +162,7 @@ UPDATE_TRIGGER:
 ---
 
 ## Change Log
-- v1.2 (2026-08-19): Full stat blocks from Wahapedia + MFM v1.2 re-read. Tomb Crawlers corrected to 50 pts; list is 245/250 with Scarabs added. Removed enhancement pad that relied on stale 85-pt Crawler cost.
+- v1.3 (2026-08-19): Plain-language play section; rule ID cites for phases and core rules.
 - v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.
 - v1.0 (2026-08-19): Initial list with VERIFY blanks.
 

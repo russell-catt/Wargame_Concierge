@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; Path A cheaper-first)
 
@@ -71,9 +71,9 @@ The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawler
 
 **How it is meant to be arranged:**
 
-- **Geomancer joins the Warriors.** Keeps them alive on the home objective while everything else pushes for Power Matrix territory.
-- **Tomb Crawlers take the middle.** Control half the No Man's Land objectives at the start of a phase and the whole region joins your Matrix for that phase - which upgrades the Crawlers and any other Canoptek in that region.
-- **Macrocytes and both Scarab units go wide.** Cheap Objective Control bodies that also count as Canoptek for the Matrix bonus.
+- **Geomancer joins the Warriors.** Keeps them alive on the home objective (`14.02`) while everything else pushes for Power Matrix territory.
+- **Tomb Crawlers take the middle.** Control half the No Man's Land objectives at the start of a phase (`07.02`) and the whole region joins your Matrix for that phase — which upgrades the Crawlers and any other Canoptek in that region.
+- **Macrocytes and both Scarab units go wide.** Cheap **Objective Control** (`14.02`) bodies that also count as Canoptek for the Matrix bonus.
 
 **Full 500 variant - add Wraiths + enhancement.** Buy Canoptek Wraiths (3) for 95 → **450**. Pad with a Conclave/Court enhancement (e.g. Atomic Disintegrators 10 + Gauntlet of Compression 20 + Gravitic Bolas 15 + Quantum Abacus 15 = 50) if your muster allows — or add Technomancer (owned, 80) and trim Scarabs to 3 (−40) for **490**, then one 10-pt enhancement → **500**.
 
@@ -100,7 +100,7 @@ Optional extras (swap in if rebalancing): **Technomancer** (Hierotek, **80** pts
 
 **How it is meant to be arranged:**
 
-- **Warden (Leader) + Geomancer (Support) on Warriors** — Conclave menu on ten guns plus Fall Back tricks.
+- **Warden (Leader) + Geomancer (Support) on Warriors** — Conclave shooting menu on ten guns (`10.02`) plus Fall Back tricks (`09.07`).
 - **Plasmancer proxy on Immortals** — second Cryptek brick (or swap in owned Technomancer).
 - **Tomb Crawlers, Macrocytes, and Scarabs** screen and contest — no Conclave gun buff, but free OC.
 
@@ -133,10 +133,10 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 
 | At 250 you learn | At 500 you also learn |
 |------------------|----------------------|
-| Phase order, and not forgetting reanimation | Activation order in the Fight phase, where sequencing wins games |
-| The attack sequence | Which target is worth shooting, rather than which is easiest |
-| Objective Control on one objective | Holding two while contesting a third |
-| One character, attached | Choosing which squad a character is worth more on |
+| Phase order (`07.02`), and not forgetting reanimation (`08.05`) | Activation order in the **Fight phase** (`12.04`), where sequencing wins games |
+| The attack sequence (`05.01`–`05.04`) | Which target is worth shooting, rather than which is easiest |
+| **Objective Control** (`14.02`) on one objective | Holding two while contesting a third |
+| One character, attached (`19.01`) | Choosing which squad a character is worth more on |
 | Losing a unit | Not losing the **last model** of a unit, so it can reanimate |
 
 ---
@@ -145,7 +145,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 
 - [ ] Everything in the chosen list is built. Unassembled models are not units - build the sprue extras (2nd Scarabs for Path A, or Immortals for Path B) first.
 - [ ] Re-check every cost against the current Munitorum Field Manual - patches happen.
-- [ ] Write your detachment, characters, and attachments down **before** deployment. Attachments are declared pre-game and cannot be changed mid-battle.
+- [ ] Write your detachment, characters, and attachments down **before** deployment. **Attached units** (`19.01`) are declared pre-game and cannot be changed mid-battle.
 - [ ] Print the two-page [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 - [ ] Set the table up properly - [`../../setup/Board_Setup.md`](../../setup/Board_Setup.md) and [`../../setup/Terrain_Basics.md`](../../setup/Terrain_Basics.md).
 

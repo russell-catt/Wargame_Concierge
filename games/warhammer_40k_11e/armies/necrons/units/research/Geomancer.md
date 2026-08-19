@@ -51,5 +51,12 @@ Owned via Kill Team: Tomb World (not Hierotek). Primary Warlord for Conclave lea
 - MFM v1.2: C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf
 - Attestation: teaching paraphrase for private repo use
 
+
+
+## At the table (plain language)
+- **Reanimation:** End of your **Command phase** (`08.05`) — roll D3 wounds; heal first, then return models at 1W. Wiped units stay dead. See `Reanimation_Protocols.md`.
+- **Objectives:** Each model has **OC** (`14.02`) — add up OC near a marker like counting who holds a flag.
+- **Shooting:** Pick targets you can see (`06.01`). Cover makes shots worse (`13.08`) unless a rule says `[IGNORES COVER]`.
+
 ---
 Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

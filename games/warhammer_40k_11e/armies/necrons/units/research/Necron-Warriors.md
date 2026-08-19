@@ -28,7 +28,7 @@
 | Close combat weapon | Melee | 1 | 4+ | 4 | 0 | 1 | — |
 
 ## Abilities
-Reanimation Protocols (army). Battleline screening for learning games.
+Reanimation Protocols (army rule — end of your **Command phase**, `08.05`). **Their Number is Legion:** re-roll the D3 when this unit reanimates. Battleline screening — stand on objectives (`14.02`).
 
 ## Leader / attach options
 Many Necron Characters/Crypteks can lead — verify sheet.
@@ -46,6 +46,17 @@ Owned x10 unassembled — build before play.
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Necron-Warriors
 - Local faction pack cross-check: partial
 - Attestation: personal structured notes for private repo use; not a GW redistribution
+
+
+
+## At the table (plain language)
+- **Reanimation:** End of your **Command phase** (`08.05`) — roll D3 wounds; heal first, then return models at 1W. Wiped units stay dead. See `Reanimation_Protocols.md`.
+- **Objectives:** Each model has **OC** (`14.02`) — add up OC near a marker like counting who holds a flag.
+- **Shooting:** Pick targets you can see (`06.01`). Cover makes shots worse (`13.08`) unless a rule says `[IGNORES COVER]`.
+- **Job:** Hold a flag spot (`14.02`). OC 2 per model.
+- **Conclave:** Attach a Cryptek (`19.01`); pick one gun bonus each **Shooting phase** (`10.02`).
+- **Legion:** Re-roll the D3 when this unit reanimates.
+
 
 ---
 Verify vs current Munitorum / faction pack — patches happen | 2026-08-16

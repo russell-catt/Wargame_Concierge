@@ -24,7 +24,7 @@ The Necron detachment built around robotic constructs, whose detachment rule is 
 What it does, in the owner's paraphrase: units within controlled territory re-roll their hit rolls. Two consequences follow if that shape is right.
 
 - **It rewards holding ground rather than raiding it.** A re-roll you only get inside your own zone means the shooting is best when the army is standing where the objectives are - which is where a Necron army wants to be anyway.
-- **It couples offence to [[objective_control]].** Territory control is not just the scoring mechanism, it becomes the damage mechanism. Losing a zone costs points *and* accuracy in the same turn.
+- **It couples offence to [[objective_control]]** (`14.02`). Territory control is not just the scoring mechanism, it becomes the damage mechanism. Losing a zone costs points *and* accuracy in the same turn.
 
 The rule's **name and ownership are settled**; its **wording is not**. "Controlled territory" could mean a deployment zone, an objective's range, or something 11e-specific. Whether the re-roll covers melee, shooting, or both is unknown. Verify against the Necrons faction pack at `raw/pointers/faction_pack_necrons.md` before playing it.
 

@@ -44,5 +44,12 @@ Owned x3 unassembled — build before play.
 - Local faction pack cross-check: partial
 - Attestation: personal structured notes for private repo use; not a GW redistribution
 
+
+
+## At the table (plain language)
+- **Reanimation:** End of your **Command phase** (`08.05`) — roll D3 wounds; heal first, then return models at 1W. Wiped units stay dead. See `Reanimation_Protocols.md`.
+- **Objectives:** Each model has **OC** (`14.02`) — add up OC near a marker like counting who holds a flag.
+- **Shooting:** Pick targets you can see (`06.01`). Cover makes shots worse (`13.08`) unless a rule says `[IGNORES COVER]`.
+
 ---
 Verify vs current Munitorum / faction pack — patches happen | 2026-08-16

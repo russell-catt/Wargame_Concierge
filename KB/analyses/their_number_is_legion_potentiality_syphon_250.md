@@ -26,10 +26,10 @@ Filed answer for the 250-pt Cryptek Conclave Warrior brick: how **Their Number i
 
 ## Their Number is Legion (Necron Warriors)
 
-Each time this unit’s **Reanimation Protocols activate**, you may **re-roll the D3** that decides how many wounds are reanimated.
+Each time this unit's **Reanimation Protocols** activate (usually at the end of your **Command phase**, `08.05`), you may **re-roll the D3** that decides how many wounds are reanimated.
 
 - Does **not** change heal-first / return-at-1W / stop-at-full / wiped-unit rules — only the die for the amount.
-- Triggers whenever RP activates for that unit: end of **your** Command phase, **and** any stratagem that activates RP (including Potentiality Syphon).
+- Triggers whenever RP activates for that unit: end of **your Command phase** (`08.05`), **and** any **stratagem** (`15.01`) that activates RP (including Potentiality Syphon).
 - On the 250 Conclave list: the **Warrior** unit has it; Scarabs and Tomb Crawlers do not.
 
 **Rough EV:** plain D3 ≈ 2.0 wounds; with an optional re-roll, expect slightly more when you re-roll a 1.
@@ -38,18 +38,18 @@ Each time this unit’s **Reanimation Protocols activate**, you may **re-roll th
 
 ## Potentiality Syphon (Cryptek Conclave)
 
-**1CP** Strategic Ploy.
+**1CP** Strategic Ploy (`15.01`).
 
 | Field | Teaching paraphrase |
 |-------|---------------------|
-| **When** | Your **opponent’s Command phase** |
-| **Target** | One **NECRONS** unit from your army **within range of one or more objective markers** |
-| **Effect** | That unit’s **Reanimation Protocols activate**. If it is a **CRYPTEK** unit, it also reanimates **+1 wound**. |
+| **When** | Your **opponent's Command phase** (`08.01`) |
+| **Target** | One **NECRONS** unit from your army **within range of one or more objective markers** (`14.02`) |
+| **Effect** | That unit's **Reanimation Protocols** activate. If it is a **CRYPTEK** unit, it also reanimates **+1 wound**. |
 
 ### How it stacks with the army rule
 
-1. Free RP still fires at the **end of your** Command phase (D3 per eligible unit on the board).
-2. Syphon is a **second** activation in the same battle round, paid with CP, only while the chosen unit is on an objective during the opponent’s Command.
+1. Free RP still fires at the **end of your Command phase** (`08.05`) (D3 per eligible unit on the board).
+2. Syphon is a **second** activation in the same battle round, paid with CP (`15.01`), only while the chosen unit is on an objective (`14.02`) during the opponent's **Command phase** (`08.01`).
 3. Spend order is the same as normal RP (heal survivors → return models at 1W → stop at Starting Strength / full). **Wiped units still get nothing.**
 4. Other RP modifiers that apply when protocols activate (e.g. Their Number is Legion) still apply — see also FAQ pattern on other “activate RP” stratagems.
 

@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.3 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -28,7 +28,7 @@ UPDATE_TRIGGER:
 
 **Player:** Parent (Russell)
 
-Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation**, **methodical shooting**, and **Canoptek construct** synergies. Two detachment paths are documented from this collection: **Canoptek Court** and **Cryptek Conclave**.
+Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation** (fix themselves every turn at end of **Command**, `08.05`), **methodical shooting** (`10.02`), and **Canoptek construct** synergies. Two detachment paths are documented from this collection: **Canoptek Court** and **Cryptek Conclave**.
 
 **Start here:** [`Reanimation_Protocols.md`](Reanimation_Protocols.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game using the owned **Kill Team: Tomb World** force.
 

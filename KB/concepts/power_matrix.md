@@ -4,8 +4,8 @@ type: concept
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-version: 0.5.0
+updated: 2026-08-19
+version: 0.5.3
 sources: [necron_lists_owner_notes, docs/Game_System_Scaffold.md]
 confidence: draft
 tags: [concept, necrons, canoptek_court, detachment_rule, correction, edition_check]
@@ -57,7 +57,7 @@ Taking the paraphrase at face value, Power Matrix does something unusual: it mak
 
 In most armies, accuracy comes from the datasheet, from a character, or from a stratagem - things you bring or spend. Here it comes from *where you are standing*. Three consequences follow, and they are the reason [[canoptek_court]] plays the way [[necron_lists_owner_notes]] describes.
 
-- **Territory is worth double.** Holding ground scores through [[objective_control]] and improves damage in the same turn. Losing it costs both at once, so a swing in the middle of the board is larger than the score difference suggests.
+- **Territory is worth double.** Holding ground scores through [[objective_control]] (`14.02`) and improves damage in the same turn. Losing it costs both at once, so a swing in the middle of the board is larger than the score difference suggests.
 - **The army wants to fight forward.** The source's plan - push Wraiths onto a central objective specifically to open a Power Matrix zone in No Man's Land - only makes sense if the re-rolls follow controlled ground rather than sitting in the deployment zone. That is the aggressive midfield posture the detachment is known for.
 - **It pairs naturally with [[reanimation_protocols]].** Standing still on an objective is what the army rule already rewards. A detachment rule that also pays for standing there compounds it, which is the mechanical case for Canoptek Court being rated the stronger detachment.
 
