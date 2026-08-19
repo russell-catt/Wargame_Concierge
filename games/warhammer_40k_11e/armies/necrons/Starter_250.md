@@ -115,6 +115,7 @@ Three units is enough to practise everything that matters and few enough to fini
 ## Related pages
 
 - [`Starter_500.md`](Starter_500.md) - where this list grows next
+- [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) - 500 / 750 / 1,000 as no-purchase (Hierotek proxies OK) vs purchase paths
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) - the two detachments
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) - the army rule
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - the ownership source of truth
@@ -124,6 +125,7 @@ Three units is enough to practise everything that matters and few enough to fini
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-19): Linked [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.3 (2026-08-17): Hierotek photo ID closed; checklist replaced with named 40K map and proxy notes. Plasmacyte to-do added: 25–28mm base rings.
 - v1.2 (2026-08-16): Rebuilt around the corrected ownership decision - Kill Team: Tomb World (Geomancer + Warriors + Tomb Crawlers) is the game-ready Phase 1 list, playable tonight with zero purchases. Hierotek Circle demoted to an optional alternate/expansion, no longer described as the only table-ready option. Extra Warriors/Scarabs/Immortals clearly flagged sprue / build-before-play (slice S2, `tomb_world_ownership`).

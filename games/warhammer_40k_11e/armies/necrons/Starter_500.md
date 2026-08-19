@@ -152,6 +152,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 ## Related pages
 
 - [`Starter_250.md`](Starter_250.md) - the Tomb World-only list this grows from
+- [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) - **V1 (no buy, Hierotek proxies OK) vs V2 (purchases)** at 500 / 750 / 1,000
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) - the two detachments
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) - the army rule
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - ownership source of truth
@@ -160,6 +161,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-19): Linked dual-path [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) (Hierotek proxies in V1).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.4 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase / Apprentek proxy; Path B table updated.
 - v1.3 (2026-08-17): Path A active list is now the cheaper no-purchase variant (405 / 500) - foundation plus 2nd Scarab set; Wraiths demoted to an optional full-500 upgrade.
