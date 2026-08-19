@@ -30,7 +30,7 @@ Priority learning teams this track: **Canoptek Circle**, **Plague Marines**, **A
 
 **Personal use only — this project must never be sold.**
 
-**Rules quoting (KT24 only):** This subtree may reproduce **verbatim** rules text from owned local PDFs under `C:\Personal\Kill Team\kill_team_2024\` (read in place; never commit PDFs). Warhammer 40,000 content elsewhere in the repo remains teaching paraphrase only.
+**Rules quoting (KT24 only):** This subtree may reproduce **verbatim** rules text from owned local PDFs under `C:\Personal\Kill Team\kill_team_2024\` (read in place; never commit PDFs). **40K** quoting is a separate exception under `games/warhammer_40k_11e/rules/` and `setup/` only (WarCom-free Core + rule IDs) — not in this subtree. Army/Codex folders remain paraphrase.
 
 **Not current play:** older Kill Team 2021 / 2e material lives under [`reference/kill_team_2e/`](../../reference/kill_team_2e/) only.
 

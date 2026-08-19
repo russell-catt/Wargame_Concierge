@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Terrain_Basics.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -40,7 +40,9 @@ UPDATE_TRIGGER:
 
 Terrain in 11th Edition is not decoration. It is the reason armies do not simply shoot each other off the table on turn one. This page explains how it works and how much of it you need.
 
-Checked against the owned Core Rules PDF (Section 13) on **2026-08-16**.
+Checked against the owned Core Rules PDF (Section 13) on **2026-08-16**. IDs **13.01–13.11** and **06.01** live in [`../rules/Core_Rules_Quotes.md`](../rules/Core_Rules_Quotes.md).
+
+**Contradiction check (2026-08-18):** Benefit of Cover still **worsens BS by 1** (**13.08**), Hidden is 15" detection (**13.09**), Obscuring blocks LOS across light/dense areas (**13.10**). Matches 2026-08-16 paraphrase. No rewrite.
 
 ---
 
@@ -82,7 +84,7 @@ Agree the category of every piece as you set up. It is a two-minute conversation
 
 ## The four visibility rules
 
-These are what make terrain matter. All four are checked against the terrain in play, not against a house rule.
+Line of sight itself is **06.01**. Terrain then applies **13.07–13.11**.
 
 ### Benefit of Cover
 
@@ -91,7 +93,7 @@ A unit has the benefit of cover against a ranged attack if **every** model in it
 - is INFANTRY, BEASTS, or SWARM and is inside a terrain area, or
 - is not fully visible to the attacker because of intervening terrain features or obscuring terrain areas.
 
-**What it does: it worsens the attacking weapon's Ballistic Skill by 1.**
+**What it does: it worsens the attacking weapon's Ballistic Skill by 1** (**13.08**).
 
 > This is an 11th Edition change worth reading twice. Cover **no longer improves your armour save**. It makes the enemy less accurate. If you learned the older wording, unlearn it.
 
@@ -99,7 +101,7 @@ A unit has the benefit of cover against a ranged attack if **every** model in it
 
 An INFANTRY, BEASTS, or SWARM model is **hidden** while it is inside a terrain area containing at least one **Dense** feature, and its unit did not make ranged attacks this turn or last turn.
 
-A hidden model can only be seen by enemies within their **detection range**, which is **15"** unless something changes it.
+A hidden model can only be seen by enemies within their **detection range**, which is **15"** unless something changes it (**13.09**).
 
 This is the big new positional lever. A quiet unit sitting in a ruin is effectively invisible to anything more than 15" away - and shooting breaks the effect for two turns, not one.
 
@@ -211,6 +213,7 @@ Full catalogue with descriptions: [`reference/Source_Library.md`](../../../refer
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Rule-ID cites for cover/visibility (track `40k_warcom_quotes` S4).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial terrain guide (slice S3), from the owned Core Rules PDF Section 13 and Event Companion v1.1, both read 2026-08-16. A4 footprint packs recorded as path pointers only.
 

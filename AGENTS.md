@@ -1,6 +1,6 @@
 <!--
 FILE: AGENTS.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Librarian, slice L0)
 
@@ -200,13 +200,14 @@ The repo also carries Rising Tide HTML-comment headers and Change Log / Attribut
 
 ## 10. Copyright and sourcing
 
-Non-negotiable. This is a personal learning KB, not a redistribution channel. **Personal use only — this project must never be sold.** **Kill Team is Copyright Games Workshop Limited 2024**
+Non-negotiable. This is a personal learning KB, not a redistribution channel. **Personal use only — this project must never be sold.** **Kill Team is Copyright Games Workshop Limited 2024.** **Warhammer 40,000 is Copyright Games Workshop Limited** (use that line on 40K quote surfaces).
 
 - **Never** ingest Games Workshop PDFs, official datasheet images, or other GW binaries into `raw/` - or anywhere in this repo
 - **Never** commit binaries: `.pdf`, `.webp`, `.png`, `.jpg` and friends are blocked in [`.gitignore`](.gitignore). Do not bypass it
 - The external library at `C:\Personal\40K` stays **outside** this repo - reference it with **markdown path pointers only**
-- Write **teaching paraphrase**: explain how a rule works in your own words, with the reasoning a player needs. Do not transcribe datasheet statlines, stratagem text, or rules text verbatim
-- **KT24 quote exception (scoped):** Under `games/kill_team_2024/` only, you may quote **verbatim** rules text from owned local KT24 PDFs (`C:\Personal\Kill Team\kill_team_2024\` root + `Teams\`) and from WarCom free rules downloads, with filename + page/section cite on every block. Read PDFs **in place**; never copy binaries into git. This exception does **not** apply to `KB/`, `docs/`, or `games/warhammer_40k_11e/` — those remain teaching paraphrase only. **KT24 hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches (update log, team PDFs, universal equipment) supersede on the same topic; Jul 25 lite is simplified intro — omission is not a patch.
+- Write **teaching paraphrase**: explain how a rule works in your own words, with the reasoning a player needs. Do not transcribe datasheet statlines, stratagem text, or rules text verbatim **except** under the scoped quote exceptions below
+- **KT24 quote exception (scoped):** Under `games/kill_team_2024/` only, you may quote **verbatim** rules text from owned local KT24 PDFs (`C:\Personal\Kill Team\kill_team_2024\` root + `Teams\`) and from WarCom free rules downloads, with filename + page/section cite on every block. Read PDFs **in place**; never copy binaries into git. **KT24 hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches (update log, team PDFs, universal equipment) supersede on the same topic; Jul 25 lite is simplified intro — omission is not a patch.
+- **40K WarCom-free quote exception (scoped):** Under `games/warhammer_40k_11e/rules/` and `games/warhammer_40k_11e/setup/` only, you may quote **verbatim** rules text from WarCom-**free** system PDFs and matching local `C:\Personal\40K\rules\eng_*` copies. Every quote block: filename + **page** + **rule ID** (e.g. `ARMIES — 01.01`, `VISIBILITY — 06.01`). Read PDFs **in place**; never copy binaries into git. **40K hierarchy:** Core Rules PDF (`eng_01-06_*`) is baseline; dated `eng_*` stamps (universal updates, Event Companion) supersede on the same topic; omission is not a patch. **Codex wall:** never quote Codex / Faction Pack / paid army rules. `games/warhammer_40k_11e/armies/**` stay teaching paraphrase. Free non-Codex extras (Event Companion missions, Armageddon datacards, MFM points tables) are **not** dumped — inventory in pointers only. **`KB/` and `docs/` stay paraphrase** + `[[wikilink]]` to the quote file and the rule ID.
 - Cite where a claim can be checked (source page, Wahapedia URL, local PDF path) so the reader can verify against material they own
 - No secrets, credentials, or `.env` content in `KB/` - ever
 
@@ -325,6 +326,7 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 
 ## Change Log
 
+- v0.5.1 (2026-08-18): Sec 10 — 40K WarCom-free quote exception under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Codex wall; Core baseline / dated `eng_*` supersede / omission is not a patch. Track `40k_warcom_quotes`.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Sec 6 — core + entity pages carry YAML `version:`.
 - v0.5.0 (2026-08-18): Sec 10 — house copyright line for Kill Team shipping: Kill Team is Copyright Games Workshop Limited 2024.
 - v1.1 (2026-08-18): Sec 10 — one sentence on KT24 `eng_*` patch hierarchy (Full-Scan baseline; dated patches supersede; Jul 25 lite is intro; omission is not a patch).

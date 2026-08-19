@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Keyword_Glossary.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -46,6 +46,8 @@ UPDATE_TRIGGER:
 # Keyword Glossary - Warhammer 40,000 11th Edition
 
 One line per term, in plain English. Weapon abilities are written the way they appear on a datasheet, in square brackets and capitals: `[BLAST]`.
+
+Numbered Core IDs (example **13.08**) point at [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md). This page stays beginner paraphrase. **40K Objective Control (OC)** is a datasheet characteristic (**14.02**); Kill Team uses **1" control range** and APL totals — not OC.
 
 ---
 
@@ -148,7 +150,7 @@ Anything not marked `verified` should be checked against your faction pack or th
 | **Hazard roll** | A D6; on a 1-2 the unit suffers a mortal wound, or 3 for a Monster/Vehicle | Triggered by Hazardous weapons, Desperate Escape, and emergency disembarks | `verified` |
 | **Critical hit / critical wound** | An unmodified 6 on the hit or wound roll | Still an ordinary hit or wound, but it switches on Lethal Hits, Sustained Hits, Devastating Wounds, and Anti-X | `verified` |
 | **Allocation group** | How the defender sorts a unit before taking saves | Characters cannot be placed ahead of ordinary models, which is what keeps leaders alive | `verified` |
-| **Benefit of cover** | Worsens the attacking weapon's **BS by 1** | This is an 11th Edition change - cover no longer improves your save. See [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) | `verified` |
+| **Benefit of cover** (**13.08**) | Worsens the attacking weapon's **BS by 1** | This is an 11th Edition change - cover no longer improves your save. See [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) | `verified` |
 | **Reanimation Protocols** | The Necron army rule: units heal wounds back at the end of your Command phase | See the Faction pointers section below | `verified` |
 | **Deadly Demise X** | On a 6 when a model is destroyed, nearby units take X mortal wounds | Do not park your own squads next to your dying tank | `verified` |
 | **Revived / returned models** | Destroyed models added back to a unit, never above starting strength | The general rule that Reanimation Protocols and resurrection abilities plug into | `verified` |
@@ -159,7 +161,7 @@ Anything not marked `verified` should be checked against your faction pack or th
 
 | Term | What it means | When it matters | Status |
 |------|---------------|-----------------|--------|
-| **Objective Control (OC)** | A profile characteristic; totals decide who controls an objective | Re-checked at the end of **every phase and turn**. Numbers of bodies beat quality | `verified` |
+| **Objective Control (OC)** (**14.02**) | A profile characteristic; totals decide who controls an objective | Re-checked at the end of **every phase and turn**. Numbers of bodies beat quality. **Not** KT 1" control range | `verified` |
 | **Objective / terrain objective** | The place being fought over, usually a defined terrain area | A model is in range simply by being inside that terrain area | `verified` |
 | **Objective marker** | A flat 40 mm circular marker, used where an objective is not a terrain area | Range is 3" horizontally and 5" vertically | `verified` |
 | **Secured** | An objective that stays yours after your models leave | Until the opponent out-controls you at the end of a phase | `verified` |
@@ -223,6 +225,7 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 
 ## Related pages
 
+- [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md) - numbered Core IDs
 - [`Overview.md`](Overview.md) - what a game is
 - [`Turn_Structure.md`](Turn_Structure.md) - when each keyword comes up
 - [`Key_Concepts.md`](Key_Concepts.md) - the mechanics these terms modify
@@ -232,6 +235,7 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Rule-ID cites; OC vs KT 1" control range flag (track `40k_warcom_quotes` S3/S4).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial shipping glossary (slice S3). Terms verified against the owned Core Rules PDF, Universal Rules Updates v1.0, Necrons Faction Pack v1.1, and Event Companion v1.1, all read 2026-08-16, plus the Wahapedia Necrons page retrieved 2026-08-16. Power Matrix upgraded to `verified` with its full effect. Records a new conflict on the Cryptek Conclave detachment rule name.
 

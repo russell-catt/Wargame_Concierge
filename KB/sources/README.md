@@ -19,7 +19,7 @@ A summary of a source that was actually read - an owner's notes file, a Warhamme
 
 ## Copyright
 
-Never copy Games Workshop PDFs, datasheet images, or verbatim rules text into this repo. Summarize in teaching paraphrase and cite where the reader can check it. See [`AGENTS.md`](../../AGENTS.md) Sec 10 and [`raw/README.md`](../../raw/README.md).
+Never copy Games Workshop PDFs, datasheet images, or verbatim rules text into `KB/`. Summarize in teaching paraphrase and cite where the reader can check it (including a Core rule ID). Scoped shipping quotes live under `games/` — see [`AGENTS.md`](../../AGENTS.md) Sec 10.
 
 ## Example filenames
 

@@ -2,15 +2,17 @@
 
 **Catalog:** [`reference/Source_Library.md`](../../reference/Source_Library.md) — Imported markdown sources
 
+**Ranking (corrected 2026-08-18, track `40k_warcom_quotes`):** `C:\Personal\40K\Necron_Lists.md` is the **source of truth**. The games copy is a **working copy**. If they diverge, **Personal wins**. Do **not** sync or overwrite the Personal file from the repo.
+
 ## Copies
 
 | Rank | Copy | Role |
 |------|------|------|
-| 1 | [`games/warhammer_40k_11e/armies/necrons/Necron_Lists.md`](../../games/warhammer_40k_11e/armies/necrons/Necron_Lists.md) | **Authoritative FOUNDATION.** Edit here first |
-| 2 | [`raw/Necron_Lists.md`](../Necron_Lists.md) | Imported copy of the external source |
-| 2 | `C:\Personal\40K\rules\Necron_Lists.md` | External source, outside the repo |
+| 1 | `C:\Personal\40K\Necron_Lists.md` | **Source of truth.** Personal library. Wins on divergence. Outside git. |
+| 2 | [`games/warhammer_40k_11e/armies/necrons/Necron_Lists.md`](../../games/warhammer_40k_11e/armies/necrons/Necron_Lists.md) | **Working copy** in the 40K subtree. Edit for play notes; do not treat as SoT if Personal differs |
+| 3 | [`raw/Necron_Lists.md`](../Necron_Lists.md) | Imported snapshot inside `raw/` (immutable layer). Do not use to overwrite Personal |
 
-All three are kept byte-identical. If they diverge, the project copy wins and the other two are re-synced to it.
+Ownership facts for play live in [`Owned_Models_Inventory.md`](../../games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md).
 
 ## Ownership recorded in FOUNDATION — 2026-08-16
 
@@ -30,11 +32,9 @@ Do not re-shop owned kits.
 
 ## Sync expectations
 
-- **Direction of truth:** project copy → `raw/Necron_Lists.md` → `C:\Personal\40K\rules\Necron_Lists.md`. Never edit a lower copy to win an argument with a higher one.
-- **After any FOUNDATION change:** re-copy to both other locations and confirm identical SHA-256 hashes before the slice closes.
-- **Writers:** `raw/` is Coordinator/Implementer copy-in only. The Librarian reads it and never writes it.
-- **Verification used:** `Get-FileHash` across the three paths. All three matched after the 2026-08-16 re-sync (`90C00E0D…C55EF`).
-- **Encoding:** UTF-8, no BOM, in every copy.
+- **Direction of truth:** Personal `C:\Personal\40K\Necron_Lists.md` wins. The games working copy may lag. **Never** overwrite Personal from the repo.
+- **Writers:** `raw/` is Coordinator/Implementer pointer/import only. The Librarian reads it and never writes binaries.
+- **This track (`40k_warcom_quotes`):** does not rewrite list content and does not copy the Personal file over the games copy.
 
 ## History
 
@@ -42,7 +42,8 @@ Do not re-shop owned kits.
 |------|-------|
 | 2026-08-16 (Preflight) | External source patched to record confirmed ownership; Hierotek Circle TODO opened. Also recorded Tomb World as superseded — **erroneous** |
 | 2026-08-16 (re-sync) | `raw/Necron_Lists.md` re-aligned to the other copies, treating Tomb-World-owned content as drift — **also erroneous** |
-| 2026-08-16 (`tomb_world_ownership` S1) | **Correction.** Tomb World restored as owned and game-ready in all three copies; totals and shopping fixed; copies byte-identical again |
-| 2026-08-16 (`tomb_world_ownership` S3) | This pointer realigned to the corrected FOUNDATION |
+| 2026-08-16 (`tomb_world_ownership` S1) | **Correction.** Tomb World restored as owned and game-ready |
+| 2026-08-16 (`tomb_world_ownership` S3) | Pointer realigned to the corrected FOUNDATION |
+| 2026-08-18 (`40k_warcom_quotes` S1b) | **Ranking correction.** Personal path is SoT; games file is working copy; Personal wins on divergence. Previous ranking (games copy first, re-sync to Personal) was wrong. |
 
 The earlier claim on this page that Tomb World is **not** current ownership was wrong and has been removed. Do not reintroduce it.

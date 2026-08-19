@@ -1,5 +1,7 @@
 # 💀 WARHAMMER 40K 11TH EDITION NECRON EXPANSION BLUEPRINT (UPDATED)
 
+> **Working copy.** If this file and `C:\Personal\40K\Necron_Lists.md` diverge, **the Personal path wins.** Do not overwrite the Personal file from this copy. Ownership facts for play live in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
+
 This blueprint outlines expansion paths to a 1,000-point army using either the **Canoptek Court** or **Cryptek Conclave** detachment rules, based on **confirmed ownership as of 2026-08-16** — anchored on **Kill Team: Tomb World** as the game-ready learning baseline, with Hierotek Circle and sprue inventory for expansion.
 
 ---

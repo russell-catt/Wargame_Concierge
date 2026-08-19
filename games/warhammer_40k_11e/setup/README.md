@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -26,9 +26,11 @@ UPDATE_TRIGGER:
 
 # Setup - Warhammer 40,000 11th Edition
 
-**Status:** Populated in **S3**, from the owned Event Companion v1.1 and Core Rules PDF, both read **2026-08-16**.
+**Status:** Populated in **S3**, from the owned Event Companion v1.1 and Core Rules PDF, both read **2026-08-16**; rule-ID cites added **2026-08-18** (`40k_warcom_quotes`).
 
 Everything that happens before battle round one, plus the terrain rules that shape the whole game.
+
+This folder may quote WarCom-free Core / local `eng_*` with filename + page + rule ID. Teaching stays paraphrase. Event Companion mission layouts and base-size lists are **inventoried, not dumped**. **Warhammer 40,000 is Copyright Games Workshop Limited.** Personal use only; never for sale.
 
 ---
 
@@ -68,6 +70,7 @@ Full catalogue: [`reference/Source_Library.md`](../../../reference/Source_Librar
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Quote permission + Core ID cites (track `40k_warcom_quotes`). Event Companion still inventoried, not dumped.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-16): Replaced the S2 stub with a real index. Board_Setup and Terrain_Basics authored (slice S3).
 - v1.0 (2026-08-16): Stub created (slice S2).

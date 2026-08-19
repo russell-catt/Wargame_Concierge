@@ -4,7 +4,7 @@ type: changelog
 system: warhammer_40k_11e
 created: 2026-08-16
 updated: 2026-08-18
-version: 0.5.0
+version: 0.5.1
 sources: []
 confidence: verified
 tags: [changelog, promotion, governance]
@@ -44,6 +44,8 @@ Promotion requires human or Coordinator approval first - see [`AGENTS.md`](../AG
 | 2026-08-17 | L2 (`kt24_rules_quotes`) | **KT24 shipping — quote exception, not KB dump.** Target eligibility verbatim corpus + one-page HTML cheat sheet; Canoptek (5) + Plague (7) HTML datacards from local Teams PDFs. Policy: `AGENTS.md` Sec 10 + `games/kill_team_2024/README.md`. KB: policy row in [[glossary]], [[kill_team_2024_core_rules]] updated — no datacard text in KB. | [[kill_team_2024_core_rules]], `raw/pointers/kill_team_2024_*` | `games/kill_team_2024/rules/Target_Eligibility*.md/html`, `games/kill_team_2024/teams/{canoptek_circle,plague_marines}/cards/*.html` | **Closed 2026-08-18** (v0.5.0 snapshot; user-gated commit) |
 | 2026-08-18 | v0.5.0 snapshot | **Promotion closed + Patch_Manifest.** Target_Eligibility owner-verified (52 blocks); Patch_Manifest hierarchy ledger shipped. KB paraphrased from that shipping (no quote dump). Living docs `VERSION: v0.5.0`. | [[kill_team_2024_core_rules]], [[valid_target]] | `games/kill_team_2024/rules/Target_Eligibility.md`, `.../Patch_Manifest.md`, cheat sheet | Owner / user-gated commit |
 | 2026-08-18 | L2 (`flowcharting_uml`) | **Notation promotion, not a rules change.** House UML 2.5 activity flowcharting guide shipped; valid-target cheat sheet restyled to those shapes. Decision logic and PDF cites unchanged. uml-diagrams.org is a teaching reference (Kirill Fakhroutdinov), not a KT source. Exception to `verified` game-rules bar: notation pages remain `draft`. | [[flowcharting_uml_activity]], [[uml_diagrams_org]] | `docs/operations/Flowcharting.md`, `games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html` | Coordinator (this track; user-gated commit) |
+| 2026-08-18 | S1 (`40k_warcom_quotes`) | **Schema:** `AGENTS.md` Sec 10 — 40K WarCom-free verbatim quotes under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID). Codex wall. Core baseline; dated `eng_*` supersede; omission ≠ patch. KB/docs stay paraphrase. | [[warcom_free_core_rules_11e]] | `AGENTS.md`, `docs/operations/librarian_agent.md`, `games/warhammer_40k_11e/**/README.md` | Coordinator (this track; user-gated commit) |
+| 2026-08-18 | S2–S5 (`40k_warcom_quotes`) | **Shipping quote appendix + teaching ID cites.** Full Core ID index (156 IDs; 112 quote / 44 stub). Teaching spine keeps beginner paraphrase. Event Companion / MFM / Codex not dumped. Necron lists: games working copy; Personal path wins. | [[warcom_free_core_rules_11e]], [[glossary]] | `games/warhammer_40k_11e/rules/Core_Rules_Quotes.md`, `rules/*.md`, `setup/*.md` | Coordinator (this track; user-gated commit) |
 
 **Why L1 promoted nothing.** [`AGENTS.md`](../AGENTS.md) Sec 11 requires `confidence: verified`, or a stated exception, before a page ships. After L1 the KB holds one planning document and a source catalog - enough for a working synthesis, not enough for player-facing truth. The material that would change that is catalogued in [[local_library_pointers]] and unread. [[inherited_docs_for_S3]] sets out exactly which facts are stable enough for S3 to teach from.
 
@@ -53,6 +55,7 @@ Promotion requires human or Coordinator approval first - see [`AGENTS.md`](../AG
 
 | Version | Date | Change |
 |---------|------|--------|
+| v0.5.1 | 2026-08-18 | Sec 10 — 40K WarCom-free quote exception (`games/warhammer_40k_11e/rules/` + `setup/`); Codex wall; numbered Core IDs. Track `40k_warcom_quotes`. |
 | v0.5.0 | 2026-08-18 | Project-wide semver (`x.y.z`). YAML `version:` on KB pages. Git tags `v0.1.0` (commit `1fa3b7c`) and `v0.5.0` (this snapshot). |
 | v1.0 | 2026-08-16 | Initial schema. Karpathy `CLAUDE.md` adapted to wargames: `wiki/` becomes `KB/`; wargame entity types; glossary-only Keywords; `confidence` field and retrieval-date requirement added for a new edition; `snake_case` KB filenames. |
 

@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Game_System_Scaffold.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -188,7 +188,7 @@ This is the single most-used document during a real game, so it earns specific c
 
 ### System acceptance checks
 
-- [ ] Every rules document paraphrases; nothing is transcribed
+- [ ] Rules teaching documents paraphrase; verbatim publisher text appears only under a scoped quote exception (`games/kill_team_2024/`, or `games/warhammer_40k_11e/rules/` and `setup/` for WarCom-free 40K Core with rule IDs). Army/Codex folders stay paraphrase.
 - [ ] Terminology matches the knowledge base glossary - divergence is a lint finding
 - [ ] The vocabulary mapping table exists in the subtree README
 - [ ] Edition or version is stated on every rules document

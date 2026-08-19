@@ -6,7 +6,7 @@ systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-18
 version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -24,6 +24,8 @@ A personal **wargame concierge**: a knowledge base that helps its owner learn a 
 It is built on the Karpathy "LLM Wiki" pattern (see [`reference/llm-wiki.md`](../reference/llm-wiki.md)): immutable sources in `raw/`, an LLM-maintained knowledge layer in `KB/`, and player-facing content promoted into `docs/` and `games/`. The point is **compounding** - each source read and each question answered gets filed, so the same ground is never re-covered from scratch.
 
 The project is **game-agnostic by design**. `games/` holds one subtree per system. **Warhammer 40,000 11e** is the first worked example; **Kill Team 2024** is the second (onboarded). [`docs/Game_System_Scaffold.md`](../docs/Game_System_Scaffold.md) is the checklist for system #3.
+
+**40K Core quotes (2026-08-18).** Track `40k_warcom_quotes` added a numbered-ID appendix under [`games/warhammer_40k_11e/rules/Core_Rules_Quotes.md`](../games/warhammer_40k_11e/rules/Core_Rules_Quotes.md). **KB stays paraphrase.** Cite IDs such as **01.01** and **06.01**; do not paste Core quote bodies here. **Codex wall** still holds for army folders. See [[warcom_free_core_rules_11e]]. **Necron lists:** Personal `C:\Personal\40K\Necron_Lists.md` wins if the games working copy diverges.
 
 **Flowcharting (2026-08-18).** Print trees and ops mermaid charts use **UML 2.5 activity** shapes (start, action, decision+guards, end). That is project notation, not a rules term — see [[flowcharting_uml_activity]] and [[uml_diagrams_org]] (Kirill Fakhroutdinov / uml-diagrams.org). Shipping guide: [`docs/operations/Flowcharting.md`](../docs/operations/Flowcharting.md).
 
@@ -51,7 +53,7 @@ The edition is **new**, which shapes how this KB is written:
 
 - **Rules stay split.** Collision flags in [[glossary]]. Neither entry describes the other system's mechanic.
 - **Models can dual-use** with base-size honesty — [[kill_team_necron_photos]], [[necrons]].
-- **KT24 shipping** lives under [`games/kill_team_2024/`](../games/kill_team_2024/README.md) (`teams/` not `armies/`). **Quote exception** is scoped to that subtree only. **Hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches supersede; Jul 25 lite is intro — **omission is not a patch.** Ledger: [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md). Targeting quotes: [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) (owner-verified **2026-08-18**).
+- **Quote exception** is scoped to that subtree only. **Hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches supersede; Jul 25 lite is intro — **omission is not a patch.** Ledger: [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md). Targeting quotes: [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) (owner-verified **2026-08-18**). **40K** has a parallel exception under `games/warhammer_40k_11e/rules/` and `setup/` only — see [[warcom_free_core_rules_11e]].
 
 **What the v0.5.0 Librarian pass did.** Flagged the L1 Wahapedia drafts, then replaced them with teaching paraphrase of shipping. [[kill_team_2024_core_rules]] is `verified` **for the targeting subset only**. New pages: [[valid_target]], [[kill_team_terrain]], [[killzones_volkus_tomb_world]]. Teams / joint_ops / nemesis_ops / critical_ops stay index-only.
 

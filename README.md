@@ -169,7 +169,7 @@ This is a personal learning knowledge base, **not** a redistribution channel.
 
 - **Never** commit Games Workshop PDFs, official datasheet images, or other GW binaries. [`.gitignore`](.gitignore) blocks them; do not bypass it
 - The owned library at `C:\Personal\40K` stays **outside** this repo - markdown path pointers only
-- Write **teaching paraphrase** in `KB/` and 40K shipping. **KT24 quote exception** under `games/kill_team_2024/` only (owned local PDFs; Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro)
+- Write **teaching paraphrase** in `KB/` and `docs/`. **Quote exceptions (shipping only):** KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID). **Codex wall** on 40K army folders. Core / Full-Scan baseline; dated `eng_*` supersede; omission is not a patch
 - Cite where every claim can be checked, so a reader can verify against material they own
 
 ### Living references

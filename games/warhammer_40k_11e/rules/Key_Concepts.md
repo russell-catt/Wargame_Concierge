@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Key_Concepts.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -43,7 +43,9 @@ UPDATE_TRIGGER:
 
 Five or six ideas do almost all the work in Warhammer 40,000. Learn these and most datasheet text becomes readable.
 
-Checked against the owned Core Rules PDF on **2026-08-16**.
+Checked against the owned Core Rules PDF on **2026-08-16**. Numbered IDs point at [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md).
+
+**Contradiction check (2026-08-18):** attack sequence (**05.01–05.04**), cover as a BS penalty (**13.08**), `[HEAVY]` as +1 to the hit roll (**24.16**), and OC re-check (**14.02**) match the 2026-08-16 paraphrase. No rewrite.
 
 ---
 
@@ -81,12 +83,12 @@ Shooting and fighting both funnel into the same four steps. Everything you will 
 
 ### The four rolls
 
-**1. Hit roll.** Roll a D6 per attack dice. Meet or beat the weapon's BS (shooting) or WS (melee) and it hits.
+**1. Hit roll** (**05.01**). Roll a D6 per attack dice. Meet or beat the weapon's BS (shooting) or WS (melee) and it hits.
 
 - An unmodified **1 always fails**.
 - An unmodified **6 is a critical hit** - still a hit, and it also switches on abilities like `[LETHAL HITS]` and `[SUSTAINED HITS]`.
 
-**2. Wound roll.** Roll a D6 per hit, comparing the attack's Strength (S) to the target's Toughness (T):
+**2. Wound roll** (**05.02**). Roll a D6 per hit, comparing the attack's Strength (S) to the target's Toughness (T):
 
 | S versus T | You need |
 |------------|----------|
@@ -98,14 +100,14 @@ Shooting and fighting both funnel into the same four steps. Everything you will 
 
 - An unmodified **1 always fails**; an unmodified **6 is a critical wound**, which switches on abilities like `[DEVASTATING WOUNDS]` and `[ANTI-X]`.
 
-**3. Save roll.** Now the **defender** rolls, one D6 per wound. They pick between two options per attack:
+**3. Save roll** (**05.03**). Now the **defender** rolls, one D6 per wound. They pick between two options per attack:
 
 - **Armour save:** modify the roll by the weapon's AP, then compare to Sv. AP -1 turns a rolled 3 into a 2.
 - **Invulnerable save:** compare the unmodified roll to InSv. AP does nothing to it.
 
 An unmodified **1 always fails**. A failed save means the attack gets through.
 
-**4. Inflict damage.** Each attack that gets through costs the target model wounds equal to the weapon's D characteristic. At 0 wounds the model is destroyed. Excess damage from a single attack is lost - it does not spill onto the next model.
+**4. Inflict damage** (**05.04**). Each attack that gets through costs the target model wounds equal to the weapon's D characteristic. At 0 wounds the model is destroyed. Excess damage from a single attack is lost - it does not spill onto the next model.
 
 ### Who takes the hits
 
@@ -128,9 +130,9 @@ The rules that matter here:
 
 ## Objective Control - how you actually win
 
-Objectives are places on the table, usually a defined **terrain area**. A model is within range of a terrain objective simply by being inside that terrain area.
+Objectives are places on the table, usually a defined **terrain area** (**14.01**). A model is within range of a terrain objective simply by being inside that terrain area.
 
-At the end of **every phase and every turn**:
+At the end of **every phase and every turn** (**14.02**):
 
 1. Each player adds up the **OC** of all their models within range of the objective.
 2. The higher total controls it. A tie means nobody controls it.
@@ -150,9 +152,9 @@ Full concept page: [`../../../KB/concepts/objective_control.md`](../../../KB/con
 
 Morale in 11th Edition is one roll with three sharp consequences.
 
-**When:** in the Command phase, for each of your units that is already battle-shocked or is at/below half-strength. Some other rules force extra rolls.
+**When:** in the Command phase (**08.03**), for each of your units that is already battle-shocked or is at/below half-strength. Some other rules force extra rolls.
 
-**How:** roll 2D6 against the unit's Leadership. Pass and nothing happens - and a currently battle-shocked unit recovers.
+**How:** roll 2D6 against the unit's Leadership (**01.06**, **01.07**). Pass and nothing happens - and a currently battle-shocked unit recovers.
 
 **Fail, and while battle-shocked:**
 
@@ -167,7 +169,7 @@ Morale in 11th Edition is one roll with three sharp consequences.
 
 ## Leaders, Support, and attached units
 
-Characters do not usually fight alone. Before the battle, a **Leader** unit or a **Support** unit is attached to an eligible **bodyguard** unit, and from then on they are **one unit** for every rules purpose.
+Characters do not usually fight alone. Before the battle, a **Leader** unit or a **Support** unit is attached to an eligible **bodyguard** unit (**19.01**), and from then on they are **one unit** for every rules purpose.
 
 What follows from that:
 
@@ -182,7 +184,7 @@ What follows from that:
 
 ## Command Points and stratagems
 
-Both players gain **1 CP** in the Command phase. You spend CP on **stratagems** - one-off effects with a stated trigger, target, and effect.
+Both players gain **1 CP** in the Command phase (**08.02**). You spend CP on **stratagems** (**15.01**) - one-off effects with a stated trigger, target, and effect.
 
 The core restrictions:
 
@@ -205,6 +207,7 @@ Core stratagems every army has include Command Re-roll, Insane Bravery, Fire Ove
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Rule-ID cites; cover/Heavy/OC paraphrase confirmed (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial core mechanics guide (slice S3), from the owned Core Rules PDF and Necrons Faction Pack v1.1, both read 2026-08-16.
 

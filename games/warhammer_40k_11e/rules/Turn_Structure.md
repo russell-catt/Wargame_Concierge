@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Turn_Structure.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -37,13 +37,15 @@ UPDATE_TRIGGER:
 
 Read top to bottom. Each phase has a short "what you are actually deciding" note, because knowing the order is not the same as knowing what matters.
 
-Checked against the owned Core Rules PDF on **2026-08-16**.
+Checked against the owned Core Rules PDF on **2026-08-16**. Numbered IDs point at [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md).
+
+**Contradiction check (2026-08-18):** move types (**09.04–09.07**), shooting types (**10.04–10.07**), charge (**11.02**, **11.04**), pile-in/consolidate (**12.02–12.08**), and Core CP (**08.02**) match the 2026-08-16 paraphrase. No rewrite.
 
 ---
 
 ## The frame around your turn
 
-A **battle round** is: start-of-round rules, then **both** players take a turn, then end-of-round rules. The same player takes the first turn every round - the mission tells you who.
+A **battle round** (**07**) is: start-of-round rules, then **both** players take a turn, then end-of-round rules. The same player takes the first turn every round - the mission tells you who.
 
 Your turn is seven parts: a Start of Turn step, five phases, an End of Turn step.
 
@@ -60,8 +62,8 @@ Your turn is seven parts: a Start of Turn step, five phases, an End of Turn step
 *What you are deciding: nothing much yet - this is bookkeeping and morale.*
 
 - [ ] Resolve start-of-Command-phase triggers.
-- [ ] **Both players gain 1 CP.** (This is "Core CP"; it is a normal Command Point.)
-- [ ] **Battle-shock.** Make a battle-shock roll for each of your units that is either already battle-shocked, or at/below half-strength.
+- [ ] **Both players gain 1 CP.** (This is "Core CP" — **08.02**; it is a normal Command Point.)
+- [ ] **Battle-shock** (**08.03**, **01.07**). Make a battle-shock roll for each of your units that is either already battle-shocked, or at/below half-strength.
   - Roll 2D6 and compare against the unit's Leadership. Pass and nothing happens; a unit that was battle-shocked recovers.
   - Fail and the unit is **battle-shocked**: its OC drops to nothing, you cannot target it with stratagems, and it cannot perform actions.
 - [ ] Use any abilities that trigger in the Command phase. **Necrons: Reanimation Protocols activate at the end of this phase.**
@@ -80,10 +82,10 @@ Your options:
 
 | Move type | Distance | Cost |
 |-----------|----------|------|
-| **Remain Stationary** | Nothing moves | None. Keeps [HEAVY] weapon bonuses and indirect-fire accuracy |
-| **Normal Move** | Up to the unit's Move (M) | Must start and end unengaged |
-| **Advance Move** | M + a D6 roll | Cannot charge or start an action this turn; can only shoot [ASSAULT] weapons |
-| **Fall Back** | Up to M | Escapes melee, but cannot shoot, charge, or start an action this turn |
+| **Remain Stationary** (**09.04**) | Nothing moves | None. Keeps [HEAVY] weapon bonuses and indirect-fire accuracy |
+| **Normal Move** (**09.05**) | Up to the unit's Move (M) | Must start and end unengaged |
+| **Advance Move** (**09.06**) | M + a D6 roll | Cannot charge or start an action this turn; can only shoot [ASSAULT] weapons |
+| **Fall Back** (**09.07**) | Up to M | Escapes melee, but cannot shoot, charge, or start an action this turn |
 | **Disembark** | From a transport | Mode depends on what the transport did |
 | **Ingress** | Arriving from reserves | Comes in from a battlefield edge, or anywhere if the unit has Deep Strike |
 
@@ -103,10 +105,10 @@ Your options:
 
 | Shooting type | Use when |
 |---------------|----------|
-| **Normal** | Unengaged and did not Advance |
-| **Assault** | Unengaged and **did** Advance - only [ASSAULT] weapons may fire |
-| **Close-quarters** | Engaged in melee - only [CLOSE-QUARTERS] weapons, only at units you are engaged with |
-| **Indirect** | Unengaged, did not Advance, has [INDIRECT FIRE] weapons - can hit targets you cannot see, at a heavy accuracy penalty and giving the target cover |
+| **Normal** (**10.04**) | Unengaged and did not Advance |
+| **Assault** (**10.05**) | Unengaged and **did** Advance - only [ASSAULT] weapons may fire |
+| **Close-quarters** (**10.06**) | Engaged in melee - only [CLOSE-QUARTERS] weapons, only at units you are engaged with |
+| **Indirect** (**10.07**) | Unengaged, did not Advance, has [INDIRECT FIRE] weapons - can hit targets you cannot see, at a heavy accuracy penalty and giving the target cover |
 
 - [ ] For each shooting unit: select weapons, select targets, then resolve the attack sequence (hit, wound, save, damage). Full detail in [`Key_Concepts.md`](Key_Concepts.md).
 - [ ] Targets must normally be **visible**, **in range**, and **unengaged**. Enemy Monsters and Vehicles are the exception - you can shoot those while they are engaged, at -1 to hit.
@@ -119,7 +121,7 @@ Your options:
 *What you are deciding: whether a 2D6 gamble is worth it. Failing a charge usually means standing in the open.*
 
 - [ ] Resolve start-of-phase triggers.
-- [ ] Pick a unit that is eligible to charge. It must be **within 12" of an enemy unit**, not already engaged, and it must not have Advanced or Fallen Back this turn.
+- [ ] Pick a unit that is eligible to charge (**11.02**). It must be **within 12" of an enemy unit**, not already engaged, and it must not have Advanced or Fallen Back this turn.
 - [ ] **Roll 2D6.** That is your maximum charge distance.
 - [ ] Nominate your charge targets - each must be within 12" and within the rolled distance - and move. Every model must end closer to a target, and engage a target if it can.
 - [ ] If you cannot end up engaged with **all** nominated targets, the charge fails and nothing moves.
@@ -135,13 +137,13 @@ Your options:
 *What you are deciding: activation order. Both players act here, alternating, so sequencing is a real skill.*
 
 - [ ] Resolve start-of-phase triggers.
-- [ ] **Pile In.** Both players make 3" pile-in moves with eligible units - you first, then your opponent. Models already in base contact cannot move.
+- [ ] **Pile In** (**12.02**, **12.03**). Both players make 3" pile-in moves with eligible units - you first, then your opponent. Models already in base contact cannot move.
 - [ ] **Fight.**
   - Resolve all **Fights First** units first, alternating between players, starting with you.
   - Then alternate through everyone else, still starting with whoever is next in sequence.
   - Each fighting unit picks one melee weapon per model, picks targets it is engaged with, and resolves the attack sequence.
   - You **must** fight with every unit that can. Piling in and consolidating are optional.
-- [ ] **Consolidate.** Both players make 3" consolidation moves - you first. The mode is forced by circumstance: stay engaged if you already are, otherwise engage an enemy within 3", otherwise move onto an objective within 3".
+- [ ] **Consolidate** (**12.07**, **12.08**). Both players make 3" consolidation moves - you first. The mode is forced by circumstance: stay engaged if you already are, otherwise engage an enemy within 3", otherwise move onto an objective within 3".
 - [ ] Resolve end-of-phase triggers.
 
 > **Objective Consolidation is a scoring tool, not an afterthought.** If nothing is close enough to fight, a 3" shuffle onto an objective can be worth more than the combat was.
@@ -181,6 +183,7 @@ Your turn ends. Your opponent takes theirs. When both have gone, the battle roun
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Rule-ID cites; no paraphrase rewrite (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial phase checklist (slice S3), written from the owned Core Rules PDF read 2026-08-16.
 

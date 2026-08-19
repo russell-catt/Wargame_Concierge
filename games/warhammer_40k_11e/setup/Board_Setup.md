@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Board_Setup.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -37,7 +37,9 @@ UPDATE_TRIGGER:
 
 # Board Setup - getting from empty table to battle round one
 
-The mission you play defines the specifics. This page teaches the shape that every mission follows, using the sequence in the owned Event Companion Version 1.1, read **2026-08-16**.
+The mission you play defines the specifics. This page teaches the shape that every mission follows, using the sequence in the owned Event Companion Version 1.1, read **2026-08-16**. Core IDs point at [`../rules/Core_Rules_Quotes.md`](../rules/Core_Rules_Quotes.md). Event Companion mission layouts and base-size lists are **not dumped** this track.
+
+**Contradiction check (2026-08-18):** 44"×60" board and the fourteen-step sequence still match Event Companion v1.1 p.1–2. Non-Core CP cap (1 per battle round, excluding Core CP) is already in the shipping glossary. No rewrite.
 
 ---
 
@@ -45,7 +47,7 @@ The mission you play defines the specifics. This page teaches the shape that eve
 
 | Format | Size |
 |--------|------|
-| **Standard event battlefield** | **44" by 60"** |
+| **Standard event battlefield** | **44" by 60"** (Event Companion v1.1) |
 | Combat Patrol and other small formats | Smaller; the owned A4 terrain pack includes a dedicated Combat Patrol battlezone layout |
 | Learning games | Whatever you have. A 4' x 4' or even a 3' x 4' surface works to teach the sequence |
 
@@ -108,7 +110,7 @@ Two mechanical details that trip beginners:
 - **An objective is usually a terrain area, not a token.** If the map's objective point sits on a terrain area, that whole terrain area is the objective, and a model is in range simply by standing inside it.
 - **Only where it does not** do you use a physical **objective marker**: a flat circular marker 40 mm across. Range to a marker is 3" horizontally and 5" vertically.
 
-Control is decided by adding up **Objective Control (OC)** and comparing totals, re-checked at the end of every phase and turn. See [`../rules/Key_Concepts.md`](../rules/Key_Concepts.md).
+Control is decided by adding up **Objective Control (OC)** (**14.02**) and comparing totals, re-checked at the end of every phase and turn. See [`../rules/Key_Concepts.md`](../rules/Key_Concepts.md). **This is not Kill Team's 1" control range.**
 
 ---
 
@@ -116,8 +118,8 @@ Control is decided by adding up **Objective Control (OC)** and comparing totals,
 
 Decided at step 7, before anyone deploys:
 
-- The combined points value of your reserves cannot exceed **50% of your points limit**.
-- They arrive from the **second battle round** onward, via an ingress move.
+- The combined points value of your reserves cannot exceed **50% of your points limit** (**20.01**).
+- They arrive from the **second battle round** onward, via an ingress move (**20.03**, **20.04**).
 - Normal arrivals come in within 6" of a battlefield edge, more than 8" from all enemies, and **not** in your opponent's deployment zone before the third battle round.
 - Units with **Deep Strike** may instead arrive anywhere more than 8" from enemies.
 - Anything still in reserve at the **end of the third battle round is destroyed**. Reserves are a timing tool, not a hiding place.
@@ -183,6 +185,7 @@ This page teaches the pattern; the numbers come from the mission you are playing
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Rule-ID cites; Event Companion still inventoried not dumped (track `40k_warcom_quotes` S4/S5).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial board setup guide (slice S3), from the owned Event Companion v1.1 and Core Rules PDF, both read 2026-08-16.
 

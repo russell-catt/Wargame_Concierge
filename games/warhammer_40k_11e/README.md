@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -39,6 +39,10 @@ First worked example in Wargame_Concierge. **Edition in scope: 11th Edition (11e
 
 Two forces in this track: **Necrons** (parent) and **Space Marines** (son).
 
+**Personal use only — this project must never be sold.**
+
+**Rules quoting (40K rules/setup only):** [`rules/`](rules/) and [`setup/`](setup/) may reproduce **verbatim** WarCom-**free** Core text (and matching local `C:\Personal\40K\rules\eng_*`) with filename + page + **rule ID**. **Codex wall:** [`armies/`](armies/) stays teaching paraphrase — never quote Codex / Faction Pack / paid army rules. **Hierarchy:** Core PDF is baseline; dated `eng_*` stamps supersede on the same topic; omission is not a patch. Citation spine: [`rules/Core_Rules_Quotes.md`](rules/Core_Rules_Quotes.md).
+
 ---
 
 ## Vocabulary mapping
@@ -61,8 +65,8 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 ## How to learn
 
 1. **Sources first** — read [`reference/Source_Library.md`](../../reference/Source_Library.md) for local PDF paths and living web URLs. Cross-check every rules claim.
-2. **Rules spine** — `rules/` documents (stubs now; full content in S3) explain what a game is, turn order, and key concepts.
-3. **Setup** — `setup/` documents (stubs now; full content in S3) cover board size, deployment, and terrain.
+2. **Rules spine** — `rules/` teaching paraphrase plus [`rules/Core_Rules_Quotes.md`](rules/Core_Rules_Quotes.md) for numbered Core IDs.
+3. **Setup** — `setup/` documents cover board size, deployment, and terrain (IDs cited; Event Companion inventoried, not dumped).
 4. **Pick a force** — start with [`armies/necrons/README.md`](armies/necrons/README.md) or [`armies/space_marines/README.md`](armies/space_marines/README.md).
 5. **Match reality** — always check [`Owned_Models_Inventory.md`](armies/necrons/Owned_Models_Inventory.md) (Necrons) before building a list from what you actually own.
 
@@ -74,7 +78,7 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 
 | Path | Status | Purpose |
 |------|--------|---------|
-| [`rules/README.md`](rules/README.md) | Stub | Rules teaching spine |
+| [`rules/README.md`](rules/README.md) | Active | Rules teaching spine + numbered quote appendix |
 | [`setup/README.md`](setup/README.md) | Stub | Board and terrain setup |
 | [`armies/necrons/`](armies/necrons/) | Partial | Parent's Necron force |
 | [`armies/space_marines/`](armies/space_marines/) | Partial | Son's Space Marine force |
@@ -83,6 +87,7 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): WarCom-free quote exception for `rules/` + `setup/`; Codex wall on `armies/`; Core_Rules_Quotes link (track `40k_warcom_quotes`).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Noted Death Guard folder as KT cross-link stub only (slice S5, kill_team_2024_scaffold) — locked 40K forces remain Necrons + Space Marines.
 - v1.0 (2026-08-16): Initial scaffold (slice S2). README, army folders, Necron import.

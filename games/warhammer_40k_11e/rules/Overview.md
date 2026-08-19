@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Overview.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -41,13 +41,15 @@ UPDATE_TRIGGER:
 
 # Overview - what a game of Warhammer 40,000 is
 
-Everything below is written in plain language for a first-time player. Nothing here is copied from Games Workshop text; it is our own explanation of how the game works, checked against the owned Core Rules PDF on **2026-08-16**.
+Everything below is written in plain language for a first-time player. Nothing here is copied from Games Workshop text; it is our own explanation of how the game works, checked against the owned Core Rules PDF on **2026-08-16**. Numbered IDs such as **01.01** point at [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md).
+
+**Contradiction check (2026-08-18):** the 2026-08-16 paraphrase was re-read against Core IDs **01.01**, **07.01–07.03**, **08.02**, and Event Companion board size. No rewrite required. Event non-Core CP cap (1 per battle round) was already in [`Keyword_Glossary.md`](Keyword_Glossary.md); Core **08.02** is still “both players gain 1 Core CP.”
 
 ---
 
 ## What a game actually is
 
-Two players each command an **army** of miniatures. You take turns moving those models around a table dressed with scenery, shooting at each other, and fighting hand-to-hand. Dice decide whether attacks land and whether they hurt.
+Two players each command an **army** of miniatures (**01.01**). You take turns moving those models around a table dressed with scenery, shooting at each other, and fighting hand-to-hand. Dice decide whether attacks land and whether they hurt.
 
 The single most important thing a beginner gets wrong: **you do not win by killing the most models.** You win by scoring **victory points (VP)**, and most VP come from standing on the right pieces of ground at the right moment. Killing things is a means to that end, not the end itself.
 
@@ -62,17 +64,17 @@ The game is built out of nested pieces. Learn these four words and the structure
 | Piece | What it is |
 |-------|-----------|
 | **Battle** | The whole game. Normally five battle rounds long. |
-| **Battle round** | One full cycle in which **both** players take a turn. Same player always goes first each round. |
+| **Battle round** (**07.01–07.03**) | One full cycle in which **both** players take a turn. Same player always goes first each round. |
 | **Turn** | One player's go. Contains a Start of Turn step, five phases, and an End of Turn step. |
 | **Phase** | One kind of activity - marshalling, moving, shooting, charging, fighting. |
 
 The five phases always happen in the same order:
 
-1. **Command** - both players gain 1 Command Point (CP); you check morale (battle-shock) on your shaky units.
-2. **Movement** - you move every unit, and reinforcements arrive from reserves.
-3. **Shooting** - your units fire ranged weapons.
-4. **Charge** - your units run into contact with the enemy.
-5. **Fight** - **both** players' units swing melee weapons. This is the only phase where your opponent acts during your turn.
+1. **Command** (**08**) - both players gain 1 Core Command Point (CP) (**08.02**); you check morale (battle-shock) on your shaky units (**08.03**, **01.07**).
+2. **Movement** (**09**) - you move every unit, and reinforcements arrive from reserves.
+3. **Shooting** (**10**) - your units fire ranged weapons.
+4. **Charge** (**11**) - your units run into contact with the enemy.
+5. **Fight** (**12**) - **both** players' units swing melee weapons. This is the only phase where your opponent acts during your turn.
 
 The full step-by-step checklist lives in [`Turn_Structure.md`](Turn_Structure.md).
 
@@ -92,7 +94,7 @@ Under the tournament framework in the owned Event Companion (Version 1.1), VP co
 
 That is a 100VP ceiling, and **90 of those 100 points come from doing things on the board rather than from destroying the enemy.** Casual pick-up games do not have to use the event caps, but the shape is the same: objectives first.
 
-Objectives are specific spots on the table. You control one by having more **Objective Control (OC)** there than your opponent - see [`Key_Concepts.md`](Key_Concepts.md). This is why ten cheap infantry models can beat one expensive tank at the thing that actually scores.
+Objectives are specific spots on the table. You control one by having more **Objective Control (OC)** there than your opponent (**14.02**) - see [`Key_Concepts.md`](Key_Concepts.md). This is why ten cheap infantry models can beat one expensive tank at the thing that actually scores.
 
 ---
 
@@ -181,6 +183,7 @@ A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structur
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Rule-ID cites; no paraphrase rewrite (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-16): Corrected "Your realistic first game" - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not just the Hierotek Circle set. Removed the "only Hierotek is table-ready" claim; flagged the second Warriors squad, second Scarab set, and Immortals as owned/unassembled (slice S2, `tomb_world_ownership`).
 - v1.0 (2026-08-16): Initial teaching overview (slice S3). Written from the owned Core Rules PDF and Event Companion v1.1, both read 2026-08-16.

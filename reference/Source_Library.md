@@ -1,6 +1,6 @@
 <!--
 FILE: reference/Source_Library.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -49,7 +49,7 @@ Catalog of **local path pointers** and **living web references** for this projec
 |------|--------|
 | **Never commit GW binaries** | No PDFs, webp, png, or official images in this repository |
 | **Path pointers only** | Local files stay under `C:\Personal\40K` or `C:\Personal\Kill Team`; the repo records paths |
-| **Teaching paraphrase** | Written content in `docs/` and `games/` explains rules in our own words |
+| **Teaching paraphrase** | `KB/` and `docs/` explain rules in our own words. Scoped verbatim quotes: KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID). Codex / Faction Pack / MFM points are not dumped |
 | **Cross-check before play** | Verify claims against owned PDFs and living web sources with a retrieval date |
 | **White Dwarf captures** | Secondary trust — never override official rules/team/mission/Nemesis PDFs |
 
@@ -63,9 +63,9 @@ All paths below are on the owner's machine. **Do not copy these files into git.*
 
 | Path | Contents |
 |------|----------|
-| `C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf` | Core rules (11th Edition) |
-| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf` | Universal rules updates |
-| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf` | Event companion |
+| `C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf` | Core rules (11th Edition). WarCom-free baseline. Numbered IDs. Quote appendix: `games/warhammer_40k_11e/rules/Core_Rules_Quotes.md` |
+| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf` | Universal rules updates v1.0 (22 Jul 2026). Dated stamp supersedes Core on the same topic |
+| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf` | Event companion v1.1. Inventoried; mission layouts / base sizes **not dumped** |
 
 ### Faction packs (11th Edition)
 
@@ -156,9 +156,12 @@ Use these for edition drift checks. Record a **retrieval date** on any claim sou
 | Source | URL | Use |
 |--------|-----|-----|
 | **Warhammer Community** | https://www.warhammer-community.com/en-gb/ | Official FAQs, balance datasheets, announcements |
+| **WarCom — free Core (2026-06-01)** | https://www.warhammer-community.com/en-gb/articles/nhqt9wx3/new40k-rules-download-the-free-core-rules-now/ | Discovery; local Core PDF is SoT |
+| **WarCom — 40K downloads** | https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/ | Free downloads hub (retrieved 2026-08-18) |
+| **WarCom — July update (2026-07-22)** | https://www.warhammer-community.com/en-gb/articles/rgqanids/warhammer-40000-july-update-what-you-need-to-know/ | Discovery; local `eng_22-07_*` is SoT |
 | **Wahapedia (index)** | https://wahapedia.ru/ | Community rules reference; cross-check against owned PDFs |
-| **Wahapedia — Necrons** | https://wahapedia.ru/wh40k10ed/factions/necrons | Necron faction hub (11th Edition content) |
-| **Wahapedia — Space Marines** | https://wahapedia.ru/wh40k10ed/factions/space-marines | Space Marines faction hub (11th Edition content) |
+| **Wahapedia — Necrons** | https://wahapedia.ru/wh40k10ed/factions/necrons | **Flag:** URL still `wh40k10ed` — lookup only, not 11e SoT |
+| **Wahapedia — Space Marines** | https://wahapedia.ru/wh40k10ed/factions/space-marines | Same 10e path flag |
 
 ### Kill Team
 
@@ -192,8 +195,8 @@ These files were **copied into the repo** as allowed personal notes (not GW PDFs
 
 | Repo path | Origin | Notes |
 |-----------|--------|-------|
-| [`raw/Necron_Lists.md`](../raw/Necron_Lists.md) | `C:\Personal\40K\rules\Necron_Lists.md` | **Preflight-updated 2026-08-16.** Expansion blueprint with confirmed ownership. Authoritative for Necron collection planning. |
-| [`games/warhammer_40k_11e/armies/necrons/Necron_Lists.md`](../games/warhammer_40k_11e/armies/necrons/Necron_Lists.md) | Same source | Working copy in the 40K game subtree |
+| [`raw/Necron_Lists.md`](../raw/Necron_Lists.md) | `C:\Personal\40K\Necron_Lists.md` | Imported snapshot. **Personal path is SoT** |
+| [`games/warhammer_40k_11e/armies/necrons/Necron_Lists.md`](../games/warhammer_40k_11e/armies/necrons/Necron_Lists.md) | Same Personal file | **Working copy.** If they diverge, Personal wins. Do not overwrite Personal |
 
 ### Ownership snapshot (from FOUNDATION — 2026-08-16)
 
@@ -223,6 +226,7 @@ Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb Worl
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): WarCom-free Core quote path; July `eng_*` hierarchy; Wahapedia 10e URL flag; Necron lists Personal-wins ranking (track `40k_warcom_quotes`).
 - v0.5.1 (2026-08-18): uml-diagrams.org notation row + Fakhroutdinov credit (track `flowcharting_uml` S0).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Kill Team 2024 + 2021 library rows, living KT web refs, Screen_Captures secondary-trust note (slice S0, kill_team_2024_scaffold).

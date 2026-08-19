@@ -26,7 +26,8 @@ Owned local PDF library for Kill Team 2024 (3e). **Personal use only — never f
 |-------|---------------------|
 | `games/kill_team_2024/` | **Yes** — owned PDFs at `C:\Personal\Kill Team\kill_team_2024\` (core + Teams); cite filename + page |
 | `KB/` | **No** — teaching paraphrase, pointers, index only; no full datacard dump |
-| `games/warhammer_40k_11e/` | **No** — unchanged paraphrase rule |
+| `games/warhammer_40k_11e/` army folders | **No** — Codex wall |
+| `games/warhammer_40k_11e/rules/` and `setup/` | **Yes (2026-08-18)** — WarCom-free Core + rule IDs; see [[warcom_free_core_rules_11e]] |
 
 WarCom free downloads allowed by policy but **not fetched this pass** (owner lock 2026-08-17).
 

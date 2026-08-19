@@ -3,8 +3,8 @@ title: Ingest Procedure
 type: ingest_procedure
 system: warhammer_40k_11e
 created: 2026-08-16
-updated: 2026-08-16
-version: 0.5.0
+updated: 2026-08-18
+version: 0.5.1
 sources: []
 confidence: verified
 tags: [procedure, ingest, workflow, copyright]
@@ -25,7 +25,7 @@ How a source becomes knowledge in this project. [`AGENTS.md`](../AGENTS.md) Sec 
 | Markdown notes written by the owner | Games Workshop PDFs |
 | Imported list blueprints | Official datasheet images or scans |
 | Pointer stubs to `C:\Personal\40K` | `.webp` / `.png` / `.jpg` / any binary |
-| Research excerpts we author ourselves | Verbatim transcriptions of rules text |
+| Research excerpts we author ourselves | Verbatim transcriptions of rules text **in `KB/`** (scoped shipping quotes live under `games/` per [`AGENTS.md`](../AGENTS.md) Sec 10) |
 | Living-reference notes with URL + retrieval date | Anything copyrighted and redistributable |
 
 Binaries are blocked by [`.gitignore`](../.gitignore). **Do not bypass it.** If a source only exists as a PDF, the correct move is a **pointer stub** in `raw/pointers/` recording the local path and what it contains - never a copy.
@@ -40,7 +40,7 @@ Wargame sources behave differently and need different handling.
 
 | Class | Example | Handling |
 |-------|---------|----------|
-| **Owned rules material** | A rulebook or codex PDF under `C:\Personal\40K` | Pointer only. Read it, paraphrase for teaching, cite the path. Never copy in. |
+| **Owned rules material** | A rulebook or codex PDF under `C:\Personal\40K` | Pointer only. Read it. **Paraphrase into `KB/`**. Numbered Core IDs may be cited (`01.01`). Verbatim quotes only in scoped `games/` paths. Never copy the PDF in. |
 | **Living web reference** | Warhammer Community article, Wahapedia page | Record URL **and retrieval date**. Starts at `draft`. Re-check when a dataslate drops. |
 | **Owner's own notes** | `Necron_Lists.md`, model inventory, game notes | Freely ingestable. Highest trust for ownership and preference facts; **not** authoritative for rules. |
 | **Play experience** | Notes from a game actually played | Ingest into `KB/analyses/`. Authoritative for "what happened", never for "what the rule says". |

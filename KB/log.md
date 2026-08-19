@@ -5,7 +5,7 @@ system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-18
-version: 0.5.0
+version: 0.5.1
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -354,4 +354,31 @@ Key additions:
 - Shipping (S1/S2, logged here for the ingest): `docs/operations/Flowcharting.md`; cheat sheet restyle only
 
 Nothing under `raw/` written. Coordinator one commit at track close; no push.
+
+## [2026-08-18] ingest | 40k_warcom_quotes L1 — WarCom-free 11e Core
+
+**Track / slice:** 40k_warcom_quotes / L1 (Librarian)
+
+Pages created: [[warcom_free_core_rules_11e]]
+
+Pages updated: [[glossary]] (rule-ID citation convention; OC vs KT 1" control range), [[ingest_procedure]], [[index]], [[overview]], [[kill_team_2024_core_rules]] (40K quote-policy row)
+
+Key additions:
+- Retrieval **2026-08-18**; local Core + July `eng_22-07_*` pointers; WarCom URL as discovery
+- KB paraphrase only; shipping quotes in `games/warhammer_40k_11e/rules/Core_Rules_Quotes.md`
+- Confidence `draft` until QA-Q
+
+Implementer (not Librarian) updated `raw/pointers/*.md`. No binaries. No Codex dump.
+
+## [2026-08-18] ingest | 40k_warcom_quotes L2 — promotions + QA
+
+**Track / slice:** 40k_warcom_quotes / L2 (Librarian) after QA-Q / QA-T PASS
+
+Pages updated: [[changelog]], [[log]], [[overview]], [[warcom_free_core_rules_11e]] (QA scope noted; remains `draft` — 112 quote bodies not owner-verified line-by-line)
+
+Key additions:
+- Promotion rows for `AGENTS.md` Sec 10 and `Core_Rules_Quotes.md`
+- QA-Q: 01.01, 06.01, July sheet, stubs 15.02 / 23.01 / 24.05 PASS
+- QA-T: teaching still playable; Codex wall holds; Necron Personal-wins pointer consistent
+- No Core paraphrase contradictions requiring rewrite (cover **13.08**, Heavy **24.16**, OC **14.02**)
 

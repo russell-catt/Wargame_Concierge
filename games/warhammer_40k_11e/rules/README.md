@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -24,9 +24,11 @@ UPDATE_TRIGGER:
 
 # Rules - Warhammer 40,000 11th Edition
 
-**Status:** Populated in **S3**. All four documents were written from the owned 11th Edition PDFs, read **2026-08-16**.
+**Status:** Teaching spine from **S3** (owned PDFs, read **2026-08-16**); numbered quote appendix from track **`40k_warcom_quotes`** (read **2026-08-18**).
 
-Everything here is **teaching paraphrase** - our own explanation of how the rules work. No publisher text, statlines, or stratagem wording is reproduced.
+Teaching pages stay **beginner paraphrase**. Verbatim Core text lives only in [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md) (WarCom-free + local `eng_*`; filename + page + rule ID). Army / Codex / Faction Pack rules are **not** quoted here. **Warhammer 40,000 is Copyright Games Workshop Limited.** Personal use only; never for sale.
+
+**Hierarchy:** Core (`eng_01-06_*`) is baseline; dated `eng_*` (July universal updates, Event Companion) supersede on the same topic; omission is not a patch.
 
 ---
 
@@ -38,6 +40,7 @@ Everything here is **teaching paraphrase** - our own explanation of how the rule
 | 2 | [`Turn_Structure.md`](Turn_Structure.md) | A checklist for one player turn, phase by phase, with the common beginner mistakes |
 | 3 | [`Key_Concepts.md`](Key_Concepts.md) | The mechanics everything else sits on: the attack sequence, saves and damage, Objective Control, battle-shock, attached units |
 | 4 | [`Keyword_Glossary.md`](Keyword_Glossary.md) | Every term in one place, grouped by movement, shooting, melee, saves, and mission - with a confidence status on each |
+| — | [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md) | Numbered Core ID index; verbatim quotes for teaching-spine + visibility/cover/armies; stubs for the rest |
 
 Setup and terrain live one level across, in [`../setup/`](../setup/):
 
@@ -64,6 +67,7 @@ Every claim in this section can be checked against the local library catalogued 
 ---
 
 ## Change Log
+- v0.5.1 (2026-08-18): Quote appendix + WarCom-free exception (track `40k_warcom_quotes`). Teaching pages remain paraphrase with rule-ID cites.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-16): Replaced the S2 stub with a real index. Four rules documents authored (slice S3).
 - v1.0 (2026-08-16): Stub created (slice S2).

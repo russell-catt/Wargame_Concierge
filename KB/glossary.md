@@ -5,8 +5,8 @@ system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-18
-version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org]
+version: 0.5.1
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -42,6 +42,8 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **The shipping surface.** [`games/warhammer_40k_11e/rules/Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md) is the player-facing glossary S3 owns; it is longer than this page and carries the weapon-ability keywords in full. **This page is the KB-side working surface and defers to it on any term both define.** Where the two ever disagree, that disagreement is a lint finding, not a preference.
 
+**40K rule-ID cites (2026-08-18).** Shipping teaching may name Core IDs (`01.01`, `06.01`, …). The quote appendix is [`games/warhammer_40k_11e/rules/Core_Rules_Quotes.md`](../games/warhammer_40k_11e/rules/Core_Rules_Quotes.md). **This glossary stays paraphrase** — cite the ID and wikilink; do not paste Core quote bodies here. See [[warcom_free_core_rules_11e]].
+
 ---
 
 ## Entry format
@@ -56,11 +58,12 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Core rules and scoring
 
-**Objective Control** *(OC)* - `verified` · **upgraded in L2**
-: A characteristic on a model's profile representing how strongly it holds ground. Players total the OC of their eligible models within range of an objective marker; the higher total controls it. It is why a cheap, numerous unit can hold ground an elite unit cannot, and why the game is won by positioning rather than kill count.
-: **Confirmed in 11th Edition (S3, owned Core Rules, read 2026-08-16):** control is re-checked at the end of **every phase and every turn**, and a **battle-shocked** unit contributes no OC at all.
+**Objective Control** *(OC)* - `verified` · **upgraded in L2** · **ID cite 2026-08-18**
+: A characteristic on a model's profile representing how strongly it holds ground. Players total the OC of their eligible models within range of an objective; the higher total controls it. It is why a cheap, numerous unit can hold ground an elite unit cannot, and why the game is won by positioning rather than kill count.
+: **Confirmed in 11th Edition (S3, owned Core Rules, read 2026-08-16; IDs re-cited 2026-08-18):** control is re-checked at the end of **every phase and every turn** (**14.02**), and a **battle-shocked** unit contributes no OC at all (**01.07**).
+: **Collision flag (strengthened 2026-08-18).** Kill Team 2024 does **not** use Objective Control. Marker control there is **APL totals of operatives within 1" control range**. 40K OC is a datasheet characteristic and a 3"/5" (or terrain-area) range test. **Do not read KT 1" control range into 40K, or OC into Kill Team.** See **1" Control Range** in the Kill Team 2024 section and [[control_range_kill_team]].
 - Faction / scope: core rules, system-wide
-- Verify against: the shipping [`Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md) and `Key_Concepts.md`, both S3
+- Verify against: shipping [`Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md), `Key_Concepts.md`, and Core IDs in [`Core_Rules_Quotes.md`](../games/warhammer_40k_11e/rules/Core_Rules_Quotes.md) (**14.02**, **01.07**)
 - See also: **[[objective_control]]** - promoted to a concept page in L1, verified in L2
 
 **Objective marker** - `verified` · **upgraded in L2**
@@ -304,7 +307,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **1" Control Range** - `draft` · **collision flag**
 : The 1"-and-visible zone around an operative that governs marker contests (by total APL, not model count), cover eligibility, Fight legality, and move restrictions.
-: **Collision flag.** This is the closest KT24 concept to 40K's **Engagement Range**, but the two are built differently: **1" control range** is visibility-gated and decides marker/cover/Fight questions; Engagement Range is a pure 2"/5" distance test with no visibility component, deciding melee/movement legality. **Do not use "Engagement Range" for the KT24 term** - it does not exist in KT24. See [[control_range_kill_team]].
+: **Collision flag.** This is the closest KT24 concept to 40K's **Engagement Range**, but the two are built differently: **1" control range** is visibility-gated and decides marker/cover/Fight questions; Engagement Range is a pure 2"/5" distance test with no visibility component, deciding melee/movement legality. **Marker control is also different:** KT uses APL totals inside 1" control range; 40K uses the **Objective Control (OC)** characteristic (**14.02**). **Do not use "Engagement Range" or "OC" for the KT24 term.** See [[control_range_kill_team]].
 - Faction / scope: Kill Team 2024, core rules
 - Verify against: `kill_team_2024_core_rules`
 
@@ -497,8 +500,9 @@ How this KB writes about the game.
 |-----------|------|---------|
 | Edition naming | "11th Edition" in prose, `warhammer_40k_11e` in frontmatter and paths | "new in 11th Edition" |
 | Official term first | Official term, then community shorthand once in parentheses | "Objective Control (OC)" |
-| No verbatim rules text | Paraphrase for teaching in `KB/` and 40K shipping; never transcribe datasheet or stratagem wording | [`AGENTS.md`](../AGENTS.md) Sec 10 |
+| No verbatim rules text in KB/docs | Paraphrase for teaching in `KB/` and `docs/`; never transcribe datasheet or Codex wording | [`AGENTS.md`](../AGENTS.md) Sec 10 |
 | KT24 quote exception | **`games/kill_team_2024/` only:** verbatim quotes from owned local KT24 PDFs (+ WarCom free rules) with cite; personal use, never for sale. Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro (omission ≠ patch) | [`AGENTS.md`](../AGENTS.md) Sec 10; [`kill_team_2024_core_rules`](../sources/kill_team_2024_core_rules.md) |
+| 40K WarCom-free quote exception | **`games/warhammer_40k_11e/rules/` and `setup/` only:** WarCom-free Core + local `eng_*`; every block filename + page + rule ID (e.g. `01.01`, `06.01`). Codex wall on `armies/`. Core baseline; dated `eng_*` supersede; omission ≠ patch | [`AGENTS.md`](../AGENTS.md) Sec 10; [[warcom_free_core_rules_11e]] |
 | Cite the check | Every rules claim names where it can be verified, with a retrieval date | "Wahapedia, read 2026-08-16" |
 | Beginner voice | Explain why a rule matters, not just what it says | - |
 | Name the system | Say "Kill Team" or "40K" explicitly when both could be meant | the Power Matrix correction |
