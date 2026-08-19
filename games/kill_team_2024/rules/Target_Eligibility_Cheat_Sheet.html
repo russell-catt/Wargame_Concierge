@@ -29,15 +29,15 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   align-items: start;
 }
 .tree {
-  --dw: 158px;
-  --dh: 66px;
+  --dw: 220px;
+  --dh: 104px;
   --gap: 24px;
   --stub: 14px;
-  --diag: 90px;      /* ≈ dw/2 + stub: continue down-line lands on next peak */
+  --diag: 124px;     /* dw/2 + stub: continue down-line lands on next peak */
   --minarr: 26px;
-  --stopw: 150px;
-  --cdw: 128px;
-  --cdh: 56px;
+  --stopw: 188px;
+  --cdw: 188px;
+  --cdh: 90px;
   --line: #555;
   --sw: 1.6px;
   --n: 0;
@@ -118,7 +118,9 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   height: var(--dh);
   min-height: var(--dh);
   max-height: var(--dh);
-  padding: 0.4rem 1.35rem;
+  padding: 6px 12px;
+  font-size: 7.5pt;
+  line-height: 1.12;
 }
 .dblock .g-left {
   grid-column: 1;
@@ -215,12 +217,12 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   min-height: 4.6em;
   padding: 0.55rem 1.7rem;
   text-align: center;
-  font-size: 8pt; font-weight: 600;
-  line-height: 1.15;
+  font-size: 7.5pt; font-weight: 600;
+  line-height: 1.12;
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 40' preserveAspectRatio='none'%3E%3Cpolygon points='50,2.2 97.6,20 50,37.8 2.4,20' fill='%23ffe0b2' stroke='%23c45c00' stroke-width='1.8' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 40' preserveAspectRatio='none'%3E%3Cpolygon points='50,1.4 98.6,20 50,38.6 1.4,20' fill='%23ffe0b2' stroke='%23c45c00' stroke-width='1.8' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 }
 .node-decision > span {
   position: relative;
@@ -229,6 +231,7 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   flex-direction: column;
   align-items: center;
   gap: 0;
+  max-width: 108px;
 }
 .node-decision .pg {
   display: block;
@@ -238,6 +241,10 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   line-height: 1.1;
   margin: 0;
   padding: 0;
+}
+.silent-d > span,
+.cover-d > span {
+  max-width: 86px;
 }
 .tone-n { background: #ffebee; border-color: #c62828; }
 .tone-y { background: #e8f5e9; border-color: #2e7d32; }
@@ -292,8 +299,8 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   min-height: var(--cdh);
   max-height: var(--cdh);
   margin: 0;
-  padding: 0.3rem 0.85rem;
-  font-size: 7.5pt;
+  padding: 4px 10px;
+  font-size: 7pt;
   justify-self: stretch;
   align-self: center;
   z-index: 1;
@@ -431,8 +438,8 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   min-height: var(--cdh);
   max-height: var(--cdh);
   margin: 0;
-  padding: 0.3rem 0.95rem;
-  font-size: 7.5pt;
+  padding: 4px 10px;
+  font-size: 7pt;
   justify-self: stretch;
   align-self: center;
 }
@@ -510,25 +517,25 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   <!-- D1 n=0: [NO] continue LEFT then down; [YES] RIGHT into D1b Silent (row 2) -->
   <div class="dblock dblock-d1s" style="--n: 0">
     <div class="d-main">
-      <svg class="wires-cont" viewBox="0 0 14 218" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path d="M14,33 H3 V208" fill="none" stroke="#555" stroke-width="1.6"/>
-        <polygon points="0,206 3,218 6,206" fill="#555"/>
+      <svg class="wires-cont" viewBox="0 0 14 290" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M14,52 H3 V279" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,277 3,290 6,277" fill="#555"/>
       </svg>
       <span class="g-left"><span class="guard">[NO]</span></span>
       <div class="node-decision tone-q"><span>Shooter: Conceal order OR in enemy 1" control range?</span></div>
       <div class="reach-stop">
         <div class="h-rail"></div>
       </div>
-      <svg class="silent-yes-wire" viewBox="0 0 184 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path d="M184,28 H3 V118" fill="none" stroke="#555" stroke-width="1.6"/>
-        <polygon points="0,116 3,128 6,116" fill="#555"/>
+      <svg class="silent-yes-wire" viewBox="0 0 246 162" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M246,45 H3 V151" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,149 3,162 6,149" fill="#555"/>
       </svg>
       <span class="g-silent-yes"><span class="guard">[YES]</span></span>
     </div>
     <div class="silent-stack">
-      <svg class="silent-in" viewBox="0 0 150 90" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path d="M0,33 H75 V82" fill="none" stroke="#555" stroke-width="1.6"/>
-        <polygon points="71,80 75,90 79,80" fill="#555"/>
+      <svg class="silent-in" viewBox="0 0 188 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0,52 H94 V119" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="90,117 94,128 98,117" fill="#555"/>
       </svg>
       <p class="arrow silent-in-lab"><span class="guard">[YES]</span></p>
       <div class="node-decision silent-d tone-q"><span>Shooter: Silent weapon?<span class="pg">(e.g. rules p.111)</span></span></div>
@@ -546,9 +553,9 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   <!-- D2 n=1: Friendly CR — two inputs at top: D1 [NO] and Silent [YES] -->
   <div class="dblock" style="--n: 1">
     <div class="d-main">
-      <svg class="wires-cont" viewBox="0 0 14 90" preserveAspectRatio="xMaxYMin meet" aria-hidden="true" focusable="false">
-        <path d="M14,33 H3 V82" fill="none" stroke="#555" stroke-width="1.6"/>
-        <polygon points="0,80 3,90 6,80" fill="#555"/>
+      <svg class="wires-cont" viewBox="0 0 14 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M14,52 H3 V119" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,117 3,128 6,117" fill="#555"/>
       </svg>
       <span class="g-left"><span class="guard">[NO]</span></span>
       <div class="node-decision tone-q"><span>Enemy has friendly operative in its 1" control range?</span></div>
@@ -571,9 +578,9 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   <!-- D3 n=2 -->
   <div class="dblock" style="--n: 2">
     <div class="d-main">
-      <svg class="wires-cont" viewBox="0 0 14 90" preserveAspectRatio="xMaxYMin meet" aria-hidden="true" focusable="false">
-        <path d="M14,33 H3 V82" fill="none" stroke="#555" stroke-width="1.6"/>
-        <polygon points="0,80 3,90 6,80" fill="#555"/>
+      <svg class="wires-cont" viewBox="0 0 14 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M14,52 H3 V119" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,117 3,128 6,117" fill="#555"/>
       </svg>
       <span class="g-left"><span class="guard">[YES]</span> / no Range rule</span>
       <div class="node-decision tone-q"><span>Weapon Range x — target within x?</span></div>
@@ -596,9 +603,9 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   <!-- D4 n=3 -->
   <div class="dblock" style="--n: 3">
     <div class="d-main">
-      <svg class="wires-cont" viewBox="0 0 14 90" preserveAspectRatio="xMaxYMin meet" aria-hidden="true" focusable="false">
-        <path d="M14,33 H3 V82" fill="none" stroke="#555" stroke-width="1.6"/>
-        <polygon points="0,80 3,90 6,80" fill="#555"/>
+      <svg class="wires-cont" viewBox="0 0 14 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M14,52 H3 V119" fill="none" stroke="#555" stroke-width="1.6"/>
+        <polygon points="0,117 3,128 6,117" fill="#555"/>
       </svg>
       <span class="g-left"><span class="guard">[YES]</span></span>
       <div class="node-decision tone-q"><span>Target visible?<span class="pg">(e.g. rules p.55)</span></span></div>
