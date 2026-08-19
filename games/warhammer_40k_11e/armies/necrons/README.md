@@ -63,7 +63,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 |------|---------|
 | [`Starter_250.md`](Starter_250.md) | First-game learning list built from the game-ready Tomb World force, plus Hierotek named map |
 | [`Starter_500.md`](Starter_500.md) | Both detachment paths at ~500 points, every entry tagged Tomb World / sprue / purchase |
-| [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) | **500 / 750 / 1,000** - V1 no new purchases (Hierotek proxies OK) vs V2 finished with purchases |
+| [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) | **500 / 750 / 1,000** - Cryptek Conclave V1 (no buy, Hierotek proxies OK) vs V2 (finished with purchases) |
 | [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't |
 
 ### Collection and research

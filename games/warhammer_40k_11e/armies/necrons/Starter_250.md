@@ -115,7 +115,7 @@ Three units is enough to practise everything that matters and few enough to fini
 ## Related pages
 
 - [`Starter_500.md`](Starter_500.md) - where this list grows next
-- [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) - 500 / 750 / 1,000 as no-purchase (Hierotek proxies OK) vs purchase paths
+- [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) - 500 / 750 / 1,000 **Cryptek Conclave** V1/V2 paths
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) - the two detachments
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) - the army rule
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - the ownership source of truth

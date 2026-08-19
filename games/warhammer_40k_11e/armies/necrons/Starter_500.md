@@ -152,7 +152,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 ## Related pages
 
 - [`Starter_250.md`](Starter_250.md) - the Tomb World-only list this grows from
-- [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) - **V1 (no buy, Hierotek proxies OK) vs V2 (purchases)** at 500 / 750 / 1,000
+- [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) - **Cryptek Conclave** V1 (no buy, Hierotek proxies OK) vs V2 (purchases) at 500 / 750 / 1,000
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) - the two detachments
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) - the army rule
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - ownership source of truth
