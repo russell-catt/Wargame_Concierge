@@ -64,6 +64,10 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 | [`Starter_250.md`](Starter_250.md) | First-game learning list built from the game-ready Tomb World force, plus Hierotek named map |
 | [`Starter_500.md`](Starter_500.md) | Both detachment paths at ~500 points, every entry tagged Tomb World / sprue / purchase |
 | [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) | **500 / 750 / 1,000** - Cryptek Conclave V1 (no buy, Hierotek proxies OK) vs V2 (finished with purchases) |
+| [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md) | Fully statted **250** Conclave list (Geomancer + Warriors + Crawlers + Atomic Disintegrators) |
+| [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) | Fully statted **500 V1** Conclave list (no purchases; Hierotek proxies) |
+| [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md) | 250 companion - Reanimation + Conclave buff math |
+| [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) | 500 V1 companion - RP stacking, dual-brick menus, shooting math |
 | [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't |
 
 ### Collection and research
@@ -92,6 +96,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-19): Indexed fully statted 250 / 500 V1 Conclave army lists and their reference guides.
 - v0.5.1 (2026-08-19): Indexed [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md); Hierotek correction text updated to photo-IDed roster.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.2 (2026-08-16): Corrected collection status - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not a "not owned" historical reference. Hierotek Circle remains an additional game-ready set, ID pending. Updated document index and corrections list accordingly (slice S2, `tomb_world_ownership`).
