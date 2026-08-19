@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-18
-version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e]
+updated: 2026-08-19
+version: 0.5.2
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
 ---
@@ -62,8 +62,8 @@ One page per ingested source. Location: `KB/sources/`.
 | [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-17 |
 | [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-17 |
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
-| [[wahapedia]] | The community rules aggregator used to cross-check datasheets - registered as a source, not yet read | stub | 2026-08-16 |
-| [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-16 |
+| [[wahapedia]] | Community aggregator — **allowed for unit/stat lookup when WarCom lacks the profile**; also cross-check. Content not yet retrieved into KB | stub | 2026-08-19 |
+| [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-19 |
 
 ---
 

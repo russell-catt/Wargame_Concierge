@@ -218,10 +218,16 @@ Non-negotiable. This is a personal learning KB, not a redistribution channel. **
 | Reference | Use for |
 |-----------|---------|
 | [Warhammer Community](https://www.warhammer-community.com/) | Official rules updates, FAQs, errata, balance dataslates, previews |
-| [Wahapedia](https://wahapedia.ru/) | Consolidated rules and datasheet lookup for cross-checking |
+| [Wahapedia](https://wahapedia.ru/) | Consolidated rules and **unit/stat (datasheet) lookup** when WarCom does not publish those profiles; also cross-check |
 | `C:\Personal\40K` (local) | Owned PDFs and personal notes - **pointers only**, never copied in |
 
-Anything sourced from these is `draft` until cross-checked, and carries the date it was read. A rules claim with no retrieval date is a lint finding.
+**Unit / stat lookup precedence** (army lists, teaching guides, KB unit pages):
+
+1. **Owned faction pack / Codex / MFM** when you can read it in place
+2. **WarCom** when it freely publishes the relevant profile, FAQ, or dataslate amendment
+3. **Wahapedia is allowed** when WarCom does **not** publish that unit's characteristics, weapons, or datasheet abilities (WarCom typically ships Core / FAQs / dataslates, not full faction datasheets). Prefer `wh40k11ed` paths when present; flag `wh40k10ed` paths as edition-risk. Teaching paraphrase only — never dump Wahapedia/GW rules text into `KB/` or `docs/`. Mark `draft` until owned-pack cross-check. If Wahapedia and an owned PDF conflict, the PDF wins and the conflict is recorded.
+
+Anything sourced from living web refs is `draft` until cross-checked, and carries the date it was read. A rules claim with no retrieval date is a lint finding.
 
 ---
 
@@ -326,6 +332,7 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 
 ## Change Log
 
+- v0.5.2 (2026-08-19): Sec 10 living refs — Wahapedia allowed for unit/stat (datasheet) lookup when WarCom does not publish those profiles; owned pack still wins on conflict; retrieval date + `draft` until cross-check.
 - v0.5.1 (2026-08-18): Sec 10 — 40K WarCom-free quote exception under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Codex wall; Core baseline / dated `eng_*` supersede / omission is not a patch. Track `40k_warcom_quotes`.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Sec 6 — core + entity pages carry YAML `version:`.
 - v0.5.0 (2026-08-18): Sec 10 — house copyright line for Kill Team shipping: Kill Team is Copyright Games Workshop Limited 2024.

@@ -3,8 +3,8 @@ title: Warhammer Community (living reference)
 type: source
 system: warhammer_40k_11e
 created: 2026-08-16
-updated: 2026-08-16
-version: 0.5.0
+updated: 2026-08-19
+version: 0.5.2
 sources: [raw/pointers/web_living_sources.md, reference/Source_Library.md]
 confidence: stub
 tags: [source, living_reference, web, official, errata, dataslate]
@@ -38,8 +38,10 @@ The precedence this project uses:
 |------|--------|--------------|
 | 1 | Warhammer Community errata or dataslate | Always - it is the publisher amending itself |
 | 2 | Owned GW PDF | Unless amended above |
-| 3 | [[wahapedia]] | Cross-check and convenience only |
+| 3 | [[wahapedia]] | **Unit/stat (datasheet) lookup when WarCom does not publish that profile**; also cross-check. Owned PDF still wins on conflict. See [`AGENTS.md`](../../AGENTS.md) Sec 10. |
 | 4 | Owner's notes ([[necron_lists_owner_notes]]) | Ownership and preference facts only, never rules |
+
+WarCom rarely publishes full faction datasheets for free. For characteristics, weapons, and datasheet abilities needed in army lists, go to the owned pack first; if that is unavailable in-session and WarCom has no free profile, **use [[wahapedia]]** (prefer `wh40k11ed`, retrieval date, `draft` until pack cross-check).
 
 A `verified` page whose supporting dataslate has since been superseded is **worse than an `unverified` one**, because it carries false confidence. That is why every rules claim in this KB records a retrieval date.
 

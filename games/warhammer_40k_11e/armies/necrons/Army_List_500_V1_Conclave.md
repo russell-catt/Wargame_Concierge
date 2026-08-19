@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_500_V1_Conclave.md
-VERSION: v1.0 (2026-08-19)
+VERSION: v1.1 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -9,7 +9,7 @@ PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 500 V1 (no new purchases; Hierotek proxies OK). Profiles: Warriors/Immortals/Scarabs from local research; characters/proxies verify on datasheet/Wahapedia. Points MFM v1.2 except Geomancer pending MFM re-check.
+REFERENCE_STATUS: Active - 500 V1 (no new purchases; Hierotek proxies OK). Profiles: Warriors/Immortals/Scarabs from local research; characters/proxies from owned pack or Wahapedia when WarCom lacks the profile (AGENTS.md Sec 10). Points MFM v1.2 except Geomancer pending MFM re-check.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Starter_Forces_500_750_1000.md (Conclave V1 500)
@@ -17,7 +17,7 @@ SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
   - units/research for Warriors, Immortals, Scarabs, Technomancer, Plasmancer, Royal Warden
-  - https://wahapedia.ru/wh40k11ed/factions/necrons (retrieve when available)
+  - https://wahapedia.ru/wh40k11ed/factions/necrons (allowed for stats when WarCom unavailable; cloud egress pending 2026-08-19)
 
 PURPOSE:
   Fully statted Cryptek Conclave 500 V1 list using only owned models plus
@@ -183,6 +183,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 ---
 
 ## Change Log
+- v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable (`AGENTS.md` Sec 10); character VERIFY blanks remain until egress/retrieve.
 - v1.0 (2026-08-19): Initial fully statted 500 V1 Conclave list. Wahapedia live fetch blocked in cloud agent; infantry/swarm from local research; characters left as verify blanks with URLs.
 
 ## Attribution

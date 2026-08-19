@@ -56,7 +56,7 @@ Four rules, no exceptions ([`multiagent_coordinator_strategy.md`](multiagent_coo
 1. **Never write under `raw/`.** Read it, cite it, summarize it. Never create, edit, or delete there.
 2. **Never `git commit` or `git push`.** The Coordinator is the sole git owner. Leave the working tree dirty and report what changed.
 3. **Never promote into `docs/` or `games/` unilaterally.** Draft, then get human or Coordinator approval, then add a [`KB/changelog.md`](../../KB/changelog.md) row.
-4. **Never introduce GW binaries or verbatim rules text** in `KB/` or `docs/`. Teaching paraphrase and path pointers only ([`AGENTS.md`](../../AGENTS.md) Sec 10). **Exceptions (shipping only):** `games/kill_team_2024/` may quote owned local KT24 PDFs (and WarCom free rules) verbatim; `games/warhammer_40k_11e/rules/` and `setup/` may quote WarCom-free 40K Core / matching local `eng_*` with filename + page + rule ID. **Codex wall:** do not quote Faction Pack / Codex / paid army rules. Librarian cites pointers and indexes quote files but does **not** dump quote bodies or datacard statlines into `KB/`.
+4. **Never introduce GW binaries or verbatim rules text** in `KB/` or `docs/`. Teaching paraphrase and path pointers only ([`AGENTS.md`](../../AGENTS.md) Sec 10). **Exceptions (shipping only):** `games/kill_team_2024/` may quote owned local KT24 PDFs (and WarCom free rules) verbatim; `games/warhammer_40k_11e/rules/` and `setup/` may quote WarCom-free 40K Core / matching local `eng_*` with filename + page + rule ID. **Codex wall:** do not quote Faction Pack / Codex / paid army rules. Librarian cites pointers and indexes quote files but does **not** dump quote bodies or datacard statlines into `KB/`. **Wahapedia unit/stat:** when WarCom does not publish a datasheet profile, retrieve from Wahapedia (prefer `wh40k11ed`), paraphrase for teaching / army lists, cite URL + retrieval date, keep `draft` until owned-pack cross-check.
 
 ---
 
@@ -221,6 +221,7 @@ The **inherited block** is the part downstream slices actually consume - paste-r
 
 ## Change Log
 
+- v0.5.2 (2026-08-19): Sec 2 — Wahapedia allowed for unit/stat lookup when WarCom lacks the profile (`AGENTS.md` Sec 10).
 - v0.5.1 (2026-08-18): Sec 2/4 — 40K WarCom-free quote exception (`games/warhammer_40k_11e/rules/` + `setup/`); Codex wall; KB still paraphrase. Track `40k_warcom_quotes`.
 - v0.5.0 (2026-08-18): Link Flowcharting.md for print sheets (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z). Ingest-from-shipping after owner verification; KT quotes vs KB paraphrase.
 - v1.0 (2026-08-16): Initial operations guide. Created in slice L0 alongside `AGENTS.md`; combines the Karpathy query / ingest / lint / promote loop with the L0-L1-L2 slice pattern and maturity model from the coordinator playbook Sec 18.

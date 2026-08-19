@@ -382,3 +382,14 @@ Key additions:
 - QA-T: teaching still playable; Codex wall holds; Necron Personal-wins pointer consistent
 - No Core paraphrase contradictions requiring rewrite (cover **13.08**, Heavy **24.16**, OC **14.02**)
 
+
+## [2026-08-19] policy | Wahapedia unit/stat when WarCom unavailable
+
+Pages updated: [[wahapedia]], [[warhammer_community]], [[ingest_procedure]], [[index]], [[source_library]] (via `reference/Source_Library.md`), `AGENTS.md` Sec 10, `docs/operations/librarian_agent.md`, army lists `Army_List_250_Conclave` / `Army_List_500_V1_Conclave`
+
+Key additions:
+- Precedence: owned pack → WarCom when it publishes profile/amendment → **Wahapedia allowed** for datasheet stats when WarCom does not publish them
+- Prefer `wh40k11ed`; flag `wh40k10ed` as edition-risk; retrieval date + `draft` until owned-pack cross-check; PDF wins on conflict
+- Cloud egress for `wahapedia.ru` still pending (allowlist request filed 2026-08-19); VERIFY blanks not filled this pass
+
+Nothing under `raw/` written.

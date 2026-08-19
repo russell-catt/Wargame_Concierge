@@ -3,8 +3,8 @@ title: Ingest Procedure
 type: ingest_procedure
 system: warhammer_40k_11e
 created: 2026-08-16
-updated: 2026-08-18
-version: 0.5.1
+updated: 2026-08-19
+version: 0.5.2
 sources: []
 confidence: verified
 tags: [procedure, ingest, workflow, copyright]
@@ -41,7 +41,7 @@ Wargame sources behave differently and need different handling.
 | Class | Example | Handling |
 |-------|---------|----------|
 | **Owned rules material** | A rulebook or codex PDF under `C:\Personal\40K` | Pointer only. Read it. **Paraphrase into `KB/`**. Numbered Core IDs may be cited (`01.01`). Verbatim quotes only in scoped `games/` paths. Never copy the PDF in. |
-| **Living web reference** | Warhammer Community article, Wahapedia page | Record URL **and retrieval date**. Starts at `draft`. Re-check when a dataslate drops. |
+| **Living web reference** | Warhammer Community article, Wahapedia page | Record URL **and retrieval date**. Starts at `draft`. Re-check when a dataslate drops. **Wahapedia unit/stat:** allowed when WarCom does not publish that profile ([`AGENTS.md`](../AGENTS.md) Sec 10); owned pack wins on conflict. |
 | **Owner's own notes** | `Necron_Lists.md`, model inventory, game notes | Freely ingestable. Highest trust for ownership and preference facts; **not** authoritative for rules. |
 | **Play experience** | Notes from a game actually played | Ingest into `KB/analyses/`. Authoritative for "what happened", never for "what the rule says". |
 

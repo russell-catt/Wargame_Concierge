@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md
-VERSION: v1.0 (2026-08-19)
+VERSION: v1.1 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -9,7 +9,7 @@ PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 250-pt learning list. Warrior profiles from local research (Wahapedia URL on file, 2026-08-16). Geomancer / Tomb Crawler profiles incomplete locally - verify against owned faction pack / Wahapedia before events. Points: Warriors MFM v1.2; Geomancer/Crawlers Necron_Lists pending MFM re-check.
+REFERENCE_STATUS: Active - 250-pt learning list. Warrior profiles from local research. Geomancer / Tomb Crawler: fill from owned pack, or Wahapedia when WarCom does not publish the profile (AGENTS.md Sec 10; prefer wh40k11ed). Points: Warriors MFM v1.2; Geomancer/Crawlers Necron_Lists pending MFM re-check.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Starter_250.md
@@ -18,7 +18,7 @@ SOURCES:
   - games/warhammer_40k_11e/armies/necrons/units/research/Necron-Warriors.md
   - games/warhammer_40k_11e/armies/necrons/units/research/Geomancer.md
   - games/warhammer_40k_11e/armies/necrons/units/research/Canoptek-Tomb-Crawlers.md
-  - https://wahapedia.ru/wh40k11ed/factions/necrons (retrieve when available; egress blocked in cloud agent 2026-08-19)
+  - https://wahapedia.ru/wh40k11ed/factions/necrons (allowed for stats when WarCom unavailable; cloud egress pending 2026-08-19)
 
 PURPOSE:
   Fully statted Cryptek Conclave list for a first 250-point game from the
@@ -154,6 +154,7 @@ Copy M / T / SV / W / LD / OC and weapon lines from your datasheet into the blan
 ---
 
 ## Change Log
+- v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable (`AGENTS.md` Sec 10); VERIFY blanks remain until egress/retrieve.
 - v1.0 (2026-08-19): Initial fully statted 250 Conclave list. Wahapedia live fetch blocked in cloud agent; Warrior block from local research; Geomancer/Crawler profiles left as verify blanks.
 
 ## Attribution

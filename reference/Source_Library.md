@@ -1,6 +1,6 @@
 <!--
 FILE: reference/Source_Library.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -151,17 +151,20 @@ Root: `C:\Personal\Kill Team\kill_team_2021\`
 
 Use these for edition drift checks. Record a **retrieval date** on any claim sourced from the web.
 
+**Unit / stat lookup precedence** (see [`AGENTS.md`](../AGENTS.md) Sec 10): owned faction pack → WarCom when it publishes the profile/amendment → **Wahapedia allowed** when WarCom does not publish that datasheet. Prefer `wh40k11ed` when present; flag `wh40k10ed`. Teaching paraphrase; `draft` until owned-pack cross-check; owned PDF wins on conflict.
+
 ### Warhammer 40,000
 
 | Source | URL | Use |
 |--------|-----|-----|
-| **Warhammer Community** | https://www.warhammer-community.com/en-gb/ | Official FAQs, balance datasheets, announcements |
+| **Warhammer Community** | https://www.warhammer-community.com/en-gb/ | Official FAQs, balance dataslates, announcements |
 | **WarCom — free Core (2026-06-01)** | https://www.warhammer-community.com/en-gb/articles/nhqt9wx3/new40k-rules-download-the-free-core-rules-now/ | Discovery; local Core PDF is SoT |
 | **WarCom — 40K downloads** | https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/ | Free downloads hub (retrieved 2026-08-18) |
 | **WarCom — July update (2026-07-22)** | https://www.warhammer-community.com/en-gb/articles/rgqanids/warhammer-40000-july-update-what-you-need-to-know/ | Discovery; local `eng_22-07_*` is SoT |
-| **Wahapedia (index)** | https://wahapedia.ru/ | Community rules reference; cross-check against owned PDFs |
-| **Wahapedia — Necrons** | https://wahapedia.ru/wh40k10ed/factions/necrons | **Flag:** URL still `wh40k10ed` — lookup only, not 11e SoT |
-| **Wahapedia — Space Marines** | https://wahapedia.ru/wh40k10ed/factions/space-marines | Same 10e path flag |
+| **Wahapedia (index)** | https://wahapedia.ru/ | Community rules + **unit/stat lookup when WarCom lacks the profile**; cross-check owned PDFs |
+| **Wahapedia — Necrons (11e path)** | https://wahapedia.ru/wh40k11ed/factions/necrons | Prefer when available; retrieval date required |
+| **Wahapedia — Necrons (10e path)** | https://wahapedia.ru/wh40k10ed/factions/necrons | **Flag:** `wh40k10ed` — edition-risk; use only if 11e path missing |
+| **Wahapedia — Space Marines (10e path)** | https://wahapedia.ru/wh40k10ed/factions/space-marines | Same 10e path flag; prefer `wh40k11ed` when present |
 
 ### Kill Team
 
@@ -226,6 +229,7 @@ Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb Worl
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-19): Living web — Wahapedia allowed for unit/stat lookup when WarCom does not publish profiles; 11e Necrons path preferred; 10e paths flagged as edition-risk.
 - v0.5.1 (2026-08-18): WarCom-free Core quote path; July `eng_*` hierarchy; Wahapedia 10e URL flag; Necron lists Personal-wins ranking (track `40k_warcom_quotes`).
 - v0.5.1 (2026-08-18): uml-diagrams.org notation row + Fakhroutdinov credit (track `flowcharting_uml` S0).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

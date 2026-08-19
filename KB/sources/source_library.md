@@ -69,9 +69,9 @@ Registered here, filed in detail on their own pages:
 | Reference | Page | Use |
 |-----------|------|-----|
 | Warhammer Community | [[warhammer_community]] | Official FAQs, errata, balance dataslates |
-| Wahapedia | [[wahapedia]] | Consolidated rules and datasheet lookup |
+| Wahapedia | [[wahapedia]] | Unit/stat lookup when WarCom lacks the profile; also cross-check |
 
-The catalog flags one thing worth repeating: the Wahapedia faction URLs it lists sit under a `wh40k10ed` path while being described as 11th Edition content. Recorded on [[wahapedia]] as an open question rather than assumed harmless.
+The catalog prefers `wh40k11ed` paths when present and flags `wh40k10ed` as edition-risk. Recorded on [[wahapedia]].
 
 ---
 
