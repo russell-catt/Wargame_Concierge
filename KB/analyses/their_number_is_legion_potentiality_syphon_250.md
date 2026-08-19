@@ -76,7 +76,7 @@ Each time this unit’s **Reanimation Protocols activate**, you may **re-roll th
 
 ## Related pages
 
-- [[reanimation_protocols]] · [[cryptek_conclave]] · [[necrons]]
+- [[reanimation_protocols]] · [[cryptek_conclave]] · [[necrons]] · [[necron_warriors]]
 - [[glossary]] — **Their Number is Legion**, **Potentiality Syphon**
 - Shipping: `games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md`, `Reanimation_Protocols.md`, `Cryptek_Conclave.md`
 - [[index]] · [[wahapedia]]
