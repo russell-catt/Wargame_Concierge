@@ -2,6 +2,8 @@
 
 > **Working copy.** If this file and `C:\Personal\40K\Necron_Lists.md` diverge, **the Personal path wins.** Do not overwrite the Personal file from this copy. Ownership facts for play live in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
+> **MFM v1.2 pass (2026-08-19):** Tomb World subtotal **315** (was 385). Tomb Crawlers **50**, Macrocytes **70**, Warriors **80** per [`C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf`](file:///C:/Personal/40K/rules/Warhammer%2040,000_%20Munitorum%20Field%20Manual.pdf). Fully statted play sheets: [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md), [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md), [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md), [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md).
+
 This blueprint outlines expansion paths to a 1,000-point army using either the **Canoptek Court** or **Cryptek Conclave** detachment rules, based on **confirmed ownership as of 2026-08-16** — anchored on **Kill Team: Tomb World** as the game-ready learning baseline, with Hierotek Circle and sprue inventory for expansion.
 
 ---
