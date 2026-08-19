@@ -4,53 +4,50 @@
 - **slug:** Canoptek-Tomb-Crawlers
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Tomb-Crawlers
 - **research_date:** 2026-08-19
-- **role_tags:** Beast
+- **role_tags:** Beast, Canoptek, Screen
 - **priority:** inventory_candidate
-- **completeness:** full
+- **completeness:** draft
 
 ## Composition
-2 Canoptek Tomb Crawlers
+2 models per unit. Default: both twin gauss reapers + claws. Wargear: any one model may swap reaper for transdimensional isolator.
 
 ## Profiles
-| Model | M | T | SV | W | LD | OC |
-|---|---|---|---|---|---|---|
-| Tomb Crawler | 5" | 4 | 3+ | 3 | 8+ | 1 |
+| M | T | SV | W | LD | OC |
+|---|---|----|---|----|-----|
+| 5" | 4 | 3+ | 3 | 8+ | 1 |
 
 ## Ranged weapons
 | Weapon | Range | A | BS | S | AP | D | Keywords |
-|---|---|---|---|---|---|---|---|
-| Twin gauss reaper | 12" | 2 | 4+ | 4 | -1 | 1 | `[LETHAL HITS]`, `[TWIN-LINKED]` |
+|--------|-------|---|----|---|----|---|----------|
+| Twin gauss reaper | 12" | 2 | 4+ | 4 | -1 | 1 | Lethal Hits, Twin-linked |
 | Transdimensional isolator | 12" | 2 | 4+ | 4 | -2 | 2 | — |
 
 ## Melee weapons
-| Weapon | Range | A | WS | S | AP | D | Keywords |
-|---|---|---|---|---|---|---|---|
-| Claws | Melee | 4 | 4+ | 6 | -1 | 1 | — |
-
-## Wargear options
-- 1 model may replace twin gauss reaper with 1 transdimensional isolator
+| Weapon | Range | A | WS | S | AP | D |
+|--------|-------|---|----|---|----|---|
+| Claws | Melee | 4 | 4+ | 6 | -1 | 1 |
 
 ## Abilities
-- **Reanimation Protocols** (army)
-- **Canoptek Retinue:** May join a unit led by a Cryptek at Declare Battle Formations (counts as part of that bodyguard)
-- **Weapon Sentinels:** Ranged attacks vs targets within 12" may ignore BS / Hit / Wound modifiers
+- **Reanimation Protocols** (Faction)
+- **Weapon Sentinels:** Ranged attacks vs targets within 12" ignore BS / Hit / Wound modifiers
+- **Canoptek Retinue:** May join a Cryptek-led unit at Battle Formations (increases bodyguard Starting Strength)
 
 ## Leader / attach options
-Independent unit, or joins a Cryptek-led bodyguard via Canoptek Retinue.
+None — may join via Canoptek Retinue rule.
 
 ## Keywords
-BEASTS, CANOPTEK, TOMB CRAWLERS / FACTION: NECRONS
+Beasts, Canoptek, Tomb Crawlers, Faction: Necrons
 
 ## Points / cost notes
-50 pts for 2 models (MFM v1.2, read 2026-08-19). *Older project notes incorrectly used 85.*
+**50 pts** for 2 models — MFM v1.2 (read 2026-08-19). *Stale repo notes used 85 — incorrect.*
 
 ## List-building notes
-Owned loadout (Tomb World): 1× twin gauss reapers, 1× transdimensional isolator.
+Owned Tomb World loadout: 1× twin gauss reapers, 1× transdimensional isolator.
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Tomb-Crawlers (retrieved 2026-08-19)
-- MFM v1.2 (read 2026-08-19)
-- Attestation: teaching paraphrase for private repo use; not a GW redistribution
+- MFM v1.2: C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf
+- Attestation: teaching paraphrase for private repo use
 
 ---
 Verify vs current Munitorum / faction pack — patches happen | 2026-08-19
