@@ -3,45 +3,50 @@
 - **name:** Plasmancer
 - **slug:** Plasmancer
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Plasmancer
-- **research_date:** 2026-08-16
+- **research_date:** 2026-08-19
 - **role_tags:** Character
 - **priority:** inventory_candidate
-- **completeness:** partial
+- **completeness:** full
 
 ## Composition
-_Not in the owned Hierotek Circle set_ (photo ID 2026-08-17). Apprentek is a casual proxy only.
-
-## List-building notes
-Do not count as owned. Kitchen-table proxy: Hierotek Apprentek (32mm, opponent OK).
+1 Plasmancer
 
 ## Profiles
-_Pending full capture — priority inventory_candidate._
+| Model | M | T | SV | W | LD | OC |
+|---|---|---|---|---|---|---|
+| Plasmancer | 5" | 4 | 4+ | 4 | 6+ | 1 |
 
 ## Ranged weapons
-_Pending_
+| Weapon | Range | A | BS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Plasmic lance | 18" | 3 | 4+ | 7 | -3 | 2 | — |
 
 ## Melee weapons
-_Pending_
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Plasmic lance | Melee | 2 | 4+ | 7 | -3 | 2 | — |
 
 ## Abilities
-Photo ID 2026-08-17: not in Hierotek as a legal datasheet (Apprentek proxy only).
+- **Reanimation Protocols** (army)
+- **Harbinger of Destruction:** While leading a unit, unmodified Hit 5+ on ranged attacks = Critical Hit
+- **Living Lightning:** Shooting phase — one visible enemy within 18"; roll 4D6, each 4+ = 1 mortal wound
 
 ## Leader / attach options
-_Pending_
+**Support** — Immortals, Necron Warriors (MFM v1.2). *Not owned; Hierotek Apprentek is kitchen-table proxy only.*
 
 ## Keywords
-_Pending_
+INFANTRY, CHARACTER, CRYPTEK, PLASMANCER / FACTION: NECRONS
 
 ## Points / cost notes
-Verify MFM | 2026-08-16
+55 pts (MFM v1.2, read 2026-08-19)
 
 ## List-building notes
-Photo ID 2026-08-17: **not** in Hierotek.
+Purchase for events; Apprentek proxies on kitchen table with opponent OK.
 
 ## Sources
-- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Plasmancer
-- Local faction pack cross-check: pending
-- Attestation: personal structured notes for private repo use; not a GW redistribution
+- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Plasmancer (retrieved 2026-08-19)
+- MFM v1.2 (read 2026-08-19)
+- Attestation: teaching paraphrase for private repo use; not a GW redistribution
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

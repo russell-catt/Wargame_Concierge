@@ -3,42 +3,56 @@
 - **name:** Canoptek Macrocytes
 - **slug:** Canoptek-Macrocytes
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Macrocytes
-- **research_date:** 2026-08-16
-- **role_tags:** Infantry
+- **research_date:** 2026-08-19
+- **role_tags:** Beast
 - **priority:** inventory_candidate
-- **completeness:** stub
+- **completeness:** full
 
 ## Composition
-_Pending_
+5 Canoptek Macrocytes
 
 ## Profiles
-_Pending capture from Wahapedia / faction pack — open URL below._
+| Model | M | T | SV | W | LD | OC |
+|---|---|---|---|---|---|---|
+| Canoptek Macrocyte | 8" | 3 | 4+ | 1 | 8+ | 1 |
 
 ## Ranged weapons
-_Pending_
+| Weapon | Range | A | BS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Gauss scalpel | 18" | 1 | 4+ | 4 | -1 | 1 | `[LETHAL HITS]` |
+| Tesla caster | 18" | 1 | 4+ | 5 | 0 | 1 | `[ASSAULT]`, `[SUSTAINED HITS 1]` |
+| Atomiser beam | 12" | 1 | 4+ | 6 | -1 | 1 | — |
 
 ## Melee weapons
-_Pending_
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Claws | Melee | 2 | 4+ | 4 | -1 | 1 | — |
+
+## Wargear options
+- Any model may swap gauss scalpel for tesla caster
+- 1 model may take atomiser beam + nanoscarab projector (replaces scalpel/caster)
+- 1 model may take accelerator mandible (replaces scalpel/caster)
 
 ## Abilities
-_Pending structured notes from Wahapedia + local pack._
-
-## Leader / attach options
-_Pending_
+- **Scouts 8"** (core)
+- **Reanimation Protocols** (army)
+- **Harassment Swarm (Aura):** Enemies (non-Monster/Vehicle) within 3" suffer −1 to Hit
+- **Accelerator Mandible:** Start of Fight — one friendly Canoptek unit within 3" gets +1 WS this phase
+- **Nanoscarab Projector:** Once per battle round when a friendly Necron within 3" Reanimates, +1 extra wound
 
 ## Keywords
-_Pending_
+BEASTS, FLY, CANOPTEK, MACROCYTES / FACTION: NECRONS
 
 ## Points / cost notes
-Verify Munitorum Field Manual — research 2026-08-16.
+70 pts for 5 models (MFM v1.2, read 2026-08-19). *Older project notes incorrectly used 85.*
 
 ## List-building notes
-Roster entry for later list-building / datasheet cards.
+Owned loadout (Tomb World): 1× accelerator mandible, 1× nanoscarab projector (reanimator), 3× gauss scalpel/tesla (2 scalpel, 1 tesla per photo ID).
 
 ## Sources
-- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Macrocytes
-- Local faction pack cross-check: pending
-- Attestation: personal structured notes for private repo use; not a GW redistribution
+- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Macrocytes (retrieved 2026-08-19)
+- MFM v1.2 (read 2026-08-19)
+- Attestation: teaching paraphrase for private repo use; not a GW redistribution
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

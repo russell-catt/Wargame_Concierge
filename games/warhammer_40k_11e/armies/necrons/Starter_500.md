@@ -34,7 +34,7 @@ UPDATE_TRIGGER:
 
 500 points is the first size that feels like Warhammer 40,000 rather than a demo: two objectives worth fighting over, a real character, and enough units that the order you activate them starts to matter.
 
-Both lists below **start from the full, owned Kill Team: Tomb World box** - nothing needs to be built or bought to reach the 365-point foundation.
+Both lists below **start from the full, owned Kill Team: Tomb World box** - nothing needs to be built or bought to reach the **315-point** foundation (MFM v1.2).
 
 ---
 
@@ -44,10 +44,10 @@ Both lists below **start from the full, owned Kill Team: Tomb World box** - noth
 |------|--------|-----|-----------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World, game-ready |
 | Necron Warriors | 10 | **80** | **OWNED** - Tomb World, game-ready |
-| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World, game-ready |
-| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World, game-ready |
+| Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World, game-ready |
+| Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World, game-ready |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World, game-ready |
-| | | **365** | Zero purchases, zero assembly - 73% of a 500-point army |
+| | | **315** | Zero purchases, zero assembly - MFM v1.2 (read 2026-08-19) |
 
 **Do not re-shop any line above** - all five units are already on the table. The Macrocytes and this set of Scarab Swarms in particular are Tomb World stock, not shopping targets.
 
@@ -55,7 +55,7 @@ Plus the **Hierotek Circle** set (photo ID 2026-08-17): **Technomancer** owned; 
 
 ---
 
-## Path A - Canoptek Court, 405 / 500
+## Path A - Canoptek Court, 355 / 500
 
 The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawlers, and Macrocytes all benefit from the Power Matrix. See [`Canoptek_Court.md`](Canoptek_Court.md). Active list needs no purchase: build the 2nd Scarab set and you are ready.
 
@@ -63,11 +63,11 @@ The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawler
 |------|--------|-----|-----------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
 | Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
-| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World |
-| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World |
+| Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World |
+| Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms (2nd set) | 3 | **40** | **OWNED** - sprue, build before play |
-| | | **405** | Zero purchases, one bench evening |
+| | | **355** | Zero purchases, one bench evening |
 
 **How it is meant to be arranged:**
 
@@ -75,34 +75,36 @@ The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawler
 - **Tomb Crawlers take the middle.** Control half the No Man's Land objectives at the start of a phase and the whole region joins your Matrix for that phase - which upgrades the Crawlers and any other Canoptek in that region.
 - **Macrocytes and both Scarab units go wide.** Cheap Objective Control bodies that also count as Canoptek for the Matrix bonus.
 
-**Full 500 variant - add Wraiths.** Buy Canoptek Wraiths (3) for 95: 405 + 95 = 500. Pair them with the Tomb Crawlers in the middle so both units upgrade together when the Matrix is up.
+**Full 500 variant - add Wraiths + enhancement.** Buy Canoptek Wraiths (3) for 95 → **450**. Pad with a Conclave/Court enhancement (e.g. Atomic Disintegrators 10 + Gauntlet of Compression 20 + Gravitic Bolas 15 + Quantum Abacus 15 = 50) if your muster allows — or add Technomancer (owned, 80) and trim Scarabs to 3 (−40) for **490**, then one 10-pt enhancement → **500**.
 
 ---
 
-## Path B - Cryptek Conclave, 490 / 500
+## Path B - Cryptek Conclave, 500 / 500
 
-The detachment the Immortals and second Warriors squad feed once built. See [`Cryptek_Conclave.md`](Cryptek_Conclave.md).
+The detachment the Immortals and Hierotek proxies feed. See [`Cryptek_Conclave.md`](Cryptek_Conclave.md) and [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) for the fully statted list.
 
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
+| **Atomic Disintegrators** (enhancement) | — | **10** | On Geomancer |
+| Royal Warden *(Despotek proxy)* | 1 | **50** | **OWNED** proxy - Hierotek |
 | Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
-| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World |
-| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World |
+| Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World |
+| Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
-| Immortals | 5 | **70** | **OWNED** - sprue, build before play (Hierotek also has 3 assembled Guardians + Despotek) |
-| Plasmancer | 1 | **55** | **PURCHASE** for events. Hierotek Apprentek is a **casual proxy only** — not in the box as a Plasmancer |
-| | | **490** | |
+| Immortals | 5 | **70** | **OWNED** - sprue + Hierotek Guardians |
+| Plasmancer *(Apprentek proxy)* | 1 | **55** | **OWNED** proxy - Hierotek |
+| | | **500** | |
 
-Optional extra (not in the 490): **Technomancer** (Hierotek, owned) as a second Cryptek Support on another brick, or swap vs buying Plasmancer if you attach him to Immortals/Warriors/Wraiths instead.
+Optional extras (swap in if rebalancing): **Technomancer** (Hierotek, **80** pts) as second Cryptek Support; merge **6 Scarab Swarms** (**80** pts) per [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) by trimming Macrocytes/Crawlers.
 
 **How it is meant to be arranged:**
 
-- **Plasmancer joins the Immortals** once both are on the table - a Cryptek attached to Immortals upgrades five decent guns each Shooting phase under Technosorcerous Augmentations.
-- **Geomancer stays with the Warriors** on the home objective.
-- **Tomb Crawlers and Scarabs** screen and contest - they get nothing from Conclave's ability, but they are free Objective Control.
+- **Warden (Leader) + Geomancer (Support) on Warriors** — Conclave menu on ten guns plus Fall Back tricks.
+- **Plasmancer proxy on Immortals** — second Cryptek brick (or swap in owned Technomancer).
+- **Tomb Crawlers, Macrocytes, and Scarabs** screen and contest — no Conclave gun buff, but free OC.
 
-**Cheaper variant - 365 points, no purchase.** Just the Tomb World foundation above, no Immortals, no Plasmancer. Add the Immortals (build first) for 435 with no purchase at all.
+**Cheaper variant - 315 points, no proxies.** Just the Tomb World foundation. Add Immortals (build first) for **385** with no purchase at all.
 
 ---
 
@@ -112,8 +114,8 @@ Optional extra (not in the 490): **Technomancer** (Hierotek, owned) as a second 
 |-------|--------|--------|--------|
 | Cryptek Geomancer | 75 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Necron Warriors (10) | 80 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
-| Canoptek Tomb Crawlers (2) | 85 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
-| Canoptek Macrocytes (5) | 85 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Canoptek Tomb Crawlers (2) | 50 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Canoptek Macrocytes (5) | 70 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Scarab Swarms (3) | 40 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - sprue | - |
 | Immortals (5) | 70 | - | **OWNED** - sprue |

@@ -3,42 +3,54 @@
 - **name:** Canoptek Tomb Crawlers
 - **slug:** Canoptek-Tomb-Crawlers
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Tomb-Crawlers
-- **research_date:** 2026-08-16
+- **research_date:** 2026-08-19
 - **role_tags:** Beast
 - **priority:** inventory_candidate
-- **completeness:** stub
+- **completeness:** full
 
 ## Composition
-_Pending_
+2 Canoptek Tomb Crawlers
 
 ## Profiles
-_Pending capture from Wahapedia / faction pack — open URL below._
+| Model | M | T | SV | W | LD | OC |
+|---|---|---|---|---|---|---|
+| Tomb Crawler | 5" | 4 | 3+ | 3 | 8+ | 1 |
 
 ## Ranged weapons
-_Pending_
+| Weapon | Range | A | BS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Twin gauss reaper | 12" | 2 | 4+ | 4 | -1 | 1 | `[LETHAL HITS]`, `[TWIN-LINKED]` |
+| Transdimensional isolator | 12" | 2 | 4+ | 4 | -2 | 2 | — |
 
 ## Melee weapons
-_Pending_
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Claws | Melee | 4 | 4+ | 6 | -1 | 1 | — |
+
+## Wargear options
+- 1 model may replace twin gauss reaper with 1 transdimensional isolator
 
 ## Abilities
-_Pending structured notes from Wahapedia + local pack._
+- **Reanimation Protocols** (army)
+- **Canoptek Retinue:** May join a unit led by a Cryptek at Declare Battle Formations (counts as part of that bodyguard)
+- **Weapon Sentinels:** Ranged attacks vs targets within 12" may ignore BS / Hit / Wound modifiers
 
 ## Leader / attach options
-_Pending_
+Independent unit, or joins a Cryptek-led bodyguard via Canoptek Retinue.
 
 ## Keywords
-_Pending_
+BEASTS, CANOPTEK, TOMB CRAWLERS / FACTION: NECRONS
 
 ## Points / cost notes
-Verify Munitorum Field Manual — research 2026-08-16.
+50 pts for 2 models (MFM v1.2, read 2026-08-19). *Older project notes incorrectly used 85.*
 
 ## List-building notes
-Roster entry for later list-building / datasheet cards.
+Owned loadout (Tomb World): 1× twin gauss reapers, 1× transdimensional isolator.
 
 ## Sources
-- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Tomb-Crawlers
-- Local faction pack cross-check: pending
-- Attestation: personal structured notes for private repo use; not a GW redistribution
+- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Tomb-Crawlers (retrieved 2026-08-19)
+- MFM v1.2 (read 2026-08-19)
+- Attestation: teaching paraphrase for private repo use; not a GW redistribution
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

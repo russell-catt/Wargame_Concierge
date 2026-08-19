@@ -37,7 +37,7 @@ Cryptek/Overlord attach options — verify sheet.
 INFANTRY, BATTLELINE, IMMORTALS / FACTION: NECRONS
 
 ## Points / cost notes
-Verify MFM for 5/10 costs — research 2026-08-16
+70 pts / 5; 140 pts / 10 (MFM v1.2, read 2026-08-19)
 
 ## List-building notes
 Owned: 5 unassembled (sprue) plus Hierotek 3 Guardians + Despotek (counts as Immortal by default).

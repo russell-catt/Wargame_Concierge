@@ -3,42 +3,38 @@
 - **name:** Lychguard
 - **slug:** Lychguard
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Lychguard
-- **research_date:** 2026-08-16
+- **research_date:** 2026-08-19
 - **role_tags:** Infantry
 - **priority:** roster
-- **completeness:** stub
+- **completeness:** full
 
 ## Composition
-_Pending_
+5-10 Lychguard
 
 ## Profiles
-_Pending capture from Wahapedia / faction pack — open URL below._
-
-## Ranged weapons
-_Pending_
+| Model | M | T | SV | W | LD | OC |
+|---|---|---|---|---|---|---|
+| Lychguard | 5" | 5 | 3+ | 2 | 7+ | 1 |
 
 ## Melee weapons
-_Pending_
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Hyperphase sword | Melee | 3 | 3+ | 6 | -2 | 1 | — |
+| Warscythe | Melee | 2 | 3+ | 8 | -3 | 2 | `[DEVASTATING WOUNDS]` |
+
+## Wargear options
+- All models may swap warscythe for hyperphase sword + dispersion shield (4+ invulnerable save)
 
 ## Abilities
-_Pending structured notes from Wahapedia + local pack._
-
-## Leader / attach options
-_Pending_
-
-## Keywords
-_Pending_
+- **Reanimation Protocols** (army)
+- **Guardian Protocols:** While led by a Noble, if attack S > unit T, −1 to Wound roll
 
 ## Points / cost notes
-Verify Munitorum Field Manual — research 2026-08-16.
-
-## List-building notes
-Roster entry for later list-building / datasheet cards.
+80 pts / 5; 160 pts / 10 (MFM v1.2, read 2026-08-19)
 
 ## Sources
-- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Lychguard
-- Local faction pack cross-check: pending
-- Attestation: personal structured notes for private repo use; not a GW redistribution
+- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Lychguard (retrieved 2026-08-19)
+- MFM v1.2 (read 2026-08-19)
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

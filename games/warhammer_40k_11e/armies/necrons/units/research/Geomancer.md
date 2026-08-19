@@ -3,45 +3,52 @@
 - **name:** Geomancer
 - **slug:** Geomancer
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Geomancer
-- **research_date:** 2026-08-16
+- **research_date:** 2026-08-19
 - **role_tags:** Character
 - **priority:** inventory_candidate
-- **completeness:** partial
+- **completeness:** full
 
 ## Composition
-_Not in the owned Hierotek Circle set_ (photo ID 2026-08-17). Geomancer is the Tomb World / Canoptek Circle Cryptek.
-
-## List-building notes
-Owned via Kill Team: Tomb World, not Hierotek.
+1 Cryptek Geomancer
 
 ## Profiles
-_Pending full capture — priority inventory_candidate._
+| Model | M | T | SV | W | LD | OC |
+|---|---|---|---|---|---|---|
+| Geomancer | 8" | 4 | 4+ | 4 | 6+ | 1 |
 
 ## Ranged weapons
-_Pending_
+| Weapon | Range | A | BS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Tremorglaive — reverberating beam | 18" | 2 | 4+ | 8 | -2 | 2 | `[MELTA 2]` |
+| Tremorglaive — shock wave pulse | 18" | D6+2 | N/A | 4 | 0 | 1 | `[IGNORES COVER]`, `[TORRENT]` |
 
 ## Melee weapons
-_Pending_
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Tremorglaive | Melee | 2 | 4+ | 8 | -2 | 2 | — |
 
 ## Abilities
-Owned via Tomb World / Canoptek Circle, not Hierotek.
+- **Reanimation Protocols** (army)
+- **Vanguard Protocols:** If attached to Canoptek Macrocytes during Declare Battle Formations, gains `[SCOUTS 8"]`
+- **Tectonic Reverberations:** In your Movement phase, one visible enemy within 18" is pinned until your next Movement phase (−2 Move, −2 Charge rolls)
+- **Obelisk Node Control:** While within range of an objective you control, enemy Reserves units cannot set up within 12" of this model
 
 ## Leader / attach options
-_Pending_
+**Support** — attaches to Canoptek Macrocytes, Immortals, or Necron Warriors (MFM v1.2).
 
 ## Keywords
-_Pending_
+INFANTRY, CHARACTER, CRYPTEK, GEOMANCER / FACTION: NECRONS
 
 ## Points / cost notes
-Verify MFM | 2026-08-16
+75 pts (MFM v1.2, read 2026-08-19)
 
 ## List-building notes
-Photo ID 2026-08-17: Geomancer is Tomb World, not Hierotek.
+Owned via Kill Team: Tomb World, game-ready. Primary Cryptek for Conclave and Court learning lists.
 
 ## Sources
-- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Geomancer
-- Local faction pack cross-check: pending
-- Attestation: personal structured notes for private repo use; not a GW redistribution
+- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Geomancer (retrieved 2026-08-19)
+- `C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf` v1.2 (read 2026-08-19)
+- Attestation: teaching paraphrase for private repo use; not a GW redistribution
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

@@ -3,42 +3,42 @@
 - **name:** Illuminor Szeras
 - **slug:** Illuminor-Szeras
 - **wahapedia_url:** https://wahapedia.ru/wh40k11ed/factions/necrons/Illuminor-Szeras
-- **research_date:** 2026-08-16
-- **role_tags:** Epic Hero
+- **research_date:** 2026-08-19
+- **role_tags:** Character
 - **priority:** roster
-- **completeness:** stub
+- **completeness:** full
 
 ## Composition
-_Pending_
+1 Illuminor Szeras (Epic Hero)
 
 ## Profiles
-_Pending capture from Wahapedia / faction pack — open URL below._
+| Model | M | T | SV | W | LD | OC | INV |
+|---|---|---|---|---|---|---|---|
+| Illuminor Szeras | 8" | 8 | 2+ | 9 | 6+ | 3 | 4+ |
 
 ## Ranged weapons
-_Pending_
+| Weapon | Range | A | BS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Eldritch lance | 36" | 3 | 3+ | 9 | -3 | 3 | — |
 
 ## Melee weapons
-_Pending_
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|---|---|---|---|---|---|---|---|
+| Eldritch lance | Melee | 4 | 3+ | 9 | -3 | 3 | — |
+| Impaling legs | Melee | 4 | 3+ | 6 | -1 | 1 | Extra Attacks |
 
 ## Abilities
-_Pending structured notes from Wahapedia + local pack._
-
-## Leader / attach options
-_Pending_
-
-## Keywords
-_Pending_
+- **Feel No Pain 4+** (core)
+- **Reanimation Protocols** (army)
+- **Illuminor:** Lone Operative while within 3" of other friendly Necron units
+- **Mechanical Augmentation (Aura):** Friendly Battleline within 3" — +1 AP on their attacks; −1 AP on attacks targeting them (range grows to max 12" after he kills in Fight)
 
 ## Points / cost notes
-Verify Munitorum Field Manual — research 2026-08-16.
-
-## List-building notes
-Roster entry for later list-building / datasheet cards.
+175 pts (MFM v1.2, read 2026-08-19)
 
 ## Sources
-- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Illuminor-Szeras
-- Local faction pack cross-check: pending
-- Attestation: personal structured notes for private repo use; not a GW redistribution
+- Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Illuminor-Szeras (retrieved 2026-08-19)
+- MFM v1.2 (read 2026-08-19)
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-19

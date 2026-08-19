@@ -33,7 +33,7 @@ UPDATE_TRIGGER:
 
 Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 
-**List in one line:** Geomancer (Atomic Disintegrators) + 10 Warriors + 2 Tomb Crawlers = **250**. Geomancer attaches to Warriors.
+**List in one line:** Geomancer (Atomic Disintegrators) + 10 Warriors + 2 Tomb Crawlers + 3 Scarabs = **255** *(245 without enhancement)*. Geomancer attaches to Warriors.
 
 ---
 

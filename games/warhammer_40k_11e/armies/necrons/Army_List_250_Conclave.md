@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md
-VERSION: v1.1 (2026-08-19)
+VERSION: v1.2 (2026-08-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -9,37 +9,37 @@ PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 250-pt learning list. Warrior profiles from local research. Geomancer / Tomb Crawler: fill from owned pack, or Wahapedia when WarCom does not publish the profile (AGENTS.md Sec 10; prefer wh40k11ed). Points: Warriors MFM v1.2; Geomancer/Crawlers Necron_Lists pending MFM re-check.
+REFERENCE_STATUS: Active - 250-pt learning list. Profiles: MFM v1.2 points (read 2026-08-19); stats cross-checked Wahapedia wh40k11ed 2026-08-19 + local research. confidence: draft (Wahapedia cross-check; verify vs owned pack before events).
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Starter_250.md
   - games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
-  - games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
-  - games/warhammer_40k_11e/armies/necrons/units/research/Necron-Warriors.md
-  - games/warhammer_40k_11e/armies/necrons/units/research/Geomancer.md
-  - games/warhammer_40k_11e/armies/necrons/units/research/Canoptek-Tomb-Crawlers.md
-  - https://wahapedia.ru/wh40k11ed/factions/necrons (allowed for stats when WarCom unavailable; cloud egress pending 2026-08-19)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2; read 2026-08-19)
+  - https://wahapedia.ru/wh40k11ed/factions/necrons (retrieved 2026-08-19)
+  - units/research/*.md (updated 2026-08-19)
 
 PURPOSE:
-  Fully statted Cryptek Conclave list for a first 250-point game from the
-  owned Tomb World force, padded to 250 with Atomic Disintegrators.
+  Fully statted Cryptek Conclave list for a first ~250-point game from the
+  owned Tomb World force (Geomancer, Warriors, Crawlers, Scarabs).
 
 PRIMARY_AUDIENCE:
-  - Table play with the companion Reference_Guide_250_Conclave.md
+  - Table play with Reference_Guide_250_Conclave.md
 
 UPDATE_TRIGGER:
   Update when MFM points, datasheets, or the 250 starter change.
 -->
 
-# Army list - 250 pts - Cryptek Conclave
+# Army list - 245 pts - Cryptek Conclave
 
 | Field | Value |
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
-| **Points** | **250 / 250** |
+| **Points** | **245 / 250** *(5 pts under cap — fine for learning)* |
 | **Warlord** | Cryptek Geomancer |
-| **Playable tonight?** | Yes - all models game-ready |
+| **Playable tonight?** | Yes — all four units game-ready (Tomb World) |
 | **Companion guide** | [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md) |
+
+> **MFM v1.2 correction (2026-08-19):** Tomb Crawlers are **50** pts (not 85). Macrocytes are **70** pts (not 85). This list uses Crawlers + Scarabs instead of an enhancement pad to stay near 250.
 
 ---
 
@@ -47,99 +47,97 @@ UPDATE_TRIGGER:
 
 | # | Unit | Models | Pts | Role |
 |---|------|--------|-----|------|
-| 1 | **Cryptek Geomancer** *(Warlord)* | 1 | 75 | Support Cryptek - attaches to Warriors |
-| 1a | **Atomic Disintegrators** (enhancement) | - | 10 | On Geomancer - adds anti-Monster / anti-Vehicle options to the Conclave menu |
-| 2 | **Necron Warriors** | 10 | 80 | Battleline bodyguard / home objective |
-| 3 | **Canoptek Tomb Crawlers** | 2 | 85 | Screen / midfield (no Conclave gun buff) |
-| | | | **250** | |
+| 1 | **Cryptek Geomancer** *(Warlord)* | 1 | 75 | Support — attaches to Warriors |
+| 2 | **Necron Warriors** | 10 | 80 | Battleline / home objective |
+| 3 | **Canoptek Tomb Crawlers** | 2 | 50 | Screen / midfield |
+| 4 | **Canoptek Scarab Swarms** | 3 | 40 | Wide OC / harassment |
+| | | | **245** | |
 
-**Battle Formations:** Geomancer attaches to the Warriors (Support). Tomb Crawlers are a separate unit.
+**Battle Formations:** Geomancer attaches to Warriors (Support). Crawlers and Scarabs are separate units.
 
-**Wargear (owned loadouts):** Warriors - mixed gauss flayer / gauss reaper as on the models. Tomb Crawlers - 1× twin gauss reapers, 1× transdimensional isolator (owner-confirmed).
+**Optional pad to exactly 250:** Add **Atomic Disintegrators (10)** on the Geomancer → **255** *(5 over — drop Scarabs for a 3-unit 215+10 list)*.
+
+**Owned wargear:** Warriors — mixed gauss flayer / gauss reaper. Tomb Crawlers — 1× twin gauss reapers, 1× transdimensional isolator.
 
 ---
 
-## Unit 1 - Cryptek Geomancer (Warlord) + Atomic Disintegrators
-
-| | |
-|--|--|
-| **Pts** | 75 + 10 enhancement = **85** |
-| **Keywords** | INFANTRY, CHARACTER, CRYPTEK, GEOMANCER / FACTION: NECRONS *(confirm sheet)* |
-| **Attaches to** | Necron Warriors (Support) |
-| **Profile** | **VERIFY** on owned faction pack / [Wahapedia Geomancer](https://wahapedia.ru/wh40k11ed/factions/necrons/Geomancer) - local research incomplete |
-| **Detachment** | Ranged weapons on this Cryptek gain `[ASSAULT]`. When the **attached unit** shoots, pick one Technosorcerous Augmentations ability for all ranged weapons in that unit this phase |
-| **Enhancement** | Atomic Disintegrators - adds anti-Monster / anti-Vehicle choices to that menu (see guide) |
-
-Copy M / T / SV / W / LD / OC and weapon lines from your datasheet into the blank below before the game:
+## Unit 1 — Cryptek Geomancer (Warlord) — 75 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
-| Geomancer | | | | | | |
+| Geomancer | 8" | 4 | 4+ | 4 | 6+ | 1 |
 
 | Weapon | Range | A | BS/WS | S | AP | D | Keywords |
 |--------|-------|-----|-------|---|----|---|----------|
-| *(from datasheet)* | | | | | | | |
+| Tremorglaive — reverberating beam | 18" | 2 | 4+ | 8 | -2 | 2 | `[MELTA 2]` |
+| Tremorglaive — shock wave pulse | 18" | D6+2 | N/A | 4 | 0 | 1 | `[IGNORES COVER]`, `[TORRENT]` |
+| Tremorglaive (melee) | Melee | 2 | 4+ | 8 | -2 | 2 | — |
+
+**Keywords:** INFANTRY, CHARACTER, CRYPTEK, GEOMANCER  
+**Attaches to:** Necron Warriors (Support)  
+**Notable:** Tectonic Reverberations pins one enemy within 18" each your Movement phase (−2 Move, −2 Charge). Obelisk Node Control blocks enemy Reserves within 12" of a Geomancer on your objective.  
+**Conclave:** Cryptek guns gain `[ASSAULT]`; attached unit picks one Technosorcerous Augmentations ability when it shoots.
+
+*Sources: Wahapedia Geomancer 2026-08-19; MFM v1.2 75 pts.*
 
 ---
 
-## Unit 2 - Necron Warriors (10) + attached Geomancer
-
-| | |
-|--|--|
-| **Pts** | 80 *(character costed above)* |
-| **Keywords** | INFANTRY, BATTLELINE, NECRON WARRIORS / FACTION: NECRONS |
-| **Starting Strength** | 10 (+1 Geomancer while attached) |
-| **OC** | 2 per Warrior |
-
-### Profile (local research - verify)
+## Unit 2 — Necron Warriors (10) + attached Geomancer — 80 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
 | Necron Warrior | 5" | 4 | 4+ | 1 | 8+ | 2 |
 
-### Ranged
-
 | Weapon | Range | A | BS | S | AP | D | Keywords |
 |--------|-------|---|----|---|----|---|----------|
 | Gauss flayer | 24" | 1 | 4+ | 4 | 0 | 1 | `[LETHAL HITS]`, `[RAPID FIRE 1]` |
 | Gauss reaper | 12" | 2 | 4+ | 4 | -1 | 1 | `[LETHAL HITS]` |
-
-### Melee
-
-| Weapon | Range | A | WS | S | AP | D | Keywords |
-|--------|-------|---|----|---|----|---|----------|
 | Close combat weapon | Melee | 1 | 4+ | 4 | 0 | 1 | — |
 
-### Abilities
+**Abilities:** Reanimation Protocols; Their Number is Legion (read datasheet). With Geomancer attached → Cryptek unit for Conclave shooting menu.
 
-- **Reanimation Protocols** (army) - end of your Command phase, D3 wounds
-- **Their Number is Legion** - read exact text on your datasheet (interacts with reanimation)
-- **Conclave (while Geomancer attached):** whole unit is a Cryptek unit for Technosorcerous Augmentations - pick one menu ability when selected to shoot
+*Sources: local research + Wahapedia; MFM v1.2 80 pts / 10.*
 
 ---
 
-## Unit 3 - Canoptek Tomb Crawlers (2)
-
-| | |
-|--|--|
-| **Pts** | 85 |
-| **Keywords** | CANOPTEK, … *(confirm sheet)* / FACTION: NECRONS |
-| **Loadout** | 1× twin gauss reapers; 1× transdimensional isolator |
-| **Profile / weapons** | **VERIFY** on owned faction pack / [Wahapedia Tomb Crawlers](https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Tomb-Crawlers) - local research stub |
-| **Conclave** | No Cryptek keyword - **does not** get the shooting menu. Still has Reanimation Protocols |
+## Unit 3 — Canoptek Tomb Crawlers (2) — 50 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
-| Tomb Crawler | | | | | | |
+| Tomb Crawler | 5" | 4 | 3+ | 3 | 8+ | 1 |
+
+| Weapon | Range | A | BS | S | AP | D | Keywords |
+|--------|-------|---|----|---|----|---|----------|
+| Twin gauss reaper | 12" | 2 | 4+ | 4 | -1 | 1 | `[LETHAL HITS]`, `[TWIN-LINKED]` |
+| Transdimensional isolator | 12" | 2 | 4+ | 4 | -2 | 2 | — |
+| Claws | Melee | 4 | 4+ | 6 | -1 | 1 | — |
+
+**Abilities:** Reanimation Protocols; Weapon Sentinels (ignore BS/Hit/Wound modifiers vs targets within 12"). **No Conclave gun buff** (not a Cryptek unit).
+
+*Sources: Wahapedia Tomb Crawlers 2026-08-19; MFM v1.2 50 pts / 2.*
+
+---
+
+## Unit 4 — Canoptek Scarab Swarms (3) — 40 pts
+
+| Model | M | T | SV | W | LD | OC |
+|-------|---|---|----|---|----|----|
+| Canoptek Scarab Swarm | 10" | 2 | 6+ | 4 | 8+ | 0 |
+
+| Weapon | Range | A | WS | S | AP | D | Keywords |
+|--------|-------|---|----|---|----|---|----------|
+| Feeder mandibles | Melee | 6 | 5+ | 2 | 0 | 1 | — |
+
+**Abilities:** Reanimation Protocols. Fast screen; no Conclave synergy.
+
+*Sources: local research; MFM v1.2 40 pts / 3.*
 
 ---
 
 ## Pre-game checklist
 
-- [ ] Detachment: Cryptek Conclave
-- [ ] Warlord: Geomancer; enhancement: Atomic Disintegrators
+- [ ] Detachment: Cryptek Conclave; Warlord: Geomancer
 - [ ] Geomancer attached to Warriors
-- [ ] Datasheet blanks for Geomancer + Tomb Crawlers filled from your pack / Wahapedia
 - [ ] Token on table: **end of Command phase → REANIMATE**
 - [ ] Print [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md)
 
@@ -148,18 +146,19 @@ Copy M / T / SV / W / LD / OC and weapon lines from your datasheet into the blan
 ## Related pages
 
 - [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md)
-- [`Starter_250.md`](Starter_250.md) · [`Cryptek_Conclave.md`](Cryptek_Conclave.md) · [`Reanimation_Protocols.md`](Reanimation_Protocols.md)
+- [`Starter_250.md`](Starter_250.md) · [`Cryptek_Conclave.md`](Cryptek_Conclave.md)
 - [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md)
 
 ---
 
 ## Change Log
-- v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable (`AGENTS.md` Sec 10); VERIFY blanks remain until egress/retrieve.
-- v1.0 (2026-08-19): Initial fully statted 250 Conclave list. Wahapedia live fetch blocked in cloud agent; Warrior block from local research; Geomancer/Crawler profiles left as verify blanks.
+- v1.2 (2026-08-19): Full stat blocks from Wahapedia + MFM v1.2 re-read. Tomb Crawlers corrected to 50 pts; list is 245/250 with Scarabs added. Removed enhancement pad that relied on stale 85-pt Crawler cost.
+- v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.
+- v1.0 (2026-08-19): Initial list with VERIFY blanks.
 
 ## Attribution
 - Project: Wargame_Concierge | Maintainer: Russell Catt
-- Teaching paraphrase for personal use. Verify all profiles against material you own.
+- Teaching paraphrase for personal use. Warhammer 40,000 is Copyright Games Workshop Limited.
 
 ## Rising Tide Notes
 - Cross-check MFM and faction pack before events. Content dated **2026-08-19**.

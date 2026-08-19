@@ -8,7 +8,7 @@ DOCUMENT_TYPE: Learning List / Expansion Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Active - primary detachment Cryptek Conclave. V1 = no new model purchases; Hierotek proxies allowed (kitchen table). V2 = finished Conclave lists with purchases. Enhancement and unit points from MFM v1.2 via Cryptek_Conclave.md (read 2026-08-16). Geomancer / Tomb Crawlers / Macrocytes from Necron_Lists FOUNDATION pending MFM re-check.
+REFERENCE_STATUS: Active - primary detachment Cryptek Conclave. V1 = no new model purchases; Hierotek proxies allowed (kitchen table). V2 = finished Conclave lists with purchases. All unit points verified MFM v1.2 (read 2026-08-19). Fully statted play sheets: Army_List_*_Conclave.md.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (v0.5.0; Hierotek ID)
@@ -65,9 +65,9 @@ Canoptek Court remains a legal alternate on this collection; it is **not** the l
 
 | Unit / enhancement | Pts | Source |
 |--------------------|-----|--------|
-| Cryptek Geomancer | **75** | Necron_Lists - *pending MFM re-check* |
-| Canoptek Tomb Crawlers (2) | **85** | Necron_Lists - *pending MFM re-check* |
-| Canoptek Macrocytes (5) | **85** | Necron_Lists - *pending MFM re-check* |
+| Cryptek Geomancer | **75** | MFM v1.2 (read 2026-08-19) |
+| Canoptek Tomb Crawlers (2) | **50** | MFM v1.2 — *was 85 in stale Necron_Lists* |
+| Canoptek Macrocytes (5) | **70** | MFM v1.2 — *was 85 in stale Necron_Lists* |
 | Necron Warriors (10) / (20) | **80** / **190** | MFM v1.2 |
 | Canoptek Scarab Swarms (3) / (6) | **40** / **80** | MFM v1.2 |
 | Immortals (5) / (10) | **70** / **140** | MFM v1.2 |
@@ -92,6 +92,8 @@ Warrior flayer/reaper choices and similar options are normally **0 pts**. Use **
 ## 500 points - Cryptek Conclave
 
 ### V1 - no purchases (Hierotek proxies OK) - 500 / 500
+
+**Play sheet:** [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md)
 
 | Unit / upgrade | Models | Pts | Source |
 |----------------|--------|-----|--------|
@@ -135,6 +137,8 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 
 ### V1 - no purchases (Hierotek proxies OK) - 750 / 750
 
+**Play sheet:** [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md)
+
 | Unit / upgrade | Models | Pts | Source |
 |----------------|--------|-----|--------|
 | Cryptek Geomancer | 1 | 75 | OWNED |
@@ -143,18 +147,18 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy |
 | Necron Warriors | 10 | 80 | OWNED |
 | Necron Warriors | 10 | 80 | OWNED - sprue (build) |
-| Canoptek Tomb Crawlers | 2 | 85 | OWNED |
-| Canoptek Macrocytes | 5 | 85 | OWNED |
+| Canoptek Tomb Crawlers | 2 | 50 | OWNED |
+| Canoptek Macrocytes | 5 | 70 | OWNED |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
 | Immortals | 5 | 70 | Guardians + sprue |
-| **Atomic Disintegrators** | - | **10** | Enhancement |
+| **Gauntlet of Compression** | - | **20** | Enhancement |
+| **Gravitic Bolas** | - | **15** | Enhancement |
+| **Quantum Abacus** | - | **15** | Enhancement |
 | | | **750** | |
 
 **Bench:** 2nd Warriors, 2nd Scarabs, Immortals sprue as above.
 
-**Attachments:** Warden + Geomancer on one Warrior squad; Technomancer or Plasmancer proxy on Immortals; second Warriors + Macrocytes + Crawlers + Scarabs for board control (no Conclave buff - they buy time and OC).
-
-**Alternate pad:** drop Atomic Disintegrators and take **Gauntlet of Compression (20)** instead - then cut Scarabs to 3 (−40) and add Gauntlet (+20) for **730**, then add Gravitic Bolas (+15) = **745**, leave 5 unused. Prefer the main table (exact 750).
+**Attachments:** Warden + Geomancer on one Warrior squad; Technomancer or Plasmancer proxy on Immortals; second Warriors + Macrocytes + Crawlers + Scarabs for board control (no Conclave buff — they buy time and OC).
 
 ### V2 - finished with purchases - 750 / 750
 
@@ -166,11 +170,13 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy |
 | Necron Warriors | 10 | 80 | OWNED |
 | Necron Warriors | 10 | 80 | OWNED - sprue |
-| Canoptek Tomb Crawlers | 2 | 85 | OWNED |
-| Canoptek Macrocytes | 5 | 85 | OWNED |
+| Canoptek Tomb Crawlers | 2 | 50 | OWNED |
+| Canoptek Macrocytes | 5 | 70 | OWNED |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
 | Immortals | 5 | 70 | OWNED |
-| **Atomic Disintegrators** | - | **10** | Enhancement |
+| **Gauntlet of Compression** | - | **20** | Enhancement |
+| **Gravitic Bolas** | - | **15** | Enhancement |
+| **Quantum Abacus** | - | **15** | Enhancement |
 | | | **750** | |
 
 **Buy:** 1× Plasmancer only (~$45). Same shell as V1 with a legal Plasmancer.
@@ -190,17 +196,19 @@ Maximum owned + proxy Conclave cast without new kits:
 | Geomancer + Technomancer + Plasmancer proxy + Warden proxy | 75+80+55+50 = **260** |
 | Warriors (20) | **190** |
 | Immortals (5) | **70** |
-| Tomb Crawlers + Macrocytes + Scarabs (6) | 85+85+80 = **250** |
-| **Ceiling** | **770** |
+| Tomb Crawlers + Macrocytes + Scarabs (6) | 50+70+80 = **200** |
+| **Ceiling** | **720** |
 
 | | |
 |--|--|
-| Shortfall to 1,000 | **230** |
-| Enhancement pad alone | At most ~60 pts if you stack several - **still short** |
+| Shortfall to 1,000 | **280** |
+| Enhancement pad alone | At most ~60 pts if you stack several — **still short** |
 
 Play at **750** V1, or move to V2.
 
 ### V2 - finished with purchases - 1,000 / 1,000
+
+**Play sheet:** [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md)
 
 | Unit / upgrade | Models | Pts | Source |
 |----------------|--------|-----|--------|
@@ -211,22 +219,20 @@ Play at **750** V1, or move to V2.
 | Necron Warriors | 20 | 190 | OWNED (merge) |
 | Immortals | 5 | 70 | OWNED |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
-| Canoptek Tomb Crawlers | 2 | 85 | OWNED |
+| Canoptek Tomb Crawlers | 2 | 50 | OWNED |
+| Canoptek Macrocytes | 5 | 70 | OWNED |
 | **Illuminor Szeras** | 1 | **175** | **BUY** |
 | **Lychguard** | 5 | **80** | **BUY** |
-| **Gauntlet of Compression** | - | **20** | Enhancement (on Geomancer or Technomancer) |
-| **Quantum Abacus** | - | **15** | Enhancement |
+| **Gauntlet of Compression** | - | **20** | Enhancement |
 | **Atomic Disintegrators** | - | **10** | Enhancement |
 | **Gravitic Bolas** | - | **15** | Enhancement |
 | | | **1,000** | |
 
-**Buy list:** Plasmancer + Illuminor Szeras + Lychguard (5) (~$45 + $70 + $70 ≈ **$185 CAD** retail). Optional: real Royal Warden; second Immortals box (merge to 10 @ 140) as a later swap vs Scarabs/Crawlers.
-
-**On the shelf:** Macrocytes (85) - swap in only if you re-balance (e.g. drop Scarabs and an enhancement).
+**Buy list:** Plasmancer + Illuminor Szeras + Lychguard (5) (~$45 + $70 + $70 ≈ **$185 CAD** retail). Optional: real Royal Warden; second Immortals box (merge to 10 @ 140) as a later swap.
 
 **Attachments:** Warden + Geomancer on the 20 Warriors; Technomancer or Plasmancer on Immortals; Szeras behind the Warrior phalanx; Lychguard as the character screen.
 
-**Enhancement count:** four are listed to hit 1,000 exactly. If the app allows fewer, drop Gravitic Bolas (−15) and Quantum Abacus (−15), add Macrocytes (+85), and cut Scarabs (−80) → **985**, then add one 15-pt enhancement back to **1,000** - re-muster in the app.
+**Enhancement count:** three listed to hit 1,000 exactly with Macrocytes on the table. Re-muster in the app if enhancement limits differ.
 
 ---
 
@@ -270,6 +276,7 @@ Play at **750** V1, or move to V2.
 ---
 
 ## Change Log
+- v1.3 (2026-08-19): MFM v1.2 re-read — Tomb Crawlers **50**, Macrocytes **70**. Linked Army_List_750/1000 play sheets; 750/1000 rebalance; V1 ceiling 720 without purchases.
 - v1.2 (2026-08-19): Primary detachment switched to **Cryptek Conclave**. V1/V2 lists rewritten per size with Conclave enhancements as point-padding. Court demoted to alternate. V1 500 and 750 land exact; V2 500/750 buy Plasmancer only; V2 1,000 adds Szeras + Lychguard + enhancements to 1,000.
 - v1.1 (2026-08-19): Rebuilt after Hierotek photo ID; Court was V2 default - superseded.
 - v1.0 (2026-08-19): First dual-path draft - superseded.

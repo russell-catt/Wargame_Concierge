@@ -15,11 +15,11 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 | Unit | Qty | 40K Datasheet | Pts | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | Cryptek Geomancer | 1 | Cryptek Geomancer | 75 | Game ready |
-| Canoptek Tomb Crawlers | 2 | Canoptek Tomb Crawlers | 85 | Game ready — 1 twin gauss reapers + 1 transdimensional isolator |
-| Canoptek Macrocytes | 5 | Canoptek Macrocytes | 85 | Game ready — 1 Accelerator, 1 Reanimator, 3 Warriors (2 gauss scalpel, 1 tesla caster) |
-| Necron Warriors | 10 | Necron Warriors | 100 | Game ready — mixed gauss flayer / gauss reaper (photo shows 10) |
+| Canoptek Tomb Crawlers | 2 | Canoptek Tomb Crawlers | 50 | Game ready — 1 twin gauss reapers + 1 transdimensional isolator |
+| Canoptek Macrocytes | 5 | Canoptek Macrocytes | 70 | Game ready — 1 Accelerator, 1 Reanimator, 3 Warriors (2 gauss scalpel, 1 tesla caster) |
+| Necron Warriors | 10 | Necron Warriors | 80 | Game ready — mixed gauss flayer / gauss reaper (photo shows 10) |
 | Canoptek Scarab Swarms | 3 | Canoptek Scarab Swarms | 40 | Game ready (Tomb World) |
-| **Tomb World subtotal** | | | **385** | |
+| **Tomb World subtotal** | | | **315** | MFM v1.2 verified 2026-08-19 |
 
 **Hierotek Circle Kill Team (used)** — assembled + painted; **photo ID 2026-08-17**:
 
@@ -64,7 +64,7 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 ### Phase 1: 250-Point Learning Force
 
 **Preferred start (playable now):** **Kill Team: Tomb World** game-ready units:
-* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (100 pts) + **2x Canoptek Tomb Crawlers** (85 pts) = **260 pts**
+* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (80 pts) + **2x Canoptek Tomb Crawlers** (50 pts) = **205 pts** *(MFM v1.2; add Scarabs, Macrocytes, or an enhancement to approach 250)*
 * *Strategy:* Attach Geomancer and Tomb Crawlers to Warriors for Power Matrix re-roll practice.
 
 **Alternate:** Hierotek Technomancer + assembled Immortals (see Foundation). Plasmancer remains a purchase or Apprentek proxy.
@@ -74,23 +74,23 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 ### Phase 2: 500-Point Expansion
 
 **From owned inventory:**
-* **5x Canoptek Macrocytes** (85 pts) — *from Tomb World box, game ready*
+* **5x Canoptek Macrocytes** (70 pts) — *from Tomb World box, game ready*
 * **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, unassembled — build before play*
 
 **Still to acquire:**
-* **1x Canoptek Doomstalker** (145 pts) — *purchased (future)*
+* **1x Canoptek Doomstalker** (140 pts) — *purchased (future)* — MFM v1.2
 
 ### Phase 3: 750-Point Expansion
 * **Additions:**
-  * 3x Canoptek Wraiths (125 pts) *(Purchased)*
+  * 3x Canoptek Wraiths (95 pts) *(Purchased)* — MFM v1.2 first unit of 3
 * **Total:** *(TBD once Phase 1/2 list is finalized from owned + Hierotek ID)*
 * *Strategy:* Send Wraiths into a center objective to force open a No Man's Land Power Matrix zone.
 
 ### Phase 4: 1,000-Point Target List
 * **Additions:**
-  * 3x Canoptek Wraiths (125 pts) *(Purchased — merges into a max block of 6)*
-  * 1x Canoptek Doomstalker (145 pts) *(Purchased — brings you to 2 total Doomstalkers)*
-  * **5x Immortals** (75 pts) — *already purchased (1 box of 5), unassembled — not a retail target*
+  * 3x Canoptek Wraiths (95 pts) *(Purchased — merges into a max block of 6)*
+  * 1x Canoptek Doomstalker (140 pts) *(Purchased — brings you to 2 total Doomstalkers)*
+  * **5x Immortals** (70 pts) — *already purchased (1 box of 5), unassembled — not a retail target*
 * *Strategy:* Immortals add flexible infantry once built; tune remaining slots to hit 1,000 pts.
 
 ### 🛒 Canoptek Court Shopping & CAD Price Tracker
@@ -115,7 +115,7 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 ### Phase 1: 250-Point Learning Force
 
 **Preferred start (playable now):** **Kill Team: Tomb World** game-ready units:
-* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (100 pts) + **2x Canoptek Tomb Crawlers** (85 pts) = **260 pts**
+* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (80 pts) + **2x Canoptek Tomb Crawlers** (50 pts) = **205 pts** *(MFM v1.2; add Scarabs, Macrocytes, or an enhancement to approach 250)*
 * *Strategy:* Geomancer leads Warriors; Tomb Crawlers screen for Conclave practice.
 
 **Hierotek:** Technomancer owned. Plasmancer is **not** in the box (Apprentek is a casual proxy only).
@@ -125,25 +125,25 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 ### Phase 2: 500-Point Expansion
 
 **From owned inventory:**
-* **5x Canoptek Macrocytes** (85 pts) — *from Tomb World box, game ready*
+* **5x Canoptek Macrocytes** (70 pts) — *from Tomb World box, game ready*
 * **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, unassembled*
-* **5x Immortals** (75 pts) — *already purchased (1 box of 5), unassembled*
+* **5x Immortals** (70 pts) — *already purchased (1 box of 5), unassembled*
 
 **Still to acquire:**
-* **1x Plasmancer** (65 pts) *(Purchased)*
+* **1x Plasmancer** (55 pts) *(Purchased)* — MFM v1.2
 
 *Strategy:* Once built, Plasmancer leads Immortals for critical hits; Macrocytes grant [IGNORES COVER] to nearby infantry.
 
 ### Phase 3: 750-Point Expansion
 * **Additions:**
   * Illuminor Szeras (175 pts) *(Purchased)*
-  * **10x Necron Warriors** (100 pts) — *2nd squad on sprue (owned); build to merge with Tomb World squad into 20-man block*
+  * **10x Necron Warriors** (80 pts) — *2nd squad on sprue (owned); build to merge with Tomb World squad into 20-man block (190 pts merged)*
 * *Strategy:* Szeras behind a 20-man Warrior phalanx for AP aura and durability.
 
 ### Phase 4: 1,000-Point Target List
 * **Additions:**
-  * 10x Lychguard (170 pts) *(Purchased — 2 boxes of 5)*
-  * **5x Immortals** (75 pts) *(Purchased — second box; first box of 5 already owned — merges into max block of 10)*
+  * 10x Lychguard (160 pts) *(Purchased — 2 boxes of 5)* — MFM v1.2
+  * **5x Immortals** (70 pts) *(Purchased — second box; first box of 5 already owned — merges into max block of 10 @ 140 pts)*
 * *Strategy:* Lychguard shield wall for Cryptek characters.
 
 ### 🛒 Cryptek Conclave Shopping & CAD Price Tracker

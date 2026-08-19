@@ -37,18 +37,21 @@ A first game should be small, short, and mostly about learning the phase order. 
 
 ---
 
-## The Tomb World list - 240 / 250 points *(playable now)*
+## The Tomb World list - 245 / 250 points *(playable now)*
+
+**Fully statted play sheet:** [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md)
 
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
 | **Cryptek Geomancer** | 1 | **75** | **OWNED** - Kill Team: Tomb World, game-ready |
 | **Necron Warriors** | 10 | **80** | **OWNED** - Kill Team: Tomb World, game-ready |
-| **Canoptek Tomb Crawlers** | 2 | **85** | **OWNED** - Kill Team: Tomb World, game-ready |
-| | | **240** | Zero purchases, zero assembly required |
+| **Canoptek Tomb Crawlers** | 2 | **50** | **OWNED** - Kill Team: Tomb World, game-ready |
+| **Canoptek Scarab Swarms** | 3 | **40** | **OWNED** - Kill Team: Tomb World, game-ready |
+| | | **245** | MFM v1.2 (read 2026-08-19); 5 pts under cap is fine for learning |
 
-*Strategy:* Attach the Geomancer to the Warriors. This works as a **Canoptek Court** rep (the Geomancer and Tomb Crawlers both benefit from the Power Matrix) or as a **Cryptek Conclave** rep (the Geomancer leads the Warriors for Technosorcerous Augmentations) - pick whichever detachment you want to learn first; both play identically at this size. See [`Canoptek_Court.md`](Canoptek_Court.md) / [`Cryptek_Conclave.md`](Cryptek_Conclave.md).
+*Strategy:* Attach the Geomancer to the Warriors. Crawlers push mid; Scarabs go wide. See [`Canoptek_Court.md`](Canoptek_Court.md) / [`Cryptek_Conclave.md`](Cryptek_Conclave.md).
 
-**Room to grow:** 240 of 250 points leaves headroom. If your opponent is also small, add nothing and enjoy the extra buffer; if you want to round out to exactly 250, borrow a single Scarab Swarm base's worth of proxy time from the 2nd set below (see note) or simply agree 240 as the game size.
+**Minimal three-unit variant (205 pts):** Drop Scarabs — Geomancer + Warriors + Crawlers only.
 
 ---
 

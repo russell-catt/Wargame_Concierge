@@ -34,7 +34,7 @@ Usually independent.
 SWARM, CANOPTEK / FACTION: NECRONS
 
 ## Points / cost notes
-Verify MFM (~40 for 3 historically) — research 2026-08-16
+40 pts / 3; 80 pts / 6 (MFM v1.2, read 2026-08-19)
 
 ## List-building notes
 Owned x3 unassembled — build before play.

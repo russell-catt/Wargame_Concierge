@@ -115,10 +115,10 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
-| Cryptek Geomancer | *not yet costed from MFM v1.2* | **Yes - game ready** | **The Cryptek this whole detachment needs.** Attach it to the Warriors and the detachment works |
-| Necron Warriors (10) | **80** | **Yes - game ready** | The detachment's bread and butter, and the Geomancer's bodyguard unit |
-| Canoptek Tomb Crawlers (2) | *not yet costed from MFM v1.2* | **Yes - game ready** | Screening. No Cryptek synergy, but they buy the castle time |
-| Canoptek Macrocytes (5) | *not yet costed from MFM v1.2* | **Yes - game ready** | Phase 2 bodies. See the Macrocytes correction below |
+| Cryptek Geomancer | **75** | **Yes - game ready** | Attach to Warriors; Conclave/Court Cryptek |
+| Necron Warriors (10) | **80** | **Yes - game ready** | Bodyguard unit |
+| Canoptek Tomb Crawlers (2) | **50** | **Yes - game ready** | Screening — MFM v1.2 verified 2026-08-19 |
+| Canoptek Macrocytes (5) | **70** | **Yes - game ready** | Phase 2 bodies — MFM v1.2 verified 2026-08-19 |
 | Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | Objective-grabbers; no Cryptek synergy |
 
 **Game-ready today - Hierotek Circle (photo ID 2026-08-17).**
@@ -148,9 +148,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Lychguard (5) | **80** | Bodyguard wall. The old note's 170 for five was badly wrong |
 | Illuminor Szeras | **175** | Expensive; leave until well past 500 points |
 
-> **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list.
-
-> **Points health warning.** [`Necron_Lists.md`](Necron_Lists.md) carries stale figures - Lychguard at 170 for five (actually **80**), Warriors at 100 (actually **80**), Immortals at 75 (actually **70**), Plasmancer at 65 (actually **55**). Everything on this page was read from the owned Munitorum Field Manual v1.2 on **2026-08-16**.
+> **Points verified 2026-08-19.** Geomancer **75**, Tomb Crawlers **50** (2), Macrocytes **70** (5) — read from owned MFM v1.2. Older [`Necron_Lists.md`](Necron_Lists.md) used 85 for Crawlers/Macrocytes; that was wrong.
 
 **One more correction from S3, closed here.** The old notes claimed Canoptek Macrocytes grant `[IGNORES COVER]` to nearby infantry. They do not. Checked on the Macrocytes datasheet in the owned faction pack v1.1: their aura makes **enemies** less accurate near them, and their wargear can add a wound to a nearby unit's reanimation. `[IGNORES COVER]` is one of the options on **this detachment's** menu - the two rules had been run together.
 
