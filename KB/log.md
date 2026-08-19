@@ -393,3 +393,7 @@ Key additions:
 - Cloud egress for `wahapedia.ru` still pending (allowlist request filed 2026-08-19); VERIFY blanks not filled this pass
 
 Nothing under `raw/` written.
+
+## [2026-08-19] query | Their Number is Legion + Potentiality Syphon (250 Conclave)
+Pages consulted: Army_List_250_Conclave, Reference_Guide_250/500_V1_Conclave, Reanimation_Protocols, Cryptek_Conclave; Wahapedia Warriors + Necrons hub (search retrieve 2026-08-19)
+Output filed: no
