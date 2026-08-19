@@ -174,11 +174,11 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Necrons
 
-**Reanimation Protocols** - `unverified`
-: The Necron army rule. Units recover during the game, returning destroyed models or restoring lost wounds. The strategic consequence - damage that does not finish a unit is often wasted - holds across editions even though the wording has not.
+**Reanimation Protocols** - `draft` · **back-filled 2026-08-19**
+: Necron army rule. At the **end of your Command phase**, each eligible unit on the battlefield reanimates **D3** wounds (heal survivors first, then return destroyed models at 1W; wiped units stay dead). See **[[reanimation_protocols]]**.
 - Faction / scope: Necrons, army rule
-- Verify against: `raw/pointers/faction_pack_necrons.md`
-- See also: **[[reanimation_protocols]]** - promoted to a concept page in L1
+- Verify against: owned faction pack; shipping `Reanimation_Protocols.md`; [[wahapedia]]
+- Amplifiers: **Their Number is Legion**, **Potentiality Syphon** — [[their_number_is_legion_potentiality_syphon_250]]
 
 **Their Number is Legion** - `draft` · **filed 2026-08-19**
 : Necron Warriors datasheet ability. Each time this unit’s Reanimation Protocols activate, you may **re-roll the D3** for how many wounds are reanimated. Does not change heal-first / return-at-1W order.
@@ -493,7 +493,7 @@ What has to be read to clear this page. Everything here is blocked on a document
 |---------|-----------|--------------|
 | Objective Control, objective marker, battle round, No Man's Land, AP, critical hit, Ignores Cover, leader/attached | `raw/pointers/rules_core.md` | **S3** |
 | Detachment, detachment rule, army rule, datasheet, battleline | `raw/pointers/rules_core.md` | **S3** |
-| Reanimation Protocols, Power Matrix wording, Canoptek, Cryptek | `raw/pointers/faction_pack_necrons.md` | **S4** - still outstanding for `KB/`; S4 read the pack for `games/` but the KB pages were not back-filled |
+| Reanimation Protocols, Power Matrix wording, Canoptek, Cryptek | `raw/pointers/faction_pack_necrons.md` | **Partial:** RP back-filled to `draft` 2026-08-19 from shipping; Power Matrix wording still outstanding for KB |
 | ~~Scientific Schemes~~ | Same | **Done.** S4 read the pack; the rule is Technosorcerous Augmentations and the old label is deprecated |
 | Oath of Moment, Gladius Task Force, Firstborn datasheets | `raw/pointers/faction_pack_space_marines.md` | **S5** |
 | Points values | `raw/pointers/points_manuals.md` | S3 / S4 |

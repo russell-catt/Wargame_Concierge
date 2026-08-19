@@ -4,9 +4,9 @@ type: unit
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-17
-version: 0.5.0
-sources: [games/warhammer_40k_11e/armies/necrons/units/Unit_Index.md, docs/handoffs/v1_scaffold/slices/S6_necrons_implementer.md, kill_team_necron_photos]
+updated: 2026-08-19
+version: 0.5.2
+sources: [games/warhammer_40k_11e/armies/necrons/units/Unit_Index.md, docs/handoffs/v1_scaffold/slices/S6_necrons_implementer.md, kill_team_necron_photos, necron_warriors]
 confidence: draft
 tags: [unit, necrons, index, s6, research_corpus, pointer]
 ---
@@ -89,7 +89,7 @@ A unit graduates from this pointer to its own page when all three hold:
 2. The models exist and can be put on a table, **and**
 3. There is play content to write - how it is used, how it dies, what it pairs with - that is not already in [[cryptek_conclave]], [[canoptek_court]], or the shipping starter lists.
 
-On today's collection, **five units clear condition 2** - the Tomb World Geomancer, Tomb Crawlers, Macrocytes, Warriors, and Scarab Swarms are assembled, painted, and identified. Only **Necron Warriors** and **Canoptek Scarab Swarms** also clear condition 1, so those are the first two pages this KB should expect to write, and they should wait until the units have actually been played. The Geomancer, Tomb Crawlers, and Macrocytes need their research files filled first.
+On today's collection, **five units clear condition 2** - the Tomb World Geomancer, Tomb Crawlers, Macrocytes, Warriors, and Scarab Swarms are assembled, painted, and identified. **[[necron_warriors]] was filed 2026-08-19** (Legion + Conclave play content). Next likely: Scarab Swarms. Geomancer / Crawlers / Macrocytes need richer research first.
 
 ---
 
@@ -97,7 +97,7 @@ On today's collection, **five units clear condition 2** - the Tomb World Geomanc
 
 Recorded here so a future session does not rediscover them.
 
-- **Wahapedia URL path.** Every one of the 65 files cites a `wahapedia.ru/wh40k11ed/...` URL. The rest of the repo - S3, S4, S5, and [[wahapedia]] - cites `wh40k10ed`. **One of the two is wrong and neither has been confirmed.** See [[wahapedia]].
+- **Wahapedia URL path.** Prefer `wh40k11ed` (AGENTS Sec 10 / [[wahapedia]] policy 2026-08-19). Legacy `wh40k10ed` cites are edition-risk.
 - **Local pack cross-check.** The three `full` files record `partial`; the other 62 record `pending`. No unit in this corpus has been fully cross-checked against the owned faction pack.
 - **Points.** Captured only in the three `full` files, spot-checked against Munitorum Field Manual v1.2. Everything else says "verify Munitorum".
 - **Statlines.** The three `full` files carry model profile and weapon profile tables. [`AGENTS.md`](../../AGENTS.md) Sec 10 and [`units/README.md`](README.md) both forbid transcribing statlines. Flagged for the Coordinator in the L2 report; `games/` is not the Librarian's surface to edit.
@@ -108,9 +108,10 @@ Recorded here so a future session does not rediscover them.
 
 ## Related pages
 
+- [[necron_warriors]] - first graduated KB unit page (2026-08-19)
 - [[kill_team_necron_photos]] - 2026-08-17 photo ID
 - [[canoptek_court]] · [[cryptek_conclave]] - the detachments these units are chosen for
 - [[space_marines_unit_index]] - the same overview for the opposing army
-- [[wahapedia]] - the URL-path question that affects all 65 files
+- [[wahapedia]] - prefer `wh40k11ed` for lookup
 - [[reanimation_protocols]] - the army rule every unit here has
 - [[index]] · [[glossary]]

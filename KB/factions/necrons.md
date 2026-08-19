@@ -4,9 +4,9 @@ type: faction
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-17
-version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos]
+updated: 2026-08-19
+version: 0.5.2
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, reanimation_protocols]
 confidence: draft
 tags: [faction, necrons, primary, ownership, learning_army]
 ---
@@ -29,11 +29,9 @@ The trade is that Necrons rarely blow anything off the table. Games are won by *
 
 ## Army rule: Reanimation Protocols
 
-The faction-wide mechanic and the first thing to learn properly: Necron units recover during the game, bringing back destroyed models or restoring lost wounds at a defined point in the turn sequence.
+At the **end of your Command phase**, each eligible Necron unit on the battlefield reanimates **D3** wounds (heal first, then return models at 1W; wiped = gone). Full treatment on [[reanimation_protocols]] (`draft`, back-filled 2026-08-19 from shipping).
 
-Full treatment, including what still needs confirming, on [[reanimation_protocols]]. Short version for list-building: **damage that does not finish a unit is often damage wasted**, which is why Necrons want to hold ground with bodies rather than trade efficiently.
-
-`unverified` in 11th Edition wording. Verify against the Necrons faction pack (`raw/pointers/faction_pack_necrons.md`) before relying on the timing.
+Short version for list-building: **damage that does not finish a unit is often damage wasted**, which is why Necrons want to hold ground with bodies rather than trade efficiently. Conclave also has **Potentiality Syphon** for off-turn RP — [[their_number_is_legion_potentiality_syphon_250]].
 
 ---
 
@@ -90,7 +88,7 @@ Two paths are costed from this collection. Neither is committed to.
 | [[canoptek_court]] | Canoptek constructs - Wraiths, Doomstalkers | Owned Macrocytes, Tomb Crawlers, and Scarabs are all Canoptek and all game-ready; the Wraiths and Doomstalkers it is named for are still unowned |
 | [[cryptek_conclave]] | Cryptek characters leading infantry | Owned Warriors are exactly its battleline, and the game-ready **Cryptek Geomancer** supplies the character type the detachment is built on; Immortals join once built |
 
-**Both paths now start from a playable list.** The Tomb World units give either detachment a legal Phase 1 force - the owner's notes cost Geomancer plus ten Warriors plus two Tomb Crawlers at 260 points - so the choice between detachments is no longer gated on buying or identifying anything.
+**Both paths now start from a playable list.** Shipping Cryptek Conclave Phase 1 is **245 pts** (Geomancer 75 + 10 Warriors 80 + 2 Tomb Crawlers **50** MFM v1.2 + 3 Scarabs 40) — see `Army_List_250_Conclave.md`. Older owner notes said 260 without Scarabs / with wrong Crawler points. Detachment choice is no longer gated on buying or identifying anything.
 
 Cryptek Conclave remains the cheaper route to a *complete* path, and it no longer depends on a guess: the Geomancer is a real, owned, painted Cryptek, where before this rested on an assumption about the Hierotek Circle box. Canoptek Court is rated the stronger detachment by the owner's notes and now has real Canoptek bodies behind it, but still asks for roughly two Doomstalkers and six Wraiths.
 
@@ -121,9 +119,7 @@ No per-datasheet `KB/units/` pages exist yet - [[necrons_unit_index]] explains w
 ## Open questions
 
 - Dual-legality of Hierotek Plasmacytes (25mm KT vs 28mm 40K) vs the faction pack. **To-do: purchase 25–28mm base rings** (do not rebase).
-- What does Reanimation Protocols actually do in 11th Edition - trigger, quantity restored, and what denies it?
-- Which detachment survives contact with the real rules, rather than the owner's summary of them?
-- Are the points values in the owner's notes current against the Munitorum Field Manual?
+- Which detachment survives contact with competitive play for *this* collection (Conclave is the beginner default; Court remains the competitive path).
 - What game size are early games aimed at - Combat Patrol, Incursion, or Strike Force?
 
 ---
@@ -132,6 +128,7 @@ No per-datasheet `KB/units/` pages exist yet - [[necrons_unit_index]] explains w
 
 - [[canoptek_court]] - detachment, Power Matrix
 - [[cryptek_conclave]] - detachment, Technosorcerous Augmentations
+- [[their_number_is_legion_potentiality_syphon_250]] - Legion + Syphon filed answer
 - [[necrons_unit_index]] - the KB entry point into the 65-file unit research corpus
 - [[reanimation_protocols]] - the army rule
 - [[power_matrix]] - the detachment rule, and the L0 correction

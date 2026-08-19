@@ -4,9 +4,9 @@ type: detachment
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-17
-version: 0.5.0
-sources: [necron_lists_owner_notes, docs/Game_System_Scaffold.md, kill_team_necron_photos]
+updated: 2026-08-19
+version: 0.5.2
+sources: [necron_lists_owner_notes, docs/Game_System_Scaffold.md, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md]
 confidence: draft
 tags: [detachment, necrons, canoptek, power_matrix, expansion_path]
 ---
@@ -52,7 +52,7 @@ That is a coherent gameplan and a demanding one - it asks a beginner to fight fo
 | Canoptek Wraiths (6, two boxes) | No |
 | Canoptek Doomstalker (2) | No |
 
-**This detachment is playable today.** The Tomb World units are Canoptek-heavy by construction - Tomb Crawlers, Macrocytes, and Scarab Swarms are exactly the construct bodies the detachment is themed around - and they are assembled, painted, and mapped to known datasheets. The owner's notes cost a Geomancer, ten Warriors, and two Tomb Crawlers at 260 points as the Phase 1 learning force.
+**This detachment is playable today.** The Tomb World units are Canoptek-heavy by construction - Tomb Crawlers, Macrocytes, and Scarab Swarms are exactly the construct bodies the detachment is themed around - and they are assembled, painted, and mapped to known datasheets. Shared Phase 1 learning force with Conclave is now **245 pts** shipping (Geomancer + 10 Warriors + 2 Tomb Crawlers at **50** MFM + 3 Scarabs) — older notes said 260 without Scarabs / wrong Crawler points.
 
 What is still missing is the **top end**: the Wraiths and Doomstalkers the detachment is named for. The owner's estimate to complete the path is roughly $260 CAD retail, or $130-180 second-hand. See [[necrons]] for the full inventory position.
 
@@ -72,7 +72,7 @@ Points and phases as recorded by the source; both need checking against the Muni
 
 | Phase | Adds |
 |-------|------|
-| 1 (250 pts) | Owned Tomb World units - Geomancer, ten Warriors, two Tomb Crawlers (260 pts by the source's count) |
+| 1 (~250 pts) | Owned Tomb World units — Geomancer, ten Warriors, two Tomb Crawlers (**50** MFM), three Scarabs (**245** shipping; older notes said 260) |
 | 2 (500 pts) | Owned Macrocytes, game ready; the second Scarab set once built; a Doomstalker |
 | 3 (750 pts) | Three Canoptek Wraiths |
 | 4 (1,000 pts) | Three more Wraiths to a block of six, a second Doomstalker, the owned Immortals |

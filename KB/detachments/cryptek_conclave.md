@@ -4,9 +4,9 @@ type: detachment
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-17
-version: 0.5.0
-sources: [necron_lists_owner_notes, kill_team_necron_photos]
+updated: 2026-08-19
+version: 0.5.2
+sources: [necron_lists_owner_notes, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, their_number_is_legion_potentiality_syphon_250]
 confidence: draft
 tags: [detachment, necrons, cryptek, technosorcerous_augmentations, expansion_path]
 ---
@@ -28,7 +28,7 @@ What the rule actually does, read off page 7 of the owned faction pack:
 
 The keyword mechanic is what makes this worth building around: an attached Cryptek character lends the Cryptek keyword to its whole bodyguard unit, so the upgrade lands on ten Warriors' guns rather than on one character's pistol. An unattached Cryptek is close to a wasted pick.
 
-So the source's one-line summary was directionally right about the *shape* - this detachment stands still and shoots better - but wrong about both the name and the reanimation half. The reanimation interaction is a stratagem, not the detachment rule.
+So the source's one-line summary was directionally right about the *shape* - this detachment stands still and shoots better - but wrong about both the name and the reanimation half. The reanimation interaction is a stratagem (**Potentiality Syphon**), not the detachment rule. Teaching detail: [[their_number_is_legion_potentiality_syphon_250]].
 
 That still points the detachment at the opposite extreme from [[canoptek_court]]: rather than earning accuracy by taking ground, it improves the shooting of infantry that is already standing still, and [[reanimation_protocols]] makes them hard to shift.
 
@@ -76,23 +76,29 @@ Worth stating plainly: **the weaker-rated detachment is the better beginner choi
 
 ---
 
-## Expansion path from the owner's notes
+## Expansion path from the owner's notes (points refreshed 2026-08-19)
 
 | Phase | Adds |
 |-------|------|
-| 1 (250 pts) | Owned Tomb World units - Geomancer leading ten Warriors, with two Tomb Crawlers screening (260 pts by the source's count) |
-| 2 (500 pts) | Owned Macrocytes, game ready; the second Scarab set and the Immortals once built; a Plasmancer |
-| 3 (750 pts) | Illuminor Szeras; the owned second Warrior squad, built and merged to twenty |
-| 4 (1,000 pts) | Ten Lychguard; a second Immortal box, merging to ten |
+| 1 (~250 pts) | **Shipping Conclave list = 245:** Geomancer (75) + 10 Warriors (80) + 2 Tomb Crawlers (**50**, MFM v1.2) + 3 Scarabs (40). See `Army_List_250_Conclave.md`. Older owner notes said 260 without Scarabs / with wrong Crawler points. |
+| 2 (500 pts) | Hierotek proxies / Immortals / more Scarabs per `Starter_Forces_500_750_1000.md` V1; Macrocytes **70** MFM |
+| 3 (750 pts) | Expand toward Szeras / larger Warrior brick per shipping V1 path |
+| 4 (1,000 pts) | Lychguard / second Immortals per shipping V2 path |
 
-Points come from the source and need checking against the Munitorum Field Manual. Phase 1 needs no purchase and no identification; Phase 3's Warrior block needs assembly, not shopping.
+Crypteks are **Support** (not Leader) in faction pack v1.1 — a Cryptek can stack with a Royal Warden / Overlord Leader on the same bodyguard. Warrior units of 10 or 20 and Immortal units of 5 or 10 are the legal sizes used in shipping lists.
+
+---
+
+## Off-turn reanimation
+
+**Potentiality Syphon** (1CP): in the opponent’s Command phase, one NECRONS unit on an objective activates [[reanimation_protocols]]; Cryptek units get +1 wound. Full teaching answer: [[their_number_is_legion_potentiality_syphon_250]].
 
 ---
 
 ## What is not known
 
-- Whether Crypteks can attach to these units the way the source assumes - the faction pack v1.1 moved Crypteks from **Leader** to **Support**, which changes what stacks with what
-- Whether merged blocks of 20 Warriors and 10 Immortals are legal unit sizes in 11e
+- Fresh pack line-check of every Conclave stratagem name beyond Syphon / Technosorcerous Augmentations
+- Whether a future dataslate moves Crawler / Macrocyte points again
 
 **Photo ID (closed 2026-08-17):** Hierotek contains a **Technomancer**, not a Plasmancer. Despotek may proxy a Royal Warden. See [[kill_team_necron_photos]].
 

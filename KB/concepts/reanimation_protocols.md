@@ -4,10 +4,15 @@ type: concept
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-16
-version: 0.5.0
-sources: [necron_lists_owner_notes, local_library_pointers]
-confidence: unverified
+updated: 2026-08-19
+version: 0.5.2
+sources:
+  - games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
+  - games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
+  - their_number_is_legion_potentiality_syphon_250
+  - local_library_pointers
+  - "https://wahapedia.ru/wh40k11ed/factions/necrons (retrieved 2026-08-19)"
+confidence: draft
 tags: [concept, necrons, army_rule, attrition, reanimation]
 ---
 
@@ -15,75 +20,68 @@ tags: [concept, necrons, army_rule, attrition, reanimation]
 
 The Necron army rule: units recover during the game, bringing back destroyed models or restoring lost wounds. It is the single mechanic that defines how the faction is played.
 
----
-
-## Confidence: unverified
-
-**No 11th Edition source has been read for this rule.** What follows is the general shape of the mechanic, written from familiarity, together with an explicit list of what has to be confirmed. It is here because [[necrons]], [[canoptek_court]], and [[cryptek_conclave]] all need something to link to - not because it is trustworthy.
-
-Verify against the Necrons faction pack at `raw/pointers/faction_pack_necrons.md`, then cross-check on [[wahapedia]]. Do not take any timing claim below to a table first.
+**One-line summary:** At the end of your Command phase, every eligible Necron unit on the battlefield reanimates **D3** wounds — heal first, then return models at 1 wound; wiped units stay dead.
 
 ---
 
-## The shape of the mechanic
+## Confidence: draft
 
-At a defined point in the turn sequence, Necron units that have taken losses get some of them back. In prior editions this has variously meant returning whole destroyed models to a unit, restoring wounds to a surviving model, or both, with the amount tied to the unit rather than rolled per model.
+Back-filled **2026-08-19** from the shipping teaching guide [`games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md`](../../games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md) (faction pack v1.1 + Wahapedia army rule, read **2026-08-16** for shipping; amplifiers cross-checked Wahapedia **2026-08-19**). Teaching paraphrase only. Promote to `verified` after a fresh owned-pack line check on this KB page itself.
 
-The details have changed between editions more than once. **That history is the reason this page is `unverified` rather than `draft`** - a confident memory of Reanimation Protocols is quite likely to be a memory of a version that no longer exists.
+---
+
+## What the rule does
+
+| Question | Answer |
+|----------|--------|
+| **Who** | Every unit with the Reanimation Protocols ability that is still on the battlefield |
+| **When** | **End of your Command phase** (once per battle round, on your turn) |
+| **How much** | Roll a **D3** — that many wounds reanimate for that unit |
+| **Cost** | Free |
+
+Spend each reanimated wound in order:
+
+1. **Heal** a wounded surviving model.
+2. Only when every survivor is at full wounds: **return a destroyed model with 1 wound remaining**.
+3. **Stop** at Starting Strength with everyone full.
+
+Chip damage soaks the roll before bodies stand back up. **A wiped unit (0 models) never reanimates.**
 
 ---
 
 ## Why it changes how the army is played
 
-Even without the exact wording, the strategic consequence is stable across every version the rule has had, and it is what a new Necron player most needs to internalise.
+**Partial damage is wasted damage.** Opponents must kill units outright or leave them alone; splitting fire is punished harder than against most armies.
 
-**Partial damage is wasted damage.** Against most armies, chipping a unit down over two turns is progress. Against Necrons it often is not: the unit repairs between the two attempts, and the opponent has spent two turns of shooting to accomplish what looks like one turn of nothing. This creates a specific and unusual pressure on the opponent - they must **kill units outright or leave them alone**, and splitting fire is punished harder than it would be elsewhere.
-
-Three practical consequences for the Necron player:
-
-- **Stand on the objective and take the hit.** The correct answer to "will this unit survive?" is more often yes than instinct suggests, and the unit is scoring [[objective_control]] the whole time. New players pull units back that should have stayed.
-- **Units are worth more the longer they live.** A Warrior block that survives three turns has effectively been re-bought twice. Trading it away early for a favourable exchange throws that away.
-- **The opponent's mistakes compound.** Every turn they spread damage instead of concentrating it, the army gets a portion of it refunded.
-
-This is also why Necrons feel forgiving to learn on. A positioning error that would cost another army a unit often costs the Necron player some wounds and a turn of recovery instead.
+- **Stand on the objective and take the hit** — the unit scores [[objective_control]] while recovering.
+- **Do not lose the last model** — one model reanimates; zero never come back.
+- **The rule is worth more the longer the game runs.**
 
 ---
 
-## How the detachments interact with it
+## Detachment and datasheet amplifiers
 
-- [[cryptek_conclave]] is described by [[necron_lists_owner_notes]] as multiplying reanimation. If that holds, the detachment is a straight amplifier on this rule, and the "castle that out-attritions the enemy" description follows directly.
-- [[canoptek_court]] does not touch the rule but compounds with it through [[power_matrix]] - both reward standing on controlled ground.
+| Source | Interaction |
+|--------|-------------|
+| [[cryptek_conclave]] — **Potentiality Syphon** | 1CP: activate RP in the **opponent’s** Command phase if the unit is on an objective; **+1 wound** if it is a **CRYPTEK** unit. See [[their_number_is_legion_potentiality_syphon_250]]. |
+| Necron Warriors — **Their Number is Legion** | Re-roll the D3 whenever this unit’s RP activates. Same analysis page. |
+| [[canoptek_court]] / [[power_matrix]] | Does not change RP amount; compounds by rewarding standing on controlled ground. |
+| Reanimator / Resurrection Orb / Macrocytes | Shipping guide lists these as optional stackers — not required for first games. |
 
-Both readings depend on detachment rules that are themselves unverified.
-
----
-
-## What must be confirmed before this page is usable
-
-| Question | Why it matters |
-|----------|----------------|
-| **When** does it trigger in the turn sequence? | Determines whether a unit recovers before or after the opponent can react |
-| **What** is restored - models, wounds, or a choice? | Changes which units benefit most, and by how much |
-| **How much**? | The difference between a minor bonus and the army's defining strength |
-| **What denies or interrupts it?** | The counterplay the opponent has; also the thing that loses games unexpectedly |
-| Does it apply to every unit, or only some keywords? | Affects list-building directly |
-| Did 11th Edition change any of the above from 10th? | Edition drift is the likeliest source of error here |
+The old owner-notes claim that Technosorcerous Augmentations itself multiplies reanimation is **wrong** — that half is the Syphon stratagem, not the detachment rule.
 
 ---
 
-## For a new player
+## Open questions
 
-Learn the trigger timing before anything else about the army. Everything else - which detachment, which units, how far forward to stand - is downstream of knowing exactly when models come back and how many.
+- Line-by-line KB↔pack re-verify for a `verified` confidence bump.
+- Any dataslate since pack v1.1 changing D3 timing or amplifiers.
 
 ---
 
 ## Related pages
 
-- [[their_number_is_legion_potentiality_syphon_250]] - filed 250 Conclave answer: Legion re-roll + Potentiality Syphon
-- [[necrons]] - the faction this rule defines
-- [[cryptek_conclave]] - said to multiply it
-- [[canoptek_court]] · [[power_matrix]] - compound with it indirectly
-- [[objective_control]] - what the durability is spent on
-- [[oath_of_moment]] - the opposing army rule, and the teaching contrast
-- [[local_library_pointers]] - the faction pack that would verify this
-- [[index]] · [[glossary]]
+- [[their_number_is_legion_potentiality_syphon_250]] — filed Legion + Syphon answer for the 250 Conclave list
+- [[necrons]] · [[cryptek_conclave]] · [[canoptek_court]] · [[power_matrix]]
+- [[objective_control]] · [[oath_of_moment]]
+- [[local_library_pointers]] · [[wahapedia]] · [[index]] · [[glossary]]

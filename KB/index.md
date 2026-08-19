@@ -44,9 +44,9 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-18 |
-| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-18 |
-| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-18 |
+| [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-19 |
+| [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-19 |
+| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-19 |
 | [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-18 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 
@@ -62,7 +62,7 @@ One page per ingested source. Location: `KB/sources/`.
 | [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-17 |
 | [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-17 |
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
-| [[wahapedia]] | Community aggregator — **allowed for unit/stat lookup when WarCom lacks the profile**; also cross-check. Content not yet retrieved into KB | stub | 2026-08-19 |
+| [[wahapedia]] | Community aggregator — unit/stat when WarCom lacks profiles; Legion/Syphon + list fills retrieved 2026-08-19 | draft | 2026-08-19 |
 | [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-19 |
 
 ---
@@ -93,7 +93,7 @@ Rules ideas and tactical principles. Location: `KB/concepts/`.
 |------|---------|------------|---------|
 | [[objective_control]] | A characteristic on every model's profile representing how strongly it holds ground - and the metric that decides who wins | unverified | 2026-08-16 |
 | [[power_matrix]] | The Canoptek Court detachment rule in 40K 11e: hit re-rolls in controlled territory. **Corrects the L0 Kill Team attribution** | draft | 2026-08-16 |
-| [[reanimation_protocols]] | The Necron army rule: units recover during the game, which makes partial damage wasted damage | unverified | 2026-08-16 |
+| [[reanimation_protocols]] | Necron army rule: end of your Command phase, D3 wounds per unit (heal first, then return at 1W); wiped = gone. Back-filled from shipping 2026-08-19 | draft | 2026-08-19 |
 | [[oath_of_moment]] | The Space Marine army rule: nominate one enemy unit per turn and attack it better. Turns target priority into the defining decision | unverified | 2026-08-16 |
 
 ---
@@ -104,7 +104,7 @@ One page per army. Location: `KB/factions/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necrons]] | The owner's primary army: an attrition faction that recovers models as fast as most opponents remove them | draft | 2026-08-17 |
+| [[necrons]] | Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 245 pts (MFM v1.2) | draft | 2026-08-19 |
 | [[space_marines]] | The opposing army, played by the son: straightforward and forgiving, built from existing older kits, used to teach contrast | stub | 2026-08-16 |
 
 ---
@@ -115,8 +115,8 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[canoptek_court]] | The Necron detachment built around robotic constructs, whose rule is the Power Matrix - hit re-rolls in controlled territory | draft | 2026-08-17 |
-| [[cryptek_conclave]] | The Necron detachment built around Cryptek characters leading massed infantry, stacking buffs and reanimation | draft | 2026-08-17 |
+| [[canoptek_court]] | Canoptek constructs + Power Matrix; Phase 1 shared 245-pt Tomb World force | draft | 2026-08-19 |
+| [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 245 Conclave list | draft | 2026-08-19 |
 | [[gladius_task_force]] | The generalist Space Marine detachment named as the son's learning target. **Stub - no source read** | stub | 2026-08-16 |
 
 ---
@@ -125,7 +125,11 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 
 One page per datasheet, written in play terms. Location: `KB/units/`.
 
-*(Empty - populates from S4, S5, and the full research pass in S6. Deliberately not started: no datasheet source has been read, and [[ingest_procedure]] puts core rules and setup before units.)*
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[necron_warriors]] | Battleline brick; Their Number is Legion re-rolls RP D3; owned 10+10 | draft | 2026-08-19 |
+
+Pointer to the full research corpus: [[necrons_unit_index]].
 
 ---
 

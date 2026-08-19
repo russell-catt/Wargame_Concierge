@@ -4,9 +4,9 @@ type: overview
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-18
-version: 0.5.0
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e]
+updated: 2026-08-19
+version: 0.5.2
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -111,9 +111,9 @@ The comparison and opponent army, played by the owner's son. Used to teach contr
 | KB entity pages | 40K set + KT24 (1 source, 7 concepts, 2 setup) |
 | KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) — YAML `version: 0.5.0` |
 | Glossary terms | 40K verified set + KT24 section expanded (Visible, Vantage, Seek, Blast, Torrent, Guard, Valid Target → [[valid_target]]) |
-| Last ingest | 2026-08-18 (v0.5.0 — shipping → KB paraphrase; no quote dump) |
+| Last ingest | **2026-08-19** — Necron shipping→KB back-fill (RP, Conclave/Court Phase 1 **245**, Legion/Syphon analysis, Wahapedia policy use) |
 | Last lint | 2026-08-16 (L2, `tomb_world_ownership` - **40K only**) |
-| Schema / project version | AGENTS.md **v0.5.0** (2026-08-18); git tags `v0.1.0` (bootstrap) and `v0.5.0` (this snapshot) |
+| Schema / project version | AGENTS.md **v0.5.2** living-ref note (2026-08-19 Wahapedia unit/stat); git tags include `v0.5.0` |
 
 The KB was bootstrapped in slice **L0** and took its first real ingest in **L1**, both on 2026-08-16. The ingest contract now has a worked example behind it rather than only a procedure.
 
@@ -121,7 +121,7 @@ The KB was bootstrapped in slice **L0** and took its first real ingest in **L1**
 
 So the shape of the gap has changed - twice. At L1 it was no longer "we do not have sources" but **"we have not read the sources we have."** That second gap has since closed on the shipping side: S3 read the core rules and setup, S4 and S5 read both faction packs and Munitorum Field Manual v1.2 for the faction starters, and S6 enumerated both unit rosters.
 
-**The gap now is a back-fill gap.** The rules have been read into `games/`, not into `KB/`. The faction, detachment and concept pages here still mostly rest on the owner's planning notes, which is why they remain `draft` and `unverified` while the shipping teaching content carries verified rule text. Where the two disagree, the shipping content is newer and better sourced. Closing that gap - re-ingesting the shipping pages back into `KB/` - is the largest single piece of Librarian work outstanding.
+**The gap now is a partial back-fill gap.** Shipping under `games/` is still ahead on many topics, but **2026-08-19** closed the worst asymmetry for Necrons: [[reanimation_protocols]] is now `draft` from the shipping guide; [[cryptek_conclave]] / [[necrons]] / [[canoptek_court]] use the **245**-pt Phase 1 list; [[their_number_is_legion_potentiality_syphon_250]] and [[necron_warriors]] are filed. Remaining: Power Matrix wording in KB, Space Marine ownership, 40K core/setup KB back-fill, more unit pages.
 
 ---
 
@@ -162,11 +162,10 @@ The lesson is the mirror image of the Power Matrix one. A loud flag made that er
 
 - Dual-legality of Hierotek Plasmacytes (KT 25mm vs legacy 40K Plasmacyte 28mm) vs the faction pack. **To-do: purchase 25–28mm base rings.**
 - What does Power Matrix actually *say* in 11th Edition? The name is settled; the wording is not.
-- Which Necron detachment best suits a beginner with this specific model pool? [[cryptek_conclave]] is the current hypothesis - now resting on owned, game-ready models rather than on an unopened box, so what remains unknown is the detachment rules, not the inventory.
+- Which Necron detachment best suits a beginner with this specific model pool? [[cryptek_conclave]] is the current hypothesis, now resting on owned models **and** a shipping 245-pt list.
 - What Space Marine ownership exists? The worksheet is empty and this gates all S5 content.
-- Which 11th Edition rules genuinely changed from 10th, and which carried over unchanged?
 - What is the target game size for early games (Combat Patrol, Incursion, Strike Force)?
-- Do the Wahapedia URLs on a `wh40k10ed` path serve 11e content, or are they stale? See [[wahapedia]].
+- Prefer Wahapedia `wh40k11ed` paths; `wh40k10ed` remains edition-risk — see [[wahapedia]].
 - Has a dataslate superseded the owned PDFs? Nothing records when they were downloaded, so this is currently unanswerable.
 
 ---
@@ -176,18 +175,20 @@ The lesson is the mirror image of the Power Matrix one. A loud flag made that er
 Areas with no real coverage. All but the last are blocked on **reading material the owner already has**:
 
 - Core 11th Edition rules: turn sequence, phases, objective scoring - [[objective_control]] is a placeholder
-- Deployment maps, terrain rules, and mission packs - no page exists
-- Necron army rule detail - [[reanimation_protocols]] is `unverified`
+- Deployment maps, terrain rules, and mission packs - no KB page (shipping under `games/.../setup/`)
+- Necron army rule — [[reanimation_protocols]] now `draft` (2026-08-19); still not `verified` on a fresh pack line-check of the KB page
 - Space Marine army rule and detachment - [[oath_of_moment]] and [[gladius_task_force]] are `unverified` and `stub`
-- Unit pages - none, deliberately: [[ingest_procedure]] puts core rules and setup first so unit pages have something to link to
-- List-building from the owned pool - **unblocked** for Tomb World and for Hierotek's Technomancer/Immortals; Apprentek and Warden remain proxy-only
+- Unit pages - first page [[necron_warriors]] filed; rest still via [[necrons_unit_index]]
+- List-building from the owned pool - **unblocked** (245 Conclave list + 500/750/1000 shipping paths)
 - **Kill Team 2024, core targeting** - shipping-backed; remaining Core chapters and team trees still open
 - Core 11th Edition rules back-fill into KB from `games/warhammer_40k_11e/`
+- Power Matrix exact wording still thin in KB vs shipping Court guide
 
 ---
 
 ## Related pages
 
+- [[their_number_is_legion_potentiality_syphon_250]] · [[necron_warriors]] · [[reanimation_protocols]]
 - [[index]] - full catalog of KB pages
 - [[glossary]] - terminology and Keyword entries, now multi-system
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
