@@ -28,7 +28,7 @@
 | Close combat weapon | Melee | 1 | 4+ | 4 | 0 | 1 | — |
 
 ## Abilities
-Reanimation Protocols (army rule — end of your **Command phase**, `08.05`). **Their Number is Legion:** re-roll the D3 when this unit reanimates. Battleline screening — stand on objectives (`14.02`).
+Reanimation Protocols (army rule — end of your **Command phase**, `08.05`). **Their Number is Legion:** re-roll the D3 when this unit's RP activates (including stratagem activations — WarCom FAQ pattern). Battleline screening — stand on objectives (`14.02`). Open questions on Legion/Syphon closed 2026-08-20: see `KB/analyses/their_number_is_legion_potentiality_syphon_250.md`.
 
 ## Leader / attach options
 Many Necron Characters/Crypteks can lead — verify sheet.

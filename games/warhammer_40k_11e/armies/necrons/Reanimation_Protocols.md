@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.3 (2026-08-20)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
 
@@ -90,7 +90,7 @@ You do not need these to play, but they explain why certain models are worth the
 | **Resurrection Orb** (Overlord, Lokhust Lord, Catacomb Command Barge) | Once per battle, a unit resurrects - reanimating D6 instead of D3. One unit per turn only |
 | **Canoptek Macrocytes** (nanoscarab projector) | Once per battle round, a nearby Necron unit reanimates one extra wound |
 | **Cryptek Conclave stratagem - Potentiality Syphon** (`15.01`) | Fires a unit's Reanimation Protocols **off-turn**, in your opponent's **Command phase** (`08.01`), if it is on an objective (`14.02`). See [`Cryptek_Conclave.md`](Cryptek_Conclave.md) |
-| **Necron Warriors - Their Number is Legion** | The Warriors' own datasheet ability interacts with reanimation. Read it off your datasheet before your first game |
+| **Necron Warriors - Their Number is Legion** | Each time this unit's RP activates, re-roll the D3. WarCom FAQ: also applies when a stratagem activates RP. See `KB/analyses/their_number_is_legion_potentiality_syphon_250.md` |
 
 The pattern is worth noticing: almost every Necron support piece pays into the same rule instead of adding a new one. **Stacking reanimation is the faction's design.**
 
@@ -114,6 +114,7 @@ Put a physical reminder on the table - a dice, a token, a note on your list - th
 ---
 
 ## Change Log
+- v0.5.3 (2026-08-20): Legion row — WarCom FAQ pattern + analysis link; character revive clarified via sibling guides.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial army rule teaching guide (slice S4), written from the owned Necrons Faction Pack v1.1 and the Wahapedia Necrons army rule, both read 2026-08-16. Supersedes the `unverified` sketch in `KB/concepts/reanimation_protocols.md`.
 

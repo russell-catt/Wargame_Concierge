@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_250_Conclave.md
-VERSION: v1.1 (2026-08-19)
+VERSION: v1.2 (2026-08-20)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -78,7 +78,7 @@ Assume the Warrior brick stays on the board for **5 of your Command phases** and
 | Equivalent full Warriors | ~**10 models worth** of healed/returned wounds over the game |
 | If you forget reanimation once | −D3 ≈ **−2 wounds** that round - real loss |
 
-**Their Number is Legion** (Warrior datasheet): may change how returns work - **read your sheet** and apply on top of this order. Do not skip the heal-first rule unless the datasheet explicitly overrides it.
+**Their Number is Legion** (Warrior datasheet): re-roll the D3 whenever this unit's Reanimation Protocols activate — including Potentiality Syphon. Does **not** skip heal-first. WarCom FAQ confirms Legion applies when other rules activate RP. See `KB/analyses/their_number_is_legion_potentiality_syphon_250.md`.
 
 ### Tomb Crawlers
 
@@ -178,6 +178,8 @@ Pick the **Atomic Disintegrators** anti-Vehicle or anti-Monster menu option (con
 ---
 
 ## Change Log
+- v1.2 (2026-08-20): Legion — re-roll D3 on any RP activate including Syphon; WarCom FAQ cite via analysis.
+- v1.1 (2026-08-19): Core rule IDs / plain-language pass (from main).
 - v1.0 (2026-08-19): Initial 250 Conclave reference with RP and shooting math.
 
 ## Attribution

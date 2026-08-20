@@ -4,14 +4,15 @@ type: concept
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
+updated: 2026-08-20
+version: 0.5.3
 sources:
   - games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
   - games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
   - their_number_is_legion_potentiality_syphon_250
   - local_library_pointers
-  - "https://wahapedia.ru/wh40k11ed/factions/necrons (retrieved 2026-08-19)"
+  - "https://www.warhammer-community.com/en-gb/articles/rgqanids/warhammer-40000-july-update-what-you-need-to-know/ (retrieved 2026-08-20)"
+  - "https://wahapedia.ru/wh40k11ed/factions/necrons (retrieved 2026-08-20)"
 confidence: draft
 tags: [concept, necrons, army_rule, attrition, reanimation]
 ---
@@ -64,7 +65,7 @@ Chip damage soaks the roll before bodies stand back up. **A wiped unit (0 models
 | Source | Interaction |
 |--------|-------------|
 | [[cryptek_conclave]] — **Potentiality Syphon** (`15.01`) | 1CP: activate RP in the **opponent's Command phase** (`08.01`) if the unit is on an objective (`14.02`); **+1 wound** if it is a **CRYPTEK** unit. See [[their_number_is_legion_potentiality_syphon_250]]. |
-| Necron Warriors — **Their Number is Legion** | Re-roll the D3 whenever this unit’s RP activates. Same analysis page. |
+| **Necron Warriors - Their Number is Legion** | Re-roll the D3 whenever this unit's Reanimation Protocols activate (WarCom FAQ: also when a stratagem activates RP). See [[their_number_is_legion_potentiality_syphon_250]] |
 | [[canoptek_court]] / [[power_matrix]] | Does not change RP amount; compounds by rewarding standing on controlled ground. |
 | Reanimator / Resurrection Orb / Macrocytes | Shipping guide lists these as optional stackers — not required for first games. |
 
@@ -74,8 +75,10 @@ The old owner-notes claim that Technosorcerous Augmentations itself multiplies r
 
 ## Open questions
 
-- Line-by-line KB↔pack re-verify for a `verified` confidence bump.
-- Any dataslate since pack v1.1 changing D3 timing or amplifiers.
+- Line-by-line KB↔owned-pack re-verify for a `verified` confidence bump on this concept page.
+- Re-check WarCom downloads after the next dataslate for any RP timing or amplifier changes (Legion / Syphon OQs closed 2026-08-20 — see [[their_number_is_legion_potentiality_syphon_250]]).
+
+**Character revive note (2026-08-20):** Ordinary RP does not return destroyed CHARACTER models into the bodyguard. WarCom July 2026 update: characters that revive under their own revive rules return as a **unit of one**. Detail on [[their_number_is_legion_potentiality_syphon_250]].
 
 ---
 

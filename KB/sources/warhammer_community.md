@@ -3,16 +3,16 @@ title: Warhammer Community (living reference)
 type: source
 system: warhammer_40k_11e
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
-sources: [raw/pointers/web_living_sources.md, reference/Source_Library.md]
-confidence: stub
+updated: 2026-08-20
+version: 0.5.3
+sources: [raw/pointers/web_living_sources.md, reference/Source_Library.md, their_number_is_legion_potentiality_syphon_250]
+confidence: draft
 tags: [source, living_reference, web, official, errata, dataslate]
 ---
 
 # Warhammer Community (living reference)
 
-Games Workshop's own channel for FAQs, errata, and balance dataslates - the only source in this project that can *change* what an owned PDF says. **Registered, not yet read.**
+Games Workshop's own channel for FAQs, errata, and balance dataslates - the only source in this project that can *change* what an owned PDF says.
 
 ---
 
@@ -21,10 +21,11 @@ Games Workshop's own channel for FAQs, errata, and balance dataslates - the only
 | Field | Value |
 |-------|-------|
 | URL | <https://www.warhammer-community.com/en-gb/> |
+| Downloads hub | <https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/> |
 | Publisher | Games Workshop - **official** |
 | Source class | **Living web reference**, highest authority in the project |
 | Catalogued | 2026-08-16, from [[source_library]] |
-| **Content retrieved** | **None.** URL registered only |
+| **Content retrieved** | Partial — July 2026 update article + Necrons FAQ assets surveyed **2026-08-20** for Legion / Syphon / character-revive (see [[their_number_is_legion_potentiality_syphon_250]]) |
 
 ---
 
@@ -79,13 +80,18 @@ Promote to `verified` once the article is matched against the owned PDF it amend
 
 ## Pages this source fed
 
-None yet. It is the named errata check for every `draft` and `unverified` rules claim currently in the KB.
+| Page | What was taken | Retrieved |
+|------|----------------|-----------|
+| [[their_number_is_legion_potentiality_syphon_250]] | FAQ: Legion applies when RP is activated by other rules; July update: character revive returns as unit of one; no Syphon wording amendment found | 2026-08-20 |
+| [[reanimation_protocols]] · [[necron_warriors]] · [[glossary]] | Cross-links from that pass | 2026-08-20 |
+
+Still the named errata check for every `draft` and `unverified` rules claim in the KB.
 
 ---
 
 ## Open questions
 
-- Has any dataslate landed since the owned PDFs were downloaded? Nothing in the repo records a download date, which makes this unanswerable today.
+- Full systematic FAQ ingest for all Necron pages (only Legion/Syphon/character-revive surveyed 2026-08-20).
 - Is there an official statement on how Kill Team boxes map to 40K datasheets, or is that community knowledge?
 
 ---

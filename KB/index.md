@@ -63,7 +63,7 @@ One page per ingested source. Location: `KB/sources/`.
 | [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-17 |
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
 | [[wahapedia]] | Community aggregator — unit/stat when WarCom lacks profiles; Legion/Syphon + list fills retrieved 2026-08-19 | draft | 2026-08-19 |
-| [[warhammer_community]] | GW's own channel for FAQs, errata, and dataslates - the only source that can change what an owned PDF says. Registered, not yet read | stub | 2026-08-19 |
+| [[warhammer_community]] | GW FAQs, errata, dataslates — surveyed 2026-08-20 for Legion / Syphon / character revive | draft | 2026-08-20 |
 
 ---
 
@@ -147,7 +147,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[their_number_is_legion_potentiality_syphon_250]] | Filed query: Warrior Legion re-roll on RP activate; Conclave Potentiality Syphon off-turn RP (+1 if Cryptek) for the 250 list | draft | 2026-08-19 |
+| [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; open questions closed 2026-08-20 (WarCom primary, Wahapedia secondary) | draft | 2026-08-20 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*

@@ -411,3 +411,16 @@ Gaps: Necron army rule and detachment rules have no Core IDs (faction pack only)
 Pages consulted: Army_List_250_Conclave, Reference_Guide_250/500_V1_Conclave, Reanimation_Protocols, Cryptek_Conclave; Wahapedia Warriors + Necrons hub (search retrieve 2026-08-19)
 Output filed: yes - [[their_number_is_legion_potentiality_syphon_250]]
 Also updated: [[glossary]] (two keyword stubs), [[index]], [[reanimation_protocols]], [[cryptek_conclave]] back-links
+
+## [2026-08-20] query | Close Legion/Syphon open questions (WarCom primary)
+
+Pages consulted: WarCom July 2026 update article; WarCom 40K downloads hub; WarCom Necrons FAQ PDF (assets); Wahapedia `wh40k11ed` Warriors + Necrons hub; owned pack via shipping guides
+
+Output filed: yes — updated [[their_number_is_legion_potentiality_syphon_250]]
+
+Also updated: [[reanimation_protocols]], [[glossary]], [[necron_warriors]], [[warhammer_community]], [[index]], shipping `Reanimation_Protocols.md`, `Reference_Guide_250_Conclave.md`, `Reference_Guide_500_V1_Conclave.md`, `units/research/Necron-Warriors.md`
+
+Key resolutions:
+- Legion + Syphon wording confirmed (pack shipping + Wahapedia); WarCom FAQ: Legion applies when RP activated by other rules
+- No WarCom dataslate amendment to Syphon +1 / objective target found (2026-08-20)
+- Characters: ordinary RP does not revive CHARACTER into bodyguard; WarCom July — character revive returns as unit of one

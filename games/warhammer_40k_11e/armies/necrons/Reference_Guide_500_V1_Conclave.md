@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_500_V1_Conclave.md
-VERSION: v1.1 (2026-08-19)
+VERSION: v1.2 (2026-08-20)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -95,7 +95,7 @@ Confirm exact wording on your faction pack. Teaching model used here:
 
 ### Attached characters and reanimation
 
-Wounds on the Geomancer / Warden / Technomancer / Plasmancer proxy are part of the **unit** while attached. Reanimation can heal the character before returning Warriors/Immortals. A dead character is removed - check whether they return via the unit's reanimation or stay dead (typically characters do **not** return as "models in the bodyguard" the same way - **verify on core rules / datasheet**). Safe habit: keep the Cryptek toward the back of the coherency blob.
+Wounds on the Geomancer / Warden / Technomancer / Plasmancer proxy are part of the **unit** while attached. Reanimation can **heal** a wounded attached character before returning Warriors/Immortals. **Destroyed CHARACTER models are not revived into the bodyguard by ordinary RP** (core heal rules exclude CHARACTER from that revive step). WarCom July 2026 update: if a character revives under its own revive rule, it returns as a **unit of one**, not rejoined to the brick. Safe habit: keep the Cryptek toward the back of the coherency blob. Detail: `KB/analyses/their_number_is_legion_potentiality_syphon_250.md`.
 
 ---
 
@@ -237,6 +237,8 @@ Off-turn stratagem on the Warrior brick a few times adds another ~3 avg wounds p
 ---
 
 ## Change Log
+- v1.2 (2026-08-20): Character note — WarCom July revive-as-solo-unit + RP excludes CHARACTER from bodyguard revive; link analysis.
+- v1.1 (2026-08-19): Core rule IDs / plain-language pass (from main).
 - v1.0 (2026-08-19): Initial 500 V1 Conclave reference with RP stacking math, dual-brick Conclave picks, Immortal/Warrior shooting math, off-turn stratagem model.
 
 ## Attribution

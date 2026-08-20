@@ -180,16 +180,16 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Verify against: owned faction pack; shipping `Reanimation_Protocols.md`; [[wahapedia]]
 - Amplifiers: **Their Number is Legion**, **Potentiality Syphon** — [[their_number_is_legion_potentiality_syphon_250]]
 
-**Their Number is Legion** - `draft` · **filed 2026-08-19**
-: Necron Warriors datasheet ability. Each time this unit’s Reanimation Protocols activate, you may **re-roll the D3** for how many wounds are reanimated. Does not change heal-first / return-at-1W order.
+**Their Number is Legion** - `draft` · **verified closed 2026-08-20**
+: Necron Warriors datasheet ability. Each time this unit’s Reanimation Protocols activate, you may **re-roll the D3** for how many wounds are reanimated. Does not change heal-first / return-at-1W order. WarCom FAQ: Legion applies when other rules activate RP.
 - Faction / scope: Necrons, Necron Warriors
-- Verify against: owned faction pack; [[wahapedia]] Warriors (retrieved 2026-08-19)
+- Verify against: owned faction pack; WarCom Necrons FAQ (retrieved 2026-08-20); [[wahapedia]] Warriors (retrieved 2026-08-20)
 - See also: [[their_number_is_legion_potentiality_syphon_250]], [[reanimation_protocols]]
 
-**Potentiality Syphon** - `draft` · **filed 2026-08-19**
-: Cryptek Conclave **1CP** Strategic Ploy. In your **opponent’s Command phase**, pick one NECRONS unit within range of an objective marker: its Reanimation Protocols activate; if it is a **CRYPTEK** unit, +1 wound.
+**Potentiality Syphon** - `draft` · **verified closed 2026-08-20**
+: Cryptek Conclave **1CP** Strategic Ploy. In your **opponent’s Command phase**, pick one NECRONS unit within range of an objective marker: its Reanimation Protocols activate; if it is a **CRYPTEK** unit, +1 wound. No WarCom dataslate amendment to +1 / objective target found as of 2026-08-20.
 - Faction / scope: Necrons, [[cryptek_conclave]] stratagem
-- Verify against: owned faction pack; [[wahapedia]] Necrons hub (retrieved 2026-08-19)
+- Verify against: owned faction pack; WarCom downloads hub (retrieved 2026-08-20); [[wahapedia]] Necrons hub (retrieved 2026-08-20)
 - See also: [[their_number_is_legion_potentiality_syphon_250]], [[cryptek_conclave]], [[reanimation_protocols]]
 
 **Power Matrix** - `draft` · **corrected in L1**
