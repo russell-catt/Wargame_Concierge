@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/README.md
-VERSION: v0.6 (2026-08-21)
+VERSION: v0.6.1 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
@@ -72,7 +72,7 @@ Plague Marines run **seven unique named operatives** with no duplicates (Champio
 
 Plague Marines are Death Guard - a Chaos faction that also exists in Warhammer 40,000. **This project has no Death Guard 40K army folder in scope this track** (the locked 40K track covers Necrons and Space Marines only - see [`../../../warhammer_40k_11e/README.md`](../../../warhammer_40k_11e/README.md)).
 
-- **Assembly / paint:** **Game ready** — photo ID **2026-08-21** (Plaguecaster, Icon Bearer, Champion, Fighter, Warrior confirmed; Heavy Gunner / Bombardier not confirmed). Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
+- **Assembly / paint:** **Game ready** — photo ID **2026-08-21** (six of seven slots confirmed, including Bombardier; only Heavy Gunner open). Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 - **40K ruled-in status:** `pending / N/A this track` — painted Death Guard models exist (including a Biologus Putrifier); no full 40K Death Guard package in this track.
 - **Base size / dual-legality:** `pending check` - bases look 32mm-class; exact 40K datasheet mapping still unresolved.
 - A minimal cross-link stub (not a full army tree) lives at [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md) so a future 40K Death Guard track has somewhere to start from.
@@ -93,6 +93,7 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 
 ## Change Log
 
+- v0.6.1 (2026-08-21): Bombardier confirmed in photo ID follow-up; six of seven slots owned.
 - v0.6 (2026-08-21): Cross-game note — assembly/paint game ready from photo ID; Biologus Putrifier ownership noted.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): README reflects Teams PDF datacards + Team_Rule_Guide (`kt24_rules_quotes`).

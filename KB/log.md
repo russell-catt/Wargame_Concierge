@@ -439,3 +439,9 @@ Pages created: (none in KB — shipping inventory only)
 Pages updated: shipping `games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md` (+ ledger, starter roster, Death Guard stub)
 
 Key additions: Photo-confirmed game-ready Plaguecaster, Icon Bearer, Champion, Fighter, Warrior; Biologus Putrifier as 40K character; Heavy Gunner / Bombardier not confirmed. Binaries stay outside git.
+
+## [2026-08-21] ownership | Plague Marines Bombardier + Icon Bearer follow-up
+
+Pages updated: shipping Plague Marines inventory, starter roster, laminate, teams ledger, team README
+
+Key additions: **Bombardier confirmed** (stick grenade, bandolier, drum pack); Icon Bearer close-up reinforced. Only **Heavy Gunner** remains unconfirmed (6/7 KT slots).

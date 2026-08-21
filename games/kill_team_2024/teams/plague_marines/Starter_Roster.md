@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Starter_Roster.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
@@ -8,7 +8,7 @@ DOCUMENT_TYPE: Learning Roster
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Draft - roster slots from Wahapedia / team package; ownership updated from photo ID 2026-08-21.
+REFERENCE_STATUS: Draft - roster slots from Wahapedia / team package; ownership updated from photo ID 2026-08-21 (Bombardier confirmed in follow-up).
 
 SOURCES:
   - operatives/Operatives_Index.md (role slots, keywords)
@@ -44,17 +44,17 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 | Ranged fire support | Plague Marine Heavy Gunner | **Yes** - area-effect damage against clustered enemies | **Not confirmed** — no photo yet |
 | Melee specialist | Plague Marine Fighter | **Yes** - your answer when an enemy gets in close | **Confirmed** — Flail of Corruption |
 | Support / objective specialist | Plague Marine Icon Bearer | Optional first game - strong once you are contesting markers under pressure | **Confirmed** — Icon of Despair |
-| Grenadier / support | Plague Marine Bombardier | Optional first game - shines more once grenade timing is familiar | **Not confirmed** — no photo yet |
+| Grenadier / support | Plague Marine Bombardier | Optional first game - shines more once grenade timing is familiar | **Confirmed** — stick grenade + bandolier |
 | Psyker / support caster | Malignant Plaguecaster | Optional first game - two useful actions, but adds a psychic-rules layer to track | **Confirmed** — bells staff + psychic effects |
 
-**Suggested first four (owned):** Champion, Warrior, Fighter, Icon Bearer — lead, generalist, melee, objective support. Swap Icon Bearer for Malignant Plaguecaster if you want to learn the psychic layer early. Heavy Gunner stays on the ideal learning path once ownership is confirmed.
+**Suggested first four (owned):** Champion, Warrior, Fighter, Bombardier — lead, generalist, melee, grenadier. Swap Bombardier for Icon Bearer (objectives) or Plaguecaster (psychic) as you prefer. Heavy Gunner is the only slot still missing from photo confirmation.
 
 ---
 
 ## Before you play
 
 - [ ] Confirm the team-size limit against the owned team-rules PDF or the Kill Team app - do not assume the suggested four-to-seven split is the legal number.
-- [x] Fill in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - photo ID 2026-08-21 (Heavy Gunner / Bombardier still open).
+- [x] Fill in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - photo ID 2026-08-21 (Heavy Gunner still open).
 - [ ] Read [`Team_Rule_Guide.md`](Team_Rule_Guide.md) for Astartes, Poison, and Disgustingly Resilient before your first activation.
 - [ ] Print [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 - [ ] Set up a killzone - see [`../../setup/killzones/README.md`](../../setup/killzones/README.md); Volkus or the 3e Starter Set are the play-now recommendations for this track.
@@ -72,6 +72,7 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 
 ## Change Log
 
+- v1.2 (2026-08-21): Bombardier confirmed from follow-up photo; suggested first four can include Bombardier; only Heavy Gunner open.
 - v1.1 (2026-08-21): Ownership tags updated from photo ID — five confirmed, Heavy Gunner / Bombardier not confirmed; suggested first four adjusted to owned models.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial starter roster (slice S5) - role-coverage table across all seven operatives, suggested first four, ownership tagged `pending check` throughout since no audit has run.

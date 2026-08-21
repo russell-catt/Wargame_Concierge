@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — photo ID 2026-08-21)
 
@@ -8,10 +8,11 @@ DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Active — photo ID done 2026-08-21 from owner uploads. Binaries stay outside git.
+REFERENCE_STATUS: Active — photo ID 2026-08-21 (follow-up: Bombardier confirmed). Binaries stay outside git.
 
 SOURCES:
   - Owner photo set (chat upload 2026-08-21): roster group + close-ups
+  - Follow-up photos 2026-08-21: Bombardier + Icon Bearer close-ups
   - games/kill_team_2024/teams/_Owned_Teams_Inventory.md
   - games/kill_team_2024/teams/plague_marines/operatives/Operatives_Index.md
   - Suggested save path (owner): C:\Personal\Kill Team\Teams\Plague_marines\
@@ -21,8 +22,8 @@ PURPOSE:
   Death Guard / 40K sync note. Photo-confirmed assembly/paint state.
 
 UPDATE_TRIGGER:
-  Update when more photos resolve Heavy Gunner / Bombardier, when models
-  are rebased, or when Death Guard enters 40K scope.
+  Update when more photos resolve Heavy Gunner, when models are rebased,
+  or when Death Guard enters 40K scope.
 -->
 
 # Plague Marines - Owned Models Inventory
@@ -38,12 +39,12 @@ UPDATE_TRIGGER:
 | ID | Confidence | Evidence |
 |----|------------|----------|
 | **Malignant Plaguecaster** | **Confirmed** | Staff with three bells; teal/blue psychic swirl; cloak; separate painting-handle close-up |
-| **Icon Bearer** | **Confirmed** | Tall Icon of Despair / three-skull Nurgle icon with hanging bells; Nurglings on base |
+| **Icon Bearer** | **Confirmed** | Tall Icon of Despair (Nurgle three-circle crest; colored pustule spheres; hanging chains/censers); plague knife; close-up follow-up photo |
 | **Champion** | **Confirmed** | Horned helm, purple cape, plague sword, toothy maw chest (roster group). Separate body/loadout photo: **power fist + plague knife** + Nurgling — treat as Champion alt loadout **or** a second body for 40K (only one Champion slot in KT) |
 | **Fighter** | **Confirmed** | **Flail of Corruption** (three spiked heads on chains) |
 | **Warrior** | **Confirmed** | Boltgun across chest; Nurgling on base; additional boltgun figures visible in roster group |
+| **Bombardier** | **Confirmed** | Stick blight grenade in hand; chest bandolier of grenades; drum backpack; three-lens gas-mask helm; Nurgling with bells on base |
 | **Heavy Gunner** | **Not confirmed** | No clear blight launcher / heavy special weapon in the photo set |
-| **Bombardier** | **Not confirmed** | No clear dedicated grenadier ID |
 | **Biologus Putrifier** *(40K)* | **Confirmed owned** | Blight racks (three vertical chimneys), injector pistol, plague-spurt staff — **not** a KT Plague Marines operative |
 
 ---
@@ -53,12 +54,13 @@ UPDATE_TRIGGER:
 | Operative | Qty | Assembly | Paint | Notes |
 |-----------|-----|----------|-------|-------|
 | Malignant Plaguecaster | 1 | Assembled | Painted | Bells staff; psychic effect painted |
-| Icon Bearer | 1 | Assembled | Painted | Icon of Despair; Nurglings |
+| Icon Bearer | 1 | Assembled | Painted | Icon of Despair; close-up confirmed |
 | Plague Marine Champion | 1 | Assembled | Painted | Plague-sword loadout on roster group |
 | Plague Marine Fighter | 1 | Assembled | Painted | Flail of Corruption |
 | Plague Marine Warrior | ≥1 | Assembled | Painted | Boltgun; count extras under 40K bodies if more than one |
+| Plague Marine Bombardier | 1 | Assembled | Painted | Grenadier kit; stick grenade + bandolier + drum pack |
 
-**Playable tonight for KT:** at least **Champion + Warrior + Fighter + Icon Bearer + Plaguecaster** (five named slots). Heavy Gunner and Bombardier still missing from photo confirmation.
+**Playable tonight for KT:** **Champion + Warrior + Fighter + Icon Bearer + Plaguecaster + Bombardier** (six named slots). Only **Heavy Gunner** still missing from photo confirmation.
 
 ---
 
@@ -77,16 +79,14 @@ UPDATE_TRIGGER:
 | Operative | Status | Notes |
 |-----------|--------|-------|
 | Plague Marine Heavy Gunner | Not seen | Need photo of blight launcher / heavy gun loadout |
-| Plague Marine Bombardier | Not seen | Need photo of dedicated bombardier gear |
 
 ---
 
 ## How to finish the audit
 
 1. Save the uploaded set to `C:\Personal\Kill Team\Teams\Plague_marines\` (filenames optional; keep a roster group shot).
-2. Photograph Heavy Gunner and Bombardier if owned — or mark them **not owned**.
+2. Photograph Heavy Gunner if owned — or mark **not owned**.
 3. Clarify whether power-fist Champion and sword Champion are one model reposed/rearmed or two bodies.
-4. Update [`Starter_Roster.md`](Starter_Roster.md) ownership tags (done for confirmed slots this pass).
 
 ---
 
@@ -126,6 +126,7 @@ UPDATE_TRIGGER:
 
 ## Change Log
 
+- v1.2 (2026-08-21): Follow-up photos — **Bombardier confirmed**; Icon Bearer close-up reinforced. Only Heavy Gunner still open.
 - v1.1 (2026-08-21): **Photo ID** from owner uploads — Plaguecaster, Icon Bearer, Champion, Fighter, Warrior confirmed game-ready; Biologus Putrifier noted as 40K character; Heavy Gunner / Bombardier not confirmed.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial empty worksheet (slice S5).
