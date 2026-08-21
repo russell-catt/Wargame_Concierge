@@ -4,8 +4,8 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
+updated: 2026-08-21
+version: 0.5.3
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -432,3 +432,10 @@ Pages consulted: [[their_number_is_legion_potentiality_syphon_250]], [[reanimati
 Output filed: yes — enhanced [[their_number_is_legion_potentiality_syphon_250]] (heal-first section + Geomancer worked example)
 
 Also updated: [[index]]
+
+## [2026-08-21] fix | Volkus Condensed Stronghold on QR + event READY
+
+Pages created: shipping `games/kill_team_2024/Event_Ready.md`
+Pages updated: `volkus.md`, `volkus_QR.md`, Patch_Manifest Condensed Stronghold row, KT README, killzones README
+
+Key additions: Condensed Stronghold = Blast/Torrent/x" Devastating also **Lethal 5+** when target wholly within stronghold on floor or fire step (per secondary). Learning-event pack-out marked **READY**.

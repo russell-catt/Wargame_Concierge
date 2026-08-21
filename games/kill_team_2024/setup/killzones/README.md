@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
 
@@ -32,8 +32,8 @@ UPDATE_TRIGGER:
 
 | Kill zone | Status | Play priority | Page |
 |-----------|--------|----------------|------|
-| **Volkus** | Ready | **Play now** | [`volkus.md`](volkus.md) |
-| **3e Starter Set** | Ready | **Play now** | [`starter_set_3e.md`](starter_set_3e.md) |
+| **Volkus** | Ready | **Play now** | [`volkus.md`](volkus.md) · [`volkus_QR.md`](volkus_QR.md) |
+| **3e Starter Set** | Ready | **Play now** | [`starter_set_3e.md`](starter_set_3e.md) · [`starter_set_3e_QR.md`](starter_set_3e_QR.md) |
 | **Shadowhunt** | Boards + tokens owned | After first sessions - gated on Tomb World for full Descent play | [`shadowhunt.md`](shadowhunt.md) |
 | **Tomb World** | Unassembled | Build before dedicated Tomb World / Descent missions | [`tomb_world.md`](tomb_world.md) |
 | **2e starter scatter** | Filler terrain only | Casual / Join Ops filler - never a killzone substitute | [`starter_set_2e_scatter.md`](starter_set_2e_scatter.md) |
@@ -59,6 +59,7 @@ UPDATE_TRIGGER:
 ---
 
 ## Change Log
+- v0.6 (2026-08-21): Linked Volkus / 3e Starter QR table aids; Condensed Stronghold Lethal 5+ on Volkus QR.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Replaced the S0 stub with a real index - five killzone pages authored (slice S2), ownership table cross-checked against `_Owned_Teams_Inventory.md`.
 - v0.1 (2026-08-17): Stub created (slice S0).

@@ -64,7 +64,7 @@ Quote appendix for table disputes: [`Target_Eligibility.md`](Target_Eligibility.
 | Volkus Door Fight — Select Enemy Operative = enemy on killzone floor, within 2" of, other side of a door the active operative is touching | p.3 | [`../setup/killzones/volkus.md`](../setup/killzones/volkus.md) |
 | Volkus Large ruin — upper level Ceiling and Vantage; door Accessible and Heavy; ignore door for 1" control range visibility | p.3 | volkus.md |
 | Volkus Stronghold — upper level(s) Ceiling and Vantage; extra parts (barrels, ramparts, gap, Stronghold B roof) | p.3 | volkus.md |
-| Volkus Condensed Stronghold — target wholly within a stronghold and on killzone floor or fire step | p.2 | volkus.md |
+| Volkus Condensed Stronghold — Blast / Torrent / x" Devastating also **Lethal 5+** if target wholly within stronghold and on killzone floor or fire step (per-target for secondaries) | p.2 | volkus.md, volkus_QR.md |
 | Volkus fire step — do **not** ignore the rest of the stronghold for obscured | p.5 FAQ | volkus.md |
 | Ignoring a door for 1" control range visibility does **not** let you Shoot a target that is not visible | p.6 FAQ | volkus.md |
 
