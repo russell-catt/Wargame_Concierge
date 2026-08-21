@@ -33,18 +33,18 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 
 ---
 
-## Current collection status (2026-08-16)
+## Current collection status (2026-08-21)
 
-**Still not audited.** This is the only open blocker in this folder - every guide, list and play aid below is written and waiting on it.
+**Partially audited.** First photo ID: five used Primaris Intercessors (Black Templars paint — **not** played as BT). Rest of the collection still open.
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready now** | Unknown |
-| **Owned, build before play** | Unknown |
+| **Game-ready now** | Intercessor bodies ×4 + Assault Intercessor body ×1 (used set; matched-play squad split still incomplete) |
+| **Owned, build before play** | Unknown (unaudited remainder) |
 | **Not owned** | Unknown |
-| **Chapter** | Unknown - and it matters, see the second correction below |
+| **Chapter (paint / play)** | Paint: Black Templars. Play: **not** Black Templars — generic / agreed Codex Chapter |
 
-[`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) is the worksheet. S5 added a Firstborn/Primaris identification test and a Legends-vs-legal table so the audit takes one sitting rather than a research pass.
+[`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) is the source of truth.
 
 ---
 

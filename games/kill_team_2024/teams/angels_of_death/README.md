@@ -85,8 +85,9 @@ This roster is built almost entirely from parts on **Intercessor-family 40K kits
 ## Open questions
 
 - Owned team PDF not yet opened — confirm the Wahapedia operative list and ploy wording match the printed/app version before a tournament.
-- Assembly/paint status of every operative: `pending check` — no user photos yet (S10 gate).
-- Which specific 40K Intercessor/Eliminator/Heavy Intercessor kits are on hand, and their base sizes as actually built: `pending check`.
+- Assembly/paint: **partial photo ID 2026-08-21** — five used Intercessors (Sergeant, Assault Warrior, Warriors ×3). Full 6-op team still incomplete. Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
+- Paint is Black Templars; owner will **not** play them as Black Templars.
+- Which specific 40K Intercessor/Eliminator/Heavy Intercessor kits beyond this set: still `pending check`.
 
 ---
 
