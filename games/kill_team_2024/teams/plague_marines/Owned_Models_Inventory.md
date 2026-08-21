@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md
-VERSION: v1.2 (2026-08-21)
+VERSION: v1.3 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — photo ID 2026-08-21)
 
@@ -8,11 +8,12 @@ DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Active — photo ID 2026-08-21 (follow-up: Bombardier confirmed). Binaries stay outside git.
+REFERENCE_STATUS: Active — full 7/7 photo ID done 2026-08-21. Provenance: Kill Team Starter Set. Binaries stay outside git.
 
 SOURCES:
   - Owner photo set (chat upload 2026-08-21): roster group + close-ups
-  - Follow-up photos 2026-08-21: Bombardier + Icon Bearer close-ups
+  - Follow-up photos 2026-08-21: Bombardier, Icon Bearer, Heavy Gunner
+  - Owner note: all seven KT Plague Marines are from the Kill Team Starter Set
   - games/kill_team_2024/teams/_Owned_Teams_Inventory.md
   - games/kill_team_2024/teams/plague_marines/operatives/Operatives_Index.md
   - Suggested save path (owner): C:\Personal\Kill Team\Teams\Plague_marines\
@@ -22,13 +23,13 @@ PURPOSE:
   Death Guard / 40K sync note. Photo-confirmed assembly/paint state.
 
 UPDATE_TRIGGER:
-  Update when more photos resolve Heavy Gunner, when models are rebased,
-  or when Death Guard enters 40K scope.
+  Update when models are rebased, loadouts are clarified, or Death Guard
+  enters 40K scope.
 -->
 
 # Plague Marines - Owned Models Inventory
 
-**As of 2026-08-21.** Owner photos confirm a **painted, game-ready** Plague Marines collection (off-white / bronze “Pallid Hand”-style scheme). Binaries are **not** committed to git — save owner copies under `C:\Personal\Kill Team\Teams\Plague_marines\` when convenient (same pattern as Necron team photos).
+**As of 2026-08-21.** Owner photos confirm a **painted, game-ready** full Plague Marines kill team (off-white / bronze “Pallid Hand”-style scheme). **Provenance:** all seven named operatives are from the **Kill Team Starter Set**. Binaries are **not** committed to git — save owner copies under `C:\Personal\Kill Team\Teams\Plague_marines\` when convenient.
 
 **KT rule:** team selection allows **one of each** of the seven named operatives.
 
@@ -44,12 +45,12 @@ UPDATE_TRIGGER:
 | **Fighter** | **Confirmed** | **Flail of Corruption** (three spiked heads on chains) |
 | **Warrior** | **Confirmed** | Boltgun across chest; Nurgling on base; additional boltgun figures visible in roster group |
 | **Bombardier** | **Confirmed** | Stick blight grenade in hand; chest bandolier of grenades; drum backpack; three-lens gas-mask helm; Nurgling with bells on base |
-| **Heavy Gunner** | **Not confirmed** | No clear blight launcher / heavy special weapon in the photo set |
-| **Biologus Putrifier** *(40K)* | **Confirmed owned** | Blight racks (three vertical chimneys), injector pistol, plague-spurt staff — **not** a KT Plague Marines operative |
+| **Heavy Gunner** | **Confirmed** | **Plague Belcher** (ribbed barrel, perforated spray muzzle, under-barrel canister); tall dual exhaust stacks |
+| **Biologus Putrifier** *(40K)* | **Confirmed owned** | Blight racks (three vertical chimneys), injector pistol, plague-spurt staff — **not** a KT Plague Marines operative; **not** part of the Starter Set roster claim |
 
 ---
 
-## Game-ready (table today — KT)
+## Game-ready (table today — KT) — full 7/7
 
 | Operative | Qty | Assembly | Paint | Notes |
 |-----------|-----|----------|-------|-------|
@@ -59,8 +60,11 @@ UPDATE_TRIGGER:
 | Plague Marine Fighter | 1 | Assembled | Painted | Flail of Corruption |
 | Plague Marine Warrior | ≥1 | Assembled | Painted | Boltgun; count extras under 40K bodies if more than one |
 | Plague Marine Bombardier | 1 | Assembled | Painted | Grenadier kit; stick grenade + bandolier + drum pack |
+| Plague Marine Heavy Gunner | 1 | Assembled | Painted | **Plague Belcher** loadout |
 
-**Playable tonight for KT:** **Champion + Warrior + Fighter + Icon Bearer + Plaguecaster + Bombardier** (six named slots). Only **Heavy Gunner** still missing from photo confirmation.
+**Playable tonight for KT:** all **seven** named operatives — full Starter Set roster, painted.
+
+**Kit provenance:** Kill Team Starter Set (owner-confirmed 2026-08-21).
 
 ---
 
@@ -68,25 +72,17 @@ UPDATE_TRIGGER:
 
 | Item | Qty | Assembly | Paint | Notes |
 |------|-----|----------|-------|-------|
-| Biologus Putrifier | 1 | Assembled | Painted | 40K Death Guard character; blight racks + injector + plague spurt |
-| Champion alt / second body | 1? | Assembled | Painted | Power fist + plague knife photo — if distinct from sword Champion, second body for 40K squad / alt loadout |
+| Biologus Putrifier | 1 | Assembled | Painted | 40K Death Guard character; blight racks + injector + plague spurt — separate from KT Starter Set |
+| Champion alt / second body | 1? | Assembled | Painted | Power fist + plague knife photo — if distinct from sword Champion, second body for 40K squad / alt loadout (Starter Set kit options may include both) |
 | Extra Plague Marine bodies | ≥1 | Assembled | Painted | Roster group includes additional melee (cleaver-style) and axe/grenade poses — useful as 40K Plague Marines; not extra KT Warrior slots beyond one |
-
----
-
-## Explicitly NOT confirmed in photos
-
-| Operative | Status | Notes |
-|-----------|--------|-------|
-| Plague Marine Heavy Gunner | Not seen | Need photo of blight launcher / heavy gun loadout |
 
 ---
 
 ## How to finish the audit
 
 1. Save the uploaded set to `C:\Personal\Kill Team\Teams\Plague_marines\` (filenames optional; keep a roster group shot).
-2. Photograph Heavy Gunner if owned — or mark **not owned**.
-3. Clarify whether power-fist Champion and sword Champion are one model reposed/rearmed or two bodies.
+2. Clarify whether power-fist Champion and sword Champion are one model reposed/rearmed or two bodies.
+3. Dual-legality vs 40K datasheets still **pending check** (bases look 32mm-class).
 
 ---
 
@@ -96,9 +92,9 @@ UPDATE_TRIGGER:
 |-------|-------|
 | **Faction** | Death Guard (Chaos Space Marines) — also playable in Warhammer 40,000 |
 | **Existing 40K Death Guard inventory in this repo?** | Stub only — [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md) |
-| **40K ruled-in status** | `pending / N/A full package` — photo ID now proves **painted models exist**; Biologus Putrifier is a 40K-only character among them |
+| **40K ruled-in status** | `pending / N/A full package` — full painted KT team + Biologus Putrifier owned; no full Death Guard package yet |
 | **Base size / dual-legality** | Bases look **32mm**-class round; dual-legal vs current 40K datasheets still **pending check** against faction pack / MFM |
-| **Assembly / paint** | **Game ready** for photo-confirmed models (2026-08-21) |
+| **Assembly / paint** | **Game ready** — full 7/7 KT roster photo ID 2026-08-21 (Kill Team Starter Set) |
 | **Cross-link** | Death Guard stub updated to point at this photo ID |
 
 **Why not a full Death Guard 40K tree yet:** 40K track lock remains Necrons + Space Marines for full packages. This inventory is the truth for Kill Team; 40K stays a stub until a dedicated track.
@@ -126,6 +122,7 @@ UPDATE_TRIGGER:
 
 ## Change Log
 
+- v1.3 (2026-08-21): **Heavy Gunner confirmed** (Plague Belcher). Full **7/7** KT roster game-ready. Provenance locked: **Kill Team Starter Set**.
 - v1.2 (2026-08-21): Follow-up photos — **Bombardier confirmed**; Icon Bearer close-up reinforced. Only Heavy Gunner still open.
 - v1.1 (2026-08-21): **Photo ID** from owner uploads — Plaguecaster, Icon Bearer, Champion, Fighter, Warrior confirmed game-ready; Biologus Putrifier noted as 40K character; Heavy Gunner / Bombardier not confirmed.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.6.1 (2026-08-21)
+VERSION: v0.7 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
@@ -26,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datacard statlines.
 
 CHANGE_LOG:
+  - v0.7 (2026-08-21): Full 7/7 ownership; Heavy Gunner (Plague Belcher); KT Starter Set provenance.
   - v0.6.1 (2026-08-21): Bombardier confirmed; ownership now 6/7.
   - v0.6 (2026-08-21): Ownership snapshot updated from photo ID; suggested first four = owned models.
   - v1.0 (2026-08-17): Initial two-page laminate (slice S5).
@@ -93,7 +94,7 @@ UPDATE_TRIGGER:
 
 ## ROSTER SNAPSHOT - seven named operatives, one of each (no duplicates)
 
-**Ownership (photo ID 2026-08-21):** Champion, Warrior, Fighter, Icon Bearer, Plaguecaster, **Bombardier** confirmed. Only **Heavy Gunner** not confirmed.
+**Ownership (photo ID 2026-08-21):** **All seven** confirmed — Kill Team Starter Set, painted.
 
 | Operative | Job in one line |
 |-----------|-------------------|
@@ -105,7 +106,7 @@ UPDATE_TRIGGER:
 | Bombardier (Grenadier) | Best grenade access and accuracy - shines once grenade timing clicks |
 | Malignant Plaguecaster (Psyker) | Ranged Poison/punish action, plus a heal action for a nearby ally |
 
-**Suggested first four (owned):** Champion, Warrior, Fighter, Bombardier — swap Bombardier for Icon Bearer or Plaguecaster as needed.
+**Suggested first four:** Champion, Warrior, Heavy Gunner, Fighter — one lead, one generalist, one ranged, one melee.
 
 ---
 
@@ -144,4 +145,4 @@ UPDATE_TRIGGER:
 
 ---
 
-*Verify vs owned team-rules PDF / Kill Team app - patches happen | ownership photo ID 2026-08-21*
+*Verify vs owned team-rules PDF / Kill Team app - patches happen | ownership photo ID complete 2026-08-21 (KT Starter Set 7/7)*

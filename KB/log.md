@@ -445,3 +445,9 @@ Key additions: Photo-confirmed game-ready Plaguecaster, Icon Bearer, Champion, F
 Pages updated: shipping Plague Marines inventory, starter roster, laminate, teams ledger, team README
 
 Key additions: **Bombardier confirmed** (stick grenade, bandolier, drum pack); Icon Bearer close-up reinforced. Only **Heavy Gunner** remains unconfirmed (6/7 KT slots).
+
+## [2026-08-21] ownership | Plague Marines Heavy Gunner — 7/7 complete
+
+Pages updated: shipping Plague Marines inventory (+ ledger, starter roster, laminate, README, Death Guard stub)
+
+Key additions: **Heavy Gunner confirmed** (Plague Belcher). Full **7/7** KT roster game-ready. Provenance: **Kill Team Starter Set** (owner). Biologus Putrifier remains separate 40K ownership.

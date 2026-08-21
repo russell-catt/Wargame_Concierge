@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Starter_Roster.md
-VERSION: v1.2 (2026-08-21)
+VERSION: v1.3 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
@@ -8,11 +8,11 @@ DOCUMENT_TYPE: Learning Roster
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Draft - roster slots from Wahapedia / team package; ownership updated from photo ID 2026-08-21 (Bombardier confirmed in follow-up).
+REFERENCE_STATUS: Draft - roster slots from Wahapedia / team package; ownership complete 7/7 from photo ID 2026-08-21 (Kill Team Starter Set).
 
 SOURCES:
   - operatives/Operatives_Index.md (role slots, keywords)
-  - Owned_Models_Inventory.md (ownership - photo ID 2026-08-21)
+  - Owned_Models_Inventory.md (ownership - full photo ID 2026-08-21; KT Starter Set)
   - games/kill_team_2024/README.md (Kill Team uses operative-count/role-slot selection, not 40K points)
 
 PURPOSE:
@@ -21,8 +21,8 @@ PURPOSE:
   purchase or an assembly state that has not been confirmed.
 
 UPDATE_TRIGGER:
-  Update when Heavy Gunner / Bombardier ownership is resolved, or when the
-  owned team-rules PDF confirms exact selection limits.
+  Update when the owned team-rules PDF confirms exact selection limits,
+  or when loadout choices change.
 -->
 
 # Starter Roster - Plague Marines
@@ -41,20 +41,20 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 |-----------|-----------|----------------------------|-----------|
 | Leader | Plague Marine Champion | **Yes** - every roster wants a leader | **Confirmed** — photo ID 2026-08-21 |
 | Troop / generalist | Plague Marine Warrior | **Yes** - the team's most straightforward operative to learn on | **Confirmed** — photo ID 2026-08-21 |
-| Ranged fire support | Plague Marine Heavy Gunner | **Yes** - area-effect damage against clustered enemies | **Not confirmed** — no photo yet |
+| Ranged fire support | Plague Marine Heavy Gunner | **Yes** - area-effect damage against clustered enemies | **Confirmed** — Plague Belcher (KT Starter Set) |
 | Melee specialist | Plague Marine Fighter | **Yes** - your answer when an enemy gets in close | **Confirmed** — Flail of Corruption |
 | Support / objective specialist | Plague Marine Icon Bearer | Optional first game - strong once you are contesting markers under pressure | **Confirmed** — Icon of Despair |
 | Grenadier / support | Plague Marine Bombardier | Optional first game - shines more once grenade timing is familiar | **Confirmed** — stick grenade + bandolier |
 | Psyker / support caster | Malignant Plaguecaster | Optional first game - two useful actions, but adds a psychic-rules layer to track | **Confirmed** — bells staff + psychic effects |
 
-**Suggested first four (owned):** Champion, Warrior, Fighter, Bombardier — lead, generalist, melee, grenadier. Swap Bombardier for Icon Bearer (objectives) or Plaguecaster (psychic) as you prefer. Heavy Gunner is the only slot still missing from photo confirmation.
+**Suggested first four:** Champion, Warrior, Heavy Gunner, Fighter — lead, generalist, ranged, melee (all owned; full Starter Set painted). Add Bombardier / Icon Bearer / Plaguecaster once the core loop feels comfortable.
 
 ---
 
 ## Before you play
 
 - [ ] Confirm the team-size limit against the owned team-rules PDF or the Kill Team app - do not assume the suggested four-to-seven split is the legal number.
-- [x] Fill in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - photo ID 2026-08-21 (Heavy Gunner still open).
+- [x] Fill in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - full 7/7 photo ID 2026-08-21 (Kill Team Starter Set).
 - [ ] Read [`Team_Rule_Guide.md`](Team_Rule_Guide.md) for Astartes, Poison, and Disgustingly Resilient before your first activation.
 - [ ] Print [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 - [ ] Set up a killzone - see [`../../setup/killzones/README.md`](../../setup/killzones/README.md); Volkus or the 3e Starter Set are the play-now recommendations for this track.
@@ -72,6 +72,7 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 
 ## Change Log
 
+- v1.3 (2026-08-21): Heavy Gunner confirmed; full 7/7 ownership (Kill Team Starter Set); suggested first four restored to ideal learning path.
 - v1.2 (2026-08-21): Bombardier confirmed from follow-up photo; suggested first four can include Bombardier; only Heavy Gunner open.
 - v1.1 (2026-08-21): Ownership tags updated from photo ID — five confirmed, Heavy Gunner / Bombardier not confirmed; suggested first four adjusted to owned models.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
@@ -86,4 +87,4 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 ## Rising Tide Notes
 
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Team-size limit still pending PDF check; ownership photo ID dated **2026-08-21**.
+- **Verify before you play.** Team-size limit still pending PDF check; ownership photo ID complete **2026-08-21** (Kill Team Starter Set, 7/7).

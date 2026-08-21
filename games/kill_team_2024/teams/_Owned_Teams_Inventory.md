@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v1.5.1 (2026-08-21)
+VERSION: v1.6 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3; slice S4 Canoptek Circle row update; slice S5 Plague Marines row update; slice S6 Angels of Death row update; cloud agent Plague Marines photo ID 2026-08-21)
 
@@ -54,7 +54,7 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 | **Hierotek Circle** | [`hierotek_circle/`](hierotek_circle/) | Stub | **Game ready** — used set, assembled & painted | **known** — Technomancer, Immortals, Despotek (Immortal / Warden proxy), Apprentek (KT-only / Plasmancer proxy), Plasmacytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | KT legal as built. Technomancer 50mm and Immortals/Despotek 32mm likely match 40K. Plasmacytes **25mm KT vs 28mm 40K** — likely not dual-legal until **25–28mm base rings**. Detail: [`hierotek_circle/Owned_Models_Inventory.md`](hierotek_circle/Owned_Models_Inventory.md) | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Kommandos** | [`kommandos/`](kommandos/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Murderwing** | [`murderwing/`](murderwing/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
-| **Plague Marines** | [`plague_marines/`](plague_marines/) | **Full guide - complete (S5)** | **Game ready** — painted Pallid Hand–style set; **photo ID done 2026-08-21** (6/7 slots; only Heavy Gunner not confirmed) | pending / N/A this track — models exist; Biologus Putrifier owned (40K); full Death Guard package out of scope | Bases look 32mm-class; dual-legal vs 40K **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Plague Marines** | [`plague_marines/`](plague_marines/) | **Full guide - complete (S5)** | **Game ready** — painted Pallid Hand–style **Kill Team Starter Set**; **photo ID done 2026-08-21** (**7/7**) | pending / N/A this track — models exist; Biologus Putrifier owned (40K); full Death Guard package out of scope | Bases look 32mm-class; dual-legal vs 40K **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Vespid Stingwings** | [`vespid_stingwings/`](vespid_stingwings/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 
 ### Cross-game notes (Necron teams)
@@ -68,7 +68,7 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 
 ### Cross-game notes (Death Guard / Chaos)
 
-- **Plague Marines** — **photo ID 2026-08-21.** Confirmed game-ready: Malignant Plaguecaster, Icon Bearer, Champion, Fighter, Warrior, **Bombardier**. Heavy Gunner **not** confirmed. Also Biologus Putrifier (40K). Detail: [`plague_marines/Owned_Models_Inventory.md`](plague_marines/Owned_Models_Inventory.md). 40K remains a stub only — [`../../warhammer_40k_11e/armies/death_guard/README.md`](../../warhammer_40k_11e/armies/death_guard/README.md).
+- **Plague Marines** — **photo ID 2026-08-21 complete (7/7).** Full painted Kill Team Starter Set roster: Plaguecaster, Icon Bearer, Champion, Fighter, Warrior, Bombardier, Heavy Gunner (Plague Belcher). Also Biologus Putrifier (40K, separate from Starter Set). Detail: [`plague_marines/Owned_Models_Inventory.md`](plague_marines/Owned_Models_Inventory.md). 40K remains a stub only — [`../../warhammer_40k_11e/armies/death_guard/README.md`](../../warhammer_40k_11e/armies/death_guard/README.md).
 
 ### 40K ruled-in column key
 
@@ -106,6 +106,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v1.6 (2026-08-21): Plague Marines — full 7/7 photo ID; provenance Kill Team Starter Set; Heavy Gunner (Plague Belcher) confirmed.
 - v1.5.1 (2026-08-21): Plague Marines — Bombardier confirmed (6/7); only Heavy Gunner open.
 - v1.5 (2026-08-21): Plague Marines photo ID — assembly/paint set to game ready (5/7 KT slots confirmed); added Death Guard cross-game note; dual-legality still pending check.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
