@@ -8,11 +8,12 @@ DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
 TEAM: Angels of Death
-REFERENCE_STATUS: Active — partial photo ID 2026-08-21 (used Intercessor set). Binaries stay outside git.
+REFERENCE_STATUS: Active — partial photo ID 2026-08-21 (used Intercessors + Titus 40K-only note). Binaries stay outside git.
 
 SOURCES:
   - Owner photo (chat upload 2026-08-21): five Primaris Intercessor-family models
-  - Owner note: bought used; painted Black Templars; will **not** play as Black Templars
+  - Owner photo (chat upload 2026-08-21): Lieutenant Titus (40K only — wrong base for KT)
+  - Owner note: Intercessors bought used; painted Black Templars; will **not** play as Black Templars
   - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17)
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
   - Suggested save path (owner): C:\Personal\Kill Team\Teams\Angels_of_Death\ (or Space Marines photo folder)
