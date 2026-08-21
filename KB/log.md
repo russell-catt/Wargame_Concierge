@@ -424,3 +424,11 @@ Key resolutions:
 - Legion + Syphon wording confirmed (pack shipping + Wahapedia); WarCom FAQ: Legion applies when RP activated by other rules
 - No WarCom dataslate amendment to Syphon +1 / objective target found (2026-08-20)
 - Characters: ordinary RP does not revive CHARACTER into bodyguard; WarCom July — character revive returns as unit of one
+
+## [2026-08-21] query | Clarify heal-first on Legion/Syphon analysis
+
+Pages consulted: [[their_number_is_legion_potentiality_syphon_250]], [[reanimation_protocols]], shipping Reanimation_Protocols.md
+
+Output filed: yes — enhanced [[their_number_is_legion_potentiality_syphon_250]] (heal-first section + Geomancer worked example)
+
+Also updated: [[index]]
