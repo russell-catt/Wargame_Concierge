@@ -147,7 +147,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; open questions closed 2026-08-20 (WarCom primary, Wahapedia secondary) | draft | 2026-08-20 |
+| [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; heal-first explained; OQs closed 2026-08-20 (WarCom primary) | draft | 2026-08-21 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
