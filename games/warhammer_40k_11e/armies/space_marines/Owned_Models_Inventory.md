@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-sync; cloud agent Intercessor photo ID 2026-08-21)
 
@@ -109,10 +109,12 @@ Assembled, based, and fieldable under current edition rules. **Matched-play squa
 |----------------|-----|----------|-------|-------|
 | **Intercessor Squad** (bodies) | 4 | Assembled | Painted | Sergeant (bare head, bolt rifle) + 3 bolt-rifle Intercessors (one with auspex). Used purchase. **BT paint, not played as BT.** |
 | **Assault Intercessor Squad** (body) | 1 | Assembled | Painted | Heavy bolt pistol + chainsword. Same used set / scheme. Incomplete squad on its own. |
+| **Lieutenant Titus** | 1 | Assembled | Painted | Ultramarines scheme; chainsword + bolt pistol; dynamic pose. **40K only** — base is the **wrong size for Kill Team** (do not dual-use). |
 
-**Matched-play note:** these five do **not** form one legal Intercessor Squad (Assault loadout cannot sit in that datasheet). For learning: field Intercessors as a short squad / proxy with opponent agreement, or treat the chainsword marine as the start of a separate Assault Intercessor unit once more bodies exist. Points still from MFM when building a real list.
+**Matched-play note:** the five Intercessors do **not** form one legal Intercessor Squad (Assault loadout cannot sit in that datasheet). For learning: field Intercessors as a short squad / proxy with opponent agreement, or treat the chainsword marine as the start of a separate Assault Intercessor unit once more bodies exist. Points still from MFM when building a real list.
 
-**Paint / Chapter play:** Black Templars scheme on the models. Owner will **not** play them as Black Templars — cosmetic only. Use agreed Codex Chapter / generic Adeptus Astartes for army rules.
+**Paint / Chapter play (Intercessors):** Black Templars scheme. Owner will **not** play them as Black Templars — cosmetic only.
+**Paint (Titus):** Ultramarines — character model; use as **Lieutenant Titus** (or agreed Lieutenant proxy per current datasheet legality).
 
 ---
 
@@ -154,7 +156,8 @@ The **Angels of Death** Kill Team 2024 team ([`games/kill_team_2024/teams/angels
 |----------------------------------|--------------------------------|-----------|------------|-------------------------------------|
 | Intercessor Squad | Intercessor Sergeant + Intercessor Warriors (×3 in photo) | 32mm | Used Intercessor set — photo ID 2026-08-21 | **Likely yes** (32mm) — still flag pending vs faction pack if pedantic |
 | Assault Intercessor Squad | Assault Intercessor Warrior (×1 in photo) | 32mm | Same set | **Likely yes** (32mm) — pending formal check |
-| Captain | Angel of Death — Space Marine Captain | 40mm | Not in photo set | pending check |
+| Lieutenant Titus | — | **Wrong base for KT** (owner) | 40K character photo ID 2026-08-21 | **No** — do not use in Angels of Death / KT |
+| Captain | Angel of Death — Space Marine Captain | 40mm | Not in photo set (Titus is **not** this slot) | pending check |
 | Eliminator Squad | Eliminator Sniper | 40mm | Not in photo set | pending check |
 | Heavy Intercessor Squad | Heavy Intercessor Gunner | 40mm | Not in photo set | pending check |
 
@@ -198,6 +201,7 @@ Write down which **Chapter** the collection is painted as. It matters for one sp
 ---
 
 ## Change Log
+- v1.2 (2026-08-21): Lieutenant Titus photo ID — Ultramarines; **40K only** (wrong base for Kill Team).
 - v1.1 (2026-08-21): First photo ID — five used Primaris Intercessors (BT paint, not played as BT); Intercessor + Assault Intercessor bodies; Angels of Death sync updated.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.2 (2026-08-17): Slice S6 — Kill Team ownership sync section.

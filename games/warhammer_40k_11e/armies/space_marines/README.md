@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-link)
 
@@ -39,7 +39,7 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready now** | Intercessor bodies ×4 + Assault Intercessor body ×1 (used set; matched-play squad split still incomplete) |
+| **Game-ready now** | Intercessor bodies ×4 + Assault Intercessor body ×1 (used set; matched-play squad split still incomplete); **Lieutenant Titus** (Ultramarines; 40K-only — wrong base for KT) |
 | **Owned, build before play** | Unknown (unaudited remainder) |
 | **Not owned** | Unknown |
 | **Chapter (paint / play)** | Paint: Black Templars. Play: **not** Black Templars — generic / agreed Codex Chapter |
@@ -93,6 +93,7 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 ---
 
 ## Change Log
+- v1.2 (2026-08-21): Lieutenant Titus added to game-ready (40K-only).
 - v1.1 (2026-08-21): Collection status — Intercessor photo ID (used set; BT paint not played as BT).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.1 (2026-08-17): Cross-linked the new Kill Team "Angels of Death" ownership sync (slice S6) under Sources.

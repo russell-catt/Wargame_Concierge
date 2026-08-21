@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; cloud agent photo ID 2026-08-21)
 
@@ -45,13 +45,19 @@ UPDATE_TRIGGER:
 
 **Paint / chapter:** Black Templars colours (black armour, white pads, red cross). Owner will **not** field them as Black Templars — treat paint as cosmetic; rules as Codex Adeptus Astartes / Angels of Death (no Chapter-locked KT identity required).
 
+### Explicitly NOT for Kill Team
+
+| Model | Why |
+|-------|-----|
+| **Lieutenant Titus** (Ultramarines) | Owned for **40K only**. Owner: **wrong base size** for Kill Team — do not proxy as Angels of Death Captain / leader. |
+
 ---
 
 ## Roster checklist
 
 | Operative | Base size | Assembled? | Painted? | Same model as 40K... | Notes |
 |-----------|-----------|------------|----------|------------------------|-------|
-| Space Marine Captain | ⌀40mm | **Not confirmed** | — | Captain | Not in this photo set |
+| Space Marine Captain | ⌀40mm | **Not confirmed** | — | Captain | **Not** Lieutenant Titus — Titus is 40K-only (wrong base for KT) |
 | Assault Intercessor Sergeant | ⌀32mm | **Not confirmed** | — | Assault Intercessor Squad | Not in this set — chainsword model is Warrior loadout |
 | Intercessor Sergeant | ⌀32mm | **Yes** | **Yes** | Intercessor Squad (sergeant) | Bare-head rifle sergeant |
 | Assault Intercessor Grenadier | ⌀32mm | **Not confirmed** | — | Assault Intercessor Squad | Not in this set |
@@ -84,6 +90,7 @@ UPDATE_TRIGGER:
 
 ## Change Log
 
+- v1.2 (2026-08-21): Lieutenant Titus noted as **40K-only** (wrong base for KT) — does not fill Captain slot.
 - v1.1 (2026-08-21): Photo ID — five used Intercessors (BT paint, not played as BT); Sergeant, Assault Warrior, three Warriors confirmed; full team still incomplete.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial worksheet (slice S6).

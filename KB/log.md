@@ -438,3 +438,9 @@ Also updated: [[index]]
 Pages updated: shipping Space Marine + Angels of Death inventories, teams ledger, both READMEs
 
 Key additions: Five Primaris Intercessor-family models (used; Black Templars paint; **not** played as BT). KT: Intercessor Sergeant, Assault Intercessor Warrior, Intercessor Warriors ×3. 40K: Intercessor bodies ×4 + Assault Intercessor ×1. Full Angels of Death team still incomplete.
+
+## [2026-08-21] ownership | Lieutenant Titus (40K only)
+
+Pages updated: Space Marine inventory + README; Angels of Death inventory (explicit KT exclusion)
+
+Key additions: Ultramarines Lieutenant Titus painted and game-ready for **40K**. Owner: **wrong base for Kill Team** — must not fill Angels of Death Captain/leader.
