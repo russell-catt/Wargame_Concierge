@@ -1,116 +1,134 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v1.1 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (cloud agent — photo ID 2026-08-21)
 
-DOCUMENT_TYPE: Inventory / Worksheet Template
+DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Worksheet - unfilled. Assembly/paint state pending user confirmation; no photo audit this slice.
+REFERENCE_STATUS: Active — photo ID done 2026-08-21 from owner uploads. Binaries stay outside git.
 
 SOURCES:
-  - games/kill_team_2024/teams/_Owned_Teams_Inventory.md (track-level ownership ledger)
-  - games/kill_team_2024/teams/plague_marines/operatives/Operatives_Index.md (the 7 named operatives to check off)
-  - docs/handoffs/kill_team_2024_scaffold/track_in.md (Preflight lock - "pending check" default; S10 photo gate)
+  - Owner photo set (chat upload 2026-08-21): roster group + close-ups
+  - games/kill_team_2024/teams/_Owned_Teams_Inventory.md
+  - games/kill_team_2024/teams/plague_marines/operatives/Operatives_Index.md
+  - Suggested save path (owner): C:\Personal\Kill Team\Teams\Plague_marines\
 
 PURPOSE:
-  Physical model checklist for the Plague Marines kill team, and the
-  Death Guard / 40K sync note this slice is responsible for. Every list
-  or roster document in this folder must be checked against this file.
+  Physical model checklist for the Plague Marines kill team and the
+  Death Guard / 40K sync note. Photo-confirmed assembly/paint state.
 
 UPDATE_TRIGGER:
-  Update when models are assembled, painted, or photo-confirmed (S10).
-  Update the 40K sync section if a Death Guard 40K army ever enters scope.
+  Update when more photos resolve Heavy Gunner / Bombardier, when models
+  are rebased, or when Death Guard enters 40K scope.
 -->
 
 # Plague Marines - Owned Models Inventory
 
-**Status:** worksheet - **not yet filled in.** No photo audit has run this slice (2026-08-17); every row below defaults to `pending check` per the track's Preflight lock, exactly like the other two priority teams.
+**As of 2026-08-21.** Owner photos confirm a **painted, game-ready** Plague Marines collection (off-white / bronze “Pallid Hand”-style scheme). Binaries are **not** committed to git — save owner copies under `C:\Personal\Kill Team\Teams\Plague_marines\` when convenient (same pattern as Necron team photos).
 
-Record **assembly and paint state**, not just counts - "owned but unassembled" and "game ready" lead to different advice for a first game.
-
----
-
-## Game-ready (table today)
-
-| Operative | Qty | Assembly | Paint | Notes |
-|-----------|-----|----------|-------|-------|
-| *(fill in)* | | | | |
-
-## Owned - build before play
-
-| Operative | Qty | Assembly | Paint | Notes |
-|-----------|-----|----------|-------|-------|
-| *(fill in)* | | | | |
-
-## Owned but unidentified
-
-Models that exist physically but have not yet been matched to a named operative from [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md).
-
-| Item | Why it is here | What would resolve it |
-|------|-----------------|------------------------|
-| *(fill in)* | | |
-
-## Explicitly NOT owned
-
-| Item | Status | Notes |
-|------|--------|-------|
-| *(fill in)* | | |
+**KT rule:** team selection allows **one of each** of the seven named operatives.
 
 ---
 
-## How to do the audit in one sitting
+## Photo ID summary (2026-08-21)
 
-1. Lay out every Plague Marine model, including anything on sprue.
-2. Match each one against the seven named operatives in [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md) - Champion, Bombardier, Fighter, Heavy Gunner, Icon Bearer, Malignant Plaguecaster, Warrior. Team selection allows one of each; there is no "extra Warriors" pile the way a 40K squad has spare bodies.
-3. Photograph anything unidentified - this feeds **S10**, which is user-gated on exactly these photos.
-4. Fill in the tables above, then open [`Starter_Roster.md`](Starter_Roster.md) to tag roster slots against what actually exists.
+| ID | Confidence | Evidence |
+|----|------------|----------|
+| **Malignant Plaguecaster** | **Confirmed** | Staff with three bells; teal/blue psychic swirl; cloak; separate painting-handle close-up |
+| **Icon Bearer** | **Confirmed** | Tall Icon of Despair / three-skull Nurgle icon with hanging bells; Nurglings on base |
+| **Champion** | **Confirmed** | Horned helm, purple cape, plague sword, toothy maw chest (roster group). Separate body/loadout photo: **power fist + plague knife** + Nurgling — treat as Champion alt loadout **or** a second body for 40K (only one Champion slot in KT) |
+| **Fighter** | **Confirmed** | **Flail of Corruption** (three spiked heads on chains) |
+| **Warrior** | **Confirmed** | Boltgun across chest; Nurgling on base; additional boltgun figures visible in roster group |
+| **Heavy Gunner** | **Not confirmed** | No clear blight launcher / heavy special weapon in the photo set |
+| **Bombardier** | **Not confirmed** | No clear dedicated grenadier ID |
+| **Biologus Putrifier** *(40K)* | **Confirmed owned** | Blight racks (three vertical chimneys), injector pistol, plague-spurt staff — **not** a KT Plague Marines operative |
+
+---
+
+## Game-ready (table today — KT)
+
+| Operative | Qty | Assembly | Paint | Notes |
+|-----------|-----|----------|-------|-------|
+| Malignant Plaguecaster | 1 | Assembled | Painted | Bells staff; psychic effect painted |
+| Icon Bearer | 1 | Assembled | Painted | Icon of Despair; Nurglings |
+| Plague Marine Champion | 1 | Assembled | Painted | Plague-sword loadout on roster group |
+| Plague Marine Fighter | 1 | Assembled | Painted | Flail of Corruption |
+| Plague Marine Warrior | ≥1 | Assembled | Painted | Boltgun; count extras under 40K bodies if more than one |
+
+**Playable tonight for KT:** at least **Champion + Warrior + Fighter + Icon Bearer + Plaguecaster** (five named slots). Heavy Gunner and Bombardier still missing from photo confirmation.
+
+---
+
+## Owned — 40K / extra bodies (not KT slots)
+
+| Item | Qty | Assembly | Paint | Notes |
+|------|-----|----------|-------|-------|
+| Biologus Putrifier | 1 | Assembled | Painted | 40K Death Guard character; blight racks + injector + plague spurt |
+| Champion alt / second body | 1? | Assembled | Painted | Power fist + plague knife photo — if distinct from sword Champion, second body for 40K squad / alt loadout |
+| Extra Plague Marine bodies | ≥1 | Assembled | Painted | Roster group includes additional melee (cleaver-style) and axe/grenade poses — useful as 40K Plague Marines; not extra KT Warrior slots beyond one |
+
+---
+
+## Explicitly NOT confirmed in photos
+
+| Operative | Status | Notes |
+|-----------|--------|-------|
+| Plague Marine Heavy Gunner | Not seen | Need photo of blight launcher / heavy gun loadout |
+| Plague Marine Bombardier | Not seen | Need photo of dedicated bombardier gear |
+
+---
+
+## How to finish the audit
+
+1. Save the uploaded set to `C:\Personal\Kill Team\Teams\Plague_marines\` (filenames optional; keep a roster group shot).
+2. Photograph Heavy Gunner and Bombardier if owned — or mark them **not owned**.
+3. Clarify whether power-fist Champion and sword Champion are one model reposed/rearmed or two bodies.
+4. Update [`Starter_Roster.md`](Starter_Roster.md) ownership tags (done for confirmed slots this pass).
 
 ---
 
 ## Death Guard / 40K sync note
 
-**This is the S5 deliverable required by the track's cross-game policy** (see [`../../../../docs/handoffs/kill_team_2024_scaffold/track_in.md`](../../../../docs/handoffs/kill_team_2024_scaffold/track_in.md), "Inventories sync" row).
-
 | Field | Value |
 |-------|-------|
-| **Faction** | Death Guard (Chaos Space Marines subfaction) - also playable in Warhammer 40,000 |
-| **Existing 40K Death Guard inventory in this repo?** | **No.** The locked 40K track ([`../../../warhammer_40k_11e/README.md`](../../../warhammer_40k_11e/README.md)) covers Necrons and Space Marines only - no Death Guard army folder was in scope |
-| **40K ruled-in status** | `pending / N/A this track` - there is nothing to sync these models *into* yet |
-| **Base size / dual-legality** | `pending check` - the Wahapedia datacards list every operative on a 32mm base, matching standard Chaos Space Marine basing, but confirming the exact 40K datasheet mapping, points cost, and current basing kit is unresolved |
-| **Assembly / paint** | `pending check` - see the audit tables above |
-| **Cross-link created this slice** | [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md) - a **minimal stub**, explicitly not a full 40K army tree, pointing back here |
+| **Faction** | Death Guard (Chaos Space Marines) — also playable in Warhammer 40,000 |
+| **Existing 40K Death Guard inventory in this repo?** | Stub only — [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md) |
+| **40K ruled-in status** | `pending / N/A full package` — photo ID now proves **painted models exist**; Biologus Putrifier is a 40K-only character among them |
+| **Base size / dual-legality** | Bases look **32mm**-class round; dual-legal vs current 40K datasheets still **pending check** against faction pack / MFM |
+| **Assembly / paint** | **Game ready** for photo-confirmed models (2026-08-21) |
+| **Cross-link** | Death Guard stub updated to point at this photo ID |
 
-**Why not build the full Death Guard 40K tree now:** the track lock names exactly two 40K forces this session (Necrons, Space Marines). Inventing army rule guides, detachments, or starter lists for a third faction that was never scoped would contradict that lock. The stub exists so a future session that *does* pick up Death Guard in 40K has a starting cross-link instead of nothing.
+**Why not a full Death Guard 40K tree yet:** 40K track lock remains Necrons + Space Marines for full packages. This inventory is the truth for Kill Team; 40K stays a stub until a dedicated track.
 
 ---
 
 ## Inventory rules
 
 1. **Game-ready** = assembled, based, and fieldable under current KT24 rules.
-2. **Build before play** = purchased but not yet assembled - never list it in a "play tonight" roster.
-3. Team selection allows **one of each of the seven named operatives** - there is no shopping list for duplicates the way a 40K squad has spare models.
-4. When Plague Marines are photo-identified (S10), replace the `pending check` rows with confirmed data and update `cross_check_status` in [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md).
-5. This file is the source of truth the Death Guard 40K stub cross-links to - keep them consistent if either changes.
+2. Team selection allows **one of each of the seven named operatives**.
+3. 40K characters (e.g. Biologus Putrifier) are recorded here for ownership honesty but do **not** fill a KT operative slot.
+4. This file is the source of truth the Death Guard 40K stub cross-links to.
 
 ---
 
 ## Related pages
 
-- [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md) - the seven operatives to check off
-- [`Starter_Roster.md`](Starter_Roster.md) - roster built against this inventory
-- [`README.md`](README.md) - package entry point
-- [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md) - track-level ownership ledger (10 teams)
-- [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md) - the minimal 40K cross-link stub
+- [`operatives/Operatives_Index.md`](operatives/Operatives_Index.md)
+- [`Starter_Roster.md`](Starter_Roster.md)
+- [`README.md`](README.md)
+- [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md)
+- [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md)
 
 ---
 
 ## Change Log
 
+- v1.1 (2026-08-21): **Photo ID** from owner uploads — Plaguecaster, Icon Bearer, Champion, Fighter, Warrior confirmed game-ready; Biologus Putrifier noted as 40K character; Heavy Gunner / Bombardier not confirmed.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
-- v1.0 (2026-08-17): Initial worksheet (slice S5) - empty audit tables, the Death Guard / 40K sync note (no existing 40K inventory, ruled-in `pending/N/A this track`, base size `pending check`), and the minimal 40K stub cross-link.
+- v1.0 (2026-08-17): Initial empty worksheet (slice S5).
 
 ## Attribution
 
@@ -121,4 +139,4 @@ Models that exist physically but have not yet been matched to a named operative 
 ## Rising Tide Notes
 
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** No ownership has been assumed or invented in this worksheet.
+- Photo binaries stay outside git. Content dated **2026-08-21**.

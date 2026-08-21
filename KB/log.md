@@ -432,3 +432,10 @@ Pages consulted: [[their_number_is_legion_potentiality_syphon_250]], [[reanimati
 Output filed: yes — enhanced [[their_number_is_legion_potentiality_syphon_250]] (heal-first section + Geomancer worked example)
 
 Also updated: [[index]]
+
+## [2026-08-21] ownership | Plague Marines photo ID
+
+Pages created: (none in KB — shipping inventory only)
+Pages updated: shipping `games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md` (+ ledger, starter roster, Death Guard stub)
+
+Key additions: Photo-confirmed game-ready Plaguecaster, Icon Bearer, Champion, Fighter, Warrior; Biologus Putrifier as 40K character; Heavy Gunner / Bombardier not confirmed. Binaries stay outside git.

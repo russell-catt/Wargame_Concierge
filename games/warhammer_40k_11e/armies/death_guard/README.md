@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/death_guard/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5 - kill_team_2024_scaffold)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S5 - kill_team_2024_scaffold; cloud agent photo ID 2026-08-21)
 
 DOCUMENT_TYPE: Cross-Link Stub (NOT a faction package)
 PROJECT_NAME: Wargame_Concierge
@@ -42,9 +42,9 @@ Do not add an army rule guide, detachment guide, starter lists, or unit research
 | Field | Value |
 |-------|-------|
 | **Same physical models as** | [`../../../kill_team_2024/teams/plague_marines/`](../../../kill_team_2024/teams/plague_marines/) - Kill Team Plague Marines |
-| **40K ruled-in status** | `pending / N/A this track` |
-| **Base size / dual-legality** | `pending check` - Kill Team datacards show 32mm bases; exact 40K datasheet mapping and current basing kit unconfirmed |
-| **Assembly / paint** | `pending check` - see the Kill Team side's [`Owned_Models_Inventory.md`](../../../kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md) |
+| **40K ruled-in status** | `pending / N/A this track` — painted models + Biologus Putrifier confirmed owned; no full Death Guard package yet |
+| **Base size / dual-legality** | `pending check` - bases look 32mm-class; exact 40K datasheet mapping still unconfirmed |
+| **Assembly / paint** | **Game ready** (photo ID 2026-08-21) for confirmed models — see [`Owned_Models_Inventory.md`](../../../kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md) |
 | **40K rules content in this folder** | None. Kill Team and 40K rules stay separate per the track's cross-game policy - see [`../../../kill_team_2024/README.md`](../../../kill_team_2024/README.md) |
 
 ---
@@ -65,6 +65,7 @@ Follow [`docs/Game_System_Scaffold.md`](../../../../docs/Game_System_Scaffold.md
 
 ## Change Log
 
+- v0.6 (2026-08-21): Assembly/paint set to game ready from Plague Marines photo ID; Biologus Putrifier noted as owned 40K character via KT inventory.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.1 (2026-08-17): Initial minimal cross-link stub (slice S5, `kill_team_2024_scaffold`) - sync status fields only, explicitly not a faction package.
 

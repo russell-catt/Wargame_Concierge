@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v1.5 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3; slice S4 Canoptek Circle row update; slice S5 Plague Marines row update; slice S6 Angels of Death row update)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S3; slice S4 Canoptek Circle row update; slice S5 Plague Marines row update; slice S6 Angels of Death row update; cloud agent Plague Marines photo ID 2026-08-21)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -24,7 +24,7 @@ UPDATE_TRIGGER:
 
 # Owned Kill Team 2024 — Teams Inventory
 
-**As of 2026-08-17.** Ten team-rule PDFs confirmed under `C:\Personal\Kill Team\kill_team_2024\Teams\`. Path catalog: [`raw/pointers/kill_team_2024_teams.md`](../../../raw/pointers/kill_team_2024_teams.md).
+**As of 2026-08-21.** Ten team-rule PDFs confirmed under `C:\Personal\Kill Team\kill_team_2024\Teams\`. Path catalog: [`raw/pointers/kill_team_2024_teams.md`](../../../raw/pointers/kill_team_2024_teams.md).
 
 **Vocabulary:** Kill Team uses **team / operative**, not army / unit. Rules for KT and Warhammer 40,000 stay separate even when the same physical models appear in both games.
 
@@ -54,7 +54,7 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 | **Hierotek Circle** | [`hierotek_circle/`](hierotek_circle/) | Stub | **Game ready** — used set, assembled & painted | **known** — Technomancer, Immortals, Despotek (Immortal / Warden proxy), Apprentek (KT-only / Plasmancer proxy), Plasmacytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | KT legal as built. Technomancer 50mm and Immortals/Despotek 32mm likely match 40K. Plasmacytes **25mm KT vs 28mm 40K** — likely not dual-legal until **25–28mm base rings**. Detail: [`hierotek_circle/Owned_Models_Inventory.md`](hierotek_circle/Owned_Models_Inventory.md) | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Kommandos** | [`kommandos/`](kommandos/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Murderwing** | [`murderwing/`](murderwing/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
-| **Plague Marines** | [`plague_marines/`](plague_marines/) | **Full guide - complete (S5)** | pending check | pending / N/A this track | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Plague Marines** | [`plague_marines/`](plague_marines/) | **Full guide - complete (S5)** | **Game ready** — painted Pallid Hand–style set; **photo ID done 2026-08-21** (5/7 slots; Heavy Gunner & Bombardier not confirmed) | pending / N/A this track — models exist; Biologus Putrifier owned (40K); full Death Guard package out of scope | Bases look 32mm-class; dual-legal vs 40K **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Vespid Stingwings** | [`vespid_stingwings/`](vespid_stingwings/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 
 ### Cross-game notes (Necron teams)
@@ -65,6 +65,10 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 ### Cross-game notes (Space Marine teams)
 
 - **Angels of Death** — **S6 complete.** Every operative is built from Intercessor-family kits also usable in the 40K Space Marine collection (Captain, Assault Intercessor Squad, Intercessor Squad, Eliminator Squad, Heavy Intercessor Squad) — see [`angels_of_death/Owned_Models_Inventory.md`](angels_of_death/Owned_Models_Inventory.md) for the operative-to-datasheet mapping and base sizes. The 40K Space Marine inventory ([`games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md`](../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md)) now carries a matching "Kill Team ownership sync" section. Both the KT team PDF cross-check and the 40K collection audit are still **pending check** — nothing here is assumed dual-legal.
+
+### Cross-game notes (Death Guard / Chaos)
+
+- **Plague Marines** — **photo ID 2026-08-21.** Confirmed game-ready: Malignant Plaguecaster, Icon Bearer, Champion, Fighter, Warrior (+ extra 40K bodies / Biologus Putrifier). Heavy Gunner and Bombardier **not** confirmed in photos. Detail: [`plague_marines/Owned_Models_Inventory.md`](plague_marines/Owned_Models_Inventory.md). 40K remains a stub only — [`../../warhammer_40k_11e/armies/death_guard/README.md`](../../warhammer_40k_11e/armies/death_guard/README.md).
 
 ### 40K ruled-in column key
 
@@ -102,6 +106,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v1.5 (2026-08-21): Plague Marines photo ID — assembly/paint set to game ready (5/7 KT slots confirmed); added Death Guard cross-game note; dual-legality still pending check.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.4 (2026-08-17): Necron photo sync — Canoptek loadouts locked; Hierotek photo ID done (Technomancer / Apprentek / Despotek / Immortals / Plasmacytes) with dual-legality summary.
 - v1.3 (2026-08-17): S6 — Angels of Death row updated to full-guide-complete: 40K ruled-in marked known (mapped to Space Marine Captain/Intercessor-family units), assembly/paint and dual-legality still pending check. Added Cross-game notes (Space Marine teams) section.

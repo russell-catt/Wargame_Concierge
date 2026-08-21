@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -26,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datacard statlines.
 
 CHANGE_LOG:
+  - v0.6 (2026-08-21): Ownership snapshot updated from photo ID; suggested first four = owned models.
   - v1.0 (2026-08-17): Initial two-page laminate (slice S5).
 
 ATTRIBUTION:
@@ -91,7 +92,7 @@ UPDATE_TRIGGER:
 
 ## ROSTER SNAPSHOT - seven named operatives, one of each (no duplicates)
 
-**Ownership is `pending check` on every line - no audit has run yet.**
+**Ownership (photo ID 2026-08-21):** Champion, Warrior, Fighter, Icon Bearer, Plaguecaster **confirmed**. Heavy Gunner and Bombardier **not confirmed**.
 
 | Operative | Job in one line |
 |-----------|-------------------|
@@ -103,7 +104,7 @@ UPDATE_TRIGGER:
 | Bombardier (Grenadier) | Best grenade access and accuracy - shines once grenade timing clicks |
 | Malignant Plaguecaster (Psyker) | Ranged Poison/punish action, plus a heal action for a nearby ally |
 
-**Suggested first four:** Champion, Warrior, Heavy Gunner, Fighter - one lead, one generalist, one ranged, one melee.
+**Suggested first four (owned):** Champion, Warrior, Fighter, Icon Bearer — swap Icon for Plaguecaster to learn psychic early.
 
 ---
 
@@ -142,4 +143,4 @@ UPDATE_TRIGGER:
 
 ---
 
-*Verify vs owned team-rules PDF / Kill Team app - patches happen | 2026-08-17*
+*Verify vs owned team-rules PDF / Kill Team app - patches happen | ownership photo ID 2026-08-21*

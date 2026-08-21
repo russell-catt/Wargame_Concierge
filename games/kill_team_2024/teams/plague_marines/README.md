@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
 DOCUMENT_TYPE: Team Package Entry Point
 PROJECT_NAME: Wargame_Concierge
@@ -72,8 +72,9 @@ Plague Marines run **seven unique named operatives** with no duplicates (Champio
 
 Plague Marines are Death Guard - a Chaos faction that also exists in Warhammer 40,000. **This project has no Death Guard 40K army folder in scope this track** (the locked 40K track covers Necrons and Space Marines only - see [`../../../warhammer_40k_11e/README.md`](../../../warhammer_40k_11e/README.md)).
 
-- **40K ruled-in status:** `pending / N/A this track` - no existing 40K Death Guard inventory to sync into.
-- **Base size / dual-legality:** `pending check` - the Wahapedia datacards list every operative on a 32mm base, but confirming the exact 40K datasheet mapping and current basing kit is unresolved.
+- **Assembly / paint:** **Game ready** — photo ID **2026-08-21** (Plaguecaster, Icon Bearer, Champion, Fighter, Warrior confirmed; Heavy Gunner / Bombardier not confirmed). Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
+- **40K ruled-in status:** `pending / N/A this track` — painted Death Guard models exist (including a Biologus Putrifier); no full 40K Death Guard package in this track.
+- **Base size / dual-legality:** `pending check` - bases look 32mm-class; exact 40K datasheet mapping still unresolved.
 - A minimal cross-link stub (not a full army tree) lives at [`../../../warhammer_40k_11e/armies/death_guard/README.md`](../../../warhammer_40k_11e/armies/death_guard/README.md) so a future 40K Death Guard track has somewhere to start from.
 
 Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard--40k-sync-note).
@@ -92,6 +93,7 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 
 ## Change Log
 
+- v0.6 (2026-08-21): Cross-game note — assembly/paint game ready from photo ID; Biologus Putrifier ownership noted.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): README reflects Teams PDF datacards + Team_Rule_Guide (`kt24_rules_quotes`).
 - v1.0 (2026-08-17): Full package (slice S5) - replaced the S3 placeholder with the team overview, cross-game note, and index of the six package documents.

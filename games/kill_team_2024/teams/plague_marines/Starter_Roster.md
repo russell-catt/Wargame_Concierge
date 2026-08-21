@@ -1,18 +1,18 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Starter_Roster.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v1.1 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
 
 DOCUMENT_TYPE: Learning Roster
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Draft - roster slots from the living Wahapedia Plague Marines page, retrieved 2026-08-17; ownership tags all pending confirmation.
+REFERENCE_STATUS: Draft - roster slots from Wahapedia / team package; ownership updated from photo ID 2026-08-21.
 
 SOURCES:
   - operatives/Operatives_Index.md (role slots, keywords)
-  - Owned_Models_Inventory.md (ownership - currently all pending check)
+  - Owned_Models_Inventory.md (ownership - photo ID 2026-08-21)
   - games/kill_team_2024/README.md (Kill Team uses operative-count/role-slot selection, not 40K points)
 
 PURPOSE:
@@ -21,8 +21,8 @@ PURPOSE:
   purchase or an assembly state that has not been confirmed.
 
 UPDATE_TRIGGER:
-  Update once Owned_Models_Inventory.md is filled in, or when the owned
-  team-rules PDF is opened and confirms the team's exact selection limits.
+  Update when Heavy Gunner / Bombardier ownership is resolved, or when the
+  owned team-rules PDF confirms exact selection limits.
 -->
 
 # Starter Roster - Plague Marines
@@ -39,22 +39,22 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 
 | Role slot | Operative | Include for a first game? | Ownership |
 |-----------|-----------|----------------------------|-----------|
-| Leader | Plague Marine Champion | **Yes** - every roster wants a leader | `pending check` |
-| Troop / generalist | Plague Marine Warrior | **Yes** - the team's most straightforward operative to learn on | `pending check` |
-| Ranged fire support | Plague Marine Heavy Gunner | **Yes** - area-effect damage against clustered enemies | `pending check` |
-| Melee specialist | Plague Marine Fighter | **Yes** - your answer when an enemy gets in close | `pending check` |
-| Support / objective specialist | Plague Marine Icon Bearer | Optional first game - strong once you are contesting markers under pressure | `pending check` |
-| Grenadier / support | Plague Marine Bombardier | Optional first game - shines more once grenade timing is familiar | `pending check` |
-| Psyker / support caster | Malignant Plaguecaster | Optional first game - two useful actions, but adds a psychic-rules layer to track | `pending check` |
+| Leader | Plague Marine Champion | **Yes** - every roster wants a leader | **Confirmed** — photo ID 2026-08-21 |
+| Troop / generalist | Plague Marine Warrior | **Yes** - the team's most straightforward operative to learn on | **Confirmed** — photo ID 2026-08-21 |
+| Ranged fire support | Plague Marine Heavy Gunner | **Yes** - area-effect damage against clustered enemies | **Not confirmed** — no photo yet |
+| Melee specialist | Plague Marine Fighter | **Yes** - your answer when an enemy gets in close | **Confirmed** — Flail of Corruption |
+| Support / objective specialist | Plague Marine Icon Bearer | Optional first game - strong once you are contesting markers under pressure | **Confirmed** — Icon of Despair |
+| Grenadier / support | Plague Marine Bombardier | Optional first game - shines more once grenade timing is familiar | **Not confirmed** — no photo yet |
+| Psyker / support caster | Malignant Plaguecaster | Optional first game - two useful actions, but adds a psychic-rules layer to track | **Confirmed** — bells staff + psychic effects |
 
-**Suggested first four:** Champion, Warrior, Heavy Gunner, Fighter - one of each broad job (lead, generalist, ranged, melee) without the added psychic-action or Poison-token bookkeeping the other three bring. Add the remaining three once the core loop feels comfortable.
+**Suggested first four (owned):** Champion, Warrior, Fighter, Icon Bearer — lead, generalist, melee, objective support. Swap Icon Bearer for Malignant Plaguecaster if you want to learn the psychic layer early. Heavy Gunner stays on the ideal learning path once ownership is confirmed.
 
 ---
 
 ## Before you play
 
 - [ ] Confirm the team-size limit against the owned team-rules PDF or the Kill Team app - do not assume the suggested four-to-seven split is the legal number.
-- [ ] Fill in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - every ownership tag above is `pending check`, not confirmed.
+- [x] Fill in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - photo ID 2026-08-21 (Heavy Gunner / Bombardier still open).
 - [ ] Read [`Team_Rule_Guide.md`](Team_Rule_Guide.md) for Astartes, Poison, and Disgustingly Resilient before your first activation.
 - [ ] Print [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 - [ ] Set up a killzone - see [`../../setup/killzones/README.md`](../../setup/killzones/README.md); Volkus or the 3e Starter Set are the play-now recommendations for this track.
@@ -72,6 +72,7 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 
 ## Change Log
 
+- v1.1 (2026-08-21): Ownership tags updated from photo ID — five confirmed, Heavy Gunner / Bombardier not confirmed; suggested first four adjusted to owned models.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial starter roster (slice S5) - role-coverage table across all seven operatives, suggested first four, ownership tagged `pending check` throughout since no audit has run.
 
@@ -84,4 +85,4 @@ Since there is no duplicate-filling to worry about, the whole roster question is
 ## Rising Tide Notes
 
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** No ownership or team-size limit has been assumed - both are flagged pending confirmation above.
+- **Verify before you play.** Team-size limit still pending PDF check; ownership photo ID dated **2026-08-21**.
