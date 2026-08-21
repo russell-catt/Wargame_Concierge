@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/Event_Ready.md
-VERSION: v1.0 (2026-08-21)
+VERSION: v1.1 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — learning-event pack-out 2026-08-21)
 
@@ -21,7 +21,7 @@ UPDATE_TRIGGER:
 
 **Status: READY** (2026-08-21)
 
-Learning event pack-out confirmed. Venue supplies terrain unless noted otherwise.
+Learning event pack-out confirmed. Venue may supply main killzone boards; bring your own scatter / equipment baggie.
 
 ---
 
@@ -43,6 +43,12 @@ Learning event pack-out confirmed. Venue supplies terrain unless noted otherwise
 - [x] Kill Team Core Book
 - [x] Approved Ops **2025** card pack
 - [x] Warhammer Chapter Approved mission deck (40K — optional if event is KT-only)
+
+---
+
+## Terrain & equipment
+
+- [x] **Baggie of Volkus scatter terrain** — includes **Universal Equipment** pieces (bring with the kit)
 
 ---
 
@@ -73,6 +79,7 @@ Learning event pack-out confirmed. Venue supplies terrain unless noted otherwise
 ## Related
 
 - [`setup/killzones/volkus_QR.md`](setup/killzones/volkus_QR.md) — Condensed Stronghold callout
+- [`setup/killzones/volkus.md`](setup/killzones/volkus.md)
 - [`teams/plague_marines/Owned_Models_Inventory.md`](teams/plague_marines/Owned_Models_Inventory.md)
 - [`teams/_Owned_Teams_Inventory.md`](teams/_Owned_Teams_Inventory.md)
 - [`README.md`](README.md)
@@ -81,6 +88,7 @@ Learning event pack-out confirmed. Venue supplies terrain unless noted otherwise
 
 ## Change Log
 
+- v1.1 (2026-08-21): Added Volkus scatter baggie (includes Universal Equipment) to pack-out.
 - v1.0 (2026-08-21): Initial learning-event READY checklist from pack-out conversation.
 
 ## Attribution
