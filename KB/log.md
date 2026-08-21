@@ -4,8 +4,8 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
+updated: 2026-08-21
+version: 0.5.3
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -432,3 +432,9 @@ Pages consulted: [[their_number_is_legion_potentiality_syphon_250]], [[reanimati
 Output filed: yes — enhanced [[their_number_is_legion_potentiality_syphon_250]] (heal-first section + Geomancer worked example)
 
 Also updated: [[index]]
+
+## [2026-08-21] ownership | Intercessor Squad (used) — 40K + Angels of Death
+
+Pages updated: shipping Space Marine + Angels of Death inventories, teams ledger, both READMEs
+
+Key additions: Five Primaris Intercessor-family models (used; Black Templars paint; **not** played as BT). KT: Intercessor Sergeant, Assault Intercessor Warrior, Intercessor Warriors ×3. 40K: Intercessor bodies ×4 + Assault Intercessor ×1. Full Angels of Death team still incomplete.
