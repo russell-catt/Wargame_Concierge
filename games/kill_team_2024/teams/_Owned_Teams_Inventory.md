@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v1.5 (2026-08-21)
+VERSION: v1.5.1 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3; slice S4 Canoptek Circle row update; slice S5 Plague Marines row update; slice S6 Angels of Death row update; cloud agent Plague Marines photo ID 2026-08-21)
 
