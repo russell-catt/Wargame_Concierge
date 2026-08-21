@@ -439,3 +439,9 @@ Pages created: shipping `games/kill_team_2024/Event_Ready.md`
 Pages updated: `volkus.md`, `volkus_QR.md`, Patch_Manifest Condensed Stronghold row, KT README, killzones README
 
 Key additions: Condensed Stronghold = Blast/Torrent/x" Devastating also **Lethal 5+** when target wholly within stronghold on floor or fire step (per secondary). Learning-event pack-out marked **READY**.
+
+## [2026-08-21] ownership | Event kit — Volkus scatter + Universal Equipment
+
+Pages updated: shipping `games/kill_team_2024/Event_Ready.md`
+
+Key additions: Pack-out includes baggie of **Volkus scatter terrain** with **Universal Equipment**.
