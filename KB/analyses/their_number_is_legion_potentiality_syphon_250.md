@@ -4,8 +4,8 @@ type: analysis
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-19
-updated: 2026-08-20
-version: 0.2.0
+updated: 2026-08-21
+version: 0.2.1
 sources:
   - "https://www.warhammer-community.com/en-gb/articles/rgqanids/warhammer-40000-july-update-what-you-need-to-know/ (retrieved 2026-08-20)"
   - "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/ (retrieved 2026-08-20)"
@@ -44,6 +44,20 @@ Each time this unit's **Reanimation Protocols** activate (usually at the end of 
 
 ---
 
+## What “heal-first” means
+
+**Heal-first is not a separate named ability.** It is teaching shorthand for **step 1 of how Reanimation Protocols spends its D3 wounds** (see [[reanimation_protocols]] and shipping `Reanimation_Protocols.md`).
+
+When RP activates, you roll a **D3** and spend those wounds **one at a time** in a fixed order:
+
+1. **Heal first** — if any model in the unit is still on the table but missing wounds, put wounds back on those models.
+2. **Then rebuild** — only after every survivor is at full wounds do you return a destroyed model at **1 wound**.
+3. **Stop** when the unit is back to Starting Strength / everyone full.
+
+Chip damage on survivors therefore soaks the roll before bodies stand back up.
+
+---
+
 ## Potentiality Syphon (Cryptek Conclave)
 
 **1CP** Strategic Ploy (`15.01`).
@@ -58,7 +72,7 @@ Each time this unit's **Reanimation Protocols** activate (usually at the end of 
 
 1. Free RP still fires at the **end of your Command phase** (`08.05`) (D3 per eligible unit on the board).
 2. Syphon is a **second** activation in the same battle round, paid with CP (`15.01`), only while the chosen unit is on an objective (`14.02`) during the opponent's **Command phase** (`08.01`).
-3. Spend order is the same as normal RP (heal survivors → return models at 1W → stop at Starting Strength / full). **Wiped units still get nothing.**
+3. Spend order is the same as normal RP (heal-first → return models at 1W → stop at Starting Strength / full). **Wiped units still get nothing.**
 4. Their Number is Legion still applies on this activation (WarCom FAQ pattern above).
 
 ### On the 250 Conclave list
@@ -73,9 +87,14 @@ Each time this unit's **Reanimation Protocols** activate (usually at the end of 
 
 ### Attached characters (resolved)
 
-While attached, Geomancer wounds are part of the unit for **heal-first** (damaged Cryptek can be healed by the unit's RP).
+While the Geomancer is **attached** (`19.01`), he and the Warriors are **one unit** for RP’s spend order. His missing wounds count as “wounded survivors in the unit,” so they are eligible for **heal-first** — a damaged-but-alive Cryptek can be healed by the unit’s RP before any destroyed Warriors return.
 
-**Destroyed CHARACTER models are not returned by ordinary unit heal/RP into the bodyguard** — core heal/regain wording excludes CHARACTER from the “revive a destroyed model into this unit” step (Wahapedia core cross-check; matches shipping attached-unit teaching).
+**Worked example:** 8 Warriors left (all full), Geomancer on **2 of 4 wounds**, you roll **D3 = 2**.
+
+- Both wounds go into **healing the Geomancer** (toward full).
+- **No Warriors return** this activation, because heal-first isn’t finished until every survivor (including him) is full.
+
+**Destroyed CHARACTER models are not returned by ordinary unit heal/RP into the bodyguard** — core heal/regain wording excludes CHARACTER from the “revive a destroyed model into this unit” step (Wahapedia core cross-check; matches shipping attached-unit teaching). Heal-first only helps while the Cryptek is **still alive but damaged**.
 
 **WarCom primary (July 2026 update article):** when a slain character *is* able to revive under a rule that brings them back, they return as a **unit of one**, not rejoined into the Warrior brick. That was called out specifically against “unkillable” Warrior+character blobs. Habit: keep the Cryptek screened; if both brick and Cryptek die, you do not get the whole blob back as one unit.
 
