@@ -40,6 +40,7 @@ This folder may quote WarCom-free Core / local `eng_*` with filename + page + ru
 |------|----------------|
 | [`Board_Setup.md`](Board_Setup.md) | Table size (44" x 60" for events), the fourteen-step pre-game sequence, deployment zones and territory, objective types, strategic reserves, a printable pre-game checklist, and shortcuts for a first game |
 | [`Terrain_Basics.md`](Terrain_Basics.md) | Terrain areas vs terrain features, the three categories (Exposed / Light / Dense), the four visibility rules (Benefit of Cover, Hidden, Obscuring, Solid), terrain and movement, and how much terrain a table actually needs |
+| Learn-to-play print bag | Combined Saturday checklist (KT + 40K): [`../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md`](../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md) — PDFs in `C:\Personal\print_aids\learn_to_play_event\` |
 
 ---
 

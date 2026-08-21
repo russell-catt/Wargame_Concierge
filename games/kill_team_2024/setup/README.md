@@ -39,6 +39,7 @@ Everything that happens before turning point one, plus the terrain rules that ma
 | [`Board_Setup.md`](Board_Setup.md) | What you need, killzone board size (30" x 22" unless stated otherwise), the shape of the game sequence (Setup -> Select Operatives -> Deploy -> Scouting -> Battle -> Score), drop zones and territory, a pre-game checklist, and beginner shortcuts |
 | [`Terrain_Basics.md`](Terrain_Basics.md) | Terrain features as parts, the core terrain types (Heavy, Light, Exposed, Insignificant, Accessible, Blocking, Vantage), Cover vs Obscured, terrain and movement, and how to lay out a killzone that plays well |
 | [`killzones/`](killzones/) | One page per owned kill zone - what it is, ownership status, and how to set it up |
+| [`Learn_to_Play_Print_Bag.md`](Learn_to_Play_Print_Bag.md) | Saturday print checklist (KT son / KT dad / 40K dad) — PDFs in `C:\Personal\print_aids\learn_to_play_event\` |
 
 ---
 

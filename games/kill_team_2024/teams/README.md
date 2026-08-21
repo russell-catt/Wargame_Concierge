@@ -54,7 +54,7 @@ Team PDF paths: [`raw/pointers/kill_team_2024_teams.md`](../../../raw/pointers/k
 
 | [`deathwatch/`](deathwatch/) | Stub | Identity stub |
 
-| [`kommandos/`](kommandos/) | Stub | Identity stub |
+| [`kommandos/`](kommandos/) | Full guide | **learn_to_play_event S1** — full package (Team_Rule_Guide, QR, roster, cards); Volkus playbook S2 |
 
 | [`murderwing/`](murderwing/) | Stub | Identity stub |
 

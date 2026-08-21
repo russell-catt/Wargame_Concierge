@@ -1,34 +1,34 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.7 (2026-08-21)
+VERSION: v0.7.1 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; cloud agent photo ID 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer, learn_to_play_event S3; cloud agent photo ID 2026-08-21)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team - 2024 / 3rd Edition (KT24)
 TEAM: Plague Marines
-REFERENCE_STATUS: Draft - sources read 2026-08-17 (Wahapedia Plague Marines page, Wahapedia core rules page). Owned team-rules PDF not opened this slice.
+REFERENCE_STATUS: Kid-level rewrite; roster and rules aligned to owned Teams PDF; ownership 7/7 photo ID.
 
 SOURCES:
-  - https://wahapedia.ru/kill-team3/kill-teams/plague-marines/ (retrieved 2026-08-17)
-  - https://wahapedia.ru/kill-team3/the-rules/core-rules/ (retrieved 2026-08-17)
-  - games/kill_team_2024/rules/Turn_Structure.md, Key_Concepts.md (shared mechanics)
-  - games/kill_team_2024/teams/plague_marines/Team_Rule_Guide.md (this laminate's source teaching doc)
+  - C:\Personal\Kill Team\kill_team_2024\Teams\eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf (read in place; quoted in Team_Rule_Guide.md)
+  - games/kill_team_2024/teams/plague_marines/Team_Rule_Guide.md
+  - games/kill_team_2024/rules/Turn_Structure.md, Key_Concepts.md (shared steps)
 
 PURPOSE:
-  Table-side laminate. Two printed pages, page break marked with an HTML
-  comment. Everything a Plague Marines beginner needs mid-game and
-  nothing else - no ploy text, no equipment text, no statlines.
+  Table-side laminate for a 12-year-old. Two printed pages. One idea per
+  sentence. Do / don’t. No tournament branching. No ploy full text. No
+  statlines.
 
 PRINT_NOTE:
-  Exactly two pages by design. Do not add sections - replace instead. No
-  shopping content, no lore, no datacard statlines.
+  Exactly two pages. Do not add sections — replace instead.
 
 CHANGE_LOG:
+  - v0.7.1 (2026-08-21): Rebase merge — kid 6-op laminate + 7/7 ownership note.
   - v0.7 (2026-08-21): Full 7/7 ownership; Heavy Gunner (Plague Belcher); KT Starter Set provenance.
   - v0.6.1 (2026-08-21): Bombardier confirmed; ownership now 6/7.
-  - v0.6 (2026-08-21): Ownership snapshot updated from photo ID; suggested first four = owned models.
+  - v0.6 (2026-08-21): Ownership snapshot updated from photo ID.
+  - v0.6.0 (2026-08-21): Slice S3 — 12yo language; legal 6-op snapshot; owned PDF sources.
   - v1.0 (2026-08-17): Initial two-page laminate (slice S5).
 
 ATTRIBUTION:
@@ -37,112 +37,106 @@ ATTRIBUTION:
     paraphrase; no publisher text, ploy text, or statlines reproduced.
 
 RISING_TIDE_NOTES:
-  - Follows Rising Tide documentation standards. The Change Log and
-    Attribution footer is carried here in the header comment so the
-    printed output stays exactly two pages, matching the 40K laminates.
+  - Change Log / Attribution stay in this header so printed pages stay at two.
 
 UPDATE_TRIGGER:
-  Update on any Kill Team app revision, errata, or owned-PDF cross-check
-  that changes a faction rule, a ploy, equipment, or the roster snapshot.
+  Update on Teams PDF / app patch that changes a faction rule or roster size.
 -->
 
-# PLAGUE MARINES - TABLE REFERENCE | Page 1 of 2
+# PLAGUE MARINES — TABLE AID | Page 1 of 2
 
-## YOUR TURNING POINT, IN ORDER
+## Your turning point (do these in order)
 
-| # | Step | Do this |
-|---|------|---------|
-| 1 | **Initiative** | Roll off (after turning point 1). Winner picks who has initiative. Tie-break: whoever did NOT have initiative last turning point decides |
-| 2 | **Ready** | +1 CP each (player WITHOUT initiative gets +2 CP from TP2 on). Flip every friendly operative to ready |
-| 3 | **Gambit** | Alternate playing ONE strategy ploy or passing, starting with initiative player. Ends when both pass in a row |
-| 4 | **Firefight** | Initiative player activates first, then alternate one operative at a time: set order (Conceal/Engage) -> spend AP up to APL -> mark expended |
-| 5 | **Counteract** | If all your operatives are expended but the opponent still has ready ones, one expended ENGAGE operative may perform one free 1AP action (not Guard). Once per operative per turning point |
+1. **Initiative** — Roll off after turning point 1. Winner picks who goes first.
+2. **Ready** — You get Command Points. Flip your operatives to ready.
+3. **Gambit** — Take turns. Play one strategy ploy, or pass. Stop when both pass in a row.
+4. **Firefight** — Activate one operative at a time. Set Conceal or Engage. Spend action points. Mark expended.
+5. **Counteract** — If you are done but they are not, one expended Plague Marine may do one free 1AP action (not Guard).
 
-**Astartes exception:** every Plague Marine can counteract **regardless of order** - Conceal or Engage, it does not matter for this team.
+**Special for you:** a Plague Marine can counteract on **Conceal or Engage**. Order does not block it.
 
 ---
 
-## FACTION RULES - ALWAYS ON, NO COST
+## Three rules you always have
 
-| Rule | Cheat |
-|------|-------|
-| **Astartes** | Each activation: TWO Shoot actions OR TWO Fight actions, never mixed. Two-Shoot requires a bolt pistol / boltgun / psychic weapon in at least one slot; no repeating the same named psychic weapon. Counteract works on ANY order |
-| **Poison** | Poison sources mark a target with a token (non-stacking). Tagged operative takes automatic chip damage on every activation it makes, friend or foe |
-| **Disgustingly Resilient** | Any single attack die inflicting 3+ damage on a friendly Plague Marine gets a roll for a chance to cut 1 off it. Chip damage is unaffected |
-
----
-
-## PLOY CHEAT STRIP (paraphrase - check your PDF/app for exact wording)
-
-**Strategy (Gambit step):** Contagion (debuff near a token or the Icon Bearer) - Lumbering Death (reroll bonus for barely moving / retaliating) - Cloud of Flies (drop an obscuring marker) - Nurglings (APL debuff on a nearby/tagged enemy).
-
-**Firefight:** Virulent Poison (apply a token at range) - Sickening Resilience (make Disgustingly Resilient guaranteed this action) - Poisonous Demise (spread/cash in tokens on death) - Curse of Rot (punish specific die results near a Plague Marine fight/shoot).
-
-**Equipment:** Plague Bells (ignore Injured penalties) - Plague Rounds (Poison on boltguns/pistols) - Blight Grenades (limited-use grenade, Poison) - Poison Vents (activation-triggered aura vs nearby enemies).
+| Rule | What it means |
+|------|----------------|
+| **Astartes** | Each activation: **two Shoots OR two Fights, not mixed.** If you Shoot twice, at least one shot must use a bolt pistol, boltgun, or psychic weapon. Do not use the same psychic ranged weapon twice. |
+| **Poison** | Put a **Poison token** on an enemy when your Poison weapon hurts them. They get hurt when **they** activate (1 damage). One token only — it does not stack. |
+| **Disgustingly Resilient** | When one attack die deals **3+** damage to you, roll a D6. On a 4+, that hit deals 1 less. Small chip damage skips this. |
 
 ---
 
-## SHOOT / FIGHT AT A GLANCE
+## Ploys (names only — check PDF/app for exact text)
 
-**Shoot:** pick weapon + valid target -> roll Atk dice vs Hit -> defender rolls 3 defence dice vs Save (cover swaps one for a free success) -> defender blocks -> unblocked successes deal damage.
+**Strategy (Gambit):** Contagion · Lumbering Death · Cloud of Flies · Nurglings
 
-**Fight:** both sides pick a melee weapon, roll simultaneously -> alternate resolving successes as strike (damage now) or block (cancel one enemy success), attacker first.
+**Firefight:** Virulent Poison · Sickening Resilience · Poisonous Demise · Curse of Rot
+
+**Equipment (pick before the game):** Plague Bells · Plague Rounds · Blight Grenades · Poison Vents
+
+---
+
+## Shoot and Fight (short)
+
+**Shoot:** Pick weapon and target. Roll to hit. They roll defence. Unblocked hits deal damage.
+
+**Fight:** Both roll melee. Take turns: strike (damage) or block (cancel one). Attacker goes first.
 
 <!-- pagebreak -->
 
-# PLAGUE MARINES - TABLE REFERENCE | Page 2 of 2
+# PLAGUE MARINES — TABLE AID | Page 2 of 2
 
-## ROSTER SNAPSHOT - seven named operatives, one of each (no duplicates)
+## Roster snapshot — **6** operatives
 
-**Ownership (photo ID 2026-08-21):** **All seven** confirmed — Kill Team Starter Set, painted.
+**Legal size:** 1 Champion + 5 unique picks = **6**. Each name once.
 
-| Operative | Job in one line |
-|-----------|-------------------|
-| Champion (Leader) | Anchors the roster; heals off tagged enemies taking damage nearby |
-| Warrior (Troop) | Straightforward generalist; upgraded defence dice on top of the shared rule |
-| Heavy Gunner (Ranged) | Area-effect gun - best against clustered or advancing enemies |
-| Fighter (Melee) | Bespoke area-melee action hitting every adjacent operative at once |
-| Icon Bearer (Support) | Counts as higher APL for controlling markers; cheapens Contagion nearby |
-| Bombardier (Grenadier) | Best grenade access and accuracy - shines once grenade timing clicks |
-| Malignant Plaguecaster (Psyker) | Ranged Poison/punish action, plus a heal action for a nearby ally |
+**Ownership (photo ID 2026-08-21):** **All seven** confirmed — Kill Team Starter Set, painted. Leave one home.
 
-**Suggested first four:** Champion, Warrior, Heavy Gunner, Fighter — one lead, one generalist, one ranged, one melee.
+| Operative | Job |
+|-----------|-----|
+| Champion (must take) | Leader; heals off Poisoned enemies nearby |
+| Warrior | Simple all-rounder |
+| Heavy Gunner | Big gun vs groups |
+| Fighter | Strong in close fights |
+| Icon Bearer | Helps hold markers |
+| Bombardier | Best at grenades |
 
----
-
-## DO / DON'T
-
-| | |
-|---|---|
-| **DO** decide Shoot-twice or Fight-twice per activation and commit | **DON'T** plan a mixed Shoot-then-Fight activation - Astartes will not let you |
-| **DO** tag targets early with Poison sources | **DON'T** treat Poison as a big hit - it is a small, repeating tax you cash in on later |
-| **DO** let a stranded Conceal Plague Marine counteract | **DON'T** assume it needs Engage to counteract - this team ignores that rule |
-| **DO** use Disgustingly Resilient as a bonus | **DON'T** walk an operative into open fire counting on the reroll - it is not guaranteed |
-| **DO** check the Icon Bearer's 1" control-range APL bonus before contesting a marker | **DON'T** forget it is a bonus for control purposes only, not a stat change |
+**Optional swap:** leave one pick home and bring the Malignant Plaguecaster instead (Poison / heal).
 
 ---
 
-## KEYWORD MINI-STRIP (paraphrase)
+## Do / Don’t
 
-**Poison** target takes chip damage every time it activates until removed · **Toxic** (on a weapon) hits harder specifically against a target that already carries your token · **Severe** lets you upgrade one success to critical if you have none already · **Ceaseless** re-roll one named die result on your attack dice · **Saturate** target cannot keep a cover save · **Blast X / Torrent X** the shot also hits other operatives within X of the primary/first target · **Piercing X** defender rolls X fewer defence dice.
-
-**1" control range** visible, mutual · **APL** total AP an operative can spend this activation · **Injured** below half starting Wounds: -2" Move, Hit worsens by 1.
-
----
-
-## PRE-GAME CHECKLIST
-
-- [ ] Killzone set up - see [`../../setup/killzones/README.md`](../../setup/killzones/README.md). Volkus or the 3e Starter Set for a first game.
-- [ ] Roster picked from the seven named operatives - confirm the legal count against your team-rules PDF.
-- [ ] Equipment selected before deployment, not mid-game.
-- [ ] Poison-token markers and Cloud of Flies marker on hand.
-
-## END-OF-TURNING-POINT CHECKLIST
-
-- [ ] Did every eligible operative counteract if it could? (Remember: any order, for this team.)
-- [ ] Are any enemy operatives carrying a Poison token you can cash in on next turning point?
-- [ ] Note who has initiative next turning point and who is owed the tie-break.
+| DO | DON’T |
+|----|--------|
+| Pick **two Shoots** or **two Fights** — then stick to it | Mix Shoot and Fight in one activation |
+| Put Poison tokens on early | Expect Poison to be one big hit — it is small and repeats |
+| Let a Conceal Plague Marine counteract | Think you need Engage to counteract |
+| Treat Disgustingly Resilient as a bonus | Walk into open fire counting on the 4+ |
+| Use the Icon Bearer near markers you want | Forget he helps **control**, not Move |
 
 ---
 
-*Verify vs owned team-rules PDF / Kill Team app - patches happen | ownership photo ID complete 2026-08-21 (KT Starter Set 7/7)*
+## Word strip
+
+**Poison** — token on them; they hurt when they activate. **Toxic** — hits harder if they already have your token. **1" control range** — close enough to contest a marker. **APL** — how many action points this activation. **Injured** — under half wounds: slower Move, worse Hit.
+
+---
+
+## Before the game
+
+- [ ] Killzone ready — Volkus: [`../../setup/killzones/volkus.md`](../../setup/killzones/volkus.md)
+- [ ] **6** operatives on the roster
+- [ ] Equipment chosen before deployment
+- [ ] Poison tokens and Cloud of Flies marker ready
+
+## End of turning point
+
+- [ ] Did anyone eligible counteract?
+- [ ] Who still has your Poison token?
+- [ ] Who has initiative next?
+
+---
+
+*Cross-check owned Teams PDF / Kill Team app | ownership photo ID complete 2026-08-21 (KT Starter Set 7/7)*

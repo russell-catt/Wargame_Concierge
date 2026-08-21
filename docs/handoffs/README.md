@@ -15,6 +15,9 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | Nemesis Ops OCR spot-check | [`nemesis_ops_ocr_spotcheck/`](nemesis_ops_ocr_spotcheck/) | Closed - Complete (commits pending) |
 | Flowcharting UML (activity notation + valid-target sheet restyle) | [`flowcharting_uml/`](flowcharting_uml/) | Closed - Complete (this commit) |
 | KT24 doc follow-ups (Letter print, freshness dates, complete cards) | [`kt24_doc_followups/`](kt24_doc_followups/) | Open (parked) |
+| Cursor rules + skills (thin `.cursor/rules` + project skills citing AGENTS.md) | [`cursor_rules_skills/`](cursor_rules_skills/) | Closed - Complete (commits pending) |
+| KB shipping back-fill (OC + Power Matrix from on-disk shipping) | [`kb_shipping_backfill/`](kb_shipping_backfill/) | Closed - Complete (commits pending) |
+| Learn-to-play event (KT Volkus PM+Kommandos + first 40K Conclave) | [`learn_to_play_event/`](learn_to_play_event/) | Closed - Complete (commits pending) |
 
 ## Artifact lifecycle (summary)
 

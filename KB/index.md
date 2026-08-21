@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250]
+updated: 2026-08-21
+version: 0.5.4
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
 ---
@@ -91,8 +91,8 @@ Rules ideas and tactical principles. Location: `KB/concepts/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[objective_control]] | A characteristic on every model's profile representing how strongly it holds ground - and the metric that decides who wins | unverified | 2026-08-16 |
-| [[power_matrix]] | The Canoptek Court detachment rule in 40K 11e: hit re-rolls in controlled territory. **Corrects the L0 Kill Team attribution** | draft | 2026-08-16 |
+| [[objective_control]] | Totals vs presence; terrain-area **14.01**; re-check every phase/turn **14.02**; tie = nobody; Battle-shock zeroes OC **08.03**; not KT 1" control range | verified | 2026-08-20 |
+| [[power_matrix]] | Canoptek Court rule: DZ always; NML/enemy if ≥ half markers; Cryptek/Canoptek two-tier hit re-rolls. **L0 Kill Team correction kept** | draft | 2026-08-20 |
 | [[reanimation_protocols]] | Necron army rule: end of your Command phase, D3 wounds per unit (heal first, then return at 1W); wiped = gone. Back-filled from shipping 2026-08-19 | draft | 2026-08-19 |
 | [[oath_of_moment]] | The Space Marine army rule: nominate one enemy unit per turn and attack it better. Turns target priority into the defining decision | unverified | 2026-08-16 |
 
@@ -115,7 +115,7 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[canoptek_court]] | Canoptek constructs + Power Matrix; Phase 1 shared 245-pt Tomb World force | draft | 2026-08-19 |
+| [[canoptek_court]] | Canoptek constructs + Power Matrix (two-tier from shipping); Phase 1 shared 245-pt Tomb World force | draft | 2026-08-20 |
 | [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 245 Conclave list | draft | 2026-08-19 |
 | [[gladius_task_force]] | The generalist Space Marine detachment named as the son's learning target. **Stub - no source read** | stub | 2026-08-16 |
 
@@ -147,6 +147,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
+| [[40k_core_docs_kb_consistency_2026_08_19]] | Filed query/lint 2026-08-19: shipping Core OK; KB OC/Matrix gaps **closed 2026-08-20** from shipping (`kb_shipping_backfill`) | draft | 2026-08-20 |
 | [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; heal-first explained; OQs closed 2026-08-20 (WarCom primary) | draft | 2026-08-21 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 
@@ -163,6 +164,7 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[kill_team_2024_core_rules]] | Owned KT24 PDF pointers + quote policy; Full-Scan baseline, `eng_*` patches supersede, Jul 25 lite is intro (omission ≠ patch). Targeting subset owner-verified 2026-08-18 (Patch_Manifest + Target_Eligibility) | verified | 2026-08-18 |
+| [[kill_team_kommandos_teams_pdf]] | Path pointer and ingest receipt for the owned Kommandos Teams PDF; shipping quotes under teams/kommandos — no KB datacard dump | draft | 2026-08-21 |
 | [[nemesis_operatives]] | Nemesis Operatives dossier — OCR + vision spot-check 2026-08-17; process/titles verified in shipping; tables stay book-only | draft | 2026-08-17 |
 | [[warcom_nemesis_operatives_free]] | WarCom preview articles surveyed for free Nemesis numeric profiles — none found (2026-08-17) | draft | 2026-08-17 |
 | [[community_kt24_npo_aids]] | Community NPO/KT24 cheat sheets — draft secondary, stale-risk | unverified | 2026-08-17 |

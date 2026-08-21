@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Necrons — Table Reference</title>
+<style>
+@page { size: letter; margin: 0.5in; }
+* { box-sizing: border-box; }
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 9.5pt;
+  line-height: 1.22;
+  color: #111;
+  margin: 0;
+}
+h1 { font-size: 13.5pt; margin: 0 0 0.2em; }
+h2 { font-size: 10.5pt; margin: 0.4em 0 0.15em; border-bottom: 1px solid #333; padding-bottom: 1px; }
+p, ul, ol { margin: 0.15em 0; }
+ul, ol { padding-left: 1.15em; }
+table { width: 100%; border-collapse: collapse; margin: 0.15em 0 0.3em; font-size: 8.5pt; }
+th, td { border: 1px solid #444; padding: 1px 3px; vertical-align: top; text-align: left; }
+th { background: #e8e8e8; }
+.page { page-break-after: always; }
+.page:last-of-type { page-break-after: auto; }
+.footer {
+  font-size: 7.5pt;
+  color: #444;
+  margin-top: 0.35em;
+  border-top: 1px solid #999;
+  padding-top: 0.2em;
+}
+blockquote {
+  margin: 0.25em 0;
+  padding: 0.2em 0.4em;
+  border-left: 3px solid #555;
+  background: #f5f5f5;
+  font-size: 9pt;
+}
+.mini { font-size: 8pt; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <h1>NECRONS — TABLE REFERENCE | Page 1 of 2</h1>
+
+  <h2>Your turn, in order</h2>
+  <table>
+    <thead><tr><th>#</th><th>Phase</th><th>Do this</th></tr></thead>
+    <tbody>
+      <tr><td>0</td><td><strong>Start of turn</strong> (07.02)</td><td>Resolve “start of your turn” triggers</td></tr>
+      <tr><td>1</td><td><strong>Command</strong> (08.01–08.05)</td><td>Both players +1 CP (08.02). Battle-shock (08.03, 01.07). <strong>END OF PHASE: REANIMATE</strong> (08.05)</td></tr>
+      <tr><td>2</td><td><strong>Movement</strong> (09.01–09.03)</td><td>Select <strong>every</strong> unit; give a move type. Reserves arrive. Check coherency (03.03)</td></tr>
+      <tr><td>3</td><td><strong>Shooting</strong> (10.01–10.03)</td><td>Pick unit, shooting type (10.04–10.07), targets (06.01 visibility), resolve attacks (05.01–05.04)</td></tr>
+      <tr><td>4</td><td><strong>Charge</strong> (11.01–11.03)</td><td>Within 12", not engaged, did not Advance / Fall Back. Roll 2D6. Charging unit gets Fights First</td></tr>
+      <tr><td>5</td><td><strong>Fight</strong> (12.01–12.09)</td><td>Pile in 3" (12.02) — fight (12.04, Fights First first) — consolidate 3" (12.07)</td></tr>
+      <tr><td>6</td><td><strong>End of turn</strong></td><td>End-of-turn triggers, score mission VP, fix coherency</td></tr>
+    </tbody>
+  </table>
+  <p class="mini"><strong>Move types:</strong> Remain Stationary (09.04, keeps [HEAVY]) | Normal (09.05, M") | Advance (09.06, M + D6, no charge, [ASSAULT] only) | Fall Back (09.07, no shoot / charge) | Disembark | Ingress from reserves.</p>
+  <p class="mini"><strong>Shooting types:</strong> Normal (10.04) | Assault (10.05, advanced) | Close-quarters (10.06, engaged) | Indirect (10.07, unseen target, big penalty, gives cover 13.08).</p>
+
+  <h2>Army rule — Reanimation Protocols</h2>
+  <blockquote><strong>End of YOUR Command phase</strong> (08.05). Every unit on the battlefield. Roll D3 wounds. Free. <em>(Necron army rule — see faction pack.)</em></blockquote>
+  <p>Spend each reanimated wound in this order:</p>
+  <ol>
+    <li><strong>Heal</strong> one lost wound on a surviving wounded model.</li>
+    <li>Only when all survivors are full: <strong>return one destroyed model with 1 wound</strong>.</li>
+    <li>At Starting Strength and full wounds: nothing further happens.</li>
+  </ol>
+  <table>
+    <thead><tr><th>It does</th><th>It does not</th></tr></thead>
+    <tbody>
+      <tr><td>Fire every one of your turns, for free</td><td>Bring back a <strong>wiped-out</strong> unit — ever</td></tr>
+      <tr><td>Heal before it rebuilds</td><td>Fire on your opponent’s turn</td></tr>
+      <tr><td>Stack with Reanimator / Resurrection Orb (D6) / Macrocytes</td><td>Let you choose which model returns</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Consequence:</strong> keep the last model alive. Stand on the objective. Chip damage against you is wasted damage.</p>
+
+  <h2>Detachment — Canoptek Court: Power Matrix</h2>
+  <p><strong>Which ground is yours</strong> (re-check at the <strong>start of every phase</strong> (07.02)):</p>
+  <table>
+    <thead><tr><th>Region</th><th>In your Matrix when</th></tr></thead>
+    <tbody>
+      <tr><td>Your deployment zone</td><td><strong>Always</strong></td></tr>
+      <tr><td>No Man’s Land</td><td>You control <strong>half or more</strong> of its objective markers (14.02)</td></tr>
+      <tr><td>Enemy deployment zone</td><td>You control <strong>half or more</strong> of its objective markers (14.02)</td></tr>
+    </tbody>
+  </table>
+  <p class="mini"><em>No objective markers in a region = that region is never yours.</em></p>
+  <p><strong>What you get</strong> — <strong>CRYPTEK</strong> and <strong>CANOPTEK</strong> units only:</p>
+  <ul>
+    <li>Anywhere: <strong>re-roll hit rolls of 1</strong>.</li>
+    <li><strong>Wholly within</strong> the Matrix: <strong>re-roll the hit roll</strong> (any miss). One model outside = weaker version.</li>
+  </ul>
+  <p class="mini"><em>Warriors, Immortals and Lychguard get nothing from this rule. They hold ground so the constructs benefit.</em></p>
+  <p><strong>Cryptek Conclave instead?</strong> Each time a <strong>Cryptek unit</strong> shoots in the Shooting phase (10.02), pick one: [ANTI-INFANTRY 3+] [ANTI-MOUNTED 4+] [ASSAULT] [HEAVY] [IGNORES COVER]. Attach the Cryptek (19.01) so the whole squad counts.</p>
+
+  <h2>Combat sequence</h2>
+  <ol>
+    <li><strong>Hit</strong> (05.01) — D6 per attack vs BS (shooting) or WS (melee). Unmodified 1 always fails; unmodified 6 is a critical hit.</li>
+    <li><strong>Wound</strong> (05.02) — D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound.</li>
+    <li><strong>Save</strong> (05.03) — defender rolls: armour save modified by AP, or invulnerable save ignoring AP. Unmodified 1 fails.</li>
+    <li><strong>Damage</strong> (05.04) — each unsaved attack costs D wounds. Excess damage is lost; it does not spill to the next model.</li>
+    <li><strong>Allocation</strong> — defender chooses the order; already-wounded group goes first; <strong>characters cannot be put in front</strong>.</li>
+    <li><strong>Cover in 11e</strong> (13.08) worsens the attacker’s <strong>Ballistic Skill by 1</strong> — it is not a save bonus.</li>
+  </ol>
+
+  <p class="footer">Personal use only. Teaching paraphrase. Warhammer 40,000 is Copyright Games Workshop Limited. Page 1 of 2</p>
+</section>
+
+<section class="page">
+  <h1>NECRONS — TABLE REFERENCE | Page 2 of 2</h1>
+
+  <h2>Starter snapshot — Kill Team: Tomb World force (owned, game-ready)</h2>
+  <table>
+    <thead><tr><th>Unit</th><th>Models</th><th>Pts</th><th>State</th></tr></thead>
+    <tbody>
+      <tr><td>Cryptek Geomancer</td><td>1</td><td><strong>75</strong></td><td><strong>OWNED</strong> — Tomb World, game-ready</td></tr>
+      <tr><td>Necron Warriors</td><td>10</td><td><strong>80</strong></td><td><strong>OWNED</strong> — Tomb World, game-ready</td></tr>
+      <tr><td>Canoptek Tomb Crawlers</td><td>2</td><td><strong>50</strong>*</td><td><strong>OWNED</strong> — Tomb World, game-ready</td></tr>
+      <tr><td>Canoptek Macrocytes</td><td>5</td><td><strong>70</strong>*</td><td><strong>OWNED</strong> — Tomb World, game-ready</td></tr>
+      <tr><td>Canoptek Scarab Swarms</td><td>3 / 6</td><td><strong>40 / 80</strong></td><td><strong>OWNED</strong> (3 ready + 3 sprue — build before play)</td></tr>
+      <tr><td>Necron Warriors (2nd squad)</td><td>10</td><td><strong>80</strong></td><td><strong>OWNED</strong> — sprue, build before play</td></tr>
+      <tr><td>Immortals</td><td>5</td><td><strong>70</strong></td><td><strong>OWNED</strong> — sprue, plus Hierotek assembled Guardians / Despotek</td></tr>
+      <tr><td>Plasmancer (Cryptek, Support)</td><td>1</td><td><strong>55</strong></td><td>Not owned — buy, or Apprentek kitchen-table proxy</td></tr>
+      <tr><td>Technomancer</td><td>1</td><td><strong>80</strong></td><td><strong>OWNED</strong> — Hierotek</td></tr>
+      <tr><td>Canoptek Wraiths</td><td>3</td><td><strong>95</strong></td><td>Not owned</td></tr>
+    </tbody>
+  </table>
+  <p class="mini">*MFM v1.2 correction (2026-08-19): Tomb Crawlers <strong>50</strong>, Macrocytes <strong>70</strong> (older laminate had 85/85).</p>
+  <p><strong>245 pts Conclave (playable tonight):</strong> Geomancer 75 + Warriors 80 + Tomb Crawlers 50 + Scarabs 40 = <strong>245</strong>.</p>
+  <p class="mini"><strong>Hierotek Circle:</strong> Technomancer owned; Apprentek/Despotek are proxies, not extra purchased characters.</p>
+
+  <h2>Do / Don’t</h2>
+  <table>
+    <thead><tr><th>DO</th><th>DON’T</th></tr></thead>
+    <tbody>
+      <tr><td>Stand on the objective and take the hit — you reanimate</td><td>Pull a damaged unit back out of scoring range</td></tr>
+      <tr><td>Protect the <strong>last model</strong> of a unit — one model reanimates, zero never returns</td><td>Let a unit get wiped when a 2" move would have hidden a body</td></tr>
+      <tr><td>Count No Man’s Land objectives at the <strong>start</strong> of each phase (07.02)</td><td>Assume the Matrix from last phase still applies</td></tr>
+      <tr><td>Attach characters during pre-game setup (19.01)</td><td>Plan to attach mid-game — you cannot</td></tr>
+      <tr><td>Consolidate 3" onto an objective when there is nothing to fight (12.07)</td><td>Skip pile-in and consolidation — they are free movement</td></tr>
+      <tr><td>Re-check control at the end of every phase (14.02)</td><td>Count a battle-shocked unit’s OC — it is zero (08.03)</td></tr>
+      <tr><td>Pick one ability per Cryptek unit each Shooting phase (10.02) and say it out loud</td><td>Forget Command phase reanimation (08.05). Put a token on the table</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Keyword mini-strip</h2>
+  <p class="mini">[ASSAULT] fire after advancing · [HEAVY] +1 to hit if unengaged and nothing moved over 3" · [RAPID FIRE X] +X attacks within half range · [LETHAL HITS] critical hit may skip the wound roll (optional) · [SUSTAINED HITS X] critical hit = +X hits · [DEVASTATING WOUNDS] critical wound = mortal wounds equal to Damage · [IGNORES COVER] target gets no cover benefit · [TWIN-LINKED] re-roll the <strong>wound</strong> roll · [ANTI-X N+] wound roll of N+ against keyword X is critical · [BLAST] +1 attack per five models in the target, never against an engaged unit · [CLEAVE X] Blast for melee · [PRECISION] can pick out an attached character · [HAZARDOUS] 1–2 on the hazard die costs a mortal wound · [INDIRECT FIRE] shoot unseen, heavy penalty, gives cover · [MELTA X] +X Damage within half range · [CLOSE-QUARTERS] / [PISTOL] identical — shoot while engaged.</p>
+  <p class="mini"><strong>OC</strong> (14.02) objective control · <strong>InSv</strong> invulnerable save (ignores AP) · <strong>Ld</strong> rolled on 2D6 against a target such as 7+ · <strong>Engagement Range</strong> (03.04) 2" horizontally, 5" vertically · <strong>Coherency</strong> (03.03) within 2" of one model and 9" of all · <strong>Objective marker</strong> 3" horizontally, 5" vertically.</p>
+
+  <h2>Pre-game checklist</h2>
+  <ul class="mini">
+    <li>☐ Terrain on the table <strong>before</strong> deployment. Agree what is Light / Dense / Obscuring.</li>
+    <li>☐ Objective markers placed and counted — note which are in No Man’s Land.</li>
+    <li>☐ Detachment named. Enhancements written down. <strong>Characters attached to squads now.</strong></li>
+    <li>☐ Reserves declared (max 50% of your points).</li>
+    <li>☐ Reanimation token on the table edge.</li>
+  </ul>
+
+  <h2>End-of-turn checklist</h2>
+  <ul class="mini">
+    <li>☐ Score your mission VP.</li>
+    <li>☐ Fix coherency — out-of-coherency units lose models.</li>
+    <li>☐ Note which objectives you hold going into your opponent’s turn.</li>
+    <li>☐ Did you reanimate this turn? If not, it is gone — do not take it later.</li>
+  </ul>
+
+  <p class="footer">Personal use only. Teaching paraphrase. Warhammer 40,000 is Copyright Games Workshop Limited. Verify vs Munitorum / faction pack. Page 2 of 2</p>
+</section>
+
+</body>
+</html>

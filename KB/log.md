@@ -5,7 +5,7 @@ system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
 updated: 2026-08-21
-version: 0.5.3
+version: 0.5.4
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -476,3 +476,15 @@ Key additions: Five Primaris Intercessor-family models (used; Black Templars pai
 Pages updated: Space Marine inventory + README; Angels of Death inventory (explicit KT exclusion)
 
 Key additions: Ultramarines Lieutenant Titus painted and game-ready for **40K**. Owner: **wrong base for Kill Team** — must not fill Angels of Death Captain/leader.
+
+## [2026-08-21] ops | learn_to_play_event L1 - Kommandos source pointer + shipping links
+
+**Track / slice:** `learn_to_play_event` / L1
+
+Pages created: [[kill_team_kommandos_teams_pdf]]
+
+Pages updated: [[index]] (KT sources row + sources list)
+
+Key additions: Pointer-only source page for eng_17-06 Kommandos Teams PDF; shipping playbooks/print bag under games/kill_team_2024 (no datacard dump in KB). Confidence draft until table-tested.
+
+No git commit (user gate / IMP-09).
