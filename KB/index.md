@@ -119,6 +119,8 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 | [[canoptek_court]] | Canoptek constructs + Power Matrix (two-tier from shipping); Phase 1 shared 245-pt Tomb World force | draft | 2026-08-20 |
 | [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 245 Conclave list | draft | 2026-08-19 |
 | [[gladius_task_force]] | The generalist Space Marine detachment named as the son's learning target. **Stub - no source read** | stub | 2026-08-16 |
+| [[first_company_task_force]] | Elite Terminator / veteran detachment; best owned-shelf alternate to Gladius | draft | 2026-08-22 |
+| [[anvil_siege_force]] | Gunline Remain-Stationary detachment; second owned-shelf alternate (Devs + Whirlwind) | draft | 2026-08-22 |
 
 ---
 
@@ -154,6 +156,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 | [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; heal-first explained; OQs closed 2026-08-20 (WarCom primary) | draft | 2026-08-21 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 | [[sm_matched_vs_casual_starters]] | Blood Ravens Gladius Matched vs Casual split; when to use which; Legends fit compromises by points level | draft | 2026-08-22 |
+| [[sm_owned_detachment_fit]] | Beyond Gladius: 1st Company then Anvil fit the owned Terminator / gun shelves; others thin | draft | 2026-08-22 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
 

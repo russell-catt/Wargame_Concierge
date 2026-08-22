@@ -282,6 +282,16 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: Space Marines, Legends
 - See also: [[techmarine]] · [[legends_field_manual_sm_2026_08]]
 
+**1st Company Task Force** - `draft`
+: Elite Codex SM detachment — once-per-battle wound re-rolls into the Oath target (Extremis-level Threat). Best owned-shelf alternate to Gladius. See [[first_company_task_force]].
+- Faction / scope: Space Marines, detachment
+- See also: [[sm_owned_detachment_fit]] · [[gladius_task_force]]
+
+**Anvil Siege Force** - `draft`
+: Gunline Codex SM detachment — ranged weapons gain [HEAVY]; already-Heavy get +1 Wound if Remained Stationary. Second owned-shelf alternate. See [[anvil_siege_force]].
+- Faction / scope: Space Marines, detachment
+- See also: [[sm_owned_detachment_fit]] · [[gladius_task_force]]
+
 ---
 
 ## Other game systems

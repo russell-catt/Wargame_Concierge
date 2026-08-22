@@ -28,7 +28,8 @@ Space Marines make Necron attrition legible by contrast: reasonable durability, 
 ## Army rule and detachment
 
 - **Oath of Moment** — nominate one enemy unit; army attacks it better. See [[oath_of_moment]].
-- **Gladius Task Force** — Combat Doctrines learning detachment. See [[gladius_task_force]].
+- **Gladius Task Force** — Combat Doctrines learning default. See [[gladius_task_force]].
+- **Alternates (owned shelf):** [[first_company_task_force]] (Terminators) · [[anvil_siege_force]] (gunline). Fit analysis: [[sm_owned_detachment_fit]].
 
 ---
 
@@ -68,6 +69,6 @@ Analysis: [[sm_matched_vs_casual_starters]]. Shims at old `Starter_{N}.md` paths
 
 ## Related pages
 
-- [[oath_of_moment]] · [[gladius_task_force]] · [[astartes_servitors]] · [[techmarine]]
-- [[sm_matched_vs_casual_starters]] · [[legends_field_manual_sm_2026_08]]
+- [[oath_of_moment]] · [[gladius_task_force]] · [[first_company_task_force]] · [[anvil_siege_force]] · [[astartes_servitors]] · [[techmarine]]
+- [[sm_matched_vs_casual_starters]] · [[sm_owned_detachment_fit]] · [[legends_field_manual_sm_2026_08]]
 - [[space_marines_unit_index]] · [[glossary]]

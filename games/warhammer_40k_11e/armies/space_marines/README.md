@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.7 (2026-08-22)
+VERSION: v1.8 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — ownership update pass 2026-08-21)
 
@@ -75,7 +75,9 @@ Source of truth: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 | File | Purpose |
 |------|---------|
 | [`Oath_of_Moment.md`](Oath_of_Moment.md) | Army rule |
-| [`Gladius_Task_Force.md`](Gladius_Task_Force.md) | Combat Doctrines |
+| [`Gladius_Task_Force.md`](Gladius_Task_Force.md) | Learning default — Combat Doctrines |
+| [`First_Company_Task_Force.md`](First_Company_Task_Force.md) | Best alternate — Terminators / Extremis-level Threat (`draft`) |
+| [`Anvil_Siege_Force.md`](Anvil_Siege_Force.md) | Second alternate — gunline / Remain Stationary (`draft`) |
 
 ### Play a game (owned Blood Ravens paths)
 
@@ -108,6 +110,7 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 ---
 
 ## Change Log
+- v1.8 (2026-08-22): Index First Company + Anvil teaching guides (owned-shelf alternates to Gladius).
 - v1.7 (2026-08-22): Matched vs Casual dual-path starter index; Legends only on Casual.
 - v1.6 (2026-08-22): Astartes Servitors marked **Legends**; Techmarine matched-play alone.
 - v1.5 (2026-08-21): Note — Tactical bolters may pad Devastators to 10.

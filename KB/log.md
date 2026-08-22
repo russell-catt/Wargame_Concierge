@@ -533,3 +533,11 @@ Issues found: Legends points still draft pending owned PDF glance; space_marines
 
 Fixes applied: faction page rewrite; glossary Warhammer Legends / matched play / Astartes Servitors; index rows; analysis page; inventory→Casual pointers.
 
+## [2026-08-22] ingest | SM 1st Company + Anvil detachment writeups
+
+Pages created: games/.../First_Company_Task_Force.md, Anvil_Siege_Force.md; KB/detachments/first_company_task_force.md, anvil_siege_force.md; KB/analyses/sm_owned_detachment_fit.md
+
+Pages updated: SM README, Gladius related links, KB faction space_marines, glossary, index
+
+Key additions: Teaching guides for top two non-Gladius fits (Terminators / gunline); both confidence draft pending owned PDF glance; Oath vs Anvil +1 Wound stacking flagged.
+
