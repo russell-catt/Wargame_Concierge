@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/adepta_sororitas/README.md
-VERSION: v0.1 (2026-08-22)
+VERSION: v0.2 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (ownership intake — Sisters shelf declared 2026-08-22)
 
@@ -36,7 +36,7 @@ UPDATE_TRIGGER:
 
 | Era | Models | 40K map (draft) | Ready? |
 |-----|--------|-----------------|--------|
-| **Old metal** | Canoness; Battle Sisters Squad; Seraphim Squad | Canoness · Battle Sisters Squad · Seraphim Squad | **No** — unpainted; exact model counts TBD |
+| **Old metal** | Canoness; Battle Sisters Squad (**10**, owner recall); Seraphim Squad (**5**) | Canoness · Battle Sisters Squad · Seraphim Squad | **No** — unpainted; bases TBD |
 | **New (KT / 40K)** | **Celestian Insidiants** Kill Team | Own **11e Adepta Sororitas** datasheet (also KT team) | **No** — unpainted; KT rules PDF owned |
 
 Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
@@ -57,7 +57,7 @@ Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
 ## Open questions (owner)
 
-1. Exact model counts for metal Battle Sisters and Seraphim (5? 10? mixed)?
+1. Exact model counts for metal Battle Sisters and Seraphim — **partially closed:** Seraphim **5**; Battle Sisters **10** (owner recall 2026-08-22; photo audit still open).
 2. Are metal bases still tournament-legal sizes for current datasheets?
 3. Is the full Celestian Insidiants **plastic kit** owned (vs rules PDF only)?
 4. When paint starts — which Order scheme?
@@ -65,6 +65,7 @@ Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 ---
 
 ## Change Log
+- v0.2 (2026-08-22): Metal counts — Seraphim 5; Battle Sisters 10 (owner recall).
 - v0.1 (2026-08-22): Initial ownership stub from owner declaration.
 
 ## Attribution

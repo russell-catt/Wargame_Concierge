@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md
-VERSION: v0.1 (2026-08-22)
+VERSION: v0.2 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (ownership intake 2026-08-22)
 
@@ -24,7 +24,7 @@ UPDATE_TRIGGER:
 
 # Adepta Sororitas — Owned Models Inventory
 
-**As of 2026-08-22.** Owner-declared. **None painted; none game-ready.** Exact metal squad sizes and base sizes are **TBD** until a photo / physical count.
+**As of 2026-08-22.** Owner-declared. **None painted; none game-ready.** Metal counts: Seraphim **5** (confirmed); Battle Sisters **10** (owner recall — not photo-audited). Base sizes still **TBD**.
 
 ---
 
@@ -43,8 +43,8 @@ UPDATE_TRIGGER:
 | Datasheet (draft map) | Qty | Material | Assembly | Paint | Notes |
 |-----------------------|-----|----------|----------|-------|-------|
 | **Canoness** | 1 | Metal | TBD | **Unpainted** | Character. Confirm current Canoness datasheet options vs classic sculpt |
-| **Battle Sisters Squad** | TBD | Metal | TBD | **Unpainted** | Classic Battle Sisters — confirm model count (often 5–10 historically) and whether loadouts still match the living datasheet |
-| **Seraphim Squad** | TBD | Metal | TBD | **Unpainted** | Jump pack Sisters — confirm count and jump-pack base sizes for current Seraphim |
+| **Battle Sisters Squad** | **10** (owner recall) | Metal | TBD | **Unpainted** | Classic Battle Sisters — count from owner **2026-08-22** (not photo-audited). Confirm loadouts vs living datasheet |
+| **Seraphim Squad** | **5** (owner confirmed) | Metal | TBD | **Unpainted** | Jump pack Sisters — **5-sister** classic squad. Confirm jump-pack base sizes for current Seraphim |
 
 **Honesty:** Older metal kits can lag current wargear options and base sizes. Treat as **proxy / friendly** until a Faction Pack line-check and base audit.
 
@@ -73,7 +73,7 @@ UPDATE_TRIGGER:
 
 ## Path to game-ready
 
-1. Confirm **counts** (photo or tray count) for metal Sisters + Seraphim + Insidiants bodies.
+1. Confirm **counts** with a tray/photo pass (Seraphim **5** and Battle Sisters **10** are owner-stated; Insidiants body count still TBD).
 2. Confirm **bases** vs current datasheets.
 3. Paint (any Order scheme).
 4. Then: Faction Pack + MFM pass → optional 250/500 learning list track.
@@ -89,6 +89,7 @@ UPDATE_TRIGGER:
 ---
 
 ## Change Log
+- v0.2 (2026-08-22): Metal counts — Seraphim **5** (confirmed); Battle Sisters **10** (owner recall).
 - v0.1 (2026-08-22): Owner declaration — metal Canoness / Battle Sisters / Seraphim; Celestian Insidiants; all unpainted.
 
 ## Attribution
