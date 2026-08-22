@@ -14,8 +14,8 @@ Research date: 2026-08-16. Includes Firstborn/legacy and chapter_unique tags.
 | Assault Squad | Infantry Firstborn Legends | — | see file | [Assault-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Assault-Squad) | pending | roster | — |
 | Assault Squad with Jump Packs | Infantry Firstborn Legends | — | see file | [Assault-Squad-with-Jump-Packs](https://wahapedia.ru/wh40k11ed/factions/space-marines/Assault-Squad-with-Jump-Packs) | pending | roster | — |
 | Command Squad | Infantry Firstborn Legends | — | see file | [Command-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Command-Squad) | pending | roster | — |
-| Bike Squad | Mounted Firstborn Legends | — | see file | [Bike-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Bike-Squad) | pending | roster | — |
-| Attack Bike Squad | Mounted Firstborn Legends | — | see file | [Attack-Bike-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Attack-Bike-Squad) | pending | roster | — |
+| Bike Squad | Mounted Firstborn Legends | — | Legends FM 80 (3) | [Bike-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Bike-Squad) | Casual starters | roster | — |
+| Attack Bike Squad | Mounted Firstborn Legends | — | Legends FM 55 (1) | [Attack-Bike-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Attack-Bike-Squad) | Casual starters | roster | — |
 | Captain | Character | — | see file | [Captain](https://wahapedia.ru/wh40k11ed/factions/space-marines/Captain) | pending | starter | — |
 | Captain in Terminator Armour | Character | — | see file | [Captain-in-Terminator-Armour](https://wahapedia.ru/wh40k11ed/factions/space-marines/Captain-in-Terminator-Armour) | pending | roster | — |
 | Captain with Jump Pack | Character | — | see file | [Captain-with-Jump-Pack](https://wahapedia.ru/wh40k11ed/factions/space-marines/Captain-with-Jump-Pack) | pending | roster | — |
@@ -25,7 +25,7 @@ Research date: 2026-08-16. Includes Firstborn/legacy and chapter_unique tags.
 | Apothecary | Character | — | see file | [Apothecary](https://wahapedia.ru/wh40k11ed/factions/space-marines/Apothecary) | pending | roster | — |
 | Ancient | Character | — | see file | [Ancient](https://wahapedia.ru/wh40k11ed/factions/space-marines/Ancient) | pending | roster | — |
 | Techmarine | Character | — | see file | [Techmarine](https://wahapedia.ru/wh40k11ed/factions/space-marines/Techmarine) | pending | roster | — |
-| Astartes Servitors | Infantry Legends | — | Legends | [Astartes-Servitors](https://wahapedia.ru/wh40k11ed/factions/space-marines/Astartes-Servitors) | Legends PDF | roster | — |
+| Astartes Servitors | Infantry Legends | — | Legends FM 55 (4) | [Astartes-Servitors](https://wahapedia.ru/wh40k11ed/factions/space-marines/Astartes-Servitors) | Casual starters | roster | — |
 | Company Heroes | Infantry | — | see file | [Company-Heroes](https://wahapedia.ru/wh40k11ed/factions/space-marines/Company-Heroes) | pending | roster | — |
 | Bladeguard Veteran Squad | Infantry | — | see file | [Bladeguard-Veteran-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Bladeguard-Veteran-Squad) | pending | roster | — |
 | Sternguard Veteran Squad | Infantry | — | see file | [Sternguard-Veteran-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Sternguard-Veteran-Squad) | pending | roster | — |
