@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v1.7 (2026-08-21)
+VERSION: v1.8 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slices S3–S6; cloud agent Plague Marines + Intercessor photo ID 2026-08-21)
 
@@ -46,11 +46,11 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 
 | Team | Folder | Priority | Assembly / paint | 40K ruled-in | Base size / dual-legality | Team PDF |
 |------|--------|----------|------------------|--------------|----------------------------|----------|
-| **Angels of Death** | [`angels_of_death/`](angels_of_death/) | **Full guide — S6 complete** | **Partial** — 5 used Intercessors photo ID 2026-08-21 (BT paint, not played as BT); short of full 6-op team | **known** — Intercessor + Assault Intercessor bodies in 40K inventory | 32mm look correct; dual-legal **pending formal check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Angels of Death** | [`angels_of_death/`](angels_of_death/) | **Full guide — S6 complete** | **Expanded** — used BT Intercessor set + Pics `AOD_*` (Captain, Eliminator, Heavy Int, Intercessors confirmed; Grenadier/Assault Sgt provisional) 2026-08-21 | **known** — dual-use into Codex SM 40K inventory | Base classes look right; dual-legal **pending formal check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Canoptek Circle** | [`canoptek_circle/`](canoptek_circle/) | Full guide — **S4 complete** | Game ready — Tomb World box (assembled & painted); **photo ID done 2026-08-17** | Known — Geomancer, Tomb Crawlers, Macrocytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | Base sizes known (Wahapedia); dual-legal vs. 40K faction pack **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Celestian Insidiants** | [`celestian_insidiants/`](celestian_insidiants/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Death Korps** | [`death_korps/`](death_korps/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
-| **Deathwatch** | [`deathwatch/`](deathwatch/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Deathwatch** | [`deathwatch/`](deathwatch/) | Stub | **Assembled / primed** — ~11 veterans photo ID 2026-08-21; paint incomplete | **separate identity** — not Codex SM / Blood Ravens | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Hierotek Circle** | [`hierotek_circle/`](hierotek_circle/) | Stub | **Game ready** — used set, assembled & painted | **known** — Technomancer, Immortals, Despotek (Immortal / Warden proxy), Apprentek (KT-only / Plasmancer proxy), Plasmacytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | KT legal as built. Technomancer 50mm and Immortals/Despotek 32mm likely match 40K. Plasmacytes **25mm KT vs 28mm 40K** — likely not dual-legal until **25–28mm base rings**. Detail: [`hierotek_circle/Owned_Models_Inventory.md`](hierotek_circle/Owned_Models_Inventory.md) | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Kommandos** | [`kommandos/`](kommandos/) | **Full guide — learn_to_play_event S1** | pending check | pending (Orks sync out of scope) | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Murderwing** | [`murderwing/`](murderwing/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
@@ -64,7 +64,8 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 
 ### Cross-game notes (Space Marine teams)
 
-- **Angels of Death** — **photo ID 2026-08-21 (partial).** Five used Primaris Intercessors painted Black Templars (owner will **not** play as BT): Intercessor Sergeant, Assault Intercessor Warrior, Intercessor Warriors ×3 (one with auspex). Still short of a full 6-operative KT team; no Captain / Gunner GL / Heavy / Eliminator / Grenadier in this set. Detail: [`angels_of_death/Owned_Models_Inventory.md`](angels_of_death/Owned_Models_Inventory.md). 40K sync: [`../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md`](../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md).
+- **Angels of Death** — **photo ID expanded 2026-08-21.** Used BT Intercessor set (not played as BT) **plus** Pics specialists: Captain, Eliminator Sniper, Heavy Intercessor Gunner, Intercessor / Assault Warriors confirmed; Grenadier and Assault Sergeant **provisional** (filename vs loadout). Owner: dual-use into **Codex Space Marines** 40K when base-legal. Detail: [`angels_of_death/Owned_Models_Inventory.md`](angels_of_death/Owned_Models_Inventory.md). 40K sync: [`../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md`](../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md).
+- **Deathwatch** — **photo ID 2026-08-21.** ~11 assembled, primed veterans. **Separate rules identity** — not merged into Blood Ravens / Gladius. Detail: [`deathwatch/Owned_Models_Inventory.md`](deathwatch/Owned_Models_Inventory.md).
 
 ### Cross-game notes (Death Guard / Chaos)
 
@@ -106,6 +107,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v1.8 (2026-08-21): Angels of Death expanded Pics ID; Deathwatch ~11 primed veterans + separate-identity lock.
 - v1.7 (2026-08-21): Angels of Death — partial photo ID (5 used Intercessors; BT paint not played as BT).
 - v1.6 (2026-08-21): Plague Marines — full 7/7 photo ID; provenance Kill Team Starter Set; Heavy Gunner (Plague Belcher) confirmed.
 - v1.5.1 (2026-08-21): Plague Marines — Bombardier confirmed (6/7); only Heavy Gunner open.

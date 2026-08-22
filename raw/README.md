@@ -14,5 +14,7 @@
 |------|----------|-------|
 | `Necron_Lists.md` | S2 | Copy after Preflight ownership patch (2026-08-16) |
 | `pointers/` | S2 | Source_Library ingest stubs — see [`reference/Source_Library.md`](../reference/Source_Library.md) |
+| `pointers/40k_pics_ownership.md` | 2026-08-21 | Blood Ravens + AoD + Deathwatch photo paths |
+| `pointers/40k_codexes.md` | 2026-08-21 | Owned SM + Necrons Codex PDFs (paid, no quote) |
 
 Librarian **never writes** under `raw/` (Karpathy layer contract).

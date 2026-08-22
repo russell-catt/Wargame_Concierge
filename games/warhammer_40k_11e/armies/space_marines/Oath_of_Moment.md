@@ -114,7 +114,8 @@ Put a physical token on the oath target. Every Command phase, move it. The rule 
 ## Related pages
 
 - [`Gladius_Task_Force.md`](Gladius_Task_Force.md) - the learning detachment, and how Combat Doctrines stack on top of this rule
-- [`Starter_250.md`](Starter_250.md) - the first list this rule is practised on
+- [`Starter_250.md`](Starter_250.md) · [`Starter_500.md`](Starter_500.md) · [`Starter_750.md`](Starter_750.md) · [`Starter_1000.md`](Starter_1000.md) - owned Blood Ravens learning ladder
+- [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - what is on the shelf
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) - the laminate version
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) - where the Command phase sits
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - the hit, wound, save, damage sequence this rule modifies

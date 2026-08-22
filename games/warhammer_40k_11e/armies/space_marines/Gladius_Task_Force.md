@@ -175,6 +175,8 @@ The Munitorum Field Manual tags every detachment with a number and a mission typ
 - [`Oath_of_Moment.md`](Oath_of_Moment.md) - the army rule that runs underneath this detachment
 - [`Starter_250.md`](Starter_250.md) - the learning list built for these doctrines
 - [`Starter_500.md`](Starter_500.md) - where enhancements start to be worth their points
+- [`Starter_750.md`](Starter_750.md) · [`Starter_1000.md`](Starter_1000.md) - owned Blood Ravens growth path
+- [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - owned Blood Ravens + AoD dual-use source of truth
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) - the laminate version of the doctrine cheat sheet
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) - Advance, Fall Back, and what they normally cost
 - [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md) - detachment, stratagem, enhancement, `[LANCE]`, `[SUSTAINED HITS X]`

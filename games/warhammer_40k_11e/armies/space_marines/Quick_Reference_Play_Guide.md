@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6.0 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -8,13 +8,14 @@ DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
-REFERENCE_STATUS: Active - sources read 2026-08-16 (Core Rules, Space Marines Faction Pack v1.1, MFM Marines v1.2, public 11e references for Gladius stratagems)
+REFERENCE_STATUS: Active - sources read 2026-08-16; starter snapshot synced to owned Blood Ravens paths 2026-08-21
 
 SOURCES:
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2)
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16)
+  - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
 
 PURPOSE:
   Table-side laminate. Two printed pages, page break marked with an HTML
@@ -25,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
+  - v0.6.0 (2026-08-21): Starter snapshot → owned Blood Ravens ladder (250–1000); ownership audited.
   - v1.0 (2026-08-16): Initial two-page laminate (slice S5).
 
 ATTRIBUTION:
@@ -112,27 +114,29 @@ Against that unit, every model in your army with the ability gets:
 
 # SPACE MARINES - TABLE REFERENCE | Page 2 of 2
 
-## STARTER SNAPSHOT - points from MFM Marines v1.2 (2026-08-16)
+## STARTER SNAPSHOT - owned Blood Ravens (MFM Marines v1.2)
 
-**Ownership is `TBD` on every line - the collection has not been audited.**
+**Paint:** Blood Ravens · **Rules:** Codex SM + Gladius. Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md). Chaplain claw = **Storm Shield** in game.
 
 | Unit | Models | Pts | Used in |
 |------|--------|-----|---------|
-| Captain (Leader) | 1 | **80** | 250 A · 500 A/B/C |
-| Lieutenant (Support) | 1 | **45** | 250 B · 500 A |
-| Intercessor Squad | 5 / 10 | **80 / 150** | 250 A/C · 500 A/B |
-| Assault Intercessor Squad | 5 / 10 | **75 / 150** | 250 A/C · 500 A/B |
-| Infernus Squad | 5 / 10 | **85 / 180** | 250 C · 500 A |
-| Hellblaster Squad | 5 / 10 | **110 / 220** | 500 A/B |
-| Tactical Squad | 10 | **140** | 250 B · 500 C |
-| Scout Squad | 5 / 10 | **65 / 120** | 250 B · 500 C |
-| Dreadnought / Ballistus | 1 | **135 / 150** | 500 C / 500 B |
-| Rhino | 1 | **65** | 500 C |
+| Chaplain in Terminator Armour | 1 | **75** | 250 · 500v · 750 · 1000 |
+| Captain (Leader) | 1 | **80** | 250 · 500 · 750 · 1000 |
+| The Honour Vehement | - | **15** | 750 · 1000 |
+| Techmarine | 1 | **55** | 1000 |
+| Tactical Squad | 10 | **140** | all BR paths (Tac1 has flamer) |
+| Devastator Squad | 5 / 10 | **120 / 200** | 500+ (HB / MM / PC / LC / meltagun); **10** by reassigning Tactical bolters |
+| Terminator Squad | 5 | **160** | 250 · 500 · 750×2 · 1000×2 |
+| Whirlwind (1st) | 1 | **175** | 1000 |
 
-**250 A (Primaris):** Captain 80 + Intercessors 80 + Assault Intercessors 75 = **235**.
-**250 B (Firstborn):** Lieutenant 45 + Tactical 140 + Scouts 65 = **250**.
-**500 A:** Captain + Fire Discipline 105 + Lieutenant 45 + Intercessors 80 + Assault Intercessors 75 + Hellblasters 110 + Infernus 85 = **500**.
+**250 BR-1:** Chaplain 75 + Terminators 160 = **235**.
+**250 BR-2:** Captain 80 + Tactical 140 = **220**.
+**500:** Captain 80 + Tactical 140 + Devastators 120 + Terminators 160 = **500**.
+**750:** + Chaplain 75 + 2nd Terminators 160 + Honour Vehement 15 = **750**.
+**1000:** 750 core without HV + Techmarine 55 + Whirlwind 175 + HV 15 = **980**.
+
 **Enhancements:** The Honour Vehement 15 · Adept of the Codex 20 · Artificer Armour 20 · Fire Discipline 25.
+**Legends (friendly only):** Bike Squad · Attack Bike (gunner MM or HB).
 
 ---
 

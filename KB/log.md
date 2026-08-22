@@ -488,3 +488,21 @@ Pages updated: [[index]] (KT sources row + sources list)
 Key additions: Pointer-only source page for eng_17-06 Kommandos Teams PDF; shipping playbooks/print bag under games/kill_team_2024 (no datacard dump in KB). Confidence draft until table-tested.
 
 No git commit (user gate / IMP-09).
+
+## [2026-08-21] ownership | Blood Ravens + AoD dual-use + Deathwatch separate
+
+Pages updated: shipping Space Marine `Owned_Models_Inventory.md`, `Starter_250.md` honesty; Angels of Death inventory; Deathwatch `Owned_Models_Inventory.md` + README; KT `_Owned_Teams_Inventory.md`; `raw/pointers/40k_pics_ownership.md`, `raw/pointers/40k_codexes.md`
+
+Key additions: Blood Ravens Firstborn photo ID (Tacticals 10+8, Devs 5, Terminator squads, Assault Terminators mixed, Captain, Terminator Chaplain, Veteran Sgt, Techmarine+Servitors, Whirlwind, Lt+2 spares); bikes/Attack Bike Legends; Varras non-SM; AoD Pics specialists dual-use Codex SM; Deathwatch ~11 primed separate identity; Codex path pointers (paid, no large quotes, 10e label / rotates).
+
+## [2026-08-21] shipping | Space Marines starters 250-1000 owned BR paths
+
+Pages updated: games/warhammer_40k_11e/armies/space_marines/ — Starter_250, Starter_500, Starter_750 (new), Starter_1000 (new), README, Owned_Models_Inventory
+
+Key additions: Owned Blood Ravens Gladius paths at 250/500/750/1000 from MFM Marines v1.2; Terminator Chaplain claw = Storm Shield in game; Lt with Combi-weapon named; Deathwatch still excluded.
+
+## [2026-08-21] shipping | Space Marines folder consistency pass
+
+Pages updated: README, Quick_Reference_Play_Guide, Starter_250/500/750/1000, Oath_of_Moment, Gladius_Task_Force, Owned_Models_Inventory (re-check section), units/README
+
+Key additions: Synced Tac 10+10 / flamers / Dev weapons / dual-legal AoD / Gravis 40K-only across faction docs; QR starter snapshot replaced unaudited TBD table with owned BR ladder.

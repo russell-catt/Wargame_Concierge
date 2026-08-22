@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.2 (2026-08-21)
+VERSION: v1.5 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-link)
+AUTHOR_OF_NOTES: Cursor (Implementer — ownership update pass 2026-08-21)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -11,40 +11,37 @@ FACTION: Space Marines
 
 SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1, read 2026-08-16)
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, read 2026-08-16)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, read 2026-08-16 / re-checked 2026-08-21)
+  - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16)
 
 PURPOSE:
-  Entry point for the son's Space Marine force. Indexes the army rule guide, the
-  detachment guide, the starter lists, and the laminate play guide.
+  Entry point for the Space Marine force (Blood Ravens paint, Codex SM rules).
 
 UPDATE_TRIGGER:
-  Update when the collection is audited, unit research lands (S6), or a
-  Munitorum Field Manual revision changes costs.
+  Inventory changes, new starter size, or MFM revision.
 -->
 
 # Space Marines - 11th Edition
 
-**Player:** Son
+**Player:** Son (learning) · **Paint:** Blood Ravens (and mixed Primaris cosmetics) · **Rules:** Codex Space Marines
 
-The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines have no trick to learn around: they have good statlines, a strong army rule, and a detachment that removes movement penalties. That makes them an unusually honest army to learn on, because your results come mostly from your decisions.
-
-**Start here:** [`Oath_of_Moment.md`](Oath_of_Moment.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game.
+Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md`](Oath_of_Moment.md), then [`Starter_250.md`](Starter_250.md).
 
 ---
 
 ## Current collection status (2026-08-21)
 
-**Partially audited.** First photo ID: five used Primaris Intercessors (Black Templars paint — **not** played as BT). Rest of the collection still open.
+**Photo-audited.** Blood Ravens Firstborn are painted and game-ready. Primaris AoD dual-use is in progress (some incomplete squads). Deathwatch is a **separate identity**.
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready now** | Intercessor bodies ×4 + Assault Intercessor body ×1 (used set; matched-play squad split still incomplete); **Lieutenant Titus** (Ultramarines; 40K-only — wrong base for KT) |
-| **Owned, build before play** | Unknown (unaudited remainder) |
-| **Not owned** | Unknown |
-| **Chapter (paint / play)** | Paint: Black Templars. Play: **not** Black Templars — generic / agreed Codex Chapter |
+| **Game-ready (Codex SM)** | Tacticals (**10 + 10**; Tac2 reattach one fallen-off body; each has a **flamer**; bolter bodies may **pad Devastators to 10**), Devastators (5: HB / multi-melta / plasma cannon / lascannon / meltagun — or 10 via Tactical loan), Terminator Squads (2×5), Terminator Assault (5, mixed), Firstborn Captain, Terminator Chaplain (claw = **Storm Shield**), Veteran Sergeant, Lieutenant with Combi-weapon + 2 loose Marines, Techmarine + Servitors (Servitor datasheet pending), Whirlwind; Primaris Intercessors / AoD (Intercessors, Heavy Int, Eliminator **dual-legal**); Gravis Captain + relic shield **40K only** |
+| **Legends (friendly only)** | Bike Squad (3); Attack Bike (1 — gunner **MM or HB**) |
+| **Separate identity** | Deathwatch ~11 primed veterans — not Gladius/BR lists |
+| **Chapter (paint / play)** | Blood Ravens paint; **Codex Space Marines** rules. Used Intercessors: BT paint, not played as BT |
 
-[`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) is the source of truth.
+Source of truth: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
 ---
 
@@ -54,57 +51,59 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 
 | File | Purpose |
 |------|---------|
-| [`Oath_of_Moment.md`](Oath_of_Moment.md) | The army rule: when you pick, what it gives you, and the purity condition that switches half of it off |
-| [`Gladius_Task_Force.md`](Gladius_Task_Force.md) | Detachment guide - **Combat Doctrines** taught as three once-per-battle resources and when to spend each |
+| [`Oath_of_Moment.md`](Oath_of_Moment.md) | Army rule |
+| [`Gladius_Task_Force.md`](Gladius_Task_Force.md) | Combat Doctrines |
 
-### Play a game
+### Play a game (owned Blood Ravens paths)
 
 | File | Purpose |
 |------|---------|
-| [`Starter_250.md`](Starter_250.md) | First-game learning list. Three costed paths - Primaris, Firstborn, and no-character - plus older-kit swap notes |
-| [`Starter_500.md`](Starter_500.md) | Provisional expansion of each path, with a purchase table to fill in after the audit |
-| [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, Oath cheat, doctrine cheat, combat sequence, do/don't |
+| [`Starter_250.md`](Starter_250.md) | First game — Terminator+Chaplain or Captain+Tactical |
+| [`Starter_500.md`](Starter_500.md) | Add Devastators + Terminators |
+| [`Starter_750.md`](Starter_750.md) | Double Terminators + Chaplain + Honour Vehement |
+| [`Starter_1000.md`](Starter_1000.md) | Whirlwind + Techmarine capstone |
+| [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | Two-page laminate |
 
 ### Collection and research
 
 | File | Purpose |
 |------|---------|
-| [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) | Physical model checklist - **the blocker**. Includes the Firstborn/Primaris test and the Legends list |
-| [`units/README.md`](units/README.md) | Unit research stub (S6) |
+| [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) | Physical model checklist + Legends + KT sync |
+| [`units/README.md`](units/README.md) | Unit research stubs |
 
 ---
 
 ## Three things worth knowing before the first game
 
-1. **Mixing Chapters has a real cost.** A single Blood Angels, Dark Angels, Deathwatch or Space Wolves unit in the list removes the +1 to Wound from Oath of Moment for the entire battle. Check what the collection actually is before building a list.
-2. **Some older kits are no longer matched-play legal.** Assault Squads, Command Squads, bikes, Scout Snipers and several Land Speeder and Dreadnought variants are **Legends** in the owned faction pack v1.1. They are fine in a friendly game by agreement, but they cannot be costed into a legal list. The full table is in the inventory worksheet.
-3. **Points scale non-linearly.** Several Space Marine datasheets charge more for your second or third copy of the same unit. Never assume two of a thing costs double - check the Munitorum Field Manual.
+1. **Mixing Chapters has a real cost.** Blood Angels, Dark Angels, Deathwatch or Space Wolves units in the list remove Oath +1 to Wound. Keep Deathwatch in its own lane.
+2. **Some older kits are Legends.** Bikes and Attack Bikes are owned but not matched-play costed — see inventory.
+3. **Points scale non-linearly.** Second Whirlwind, later copies of some units — check the Marines MFM.
 
 ---
 
 ## Sources
 
-- Local: [`reference/Source_Library.md`](../../../../reference/Source_Library.md) - Space Marines faction pack and the **separate** Marines Munitorum Field Manual
-- Web: [Wahapedia Space Marines](https://wahapedia.ru/wh40k10ed/factions/space-marines)
-- Shared rules spine: [`../../rules/README.md`](../../rules/README.md) and [`../../setup/README.md`](../../setup/README.md)
-- Companion army: [`../necrons/README.md`](../necrons/README.md) - the other side of the first game
-- Cross-game (Kill Team): [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) now carries a "Kill Team ownership sync" section against the [Angels of Death KT package](../../../kill_team_2024/teams/angels_of_death/README.md) (slice S6) - same Intercessor-family kits, separate rules, dual-legality pending check
+- Local: [`reference/Source_Library.md`](../../../../reference/Source_Library.md) · [`raw/pointers/40k_pics_ownership.md`](../../../../raw/pointers/40k_pics_ownership.md) · [`raw/pointers/40k_codexes.md`](../../../../raw/pointers/40k_codexes.md)
+- Shared rules: [`../../rules/README.md`](../../rules/README.md) · [`../../setup/README.md`](../../setup/README.md)
+- Companion: [`../necrons/README.md`](../necrons/README.md)
+- Kill Team: [Angels of Death](../../../kill_team_2024/teams/angels_of_death/README.md) · [Deathwatch](../../../kill_team_2024/teams/deathwatch/README.md)
 
 ---
 
 ## Change Log
+- v1.5 (2026-08-21): Note — Tactical bolters may pad Devastators to 10.
+- v1.4 (2026-08-21): Collection status synced to inventory v1.5 — Tac 10+10 / flamers; Dev weapons; dual-legal AoD; Gravis Captain 40K-only; Attack Bike MM/HB.
+- v1.3 (2026-08-21): Full Blood Ravens photo-audit status; Starter_750 / Starter_1000 indexed; Chaplain Storm Shield note.
 - v1.2 (2026-08-21): Lieutenant Titus added to game-ready (40K-only).
-- v1.1 (2026-08-21): Collection status — Intercessor photo ID (used set; BT paint not played as BT).
+- v1.1 (2026-08-21): Collection status — Intercessor photo ID.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
-- v2.1 (2026-08-17): Cross-linked the new Kill Team "Angels of Death" ownership sync (slice S6) under Sources.
-- v2.0 (2026-08-16): Indexed the five S5 documents - army rule guide, detachment guide, two starter lists, and the laminate - and rebuilt the inventory worksheet. Recorded the Chapter-mixing cost, the Legends exclusions, and non-linear unit pricing. Collection status remains honestly unknown (slice S5).
+- v2.1 (2026-08-17): Angels of Death cross-link (slice S6).
+- v2.0 (2026-08-16): S5 document index.
 - v1.0 (2026-08-16): Initial faction README stub (slice S2).
 
 ## Attribution
-- Project: Wargame_Concierge
-- Maintainer: Russell Catt
-- Warhammer 40,000 is a trademark of Games Workshop Limited. This document is a personal teaching paraphrase and reproduces no publisher text or statlines.
+- Project: Wargame_Concierge · Maintainer: Russell Catt
+- Warhammer 40,000 is a trademark of Games Workshop Limited. Teaching paraphrase only.
 
 ## Rising Tide Notes
-- This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check anything here against the current Munitorum Field Manual and your faction pack - Games Workshop patches rules and points between publications. Content on this page reflects sources read on **2026-08-16**.
+- **Verify before you play.** Points and Legends from owned Marines MFM / faction pack.
