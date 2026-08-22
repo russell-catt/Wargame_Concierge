@@ -82,6 +82,7 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 | [`setup/README.md`](setup/README.md) | Stub | Board and terrain setup |
 | [`armies/necrons/`](armies/necrons/) | Partial | Parent's Necron force |
 | [`armies/space_marines/`](armies/space_marines/) | Partial | Son's Space Marine force |
+| [`armies/adepta_sororitas/`](armies/adepta_sororitas/) | **Ownership stub only** | Metal Sisters + Celestian Insidiants declared 2026-08-22; **unpainted**; no teaching package yet |
 | [`armies/death_guard/`](armies/death_guard/) | **Cross-link stub only** | Not in 40K teaching scope — pointer for Plague Marines KT miniatures ([`kill_team_2024` track](../../docs/handoffs/kill_team_2024_scaffold/track_in.md)); no army package |
 
 ---

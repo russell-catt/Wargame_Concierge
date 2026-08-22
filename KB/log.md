@@ -556,3 +556,11 @@ Pages consulted: (none in KB — no Sororitas army-construction page); WarCom ar
 Output filed: no
 
 Key answer: Full Codex SM + Codex Adepta Sororitas soup is **not** back in 11e. Modular detachments stay within one Army Faction. Limited Sisters via **Assigned Agents** (Imperial Agents retinue caps) or play Agents as the army; full mixed force only casual/narrative by agreement.
+
+## [2026-08-22] ingest | Adepta Sororitas ownership (metal + Celestian Insidiants)
+
+Pages created: games/warhammer_40k_11e/armies/adepta_sororitas/README.md, Owned_Models_Inventory.md; kill_team_2024/teams/celestian_insidiants/Owned_Models_Inventory.md
+
+Pages updated: celestian_insidiants/README.md, _Owned_Teams_Inventory.md, games/warhammer_40k_11e/README.md
+
+Key additions: Metal Canoness / Battle Sisters / Seraphim + Celestian Insidiants declared owned but **unpainted**. Insidiants confirmed as official **11e Adepta Sororitas** datasheet (not KT-only). Counts/bases TBD. No soup with SM.
