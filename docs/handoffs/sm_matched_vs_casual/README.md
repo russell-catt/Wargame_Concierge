@@ -4,7 +4,7 @@ Duplicate Blood Ravens Gladius starters into **Matched** vs **Casual (Legends)**
 
 | Field | Value |
 |-------|-------|
-| Status | **Open — plan drafted; awaiting user authorization** |
+| Status | **Open — S0–S5 + L0–L2 executed; awaiting PR merge** |
 | Track in | [`track_in.md`](track_in.md) |
 | Shipping | `games/warhammer_40k_11e/armies/space_marines/` |
 | KB | `KB/` (Librarian only) |

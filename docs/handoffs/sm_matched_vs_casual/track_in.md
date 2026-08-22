@@ -7,19 +7,19 @@ AUTHOR_OF_NOTES: Cursor (Coordinator — plan package; execution gated)
 DOCUMENT_TYPE: Track hand-off in
 PROJECT_NAME: Wargame_Concierge
 TRACK: sm_matched_vs_casual
-STATUS: Open — Plan package complete; awaiting user authorization to execute slices
+STATUS: Open — Execution complete on branch; awaiting PR merge / Final Sanity
 -->
 
 # Track in — sm_matched_vs_casual
 
 - **Project:** Wargame_Concierge
 - **Track:** `sm_matched_vs_casual`
-- **Status:** Open — plan package 2026-08-22; **do not execute slices until user authorizes**
+- **Status:** Open — slices S0–S5 + L0–L2 executed 2026-08-22 on `cursor/sm-matched-vs-casual-b7e0`; FS optional on review
 - **Handoffs root:** `docs/handoffs/sm_matched_vs_casual/`
 - **Playbook:** [`docs/operations/multiagent_coordinator_strategy.md`](../../operations/multiagent_coordinator_strategy.md)
 - **Shipping surface:** `games/warhammer_40k_11e/armies/space_marines/`
 - **KB surface:** `KB/` (Librarian only)
-- **Depends on:** Servitors Legends resolution (PR #6 / branch `cursor/servitors-legends-check-b7e0` — merge or include before S3/S4 Casual)
+- **Depends on:** Servitors Legends — **merged into this branch** from `cursor/servitors-legends-check-b7e0`
 
 ## Goals
 
@@ -181,22 +181,32 @@ flowchart TD
 - Coordinator: commit after each slice **Resolved - Complete**; push when user gates.
 - Suggested commit prefixes: `docs(sm):`, `docs(kb):`, `docs(handoffs):`.
 
-## Open questions for user (resolve before S3 Casual)
+## Open questions for user (LOCKED 2026-08-22)
 
-1. At Casual 1000, preferred Legends add-ons: **Servitors + Techmarine**, **Bikes**, **Attack Bike**, or **all that fit** under 1000?
-2. Should Casual lists keep **exact** Matched core and only add Legends in a separate “add-on table,” or rebuild as one combined points table?
-3. Merge PR #6 (Servitors Legends) before starting S0?
+1. Casual 1000 Legends: **all that fit into a cogent fighting force** — Servitors + Bike Squad + Attack Bike (primary drops Whirlwind; artillery variant documented).
+2. Casual format: **one combined points table** (not Matched core + add-on sheet).
+3. Servitors PR #6: **merged into this branch** before S0 (`origin/cursor/servitors-legends-check-b7e0`).
 
-**Suggested defaults if you want zero friction:** (1) all that fit, (2) Matched core + add-on table, (3) yes merge PR #6 first.
+## Entrance attestation (Coordinator)
+
+- [x] User authorized track execution (answers 2026-08-22)
+- [x] Open questions locked (above)
+- [x] Servitors Legends check merged onto working branch
+- [x] Working branch named `cursor/sm-matched-vs-casual-b7e0`
+- [x] Playbook §17–18 constraints restated (Implementer shipping / Librarian KB / no `raw/` writes)
 
 ## Slice rollup
 
 | Slice | Status | Notes |
 |-------|--------|-------|
-| Preflight | Resolved - Implemented | Plan package on branch `cursor/sm-matched-vs-casual-b7e0` |
-| S0–S5 | Pending | Briefs drafted; execution gated |
-| L0–L2 | Pending | Briefs drafted; execution gated |
-| FS | Pending | |
+| Preflight | Resolved - Complete | Plan package + auth |
+| S0 | Resolved - Complete | Matched copies, Casual stubs→filled, shims |
+| S1–S2 | Resolved - Complete | Matched 250–1000 banners + Legends stripped |
+| S3–S4 | Resolved - Complete | Casual combined tables 250–1000 |
+| S5 | Resolved - Complete | README dual-path + inventory pointers |
+| L0–L1 | Resolved - Complete | Source, units, analysis, faction, glossary, index |
+| L2 | Resolved - Complete | Light lint; overview stale ownership fixed |
+| FS | Pending | Optional Final Sanity on PR review |
 
 ## Related
 
@@ -204,4 +214,5 @@ flowchart TD
 - Shipping: [`games/warhammer_40k_11e/armies/space_marines/`](../../../games/warhammer_40k_11e/armies/space_marines/)
 - Inventory: [`Owned_Models_Inventory.md`](../../../games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md)
 - Schema: [`AGENTS.md`](../../../AGENTS.md)
-- Servitors check: PR #6 / `cursor/servitors-legends-check-b7e0`
+- Servitors check: merged from `cursor/servitors-legends-check-b7e0`
+- KB analysis: [`KB/analyses/sm_matched_vs_casual_starters.md`](../../../KB/analyses/sm_matched_vs_casual_starters.md)

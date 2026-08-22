@@ -4,9 +4,9 @@ type: glossary
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250]
+updated: 2026-08-22
+version: 0.5.3
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -266,6 +266,21 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 : The older generation of Space Marine models, as distinct from Primaris. Explicitly in scope for this project because the son's army is built from existing old kits. Whether every such datasheet is still supported in 11th Edition is unknown and matters directly.
 - Faction / scope: Space Marines
 - Verify against: `raw/pointers/faction_pack_space_marines.md`
+
+**Warhammer Legends** - `draft`
+: Official “legacy kit” rules lane: usable in friendly games with opponent agreement, **not** matched-play / Munitorum Field Manual costed. Owned SM examples: Bike Squad, Attack Bike, Astartes Servitors. Points live in the Legends Field Manual ([[legends_field_manual_sm_2026_08]], retrieved 2026-08-22). Shipping: Casual `Starter_*_Casual.md` only.
+- Faction / scope: 40K system-wide; SM examples above
+- See also: [[sm_matched_vs_casual_starters]] · [[astartes_servitors]]
+
+**Matched play** - `draft`
+: Event / tournament legality using current Faction Pack + Munitorum Field Manual lists — **no Legends** units costed. Shipping home: `Starter_*_Matched.md`.
+- Faction / scope: 40K system-wide
+- See also: [[sm_matched_vs_casual_starters]] · **Warhammer Legends** above
+
+**Astartes Servitors** - `draft`
+: Legends infantry unit (4 models). Owned with the Techmarine. Mindlock / Servitor Retinue in friendly games. See [[astartes_servitors]].
+- Faction / scope: Space Marines, Legends
+- See also: [[techmarine]] · [[legends_field_manual_sm_2026_08]]
 
 ---
 

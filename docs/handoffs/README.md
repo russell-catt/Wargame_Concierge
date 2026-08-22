@@ -18,7 +18,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | Cursor rules + skills (thin `.cursor/rules` + project skills citing AGENTS.md) | [`cursor_rules_skills/`](cursor_rules_skills/) | Closed - Complete (commits pending) |
 | KB shipping back-fill (OC + Power Matrix from on-disk shipping) | [`kb_shipping_backfill/`](kb_shipping_backfill/) | Closed - Complete (commits pending) |
 | Learn-to-play event (KT Volkus PM+Kommandos + first 40K Conclave) | [`learn_to_play_event/`](learn_to_play_event/) | Closed - Complete (commits pending) |
-| SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Open — plan drafted; awaiting authorization |
+| SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Open — slices executed on PR; awaiting merge |
 
 ## Artifact lifecycle (summary)
 

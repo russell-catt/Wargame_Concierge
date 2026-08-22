@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.7 (2026-08-22)
+VERSION: v1.8 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — Pics ownership pass 2026-08-21)
 
@@ -46,7 +46,7 @@ Inventory is **photo-audited (2026-08-21)**. Re-open this page when something ne
 
 1. Compare shelf to the tables below.
 2. Update qty / loadout notes.
-3. Refresh the matching [`Starter_*.md`](Starter_250.md) ownership line if points or units change.
+3. Refresh the matching Matched/Casual starter ownership lines if points or units change ([`README.md`](README.md) dual-path index).
 
 ---
 
@@ -148,13 +148,15 @@ Four Servitor bodies travel with the Techmarine photo — see **Owned but Legend
 
 ---
 
-## Owned but Legends (friendly OK)
+## Owned but Legends (friendly OK — Casual starters only)
+
+Cost these only on [`Starter_*_Casual.md`](Starter_1000_Casual.md) lists (combined tables). Matched starters leave them in the case. Points: Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — draft until owned PDF glance: Bike Squad 3 = **80**, Attack Bike 1 = **55**, Astartes Servitors 4 = **55**.
 
 | Datasheet name | Qty | Assembly | Paint | Notes |
 |----------------|-----|----------|-------|-------|
 | **Bike Squad** | 3 bikes | Assembled | Painted | `Bikes` — Sgt power sword; 1 multi-melta bike; 1 twin bolter. **Legends** matched play |
 | **Attack Bike** | 1 | Assembled | Painted | `Bike_with_Gunner` — sidecar gunner **multi-melta or heavy bolter** (swap). **Legends** |
-| **Astartes Servitors** | 4 | Assembled | Painted | With Techmarine photo. **Warhammer Legends** (WarCom Legends: Space Marines PDF, check **2026-08-22**). Not in matched-play MFM SM list. Friendly OK with Techmarine (**Mindlock** / **Servitor Retinue**). Do not cost into Gladius starters |
+| **Astartes Servitors** | 4 | Assembled | Painted | With Techmarine photo. **Warhammer Legends** (WarCom Legends: Space Marines PDF, check **2026-08-22**). Not in matched-play MFM SM list. Friendly OK with Techmarine (**Mindlock** / **Servitor Retinue**). Cost on **Casual** starters only — see [`Starter_750_Casual.md`](Starter_750_Casual.md) / [`Starter_1000_Casual.md`](Starter_1000_Casual.md) |
 
 ---
 
@@ -236,6 +238,7 @@ Detail: [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/te
 ---
 
 ## Change Log
+- v1.8 (2026-08-22): Point Legends units at Casual starters; Legends FM points note (draft, retrieved 2026-08-22).
 - v1.7 (2026-08-22): **Astartes Servitors** → Legends (WarCom Legends PDF + absent from matched-play MFM SM list). Techmarine stays game-ready alone.
 - v1.6 (2026-08-21): Tactical bolter Marines may be reassigned to pad Devastators to 10 (200 pts); no double-count.
 - v1.5 (2026-08-21): Loadout/count honesty — Devs (HB/MM/PC/LC/meltagun); Tac1 flamer; Tac2 flamer + full 10 (1 fallen off); Attack Bike MM/HB swap; AoD dual-legal yes for Intercessors/Heavy Int/Eliminator; Gravis relic-shield Captain **40K only**.
