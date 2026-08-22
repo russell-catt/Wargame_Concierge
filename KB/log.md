@@ -451,3 +451,16 @@ Key additions: **Bombardier confirmed** (stick grenade, bandolier, drum pack); I
 Pages updated: shipping Plague Marines inventory (+ ledger, starter roster, laminate, README, Death Guard stub)
 
 Key additions: **Heavy Gunner confirmed** (Plague Belcher). Full **7/7** KT roster game-ready. Provenance: **Kill Team Starter Set** (owner). Biologus Putrifier remains separate 40K ownership.
+
+## [2026-08-21] fix | Volkus Condensed Stronghold on QR + event READY
+
+Pages created: shipping `games/kill_team_2024/Event_Ready.md`
+Pages updated: `volkus.md`, `volkus_QR.md`, Patch_Manifest Condensed Stronghold row, KT README, killzones README
+
+Key additions: Condensed Stronghold = Blast/Torrent/x" Devastating also **Lethal 5+** when target wholly within stronghold on floor or fire step (per secondary). Learning-event pack-out marked **READY**.
+
+## [2026-08-21] ownership | Event kit — Volkus scatter + Universal Equipment
+
+Pages updated: shipping `games/kill_team_2024/Event_Ready.md`
+
+Key additions: Pack-out includes baggie of **Volkus scatter terrain** with **Universal Equipment**.

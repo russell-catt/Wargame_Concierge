@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/volkus.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; patch sync slice P)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; patch sync slice P; cloud agent Condensed Stronghold Lethal 5+ 2026-08-21)
 
 DOCUMENT_TYPE: Teaching Guide / Killzone Reference
 PROJECT_NAME: Wargame_Concierge
@@ -47,10 +47,13 @@ The board is a standard **30" x 22"** double-sided killzone board (see [`../Boar
 - **Strongholds are the signature feature.** Their upper level(s) are **Ceiling and Vantage**.
 - **Cityfight adds Volkus-only rules** that do **not** belong on the core valid-target tree ([`../../rules/Target_Eligibility.md`](../../rules/Target_Eligibility.md)):
   - **Door Fight:** in the Select Enemy Operative step, pick an enemy on the **killzone floor**, within **2"** of, and on the **other side of**, a door the active operative is **touching**.
-  - **Condensed Stronghold** (update log): the stronghold weapon interaction cares whether the target is **wholly within** a stronghold and on the **killzone floor or a fire step**.
+  - **Condensed Stronghold:** when shooting with a weapon that has **Blast**, **Torrent**, and/or **x" Devastating** (Devastating with a distance), that weapon also has **Lethal 5+** if **the target** is **wholly within** a stronghold and on the **killzone floor or a fire step**. Apply per target — a primary inside does **not** give Lethal to a secondary outside the stronghold.
+  - **Garrisoned Stronghold:** when an operative wholly within a stronghold is **retaliating** against an operative that is not, the **defender resolves first** (overrides normal fight order).
   - Being on a **fire step** does **not** let you ignore the rest of the stronghold for **obscured**.
 - **Doors and windows matter for line of sight.** A large ruin's **upper level is Ceiling and Vantage**; its **door is Accessible and Heavy**. For **1" control range**, ignore that door when determining visibility — but ignoring the door for 1" control range does **not** let you Shoot a target that is not actually **visible**.
 - **Stronghold extra parts** (update log; confirm against your terrain sheet): barrels on Stronghold A are Blocking and Heavy; small broken ramparts on Stronghold A's Vantage edge are Insignificant and Exposed; the gap on Stronghold B's lower Vantage is Accessible; Stronghold B's highest roof is one friendly operative at a time, placed to one side (treat-as-there for 1" control range, visibility, and distance if the base will not fit).
+
+Table aid: [`volkus_QR.md`](volkus_QR.md).
 
 For the shared vocabulary (Heavy, Light, Vantage, Cover, Obscured) see [`../Terrain_Basics.md`](../Terrain_Basics.md).
 
@@ -91,6 +94,7 @@ For the shared vocabulary (Heavy, Light, Vantage, Cover, Obscured) see [`../Terr
 ---
 
 ## Change Log
+- v1.2 (2026-08-21): Condensed Stronghold spelled out as **Lethal 5+** for Blast / Torrent / x" Devastating (per-target); Garrisoned Stronghold added; QR cross-link.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-18): Slice P — Door Fight, Large ruin Ceiling+Vantage / door 1" control range, Stronghold parts, Condensed Stronghold, fire step does not ignore stronghold for obscured, door 1" control range ≠ Shoot if not visible.
 - v1.0 (2026-08-17): Initial killzone page (slice S2), cross-checked against Wahapedia KT3 Killzones and the Warhammer Community Brutal and Cunning preview, both read 2026-08-17.

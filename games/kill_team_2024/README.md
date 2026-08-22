@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.7 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S0)
 
@@ -63,11 +63,12 @@ Rules for Kill Team and Warhammer 40,000 stay **separate**. Owned KT miniatures 
 
 1. **Sources** — [`reference/Source_Library.md`](../../reference/Source_Library.md) and [`raw/pointers/`](../../raw/pointers/) (KT24 paths under `C:\Personal\Kill Team\kill_team_2024`).
 2. **Rules spine** — `rules/` (Overview, turn structure, key concepts, glossary, [target-eligibility quotes](rules/Target_Eligibility.md), [cheat sheet](rules/Target_Eligibility_Cheat_Sheet.html), [patch manifest](rules/Patch_Manifest.md)). Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro only.
-3. **Setup + kill zones** — `setup/` and `setup/killzones/` (S2). Prefer **Volkus** or **3e Starter** for first games.
+3. **Setup + kill zones** — `setup/` and `setup/killzones/` (S2). Prefer **Volkus** or **3e Starter** for first games. Table aids: [`volkus_QR.md`](setup/killzones/volkus_QR.md), [`starter_set_3e_QR.md`](setup/killzones/starter_set_3e_QR.md).
 4. **Critical Ops** — `critical_ops/` for how owned decks plug in.
 5. **Joint Ops** — `joint_ops/` for NPO catalog, cheat sheet, and owned-terrain scenarios (S9).
 6. **Nemesis Operatives** — `nemesis_ops/` for Custom Builder, modes, and WarCom free stats (S0 stubs; fill S2).
 7. **Teams** — `teams/` inventory + priority packages (S3–S6).
+8. **Event pack-out** — [`Event_Ready.md`](Event_Ready.md) (**READY** 2026-08-21).
 
 ---
 
@@ -81,6 +82,7 @@ Rules for Kill Team and Warhammer 40,000 stay **separate**. Owned KT miniatures 
 | [`joint_ops/`](joint_ops/) | Complete (S9) | Father–son Joint Ops / NPO aids |
 | [`nemesis_ops/`](nemesis_ops/) | Stub (S0) | Nemesis Operatives dossier teaching (Custom Builder, modes, WarCom stats) |
 | [`teams/`](teams/) | Inventory populated (S3) | Owned teams inventory + team packages |
+| [`Event_Ready.md`](Event_Ready.md) | **READY 2026-08-21** | Learning-event go-bag checklist |
 
 ---
 
@@ -97,6 +99,7 @@ Specific thanks to these users for guides used as **layout inspiration** in this
 ---
 
 ## Change Log
+- v0.7 (2026-08-21): Event_Ready checklist (READY); Volkus QR Condensed Stronghold Lethal 5+ callout linked.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.6 (2026-08-18): Slice P — Patch_Manifest; targeting quotes owner-verified vs Full-Scan + Jun 17 update log + Jul 25 lite.
 - v0.5 (2026-08-17): KT24 verbatim-quote policy, community thanks, target-eligibility corpus + cheat sheet, Canoptek/Plague datacards (`kt24_rules_quotes` track).
