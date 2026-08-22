@@ -5,7 +5,7 @@ system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
 updated: 2026-08-22
-version: 0.6.0
+version: 0.6.1
 sources: [source_library, local_library_pointers, games/warhammer_40k_11e/armies/space_marines/README.md, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md, legends_field_manual_sm_2026_08]
 confidence: draft
 tags: [faction, space_marines, blood_ravens, gladius, secondary, opposing_force]
