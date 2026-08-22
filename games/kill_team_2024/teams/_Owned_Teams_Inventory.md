@@ -111,6 +111,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v1.9 (2026-08-22): Celestian Insidiants — owned unpainted; 40K Adepta Sororitas datasheet linked; metal Sisters declared on 40K inventory.
 - v1.8 (2026-08-21): Angels of Death expanded Pics ID; Deathwatch ~11 primed veterans + separate-identity lock.
 - v1.7 (2026-08-21): Angels of Death — partial photo ID (5 used Intercessors; BT paint not played as BT).
 - v1.6 (2026-08-21): Plague Marines — full 7/7 photo ID; provenance Kill Team Starter Set; Heavy Gunner (Plague Belcher) confirmed.
