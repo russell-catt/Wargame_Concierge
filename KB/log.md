@@ -548,3 +548,11 @@ Pages consulted: Owned_Models_Inventory, AoD inventory, Starter Matched points (
 Output filed: no
 
 Key answer: Fieldable legal shelf ≈ **1785** pts (Codex SM + Legends + one Intercessor Squad); **~1875** if Captain Titus allowed (UM Epic Hero caveat). Incomplete Assault Int / Heavy Int / Eliminator not costed. Deathwatch excluded.
+
+## [2026-08-22] query | SM + Sisters “brothers and sisters” soup in 11e
+
+Pages consulted: (none in KB — no Sororitas army-construction page); WarCom army-building article (soup not returning); Imperial Agents Assigned Agents (11e Faction Pack summary via living refs, retrieved 2026-08-22)
+
+Output filed: no
+
+Key answer: Full Codex SM + Codex Adepta Sororitas soup is **not** back in 11e. Modular detachments stay within one Army Faction. Limited Sisters via **Assigned Agents** (Imperial Agents retinue caps) or play Agents as the army; full mixed force only casual/narrative by agreement.
