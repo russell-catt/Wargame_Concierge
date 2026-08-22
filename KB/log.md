@@ -4,8 +4,8 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-21
-version: 0.5.4
+updated: 2026-08-22
+version: 0.5.5
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -506,3 +506,30 @@ Key additions: Owned Blood Ravens Gladius paths at 250/500/750/1000 from MFM Mar
 Pages updated: README, Quick_Reference_Play_Guide, Starter_250/500/750/1000, Oath_of_Moment, Gladius_Task_Force, Owned_Models_Inventory (re-check section), units/README
 
 Key additions: Synced Tac 10+10 / flamers / Dev weapons / dual-legal AoD / Gravis 40K-only across faction docs; QR starter snapshot replaced unaudited TBD table with owned BR ladder.
+
+## [2026-08-22] query | Astartes Servitors datasheet check (1000 list)
+
+Pages consulted: shipping Starter_1000, Owned_Models_Inventory; WarCom Legends Space Marines PDF (ASTARTES SERVITORS WARHAMMER LEGENDS); Munitorum Field Manual Space Marines matched-play list (no Servitors entry); Wahapedia Astartes-Servitors page (draft cross-check)
+
+Output filed: yes — updated Starter_1000, inventory, README, Unit_Index
+
+Key resolutions:
+- Datasheet name: **Astartes Servitors** (4 models — owned count matches)
+- **Warhammer Legends** — not matched-play; do not cost into Gladius 1000
+- Techmarine remains matched-play (MFM 55); field alone on the 1000 list
+- Friendly: Mindlock / Servitor Retinue with Techmarine OK by agreement
+
+## [2026-08-22] ingest | SM Matched vs Casual starters + Legends FM
+
+Pages created: KB/sources/legends_field_manual_sm_2026_08.md, KB/units/astartes_servitors.md, KB/units/techmarine.md, KB/analyses/sm_matched_vs_casual_starters.md; shipping Starter_*_Matched.md, Starter_*_Casual.md, Starter_N shims
+
+Pages updated: KB/factions/space_marines.md, KB/glossary.md, KB/index.md, KB/overview.md; shipping README, Owned_Models_Inventory; docs/handoffs/sm_matched_vs_casual/*
+
+Key additions: Dual-path Blood Ravens Gladius lists (Matched no Legends / Casual combined tables with Servitors+Bikes+Attack Bike); Legends FM points draft retrieved 2026-08-22; Servitors PR #6 merged into track branch.
+
+## [2026-08-22] lint | sm_matched_vs_casual L2 (light)
+
+Issues found: Legends points still draft pending owned PDF glance; space_marines faction was stale stub (fixed to draft); Matched/Casual banners required on all list files.
+
+Fixes applied: faction page rewrite; glossary Warhammer Legends / matched play / Astartes Servitors; index rows; analysis page; inventory→Casual pointers.
+

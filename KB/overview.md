@@ -4,9 +4,9 @@ type: overview
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols]
+updated: 2026-08-22
+version: 0.5.3
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols, legends_field_manual_sm_2026_08, sm_matched_vs_casual_starters]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
 ---
@@ -42,6 +42,8 @@ The edition is **new**, which shapes how this KB is written:
 - Living references (Warhammer Community, Wahapedia) move under us, so every rules claim records a **retrieval date**
 
 **Audience:** a beginner learning the game. Content should teach the reasoning behind a rule or a play, not just state it.
+
+**Space Marines (2026-08-22):** Blood Ravens Gladius shipping lists are split into **Matched** vs **Casual (Legends)** twins — see [[sm_matched_vs_casual_starters]] and [[space_marines]]. Do not cost Bike Squad, Attack Bike, or Astartes Servitors into matched play.
 
 ---
 
@@ -96,9 +98,9 @@ Two detachment paths are costed from this collection - [[canoptek_court]] and [[
 
 ### Space Marines - secondary
 
-The comparison and opponent army, played by the owner's son. Used to teach contrast: a straightforward, forgiving faction set against the Necrons' resilience mechanics, with [[gladius_task_force]] as the target detachment. Built from **existing older kits**, so legacy and Firstborn datasheets stay in scope.
+The comparison and opponent army, played by the owner's son. Used to teach contrast: a straightforward, forgiving faction set against the Necrons' resilience mechanics, with [[gladius_task_force]] as the target detachment. **Blood Ravens paint; Codex Space Marines rules.** Built from **existing older kits**, so Firstborn and Legends stay in scope.
 
-**No ownership inventory recorded yet** - the worksheet exists and is empty. See [[space_marines]]. This is the largest single unknown on that side, and it gates any S5 content: a starter list cannot be written for an uncatalogued collection.
+**Ownership photo-audited 2026-08-21** — see shipping inventory and [[space_marines]]. Gladius starters exist at 250–1000 as **Matched** vs **Casual** twins ([[sm_matched_vs_casual_starters]]). Legends (bikes, Attack Bike, Astartes Servitors) cost on Casual only.
 
 ---
 
@@ -121,7 +123,7 @@ The KB was bootstrapped in slice **L0** and took its first real ingest in **L1**
 
 So the shape of the gap has changed - twice. At L1 it was no longer "we do not have sources" but **"we have not read the sources we have."** That second gap has since closed on the shipping side: S3 read the core rules and setup, S4 and S5 read both faction packs and Munitorum Field Manual v1.2 for the faction starters, and S6 enumerated both unit rosters.
 
-**The gap now is a partial back-fill gap.** Shipping under `games/` is still ahead on many topics, but **2026-08-19** closed the worst asymmetry for Necrons: [[reanimation_protocols]] is now `draft` from the shipping guide; [[cryptek_conclave]] / [[necrons]] / [[canoptek_court]] use the **245**-pt Phase 1 list; [[their_number_is_legion_potentiality_syphon_250]] and [[necron_warriors]] are filed. Remaining: Power Matrix wording in KB, Space Marine ownership, 40K core/setup KB back-fill, more unit pages.
+**The gap now is a partial back-fill gap.** Shipping under `games/` is still ahead on many topics, but **2026-08-19** closed the worst asymmetry for Necrons: [[reanimation_protocols]] is now `draft` from the shipping guide; [[cryptek_conclave]] / [[necrons]] / [[canoptek_court]] use the **245**-pt Phase 1 list; [[their_number_is_legion_potentiality_syphon_250]] and [[necron_warriors]] are filed. **2026-08-22** filed SM Matched/Casual dual-path + Legends source ([[sm_matched_vs_casual_starters]]). Remaining: Power Matrix wording in KB, deeper SM unit/detachment back-fill, 40K core/setup KB pages.
 
 ---
 
@@ -163,7 +165,7 @@ The lesson is the mirror image of the Power Matrix one. A loud flag made that er
 - Dual-legality of Hierotek Plasmacytes (KT 25mm vs legacy 40K Plasmacyte 28mm) vs the faction pack. **To-do: purchase 25–28mm base rings.**
 - What does Power Matrix actually *say* in 11th Edition? The name is settled; the wording is not.
 - Which Necron detachment best suits a beginner with this specific model pool? [[cryptek_conclave]] is the current hypothesis, now resting on owned models **and** a shipping 245-pt list.
-- What Space Marine ownership exists? The worksheet is empty and this gates all S5 content.
+- What Space Marine ownership exists? **Closed 2026-08-21/22** — inventory + Matched/Casual starters; remaining: Legends FM owned-PDF glance, Enginseer name edge case.
 - What is the target game size for early games (Combat Patrol, Incursion, Strike Force)?
 - Prefer Wahapedia `wh40k11ed` paths; `wh40k10ed` remains edition-risk — see [[wahapedia]].
 - Has a dataslate superseded the owned PDFs? Nothing records when they were downloaded, so this is currently unanswerable.

@@ -21,6 +21,7 @@ Use this document when a task is too large for one agent session, needs independ
 | v1 scaffold — 40K 11e beginner content + Karpathy KB | [docs/handoffs/v1_scaffold/](../handoffs/v1_scaffold/) |
 | Tomb World ownership sync | [docs/handoffs/tomb_world_ownership/](../handoffs/tomb_world_ownership/) |
 | Kill Team 2024 scaffold + later KT tracks | [docs/handoffs/README.md](../handoffs/README.md) (index; slice files frozen) |
+| SM Matched vs Casual (Legends) + Librarian pass | [docs/handoffs/sm_matched_vs_casual/](../handoffs/sm_matched_vs_casual/) |
 
 **Wargame_Concierge note (v0.5.0, 2026-08-18):** Kill Team 2024 is the second onboarded system. Coordinator remains the sole git owner except when the user explicitly gates a commit+push. Do not rewrite Sec 17–18. Twenty-six inherited dead links from the `daily_report` copy stay a known issue.
 

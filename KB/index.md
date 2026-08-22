@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-21
-version: 0.5.4
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf]
+updated: 2026-08-22
+version: 0.5.5
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024]
 ---
@@ -64,6 +64,7 @@ One page per ingested source. Location: `KB/sources/`.
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
 | [[wahapedia]] | Community aggregator — unit/stat when WarCom lacks profiles; Legion/Syphon + list fills retrieved 2026-08-19 | draft | 2026-08-19 |
 | [[warhammer_community]] | GW FAQs, errata, dataslates — surveyed 2026-08-20 for Legion / Syphon / character revive | draft | 2026-08-20 |
+| [[legends_field_manual_sm_2026_08]] | WarCom Legends Field Manual SM points (Servitors / Bike / Attack Bike) retrieved 2026-08-22 for Casual starters | draft | 2026-08-22 |
 
 ---
 
@@ -105,7 +106,7 @@ One page per army. Location: `KB/factions/`.
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[necrons]] | Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 245 pts (MFM v1.2) | draft | 2026-08-19 |
-| [[space_marines]] | The opposing army, played by the son: straightforward and forgiving, built from existing older kits, used to teach contrast | stub | 2026-08-16 |
+| [[space_marines]] | Blood Ravens Codex SM Gladius force; Matched vs Casual starter split; owned Legends on Casual only | draft | 2026-08-22 |
 
 ---
 
@@ -128,6 +129,8 @@ One page per datasheet, written in play terms. Location: `KB/units/`.
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[necron_warriors]] | Battleline brick; Their Number is Legion re-rolls RP D3; owned 10+10 | draft | 2026-08-19 |
+| [[techmarine]] | Owned Firstborn Techmarine; matched-legal alone; unlocks Servitors on Casual lists | draft | 2026-08-22 |
+| [[astartes_servitors]] | Legends infantry ×4 with Techmarine; Casual Gladius only; Mindlock / Servitor Retinue | draft | 2026-08-22 |
 
 Pointer to the full research corpus: [[necrons_unit_index]].
 
@@ -150,6 +153,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 | [[40k_core_docs_kb_consistency_2026_08_19]] | Filed query/lint 2026-08-19: shipping Core OK; KB OC/Matrix gaps **closed 2026-08-20** from shipping (`kb_shipping_backfill`) | draft | 2026-08-20 |
 | [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; heal-first explained; OQs closed 2026-08-20 (WarCom primary) | draft | 2026-08-21 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
+| [[sm_matched_vs_casual_starters]] | Blood Ravens Gladius Matched vs Casual split; when to use which; Legends fit compromises by points level | draft | 2026-08-22 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
 
