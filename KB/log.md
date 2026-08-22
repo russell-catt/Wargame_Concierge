@@ -506,3 +506,15 @@ Key additions: Owned Blood Ravens Gladius paths at 250/500/750/1000 from MFM Mar
 Pages updated: README, Quick_Reference_Play_Guide, Starter_250/500/750/1000, Oath_of_Moment, Gladius_Task_Force, Owned_Models_Inventory (re-check section), units/README
 
 Key additions: Synced Tac 10+10 / flamers / Dev weapons / dual-legal AoD / Gravis 40K-only across faction docs; QR starter snapshot replaced unaudited TBD table with owned BR ladder.
+
+## [2026-08-22] query | Astartes Servitors datasheet check (1000 list)
+
+Pages consulted: shipping Starter_1000, Owned_Models_Inventory; WarCom Legends Space Marines PDF (ASTARTES SERVITORS WARHAMMER LEGENDS); Munitorum Field Manual Space Marines matched-play list (no Servitors entry); Wahapedia Astartes-Servitors page (draft cross-check)
+
+Output filed: yes — updated Starter_1000, inventory, README, Unit_Index
+
+Key resolutions:
+- Datasheet name: **Astartes Servitors** (4 models — owned count matches)
+- **Warhammer Legends** — not matched-play; do not cost into Gladius 1000
+- Techmarine remains matched-play (MFM 55); field alone on the 1000 list
+- Friendly: Mindlock / Servitor Retinue with Techmarine OK by agreement
