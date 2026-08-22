@@ -25,6 +25,7 @@ Research date: 2026-08-16. Includes Firstborn/legacy and chapter_unique tags.
 | Apothecary | Character | — | see file | [Apothecary](https://wahapedia.ru/wh40k11ed/factions/space-marines/Apothecary) | pending | roster | — |
 | Ancient | Character | — | see file | [Ancient](https://wahapedia.ru/wh40k11ed/factions/space-marines/Ancient) | pending | roster | — |
 | Techmarine | Character | — | see file | [Techmarine](https://wahapedia.ru/wh40k11ed/factions/space-marines/Techmarine) | pending | roster | — |
+| Astartes Servitors | Infantry Legends | — | Legends | [Astartes-Servitors](https://wahapedia.ru/wh40k11ed/factions/space-marines/Astartes-Servitors) | Legends PDF | roster | — |
 | Company Heroes | Infantry | — | see file | [Company-Heroes](https://wahapedia.ru/wh40k11ed/factions/space-marines/Company-Heroes) | pending | roster | — |
 | Bladeguard Veteran Squad | Infantry | — | see file | [Bladeguard-Veteran-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Bladeguard-Veteran-Squad) | pending | roster | — |
 | Sternguard Veteran Squad | Infantry | — | see file | [Sternguard-Veteran-Squad](https://wahapedia.ru/wh40k11ed/factions/space-marines/Sternguard-Veteran-Squad) | pending | roster | — |
