@@ -1,36 +1,56 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; cloud agent photo ID 2026-08-21)
 
-DOCUMENT_TYPE: Inventory / Worksheet Template
+DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
 TEAM: Angels of Death
-REFERENCE_STATUS: Worksheet — unfilled. Operative list from the living Wahapedia Angel of Death page, retrieved 2026-08-17.
+REFERENCE_STATUS: Active — partial photo ID 2026-08-21 (used Intercessors + Titus 40K-only note). Binaries stay outside git.
 
 SOURCES:
-  - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17) — which operatives exist, and their base sizes
-  - raw/pointers/kill_team_2024_teams.md — local team PDF pointer, not opened this slice
-  - docs/handoffs/kill_team_2024_scaffold/track_in.md — cross-game sync policy (owned ≠ dual-legal)
+  - Owner photo (chat upload 2026-08-21): five Primaris Intercessor-family models
+  - Owner photo (chat upload 2026-08-21): Lieutenant Titus (40K only — wrong base for KT)
+  - Owner note: Intercessors bought used; painted Black Templars; will **not** play as Black Templars
+  - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17)
+  - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
+  - Suggested save path (owner): C:\Personal\Kill Team\Teams\Angels_of_Death\ (or Space Marines photo folder)
 
 PURPOSE:
-  Fill-in worksheet for which Angels of Death operatives are actually
-  assembled and painted, and which physical models they double as on the 40K
-  side. This is the KT-side half of the S6 cross-game sync — the 40K-side half
-  lives in games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md.
+  Physical model checklist for Angels of Death and the 40K Space Marine sync.
 
 UPDATE_TRIGGER:
-  Update when the collection is audited, when S10 photos arrive, or when the
-  40K Space Marine inventory changes in a way that affects this cross-sync.
+  Update when more Intercessor-family photos arrive (Captain, Gunner GL, Heavy,
+  Eliminator, Grenadier) or when chapter/proxy play preference changes.
 -->
 
 # Angels of Death — Owned Models Inventory
 
-**Status:** worksheet, **not filled in**. Every row below is `pending check` until the collection is audited or S10 photos arrive.
+**As of 2026-08-21.** Owner photo confirms a **used, painted** five-model Intercessor-family set (Black Templars paint scheme — **play as generic Adeptus Astartes / agreed Codex chapter, not as Black Templars**). Binaries stay outside git.
 
-Kill Team and 40K stay separate rules-wise even where the same physical model is used in both — see the dual-legality reminder in [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md).
+**KT rule:** Angels of Death = **1 leader + 5 operatives** (six models total). This set is **one model short** of a full team and is missing several specialist loadouts.
+
+---
+
+## Photo ID summary (2026-08-21)
+
+| Model (L→R in photo) | KT operative ID | Confidence | Evidence |
+|----------------------|-----------------|------------|----------|
+| 1 | **Assault Intercessor Warrior** | **Confirmed** | Heavy bolt pistol + chainsword; charging pose |
+| 2 | **Intercessor Warrior** | **Confirmed** | Bolt rifle (scoped), gesturing |
+| 3 | **Intercessor Warrior** | **Confirmed** | Bolt rifle across chest |
+| 4 | **Intercessor Warrior** (auspex) | **Confirmed** | Bolt pistol + handheld **auspex**; bolt rifle slung — **not** Intercessor Gunner (no grenade launcher) |
+| 5 | **Intercessor Sergeant** | **Confirmed** | Bare head; bolt rifle; sergeant/reliquary details |
+
+**Paint / chapter:** Black Templars colours (black armour, white pads, red cross). Owner will **not** field them as Black Templars — treat paint as cosmetic; rules as Codex Adeptus Astartes / Angels of Death (no Chapter-locked KT identity required).
+
+### Explicitly NOT for Kill Team
+
+| Model | Why |
+|-------|-----|
+| **Lieutenant Titus** (Ultramarines) | Owned for **40K only**. Owner: **wrong base size** for Kill Team — do not proxy as Angels of Death Captain / leader. |
 
 ---
 
@@ -38,49 +58,43 @@ Kill Team and 40K stay separate rules-wise even where the same physical model is
 
 | Operative | Base size | Assembled? | Painted? | Same model as 40K... | Notes |
 |-----------|-----------|------------|----------|------------------------|-------|
-| Space Marine Captain | ⌀40mm | pending check | pending check | Captain | |
-| Assault Intercessor Sergeant | ⌀32mm | pending check | pending check | Assault Intercessor Squad (sergeant model) | |
-| Intercessor Sergeant | ⌀32mm | pending check | pending check | Intercessor Squad (sergeant model) | |
-| Assault Intercessor Grenadier | ⌀32mm | pending check | pending check | Assault Intercessor Squad | |
-| Assault Intercessor Warrior | ⌀32mm | pending check | pending check | Assault Intercessor Squad | |
-| Eliminator Sniper | ⌀40mm | pending check | pending check | Eliminator Squad | |
-| Heavy Intercessor Gunner | ⌀40mm | pending check | pending check | Heavy Intercessor Squad | |
-| Intercessor Gunner | ⌀32mm | pending check | pending check | Intercessor Squad | |
-| Intercessor Warrior (×N) | ⌀32mm | pending check | pending check | Intercessor Squad | Only operative that can repeat |
+| Space Marine Captain | ⌀40mm | **Not confirmed** | — | Captain | **Not** Lieutenant Titus — Titus is 40K-only (wrong base for KT) |
+| Assault Intercessor Sergeant | ⌀32mm | **Not confirmed** | — | Assault Intercessor Squad | Not in this set — chainsword model is Warrior loadout |
+| Intercessor Sergeant | ⌀32mm | **Yes** | **Yes** | Intercessor Squad (sergeant) | Bare-head rifle sergeant |
+| Assault Intercessor Grenadier | ⌀32mm | **Not confirmed** | — | Assault Intercessor Squad | Not in this set |
+| Assault Intercessor Warrior | ⌀32mm | **Yes** | **Yes** | Assault Intercessor Squad | HBP + chainsword |
+| Eliminator Sniper | ⌀40mm | **Not confirmed** | — | Eliminator Squad | Not in this set |
+| Heavy Intercessor Gunner | ⌀40mm | **Not confirmed** | — | Heavy Intercessor Squad | Not in this set |
+| Intercessor Gunner | ⌀32mm | **Not confirmed** | — | Intercessor Squad | Auspex marine ≠ Gunner |
+| Intercessor Warrior (×N) | ⌀32mm | **Yes** (≥3) | **Yes** | Intercessor Squad | Two bolt-rifle + one auspex warrior |
 
-Base sizes above are read from the operative's datacard footer on the living Wahapedia page (physical spec, not rules text) — confirm against the owned team PDF or the models themselves before relying on them for base-swap or dual-legality decisions.
-
----
-
-## How to do this audit in one sitting
-
-1. Lay out every Intercessor-pattern model owned, including anything bought for the 40K Space Marine collection — Angels of Death draws from the same kits.
-2. Sort by which specific loadout each model is built with (bolt rifle vs. auto bolt rifle vs. stalker bolt rifle; which pistol/melee combo on sergeants) — KT24 selection cares about the exact loadout, not just the squad name.
-3. Note base size as actually built. A model based for 40K on an older or re-based scheme may not match the base size listed above.
-4. Cross into [`../../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md`](../../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md) — the "Kill Team ownership sync" section there mirrors this table from the 40K side.
+**Playable tonight for KT:** **partial only** — Intercessor Sergeant + Assault Intercessor Warrior + Intercessor Warriors (×3). Still need **one more body** for a legal 1+5 roster, plus specialists for a strong list. Casual/proxy learning with opponent agreement is fine.
 
 ---
 
 ## What this table does NOT establish
 
-- **Dual-legality.** Owning a model and it "matching" a KT operative in kit terms does not make it tournament-legal in both games on the same base. That is a separate check per the [`_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md) dual-legality reminder.
-- **40K datasheet legality.** Whether the matching 40K unit is currently matched-play legal or Legends is tracked in the 40K inventory's own Legends table, not here.
+- **Full Angels of Death team.** Five models ≠ six required.
+- **Dual-legality.** 32mm bases look correct for Intercessor-family; tournament dual-legal claim still **pending check** vs current 40K faction pack.
+- **Black Templars army rules.** Paint only — do not assume BT detachments or Chapter-specific rules.
 
 ---
 
 ## Related pages
 
-- [`README.md`](README.md) — team identity
-- [`Starter_Roster.md`](Starter_Roster.md) — fill this worksheet in, then check ownership against both starter rosters
-- [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md) — master KT24 team inventory and dual-legality reminder
-- [`../../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md`](../../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md) — 40K-side half of this sync
+- [`README.md`](README.md)
+- [`Starter_Roster.md`](Starter_Roster.md)
+- [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md)
+- [`../../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md`](../../../warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md)
 
 ---
 
 ## Change Log
 
+- v1.2 (2026-08-21): Lieutenant Titus noted as **40K-only** (wrong base for KT) — does not fill Captain slot.
+- v1.1 (2026-08-21): Photo ID — five used Intercessors (BT paint, not played as BT); Sergeant, Assault Warrior, three Warriors confirmed; full team still incomplete.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
-- v1.0 (2026-08-17): Initial worksheet (slice S6) — operative/base-size list from the living Wahapedia page, all ownership fields `pending check`.
+- v1.0 (2026-08-17): Initial worksheet (slice S6).
 
 ## Attribution
 
@@ -89,5 +103,4 @@ Base sizes above are read from the operative's datacard footer on the living Wah
 
 ## Rising Tide Notes
 
-- This document follows Rising Tide documentation standards.
-- **No ownership assumed or invented.** Every ownership cell is `pending check` until confirmed by the user or S10 photos.
+- Photo binaries stay outside git. Content dated **2026-08-21**.

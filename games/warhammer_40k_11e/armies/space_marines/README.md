@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v1.2 (2026-08-21)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5; slice S6 Kill Team cross-link)
 
@@ -33,18 +33,18 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 
 ---
 
-## Current collection status (2026-08-16)
+## Current collection status (2026-08-21)
 
-**Still not audited.** This is the only open blocker in this folder - every guide, list and play aid below is written and waiting on it.
+**Partially audited.** First photo ID: five used Primaris Intercessors (Black Templars paint — **not** played as BT). Rest of the collection still open.
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready now** | Unknown |
-| **Owned, build before play** | Unknown |
+| **Game-ready now** | Intercessor bodies ×4 + Assault Intercessor body ×1 (used set; matched-play squad split still incomplete); **Lieutenant Titus** (Ultramarines; 40K-only — wrong base for KT) |
+| **Owned, build before play** | Unknown (unaudited remainder) |
 | **Not owned** | Unknown |
-| **Chapter** | Unknown - and it matters, see the second correction below |
+| **Chapter (paint / play)** | Paint: Black Templars. Play: **not** Black Templars — generic / agreed Codex Chapter |
 
-[`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) is the worksheet. S5 added a Firstborn/Primaris identification test and a Legends-vs-legal table so the audit takes one sitting rather than a research pass.
+[`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) is the source of truth.
 
 ---
 
@@ -93,6 +93,8 @@ The Emperor's finest - versatile, durable, and forgiving for a beginner. Marines
 ---
 
 ## Change Log
+- v1.2 (2026-08-21): Lieutenant Titus added to game-ready (40K-only).
+- v1.1 (2026-08-21): Collection status — Intercessor photo ID (used set; BT paint not played as BT).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.1 (2026-08-17): Cross-linked the new Kill Team "Angels of Death" ownership sync (slice S6) under Sources.
 - v2.0 (2026-08-16): Indexed the five S5 documents - army rule guide, detachment guide, two starter lists, and the laminate - and rebuilt the inventory worksheet. Recorded the Chapter-mixing cost, the Legends exclusions, and non-linear unit pricing. Collection status remains honestly unknown (slice S5).
