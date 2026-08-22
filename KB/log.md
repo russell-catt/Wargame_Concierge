@@ -541,3 +541,10 @@ Pages updated: SM README, Gladius related links, KB faction space_marines, gloss
 
 Key additions: Teaching guides for top two non-Gladius fits (Terminators / gunline); both confidence draft pending owned PDF glance; Oath vs Anvil +1 Wound stacking flagged.
 
+## [2026-08-22] query | Owned SM points total (incl. Legends + Intercessors)
+
+Pages consulted: Owned_Models_Inventory, AoD inventory, Starter Matched points (MFM Marines v1.2), Legends FM (2026-08-22), NR/public cross-check for Titus/Gravis/Heavy Int/Eliminator
+
+Output filed: no
+
+Key answer: Fieldable legal shelf ≈ **1785** pts (Codex SM + Legends + one Intercessor Squad); **~1875** if Captain Titus allowed (UM Epic Hero caveat). Incomplete Assault Int / Heavy Int / Eliminator not costed. Deathwatch excluded.
