@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.5 (2026-08-21)
+VERSION: v1.6 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — ownership update pass 2026-08-21)
 
@@ -36,8 +36,8 @@ Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready (Codex SM)** | Tacticals (**10 + 10**; Tac2 reattach one fallen-off body; each has a **flamer**; bolter bodies may **pad Devastators to 10**), Devastators (5: HB / multi-melta / plasma cannon / lascannon / meltagun — or 10 via Tactical loan), Terminator Squads (2×5), Terminator Assault (5, mixed), Firstborn Captain, Terminator Chaplain (claw = **Storm Shield**), Veteran Sergeant, Lieutenant with Combi-weapon + 2 loose Marines, Techmarine + Servitors (Servitor datasheet pending), Whirlwind; Primaris Intercessors / AoD (Intercessors, Heavy Int, Eliminator **dual-legal**); Gravis Captain + relic shield **40K only** |
-| **Legends (friendly only)** | Bike Squad (3); Attack Bike (1 — gunner **MM or HB**) |
+| **Game-ready (Codex SM)** | Tacticals (**10 + 10**; Tac2 reattach one fallen-off body; each has a **flamer**; bolter bodies may **pad Devastators to 10**), Devastators (5: HB / multi-melta / plasma cannon / lascannon / meltagun — or 10 via Tactical loan), Terminator Squads (2×5), Terminator Assault (5, mixed), Firstborn Captain, Terminator Chaplain (claw = **Storm Shield**), Veteran Sergeant, Lieutenant with Combi-weapon + 2 loose Marines, **Techmarine** (matched play), Whirlwind; Primaris Intercessors / AoD (Intercessors, Heavy Int, Eliminator **dual-legal**); Gravis Captain + relic shield **40K only** |
+| **Owned, Legends (friendly)** | Bike Squad (3); Attack Bike (1 — gunner **MM or HB**); **Astartes Servitors** ×4 (with Techmarine photo — not matched-play) |
 | **Separate identity** | Deathwatch ~11 primed veterans — not Gladius/BR lists |
 | **Chapter (paint / play)** | Blood Ravens paint; **Codex Space Marines** rules. Used Intercessors: BT paint, not played as BT |
 
@@ -91,6 +91,7 @@ Source of truth: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 ---
 
 ## Change Log
+- v1.6 (2026-08-22): Astartes Servitors marked **Legends**; Techmarine matched-play alone.
 - v1.5 (2026-08-21): Note — Tactical bolters may pad Devastators to 10.
 - v1.4 (2026-08-21): Collection status synced to inventory v1.5 — Tac 10+10 / flamers; Dev weapons; dual-legal AoD; Gravis Captain 40K-only; Attack Bike MM/HB.
 - v1.3 (2026-08-21): Full Blood Ravens photo-audit status; Starter_750 / Starter_1000 indexed; Chaplain Storm Shield note.

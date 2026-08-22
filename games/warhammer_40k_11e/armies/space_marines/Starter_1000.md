@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_1000.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — ownership update pass 2026-08-21)
 
@@ -23,14 +23,14 @@ PRIMARY_AUDIENCE:
   - Player ready for a longer evening game with artillery and a repair character
 
 UPDATE_TRIGGER:
-  Inventory or MFM changes; Techmarine vs Enginseer name resolution; Servitor datasheet check.
+  Inventory or MFM changes; Techmarine vs Enginseer name resolution.
 -->
 
 # Starter list - 1000 points
 
 1000 points is a full learning battle: midboard OC, two Terminator threats, a gun line, indirect fire, and a Techmarine babysitting the Whirlwind.
 
-**Paint / rules:** Blood Ravens paint; **Codex Space Marines**; [Gladius Task Force](Gladius_Task_Force.md). **Deathwatch stays out.** Bikes stay **Legends** (friendly only).
+**Paint / rules:** Blood Ravens paint; **Codex Space Marines**; [Gladius Task Force](Gladius_Task_Force.md). **Deathwatch stays out.** Bikes stay **Legends** (friendly only). **Astartes Servitors** are also **Legends** — owned, but not costed into this matched-play list.
 
 **Points:** Munitorum Field Manual (Marines) v1.2.
 
@@ -54,7 +54,18 @@ Continues [`Starter_750.md`](Starter_750.md): keep the 750 core, drop Honour Veh
 
 Add **The Honour Vehement (15)** on the Captain → **980 / 1000**. Twenty points spare.
 
-**Servitors:** four painted bodies sit with the Techmarine photo. Confirm whether current rules still use a separate Servitor datasheet before costing them; until then field the **Techmarine** alone.
+### Servitors datasheet check (resolved 2026-08-22)
+
+| Question | Answer |
+|----------|--------|
+| Datasheet name | **Astartes Servitors** (not Astra Militarum Munitorum Servitors, not AdMech Servitors) |
+| Matched play? | **No — Warhammer Legends** |
+| Evidence | Official WarCom *Warhammer Legends: Space Marines* PDF labels them **WARHAMMER LEGENDS**; they do **not** appear under Codex: Space Marines in the living Munitorum Field Manual matched-play list (retrieved/cross-check **2026-08-22**) |
+| Unit size | **4** models — matches the four painted bodies with the Techmarine photo |
+| How they work (friendly / Legends) | **Mindlock** if a Techmarine leads them; **Servitor Retinue** can join a bodyguard unit that Techmarine is already leading (e.g. Devastators) |
+| This 1000 list | Field the **Techmarine alone** (55). Do **not** add Servitor points to the matched-play total |
+
+Friendly learning games: bring the four Servitors with opponent agreement as Legends. Matched play / tournament: leave them in the case.
 
 ---
 
@@ -87,6 +98,7 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 | AoD Primaris specialists | Incomplete squads (1 Heavy Intercessor, 1 Eliminator, etc.) |
 | Deathwatch veterans | Separate rules identity |
 | Bike Squad / Attack Bike | **Legends** |
+| **Astartes Servitors** (×4) | **Legends** — owned with Techmarine; friendly only |
 
 ---
 
@@ -102,6 +114,7 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 
 ## Before you play at 1000
 
+- [x] Servitors datasheet check — **Legends**; not in this matched-play 1000
 - [ ] Confirm Whirlwind + Techmarine + both Terminator Squads in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md)
 - [ ] Chaplain claw = Storm Shield note on the list
 - [ ] Decide Honour Vehement on/off (980 vs 965)
@@ -119,6 +132,7 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 ---
 
 ## Change Log
+- v1.2 (2026-08-22): Servitors datasheet check — **Astartes Servitors** are **Warhammer Legends**; keep Techmarine-only on matched-play 1000.
 - v1.1 (2026-08-21): Tac2 counted as full 10 (reattach); flamer note.
 - v1.0 (2026-08-21): Initial owned Blood Ravens 1000 path (Whirlwind + Techmarine + double Terminators).
 
