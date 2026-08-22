@@ -533,3 +533,11 @@ Issues found: Legends points still draft pending owned PDF glance; space_marines
 
 Fixes applied: faction page rewrite; glossary Warhammer Legends / matched play / Astartes Servitors; index rows; analysis page; inventory→Casual pointers.
 
+## [2026-08-22] query | SM detachments besides Gladius for owned Marines
+
+Pages consulted: Owned_Models_Inventory, space_marines, sm_matched_vs_casual_starters, Gladius_Task_Force (shipping), gladius_task_force (KB stub), Oath_of_Moment FAQ note on Codex detachments; community/Wahapedia cross-check for 1st Company / Ironstorm / Anvil themes (draft)
+
+Output filed: no — offered as analysis
+
+Key answer (draft): Beside Gladius, **1st Company Task Force** is the best ownership fit (Terminators + Term Chaplain). **Anvil Siege Force** is a workable gun-line alternate (Devs + Whirlwind). Ironstorm/Firestorm/Stormlance/Vanguard are legal to pick but poorly fed by the shelf (one vehicle; bikes Legends; Phobos incomplete). Chapter-locked detachments out of scope for Blood Ravens Codex SM.
+
