@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/teams/_Owned_Teams_Inventory.md
-VERSION: v1.8 (2026-08-21)
+VERSION: v1.9 (2026-08-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slices S3–S6; cloud agent Plague Marines + Intercessor photo ID 2026-08-21)
 
@@ -48,7 +48,7 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 |------|--------|----------|------------------|--------------|----------------------------|----------|
 | **Angels of Death** | [`angels_of_death/`](angels_of_death/) | **Full guide — S6 complete** | **Expanded** — used BT Intercessor set + Pics `AOD_*` (Captain, Eliminator, Heavy Int, Intercessors confirmed; Grenadier/Assault Sgt provisional) 2026-08-21 | **known** — dual-use into Codex SM 40K inventory | Base classes look right; dual-legal **pending formal check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Canoptek Circle** | [`canoptek_circle/`](canoptek_circle/) | Full guide — **S4 complete** | Game ready — Tomb World box (assembled & painted); **photo ID done 2026-08-17** | Known — Geomancer, Tomb Crawlers, Macrocytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | Base sizes known (Wahapedia); dual-legal vs. 40K faction pack **pending check** | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
-| **Celestian Insidiants** | [`celestian_insidiants/`](celestian_insidiants/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
+| **Celestian Insidiants** | [`celestian_insidiants/`](celestian_insidiants/) | Stub | **Owned, unpainted** (declared 2026-08-22) — not game-ready | **known** — own 11e Adepta Sororitas datasheet (typically 10); see [40K Sisters inventory](../../warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md) | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Death Korps** | [`death_korps/`](death_korps/) | Stub | pending check | pending | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Deathwatch** | [`deathwatch/`](deathwatch/) | Stub | **Assembled / primed** — ~11 veterans photo ID 2026-08-21; paint incomplete | **separate identity** — not Codex SM / Blood Ravens | pending check | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
 | **Hierotek Circle** | [`hierotek_circle/`](hierotek_circle/) | Stub | **Game ready** — used set, assembled & painted | **known** — Technomancer, Immortals, Despotek (Immortal / Warden proxy), Apprentek (KT-only / Plasmancer proxy), Plasmacytes; see [40K Necron inventory](../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) | KT legal as built. Technomancer 50mm and Immortals/Despotek 32mm likely match 40K. Plasmacytes **25mm KT vs 28mm 40K** — likely not dual-legal until **25–28mm base rings**. Detail: [`hierotek_circle/Owned_Models_Inventory.md`](hierotek_circle/Owned_Models_Inventory.md) | [Teams pointer](../../../raw/pointers/kill_team_2024_teams.md) |
@@ -70,6 +70,10 @@ Ownership does not equal dual-legality. S4–S6 and photo audits fill in the `pe
 ### Cross-game notes (Death Guard / Chaos)
 
 - **Plague Marines** — **photo ID 2026-08-21 complete (7/7).** Full painted Kill Team Starter Set roster: Plaguecaster, Icon Bearer, Champion, Fighter, Warrior, Bombardier, Heavy Gunner (Plague Belcher). Also Biologus Putrifier (40K, separate from Starter Set). Detail: [`plague_marines/Owned_Models_Inventory.md`](plague_marines/Owned_Models_Inventory.md). 40K remains a stub only — [`../../warhammer_40k_11e/armies/death_guard/README.md`](../../warhammer_40k_11e/armies/death_guard/README.md).
+
+### Cross-game notes (Adepta Sororitas)
+
+- **Celestian Insidiants** — owned, **unpainted** (declared 2026-08-22). KT rules PDF owned. **40K:** official Adepta Sororitas datasheet in 11e (typically 10 models). Inventories: [`celestian_insidiants/Owned_Models_Inventory.md`](celestian_insidiants/Owned_Models_Inventory.md) · [`../../warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md`](../../warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md). Metal Canoness / Battle Sisters / Seraphim also declared on the 40K Sisters inventory (not KT).
 
 ### 40K ruled-in column key
 
@@ -107,6 +111,7 @@ Detail pages for each zone are **S2 / S7** deliverables. Use Volkus or the 3e St
 
 ## Change Log
 
+- v1.9 (2026-08-22): Celestian Insidiants — owned unpainted; 40K Adepta Sororitas datasheet linked; metal Sisters declared on 40K inventory.
 - v1.8 (2026-08-21): Angels of Death expanded Pics ID; Deathwatch ~11 primed veterans + separate-identity lock.
 - v1.7 (2026-08-21): Angels of Death — partial photo ID (5 used Intercessors; BT paint not played as BT).
 - v1.6 (2026-08-21): Plague Marines — full 7/7 photo ID; provenance Kill Team Starter Set; Heavy Gunner (Plague Belcher) confirmed.

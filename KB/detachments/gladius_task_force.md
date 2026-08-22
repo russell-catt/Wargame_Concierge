@@ -64,6 +64,7 @@ The collection audit is the real gate. The empty inventory worksheet is the reas
 
 - [[space_marines]] - the faction
 - [[oath_of_moment]] - the army rule it operates under
+- [[first_company_task_force]] · [[anvil_siege_force]] · [[sm_owned_detachment_fit]] - owned-shelf alternates
 - [[canoptek_court]] · [[cryptek_conclave]] - the Necron detachments it will play against
 - [[objective_control]] - the shared win condition
 - [[local_library_pointers]] - the unread faction pack

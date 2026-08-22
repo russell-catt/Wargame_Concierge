@@ -13,13 +13,18 @@ TEAM: Celestian Insidiants
 
 Adepta Sororitas kill team built around Celestian operatives — infiltration, precision strikes, and faith-fuelled tempo swings rather than static gunlines. Plays as a small, elite roster that punishes exposed targets and rewards careful activation order.
 
-**Full guide out of scope this track** (inventory + stub only). Warhammer 40,000 inventory sync and dual-legality audit are **pending**.
+**Ownership (2026-08-22):** models **owned**, **unpainted / not game-ready**. Team rules PDF owned. **40K:** Celestian Insidiants have an official **11e Adepta Sororitas** datasheet (dual-use pending base/count audit).
 
-- **Inventory:** [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md)
+**Full guide out of scope** until paint + operative photo ID.
+
+- **Inventory (KT):** [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md)
+- **Inventory (40K):** [`../../../warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md`](../../../warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md)
+- **Teams rollup:** [`../_Owned_Teams_Inventory.md`](../_Owned_Teams_Inventory.md)
 - **Team PDF:** [`raw/pointers/kill_team_2024_teams.md`](../../../../raw/pointers/kill_team_2024_teams.md)
 
 ## Change Log
 
+- v0.5.1 (2026-08-22): Ownership declared — unpainted; 40K datasheet confirmed to exist; inventories linked.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.1 (2026-08-17): S3 stub.
 

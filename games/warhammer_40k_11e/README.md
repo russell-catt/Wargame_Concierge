@@ -82,11 +82,13 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 | [`setup/README.md`](setup/README.md) | Stub | Board and terrain setup |
 | [`armies/necrons/`](armies/necrons/) | Partial | Parent's Necron force |
 | [`armies/space_marines/`](armies/space_marines/) | Partial | Son's Space Marine force |
+| [`armies/adepta_sororitas/`](armies/adepta_sororitas/) | **Ownership stub only** | Metal Sisters + Celestian Insidiants declared 2026-08-22; **unpainted**; no teaching package yet |
 | [`armies/death_guard/`](armies/death_guard/) | **Cross-link stub only** | Not in 40K teaching scope — pointer for Plague Marines KT miniatures ([`kill_team_2024` track](../../docs/handoffs/kill_team_2024_scaffold/track_in.md)); no army package |
 
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-22): Adepta Sororitas ownership stub (metal + Celestian Insidiants); unpainted.
 - v0.5.1 (2026-08-18): WarCom-free quote exception for `rules/` + `setup/`; Codex wall on `armies/`; Core_Rules_Quotes link (track `40k_warcom_quotes`).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Noted Death Guard folder as KT cross-link stub only (slice S5, kill_team_2024_scaffold) — locked 40K forces remain Necrons + Space Marines.

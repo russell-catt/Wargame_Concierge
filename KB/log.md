@@ -533,3 +533,34 @@ Issues found: Legends points still draft pending owned PDF glance; space_marines
 
 Fixes applied: faction page rewrite; glossary Warhammer Legends / matched play / Astartes Servitors; index rows; analysis page; inventory→Casual pointers.
 
+## [2026-08-22] ingest | SM 1st Company + Anvil detachment writeups
+
+Pages created: games/.../First_Company_Task_Force.md, Anvil_Siege_Force.md; KB/detachments/first_company_task_force.md, anvil_siege_force.md; KB/analyses/sm_owned_detachment_fit.md
+
+Pages updated: SM README, Gladius related links, KB faction space_marines, glossary, index
+
+Key additions: Teaching guides for top two non-Gladius fits (Terminators / gunline); both confidence draft pending owned PDF glance; Oath vs Anvil +1 Wound stacking flagged.
+
+## [2026-08-22] query | Owned SM points total (incl. Legends + Intercessors)
+
+Pages consulted: Owned_Models_Inventory, AoD inventory, Starter Matched points (MFM Marines v1.2), Legends FM (2026-08-22), NR/public cross-check for Titus/Gravis/Heavy Int/Eliminator
+
+Output filed: no
+
+Key answer: Fieldable legal shelf ≈ **1785** pts (Codex SM + Legends + one Intercessor Squad); **~1875** if Captain Titus allowed (UM Epic Hero caveat). Incomplete Assault Int / Heavy Int / Eliminator not costed. Deathwatch excluded.
+
+## [2026-08-22] query | SM + Sisters “brothers and sisters” soup in 11e
+
+Pages consulted: (none in KB — no Sororitas army-construction page); WarCom army-building article (soup not returning); Imperial Agents Assigned Agents (11e Faction Pack summary via living refs, retrieved 2026-08-22)
+
+Output filed: no
+
+Key answer: Full Codex SM + Codex Adepta Sororitas soup is **not** back in 11e. Modular detachments stay within one Army Faction. Limited Sisters via **Assigned Agents** (Imperial Agents retinue caps) or play Agents as the army; full mixed force only casual/narrative by agreement.
+
+## [2026-08-22] ingest | Adepta Sororitas ownership (metal + Celestian Insidiants)
+
+Pages created: games/warhammer_40k_11e/armies/adepta_sororitas/README.md, Owned_Models_Inventory.md; kill_team_2024/teams/celestian_insidiants/Owned_Models_Inventory.md
+
+Pages updated: celestian_insidiants/README.md, _Owned_Teams_Inventory.md, games/warhammer_40k_11e/README.md
+
+Key additions: Metal Canoness / Battle Sisters / Seraphim + Celestian Insidiants declared owned but **unpainted**. Insidiants confirmed as official **11e Adepta Sororitas** datasheet (not KT-only). Counts/bases TBD. No soup with SM.
