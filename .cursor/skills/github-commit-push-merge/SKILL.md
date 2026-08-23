@@ -28,7 +28,7 @@ Run this workflow when the user (or an explicit cloud-agent task) asks to **comm
    - Suffix `-b7e0`  
    - Lowercase only  
    Example: `cursor/readme-date-stamp-b7e0`
-3. **`gh` CLI is read-only here** for write operations. Use it to *inspect* (`gh pr view`, `gh pr list`, `gh run list`). Do **not** use `gh pr create`, `gh pr merge`, or other mutating `gh` commands.
+3. **`gh` CLI is read-only for most write operations** in this environment. Use it to *inspect* (`gh pr view`, `gh pr list`, `gh run list`). Do **not** use `gh pr create` — use ManagePullRequest instead. **`gh pr merge` is allowed only when the user requested a merge and only with `--squash`** (see §6); if that command is blocked, fall back to asking the user to Squash and merge in GitHub.
 4. **Create/update PRs with the `ManagePullRequest` tool** (`create_pr` / `update_pr`). Always set `branch_name` and `base_branch` (`main` unless the user says otherwise).
 5. Prefer **draft PRs** unless the user asks for ready-for-review.
 6. Commit messages: use a HEREDOC; include a clear subject. If the user gives an exact commit reason/message, use that text as the subject (or first line).
