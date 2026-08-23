@@ -110,19 +110,24 @@ PR body should summarize what changed and note that merge to `main` is **squash 
 | Create a merge commit | Only if the user explicitly asks |
 | Rebase and merge | Only if the user explicitly asks |
 
-**Preferred path while `main` is push-protected:** user (or GitHub UI) clicks **Squash and merge** on the PR. Tell them to use that button — not “Create a merge commit” or “Rebase and merge”.
+**Do not attempt merge unless the user asked to merge** (a “rule test” / commit+push request alone is not a merge request). Still open the PR so they can squash-merge when ready.
 
-**Agent attempts (in order):**
+**Preferred path while `main` is protected:** user clicks **Squash and merge** on the PR in GitHub. Tell them that button — not “Create a merge commit” or “Rebase and merge”.
 
-1. Confirm PR is mergeable: `gh pr view <n> --json state,mergeable,url`
-2. Do **not** `git push origin main` — protection rejects it.
+**Agent attempts (only after an explicit merge request), in order:**
+
+1. Confirm PR state: `gh pr view <n> --json state,mergeable,url`  
+   - Note: GraphQL `mergeable: MERGEABLE` can still fail the actual merge when **branch policy** (reviews, status checks, etc.) blocks it.
+2. Do **not** `git push origin main` — protection rejects it (`GH013`).
 3. Do **not** fast-forward or merge the feature branch into local `main` and push.
-4. If merge write access is available for this environment, squash-merge the PR (e.g. `gh pr merge <n> --squash --delete-branch` when `gh` writes are allowed for merge). Prefer deleting the head branch after a successful squash.
-5. If write merge is blocked (current default: `gh` mutating commands disallowed; ManagePullRequest has no merge action), report the PR URL and ask the user to **Squash and merge** in GitHub.
+4. Try squash merge:  
+   `gh pr merge <n> --squash --delete-branch`  
+   - On success: fetch/reset local `main` to `origin/main`, then run §7 cleanup.
+   - On `base branch policy prohibits the merge`: **stop**. Report the PR URL. Ask the user to **Squash and merge** in GitHub (or satisfy the required checks/reviews). Optionally offer `gh pr merge <n> --squash --auto` so it lands when policy is satisfied — only if the user wants auto-merge.
+   - Do **not** use `--admin` unless the user explicitly authorizes admin override.
+5. If `gh pr merge` is entirely disallowed in this environment, skip to the human Squash and merge handoff (ManagePullRequest has no merge action).
 
-After a successful squash merge, `git fetch origin main` and reset local `main` to `origin/main`.
-
-If local `main` was accidentally fast-forwarded during a failed push attempt, reset it so it matches remote:
+After a successful squash merge:
 
 ```bash
 git fetch origin main
@@ -130,7 +135,7 @@ git checkout main
 git reset --hard origin/main
 ```
 
-Keep the feature branch tip intact for the open PR until squash merge completes.
+If local `main` was accidentally advanced during a failed push attempt, use the same reset. Keep the feature branch tip intact until squash merge completes.
 
 ### 7. After merge — cleanup `cursor/` branches
 
