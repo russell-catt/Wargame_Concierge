@@ -98,6 +98,7 @@ Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everyt
 
 ## Change Log
 
+- v0.5.1 (2026-08-23): Date stamp (rule test #3); index `github_ship_smoothers.md`.
 - v0.5.0 (2026-08-18): Flowcharting.md indexed (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z). Later tracks via handoffs/README.md; Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial documentation index covering project documents, operations, and handoffs. Created in slice S1.
 

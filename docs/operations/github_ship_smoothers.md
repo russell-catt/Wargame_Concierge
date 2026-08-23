@@ -73,6 +73,7 @@ Before opening a new date-stamp / rule-test PR, close or squash-merge any open d
 
 ## Change Log
 
+- v1.1 (2026-08-23): Rule test #3 — document merge/--auto/--admin failures; require ruleset bypass for Cursor app.
 - v1.0 (2026-08-23): Initial owner checklist after rule tests #1–#2 (smoothers).
 
 ## Attribution
