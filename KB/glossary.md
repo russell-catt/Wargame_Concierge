@@ -58,13 +58,13 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Core rules and scoring
 
-**Objective Control** *(OC)* - `verified` · **upgraded in L2** · **ID cite 2026-08-18**
-: A characteristic on a model's profile representing how strongly it holds ground. Players total the OC of their eligible models within range of an objective; the higher total controls it. It is why a cheap, numerous unit can hold ground an elite unit cannot, and why the game is won by positioning rather than kill count.
-: **Confirmed in 11th Edition (S3, owned Core Rules, read 2026-08-16; IDs re-cited 2026-08-18):** control is re-checked at the end of **every phase and every turn** (**14.02**), and a **battle-shocked** unit contributes no OC at all (**01.07**).
+**Objective Control** *(OC)* - `verified` · **upgraded in L2** · **ID cite 2026-08-18** · **event polish 2026-08-23**
+: A characteristic on a model's profile representing how strongly it holds ground. Players **sum** the OC of their eligible models within range of an objective; the higher total controls it. It is why a cheap, numerous unit can hold ground an elite unit cannot, and why the game is won by positioning rather than kill count.
+: **Confirmed in 11th Edition (S3, owned Core Rules, read 2026-08-16; IDs re-cited 2026-08-18; event feedback 2026-08-23):** most objectives are **terrain footprints** (**14.01**) — a model counts while **inside that terrain area**. Control is re-checked at the end of **every phase and every turn** (**14.02**). A **battle-shocked** unit contributes no OC at all (**01.07** / **08.03**). **Scoring VP** is separate: the mission card says when you score for controlled objectives.
 : **Collision flag (strengthened 2026-08-18).** Kill Team 2024 does **not** use Objective Control. Marker control there is **APL totals of operatives within 1" control range**. 40K OC is a datasheet characteristic and a 3"/5" (or terrain-area) range test. **Do not read KT 1" control range into 40K, or OC into Kill Team.** See **1" Control Range** in the Kill Team 2024 section and [[control_range_kill_team]].
 - Faction / scope: core rules, system-wide
-- Verify against: shipping [`Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md), `Key_Concepts.md`, and Core IDs in [`Core_Rules_Quotes.md`](../games/warhammer_40k_11e/rules/Core_Rules_Quotes.md) (**14.02**, **01.07**)
-- See also: **[[objective_control]]** - promoted to a concept page in L1, verified in L2
+- Verify against: shipping [`Keyword_Glossary.md`](../games/warhammer_40k_11e/rules/Keyword_Glossary.md), `Key_Concepts.md`, and Core IDs in [`Core_Rules_Quotes.md`](../games/warhammer_40k_11e/rules/Core_Rules_Quotes.md) (**14.01**, **14.02**, **01.07**)
+- See also: **[[objective_control]]** - promoted to a concept page in L1, verified in L2, refreshed 2026-08-23
 
 **Objective marker** - `verified` · **upgraded in L2**
 : The physical marker on the table whose control is scored. Control is decided by totalling Objective Control within range of it, and can flip as models move, die, or arrive.
@@ -112,17 +112,18 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: system-wide
 - Verify against: shipping `Keyword_Glossary.md`
 
-**Leader / attached unit** - `verified` · **upgraded in L2**
+**Leader / attached unit** - `verified` · **upgraded in L2** · **event polish 2026-08-23**
 : A character joining a squad and fighting as part of it. The two become **one unit for all rules purposes**, the bodyguard's Toughness is used for the whole thing, and the attached unit holds **every keyword of its parts** - which can expose it to `[ANTI-X]` weapons it would otherwise dodge.
-: **Two things L1 could not know.** Attachment happens during the pre-game **Declare Battle Formations** step, not mid-game. And 11th Edition adds a second slot, **Support**, so a bodyguard unit can normally take one Leader **and** one Support.
+: **Forming (**19.01**):** attachment happens during the pre-game Muster Armies / battle formations step, not mid-game. 11th Edition adds a second slot, **Support**, so a bodyguard unit can normally take one **Leader and one Support** — three datasheets, one unit (e.g. Royal Warden + Geomancer + Warriors in Cryptek Conclave).
+: **Deploying (**03.03**):** set up **all** models of the attached unit together in **coherency** (within 2" of another model in the unit, and within 9" of every model). Do not deploy Leader/Support as separate units from the bodyguard.
 : The owner's assumptions turned out to be sound - a Plasmancer can lead Immortals - but the Plasmancer is now a **Support**, not a Leader, which is what makes a Cryptek plus a Royal Warden on the same squad legal. See [[cryptek_conclave]].
 - Faction / scope: core rules
-- Verify against: shipping `Keyword_Glossary.md`; `Key_Concepts.md`
+- Verify against: shipping `Keyword_Glossary.md`; `Key_Concepts.md`; Core **19.01**, **03.03**
 
-**Support** - `verified` · **new in L2**
-: The second attachment slot alongside Leader, given new emphasis in 11th Edition. The owned Necrons Faction Pack v1.1 moved the Crypteks (Chronomancer, Geomancer, Plasmancer, Psychomancer, Technomancer, Orikan) from Leader to Support. **Check your own datasheet** - this moved recently and older printings disagree.
+**Support** - `verified` · **new in L2** · **event polish 2026-08-23**
+: The second attachment slot alongside Leader (**19.01**), given new emphasis in 11th Edition. The owned Necrons Faction Pack v1.1 moved the Crypteks (Chronomancer, Geomancer, Plasmancer, Psychomancer, Technomancer, Orikan) from Leader to Support. **Check your own datasheet** - this moved recently and older printings disagree. A Support can attach on its own (e.g. Geomancer + Warriors at 250) or stack with a Leader on the same bodyguard.
 - Faction / scope: core rules
-- Verify against: shipping `Keyword_Glossary.md`; your own datasheets
+- Verify against: shipping `Keyword_Glossary.md`; your own datasheets; Core **19.01**
 
 **Points** *(pts)* - `verified` · **upgraded in L2**
 : The cost of a unit, used to build lists to an agreed size. Values live in the Munitorum Field Manual - **v1.2, printed 2026-08-13** is the version this project has read - and they **move when a balance dataslate lands**.

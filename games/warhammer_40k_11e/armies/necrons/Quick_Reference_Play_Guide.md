@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Quick_Reference_Play_Guide.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.3 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
 
@@ -26,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
+  - v0.5.3 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) pointers.
   - v1.2 (2026-08-16): Page 2 starter snapshot rebuilt around the owned, game-ready Kill Team: Tomb World force (Geomancer + Warriors + Tomb Crawlers = 240 pts). Sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not blockers (slice S2, `tomb_world_ownership`).
   - v1.1 (2026-08-16): Starter snapshot ownership re-verified against FOUNDATION (build-before-play + Hierotek TBD). *(Described Tomb World as not owned - superseded by v1.2.)*
   - v1.0 (2026-08-16): Initial two-page laminate (slice S4).
@@ -125,21 +126,16 @@ Spend each reanimated wound in this order:
 
 | Unit | Models | Pts | State |
 |------|--------|-----|-------|
-| Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World, game-ready |
-| Necron Warriors | 10 | **80** | **OWNED** - Tomb World, game-ready |
-| Canoptek Tomb Crawlers | 2 | **85** | **OWNED** - Tomb World, game-ready |
-| Canoptek Macrocytes | 5 | **85** | **OWNED** - Tomb World, game-ready |
-| Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (3 ready + 3 sprue - build before play) |
-| Necron Warriors (2nd squad) | 10 | **80** | **OWNED** - sprue, build before play |
-| Immortals | 5 | **70** | **OWNED** - sprue, plus Hierotek assembled Guardians / Despotek |
-| Plasmancer (Cryptek, Support) | 1 | **55** | Not owned — buy, or Apprentek kitchen-table proxy |
-| Technomancer | 1 | **80** | **OWNED** - Hierotek |
-| Canoptek Wraiths | 3 | **95** | Not owned |
+| Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
+| Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
+| Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World (MFM v1.2) |
+| Canoptek Macrocytes | 5 | **70** | **OWNED** (MFM v1.2) |
+| Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (build 2nd 3 before play) |
+| Immortals / Technomancer | 5 / 1 | **70 / 80** | Immortals sprue; Technomancer Hierotek **OWNED** |
+| Plasmancer (Support) | 1 | **55** | Not owned — buy / Apprentek proxy |
 
-**250 pts (playable tonight, zero purchases):** Geomancer 75 + Warriors 80 + Tomb Crawlers 85 = **240**.
-**500 pts, Canoptek Court:** add Macrocytes 85 + Scarabs 40 + Wraiths 95 (purchase) = **500**.
-**500 pts, Cryptek Conclave:** add Macrocytes 85 + Scarabs 40 + Immortals 70 (build first) + Plasmancer 55 (buy / Apprentek proxy) = **490**.
-**Hierotek Circle:** Technomancer owned; Apprentek/Despotek are proxies, not extra purchased characters.
+**250 tonight:** Geomancer 75 + Warriors 80 + Crawlers 50 (+ Scarabs 40) = **245**. **Attach Geomancer to Warriors** (`19.01`).
+**500 Court / Conclave:** see army READMEs — Court wants Macrocytes/Scarabs/Wraiths; Conclave adds Immortals + Plasmancer.
 
 ---
 
@@ -150,10 +146,26 @@ Spend each reanimated wound in this order:
 | **DO** stand on the objective and take the hit - you reanimate, they wasted a turn | **DON'T** pull a damaged unit back out of scoring range |
 | **DO** protect the **last model** of a unit - one model reanimates, zero never returns | **DON'T** let a unit get wiped when a 2" move would have hidden a body |
 | **DO** count No Man's Land objectives at the **start** of each phase (`07.02`) | **DON'T** assume the Matrix from last phase still applies |
-| **DO** attach characters during pre-game setup (`19.01`) | **DON'T** plan to attach mid-game - you cannot |
+| **DO** attach characters during pre-game setup (`19.01`) — Leader **and** Support may join the same bodyguard | **DON'T** plan to attach mid-game - you cannot |
+| **DO** deploy an attached unit as **one coherency blob** (`03.03`) | **DON'T** set Leader/Support up as separate units from their bodyguard |
 | **DO** consolidate 3" onto an objective when there is nothing to fight (`12.07`) | **DON'T** skip pile-in and consolidation, they are free movement |
 | **DO** re-check control at the end of every phase (`14.02`) - it flips constantly | **DON'T** count a battle-shocked unit's OC - it is zero (`08.03`) |
 | **DO** pick one ability per Cryptek unit each **Shooting phase** (`10.02`) and say it out loud | **DON'T** forget Command phase reanimation (`08.05`). Put a token on the table |
+
+---
+
+## OBJECTIVES & CONTROL (Ch. 14)
+
+- **Terrain objectives (`14.01`):** the mission's terrain **footprint** *is* the objective. A model counts while it is **inside that terrain area**.
+- **Level of control (`14.02`):** at end of **every phase and turn**, **sum OC** of your models in range. Higher total controls; **tie = nobody**.
+- **Score VP** when the **mission card** says (often end of turn) for objectives you control — control first, then score.
+- Battle-shocked units contribute **0 OC** (`08.03`).
+
+## ATTACH & DEPLOY (Ch. 19)
+
+- **Form (`19.01`):** before battle, each Leader/Support attaches to one eligible bodyguard. Normally **one Leader + one Support** per bodyguard → **one unit**.
+- **250 Conclave:** Geomancer (**Support**) + Warriors. At 500+, add a **Leader** (e.g. Royal Warden) to the **same** brick if the datasheet allows.
+- **Deploy (`03.03`):** set up **all** attached models together in coherency (2"/9" horizontal tests). Cannot attach mid-game.
 
 ---
 
@@ -161,15 +173,16 @@ Spend each reanimated wound in this order:
 
 `[ASSAULT]` fire after advancing • `[HEAVY]` +1 to hit if unengaged and nothing moved over 3" • `[RAPID FIRE X]` +X attacks within half range • `[LETHAL HITS]` critical hit may skip the wound roll (optional) • `[SUSTAINED HITS X]` critical hit = +X hits • `[DEVASTATING WOUNDS]` critical wound = mortal wounds equal to Damage • `[IGNORES COVER]` target gets no cover benefit • `[TWIN-LINKED]` re-roll the **wound** roll • `[ANTI-X N+]` wound roll of N+ against keyword X is critical • `[BLAST]` +1 attack per five models in the target, never against an engaged unit • `[CLEAVE X]` Blast for melee: +X dice per five models, all attacks at one target • `[PRECISION]` can pick out an attached character • `[HAZARDOUS]` 1-2 on the hazard die costs you a mortal wound • `[INDIRECT FIRE]` shoot unseen, heavy penalty, gives cover • `[MELTA X]` +X Damage within half range • `[CLOSE-QUARTERS]` / `[PISTOL]` identical - shoot while engaged.
 
-**OC** (`14.02`) objective control - add up OC on models near a marker, like counting who holds a flag • **InSv** invulnerable save (ignores AP) • **Ld** rolled on 2D6 against a target such as 7+ • **Engagement Range** (`03.04`) 2" horizontally, 5" vertically • **Coherency** (`03.03`) within 2" of one model and 9" of all • **Objective marker** 3" horizontally, 5" vertically.
+**OC** (`14.02`) = sum of OC on models **in the objective's terrain footprint** (`14.01`) • **InSv** invulnerable save (ignores AP) • **Ld** rolled on 2D6 against a target such as 7+ • **Engagement Range** (`03.04`) 2" horizontally, 5" vertically • **Coherency** (`03.03`) within 2" of one model and 9" of all • **Leader / Support** (`19.01`) attach pre-game; deploy as one unit.
 
 ---
 
 ## PRE-GAME CHECKLIST
 
 - [ ] Terrain on the table **before** deployment. Agree what is Light / Dense / Obscuring.
-- [ ] Objective markers placed and counted - note which are in No Man's Land.
-- [ ] Detachment named. Enhancements written down. **Characters attached to squads now.**
+- [ ] Objective **terrain footprints** agreed (`14.01`) — note which are in No Man's Land.
+- [ ] Detachment named. Enhancements written down. **Leader/Support attached to bodyguards now** (`19.01`).
+- [ ] Attached units will deploy in **coherency** (`03.03`) as one blob.
 - [ ] Reserves declared (max 50% of your points).
 - [ ] Reanimation token on the table edge.
 

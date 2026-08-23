@@ -92,7 +92,7 @@ Rules ideas and tactical principles. Location: `KB/concepts/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[objective_control]] | Totals vs presence; terrain-area **14.01**; re-check every phase/turn **14.02**; tie = nobody; Battle-shock zeroes OC **08.03**; not KT 1" control range | verified | 2026-08-20 |
+| [[objective_control]] | Sum OC of models on the terrain **footprint** (**14.01**); re-check every phase/turn (**14.02**); tie = nobody; mission card scores VP; Battle-shock zeroes OC; not KT 1" control | draft | 2026-08-23 |
 | [[power_matrix]] | Canoptek Court rule: DZ always; NML/enemy if ≥ half markers; Cryptek/Canoptek two-tier hit re-rolls. **L0 Kill Team correction kept** | draft | 2026-08-20 |
 | [[reanimation_protocols]] | Necron army rule: end of your Command phase, D3 wounds per unit (heal first, then return at 1W); wiped = gone. Back-filled from shipping 2026-08-19 | draft | 2026-08-19 |
 | [[oath_of_moment]] | The Space Marine army rule: nominate one enemy unit per turn and attack it better. Turns target priority into the defining decision | unverified | 2026-08-16 |

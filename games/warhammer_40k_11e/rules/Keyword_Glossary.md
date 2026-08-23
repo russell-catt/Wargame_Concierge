@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Keyword_Glossary.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -161,17 +161,17 @@ Anything not marked `verified` should be checked against your faction pack or th
 
 | Term | What it means | When it matters | Status |
 |------|---------------|-----------------|--------|
-| **Objective Control (OC)** (**14.02**) | A profile characteristic; totals decide who controls an objective | Re-checked at the end of **every phase and turn**. Numbers of bodies beat quality. **Not** KT 1" control range | `verified` |
-| **Objective / terrain objective** | The place being fought over, usually a defined terrain area | A model is in range simply by being inside that terrain area | `verified` |
+| **Objective Control (OC)** (**14.02**) | Profile characteristic; **sum** eligible models' OC within range to decide control | Re-checked end of **every phase and turn**. Higher total controls; tie = nobody. Mission card says when you **score** VP for control. **Not** KT 1" control range | `verified` |
+| **Objective / terrain objective** (**14.01**) | The place fought over — usually a defined **terrain footprint** | Model is in range while **inside that terrain area** (on the footprint) | `verified` |
 | **Objective marker** | A flat 40 mm circular marker, used where an objective is not a terrain area | Range is 3" horizontally and 5" vertically | `verified` |
 | **Secured** | An objective that stays yours after your models leave | Until the opponent out-controls you at the end of a phase | `verified` |
 | **Battle-shock** | A failed 2D6 Leadership roll. The unit loses its OC, cannot be targeted by your stratagems, and cannot act | Tested in the Command phase for units at or below half-strength | `verified` |
 | **Leadership (Ld)** | The dice result a battle-shock or leadership roll must beat, rolled on 2D6 | Presented as a dice result such as 7+ | `verified` |
 | **Half-strength** | Half the models remaining, or half the wounds for a single model | The trigger for battle-shock tests | `verified` |
-| **Leader** | A character ability that attaches it to a bodyguard unit | The two become one unit for all rules purposes | `verified` |
-| **Support** | A second attachment slot alongside Leader | New emphasis in 11th Edition - a bodyguard unit can normally take one Leader **and** one Support | `verified` |
-| **Bodyguard unit** | The squad a Leader or Support unit attaches to | Its Toughness is used for the whole attached unit | `verified` |
-| **Attached unit** | The combined Leader/Support plus bodyguard | Holds every keyword of its parts, which can expose it to Anti-X weapons it would otherwise dodge | `verified` |
+| **Leader** (**19.01**) | Character ability that attaches to a bodyguard before battle | Becomes one unit with the bodyguard (and optional Support) | `verified` |
+| **Support** (**19.01**) | Second attachment slot alongside Leader | Bodyguard may normally take **one Leader and one Support**. Crypteks are often Support in pack v1.1 | `verified` |
+| **Bodyguard unit** | The squad a Leader or Support attaches to | Its Toughness is used for the whole attached unit | `verified` |
+| **Attached unit** (**19.01**) | Leader and/or Support plus bodyguard as **one unit** | Deploy all models in **coherency** (**03.03**). Holds every keyword of its parts | `verified` |
 | **Detachment** | The rules package your list is built under, between "army" and "unit" | Supplies a detachment rule, enhancements, and stratagems. Your first real list-building decision | `verified` |
 | **Detachment rule** | The army-wide ability your chosen detachment grants | Distinct from the army rule, which you get regardless | `verified` |
 | **Army rule** | The faction-wide ability every list of that faction has | Reanimation Protocols for Necrons, Oath of Moment for Space Marines | `verified` |
@@ -235,6 +235,7 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-23): Event feedback — OC terrain footprint / control-vs-score; Leader+Support + coherency cites (**14.01**/**14.02**/**19.01**/**03.03**).
 - v0.5.1 (2026-08-18): Rule-ID cites; OC vs KT 1" control range flag (track `40k_warcom_quotes` S3/S4).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial shipping glossary (slice S3). Terms verified against the owned Core Rules PDF, Universal Rules Updates v1.0, Necrons Faction Pack v1.1, and Event Companion v1.1, all read 2026-08-16, plus the Wahapedia Necrons page retrieved 2026-08-16. Power Matrix upgraded to `verified` with its full effect. Records a new conflict on the Cryptek Conclave detachment rule name.

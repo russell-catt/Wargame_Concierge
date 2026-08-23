@@ -94,7 +94,7 @@ Under the tournament framework in the owned Event Companion (Version 1.1), VP co
 
 That is a 100VP ceiling, and **90 of those 100 points come from doing things on the board rather than from destroying the enemy.** Casual pick-up games do not have to use the event caps, but the shape is the same: objectives first.
 
-Objectives are specific spots on the table. You control one by having more **Objective Control (OC)** there than your opponent (**14.02**) - see [`Key_Concepts.md`](Key_Concepts.md). This is why ten cheap infantry models can beat one expensive tank at the thing that actually scores.
+Objectives are usually **terrain footprints** (**14.01**). You **control** one by having a higher total **Objective Control (OC)** from models inside that footprint than your opponent (**14.02**) — then the **mission card** says when you score VP for that control. See [`Key_Concepts.md`](Key_Concepts.md). This is why ten cheap infantry models can beat one expensive tank at the thing that actually scores.
 
 ---
 

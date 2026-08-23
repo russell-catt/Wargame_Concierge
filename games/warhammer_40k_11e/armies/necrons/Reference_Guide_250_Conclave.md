@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_250_Conclave.md
-VERSION: v1.2 (2026-08-20)
+VERSION: v1.3 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -34,6 +34,31 @@ UPDATE_TRIGGER:
 Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 
 **List in one line:** Geomancer (Atomic Disintegrators) + 10 Warriors + 2 Tomb Crawlers + 3 Scarabs = **255** *(245 without enhancement)*. Geomancer attaches to Warriors.
+
+---
+
+## 0. Before you deploy — attach + objectives (event feedback)
+
+### Objectives & scoring (Chapter 14)
+
+| Rule | Plain teaching |
+|------|----------------|
+| **14.01** Terrain objectives | The mission places each objective on a **terrain area**. That terrain **footprint** *is* the objective. A model is in range while it is **inside that terrain area**. |
+| **14.02** Level of control | At the end of **every phase and turn**, **sum the OC** of your models within range. Higher total **controls** it. Tie = nobody. |
+| Scoring VP | The **mission card** says *when* you score (often end of turn). You need **control** first (`14.02`), then score when the mission says. |
+| Battle-shock | A battle-shocked unit contributes **0 OC** — it stops holding the footprint. |
+
+**Habit:** after every phase, re-total OC on contested footprints. Control flips without anyone shooting.
+
+### Attach & deploy (Chapter 19 + **03.03**)
+
+| Rule | Plain teaching |
+|------|----------------|
+| **19.01** Form attached units | Before battle, each **Leader** / **Support** attaches to one eligible **bodyguard**. Normally **one Leader + one Support** per bodyguard → **one unit**. |
+| This 250 list | Geomancer is **Support**; Warriors are the bodyguard. Crawlers and Scarabs stay separate units. |
+| At 500+ | You can often add a **Leader** (e.g. Royal Warden) to the **same** Warrior brick alongside the Geomancer — three datasheets, one unit. |
+| **03.03** Coherency | When you **deploy** the attached unit, set up **all** its models as **one blob** in coherency (within 2" of another model in the unit, and within 9" of every model). Do not deploy the Geomancer as a separate unit. |
+| Mid-game | You **cannot** attach later. Write the attachment on the list before deployment. |
 
 ---
 
@@ -174,10 +199,12 @@ Pick the **Atomic Disintegrators** anti-Vehicle or anti-Monster menu option (con
 - [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md)
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) · [`Cryptek_Conclave.md`](Cryptek_Conclave.md)
 - [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md)
+- [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) — Objectives (**14.01**/**14.02**) and attach/deploy (**19.01**/**03.03**)
 
 ---
 
 ## Change Log
+- v1.3 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) section.
 - v1.2 (2026-08-20): Legion — re-roll D3 on any RP activate including Syphon; WarCom FAQ cite via analysis.
 - v1.1 (2026-08-19): Core rule IDs / plain-language pass (from main).
 - v1.0 (2026-08-19): Initial 250 Conclave reference with RP and shooting math.

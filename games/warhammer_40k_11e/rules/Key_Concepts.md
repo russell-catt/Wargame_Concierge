@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Key_Concepts.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -130,16 +130,18 @@ The rules that matter here:
 
 ## Objective Control - how you actually win
 
-Objectives are places on the table, usually a defined **terrain area** (**14.01**). A model is within range of a terrain objective simply by being inside that terrain area.
+**Chapter 14** is the scoring spine. Most missions put each objective on a defined **terrain area** (**14.01**) — that terrain **footprint** *is* the objective. A model is within range of a terrain objective while it is **inside that terrain area** (on / touching the footprint). Where a mission uses a flat **objective marker** instead, range is typically **3" horizontally / 5" vertically** from the marker.
 
-At the end of **every phase and every turn** (**14.02**):
+**Level of control (**14.02**)** — at the end of **every phase and every turn**:
 
-1. Each player adds up the **OC** of all their models within range of the objective.
-2. The higher total controls it. A tie means nobody controls it.
+1. Each player **sums the OC** of every eligible model they have within range of that objective.
+2. The **higher total** controls it. A **tie** means nobody controls it (unless the objective is **Secured**).
+
+**Control vs scoring:** **14.02** decides *who holds* the objective. **Victory Points** come from the **mission card** — score when it says (often end of turn / round) for objectives you currently control. Holding without scoring, or scoring without holding, is the classic beginner miss.
 
 Consequences worth internalising:
 
-- **Control flips constantly.** It is re-checked at the end of every phase, so a unit that walks on during your Movement phase can take an objective away without firing a shot.
+- **Control flips constantly.** It is re-checked at the end of every phase, so a unit that walks onto the footprint during your Movement phase can take an objective without firing a shot.
 - **Bodies beat quality.** Ten models with OC 1 out-hold one tank with OC 3.
 - **A battle-shocked unit has no OC at all.** Morale failure can hand over an objective you thought was safe.
 - **Secured** objectives are the exception: some rules let you keep control after your models leave, until the opponent out-controls you at the end of a phase.
@@ -169,16 +171,22 @@ Morale in 11th Edition is one roll with three sharp consequences.
 
 ## Leaders, Support, and attached units
 
-Characters do not usually fight alone. Before the battle, a **Leader** unit or a **Support** unit is attached to an eligible **bodyguard** unit (**19.01**), and from then on they are **one unit** for every rules purpose.
+**Chapter 19** covers attached units. Characters do not usually fight alone.
+
+**Forming the unit (**19.01**):** before the battle (Muster Armies / battle formations), each **Leader** and each **Support** may attach to one eligible **bodyguard** unit listed on its datasheet / in the app. Unless a rule says otherwise, a bodyguard may take **one Leader and one Support** — so **three datasheets** (Leader + Support + bodyguard) become **one attached unit** for all rules purposes. You **cannot** attach mid-game.
+
+**Deploying them (**03.03**):** when you set that attached unit up, place **all** of its models as **one unit in coherency** — every model within **2"** horizontally and **5"** vertically of at least one other model in the unit, and within **9"** horizontally and **5"** vertically of every other model. Leader, Support, and bodyguard deploy as one blob, not as separate units.
+
+**Cryptek Conclave example:** Geomancer is **Support**; Necron Warriors are the bodyguard. At **250**, Support + Warriors is enough. At **500+**, a Royal Warden (**Leader**) can join the **same** Warrior brick alongside the Geomancer — Leader + Support + bodyguard = one unit.
 
 What follows from that:
 
 - Attacks target the combined unit and use the **bodyguard's Toughness**, not the character's.
 - The attached unit has **all** the keywords of its components - which cuts both ways, since a `[ANTI-PSYKER]` weapon now bites the whole squad because the leader is a psyker.
-- A leader's abilities apply to the whole unit **until the last model of that leader unit is destroyed**.
+- A leader's / Support's unit abilities apply to the whole unit **until the last model of that Leader/Support unit is destroyed**.
 - The unit only counts as destroyed when the last model from the whole attached unit is gone.
 
-> **11th Edition change worth flagging:** several Necron Crypteks moved from **Leader** to **Support** in the owned Faction Pack v1.1. Both form attached units, but a bodyguard unit can normally take one of each - so a Cryptek and a Leader character can stack on the same squad. Confirm per datasheet before list-building.
+> **11th Edition change worth flagging:** several Necron Crypteks moved from **Leader** to **Support** in the owned Faction Pack v1.1. Confirm per datasheet before list-building.
 
 ---
 
@@ -207,6 +215,7 @@ Core stratagems every army has include Command Re-roll, Insane Bravery, Fire Ove
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-23): Event feedback — OC terrain footprint + control-vs-score (**14.01**/**14.02**); Leader+Support join + deploy coherency (**19.01**/**03.03**).
 - v0.5.1 (2026-08-18): Rule-ID cites; cover/Heavy/OC paraphrase confirmed (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial core mechanics guide (slice S3), from the owned Core Rules PDF and Necrons Faction Pack v1.1, both read 2026-08-16.

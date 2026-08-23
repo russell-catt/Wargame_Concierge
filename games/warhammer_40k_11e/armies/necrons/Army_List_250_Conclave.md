@@ -53,7 +53,7 @@ UPDATE_TRIGGER:
 | 4 | **Canoptek Scarab Swarms** | 3 | 40 | Wide OC / harassment |
 | | | | **245** | |
 
-**Battle Formations:** Geomancer attaches to Warriors (Support). Crawlers and Scarabs are separate units.
+**Battle Formations:** Geomancer (**Support**) attaches to Warriors before deployment (**19.01**). Deploy them as **one unit** in coherency (**03.03**) — not as two separate units. Crawlers and Scarabs are separate. At 500+ you can often add a **Leader** to the same Warrior brick alongside this Support.
 
 **Optional pad to exactly 250:** Add **Atomic Disintegrators (10)** on the Geomancer → **255** *(5 over — drop Scarabs for a 3-unit 215+10 list)*.
 

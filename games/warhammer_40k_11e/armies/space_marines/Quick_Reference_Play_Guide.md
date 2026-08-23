@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.6.0 (2026-08-21)
+VERSION: v0.6.1 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
 
@@ -26,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
+  - v0.6.1 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) pointers.
   - v0.6.0 (2026-08-21): Starter snapshot → owned Blood Ravens ladder (250–1000); ownership audited.
   - v1.0 (2026-08-16): Initial two-page laminate (slice S5).
 
@@ -149,9 +150,25 @@ Against that unit, every model in your army with the ability gets:
 | **DO** tick the doctrine box the moment you spend one | **DON'T** assume you can re-use a doctrine. Each is **once per battle** |
 | **DO** skip a doctrine on a round that does not need one | **DON'T** hoard Tactical Doctrine while a squad sits stuck in combat |
 | **DO** remember Adaptive Strategy (1CP) can re-grant a spent doctrine to one unit | **DON'T** forget it works even with no doctrine active |
-| **DO** attach characters during pre-game setup | **DON'T** plan to attach mid-game - you cannot |
+| **DO** attach characters during pre-game setup (`19.01`) — Leader **and** Support may join the same bodyguard | **DON'T** plan to attach mid-game - you cannot |
+| **DO** deploy an attached unit as **one coherency blob** (`03.03`) | **DON'T** set Leader/Support up as separate units from their bodyguard |
 | **DO** consolidate 3" onto an objective when there is nothing to fight | **DON'T** skip pile-in and consolidation, they are free movement |
-| **DO** check control at the end of every phase - it flips constantly | **DON'T** count a battle-shocked unit's OC - it is zero |
+| **DO** check control at the end of every phase (`14.02`) - it flips constantly | **DON'T** count a battle-shocked unit's OC - it is zero |
+
+---
+
+## OBJECTIVES & CONTROL (Ch. 14)
+
+- **Terrain objectives (`14.01`):** the mission's terrain **footprint** *is* the objective. A model counts while it is **inside that terrain area**.
+- **Level of control (`14.02`):** at end of **every phase and turn**, **sum OC** of your models in range. Higher total controls; **tie = nobody**.
+- **Score VP** when the **mission card** says (often end of turn) for objectives you control — control first, then score.
+- Battle-shocked units contribute **0 OC**.
+
+## ATTACH & DEPLOY (Ch. 19)
+
+- **Form (`19.01`):** before battle, each Leader/Support attaches to one eligible bodyguard. Normally **one Leader + one Support** per bodyguard → **one unit**.
+- **Example:** Captain (**Leader**) + Lieutenant (**Support**, if eligible) + Tactical Squad = one attached unit. Confirm datasheet eligibility.
+- **Deploy (`03.03`):** set up **all** attached models together in coherency (2"/9" horizontal tests). Cannot attach mid-game.
 
 ---
 
@@ -159,15 +176,16 @@ Against that unit, every model in your army with the ability gets:
 
 `[ASSAULT]` fire after advancing · `[HEAVY]` +1 to hit if unengaged and nothing moved over 3" · `[RAPID FIRE X]` +X attacks within half range · `[LETHAL HITS]` critical hit may skip the wound roll (optional) · `[SUSTAINED HITS X]` critical hit = +X hits · `[DEVASTATING WOUNDS]` critical wound = mortal wounds equal to Damage · `[IGNORES COVER]` target gets no cover benefit · `[TWIN-LINKED]` re-roll the **wound** roll · `[ANTI-X N+]` wound roll of N+ against keyword X is critical · `[LANCE]` +1 to wound if your unit charged this turn · `[BLAST]` +1 attack per five models in the target, never against an engaged unit · `[CLEAVE X]` Blast for melee: +X dice per five models, all attacks at one target · `[PRECISION]` can pick out an attached character · `[HAZARDOUS]` 1-2 on the hazard die costs you a mortal wound · `[MELTA X]` +X Damage within half range · `[TORRENT]` hits automatically · `[CLOSE-QUARTERS]` / `[PISTOL]` identical - shoot while engaged.
 
-**OC** objective control · **InSv** invulnerable save (ignores AP) · **Ld** rolled on 2D6 against a target such as 7+ · **Leader** character that attaches to a squad · **Support** second attachment slot; can attach on its own · **Engagement Range** 2" horizontally, 5" vertically · **Coherency** within 2" of one model and 9" of all · **Objective marker** 3" horizontally, 5" vertically.
+**OC** (`14.02`) = sum of OC on models **in the objective's terrain footprint** (`14.01`) · **InSv** invulnerable save (ignores AP) · **Ld** rolled on 2D6 against a target such as 7+ · **Leader / Support** (`19.01`) attach pre-game; deploy as one unit · **Engagement Range** 2" horizontally, 5" vertically · **Coherency** (`03.03`) within 2" of one model and 9" of all.
 
 ---
 
 ## PRE-GAME CHECKLIST
 
 - [ ] Terrain on the table **before** deployment. Agree what is Light / Dense / Obscuring.
-- [ ] Objective markers placed and counted - note which are in No Man's Land.
-- [ ] Detachment named. Enhancement written next to its bearer. **Characters attached to squads now.**
+- [ ] Objective **terrain footprints** agreed (`14.01`) — note which are in No Man's Land.
+- [ ] Detachment named. Enhancement written next to its bearer. **Leader/Support attached to bodyguards now** (`19.01`).
+- [ ] Attached units will deploy in **coherency** (`03.03`) as one blob.
 - [ ] Three doctrine tick-boxes written at the top of your army list.
 - [ ] Reserves declared (max 50% of your points).
 - [ ] Oath token ready at the table edge.

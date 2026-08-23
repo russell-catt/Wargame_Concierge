@@ -564,3 +564,11 @@ Pages created: games/warhammer_40k_11e/armies/adepta_sororitas/README.md, Owned_
 Pages updated: celestian_insidiants/README.md, _Owned_Teams_Inventory.md, games/warhammer_40k_11e/README.md
 
 Key additions: Metal Canoness / Battle Sisters / Seraphim + Celestian Insidiants declared owned but **unpainted**. Insidiants confirmed as official **11e Adepta Sororitas** datasheet (not KT-only). Counts/bases TBD. No soup with SM.
+
+## [2026-08-23] query | Event feedback — Objectives/OC + Leader/Support deploy pointers
+
+Pages consulted: Key_Concepts, Core_Rules_Quotes (14.01, 14.02, 19.01, 03.03), Necron/SM Quick_Reference, Reference_Guide_250_Conclave, objective_control, glossary
+
+Output filed: yes — shipping guide updates + [[objective_control]] refresh (not a new analyses page)
+
+Key answer: Control = sum OC of models on the objective terrain footprint (14.01/14.02); score VP per mission card. Leader + Support may join one bodyguard (19.01) and deploy as one coherency unit (03.03); 250 Conclave = Geomancer Support + Warriors.
