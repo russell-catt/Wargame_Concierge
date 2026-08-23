@@ -28,12 +28,13 @@ Run this workflow when the user (or an explicit cloud-agent task) asks to **comm
    - Suffix `-b7e0`  
    - Lowercase only  
    Example: `cursor/readme-date-stamp-b7e0`
-3. **`gh` CLI is read-only for most write operations** in this environment. Use it to *inspect* (`gh pr view`, `gh pr list`, `gh run list`). Do **not** use `gh pr create` — use ManagePullRequest instead. **`gh pr merge` is allowed only when the user requested a merge and only with `--squash`** (see §6); if that command is blocked, fall back to asking the user to Squash and merge in GitHub.
-4. **Create/update PRs with the `ManagePullRequest` tool** (`create_pr` / `update_pr`). Always set `branch_name` and `base_branch` (`main` unless the user says otherwise).
-5. Prefer **draft PRs** unless the user asks for ready-for-review.
+3. **`gh` CLI is read-only for PR *create*** — use ManagePullRequest for create/update. **`gh pr merge` is required when the user asks to merge**, always with `--squash` (see §6).
+4. **Create/update PRs with the `ManagePullRequest` tool** (`create_pr` / `update_pr`). Always set `branch_name` and `base_branch` (`main` unless the user says otherwise). Prefer **ready** (non-draft) PRs when the user also asked to merge in the same turn.
+5. Prefer **draft PRs** only when the user is not asking to merge yet.
 6. Commit messages: use a HEREDOC; include a clear subject. If the user gives an exact commit reason/message, use that text as the subject (or first line).
 7. Do not commit secrets, `.env`, or binaries blocked by `.gitignore` (PDFs/images). Do not write under `raw/`.
 8. **Whenever the user requests a merge, use squash and merge only.** Do not create a merge commit and do not rebase-merge unless the user explicitly asks for a different method.
+9. **Owner one-time smoothers** live in [`docs/operations/github_ship_smoothers.md`](../../docs/operations/github_ship_smoothers.md) (enable auto-merge, squash-only methods). Agents cannot PATCH those settings (403).
 
 ## Standard ship workflow
 
@@ -102,7 +103,7 @@ PR body should summarize what changed and note that merge to `main` is **squash 
 
 ### 6. Merge to `main` (squash only)
 
-**Default merge method: squash and merge.** Apply this whenever the user asks to merge (including “merge to main”, “squash merge”, or “land this PR”).
+**Default merge method: squash and merge.** Apply this whenever the user asks to merge (including “merge to main”, “squash merge”, “commit, push and merge”, or “land this PR”).
 
 | Method | When |
 |--------|------|
@@ -110,22 +111,24 @@ PR body should summarize what changed and note that merge to `main` is **squash 
 | Create a merge commit | Only if the user explicitly asks |
 | Rebase and merge | Only if the user explicitly asks |
 
-**Do not attempt merge unless the user asked to merge** (a “rule test” / commit+push request alone is not a merge request). Still open the PR so they can squash-merge when ready.
+**Same-turn ship:** if the user asked to commit **and** push **and** merge, do §3–§5 then immediately continue §6 — do not stop after opening the PR.
 
-**Preferred path while `main` is protected:** user clicks **Squash and merge** on the PR in GitHub. Tell them that button — not “Create a merge commit” or “Rebase and merge”.
+**Preferred path:** agent squash-merges the PR. Human UI is fallback only.
 
 **Agent attempts (only after an explicit merge request), in order:**
 
 1. Confirm PR state: `gh pr view <n> --json state,mergeable,url`  
-   - Note: GraphQL `mergeable: MERGEABLE` can still fail the actual merge when **branch policy** (reviews, status checks, etc.) blocks it.
+   - Note: GraphQL `mergeable: MERGEABLE` can still fail when **branch policy** blocks the merge.
 2. Do **not** `git push origin main` — protection rejects it (`GH013`).
 3. Do **not** fast-forward or merge the feature branch into local `main` and push.
-4. Try squash merge:  
+4. Squash merge now:  
    `gh pr merge <n> --squash --delete-branch`  
-   - On success: fetch/reset local `main` to `origin/main`, then run §7 cleanup.
-   - On `base branch policy prohibits the merge`: **stop**. Report the PR URL. Ask the user to **Squash and merge** in GitHub (or satisfy the required checks/reviews). Optionally offer `gh pr merge <n> --squash --auto` so it lands when policy is satisfied — only if the user wants auto-merge.
-   - Do **not** use `--admin` unless the user explicitly authorizes admin override.
-5. If `gh pr merge` is entirely disallowed in this environment, skip to the human Squash and merge handoff (ManagePullRequest has no merge action).
+5. If that fails with `base branch policy prohibits the merge` (or similar):  
+   `gh pr merge <n> --squash --auto --delete-branch`  
+   Then tell the user auto-merge is armed (needs **Allow auto-merge** enabled — see [`docs/operations/github_ship_smoothers.md`](../../docs/operations/github_ship_smoothers.md)).
+6. If both fail: report the PR URL and ask the user to click **Squash and merge**, or to complete the owner checklist in `github_ship_smoothers.md`.  
+   - Do **not** use `--admin` unless the user explicitly authorizes admin override in that turn.
+7. If `gh pr merge` is entirely unavailable, hand off to human Squash and merge (ManagePullRequest has no merge action).
 
 After a successful squash merge:
 
@@ -135,7 +138,7 @@ git checkout main
 git reset --hard origin/main
 ```
 
-If local `main` was accidentally advanced during a failed push attempt, use the same reset. Keep the feature branch tip intact until squash merge completes.
+Then run §7 cleanup. Keep the feature branch tip intact until squash merge completes.
 
 ### 7. After merge — cleanup `cursor/` branches
 
