@@ -64,6 +64,7 @@ Reuse an existing `cursor/...-b7e0` branch for the same task when one already tr
 git status
 git diff
 git add <paths...>   # avoid blanket git add -A unless the user wants everything
+git status           # confirm the intended files are staged before commit
 git commit -m "$(cat <<'EOF'
 <subject line>
 
@@ -71,6 +72,8 @@ git commit -m "$(cat <<'EOF'
 EOF
 )"
 ```
+
+**Race guard:** if tools just wrote files, re-read `git status` after `git add`. An empty commit (`nothing to commit, working tree clean` right after an edit) usually means the add ran before the write landed — add again, then commit.
 
 If commit fails due to hooks, fix the issue and create a **new** commit (do not `--amend` unless the user asks and the commit has not been pushed, or amend rules in the session allow it).
 
@@ -84,12 +87,18 @@ On network failure, retry with backoff (about 4s, 8s, 16s, 32s) up to 4 times.
 
 ### 5. Open or update the PR
 
+Before opening a new PR, scan open PRs so you do not duplicate an unfinished rule-test / date-stamp branch:
+
+```bash
+gh pr list --state open --json number,title,headRefName,url
+```
+
 Use **ManagePullRequest**:
 
 - **create_pr:** `title`, `body`, `branch_name`, `base_branch: main`, `draft` as appropriate  
 - **update_pr:** when iterating on the same branch; update `body`/`title` only when needed  
 
-PR body should summarize what changed and note that merge to `main` is **squash and merge** (protected `main`; no direct pushes).
+PR body should summarize what changed and note that merge to `main` is **squash and merge** (protected `main`; no direct pushes). Include the PR URL in the user-facing summary every time.
 
 ### 6. Merge to `main` (squash only)
 
@@ -152,10 +161,14 @@ Stay on `main` aligned to `origin/main` after cleanup.
 | Symptom | Meaning | Action |
 |---------|---------|--------|
 | `GH013` / `Cannot update this protected ref` on `main` | Branch protection working | Ship via PR; ask user to **Squash and merge** |
-| `gh pr create` fails / disallowed | `gh` write blocked | Use ManagePullRequest |
+| `base branch policy prohibits the merge` | Reviews/checks/rules block squash | Hand off PR URL; optional `--auto` if user wants; never `--admin` unless asked |
+| `mergeable: MERGEABLE` but merge still fails | API “mergeable” ≠ policy-satisfied | Treat policy error as source of truth |
+| `nothing to commit` right after an edit | Add raced the write | `git add` again, confirm staged, then commit |
+| `gh pr create` fails / disallowed | `gh` write blocked for create | Use ManagePullRequest |
 | Push rejected on feature branch | Auth/network/rule | Retry backoff; check remote permissions |
 | Local `main` ahead of `origin/main` after failed merge push | Local-only FF | `git reset --hard origin/main` |
 | User asked to merge; wrong method used | Policy | Always **squash**; never merge-commit/rebase unless asked |
+| Stale open `cursor/*` date-stamp / test PRs | Prior rule tests unmerged | List open PRs before opening duplicates; reuse or close with user OK |
 
 ## Done criteria
 
