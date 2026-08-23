@@ -1,12 +1,12 @@
 <!--
 FILE: START_HERE.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
 DOCUMENT_TYPE: Onboarding / Entry Point
 PROJECT_NAME: Wargame_Concierge
-PROJECT_STATUS: Active - v0.5.0 snapshot
+PROJECT_STATUS: Active - v0.5.1 snapshot
 
 SOURCES:
   - README.md
@@ -109,6 +109,7 @@ Warhammer 40,000 11th Edition is **new**, and the sources move under us. Every K
 
 ## Change Log
 
+- v0.5.1 (2026-08-23): Date stamp refresh (rule test #2).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Read order includes KT README / Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial onboarding entry point. Created in slice S1.
 
