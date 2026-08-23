@@ -1,12 +1,12 @@
 <!--
 FILE: README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
 DOCUMENT_TYPE: Project Overview
 PROJECT_NAME: Wargame_Concierge
-PROJECT_STATUS: Active - v0.5.0 snapshot
+PROJECT_STATUS: Active - v0.5.1 snapshot
 
 SOURCES:
   - START_HERE.md
@@ -211,6 +211,7 @@ Patches happen. Re-check before a real game.
 
 ## Change Log
 
+- v0.5.1 (2026-08-23): Date stamp refresh.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Second system KT24; read-order and quote exception.
 - v1.0 (2026-08-16): Initial project overview - goals, four-layer architecture, structure map, conventions, copyright policy. Created in slice S1.
 
