@@ -5,7 +5,8 @@ description: >-
   GitHub repo (russell-catt/Wargame_Concierge). Use when the user asks to
   commit, push, open a PR, merge to main, clean up cursor branches, or
   ship finished agent work to GitHub. Encodes branch naming, protected-main
-  rules, and ManagePullRequest vs gh CLI.
+  rules, ManagePullRequest vs gh CLI, and squash-and-merge as the default
+  merge method.
 ---
 
 # GitHub commit / push / merge (Wargame_Concierge)
@@ -32,6 +33,7 @@ Run this workflow when the user (or an explicit cloud-agent task) asks to **comm
 5. Prefer **draft PRs** unless the user asks for ready-for-review.
 6. Commit messages: use a HEREDOC; include a clear subject. If the user gives an exact commit reason/message, use that text as the subject (or first line).
 7. Do not commit secrets, `.env`, or binaries blocked by `.gitignore` (PDFs/images). Do not write under `raw/`.
+8. **Whenever the user requests a merge, use squash and merge only.** Do not create a merge commit and do not rebase-merge unless the user explicitly asks for a different method.
 
 ## Standard ship workflow
 
@@ -87,18 +89,29 @@ Use **ManagePullRequest**:
 - **create_pr:** `title`, `body`, `branch_name`, `base_branch: main`, `draft` as appropriate  
 - **update_pr:** when iterating on the same branch; update `body`/`title` only when needed  
 
-PR body should summarize what changed and any follow-up (e.g. “merge via GitHub UI — main is protected”).
+PR body should summarize what changed and note that merge to `main` is **squash and merge** (protected `main`; no direct pushes).
 
-### 6. Merge to `main`
+### 6. Merge to `main` (squash only)
 
-**Preferred:** user merges the PR in GitHub (required while `main` is protected from direct pushes).
+**Default merge method: squash and merge.** Apply this whenever the user asks to merge (including “merge to main”, “squash merge”, or “land this PR”).
 
-**Agent attempts:**
+| Method | When |
+|--------|------|
+| **Squash and merge** | **Always**, when the user requests a merge |
+| Create a merge commit | Only if the user explicitly asks |
+| Rebase and merge | Only if the user explicitly asks |
+
+**Preferred path while `main` is push-protected:** user (or GitHub UI) clicks **Squash and merge** on the PR. Tell them to use that button — not “Create a merge commit” or “Rebase and merge”.
+
+**Agent attempts (in order):**
 
 1. Confirm PR is mergeable: `gh pr view <n> --json state,mergeable,url`
-2. Do **not** `git push origin main` — it will be rejected by protection.
-3. Do **not** `gh pr merge` (write-blocked in this environment).
-4. Report the PR URL and that **human merge on GitHub** is required unless protections are later loosened for a bot token.
+2. Do **not** `git push origin main` — protection rejects it.
+3. Do **not** fast-forward or merge the feature branch into local `main` and push.
+4. If merge write access is available for this environment, squash-merge the PR (e.g. `gh pr merge <n> --squash --delete-branch` when `gh` writes are allowed for merge). Prefer deleting the head branch after a successful squash.
+5. If write merge is blocked (current default: `gh` mutating commands disallowed; ManagePullRequest has no merge action), report the PR URL and ask the user to **Squash and merge** in GitHub.
+
+After a successful squash merge, `git fetch origin main` and reset local `main` to `origin/main`.
 
 If local `main` was accidentally fast-forwarded during a failed push attempt, reset it so it matches remote:
 
@@ -108,7 +121,7 @@ git checkout main
 git reset --hard origin/main
 ```
 
-Keep the feature branch tip intact for the open PR.
+Keep the feature branch tip intact for the open PR until squash merge completes.
 
 ### 7. After merge — cleanup `cursor/` branches
 
@@ -138,15 +151,17 @@ Stay on `main` aligned to `origin/main` after cleanup.
 
 | Symptom | Meaning | Action |
 |---------|---------|--------|
-| `GH013` / `Cannot update this protected ref` on `main` | Branch protection working | Ship via PR; ask user to merge |
+| `GH013` / `Cannot update this protected ref` on `main` | Branch protection working | Ship via PR; ask user to **Squash and merge** |
 | `gh pr create` fails / disallowed | `gh` write blocked | Use ManagePullRequest |
 | Push rejected on feature branch | Auth/network/rule | Retry backoff; check remote permissions |
 | Local `main` ahead of `origin/main` after failed merge push | Local-only FF | `git reset --hard origin/main` |
+| User asked to merge; wrong method used | Policy | Always **squash**; never merge-commit/rebase unless asked |
 
 ## Done criteria
 
 - [ ] Changes committed on `cursor/...-b7e0` (not on `main`)
 - [ ] Branch pushed to `origin`
 - [ ] PR created or updated against `main`
+- [ ] If user requested merge: **squash and merge** used (or user pointed at Squash and merge in GitHub)
 - [ ] User informed how to merge if protection blocks the agent
 - [ ] Merged `cursor/` branches cleaned up when requested; open-PR branches kept
