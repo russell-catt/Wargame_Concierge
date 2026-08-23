@@ -32,6 +32,11 @@ UPDATE_TRIGGER:
 
 # Starter list - 500 points
 
+> **FORCE DISPOSITION — write on the list before you deploy (depends on which list below)**
+> **Canoptek Court path → Take and Hold** · `CANOPTEK COURT - 3DP - TAKE AND HOLD`
+> **Cryptek Conclave path → Priority Assets** · `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Conclave Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md)
+
 500 points is the first size that feels like Warhammer 40,000 rather than a demo: two objectives worth fighting over, a real character, and enough units that the order you activate them starts to matter.
 
 Both lists below **start from the full, owned Kill Team: Tomb World box** - nothing needs to be built or bought to reach the **315-point** foundation (MFM v1.2).

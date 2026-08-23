@@ -31,6 +31,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 250 points
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 A first game should be small, short, and mostly about learning the **phase order** (`07.02` — Command, Movement, Shooting, Charge, Fight). 250 points is roughly four units a side and finishes in an evening.
 
 **The list below is playable tonight.** Every unit in it is assembled, painted, and game-ready - it is the **Kill Team: Tomb World** box, which is the preferred learning baseline for this collection. See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).

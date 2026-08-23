@@ -31,6 +31,10 @@ UPDATE_TRIGGER:
 
 # Cryptek Conclave - the Technosorcerous Augmentations detachment
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 The Necron detachment where **Cryptek characters upgrade the guns of whoever they are standing with**, one ability at a time, every **Shooting phase** (`10.02`).
 
 Think of it like a science teacher picking one bonus for the whole class each time they shoot — not a permanent upgrade for the whole army.

@@ -31,9 +31,14 @@ UPDATE_TRIGGER:
 
 # Army list - 245 pts - Cryptek Conclave
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 | Field | Value |
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
+| **Force Disposition** | **Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
 | **Points** | **245 / 250** *(5 pts under cap — fine for learning)* |
 | **Warlord** | Cryptek Geomancer |
 | **Playable tonight?** | Yes — all four units game-ready (Tomb World) |

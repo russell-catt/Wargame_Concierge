@@ -36,6 +36,10 @@ UPDATE_TRIGGER:
 
 # Necron starter forces - 500 / 750 / 1,000 (Cryptek Conclave)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 **Primary detachment:** [`Cryptek_Conclave.md`](Cryptek_Conclave.md) (Technosorcerous Augmentations).
 
 | Version | Rule |

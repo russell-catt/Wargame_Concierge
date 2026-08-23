@@ -26,6 +26,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 750 points (Casual)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Casual — Legends allowed (opponent agreement).** Do **not** use this list in matched play / tournament. Legends points from Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — draft until owned PDF glance.
 
 Matched 750 is double Terminators + Chaplain + Honour Vehement (exactly 750) with **no** room for Legends. This Casual rebuild keeps one Terminator brick, brings the **Techmarine + Astartes Servitors**, and both bike units — all Legends that own and fit into a cogent 750.

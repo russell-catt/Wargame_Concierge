@@ -28,6 +28,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 500 points (Matched)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Matched play — no Legends.** Costed from Munitorum Field Manual (Marines) only. For Bike Squad, Attack Bike, and Astartes Servitors see the Casual twin.
 
 500 points is the first size that feels like a real game: a character worth protecting, a gun line, and enough units that [Combat Doctrines](Gladius_Task_Force.md) matter.

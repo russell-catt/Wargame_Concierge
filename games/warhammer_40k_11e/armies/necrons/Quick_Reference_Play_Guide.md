@@ -48,6 +48,11 @@ UPDATE_TRIGGER:
 
 # NECRONS - TABLE REFERENCE | Page 1 of 2
 
+> **FORCE DISPOSITIONS (write on every list)**
+> **Cryptek Conclave → Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`)
+> **Canoptek Court → Take and Hold** (`CANOPTEK COURT - 3DP - TAKE AND HOLD`)
+> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Conclave Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md)
+
 ## YOUR TURN, IN ORDER
 
 | # | Phase | Do this |

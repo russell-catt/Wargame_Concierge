@@ -13,6 +13,10 @@ REFERENCE_STATUS: Shim — redirects to Matched / Casual twins
 
 # Starter list - 1000 points
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 Blood Ravens Gladius starters are split into two lines so Legends never sneak into a tournament list by accident.
 
 | Play style | File | Use when |

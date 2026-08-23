@@ -31,9 +31,14 @@ UPDATE_TRIGGER:
 
 # Army list - 500 pts V1 - Cryptek Conclave (no purchases)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 | Field | Value |
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
+| **Force Disposition** | **Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
 | **Points** | **500 / 500** |
 | **Warlord** | Cryptek Geomancer |
 | **Purchases** | **$0** - Hierotek proxies allowed (opponent OK) |

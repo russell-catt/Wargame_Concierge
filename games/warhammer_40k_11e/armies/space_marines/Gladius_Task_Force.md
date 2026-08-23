@@ -32,6 +32,10 @@ UPDATE_TRIGGER:
 
 # Gladius Task Force - Combat Doctrines
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 The Gladius Task Force is the generalist Space Marine detachment and the right one to learn on. It has no gimmick to build a list around. It gives you **three once-per-battle permission slips**, and the whole skill of the detachment is knowing which turn to spend each one.
 
 **Munitorum Field Manual v1.2 tags it `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`**, read 2026-08-16. See the note on `DP` at the bottom of this page.

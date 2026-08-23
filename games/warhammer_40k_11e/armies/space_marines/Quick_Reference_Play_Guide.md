@@ -47,6 +47,10 @@ UPDATE_TRIGGER:
 
 # SPACE MARINES - TABLE REFERENCE | Page 1 of 2
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 ## YOUR TURN, IN ORDER
 
 | # | Phase | Do this |

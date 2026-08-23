@@ -55,7 +55,8 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 |------|---------|
 | [`Reanimation_Protocols.md`](Reanimation_Protocols.md) | The army rule: when it fires, what it restores, and how it changes your decisions |
 | [`Canoptek_Court.md`](Canoptek_Court.md) | Detachment guide - the Power Matrix, and how a beginner uses controlled territory |
-| [`Cryptek_Conclave.md`](Cryptek_Conclave.md) | Detachment guide - **Technosorcerous Augmentations** (the rule older notes miscalled "Scientific Schemes") |
+| [`Cryptek_Conclave.md`](Cryptek_Conclave.md) | Detachment guide - **Technosorcerous Augmentations** (the rule older notes miscalled "Scientific Schemes") · **Force Disposition: Priority Assets** |
+| [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) | **2-pager:** all five Priority Assets Primaries + Conclave keys to success |
 
 ### Play a game
 
@@ -70,7 +71,9 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 | [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md) | Fully statted **1,000 V2** Conclave list (Plasmancer + Szeras + Lychguard buys) |
 | [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md) | 250 companion - Reanimation + Conclave buff math |
 | [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) | 500 V1 companion - RP stacking, dual-brick menus, shooting math |
-| [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't |
+| [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't · Force Dispositions called out |
+
+**Chapter Approved / Force Dispositions:** every list and reference above should show the detachment’s Force Disposition in bold. System 2-pager: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
 
 ### Collection and research
 

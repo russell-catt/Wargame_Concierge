@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Board_Setup.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -61,8 +61,8 @@ Fourteen steps, in order. Steps 1 to 6 are paperwork; the table only starts fill
 
 | # | Step | What you do |
 |---|------|-------------|
-| 1 | **Muster Armies** | Build your list to the agreed points limit, choose your army faction and detachment, and record it |
-| 2 | **Determine Mission** | The mission tells you the Primary Mission - how VP are scored |
+| 1 | **Muster Armies** | Build your list to the agreed points limit, choose your army faction and detachment, **and write your Force Disposition** (from the MFM tag on that detachment — e.g. Priority Assets). See [`Chapter_Approved_Force_Dispositions.md`](Chapter_Approved_Force_Dispositions.md) |
+| 2 | **Determine Mission** | Match your Force Disposition card to your opponent’s → each player gets their **Primary Mission** (often different). Optional **Twist** only if agreed / TO allows |
 | 3 | **Determine a Layout** | Pick or randomise one of the recommended terrain layouts |
 | 4 | **Create the Battlefield** | Lay out the **terrain areas** first, then place terrain features on them - see [`Terrain_Basics.md`](Terrain_Basics.md) |
 | 5 | **Determine Attacker and Defender** | Agree which table edge is whose, then roll off; the winner picks a role |
@@ -135,7 +135,8 @@ Print this, or keep it on your phone.
 - [ ] Terrain **areas** defined and agreed before terrain features go down
 - [ ] Every terrain feature agreed as **Exposed**, **Light**, or **Dense**
 - [ ] Objectives placed per the layout; markers only where an objective is not a terrain area
-- [ ] Primary Mission known by both players
+- [ ] Primary Mission known by both players (**from Force Disposition matching** — each may have a different Primary)
+- [ ] **Force Disposition written on both lists**
 - [ ] Attacker and Defender decided; battlefield edges agreed
 - [ ] Secondary Missions chosen and revealed
 - [ ] Transports and strategic reserves declared and revealed
@@ -185,6 +186,7 @@ This page teaches the pattern; the numbers come from the mission you are playing
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-23): Link Force Disposition muster/matching; checklist row (starter-event feedback).
 - v0.5.1 (2026-08-18): Rule-ID cites; Event Companion still inventoried not dumped (track `40k_warcom_quotes` S4/S5).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial board setup guide (slice S3), from the owned Event Companion v1.1 and Core Rules PDF, both read 2026-08-16.

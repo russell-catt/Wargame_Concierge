@@ -34,6 +34,10 @@ UPDATE_TRIGGER:
 
 # Anvil Siege Force - plant feet, shoot hard
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Take and Hold** · MFM pattern: `ANVIL SIEGE FORCE - 2DP - TAKE AND HOLD` *(confirm on your Marines MFM)*
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 This is the **second-best alternate detachment for your owned Blood Ravens shelf** after Gladius (and after **1st Company** if Terminators are the star). Anvil rewards the **gun line**: Devastators, Whirlwind, and Tacticals that are willing to stop moving.
 
 **MFM tag pattern (confirm on your Marines MFM before play):** community builders list it as **2DP · Take and Hold** (retrieved 2026-08-22).

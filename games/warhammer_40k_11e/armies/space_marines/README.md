@@ -29,6 +29,9 @@ UPDATE_TRIGGER:
 
 Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md`](Oath_of_Moment.md), then pick a **Matched** or **Casual** starter below.
 
+> **FORCE DISPOSITION (Gladius starters):** **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
+> Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
+
 ---
 
 ## Matched vs Casual (pick one path)

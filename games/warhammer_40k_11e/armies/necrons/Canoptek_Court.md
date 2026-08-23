@@ -31,6 +31,10 @@ UPDATE_TRIGGER:
 
 # Canoptek Court - the Power Matrix detachment
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Take and Hold** · MFM: `CANOPTEK COURT - 3DP - TAKE AND HOLD`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 The Necron detachment that turns **holding ground into shooting accuracy**. If you like the idea that standing in the right place makes your guns better — like a home-field advantage — this is the one.
 
 **Munitorum Field Manual v1.2 tags it:** `CANOPTEK COURT - 3DP - TAKE AND HOLD`. "Take and Hold" is the mission-type vocabulary used by the Force Disposition system in the Event Companion v1.1. **What the `3DP` figure means is not defined in any document this project owns** - it is almost certainly what the owner's older notes meant by "3 Data Package Detachment". Treat the label as unexplained, not as a power rating.

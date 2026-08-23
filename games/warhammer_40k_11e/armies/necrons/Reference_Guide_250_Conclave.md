@@ -31,6 +31,10 @@ UPDATE_TRIGGER:
 
 # Reference guide - 250 pts Cryptek Conclave
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 
 **List in one line:** Geomancer (Atomic Disintegrators) + 10 Warriors + 2 Tomb Crawlers + 3 Scarabs = **255** *(245 without enhancement)*. Geomancer attaches to Warriors.

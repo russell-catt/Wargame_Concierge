@@ -28,6 +28,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 1000 points (Matched)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Matched play — no Legends.** Costed from Munitorum Field Manual (Marines) only. For Bike Squad, Attack Bike, and Astartes Servitors see the Casual twin.
 
 1000 points is a full learning battle: midboard OC, two Terminator threats, a gun line, indirect fire, and a Techmarine babysitting the Whirlwind.

@@ -26,6 +26,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 250 points (Casual)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Casual — Legends allowed (opponent agreement).** Do **not** use this list in matched play / tournament. Legends points from Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — re-check before play; draft until owned PDF glance.
 
 Small evening game. Matched twin keeps Terminator / Tactical paths; this Casual line uses the owned **bike shelf** so Legends actually appear at 250.

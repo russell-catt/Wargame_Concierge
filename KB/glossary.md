@@ -58,6 +58,12 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Core rules and scoring
 
+**Force Disposition** - `draft` · **new 2026-08-23** (starter-event feedback)
+: The strategic role tagged on each detachment in the Munitorum Field Manual (e.g. **Priority Assets**, **Take and Hold**, **Purge the Foe**, **Disruption**, **Reconnaissance**). At Muster you pick one available Disposition and write it on the list. Matching your Disposition card to the opponent’s chooses each player’s **Primary Mission** (often different Primaries). Events lock one Disposition for the whole event. See shipping [`Chapter_Approved_Force_Dispositions.md`](../games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions.md). Cryptek Conclave = Priority Assets; Canoptek Court = Take and Hold; Gladius = Priority Assets.
+- Faction / scope: Chapter Approved / Event Companion
+- Verify against: owned Chapter Approved deck + Event Companion v1.1; MFM detachment tags
+- See also: [[cryptek_conclave]], shipping Conclave Primaries 2-pager
+
 **Objective Control** *(OC)* - `verified` · **upgraded in L2** · **ID cite 2026-08-18** · **event polish 2026-08-23**
 : A characteristic on a model's profile representing how strongly it holds ground. Players **sum** the OC of their eligible models within range of an objective; the higher total controls it. It is why a cheap, numerous unit can hold ground an elite unit cannot, and why the game is won by positioning rather than kill count.
 : **Confirmed in 11th Edition (S3, owned Core Rules, read 2026-08-16; IDs re-cited 2026-08-18; event feedback 2026-08-23):** most objectives are **terrain footprints** (**14.01**) — a model counts while **inside that terrain area**. Control is re-checked at the end of **every phase and every turn** (**14.02**). A **battle-shocked** unit contributes no OC at all (**01.07** / **08.03**). **Scoring VP** is separate: the mission card says when you score for controlled objectives.

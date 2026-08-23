@@ -26,6 +26,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 1000 points (Casual)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Casual — Legends allowed (opponent agreement).** Do **not** use this list in matched play / tournament. Legends points from Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — draft until owned PDF glance.
 
 Matched 1000 is **980** with Whirlwind + Techmarine and **no** Legends costed (Servitors / bikes stay in the case). Adding Servitors (55) + Bike Squad (80) + Attack Bike (55) on top of that 980 overshoots 1000. This Casual rebuild **drops the Whirlwind**, keeps double Terminators + both Leaders + Techmarine, and costs **all three** owned Legends units into one combined table — a cogent armour + midboard + guns + fast flank force.

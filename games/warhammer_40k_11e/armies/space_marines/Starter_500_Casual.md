@@ -26,6 +26,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 500 points (Casual)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Casual — Legends allowed (opponent agreement).** Do **not** use this list in matched play / tournament. Legends points from Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — draft until owned PDF glance.
 
 Matched 500 is Captain + Tac + Dev + Terminator brick (exactly 500). To fit **both** owned bike units without inventing points, this Casual rebuild drops the Terminator brick and spends those points on Legends mobility — still a cogent midboard + guns + flank force.

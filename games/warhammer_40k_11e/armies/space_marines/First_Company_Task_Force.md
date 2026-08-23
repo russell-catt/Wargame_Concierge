@@ -33,6 +33,10 @@ UPDATE_TRIGGER:
 
 # 1st Company Task Force - elite brick night
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM pattern: `1ST COMPANY TASK FORCE - 2DP - PRIORITY ASSETS` *(confirm on your Marines MFM)*
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 This is the **best alternate detachment for your owned Blood Ravens shelf** after Gladius. You already own what it wants: two Terminator Squads, Assault Terminators, and a Chaplain in Terminator Armour.
 
 **MFM tag pattern (confirm on your Marines MFM before play):** community builders list it as **2DP · Priority Assets** (retrieved 2026-08-22). Gladius is 3DP Priority Assets — same mission family, cheaper DP sticker if that matters for your event’s detachment budget.

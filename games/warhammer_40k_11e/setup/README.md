@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/README.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
 
@@ -39,6 +39,7 @@ This folder may quote WarCom-free Core / local `eng_*` with filename + page + ru
 | File | What it covers |
 |------|----------------|
 | [`Board_Setup.md`](Board_Setup.md) | Table size (44" x 60" for events), the fourteen-step pre-game sequence, deployment zones and territory, objective types, strategic reserves, a printable pre-game checklist, and shortcuts for a first game |
+| [`Chapter_Approved_Force_Dispositions.md`](Chapter_Approved_Force_Dispositions.md) | **2-pager:** Force Dispositions, Primary matching, layouts A/B/C, Twists, starter-event checklist |
 | [`Terrain_Basics.md`](Terrain_Basics.md) | Terrain areas vs terrain features, the three categories (Exposed / Light / Dense), the four visibility rules (Benefit of Cover, Hidden, Obscuring, Solid), terrain and movement, and how much terrain a table actually needs |
 | Learn-to-play print bag | Combined Saturday checklist (KT + 40K): [`../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md`](../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md) — PDFs in `C:\Personal\print_aids\learn_to_play_event\` |
 
@@ -71,6 +72,7 @@ Full catalogue: [`reference/Source_Library.md`](../../../reference/Source_Librar
 ---
 
 ## Change Log
+- v0.5.2 (2026-08-23): Index Chapter_Approved_Force_Dispositions 2-pager.
 - v0.5.1 (2026-08-18): Quote permission + Core ID cites (track `40k_warcom_quotes`). Event Companion still inventoried, not dumped.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-16): Replaced the S2 stub with a real index. Board_Setup and Terrain_Basics authored (slice S3).

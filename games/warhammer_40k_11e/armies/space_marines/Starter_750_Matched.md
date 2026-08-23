@@ -28,6 +28,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 750 points (Matched)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Matched play — no Legends.** Costed from Munitorum Field Manual (Marines) only. For Bike Squad, Attack Bike, and Astartes Servitors see the Casual twin.
 
 750 is where the Blood Ravens shelf starts looking like an army: Captain buffing the midboard, Chaplain in the Terminator brick, and a second Terminator unit so you are not one-brick dependent.

@@ -17,6 +17,8 @@ Filename prefix: `40k_`. Never commit `*.pdf` (repo gitignore).
 | `40k_necrons_quick_reference.html` | `40k_necrons_quick_reference.pdf` | `../Quick_Reference_Play_Guide.md` |
 | `40k_first_game_core.html` | `40k_first_game_core.pdf` | `../../rules/Turn_Structure.md` + `Key_Concepts.md` |
 | `40k_setup_terrain.html` | `40k_setup_terrain.pdf` | `../../setup/Board_Setup.md` + `Terrain_Basics.md` |
+| `40k_conclave_primary_missions.html` | `40k_conclave_primary_missions.pdf` | `../Cryptek_Conclave_Primary_Missions.md` |
+| *(setup)* `../../setup/print/40k_chapter_approved_force_dispositions.html` | `40k_chapter_approved_force_dispositions.pdf` | `../../setup/Chapter_Approved_Force_Dispositions.md` |
 
 ## Combined event print bag
 

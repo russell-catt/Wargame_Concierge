@@ -31,6 +31,10 @@ UPDATE_TRIGGER:
 
 # Reference guide - 500 pts V1 Cryptek Conclave
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 Companion to [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md). Builds on [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md).
 
 **List in one line:** Geomancer (Atomic Disintegrators) + Technomancer + Apprentek→Plasmancer + Despotek→Warden + 10 Warriors + 5 Immortals + 6 Scarabs = **500**.

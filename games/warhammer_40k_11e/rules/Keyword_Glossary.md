@@ -184,6 +184,7 @@ Anything not marked `verified` should be checked against your faction pack or th
 | **Points (pts)** | What each unit costs toward your list limit | Move with every balance dataslate. Always re-check the current Munitorum Field Manual | `verified` |
 | **Battle size** | Incursion, Strike Force, or Onslaught | Names confirmed in the owned Necrons Faction Pack; **the points limit for each is not stated in any owned PDF** | `draft` |
 | **Victory Points (VP)** | What you actually win with | Event caps: 45 primary, 45 secondary, 10 for a painted army | `verified` |
+| **Force Disposition** | Detachment strategic role (e.g. Priority Assets, Take and Hold) | Written on the list at Muster; matching Disposition cards chooses each Primary (often different). Events lock one for the whole event | `draft` |
 | **No Man's Land** | The part of the table in neither deployment zone | Where most objectives - and most of the game - live | `verified` |
 | **Territory** | The half of the battlefield containing a player's deployment zone | Some detachment rules key off controlling territory | `verified` |
 

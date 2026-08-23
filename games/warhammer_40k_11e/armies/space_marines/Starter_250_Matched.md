@@ -29,6 +29,10 @@ UPDATE_TRIGGER:
 
 # Starter list - 250 points (Matched)
 
+> **FORCE DISPOSITION — write on the list before you deploy**
+> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+
 > **Matched play — no Legends.** Costed from Munitorum Field Manual (Marines) only. For Bike Squad, Attack Bike, and Astartes Servitors see the Casual twin.
 
 A first game should be small, short, and mostly about learning the phase order. 250 points is roughly two or three units a side and finishes in an evening.

@@ -572,3 +572,11 @@ Pages consulted: Key_Concepts, Core_Rules_Quotes (14.01, 14.02, 19.01, 03.03), N
 Output filed: yes — shipping guide updates + [[objective_control]] refresh (not a new analyses page)
 
 Key answer: Control = sum OC of models on the objective terrain footprint (14.01/14.02); score VP per mission card. Leader + Support may join one bodyguard (19.01) and deploy as one coherency unit (03.03); 250 Conclave = Geomancer Support + Warriors.
+
+## [2026-08-23] ingest | Chapter Approved Force Dispositions + Conclave Primaries 2-pagers
+
+Pages created: games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions.md (+ print HTML); games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave_Primary_Missions.md (+ print HTML)
+
+Pages updated: Board_Setup, setup/README; Necron + SM army lists, starters, reference guides, QRs, detachment pages — **Force Disposition** callouts; glossary Force Disposition entry; Necron/SM READMEs
+
+Key additions: Pre-game matching + Twists 2-pager; all five Priority Assets Primaries for Cryptek Conclave with keys; Force Disposition must be written on every list (starter-event failure mode).
