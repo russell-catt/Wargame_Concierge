@@ -4,7 +4,7 @@ type: glossary
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-23
+updated: 2026-08-24
 version: 0.5.4
 sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08]
 confidence: draft
@@ -311,8 +311,8 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - See also: the **Kill Team 2024** section below, [[kill_team_2024_core_rules]]
 
 **The Warcode** - `draft` · **third system, see below (2026-08-23)**
-: A **separate game** from RedMakers (not Games Workshop): two squads of eight, alternating unit activation, AP economy, beta v0.8.7-F. **Not** 40K and **not** That other game — own `system: the_warcode` pages and shipping under `games/the_warcode/`.
-: When comparing to That other game's Murder Platoon mode, use the moniker **That other game** in Warcode KB collision flags — do not paste That other game's product name into Warcode shipping paths.
+: A **separate game** from RedMakers (not Games Workshop): two squads of eight, alternating unit activation, AP economy, beta v0.8.7-F. **Not** 39.9 (Rawmallet) and **not** That other game — own `system: the_warcode` pages and shipping under `games/the_warcode/`.
+: When comparing to That other game's Murder Platoon mode, use the moniker **That other game** in Warcode KB collision flags — do not paste GW product names into Warcode shipping paths. See [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]] for the full obfuscation table (Rawmallet / 39.9 / 39.876).
 - Faction / scope: `the_warcode`; own section below
 - See also: [[warcode_rulebook_v087f]], **The Warcode** section below
 
@@ -467,24 +467,24 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## The Warcode (the_warcode)
 
-**Third game system, added 2026-08-23 (`warcode_tactical_doctrine` Librarian ingest).** Everything in this section carries `system: the_warcode` on its source and concept pages. **These are not Warhammer 40,000 or That other game terms.** Shared words carry **collision flags** — for Warcode↔That other game, use the moniker **That other game**, not the GW product name.
+**Third game system, added 2026-08-23 (`warcode_tactical_doctrine` Librarian ingest).** Everything in this section carries `system: the_warcode` on its source and concept pages. **These are not Rawmallet 39.876 or That other game terms.** Shared words carry **collision flags** — for Warcode↔That other game, use the moniker **That other game**; for Warcode↔39.9 (Rawmallet), use **39.9** / **Rawmallet** in collision prose (not GW product names). Full policy: [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]].
 
 **Status:** All entries **`draft`** — paraphrased from beta v0.8.7-F extract, read **2026-08-23**. See [[warcode_rulebook_v087f]]; shipping [`games/the_warcode/rules/Keyword_Glossary.md`](../games/the_warcode/rules/Keyword_Glossary.md).
 
 **Action Point (AP)** (Warcode) - `draft` · **collision flag** · **see [[warcode_action_points]]**
 : Currency for actions during one unit activation; **2 AP** by default. Pass skips remainder without triggering Overwatch.
-: **Collision flag.** Not That other game's **APL** (per-operative budget and marker-control total). Not 40K Command Points. See [[activations_apl]] and [[warcode_action_points]].
+: **Collision flag.** Not That other game's **APL** (per-operative budget and marker-control total). Not 39.9 Command Points. See [[activations_apl]] and [[warcode_action_points]].
 - Faction / scope: The Warcode, core rules
 - Verify against: [[warcode_rulebook_v087f]]
 
 **Activation** (Warcode) - `draft`
 : One **unit's** turn in the Tactical Phase: spend AP until Pass or empty. Players alternate single-unit activations. Flip activation token when done.
-: **Collision flag.** That other game activates one **operative** per step inside a Firefight phase — different phase frame. 40K has no per-model activation loop.
+: **Collision flag.** That other game activates one **operative** per step inside a Firefight phase — different phase frame. 39.9 has no per-model activation loop.
 - See also: [[warcode_action_points]]
 
 **Agility (A)** (Warcode) - `draft` · **collision flag**
 : Hit threshold for attacks against this unit in shooting and melee. Partial cover and friendly screens can raise it, **capped at 5**.
-: **Collision flag.** Similar *job* to That other game's Hit/Defence on attack dice, but Warcode uses a single threshold die roll, not retain-success pools. Not 40K Ballistic Skill.
+: **Collision flag.** Similar *job* to That other game's Hit/Defence on attack dice, but Warcode uses a single threshold die roll, not retain-success pools. Not 39.9 Ballistic Skill.
 - Faction / scope: The Warcode, core rules
 
 **Ammunition** (Warcode) - `draft` · **see [[warcode_ammo]]**
@@ -498,22 +498,22 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Melee Lock** (Warcode) - `draft` · **collision flag** · **see [[warcode_melee_lock]]**
 : **Bases touch** an enemy — cannot leave without Disengage (1 AP) or Escape (2 AP). Stronger than merely being in melee range.
-: **Collision flag.** Not That other game's **1" control range** (visibility-gated, APL marker control). Not 40K **Engagement Range** (2"/5", phase order). See [[control_range_kill_team]] and Engagement Range in core-rules section above.
+: **Collision flag.** Not That other game's **1" control range** (visibility-gated, APL marker control). Not 39.9 **Engagement Range** (2"/5", phase order). See [[control_range_kill_team]] and Engagement Range in core-rules section above.
 - Faction / scope: The Warcode, core rules
 
 **Engage** (Warcode) - `draft` · **collision flag**
 : **2 AP** action: move up to Movement Range + 2" toward a target; enter melee on base contact. Triggers enemy Overwatch if in range.
-: **Collision flag.** Not That other game's **Order: Engage** (per-operative order state). Not 40K Engagement Range. See **Order: Engage** in the KT24 section above.
+: **Collision flag.** Not That other game's **Order: Engage** (per-operative order state). Not 39.9 Engagement Range. See **Order: Engage** in the KT24 section above.
 - Faction / scope: The Warcode, core rules
 
 **Cover** (Warcode) - `draft` · **collision flag**
 : **Partial cover** raises target Agility on the line of fire (+1 per piece, cap 5); **full cover** is impassable; 50% base visibility rule for shooting past walls.
-: **Collision flag.** Opposite direction from 40K Cover (worsens attacker BS) and from That other game Cover (defender cover save). Three different cover engines — check the section for the game you are playing.
+: **Collision flag.** Opposite direction from 39.9 Cover (worsens attacker BS) and from That other game Cover (defender cover save). Three different cover engines — check the section for the game you are playing.
 - Faction / scope: The Warcode, core rules
 
 **Victory Point (VP)** (Warcode) - `draft`
 : Scenario score; most VP wins (usually). Earn from map tokens (1" control, end of round) and [[warcode_contracts]].
-: **Collision flag.** Not 40K **Objective Control** summation. Not That other game marker control by APL totals in 1" control range.
+: **Collision flag.** Not 39.9 **Objective Control** summation. Not That other game marker control by APL totals in 1" control range.
 - Faction / scope: The Warcode, scoring
 
 **Contract** (Warcode) - `draft` · **see [[warcode_contracts]]**

@@ -6,7 +6,7 @@
 
 ## NAMING SAFETY — read before drafting
 
-- In shipping files (`games/the_warcode/**`) the comparator is **That other game**, or **Murder Platoon** for its squad. **Never** the real title. Locked in `track_in.md` and `.cursor/rules/warcode-quotes.mdc`.
+- In shipping files (`games/the_warcode/**`) the comparator is **That other game**, or **Murder Platoon** for its squad. **Never** GW proper nouns (Kill Team; Warhammer; 40,000 / 40K variants). Locked in `track_in.md` and `.cursor/rules/warcode-quotes.mdc` (AGENTS Sec 10 v0.5.5).
 - This manifest is a handoff, so `That other game (KT24)` appears a handful of times below purely so agents can resolve the referent. **Strip every parenthetical before promotion.**
 - **Live masking hazard:** the pre-launch page's own testimonial section names the GW product *and* one of its boxed sets by title `[PL §08]`. If that quote is used in the review, it must be masked to That other game or dropped. Flag to the Implementer explicitly. — confidence: verified
 

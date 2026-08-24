@@ -16,7 +16,7 @@ SOURCES:
   - games/the_warcode/factions/ulfari/Squad_Datasheet.md
 
 PURPOSE:
-  Father–son (or any two-player home) proxy session using owned 40K and Murder
+  Father–son (or any two-player home) proxy session using owned 39.9 and Murder
   Platoon miniatures before official Warcode models arrive.
 
 UPDATE_TRIGGER:
@@ -27,7 +27,7 @@ UPDATE_TRIGGER:
 
 **`confidence: draft`** — practical setup for learning Warcode with models you already own. **Unofficial; not endorsed by RedMakers or Gamefound.**
 
-Goal: one evening, **eight models per side**, **Protagen Marines vs Ulfari**, on a board scaled toward **33" × 24"**, using **Warhammer 40,000** and **Murder Platoon** collections as stand-ins.
+Goal: one evening, **eight models per side**, **Protagen Marines vs Ulfari**, on a board scaled toward **33" × 24"**, using **Rawmallet 39.876** and **Murder Platoon** collections as stand-ins.
 
 ---
 
@@ -48,7 +48,7 @@ Each side fields **exactly eight models**, one per roster slot:
 
 ### Protagen Marines (proxy suggestions)
 
-| Unit | Role hint | 40K / Murder Platoon proxy idea |
+| Unit | Role hint | 39.9 / Murder Platoon proxy idea |
 |------|-----------|----------------------------------|
 | Commander Rickman | Leader, blade + pistol | Space Marine Lieutenant / Sergeant with power sword |
 | Blast | Shotgun + locked grenades | Assault Intercessor / breacher operative |
@@ -61,7 +61,7 @@ Each side fields **exactly eight models**, one per roster slot:
 
 ### Ulfari (proxy suggestions)
 
-| Unit | Role hint | 40K / Murder Platoon proxy idea |
+| Unit | Role hint | 39.9 / Murder Platoon proxy idea |
 |------|-----------|----------------------------------|
 | Soul Eater | Leader | Necron Lord / team leader operative |
 | Ravener | Rifle | Necron Warrior / ranger operative |
@@ -83,7 +83,7 @@ Each side fields **exactly eight models**, one per roster slot:
 | Item | Target | Home workaround |
 |------|--------|-----------------|
 | Playing surface | **33" × 24"** | Poster board, MDF, or mat trimmed to size |
-| Terrain source | Partial cover, walls, doors | **Volkus** / sector mechanics boards, Murder Platoon starter terrain, or 40K barricades |
+| Terrain source | Partial cover, walls, doors | **Volkus** / sector mechanics boards, Murder Platoon starter terrain, or 39.9 barricades |
 | Scaling | Warcode scenarios assume the 33×24 rectangle | If your mat is larger, **tape deployment edges** inward; do not stretch distances |
 | VP tokens | Scenario card | Coins, dice, or numbered chits |
 | Doors | Interactive | Literal doors from terrain kits or cardboard cutouts |
@@ -118,7 +118,7 @@ Dice: handful of D6.
 - [ ] **4 equipment points** spent per side (unless Blast / Phantom locked loadout)
 - [ ] Activation, ammo, overwatch, and grenade blast tokens ready
 - [ ] Quick reference and glossary link: [`../rules/Keyword_Glossary.md`](../rules/Keyword_Glossary.md)
-- [ ] House rule acknowledged: **proxy models are stand-ins** — statlines come from Warcode PDF, not 40K datasheets
+- [ ] House rule acknowledged: **proxy models are stand-ins** — statlines come from Warcode PDF, not 39.9 datasheets
 
 ---
 
@@ -158,4 +158,4 @@ Note which proxies felt confusing on the table; update mappings in a personal no
 
 ## Rising Tide Notes
 
-- Proxy minis do not grant 40K or Murder Platoon stats — Warcode beta profiles only.
+- Proxy minis do not grant 39.9 or Murder Platoon stats — Warcode beta profiles only.

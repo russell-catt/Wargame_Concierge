@@ -23,14 +23,14 @@ The shipped §15 **MUST** contain the exact words **unofficial and unauthorized*
 | 6 | **Edition scope.** Findings apply to the free public beta **V.0.8.7-F**, retrieved 2026-08-23, and may be superseded by any newer free beta or by the released game. | `[PTR]` | verified |
 | 7 | **No affiliation, no contact.** Written from public material with no contact with the studio, no NDA material, and no early access. Owner holds a $1 VIP pledge only. | `[PTR]` | verified |
 | 8 | **No STL redistribution.** No STL files are hosted, shared, or reproduced. Official STLs come via the Gamefound Field Commander tier only; no third-party sources are used or endorsed. | `AGENTS.md` Sec 10; `raw/pointers/warcode_stl_sources.md` | verified |
-| 9 | **Trademark acknowledgement for the comparator.** Any comparison to another manufacturer's game is design commentary under fair comment; that publisher's trademarks remain theirs and are **not named** in shipping files. | `track_in.md` naming ban | verified |
+| 9 | **Trademark acknowledgement for the comparator.** Any comparison to another manufacturer's game is design commentary under fair comment; that publisher's trademarks remain theirs and are **not named** in shipping files (Kill Team; Warhammer; 40,000 / 40K variants). | `track_in.md` naming ban (v0.5.5) | verified |
 | 10 | **Opinion disclaimer.** Assessments are opinion and inference from a beta document, made with **zero games played**. Not commercial, legal, or purchase advice. | this manifest set | verified |
 | 11 | **Correction commitment.** Errors will be corrected on notice; RedMakers may request removal of any quoted material. | good practice | draft |
 
 ## Naming safety inside §15
 
-- **Do not** name any Games Workshop product in the shipped legalese. Clause 9 stays generic — "another manufacturer's game", or **That other game**. — confidence: verified
-- RedMakers and Gamefound **may** be named; the ban is comparator-only. — confidence: verified
+- **Do not** name any Games Workshop product or trademark in the shipped legalese. Clause 9 stays generic — "another manufacturer's game", **That other game**, **Rawmallet**, **39.876**, **39.9**. — confidence: verified
+- RedMakers and Gamefound **may** be named; the ban is GW-comparator-only. — confidence: verified
 - **No Games Workshop copyright line is required here.** The `AGENTS.md` Sec 10 GW notice and the `gw-unofficial-footer` rule apply to `games/warhammer_40k_11e/**` and `games/kill_team_2024/**` — not to a Warcode review. Do not paste a GW notice into `games/the_warcode/**`. — confidence: verified
 
 ## Placement guidance

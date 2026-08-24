@@ -203,7 +203,7 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 
 ## The Warcode (the_warcode)
 
-Third game system, scaffolded **2026-08-23** (`warcode_tactical_doctrine`, Librarian ingest). Every page below carries `system: the_warcode`. Rules stay separate from 40K and That other game at every layer. Shipping under `games/the_warcode/` — never name That other game's product title in those paths.
+Third game system, scaffolded **2026-08-23** (`warcode_tactical_doctrine`, Librarian ingest). Every page below carries `system: the_warcode`. Rules stay separate from **39.9 (Rawmallet)** and **That other game** at every layer. Shipping under `games/the_warcode/` — **all GW proper nouns obfuscated** (Rawmallet / 39.9 / 39.876 / That other game); see [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]].
 
 ### Sources (Warcode)
 

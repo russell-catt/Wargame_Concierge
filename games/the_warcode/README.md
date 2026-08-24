@@ -31,7 +31,7 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 
 **Rules quoting:** Under `rules/`, `setup/`, and `factions/` you may quote the free beta PDF verbatim (filename + page). See `AGENTS.md` Sec 10. Protocol Cards may need OCR.
 
-**Naming safety:** Never name That other game's publisher product by its real title in this subtree — use **That other game** or **Murder Platoon**.
+**Naming safety:** No GW comparator proper nouns in this subtree. Use **That other game** / **Murder Platoon**, **Rawmallet**, **39.876**, and **39.9** only — full ban table in `AGENTS.md` Sec 10 and [`.cursor/rules/warcode-quotes.mdc`](../../.cursor/rules/warcode-quotes.mdc).
 
 ---
 
@@ -77,4 +77,5 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 
 ## Change Log
 
+- v0.2 (2026-08-24): Naming safety — full GW obfuscation table (Rawmallet / 39.9 / 39.876 + That other game).
 - v0.1 (2026-08-23): S0 stub — vocabulary, subtree, unofficial disclaimer.

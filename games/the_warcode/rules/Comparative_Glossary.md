@@ -290,7 +290,7 @@ Source: marketing + team lists pp.33–36
 ### Unit
 **Definition:** One model with a profile, weapons, and optional special ability.  
 Source: team lists / activation rules  
-**Agentic commentary:** “Unit” here means a single operative-scale piece, not a multi-model 40K unit.  
+**Agentic commentary:** “Unit” here means a single operative-scale piece, not a multi-model 39.9 unit.  
 (This seems related to an operative in That other game.)
 
 ### Leader

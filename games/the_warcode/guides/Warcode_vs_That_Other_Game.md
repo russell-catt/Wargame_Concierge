@@ -16,7 +16,7 @@ SOURCES:
   - https://pre-launch.thewarcode.com/ (retrieval 2026-08-23)
 
 PURPOSE:
-  Help a Murder Platoon / 40K skirmish player understand what changes at the
+  Help a Murder Platoon / 39.9 skirmish player understand what changes at the
   table when they pick up The Warcode. Never names That other game's real title.
 
 UPDATE_TRIGGER:
@@ -27,7 +27,7 @@ UPDATE_TRIGGER:
 
 **`confidence: draft`** — teaching comparison for personal learning. **Not endorsed by RedMakers or Gamefound.**
 
-If you already play **Murder Platoon** (That other game's squad skirmish mode) or small-scale **Warhammer 40,000**, this page maps the same mental models onto The Warcode without pretending the two games are interchangeable.
+If you already play **Murder Platoon** (That other game's squad skirmish mode) or small-scale **Rawmallet 39.876**, this page maps the same mental models onto The Warcode without pretending the two games are interchangeable.
 
 ---
 

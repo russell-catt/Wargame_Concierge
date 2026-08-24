@@ -21,7 +21,7 @@ PURPOSE:
 
 PRIMARY_AUDIENCE:
   - A player learning The Warcode from zero
-  - Cross-game readers coming from Murder Platoon or 40K who need vocabulary first
+  - Cross-game readers coming from Murder Platoon or 39.9 who need vocabulary first
 
 KEY_SECTIONS_EXPECTED:
   - What a game is

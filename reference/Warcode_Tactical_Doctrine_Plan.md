@@ -554,9 +554,31 @@ R1–R4 **priority-parallel** with L0/S1 once S0 lands (research-first). **S8 af
 - [ ] **R1–R4 manifests** complete with citations; **GATE user lock** on file
 - [ ] **`Agentic_Rules_and_Marketing_Review.md`** published: **§0**, §1–12, §13 placeholder, **§14–15**, **§16 Comparative glossary**
 - [ ] **`rules/Comparative_Glossary.md`** — all rulebook keywords + defs + 1-sentence commentary + `(This seems related to X)` bridges
-- [ ] **Zero** occurrences of “Kill Team” / KT24 product name under `games/the_warcode/` (use That other game / Murder Platoon)
+- [ ] **Zero** GW comparator proper nouns under `games/the_warcode/`: Kill Team / KT24 product name; Warhammer; Warhammer 40,000 / Warhammer 40K; 40,000; 40K; 40k (use That other game / Murder Platoon / Rawmallet / 39.876 / 39.9)
 - [ ] Review suitable for VIP Facebook: balanced tone, agentic + bias disclaimer, **§0 and §15 include “unofficial and unauthorized”**, YMMV, not TTS/YouTube, snapshot-in-time, GitHub link for VIP critique
 - [ ] No invented trademark language — cite official ownership lines from materials
 - [ ] KB ingested; collision flags vs That other game / 40K as needed
 - [ ] `docs/handoffs/README.md` lists track
 - [ ] No STL/GW PDFs in git
+
+---
+
+## Addendum — Extended GW proper-noun ban (2026-08-24)
+
+**Trigger:** Safety fix — Warcode shipping must not surface Games Workshop trademarks beyond the original Kill Team ban.
+
+**Scope:** `games/the_warcode/**` only. `KB/`, `docs/handoffs/`, and agent manifests may still name GW products for internal referent resolution; strip before promotion.
+
+**Banned proper nouns (any casing):** Kill Team; Warhammer; Warhammer 40,000 / Warhammer 40K combinations; 40,000; 40K; 40k.
+
+**Obfuscation equivalents:**
+
+| Banned | Use instead |
+|--------|-------------|
+| Kill Team | That other game |
+| Murder Platoon (squad) | Murder Platoon |
+| Warhammer | Rawmallet |
+| 40,000 | 39.876 |
+| 40K / 40k | 39.9 |
+
+**Schema:** AGENTS.md Sec 10 v0.5.5; `.cursor/rules/warcode-quotes.mdc`; qa-slice lint step. Content scrub of `games/the_warcode/**` is a separate agent slice — do not conflate with this rules-only pass.

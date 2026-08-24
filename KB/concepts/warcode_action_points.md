@@ -3,8 +3,8 @@ title: Warcode Action Points
 type: concept
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
+updated: 2026-08-24
+version: 0.5.4
 sources: [warcode_rulebook_v087f, games/the_warcode/rules/Key_Concepts.md, games/the_warcode/rules/Turn_Structure.md]
 confidence: draft
 tags: [concept, the_warcode, action_points, activation, core_rules]
@@ -47,9 +47,9 @@ See also [[activations_apl]] (That other game concept page).
 
 ---
 
-## Warcode vs 40K
+## Warcode vs 39.9 (Rawmallet) — do not conflate
 
-40K has no per-model AP inside a phase — units move, shoot, and fight in fixed phase order. Warcode's alternating single-unit activations with a 2 AP cap are a different tempo entirely.
+39.9 has no per-model AP inside a phase — units move, shoot, and fight in fixed phase order. Warcode's alternating single-unit activations with a 2 AP cap are a different tempo entirely.
 
 ---
 

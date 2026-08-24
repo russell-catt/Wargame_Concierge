@@ -589,6 +589,18 @@ Pages updated: AGENTS.md Sec 10; templates/README.md; docs/handoffs/README.md; 4
 
 Key additions: UNOFFICIAL banner + non-endorsement footer on all print HTML and datacard micro-footers; ## Games Workshop notice on player-facing shipping; quote-PDF policy locked (in-repo only); warhammer.com legal retrieved 2026-08-23.
 
+## [2026-08-24] policy | The Warcode — GW obfuscation shipping scrub
+
+Pages updated: games/the_warcode/ (5 content files + README); AGENTS.md v0.5.5; .cursor/rules/warcode-quotes.mdc; qa-slice skill; handoffs warcode_tactical_doctrine; reference/Warcode_Tactical_Doctrine_Plan.md addendum
+
+Key additions: Extended GW proper-noun ban beyond That other game — Rawmallet / 39.876 / 39.9 in all `games/the_warcode/**` shipping; schema + lint aligned; L2 handoff re-run PASS.
+
+## [2026-08-24] policy | The Warcode — GW proper noun obfuscation (KB)
+
+Pages updated: KB/sources/warcode_rulebook_v087f.md, warcode_web_prelaunch_2026_08.md; KB/glossary.md (Warcode section + collision flags); KB/index.md, overview.md; KB/concepts/warcode_action_points.md, warcode_melee_lock.md
+
+Key additions: Documented full GW naming ban for `games/the_warcode/**` shipping — Rawmallet / 39.9 / 39.876 / That other game obfuscation table on [[warcode_rulebook_v087f]]; Warcode KB collision flags and comparative bridges updated to use obfuscated forms, not GW product names.
+
 ## [2026-08-23] ingest | The Warcode — Librarian scaffold (system #3)
 
 Pages created: KB/sources/warcode_rulebook_v087f.md, warcode_web_prelaunch_2026_08.md; KB/concepts/warcode_action_points.md, warcode_ammo.md, warcode_overwatch.md, warcode_contracts.md, warcode_melee_lock.md; KB/factions/warcode_protagen_marines.md, warcode_ulfari.md, warcode_mdr.md, warcode_dominium.md
