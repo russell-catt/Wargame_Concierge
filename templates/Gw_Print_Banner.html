@@ -1,0 +1,39 @@
+<!--
+FILE: templates/Gw_Print_Banner.html
+VERSION: v1.0 (2026-08-23)
+OWNER: Russell Catt
+PURPOSE: Shared CSS + HTML snippets for GW unofficial banners/footers on games/ print HTML.
+USAGE: Copy the <style> block into print HTML <head>; paste banner on page 1; footer on every page.
+-->
+
+<!-- === CSS (add to print HTML <style>) === -->
+<!--
+.gw-ip-banner {
+  font-size: 9pt;
+  font-weight: 600;
+  border: 2px solid #333;
+  padding: 0.35em 0.5em;
+  margin: 0 0 0.5em;
+  background: #f5f5f5;
+}
+.gw-ip-footer {
+  font-size: 7pt;
+  color: #444;
+  margin-top: 0.5em;
+  border-top: 1px solid #999;
+  padding-top: 0.25em;
+  line-height: 1.25;
+}
+-->
+
+<!-- === B — Banner (first page only, immediately after <body> or start of first .page) === -->
+<p class="gw-ip-banner"><strong>UNOFFICIAL</strong> — fan teaching material, not a Games Workshop product, not endorsed by Games Workshop Limited.</p>
+
+<!-- === A — Footer 40K (every page; append " Page N of M" when paginated) === -->
+<p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.</p>
+
+<!-- === A — Footer KT (swap product copyright line) === -->
+<p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.</p>
+
+<!-- === D — Datacard micro (class .ft) === -->
+<!-- UNOFFICIAL · not endorsed by Games Workshop Limited · personal use only · © Games Workshop Limited -->

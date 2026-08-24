@@ -1,0 +1,31 @@
+---
+description: Kill Team 2024 verbatim quote rules under games/kill_team_2024/
+globs:
+  - games/kill_team_2024/**/*
+alwaysApply: false
+---
+
+# KT24 quotes
+
+Cite [`AGENTS.md`](../../AGENTS.md) Sec 10. **AGENTS.md wins.** Do not dump Core Book text into this rule.
+
+## Allowed
+
+Under `games/kill_team_2024/` only: verbatim quotes from **owned local** KT24 PDFs and WarCom free rules. Read PDFs **in place**; never copy binaries into git.
+
+Every quote block: **filename + page** (and section when useful).
+
+## Hierarchy
+
+- Full-Scan Core Book = baseline.
+- Dated `eng_*` patches (update log, team PDFs, universal equipment) **supersede** on the same topic.
+- Jul 25 lite = simplified intro. **Omission is not a patch.**
+
+House line on quote surfaces: Kill Team is Copyright Games Workshop Limited 2024.
+
+`KB/` stays paraphrase. Do not dump `Target_Eligibility.md` quote corpora into KB.
+
+## Print / export
+
+- Print HTML at the table: paraphrase-first event aids + [`gw-unofficial-footer`](gw-unofficial-footer.mdc). Quote cheat sheets stay in-repo; do not treat as public share packs.
+- Never redistribute GW downloadable PDFs.

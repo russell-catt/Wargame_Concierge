@@ -63,6 +63,10 @@ Tablet: Core Rules PDF + Necrons Faction Pack if a TO asks.
 
 - `Patch_Manifest.md`, Tomb World / Shadowhunt killzone pages, `KB/`, full `Target_Eligibility.md` quote appendix, 500+ Necron lists, Canoptek Court (wrong detachment).
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 
 - v0.5.4 (2026-08-21): Initial bag (learn_to_play_event S4).

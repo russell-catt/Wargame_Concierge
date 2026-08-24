@@ -87,6 +87,10 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.2 (2026-08-22): Adepta Sororitas ownership stub (metal + Celestian Insidiants); unpainted.
 - v0.5.1 (2026-08-18): WarCom-free quote exception for `rules/` + `setup/`; Codex wall on `armies/`; Core_Rules_Quotes link (track `40k_warcom_quotes`).

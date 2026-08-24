@@ -65,6 +65,7 @@ One page per ingested source. Location: `KB/sources/`.
 | [[wahapedia]] | Community aggregator — unit/stat when WarCom lacks profiles; Legion/Syphon + list fills retrieved 2026-08-19 | draft | 2026-08-19 |
 | [[warhammer_community]] | GW FAQs, errata, dataslates — surveyed 2026-08-20 for Legion / Syphon / character revive | draft | 2026-08-20 |
 | [[legends_field_manual_sm_2026_08]] | WarCom Legends Field Manual SM points (Servitors / Bike / Attack Bike) retrieved 2026-08-22 for Casual starters | draft | 2026-08-22 |
+| [[gw_ip_guidelines]] | Paraphrase of GW community IP guidelines + WarCom download licence; unofficial footer policy for games/ shipping | draft | 2026-08-23 |
 
 ---
 

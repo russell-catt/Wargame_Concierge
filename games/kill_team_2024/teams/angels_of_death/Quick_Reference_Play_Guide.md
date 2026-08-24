@@ -148,3 +148,10 @@ Purity Seals (fix a bad roll, 1/turning point) · Chapter Reliquaries (free Wrat
 ---
 
 *Verify vs. owned team PDF and Kill Team app — GW patches team rules between printings | 2026-08-17*
+
+---
+
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+

@@ -119,6 +119,10 @@ Duplicate profiles match [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Concl
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v1.0 (2026-08-19): Initial fully statted 750 V1. MFM v1.2 re-cost (Crawlers 50, Macrocytes 70); enhancements rebalance to 750.
 

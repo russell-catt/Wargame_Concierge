@@ -115,5 +115,6 @@ It also carries an ownership snapshot duplicating the FOUNDATION table from thos
 
 - [[local_library_pointers]] - ingest-ready path stubs
 - [[necron_lists_owner_notes]] - the imported source
+- [[gw_ip_guidelines]] - GW community IP guidelines (paraphrase; games/ footer policy)
 - [[ingest_procedure]] - what may and may not enter `raw/`
 - [[index]] - master catalog

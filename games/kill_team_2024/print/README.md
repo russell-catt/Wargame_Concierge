@@ -15,3 +15,10 @@ Generate PDFs with [`_html_to_pdf.py`](_html_to_pdf.py) (Playwright).
 | `kt_kommandos_*.html` | matching `kt_kommandos_*.pdf` |
 
 Teaching markdown stays under `teams/` and `rules/`; these HTML files are the **2-page print cuts**.
+
+---
+
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+

@@ -123,6 +123,10 @@ Use when Intercessor / Assault Intercessor bodies reach legal fives (BT set + Ao
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v1.x (2026-08-22): Matched/Casual split — this file is the **Matched** line; Legends live on Casual twin.
 - v0.6.1 (2026-08-21): Loadout notes — Tac flamer; Dev weapon list; Gravis Captain excluded from Primaris Captain slot.
