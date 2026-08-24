@@ -20,7 +20,9 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | Learn-to-play event (KT Volkus PM+Kommandos + first 40K Conclave) | [`learn_to_play_event/`](learn_to_play_event/) | Closed - Complete (commits pending) |
 | SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Closed — merged PR #7 |
 | GW community-content footer + games/ compliance | [`gw_community_content/`](gw_community_content/) | Closed — Complete (commits pending) |
-| The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | In Progress — scaffold landed 2026-08-23 |
+| The Warcode: Tactical Doctrine (system #3 + VIP review) | [\warcode_tactical_doctrine/\](warcode_tactical_doctrine/) | Closed — merged PR #16 |
+
+**Review queue:** Post-ship owner pass — [warcode_tactical_doctrine/to_review.md](warcode_tactical_doctrine/to_review.md).
 
 ## Artifact lifecycle (summary)
 
