@@ -25,3 +25,9 @@
 ## Ship recommendation
 
 **READY** to commit on `feature-Warcode` and open PR to `main` (squash).
+
+## Ship receipt
+
+- **Commit:** `5aa74a6` (bootstrap) + `7707779` (merge main)
+- **PR:** https://github.com/russell-catt/Wargame_Concierge/pull/16 — **squash-merged** to `main` 2026-08-24
+- **Branch:** `feature-Warcode` (kept on remote)
