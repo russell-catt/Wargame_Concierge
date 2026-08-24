@@ -2,13 +2,13 @@
 title: Glossary
 type: glossary
 system: multi_system
-systems: [warhammer_40k_11e, kill_team_2024]
+systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-22
-version: 0.5.3
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08]
+updated: 2026-08-23
+version: 0.5.4
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08]
 confidence: draft
-tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024]
+tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024, the_warcode]
 ---
 
 # Glossary
@@ -21,7 +21,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ## Read this first
 
-**This page is now multi-system (2026-08-17, `kill_team_2024_scaffold` L1).** Wargame_Concierge's second game system, **Kill Team 2024 (KT24 / 3rd Edition)**, has its own section below, clearly separated from the Warhammer 40,000 11e sections above and below it. **Kill Team and 40K are separate games with separate rules** - this page is the *one place* both systems' terminology lives, precisely so a shared word (Cover, Charge, Engage, Objective marker, Command Point...) never gets read as meaning the same thing in both. Every such term carries a **collision flag** in both its 40K entry and its Kill Team entry, cross-linking to the other. See the **Kill Team** entry under "Other game systems" below for the standing warning this project already carries against conflating the two systems' rules or models.
+**This page is now multi-system (2026-08-17, `kill_team_2024_scaffold` L1; Warcode section 2026-08-23).** Wargame_Concierge carries **Warhammer 40,000 11e**, **Kill Team 2024 (KT24)**, and **The Warcode (`the_warcode`)** — three separate games with separate rules. This page is the *one place* all three systems' terminology lives, so a shared word (Cover, Charge, Engage, Overwatch, Activation...) never gets read as meaning the same thing across games. Every such term carries a **collision flag** where needed. For Warcode↔That other game collisions, this project uses the moniker **That other game** (Murder Platoon in shipping under `games/the_warcode/` only).
 
 **Status after L2 40K pass (2026-08-16).** L0 seeded four terms, L1 expanded them to 32, and **L2 reconciled the page against the rules documents S3, S4 and S5 actually read.** Three new terms were added in that pass: Territory, Support, and Combat Doctrines.
 
@@ -310,6 +310,12 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: outside 40K's scope; own system below
 - See also: the **Kill Team 2024** section below, [[kill_team_2024_core_rules]]
 
+**The Warcode** - `draft` · **third system, see below (2026-08-23)**
+: A **separate game** from RedMakers (not Games Workshop): two squads of eight, alternating unit activation, AP economy, beta v0.8.7-F. **Not** 40K and **not** That other game — own `system: the_warcode` pages and shipping under `games/the_warcode/`.
+: When comparing to That other game's Murder Platoon mode, use the moniker **That other game** in Warcode KB collision flags — do not paste That other game's product name into Warcode shipping paths.
+- Faction / scope: `the_warcode`; own section below
+- See also: [[warcode_rulebook_v087f]], **The Warcode** section below
+
 ---
 
 ## Kill Team 2024 (KT24 / 3rd Edition)
@@ -459,6 +465,76 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 ---
 
+## The Warcode (the_warcode)
+
+**Third game system, added 2026-08-23 (`warcode_tactical_doctrine` Librarian ingest).** Everything in this section carries `system: the_warcode` on its source and concept pages. **These are not Warhammer 40,000 or That other game terms.** Shared words carry **collision flags** — for Warcode↔That other game, use the moniker **That other game**, not the GW product name.
+
+**Status:** All entries **`draft`** — paraphrased from beta v0.8.7-F extract, read **2026-08-23**. See [[warcode_rulebook_v087f]]; shipping [`games/the_warcode/rules/Keyword_Glossary.md`](../games/the_warcode/rules/Keyword_Glossary.md).
+
+**Action Point (AP)** (Warcode) - `draft` · **collision flag** · **see [[warcode_action_points]]**
+: Currency for actions during one unit activation; **2 AP** by default. Pass skips remainder without triggering Overwatch.
+: **Collision flag.** Not That other game's **APL** (per-operative budget and marker-control total). Not 40K Command Points. See [[activations_apl]] and [[warcode_action_points]].
+- Faction / scope: The Warcode, core rules
+- Verify against: [[warcode_rulebook_v087f]]
+
+**Activation** (Warcode) - `draft`
+: One **unit's** turn in the Tactical Phase: spend AP until Pass or empty. Players alternate single-unit activations. Flip activation token when done.
+: **Collision flag.** That other game activates one **operative** per step inside a Firefight phase — different phase frame. 40K has no per-model activation loop.
+- See also: [[warcode_action_points]]
+
+**Agility (A)** (Warcode) - `draft` · **collision flag**
+: Hit threshold for attacks against this unit in shooting and melee. Partial cover and friendly screens can raise it, **capped at 5**.
+: **Collision flag.** Similar *job* to That other game's Hit/Defence on attack dice, but Warcode uses a single threshold die roll, not retain-success pools. Not 40K Ballistic Skill.
+- Faction / scope: The Warcode, core rules
+
+**Ammunition** (Warcode) - `draft` · **see [[warcode_ammo]]**
+: Shots remaining on a ranged weapon; need ≥1 to shoot or Overwatch; −1 after each shot; Reload restores maximum.
+- See also: [[warcode_ammo]], [[warcode_overwatch]]
+
+**Overwatch** (Warcode) - `draft` · **collision flag** · **see [[warcode_overwatch]]**
+: 1 AP stance: shoot first when a qualifying enemy acts in range; **ends the unit's activation** for the round. Pass does not trigger.
+: **Collision flag.** Not That other game's **Guard** — different triggers, Conceal interactions, and killzone patches. Read [[warcode_overwatch]] and That other game's Guard entry in the KT24 section above separately.
+- Faction / scope: The Warcode, core rules
+
+**Melee Lock** (Warcode) - `draft` · **collision flag** · **see [[warcode_melee_lock]]**
+: **Bases touch** an enemy — cannot leave without Disengage (1 AP) or Escape (2 AP). Stronger than merely being in melee range.
+: **Collision flag.** Not That other game's **1" control range** (visibility-gated, APL marker control). Not 40K **Engagement Range** (2"/5", phase order). See [[control_range_kill_team]] and Engagement Range in core-rules section above.
+- Faction / scope: The Warcode, core rules
+
+**Engage** (Warcode) - `draft` · **collision flag**
+: **2 AP** action: move up to Movement Range + 2" toward a target; enter melee on base contact. Triggers enemy Overwatch if in range.
+: **Collision flag.** Not That other game's **Order: Engage** (per-operative order state). Not 40K Engagement Range. See **Order: Engage** in the KT24 section above.
+- Faction / scope: The Warcode, core rules
+
+**Cover** (Warcode) - `draft` · **collision flag**
+: **Partial cover** raises target Agility on the line of fire (+1 per piece, cap 5); **full cover** is impassable; 50% base visibility rule for shooting past walls.
+: **Collision flag.** Opposite direction from 40K Cover (worsens attacker BS) and from That other game Cover (defender cover save). Three different cover engines — check the section for the game you are playing.
+- Faction / scope: The Warcode, core rules
+
+**Victory Point (VP)** (Warcode) - `draft`
+: Scenario score; most VP wins (usually). Earn from map tokens (1" control, end of round) and [[warcode_contracts]].
+: **Collision flag.** Not 40K **Objective Control** summation. Not That other game marker control by APL totals in 1" control range.
+- Faction / scope: The Warcode, scoring
+
+**Contract** (Warcode) - `draft` · **see [[warcode_contracts]]**
+: Secret elimination bounty drawn when trailing by ≥1 VP at end of round; names one enemy unit for bonus VP if killed.
+: **Collision flag.** Not That other game tac/crit op cards or Turning Point scoring steps.
+- See also: [[warcode_contracts]]
+
+**Leader** (Warcode) - `draft`
+: Keyword on some units; grants **2 re-roll points** at round start while alive. Killing the enemy Leader removes that income.
+- Faction / scope: The Warcode, factions
+
+**Re-roll point** (Warcode) - `draft`
+: Spend to repeat an **entire roll** (not one die). +2 each round while Leader lives; +1 when **your** unit is killed. Cannot re-roll initiative or event cards.
+- Faction / scope: The Warcode, core rules
+
+**Pass** (Warcode) - `draft`
+: End activation with AP unspent. **Does not** trigger enemy Overwatch.
+- Faction / scope: The Warcode, core rules
+
+---
+
 ## Project vocabulary
 
 Not game terms - the words this project uses about its own state. S3 should keep them consistent in shipping content.
@@ -587,8 +663,10 @@ How this KB writes about the game.
 - [[objective_control]] · [[reanimation_protocols]] · [[oath_of_moment]] · [[power_matrix]] - promoted 40K concept pages
 - [[their_number_is_legion_potentiality_syphon_250]] - filed Legion + Syphon answer (2026-08-19)
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]] - promoted Kill Team 2024 concept pages
+- [[warcode_action_points]] · [[warcode_ammo]] · [[warcode_overwatch]] · [[warcode_contracts]] · [[warcode_melee_lock]] - promoted Warcode concept pages
 - [[kill_team_terrain]] · [[killzones_volkus_tomb_world]] - KT24 setup
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
+- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources
 - [`AGENTS.md`](../AGENTS.md) - Sec 5 Keyword rule, Sec 9 terminology discipline
 
 ## L1 note - `kill_team_2024_scaffold` (2026-08-17)

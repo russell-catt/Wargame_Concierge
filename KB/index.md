@@ -2,13 +2,13 @@
 title: KB Index
 type: index
 system: multi_system
-systems: [warhammer_40k_11e, kill_team_2024]
+systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-22
-version: 0.5.5
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08]
+updated: 2026-08-23
+version: 0.5.7
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f]
 confidence: verified
-tags: [index, catalog, kb, kill_team_2024]
+tags: [index, catalog, kb, kill_team_2024, the_warcode]
 ---
 
 # KB Index
@@ -19,7 +19,7 @@ Master catalog of every page in this knowledge base. Read this first when answer
 
 **Status:** lint complete for Warhammer 40,000 through slice **L2** of `tomb_world_ownership` (2026-08-16); Kill Team 2024 **v0.5.0 Librarian pass (2026-08-18)** rewrote L1 Wahapedia drafts from shipping (targeting subset `verified` on [[kill_team_2024_core_rules]] / [[valid_target]]; other Core topics still `draft`). Teams / ops trees remain index-only.
 
-**Two systems now.** Everything in the typed sections below (Sources through Analyses) is `system: warhammer_40k_11e` unless it appears in **Project notation** (`system: multi_system`, not game rules) or the dedicated **Kill Team 2024 (KT24)** section. Kill Team and 40K stay split at every layer, including the index. Check a page's own `system:` frontmatter if in doubt.
+**Three systems now.** Everything in the typed sections below (Sources through Analyses) is `system: warhammer_40k_11e` unless it appears in **Project notation** (`system: multi_system`, not game rules) or the dedicated **Kill Team 2024 (KT24)** or **The Warcode (the_warcode)** sections. Each game stays split at every layer, including the index. Check a page's own `system:` frontmatter if in doubt.
 
 > **Rules sources have now been read, but most `KB/` pages predate that reading.** The claim that used to sit here - "no rules document has been read" - was true at L1 and is false now: S3, S4 and S5 read the owned core rules, both faction packs, and Munitorum Field Manual v1.2, and [[glossary]] carries 24 `verified` game terms as a result. What has **not** happened is a back-fill: the faction, detachment and concept pages below still mostly rest on the owner's planning notes. Treat every `draft` and `unverified` row as "check before the table", and prefer the shipping teaching content under `games/warhammer_40k_11e/` where the two disagree.
 
@@ -200,6 +200,40 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 
 ---
 
+## The Warcode (the_warcode)
+
+Third game system, scaffolded **2026-08-23** (`warcode_tactical_doctrine`, Librarian ingest). Every page below carries `system: the_warcode`. Rules stay separate from 40K and That other game at every layer. Shipping under `games/the_warcode/` — never name That other game's product title in those paths.
+
+### Sources (Warcode)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[warcode_rulebook_v087f]] | Free public beta V.0.8.7-F from RedMakers — primary rules truth for The Warcode until superseded; read via extract 2026-08-23 | draft | 2026-08-23 |
+| [[warcode_web_prelaunch_2026_08]] | Pre-launch site, Gamefound campaign, and VIP Facebook — marketing and faction blurbs; secondary to the beta PDF | draft | 2026-08-23 |
+
+### Concepts (Warcode)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[warcode_action_points]] | Each activated unit gets 2 AP per round to pay for moves, shots, melee, overwatch, and equipment — Pass ends activation without triggering Overwatch | draft | 2026-08-23 |
+| [[warcode_ammo]] | Ranged weapons track ammunition; need ≥1 to shoot, lose 1 after each shot; Reload restores max and can trigger enemy Overwatch | draft | 2026-08-23 |
+| [[warcode_overwatch]] | 1 AP reaction stance — shoots first when a qualifying enemy acts in range; ends the unit's activation for the round | draft | 2026-08-23 |
+| [[warcode_contracts]] | Secret elimination bounty when trailing by ≥1 VP at end of round — names one enemy unit for bonus VP if killed | draft | 2026-08-23 |
+| [[warcode_melee_lock]] | Bases touching an enemy — cannot walk away without Disengage (1 AP) or Escape (2 AP); distinct from melee range alone | draft | 2026-08-23 |
+
+### Factions (Warcode)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[warcode_protagen_marines]] | Heavy-suited hold-ground squad — eight beta units; shotgun-heavy, higher armour, Smasher forces Melee Lock at 1 inch | draft | 2026-08-23 |
+| [[warcode_ulfari]] | Fast alien skirmishers — eight beta units; lighter armour, higher agility, Reaper is melee-only with no Overwatch | draft | 2026-08-23 |
+| [[warcode_mdr]] | Clone-commander faction (marketing only) — synchronised bodies, AP-sharing hinted in core rules; no beta roster yet | stub | 2026-08-23 |
+| [[warcode_dominium]] | Elite enforcement faction (marketing only) — morale/support concept; no beta roster; no morale system in v0.8.7-F | stub | 2026-08-23 |
+
+*(Shipping teaching spine lives under `games/the_warcode/rules/` — KB paraphrase only; quotes scoped to shipping per warcode-quotes rule.)*
+
+---
+
 ## Directory guides
 
 Short per-directory README stubs restate the page contract for each entity type. They are navigation aids, **not** entity pages: exclude them from orphan-page lint findings and do not catalog them in the typed sections above.
@@ -233,6 +267,7 @@ Short per-directory README stubs restate the page contract for each entity type.
 - [[glossary]] - terminology lookup
 - [[uml_diagrams_org]] · [[flowcharting_uml_activity]] - project flowchart notation (not game rules)
 - [[ingest_procedure]] - how to add to this catalog
+- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources (system #3)
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth
 
 ## Units (pointers)

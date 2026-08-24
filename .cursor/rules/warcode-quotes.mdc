@@ -1,0 +1,31 @@
+---
+description: The Warcode free-beta verbatim quote rules under games/the_warcode/ and raw/the_warcode/
+globs:
+  - games/the_warcode/**/*
+  - raw/the_warcode/**/*
+alwaysApply: false
+---
+
+# Warcode quotes
+
+Cite [`AGENTS.md`](../../AGENTS.md) Sec 10. **AGENTS.md wins.**
+
+## Allowed
+
+Under `games/the_warcode/rules/`, `setup/`, and `factions/` only: verbatim quotes from the free public beta PDF in [`raw/the_warcode/`](../../raw/the_warcode/).
+
+Every quote block: **filename + page** (+ section heading). OCR flattened pages: add **via OCR**.
+
+## Hierarchy
+
+- `The Warcode Rulebook V.0.8.7-F.pdf` = baseline.
+- Newer free beta on the same topic **supersedes**.
+- **Omission is not a patch.**
+
+## Naming safety
+
+**Never** name Kill Team in `games/the_warcode/**`. Use **That other game** or **Murder Platoon**.
+
+## Binary
+
+Beta PDF under `raw/the_warcode/` may be committed (gitignore negation). No STL binaries. `KB/` stays paraphrase.

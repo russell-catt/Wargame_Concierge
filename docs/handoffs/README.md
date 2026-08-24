@@ -19,6 +19,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | KB shipping back-fill (OC + Power Matrix from on-disk shipping) | [`kb_shipping_backfill/`](kb_shipping_backfill/) | Closed - Complete (commits pending) |
 | Learn-to-play event (KT Volkus PM+Kommandos + first 40K Conclave) | [`learn_to_play_event/`](learn_to_play_event/) | Closed - Complete (commits pending) |
 | SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Open — slices executed on PR; awaiting merge |
+| The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | In Progress — scaffold landed 2026-08-23 |
 
 ## Artifact lifecycle (summary)
 

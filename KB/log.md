@@ -580,3 +580,19 @@ Pages created: games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions
 Pages updated: Board_Setup, setup/README; Necron + SM army lists, starters, reference guides, QRs, detachment pages — **Force Disposition** callouts; glossary Force Disposition entry; Necron/SM READMEs
 
 Key additions: Pre-game matching + Twists 2-pager; all five Priority Assets Primaries for Cryptek Conclave with keys; Force Disposition must be written on every list (starter-event failure mode).
+
+## [2026-08-23] ingest | gw_community_content — GW IP guidelines + games/ footer pass
+
+Pages created: KB/sources/gw_ip_guidelines.md; templates/Footer_Template_Gw_Print.md; templates/Gw_Print_Banner.html; docs/handoffs/gw_community_content/track_in.md; .cursor/rules/gw-unofficial-footer.mdc; scripts/apply_gw_ip_footer.py; scripts/apply_gw_ip_notice_md.py
+
+Pages updated: AGENTS.md Sec 10; templates/README.md; docs/handoffs/README.md; 42 games/**/*.html; 107 Tier B games/**/*.md; KB/index.md; necrons/print/README.md; .cursor/rules (layer, kt24-quotes, 40k-core-quotes, 40k-armies-paraphrase); .cursor/skills/qa-slice/SKILL.md
+
+Key additions: UNOFFICIAL banner + non-endorsement footer on all print HTML and datacard micro-footers; ## Games Workshop notice on player-facing shipping; quote-PDF policy locked (in-repo only); warhammer.com legal retrieved 2026-08-23.
+
+## [2026-08-23] ingest | The Warcode — Librarian scaffold (system #3)
+
+Pages created: KB/sources/warcode_rulebook_v087f.md, warcode_web_prelaunch_2026_08.md; KB/concepts/warcode_action_points.md, warcode_ammo.md, warcode_overwatch.md, warcode_contracts.md, warcode_melee_lock.md; KB/factions/warcode_protagen_marines.md, warcode_ulfari.md, warcode_mdr.md, warcode_dominium.md
+
+Pages updated: KB/index.md, glossary.md, overview.md, log.md
+
+Key additions: Third system `the_warcode` in KB — beta v0.8.7-F source + pre-launch web; five core concepts; four faction pages (two playable draft, two marketing stubs); glossary Warcode section with collision flags to That other game / 40K; all pages `confidence: draft` or `stub`, paraphrase only.
