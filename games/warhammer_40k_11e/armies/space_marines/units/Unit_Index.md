@@ -88,3 +88,10 @@ Research date: 2026-08-16. Includes Firstborn/legacy and chapter_unique tags.
 **Research files:** 78 (must match)
 
 Note: curated Codex/Gladius+Firstborn+chapter sample; expand remaining Epic Heroes in a follow-up if needed.
+
+---
+
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+

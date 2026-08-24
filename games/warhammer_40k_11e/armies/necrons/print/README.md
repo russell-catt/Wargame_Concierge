@@ -41,3 +41,14 @@ Or Edge headless per file:
 ```powershell
 msedge --headless --disable-gpu --print-to-pdf="C:\Personal\print_aids\learn_to_play_event\40k_roster_250_conclave.pdf" "file:///C:/Personal/Personal_Projects/Wargame_Concierge/games/warhammer_40k_11e/armies/necrons/print/40k_roster_250_conclave.html"
 ```
+
+## GW unofficial footer
+
+Every HTML file in this folder carries **UNOFFICIAL** banner (page 1) and **non-endorsement** footer on each page. Template: [`templates/Gw_Print_Banner.html`](../../../../../templates/Gw_Print_Banner.html). Policy: [`docs/handoffs/gw_community_content/track_in.md`](../../../../../docs/handoffs/gw_community_content/track_in.md).
+
+---
+
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+

@@ -100,6 +100,10 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.2 (2026-08-19): Indexed fully statted 250 / 500 V1 Conclave army lists and their reference guides.
 - v0.5.1 (2026-08-19): Indexed [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md); Hierotek correction text updated to photo-IDed roster.

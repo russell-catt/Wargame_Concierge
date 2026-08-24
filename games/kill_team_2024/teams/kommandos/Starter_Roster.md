@@ -35,6 +35,10 @@ That is **Boss Nob + 9 selections** → **11 models** on the table when Squig+Gr
 - [ ] Print [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md)
 - [ ] Volkus: [`Volkus_Playbook.md`](Volkus_Playbook.md)
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 
 - v0.5.4 (2026-08-21): Initial legal roster suggestion (S1).

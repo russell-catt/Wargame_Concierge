@@ -1,0 +1,32 @@
+---
+description: GW unofficial / non-endorsement banners and footers on games/ shipping and print HTML
+globs:
+  - games/**/*.html
+  - games/**/*.md
+alwaysApply: false
+---
+
+# GW unofficial footer
+
+Cite [`AGENTS.md`](../../AGENTS.md) Sec 10 and [`templates/Footer_Template_Gw_Print.md`](../../templates/Footer_Template_Gw_Print.md). **AGENTS.md wins.**
+
+## Required on print HTML (`games/**/print/`, cheat sheets, datacard HTML)
+
+- **Page 1:** `.gw-ip-banner` — word **UNOFFICIAL** prominent (cover equivalent).
+- **Every page:** `.gw-ip-footer` — include *completely unofficial and in no way endorsed by Games Workshop Limited*; personal / no-charge / never for sale; short TM line; house copyright line; no GW logos.
+- **Datacards:** micro footer D in `.ft` — UNOFFICIAL · not endorsed · personal use · © GW.
+- CSS/HTML fragments: [`templates/Gw_Print_Banner.html`](../../templates/Gw_Print_Banner.html).
+
+## Required on player-facing markdown (not `units/research/`)
+
+- `## Games Workshop notice` **before** `## Change Log` (or one Attribution bullet) — same meaning as footer A; 40K vs KT copyright line.
+
+## Export / PDF policy
+
+- Event PDFs: **teaching paraphrase** + banner/footer. Do not export quote appendices as share packs unless the owner explicitly gates it.
+- Never redistribute WarCom/GW downloadable PDFs (`eng_*`); pointers only.
+- Scoped in-repo quotes stay under AGENTS Sec 10 paths only.
+
+## Source pointer
+
+Official guidelines: [warhammer.com legal — Intellectual Property Guidelines](https://www.warhammer.com/en-CA/legal) (record retrieval date in KB when citing). Not a licence.

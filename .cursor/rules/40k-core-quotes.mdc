@@ -1,0 +1,31 @@
+---
+description: Warhammer 40K WarCom-free quote rules under games/warhammer_40k_11e/rules and setup
+globs:
+  - games/warhammer_40k_11e/rules/**/*
+  - games/warhammer_40k_11e/setup/**/*
+alwaysApply: false
+---
+
+# 40K Core quotes (WarCom-free)
+
+Cite [`AGENTS.md`](../../AGENTS.md) Sec 10. **AGENTS.md wins.**
+
+## Allowed
+
+Under `games/warhammer_40k_11e/rules/` and `games/warhammer_40k_11e/setup/` only: verbatim quotes from WarCom-**free** system PDFs and local `C:\Personal\40K\rules\eng_*` copies.
+
+Every quote block: **filename + page + rule ID** (e.g. `VISIBILITY — 06.01`).
+
+## Hierarchy
+
+- Core Rules PDF (`eng_01-06_*`) = baseline.
+- Dated `eng_*` universal updates / Event Companion supersede on the same topic. Omission is not a patch.
+
+**Codex wall:** never quote Codex / Faction Pack / paid army rules here.
+
+House line: Warhammer 40,000 is Copyright Games Workshop Limited.
+
+## Print / export
+
+- Army teaching pages and print HTML: paraphrase + [`gw-unofficial-footer`](gw-unofficial-footer.mdc).
+- Quote appendix markdown stays in-repo; do not export as event PDF unless owner gates.

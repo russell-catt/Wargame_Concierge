@@ -30,6 +30,10 @@ Also: [`README.md`](README.md) dual-path index · [`Owned_Models_Inventory.md`](
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v2.0 (2026-08-22): Thin shim after Matched/Casual split (track `sm_matched_vs_casual`).
 

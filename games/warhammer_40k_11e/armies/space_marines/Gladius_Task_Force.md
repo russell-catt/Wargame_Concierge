@@ -188,6 +188,10 @@ The Munitorum Field Manual tags every detachment with a number and a mission typ
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S5). Doctrine wording cross-checked against the Blade of Ultramar detachment printed in full in the owned faction pack v1.1, which uses identical Combat Doctrine text; stratagems and enhancements from public 11e references retrieved 2026-08-16 and reconciled against the owned pack's Gladius errata. Enhancement costs from MFM Marines v1.2. Upgrades the `unverified` Gladius Task Force entry in `Keyword_Glossary.md`.

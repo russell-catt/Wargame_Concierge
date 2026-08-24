@@ -88,6 +88,10 @@ UPDATE_TRIGGER:
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.2 (2026-08-22): Metal counts — Seraphim **5** (confirmed); Battle Sisters **10** (owner recall).
 - v0.1 (2026-08-22): Owner declaration — metal Canoness / Battle Sisters / Seraphim; Celestian Insidiants; all unpainted.

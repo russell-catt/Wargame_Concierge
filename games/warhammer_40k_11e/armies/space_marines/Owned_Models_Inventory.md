@@ -237,6 +237,10 @@ Detail: [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/te
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v1.8 (2026-08-22): Point Legends units at Casual starters; Legends FM points note (draft, retrieved 2026-08-22).
 - v1.7 (2026-08-22): **Astartes Servitors** → Legends (WarCom Legends PDF + absent from matched-play MFM SM list). Techmarine stays game-ready alone.

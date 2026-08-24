@@ -123,6 +123,10 @@ Put a physical token on the oath target. Every Command phase, move it. The rule 
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial army rule teaching guide (slice S5), written from the owned Space Marines Faction Pack v1.1 Rules Updates and FAQs sections, read 2026-08-16. Upgrades the `draft` Oath of Moment entry in `Keyword_Glossary.md` and supersedes the `unverified` sketch in `KB/concepts/oath_of_moment.md`.

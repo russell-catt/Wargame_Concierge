@@ -139,6 +139,10 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v1.x (2026-08-22): Matched/Casual split — this file is the **Matched** line; Legends live on Casual twin.
 - v1.2 (2026-08-22): Servitors datasheet check — **Astartes Servitors** are **Warhammer Legends**; keep Techmarine-only on matched-play 1000.
