@@ -538,7 +538,21 @@ Two things I genuinely do not know: whether any of the above is already fixed in
 
 ## §13 — The non-agentic view
 
-<!-- USER: add your non-agentic VIP perspective here -->
+Hi, Russ the editor here.
+I was intrigued about the campaign when I ran across it on Facebook. 
+I've been trying to teach my 10-year-old son to play "That other game" on-and-off for about 2 years.
+It's always been a tough sell due to a tough to parse rulebook and "Rules as intended" vs "Rules as written" edge cases.
+It takes us so long to figure out how to perform the normal turn loop that my son often loses interest before the end of TP1.
+That's part of the reason I started this "Wargame Concierge" project: To help me learn games so I can better teach my son. Also to help write "new player reference" cheat sheets to help us get into the flow faster.
+Your game's pledge of an "easy to learn, learn to master" type system seemed cool.
+Then I went to your web site and saw the minis you have designed. Suddenly, I feel regret for the hundreds of dollars of "plastic mans" I have purchased over the past two years. They look gorgeous.
+After I joined the VIP, I noticed that your rules were freely available. I was FLOORED. 
+I'm a professional software tester and doumentation reviewer by trade, so my feelings about seeing beta documentation in the wild got my full and undivided attention.
+I haven't made it through the whole thing yet, but I like what I see.
+I was very interested to see what would happen if I plugged your manual and website into this structure and said "read it all and write a review on these sections. Flag any bugs you find."
+I've backed many a crowdfunder and with board games I'm usually a bit disappointed when I finally ge the game. Sometimes, it's a lot more flash than substance, or the rulebook gives me a migraine.
+I'm glad the system disproved a lot of my anxieties. I look forward to the launch of your campaign.
+
 
 ---
 

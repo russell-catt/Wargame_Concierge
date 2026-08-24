@@ -85,7 +85,7 @@ From final sanity, L2 lint, and plan archive [`reference/Warcode_Tactical_Doctri
 | Gap | Tier | Detail |
 |-----|------|--------|
 | **L1 — KB unit pages** | P1 | Faction pages exist under `KB/factions/warcode_*.md`; **no** `KB/units/` pages for Protagen/Ulfari models. Plan called for paraphrase + links to quoted datasheets. |
-| **S1b — Contract card OCR (pp24–25)** | P1 | [`Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md) notes PDF pp.24–25 are art-only; individual contract VP values **not transcribed**. Protocol Cards OCR done; contracts not. |
+| **S1b — Unscannable cards (pp24–25 + image-only pages)** | P1 | Contract cards on PDF pp.24–25 are art-only — individual targets and VP values **not** in [`Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md). Protocol Cards done via [`protocol_cards.ocr.txt`](../../../raw/the_warcode/protocol_cards.ocr.txt). **You type up** card text; **agent ingests** into quotes corpus and enhances VIP review / other Warcode docs (see §5). |
 | **S8 — Partial keyword coverage** | P2 | [`Comparative_Glossary.md`](../../../games/the_warcode/rules/Comparative_Glossary.md) covers core terms + Protocol names; [`Keyword_Glossary.md`](../../../games/the_warcode/rules/Keyword_Glossary.md) still marks comparative stubs / Protocol OCR pending. Not a ship blocker. |
 | **GATE §13 brief** | P1 | No `13_*.md` manifest by design — owner prose lives only in the polished review §13. |
 | **TTS workshop URL** | P2 | [`guides/Tabletop_Simulator.md`](../../../games/the_warcode/guides/Tabletop_Simulator.md) — placeholder until you own TTS and paste Steam workshop link. |
@@ -102,6 +102,30 @@ Only you can supply these:
 | **§13 non-agentic prose** | `games/the_warcode/reviews/Agentic_Rules_and_Marketing_Review.md` §13 (replace HTML comment) | No for repo; **yes** if sharing VIP doc externally |
 | **VIP Facebook feedback routing** | Your choice: which §12 items (e.g. B1, B6 glyph) to post; whether to link the GitHub repo | P0 before public post |
 | **GATE final sign-off** | `review_manifests/GATE_user_lock.md` — change Provisional → Final | P1 |
+| **Unscannable card text (S1b)** | Sidecar under `raw/the_warcode/` (e.g. `contract_cards.txt`) or paste in a new agent slice brief | No for repo merge; **yes** for complete contract/VP reference and §12 polish |
+
+### Unscannable cards — user types, agent researches (S1b)
+
+Some beta PDF pages are flattened card art with no extractable text layer. Protocol Cards (pp.28–32) were OCR'd into [`raw/the_warcode/protocol_cards.ocr.txt`](../../../raw/the_warcode/protocol_cards.ocr.txt) and quoted in [`Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md). **Contract cards (pp.24–25) are still missing** — see [Gaps in the extract](../../../games/the_warcode/rules/Rulebook_Quotes.md#gaps-in-the-extract) and §25 in that file.
+
+**Source PDF:** [`raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf`](../../../raw/the_warcode/The%20Warcode%20Rulebook%20V.0.8.7-F.pdf) — also [`raw/the_warcode/README.md`](../../../raw/the_warcode/README.md).
+
+**Your action (P1):**
+
+1. Open the beta PDF and any other image-only / unscannable pages you notice.
+2. Type up card text for **contract cards (pp.24–25)** first — unit names per faction, VP values, any special wording.
+3. Save as plain UTF-8 text (e.g. `raw/the_warcode/contract_cards.txt`) or paste into a new slice brief / chat when you gate agent work.
+4. Flag any additional unscannable pages beyond contracts and Protocol Cards.
+
+**Agent follow-up (after you provide text):**
+
+1. Cross-check typed text against rulebook contract rules (§25 in `Rulebook_Quotes.md`, pp.22 narrative).
+2. Add verbatim quote blocks to [`Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md) (filename + page + section; `via typed transcription` cite if not OCR).
+3. Research cards in play context — VP swing, target selection, faction pairings — and update [`Agentic_Rules_and_Marketing_Review.md`](../../../games/the_warcode/reviews/Agentic_Rules_and_Marketing_Review.md) (especially §12 gaps) and related Warcode docs.
+4. Create new docs if warranted (e.g. contract card reference table, `KB/concepts/` for contract timing, comparative glossary rows).
+5. Append activity to [`KB/log.md`](../../../KB/log.md).
+
+**Tier:** P1 content — not a merge blocker, but blocks a complete quotes corpus and informed §12 contract commentary.
 
 ---
 
@@ -138,7 +162,7 @@ Also confirm §0 and §15 in the agentic review contain **unofficial and unautho
 | **MDR / Dominium** | Stubs only — [`factions/mdr/README.md`](../../../games/the_warcode/factions/mdr/README.md), [`factions/dominium/README.md`](../../../games/the_warcode/factions/dominium/README.md); no beta datasheets until RedMakers publish |
 | **Print HTML** | No Warcode print pipeline yet; GW footer rules apply if you add `games/the_warcode/**/print/` |
 | **Duplicate PDF cleanup** | L2 noted a stray copy at `raw/The Warcode Rulebook...` — canonical path is `raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf` only |
-| **Contract OCR pass** | OCR pp.24–25 if you want VP values in quotes corpus |
+| **Contract card transcription** | Covered in §5 — you type pp.24–25; agent ingests (OCR optional if you prefer) |
 | **L1 unit KB pages** | Eight models × two factions — paraphrase roles, link to squad datasheets |
 
 ---
@@ -163,11 +187,18 @@ Copy this section into your notes or tick here.
 - [ ] Skim **First Game Walkthrough** — runnable with proxy models
 - [ ] Update **GATE_user_lock.md** to final (or document requested edits)
 - [ ] Route selected §12 findings to VIP Facebook (if any)
+- [ ] **Unscannable cards (user):** Type contract card text from PDF pp.24–25 → `raw/the_warcode/contract_cards.txt` (or paste for agent)
+- [ ] **Unscannable cards (user):** Note any other image-only pages beyond contracts / Protocol Cards
+
+### P1 — Agent work (gate after your card text)
+
+- [ ] Ingest contract card text into `Rulebook_Quotes.md` (close S1b gap)
+- [ ] Research contracts in rulebook context; enhance agentic review §12 and related Warcode docs
+- [ ] Create new reference docs if needed (contract table, KB concepts, glossary rows)
 
 ### P2 — Deferred
 
 - [ ] Purchase TTS; paste **workshop URL** into Tabletop_Simulator guide
-- [ ] OCR contract cards pp.24–25 into Rulebook_Quotes
 - [ ] L1 KB unit pages for Protagen / Ulfari
 - [ ] Expand S8 / Keyword_Glossary comparative rows
 - [ ] Remove duplicate PDF under `raw/` if still present
@@ -182,7 +213,10 @@ Copy this section into your notes or tick here.
 | §13 prose, §0/§12 edits | Edit [`Agentic_Rules_and_Marketing_Review.md`](../../../games/the_warcode/reviews/Agentic_Rules_and_Marketing_Review.md) directly |
 | GATE final approval | Update [`GATE_user_lock.md`](review_manifests/GATE_user_lock.md) status + date |
 | TTS URL | [`guides/Tabletop_Simulator.md`](../../../games/the_warcode/guides/Tabletop_Simulator.md) |
-| Contract OCR / quote gaps | [`rules/Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md) + optional `raw/the_warcode/` sidecar |
+| Contract / unscannable card text | `raw/the_warcode/contract_cards.txt` (or similar sidecar) — pattern: [`protocol_cards.ocr.txt`](../../../raw/the_warcode/protocol_cards.ocr.txt) |
+| Contract quotes + S1b close | [`rules/Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md) §25 + [Gaps in the extract](../../../games/the_warcode/rules/Rulebook_Quotes.md#gaps-in-the-extract) |
+| Contract research → VIP review | [`reviews/Agentic_Rules_and_Marketing_Review.md`](../../../games/the_warcode/reviews/Agentic_Rules_and_Marketing_Review.md) §12; new `games/the_warcode/` reference doc if table format helps |
+| Contract KB synthesis | `KB/concepts/` (e.g. contract timing) + [`KB/glossary.md`](../../../KB/glossary.md) if terms earn entries |
 | KB unit synthesis | New `KB/units/warcode_*.md` pages + [`KB/index.md`](../../../KB/index.md) |
 | Activity log | Append [`KB/log.md`](../../../KB/log.md) — `query` or `lint` row for your review pass |
 | New agent work | New slice brief under `docs/handoffs/<track>/slices/` — do not rewrite closed slice reports |
