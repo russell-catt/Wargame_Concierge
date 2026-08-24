@@ -16,3 +16,9 @@ DOCUMENT_TYPE: Table Aid
 | 4 | Keep Core Rules + NPO cheat sheet nearby |
 
 Details: [`starter_set_3e.md`](starter_set_3e.md) · [`../../joint_ops/NPO_Cheat_Sheet.md`](../../joint_ops/NPO_Cheat_Sheet.md).
+
+---
+
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.

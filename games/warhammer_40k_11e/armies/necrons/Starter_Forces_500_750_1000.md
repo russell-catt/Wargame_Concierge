@@ -279,6 +279,10 @@ Play at **750** V1, or move to V2.
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v1.3 (2026-08-19): MFM v1.2 re-read — Tomb Crawlers **50**, Macrocytes **70**. Linked Army_List_750/1000 play sheets; 750/1000 rebalance; V1 ceiling 720 without purchases.
 - v1.2 (2026-08-19): Primary detachment switched to **Cryptek Conclave**. V1/V2 lists rewritten per size with Conclave enhancements as point-padding. Court demoted to alternate. V1 500 and 750 land exact; V2 500/750 buy Plasmancer only; V2 1,000 adds Szeras + Lychguard + enhancements to 1,000.

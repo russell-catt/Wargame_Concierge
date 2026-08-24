@@ -202,6 +202,8 @@ The repo also carries Rising Tide HTML-comment headers and Change Log / Attribut
 
 Non-negotiable. This is a personal learning KB, not a redistribution channel. **Personal use only — this project must never be sold.** **Kill Team is Copyright Games Workshop Limited 2024.** **Warhammer 40,000 is Copyright Games Workshop Limited** (use that line on 40K quote surfaces).
 
+**GW unofficial / non-endorsement (shipping):** Player-facing content under `games/` — especially print HTML exported to PDF — must state that material is **unofficial** and **not endorsed by Games Workshop Limited**, include personal / no-charge / never-for-sale language, use no GW logos, and credit GW IP (short trademark line; not a full TM encyclopedia on every page). Word **UNOFFICIAL** must appear prominently on page 1 of print exports. Template: [`templates/Footer_Template_Gw_Print.md`](templates/Footer_Template_Gw_Print.md). Official guideline pointer (paraphrase in KB only): [warhammer.com legal — Intellectual Property Guidelines](https://www.warhammer.com/en-CA/legal) — record a **retrieval date** when citing. Not a licence.
+
 - **Never** ingest Games Workshop PDFs, official datasheet images, or other GW binaries into `raw/` - or anywhere in this repo
 - **Never** commit binaries: `.pdf`, `.webp`, `.png`, `.jpg` and friends are blocked in [`.gitignore`](.gitignore). Do not bypass it
 - The external library at `C:\Personal\40K` stays **outside** this repo - reference it with **markdown path pointers only**
@@ -332,6 +334,7 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 
 ## Change Log
 
+- v0.5.3 (2026-08-23): Sec 10 — GW unofficial / non-endorsement footer requirement on `games/` shipping and print HTML; warhammer.com legal pointer + retrieval date.
 - v0.5.2 (2026-08-19): Sec 10 living refs — Wahapedia allowed for unit/stat (datasheet) lookup when WarCom does not publish those profiles; owned pack still wins on conflict; retrieval date + `draft` until cross-check.
 - v0.5.1 (2026-08-18): Sec 10 — 40K WarCom-free quote exception under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Codex wall; Core baseline / dated `eng_*` supersede / omission is not a patch. Track `40k_warcom_quotes`.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Sec 6 — core + entity pages carry YAML `version:`.

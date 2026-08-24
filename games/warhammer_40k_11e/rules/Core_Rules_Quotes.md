@@ -1758,6 +1758,10 @@ Event Companion v1.1 (same July stamp) additionally caps **non-Core CP** at 1 pe
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.1 (2026-08-18): Initial numbered-ID index + teaching-spine quotes (track `40k_warcom_quotes` S2).
 

@@ -1,0 +1,28 @@
+---
+description: Layer contract and hard stops for Wargame_Concierge
+alwaysApply: true
+---
+
+# Layer and hard stops
+
+Schema source of truth: [`AGENTS.md`](../../AGENTS.md) (Sec 2 layers, Sec 10 copyright, Sec 13 git). Do not paste AGENTS.md here. If this rule conflicts, **AGENTS.md wins**.
+
+## Layers (do not conflate)
+
+- `raw/` — immutable sources. **Never write.**
+- `KB/` — Librarian only. YAML pages, not a `wiki/` directory. **Never create `wiki/`.**
+- `docs/` and `games/` — shipping after review.
+- `reference/` — read-only patterns, not project truth.
+- `.cursor/` — editor tooling (rules/skills). Not a fifth knowledge layer.
+
+## Hard stops
+
+- Never commit Games Workshop binaries (PDF, webp, png, jpg, …). Owned libraries stay outside git (`C:\Personal\40K`, `C:\Personal\Kill Team`); markdown path pointers only.
+- UTF-8, no BOM.
+- `git commit` / `git push` only when the **user explicitly gates** it. Coordinator is otherwise the sole git owner. Subagents never git.
+- Teaching paraphrase in `KB/` and 40K army pages. Scoped verbatim quotes only on AGENTS.md Sec 10 paths.
+- **Print exports:** UNOFFICIAL banner + non-endorsement footer on `games/**` print HTML — see [`gw-unofficial-footer.mdc`](gw-unofficial-footer.mdc).
+
+## Collection fact
+
+**Kill Team: Tomb World is owned and game-ready.** Do not deny ownership or treat it as superseded.

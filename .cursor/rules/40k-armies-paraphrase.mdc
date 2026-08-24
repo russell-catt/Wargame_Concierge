@@ -1,0 +1,24 @@
+---
+description: 40K army teaching pages — Codex wall and GW notice
+globs:
+  - games/warhammer_40k_11e/armies/**/*
+alwaysApply: false
+---
+
+# 40K armies — paraphrase (Codex wall)
+
+Cite [`AGENTS.md`](../../AGENTS.md) Sec 10. **AGENTS.md wins.**
+
+## Codex wall
+
+Never quote Codex / Faction Pack / paid army rules on these pages. Teaching paraphrase only. No datasheet statline dumps.
+
+## Core IDs are OK
+
+You **may cite** free Core rule IDs (e.g. `ARMIES — 01.01`, `VISIBILITY — 06.01`) as pointers. Do not paste Core quote bodies here — those live under `games/warhammer_40k_11e/rules/` and `setup/` (see the 40k-core-quotes rule).
+
+Wahapedia unit/stat (when WarCom does not publish the profile): paraphrase, retrieval date, `draft` until owned-pack cross-check. Owned PDF wins on conflict.
+
+## GW notice
+
+Player-facing army markdown (starters, lists, QR guides — not `units/research/`): include `## Games Workshop notice` per [`gw-unofficial-footer.mdc`](gw-unofficial-footer.mdc).

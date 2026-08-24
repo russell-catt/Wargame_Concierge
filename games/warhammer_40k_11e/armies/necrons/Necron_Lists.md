@@ -193,3 +193,10 @@ If a seller lists a sealed or partially built bundle box, it is almost always si
 ---
 
 *Model used for this edit: composer-2.5-fast*
+
+---
+
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+

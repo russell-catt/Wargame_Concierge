@@ -68,6 +68,10 @@ Every claim in this section traces to `raw/pointers/kill_team_2024_core.md`, [`P
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.0 (2026-08-18): Cheat sheet restyled to UML activity shapes (track `flowcharting_uml`); link Flowcharting.md. Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-18): Slice P — Core PDFs opened; hierarchy Full-Scan + update log over lite; Patch_Manifest indexed; targeting owner-verified.

@@ -221,6 +221,10 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v1.2 (2026-08-19): Full Wahapedia stat pass for all characters; MFM v1.2 verified 500 total. confidence: draft.
 - v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.

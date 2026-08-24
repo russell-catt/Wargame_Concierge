@@ -235,6 +235,10 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
 - v0.5.2 (2026-08-23): Event feedback — OC terrain footprint / control-vs-score; Leader+Support + coherency cites (**14.01**/**14.02**/**19.01**/**03.03**).
 - v0.5.1 (2026-08-18): Rule-ID cites; OC vs KT 1" control range flag (track `40k_warcom_quotes` S3/S4).

@@ -580,3 +580,11 @@ Pages created: games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions
 Pages updated: Board_Setup, setup/README; Necron + SM army lists, starters, reference guides, QRs, detachment pages — **Force Disposition** callouts; glossary Force Disposition entry; Necron/SM READMEs
 
 Key additions: Pre-game matching + Twists 2-pager; all five Priority Assets Primaries for Cryptek Conclave with keys; Force Disposition must be written on every list (starter-event failure mode).
+
+## [2026-08-23] ingest | gw_community_content — GW IP guidelines + games/ footer pass
+
+Pages created: KB/sources/gw_ip_guidelines.md; templates/Footer_Template_Gw_Print.md; templates/Gw_Print_Banner.html; docs/handoffs/gw_community_content/track_in.md; .cursor/rules/gw-unofficial-footer.mdc; scripts/apply_gw_ip_footer.py; scripts/apply_gw_ip_notice_md.py
+
+Pages updated: AGENTS.md Sec 10; templates/README.md; docs/handoffs/README.md; 42 games/**/*.html; 107 Tier B games/**/*.md; KB/index.md; necrons/print/README.md; .cursor/rules (layer, kt24-quotes, 40k-core-quotes, 40k-armies-paraphrase); .cursor/skills/qa-slice/SKILL.md
+
+Key additions: UNOFFICIAL banner + non-endorsement footer on all print HTML and datacard micro-footers; ## Games Workshop notice on player-facing shipping; quote-PDF policy locked (in-repo only); warhammer.com legal retrieved 2026-08-23.

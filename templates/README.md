@@ -27,6 +27,7 @@ Rising Tide **header/footer** fragments (from the Rising Tide meta-repo and Ross
 | Rehydration | `Header_Template_Rehydration_Prompt.md` | `Footer_Template_Rehydration.md` (Version History table) |
 | Reference / distill | `Header_Template_Reference_Document.md` | `Footer_Template_Standard.md` |
 | Design / technical note | `Markdown_Document_Template.md` | `Footer_Template_Standard.md` |
+| GW games shipping / print | *(header per doc type)* | [`Footer_Template_Gw_Print.md`](Footer_Template_Gw_Print.md) + [`Gw_Print_Banner.html`](Gw_Print_Banner.html) |
 | Check-in session (full) | `Header_Template_Checkin_Notes.md` | footer section in that file |
 | E-mail body fragments | *(none)* | HTML comment only in `data/build_lineup.md`, `data/summary_notes.md` |
 
@@ -51,6 +52,7 @@ Rendered by [`scripts/render_release.py`](../scripts/render_release.py). Output 
 
 ## Change Log
 
+- v1.2 (2026-08-23): GW print/shipping footer templates (`Footer_Template_Gw_Print.md`, `Gw_Print_Banner.html`).
 - v0.5.0 (2026-08-18): Indexed `flowchart_html_classes.md` (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-05-27): Documented `email/` Jinja template location.
 - v1.0 (2026-05-26): Template index; added Reference and Check-in templates.
