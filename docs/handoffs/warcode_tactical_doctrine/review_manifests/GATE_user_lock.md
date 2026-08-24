@@ -17,3 +17,7 @@ User may still edit §0 voice, §12 bugs, and §13 non-agentic section after rea
 ## Proceed
 
 **Approved for S7 polish.**
+
+## Naming safety (extended 2026-08-24)
+
+GW proper nouns banned in `games/the_warcode/**` per AGENTS Sec 10 v0.5.5: Kill Team; Warhammer; Warhammer 40,000 / Warhammer 40K; 40,000; 40K; 40k. Obfuscation: That other game / Murder Platoon / Rawmallet / 39.876 / 39.9. Re-lint shipping tree after content agent applies scrub.

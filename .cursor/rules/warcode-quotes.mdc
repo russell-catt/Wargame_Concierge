@@ -22,9 +22,26 @@ Every quote block: **filename + page** (+ section heading). OCR flattened pages:
 - Newer free beta on the same topic **supersedes**.
 - **Omission is not a patch.**
 
-## Naming safety
+## Naming safety (GW proper-noun ban)
 
-**Never** name Kill Team in `games/the_warcode/**`. Use **That other game** or **Murder Platoon**.
+In `games/the_warcode/**`, these proper nouns must **never** appear (any casing):
+
+- Kill Team
+- Warhammer
+- Warhammer 40,000 / Warhammer 40K combinations
+- 40,000, 40K, 40k
+
+Use obfuscated equivalents instead:
+
+| Banned | Use instead |
+|--------|-------------|
+| Kill Team | **That other game** |
+| Murder Platoon (squad from that game) | **Murder Platoon** |
+| Warhammer | **Rawmallet** |
+| 40,000 | **39.876** |
+| 40K / 40k | **39.9** |
+
+Source of truth: [`AGENTS.md`](../../AGENTS.md) Sec 10 (v0.5.5+).
 
 ## Binary
 

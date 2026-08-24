@@ -10,7 +10,7 @@
 |------|---------|
 | System scaffold `games/the_warcode/` | PASS — README, rules, setup, factions, guides, research, reviews |
 | Quote exception + raw PDF | PASS — AGENTS Sec 10 + gitignore negation |
-| Naming ban (That other game) | PASS |
+| Naming ban (GW proper nouns) | **PASS** — AGENTS v0.5.5; shipping scrub 2026-08-24 (Rawmallet / 39.876 / 39.9 + That other game) |
 | Review §0–16 structure | PASS — GATE provisional lock honored |
 | KB ingest | PASS — sources, concepts, factions, index/log/glossary/overview |
 | Manifests → polish path | PASS |
@@ -25,3 +25,9 @@
 ## Ship recommendation
 
 **READY** to commit on `feature-Warcode` and open PR to `main` (squash).
+
+## Ship receipt
+
+- **Commit:** `5aa74a6` (bootstrap) + `7707779` (merge main)
+- **PR:** https://github.com/russell-catt/Wargame_Concierge/pull/16 — **squash-merged** to `main` 2026-08-24
+- **Branch:** `feature-Warcode` (kept on remote)

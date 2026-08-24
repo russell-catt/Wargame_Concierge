@@ -3,8 +3,8 @@ title: The Warcode Pre-Launch Web (2026-08)
 type: source
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
+updated: 2026-08-24
+version: 0.5.4
 sources: [raw/pointers/warcode_vip_community.md, raw/pointers/warcode_rulebook_v087f.md, https://pre-launch.thewarcode.com/, https://gamefound.com/en/projects/redmakers/the-warcode, docs/handoffs/warcode_tactical_doctrine/review_manifests/05_factions.md, docs/handoffs/warcode_tactical_doctrine/review_manifests/06_faction_concepts.md]
 confidence: draft
 tags: [source, the_warcode, marketing, prelaunch, gamefound, community]
@@ -51,6 +51,7 @@ Pointer ledger: [`raw/pointers/warcode_vip_community.md`](../../raw/pointers/war
 
 - **Faction concept rows** (MDR synchronisation, Dominium morale) are marketing copy until a roster or rules page proves them — see [[warcode_mdr]], [[warcode_dominium]].
 - **Mechanics** always defer to [[warcode_rulebook_v087f]] and shipping under `games/the_warcode/rules/`.
+- **GW naming ban:** All GW proper nouns (Warhammer, 40K, Kill Team, …) are **obfuscated** in `games/the_warcode/**` — Rawmallet / 39.9 / 39.876 / That other game. Full table on [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]].
 
 ---
 

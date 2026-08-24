@@ -29,7 +29,7 @@
 - **Not** a verdict on the finished game. Scope is beta **V.0.8.7-F** plus pre-launch marketing copy, both pre-Gamefound. `[RB p.1]` `[PL §11]` — confidence: verified
 - **Not** a playtest report. Zero games played by this project at time of writing (no minis, no TTS, no proxies resolved). `[PTR]` — confidence: verified
 - **Not** a purchase recommendation, and **not** for sale. Personal learning only, per `AGENTS.md` Sec 10. — confidence: verified
-- **Not** a comparison against any Games Workshop product by name in shipping files. Use **That other game** / **Murder Platoon**. — confidence: verified
+- **Not** a comparison against any Games Workshop product or trademark by name in shipping files. Banned proper nouns: Kill Team; Warhammer; Warhammer 40,000 / Warhammer 40K; 40,000; 40K; 40k. Use **That other game** / **Murder Platoon** / **Rawmallet** / **39.876** / **39.9**. — confidence: verified
 
 ## Evidence basis to state up front
 
@@ -40,8 +40,8 @@
 ## Handoff notes
 
 - §0 and §15 are twins: §0 sets expectations, §15 carries legal wording. Do not let them drift.
-- **Masking directive:** any real GW product title appearing in source quotes (see `09_market_differentiation.md`) must be masked before it reaches `games/the_warcode/**`.
+- **Masking directive:** any real GW product title or trademark (Kill Team, Warhammer, 40,000 / 40K variants) appearing in source quotes (see `09_market_differentiation.md`) must be masked before it reaches `games/the_warcode/**`.
 
 ## Open questions
 
-- Does the owner want RedMakers named as publisher in §0, or only in §15? (Naming a real publisher is allowed — the ban covers That other game only.)
+- Does the owner want RedMakers named as publisher in §0, or only in §15? (Naming a real publisher is allowed — the ban covers GW comparator proper nouns only.)

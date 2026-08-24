@@ -1,6 +1,6 @@
 <!--
 FILE: AGENTS.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.5 (2026-08-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Librarian, slice L0)
 
@@ -210,7 +210,15 @@ Non-negotiable. This is a personal learning KB, not a redistribution channel. **
 - Write **teaching paraphrase**: explain how a rule works in your own words, with the reasoning a player needs. Do not transcribe datasheet statlines, stratagem text, or rules text verbatim **except** under the scoped quote exceptions below
 - **KT24 quote exception (scoped):** Under `games/kill_team_2024/` only, you may quote **verbatim** rules text from owned local KT24 PDFs (`C:\Personal\Kill Team\kill_team_2024\` root + `Teams\`) and from WarCom free rules downloads, with filename + page/section cite on every block. Read PDFs **in place**; never copy binaries into git. **KT24 hierarchy:** Full-Scan Core Book is baseline; dated `eng_*` patches (update log, team PDFs, universal equipment) supersede on the same topic; Jul 25 lite is simplified intro — omission is not a patch.
 - **40K WarCom-free quote exception (scoped):** Under `games/warhammer_40k_11e/rules/` and `games/warhammer_40k_11e/setup/` only, you may quote **verbatim** rules text from WarCom-**free** system PDFs and matching local `C:\Personal\40K\rules\eng_*` copies. Every quote block: filename + **page** + **rule ID** (e.g. `ARMIES — 01.01`, `VISIBILITY — 06.01`). Read PDFs **in place**; never copy binaries into git. **40K hierarchy:** Core Rules PDF (`eng_01-06_*`) is baseline; dated `eng_*` stamps (universal updates, Event Companion) supersede on the same topic; omission is not a patch. **Codex wall:** never quote Codex / Faction Pack / paid army rules. `games/warhammer_40k_11e/armies/**` stay teaching paraphrase. Free non-Codex extras (Event Companion missions, Armageddon datacards, MFM points tables) are **not** dumped — inventory in pointers only. **`KB/` and `docs/` stay paraphrase** + `[[wikilink]]` to the quote file and the rule ID.
-- **Warcode free-beta quote exception (scoped):** Under `games/the_warcode/rules/`, `games/the_warcode/setup/`, and `games/the_warcode/factions/` only, you may quote **verbatim** rules text from the free public beta PDF committed at [`raw/the_warcode/`](raw/the_warcode/). Every quote block: filename + **page** + section heading (optional stable IDs in `Rulebook_Quotes.md`). **OCR** flattened image pages (e.g. Protocol Cards) when native text is empty; cite `via OCR`. **Hierarchy:** `The Warcode Rulebook V.0.8.7-F.pdf` is baseline until a newer free beta supersedes on the same topic; omission is not a patch. **Binary exception:** that beta PDF (and OCR text sidecars under `raw/the_warcode/`) may be tracked in git — see [`.gitignore`](.gitignore) negation. **Never** commit STL files. **`KB/` and `docs/` stay paraphrase** + `[[wikilink]]` to quote files. **Shipping naming:** never name Kill Team in `games/the_warcode/**`; use **That other game** / **Murder Platoon**.
+- **Warcode free-beta quote exception (scoped):** Under `games/the_warcode/rules/`, `games/the_warcode/setup/`, and `games/the_warcode/factions/` only, you may quote **verbatim** rules text from the free public beta PDF committed at [`raw/the_warcode/`](raw/the_warcode/). Every quote block: filename + **page** + section heading (optional stable IDs in `Rulebook_Quotes.md`). **OCR** flattened image pages (e.g. Protocol Cards) when native text is empty; cite `via OCR`. **Hierarchy:** `The Warcode Rulebook V.0.8.7-F.pdf` is baseline until a newer free beta supersedes on the same topic; omission is not a patch. **Binary exception:** that beta PDF (and OCR text sidecars under `raw/the_warcode/`) may be tracked in git — see [`.gitignore`](.gitignore) negation. **Never** commit STL files. **`KB/` and `docs/` stay paraphrase** + `[[wikilink]]` to quote files. **Shipping naming (GW proper-noun ban):** In `games/the_warcode/**`, these proper nouns must **never** appear (any casing): **Kill Team**; **Warhammer**; **Warhammer 40,000** / **Warhammer 40K** combinations; **40,000**; **40K**; **40k**. Use obfuscated equivalents instead:
+
+  | Banned | Use instead |
+  |--------|-------------|
+  | Kill Team | **That other game** |
+  | Murder Platoon (squad from that game) | **Murder Platoon** |
+  | Warhammer | **Rawmallet** |
+  | 40,000 | **39.876** |
+  | 40K / 40k | **39.9** |
 - Cite where a claim can be checked (source page, Wahapedia URL, local PDF path) so the reader can verify against material they own
 - No secrets, credentials, or `.env` content in `KB/` - ever
 
@@ -335,6 +343,7 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 
 ## Change Log
 
+- v0.5.5 (2026-08-24): Sec 10 — Warcode shipping naming ban extended: Kill Team plus Warhammer / 40,000 / 40K variants; obfuscation table (Rawmallet, 39.876, 39.9). `.cursor/rules/warcode-quotes.mdc` + qa-slice lint aligned.
 - v0.5.4 (2026-08-23): Sec 10 — Warcode free-beta quote exception (`games/the_warcode/` rules/setup/factions); `raw/the_warcode/` PDF git exemption; OCR note; That other game naming ban in Warcode shipping. Track `warcode_tactical_doctrine`.
 - v0.5.3 (2026-08-23): Sec 10 — GW unofficial / non-endorsement footer requirement on `games/` shipping and print HTML; warhammer.com legal pointer + retrieval date.
 - v0.5.2 (2026-08-19): Sec 10 living refs — Wahapedia allowed for unit/stat (datasheet) lookup when WarCom does not publish those profiles; owned pack still wins on conflict; retrieval date + `draft` until cross-check.
