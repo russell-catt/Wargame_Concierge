@@ -2,13 +2,13 @@
 title: Overview
 type: overview
 system: multi_system
-systems: [warhammer_40k_11e, kill_team_2024]
+systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-22
-version: 0.5.3
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols, legends_field_manual_sm_2026_08, sm_matched_vs_casual_starters]
+updated: 2026-08-23
+version: 0.5.4
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols, legends_field_manual_sm_2026_08, sm_matched_vs_casual_starters, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08]
 confidence: draft
-tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024]
+tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024, the_warcode]
 ---
 
 # Knowledge Base Overview
@@ -23,7 +23,7 @@ A personal **wargame concierge**: a knowledge base that helps its owner learn a 
 
 It is built on the Karpathy "LLM Wiki" pattern (see [`reference/llm-wiki.md`](../reference/llm-wiki.md)): immutable sources in `raw/`, an LLM-maintained knowledge layer in `KB/`, and player-facing content promoted into `docs/` and `games/`. The point is **compounding** - each source read and each question answered gets filed, so the same ground is never re-covered from scratch.
 
-The project is **game-agnostic by design**. `games/` holds one subtree per system. **Warhammer 40,000 11e** is the first worked example; **Kill Team 2024** is the second (onboarded). [`docs/Game_System_Scaffold.md`](../docs/Game_System_Scaffold.md) is the checklist for system #3.
+The project is **game-agnostic by design**. `games/` holds one subtree per system. **Warhammer 40,000 11e** is the first worked example; **Kill Team 2024** is the second (onboarded); **The Warcode** is the third (scaffolded **2026-08-23**). [`docs/Game_System_Scaffold.md`](../docs/Game_System_Scaffold.md) was the checklist for system #3 — now in active ingest.
 
 **40K Core quotes (2026-08-18).** Track `40k_warcom_quotes` added a numbered-ID appendix under [`games/warhammer_40k_11e/rules/Core_Rules_Quotes.md`](../games/warhammer_40k_11e/rules/Core_Rules_Quotes.md). **KB stays paraphrase.** Cite IDs such as **01.01** and **06.01**; do not paste Core quote bodies here. **Codex wall** still holds for army folders. See [[warcom_free_core_rules_11e]]. **Necron lists:** Personal `C:\Personal\40K\Necron_Lists.md` wins if the games working copy diverges.
 
@@ -60,6 +60,22 @@ The edition is **new**, which shapes how this KB is written:
 **What the v0.5.0 Librarian pass did.** Flagged the L1 Wahapedia drafts, then replaced them with teaching paraphrase of shipping. [[kill_team_2024_core_rules]] is `verified` **for the targeting subset only**. New pages: [[valid_target]], [[kill_team_terrain]], [[killzones_volkus_tomb_world]]. Teams / joint_ops / nemesis_ops / critical_ops stay index-only.
 
 **What is still open.** Ten owned team-rule PDFs as full KB faction/unit trees; ops card text; remaining Core chapters unread. Most KT24 glossary rows stay `draft`.
+
+---
+
+## Third system: The Warcode (`the_warcode`)
+
+**Added 2026-08-23, track `warcode_tactical_doctrine`, Librarian ingest.** RedMakers skirmish game — free public beta **V.0.8.7-F**. Everything under this heading carries `system: the_warcode`.
+
+**The Warcode is not 40K and not That other game:**
+
+- **Rules stay split.** Collision flags in [[glossary]] use **That other game** for Warcode↔Murder Platoon comparisons — never paste That other game's product name into `games/the_warcode/` paths.
+- **Quote exception** is scoped to `games/the_warcode/rules/`, `setup/`, and `factions/` from the committed beta PDF in `raw/the_warcode/`. **KB stays paraphrase.**
+- **Beta truth:** V.0.8.7-F baseline; newer free beta supersedes; omission is not a patch.
+
+**What this Librarian pass did.** Two source pages ([[warcode_rulebook_v087f]], [[warcode_web_prelaunch_2026_08]]), five concept pages (AP, ammo, overwatch, contracts, melee lock), four faction pages (Protagen + Ulfari `draft`; MDR + Dominium `stub`). Shipping teaching spine already exists under `games/the_warcode/rules/` from Implementer S0.
+
+**What is still open.** Contract deck and Protocol Cards (OCR blocked); MDR/Dominium rosters; faction datacard promotion to shipping; unit-level KB pages.
 
 ---
 
@@ -108,14 +124,14 @@ The comparison and opponent army, played by the owner's son. Used to teach contr
 
 | Metric | Value |
 |--------|-------|
-| Systems in scope | 2 - `warhammer_40k_11e` (primary), `kill_team_2024` (second system, shipping + KB v0.5.0) |
-| Sources ingested | 40K set + KT24 core (targeting **verified** 2026-08-18; other Core `draft`) + Nemesis/photo sources |
-| KB entity pages | 40K set + KT24 (1 source, 7 concepts, 2 setup) |
-| KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) — YAML `version: 0.5.0` |
-| Glossary terms | 40K verified set + KT24 section expanded (Visible, Vantage, Seek, Blast, Torrent, Guard, Valid Target → [[valid_target]]) |
-| Last ingest | **2026-08-19** — Necron shipping→KB back-fill (RP, Conclave/Court Phase 1 **245**, Legion/Syphon analysis, Wahapedia policy use) |
+| Systems in scope | 3 — `warhammer_40k_11e` (primary), `kill_team_2024` (second), `the_warcode` (third, scaffolded 2026-08-23) |
+| Sources ingested | 40K set + KT24 core (targeting **verified** 2026-08-18) + Warcode beta PDF extract + pre-launch web |
+| KB entity pages | 40K set + KT24 (1 source, 7 concepts, 2 setup) + Warcode (2 sources, 5 concepts, 4 factions) |
+| KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) |
+| Glossary terms | 40K verified set + KT24 section + Warcode section (2026-08-23) |
+| Last ingest | **2026-08-23** — The Warcode Librarian scaffold (system #3) |
 | Last lint | 2026-08-16 (L2, `tomb_world_ownership` - **40K only**) |
-| Schema / project version | AGENTS.md **v0.5.2** living-ref note (2026-08-19 Wahapedia unit/stat); git tags include `v0.5.0` |
+| Schema / project version | AGENTS.md **v0.5.3** GW footer note (2026-08-23) |
 
 The KB was bootstrapped in slice **L0** and took its first real ingest in **L1**, both on 2026-08-16. The ingest contract now has a worked example behind it rather than only a procedure.
 
@@ -194,6 +210,9 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - [[index]] - full catalog of KB pages
 - [[glossary]] - terminology and Keyword entries, now multi-system
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
+- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources
+- [[warcode_action_points]] · [[warcode_ammo]] · [[warcode_overwatch]] · [[warcode_contracts]] · [[warcode_melee_lock]]
+- [[warcode_protagen_marines]] · [[warcode_ulfari]] · [[warcode_mdr]] · [[warcode_dominium]]
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]]
 - [[kill_team_terrain]] · [[killzones_volkus_tomb_world]]
 - [[inherited_docs_for_S3]] - what is stable enough to teach from

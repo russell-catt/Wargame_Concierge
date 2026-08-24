@@ -48,8 +48,9 @@ Catalog of **local path pointers** and **living web references** for this projec
 | Rule | Detail |
 |------|--------|
 | **Never commit GW binaries** | No PDFs, webp, png, or official images in this repository |
-| **Path pointers only** | Local files stay under `C:\Personal\40K` or `C:\Personal\Kill Team`; the repo records paths |
-| **Teaching paraphrase** | `KB/` and `docs/` explain rules in our own words. Scoped verbatim quotes: KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID). Codex / Faction Pack / MFM points are not dumped |
+| **Warcode free beta exception** | `raw/the_warcode/*.pdf` may be committed (RedMakers free beta only — not GW). See `AGENTS.md` Sec 10 |
+| **Path pointers only** | Local GW files stay under `C:\Personal\40K` or `C:\Personal\Kill Team`; the repo records paths |
+| **Teaching paraphrase** | `KB/` and `docs/` explain rules in our own words. Scoped verbatim quotes: KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Warcode free beta under `games/the_warcode/{rules,setup,factions}/`. Codex / Faction Pack / MFM points are not dumped |
 | **Cross-check before play** | Verify claims against owned PDFs and living web sources with a retrieval date |
 | **White Dwarf captures** | Secondary trust — never override official rules/team/mission/Nemesis PDFs |
 
@@ -228,7 +229,25 @@ Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb Worl
 
 ---
 
+## The Warcode (system #3)
+
+Free public beta — **binary may live in git** under `raw/the_warcode/` (not GW).
+
+| Source | Path / URL | Use | Retrieved |
+|--------|------------|-----|-----------|
+| Rulebook V.0.8.7-F | [`raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf`](../raw/the_warcode/The%20Warcode%20Rulebook%20V.0.8.7-F.pdf) | Primary rules truth | **2026-08-23** |
+| Pre-launch site | https://pre-launch.thewarcode.com/ | Marketing, factions, VIP | **2026-08-23** |
+| Gamefound | https://gamefound.com/en/projects/redmakers/the-warcode | Campaign Sep 2026 | **2026-08-23** |
+| VIP Facebook | https://www.facebook.com/groups/1548626022918599 | Community | **2026-08-23** |
+| Pointers | [`raw/pointers/warcode_*.md`](../raw/pointers/) | Ingest stubs | **2026-08-23** |
+| Plan archive | [`reference/Warcode_Tactical_Doctrine_Plan.md`](Warcode_Tactical_Doctrine_Plan.md) | Track plan snapshot | **2026-08-23** |
+
+Quote appendix: `games/the_warcode/rules/Rulebook_Quotes.md`. Shipping naming: never Kill Team — **That other game** / **Murder Platoon**.
+
+---
+
 ## Change Log
+- v0.5.3 (2026-08-23): The Warcode free beta — `raw/the_warcode/` PDF allowed; living web + VIP pointers (track `warcode_tactical_doctrine` S0).
 - v0.5.2 (2026-08-19): Living web — Wahapedia allowed for unit/stat lookup when WarCom does not publish profiles; 11e Necrons path preferred; 10e paths flagged as edition-risk.
 - v0.5.1 (2026-08-18): WarCom-free Core quote path; July `eng_*` hierarchy; Wahapedia 10e URL flag; Necron lists Personal-wins ranking (track `40k_warcom_quotes`).
 - v0.5.1 (2026-08-18): uml-diagrams.org notation row + Fakhroutdinov credit (track `flowcharting_uml` S0).

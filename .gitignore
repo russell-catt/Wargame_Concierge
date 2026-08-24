@@ -35,6 +35,14 @@ Scratchpad/
 *.tiff
 *.tif
 
+# Warcode free beta rulebook only — RedMakers public beta (not GW)
+!raw/the_warcode/
+!raw/the_warcode/**
+!raw/the_warcode/*.pdf
+!raw/the_warcode/*.PDF
+!raw/the_warcode/**/*.pdf
+!raw/the_warcode/**/*.PDF
+
 # Allow markdown and Obsidian vault config
 !**/*.md
 !.obsidian/**

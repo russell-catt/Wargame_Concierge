@@ -1,0 +1,1912 @@
+
+
+===== PAGE 1 =====
+
+
+
+===== PAGE 2 =====
+
+1
+CONTENTS
+1.READ THE SCENARIO
+It sets out your objectives, 
+the victory conditions,
+and any special rules.
+2.DEPLOY UNITS
+Roll a D6 to see who deploys 
+ﬁrst, then take turns
+placing one unit each.
+3.DISTRIBUTE EQUIPMENT
+SETUP
+Once all units are deployed, 
+use your equipment
+points to arm them.
+SETUP
+GAME PHASES
+GAME PHASES OVERVIEW
+UNIT ACTIVATION
+ACTION POINTS (AP)
+VICTORY POINTS (VP)
+UNIT ATTRIBUTES
+HEALTH
+AGILITY
+ARMOR
+MOVEMENT RANGE
+MOVEMENT
+RANGED WEAPONS
+SHOOTING RANGE
+NUMBER OF SHOTS
+ACTION POINTS (AP) FOR SHOOTING
+AMMUNITION
+ACTION POINTS (AP) FOR RELOADING
+ARMOR PENETRATION
+DAMAGE
+CRITICAL DAMAGE
+OVERWATCH
+RANGED WEAPONS
+SHOOTING THROUGH FRIENDLY UNITS
+MELEE WEAPONS
+1
+2
+2
+3
+3
+3
+4
+4
+4
+4
+4
+5
+6
+7
+7
+7
+8
+8
+8
+8
+9
+9
+10
+11
+12
+12
+12
+12
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+15
+15
+16
+17
+17
+17
+18
+19
+20
+21
+22
+MELEE RANGE
+MELEE STRENGTH
+ACTION POINTS (AP) FOR MELEE COMBAT
+ARMOR PENETRATION
+MELEE DAMAGE
+MELEE CRITICAL DAMAGE
+SPECIAL FEATURES
+ENGAGE
+MELEE RADIUS IMPACT
+MELEE COMBAT
+MELEE LOCK
+DISENGAGING FROM MELEE LOCK
+ESCAPING FROM MELEE LOCK
+EQUIPMENT
+GRENADE
+GRENADE THROW EXAMPLE
+MEDKIT
+ITEM PICKUP
+OPENING AND CLOSING DOORS
+DOOR BLOCKING
+SHOOTING EXAMPLE
+MELEE COMBAT EXAMPLE
+CONTRACTS
+RE-ROLL
+
+
+===== PAGE 3 =====
+
+GAME PHASES
+END OF THE ROUND:
+After the Tactical Phase, apply all unit effects
+that activate at the end of the round,
+then apply scenario effects (if any),
+and calculate Victory Points (VP).
+NEW ROUND:
+Start a new round following the same phases.
+FINAL ROUND:
+If this was the ﬁnal round, determine 
+the winner based on the conditions
+speciﬁed in the scenario.
+GAME PHASES OVERVIEW
+INITIATIVE PHASE
+1
+TACTICAL PHASE
+2
+ACTIVATION OF END-OF-ROUND
+ABILITIES
+ACTIVATION OF SCENARIO
+EVENT CARDS
+DEPLOYMENT
+SETUP
+INITIATIVE PHASE
+O
+VP CALCULATION
+END OF ROUND
+The game is divided into rounds,
+each consisting of two phases:
+1. INITIATIVE PHASE
+2. TACTICAL PHASE
+INITIATIVE PHASE: Roll a D6 to see who
+goes ﬁrst. The player with the highest roll takes
+the ﬁrst turn that round. In the ﬁrst round, roll
+before deploying units to determine both the
+deployment order and who goes ﬁrst. If there's
+a tie, both players re-roll until one wins.
+TACTICAL PHASE:Activate units
+and perform actions during this phase.
+2
+
+
+===== PAGE 4 =====
+
+UNIT ACTIVATION
+Each player takes turns activating one unit.
+Once activated, a unit with the corresponding token can perform actions using Action Points (AP):
+MOVE
+SHOOT
+RELOAD
+OVERWATCH
+MELEE COMBAT (if there are enemy units within melee range)
+ENGAGE
+DISENGAGE FROM MELEE LOCK (if the unit is within the melee range of an enemy unit)
+USE ABILITY (if the unit has an ability)
+USE EQUIPMENT (if the unit has equipment)
+INTERACT WITH MAP OBJECTS (e.g., doors)
+PASS (skipping a turn without triggering Overwatch)
+After performing an action, ﬂip the activation token to indicate that the unit can no longer perform
+actions in this round. At the start of a new round, ﬂip all tokens back to the side
+to indicate that the unit can be activated. 
+ 
+ 
+ 
+ 
+In this example, Unit 1 is allied and controls the point.
+In this example, Unit 1 is allied, and Units 2 and 3 are enemies.
+This point is contested.
+VICTORY POINTS (VP)
+ACTION POINTS (AP)
+3
+THE UNIT CAN BE ACTIVATED
+IN THIS ROUND.
+THE UNIT HAS ALREADY BEEN
+ACTIVATED IN THIS ROUND.
+Unit 1
+Unit 3 
+Unit 1
+Unit 2 
+Each unit has 2 Action Points (AP).
+Every action costs a speciﬁc number of AP 
+(except for picking up items from the ground 
+and opening/closing doors, which have 
+special rules). 
+Some units have abilities that give extra AP 
+to another friendly unit.
+Victory Points (VP) are earned by capturing 
+points on the map and completing contracts. 
+At the end of the game, the player with 
+the most VP wins. 
+VP tokens indicate the number of VP 
+a player receives at the end of a round.
+To capture a VP, a unit must be within 1 inch 
+of the VP token with no enemy units in that 
+radius. If both allied and enemy units are 
+present within this radius at the end of the 
+round, the point becomes contested, 
+and no player receives VP from it.
+
+
+===== PAGE 5 =====
+
+UNIT ATTRIBUTES
+HEALTH, AGILITY, ARMOR, AND MOVEMENT RANGE are the main attributes of a unit.
+The parameters for the unit's ranged and melee weapons are listed below these primary attributes.
+HEALTH
+9
+HP
+Unit health icon.
+Number of unit health points.
+AGILITY
+Unit agility icon.
+Unit agility value.
+3
+A
+ARMOR
+Unit armor icon.
+Unit armor value.
+4
+MOVEMENT RANGE
+Unit Movement Range icon.
+Unit Movement Range in inches.
+6
+M
+THESE CONSTITUTE THE CORE
+CHARACTERISTICS OF A CHARACTER. 
+9
+HP
+3
+A
+6
+M
+4
+5
+6
+1
+AP
+1
+AP
++1 1 2
+PISTOL
+3
+WEAPON ABILITY: When rolling for armor penetration,
+re-roll each die that shows a 1 until it shows a higher value.
+LEADER: The player gains 2 re-roll
+points at the start of each round.
+4
+1
+O
+1
+2 3
+VOLT SWORD
+AP
+COMMANDER
+RICKMAN
+9
+HP
+3
+A
+6
+M
+4
+The health value shows the number of health 
+points the unit has. One point of damage 
+removes one health point. When the health 
+value drops to zero, the unit is killed, 
+and its model is removed from the ﬁeld.
+The armor value shows how difﬁcult it is 
+to penetrate the unit's armor in ranged 
+and melee combat, and is used when making 
+armor penetration checks against the unit.
+   
+The agility value shows how difﬁcult it is to hit 
+the unit in ranged and melee combat, and is 
+used when making hit checks against the unit.
+The Movement Range value shows 
+the maximum distance the unit can move 
+in inches for 1 AP.
+4
+
+
+===== PAGE 6 =====
+
+5
+6 inches
+Unit 1
+Unit 2
+4 inches
+5 inches
+Unit 1
+Unit 2
+1 inch
+Full Cover (Wall)
+If Unit 1 needs to move between a friendly 
+Unit 2 and full cover (a wall), the distance 
+between Unit 1 and the cover must be at least 
+1 inch. If the distance between Unit 2 and 
+the cover is less than 1 inch, this movement 
+counts as moving through a friendly unit.
+To move through partial cover, 
+subtract 1 inch from the Movement Range.
+Example of moving through partial cover:
+Subtract the 1-inch penalty from the standard 
+Movement Range of 6 inches. That leaves 
+5 inches of movement through partial cover.
+Movement is measured using an inch ruler. 
+The standard movement distance for 1 AP 
+is 6 inches. Measurement is taken from the 
+base of the unit, which is placed at the edge
+of the point up to 6 inches away.
+Each unit has one of three Movement Ranges:
+SLOW: 5 INCHES
+STANDARD: 6 INCHES
+FAST: 7 INCHES
+To move through a friendly unit, 
+subtract 2 inches from the Movement Range.
+Example of moving through a friendly unit:
+Subtracting the 2-inch penalty from 
+the standard Movement Range of 6 inches 
+leaves 4 inches of movement through 
+the friendly unit.
+MOVEMENT
+
+
+===== PAGE 7 =====
+
+Unit 1
+Unit 2
+6 inches
+Unit 1
+Unit 2
+4 inches
+5 inches
+PISTOL
+5
+6
+3
+1
+AP
+1
+AP
++1 1
+2
+SHOTGUN
+2
+5
+2
+1
+AP
+1
+AP
+-1 3 4
+RIFLE
+3
+7
+2
+1
+AP
+1
+AP
+O 2 3
+HEAVY WEAPON
+4
+8
+1
+2
+AP
+1
+AP
+-2 2 3
+If movement would end on a friendly unit 
+or partial cover, place the unit directly 
+in front of the obstacle.
+There are various types of ranged weapons, 
+each with its own parameters and special 
+features. 
+Every weapon proﬁle includes its range, 
+number of shots, ammunition capacity, 
+AP cost for shooting, AP cost for reloading, 
+armor penetration strength, damage per shot, 
+and critical damage per shot.
+If the movement ends beyond a friendly unit 
+or partial cover, and it’s not possible to place 
+the unit within 4 or 5 inches, place it farther 
+than 4 or 5 inches, next to the friendly unit 
+or partial cover that blocked the movement.
+RANGED WEAPONS
+6
+
+
+===== PAGE 8 =====
+
+NUMBER OF SHOTS
+5
+ACTION POINTS (AP)
+FOR SHOOTING
+1
+AP
+Unit 1
+Target
+6 inches
+Unit 1
+Target
+6 inches
+Unit 1
+Target
+6 inches
+Shooting range
+Unit 1
+Unit 1
+Unit 2
+Shooting range
+Unit 2
+Full Cover (Wall)
+Target
+6
+Shooting range icon.
+Shooting range in inches.
+The range is measured using an inch ruler. 
+Each ranged weapon proﬁle has its own 
+shooting range, measured from the base of 
+the unit. If the measurement reaches the base 
+of the Target, it is considered within range, 
+and the unit can open ﬁre, provided the Target 
+is in line of sight and nothing blocks the shot.
+Shooting examples:
+If the Target is behind full cover (impassable 
+terrain such as walls, columns, etc.), shooting 
+is possible only if 50% of the Target's base
+is in direct line of sight. 
+For example, a 28mm base needs at least 
+14mm visible to the shooting unit.
+Here, only Unit 1 has a direct line of sight 
+to the Target and can open ﬁre.
+The number of shots shows how many 
+dice to roll for the shooting check.
+Shots icon.
+Number of shots.
+Shooting AP cost icon.
+Number of AP needed for shooting.
+The number of AP shows the amount of AP 
+needed to perform the shooting action.
+SHOOTING RANGE
+7
+
+
+===== PAGE 9 =====
+
+ACTION POINTS (AP)
+FOR RELOADING
+1
+AP
+ARMOR
+PENETRATION
++1
+DAMAGE
+1
+3
+AMMUNITION
+THE UNIT HAS 2 POINTS
+OF AMMUNITION LEFT
+Ammunition capacity icon.
+Ammunition capacity value.
+After shooting, subtract 1 from the indicated 
+ammunition capacity value. For example, 
+a weapon with 3 ammunition has 2 remaining 
+after ﬁring. Place a corresponding ammunition 
+token next to the unit to track how much 
+ammunition is left. The unit must always have 
+at least 1 ammunition to perform the shooting 
+action. Subtract 1 from the current ammunition 
+value after each shooting action. 
+If the ammunition value is 0, the unit cannot 
+shoot until it reloads.
+Reload AP cost icon.
+Number of AP needed for reloading.
+THE UNIT HAS 1 POINT
+OF AMMUNITION LEFT
+THE UNIT HAS 0 POINTS
+OF AMMUNITION LEFT
+To reload, spend the amount of AP speciﬁed 
+for reloading. The weapon's ammunition is 
+then restored to the maximum value indicated 
+in its ammunition parameter.
+The armor penetration strength of a weapon 
+is calculated based on its armor penetration 
+value.
+A value with a "+" sign means you need to 
+add the weapon's armor penetration value 
+to the Target's armor value. 
+A value with a "-" sign means you need to 
+subtract the weapon's armor penetration 
+value from the Target's armor value. 
+A value with a "0" sign means you don’t need 
+to add or subtract anything from the Target's 
+armor value.
+For example, if the Target has an armor value 
+of 4 and the weapon has an armor penetration 
+of +1, add 1 to the Target's armor value of 4. 
+When shooting with this weapon, the Target's 
+effective armor value becomes 5, so the 
+weapon is less effective at penetrating armor.
+By contrast, if the weapon's armor penetration 
+is -2, subtract 2 from the Target's armor value. 
+When shooting with this weapon, the Target's 
+effective armor value becomes 2, so the 
+weapon is more effective at penetrating 
+armor.
+The standard damage value shows the 
+amount of damage inﬂicted by a shot that 
+successfully hits and penetrates armor.
+Armor penetration icon.
+Armor penetration value.
+Damage icon.
+Damage value.
+8
+
+
+===== PAGE 10 =====
+
+9
+Shooting range
+Unit 1
+Unit 1
+Target
+Shooting range
+Unit 1
+Unit 1
+Target
+2
+Critical damage icon.
+Critical damage value.
+CRITICAL DAMAGE
+The critical damage value shows the amount 
+of damage inﬂicted by a shot that rolled 
+a 6 on the damage check.
+A unit in Overwatch mode holds its ﬁre and 
+waits. If an enemy unit moves into its shooting 
+range, or takes action while already inside
+that range, the Overwatch unit opens ﬁre 
+before the enemy unit completes its action.
+To activate Overwatch, a unit must spend 
+1 AP, have at least 1 ammunition, and be 
+outside melee range of an enemy unit. 
+To show that a unit is in Overwatch mode, 
+place an Overwatch token next to it. 
+Once the token is placed, the unit cannot take 
+any other action for the rest of the round.
+A unit leaves Overwatch mode as soon as 
+it ﬁres or takes damage. After that, its token 
+needs to be removed. 
+Any units still in Overwatch at the end 
+of the round leave it as well, and all remaining 
+tokens are removed.
+OVERWATCH TOKEN
+Unit 1 is in Overwatch mode, and Target 
+enters Unit 1's shooting range. Target stops 
+because Unit 1 opens ﬁre. 
+After Unit 1 shoots, the Overwatch token is 
+removed, and Target can continue its actions.
+Unit 1 is in Overwatch mode, and Target is 
+already within Unit 1's shooting range when
+it declares an action (e.g., opening ﬁre on 
+Unit 1 or starting movement). 
+Unit 1 opens ﬁre before Target acts. 
+After Unit 1 shoots, the Overwatch token
+is removed, and Target can perform
+its previously declared action.
+OVERWATCH
+
+
+===== PAGE 11 =====
+
+Unit 1
+Target
+Partial cover
+Unit 1
+Target
+Partial cover
+Full Cover (Wall)
+Shooting range
+Unit 1
+Unit 1
+Grenade
+explosion
+radius 
+Target
+Shooting range
+Unit 1
+Unit 1
+Target
+Unit 1 is in Overwatch mode. Target uses 
+Engage. Unit 1 opens ﬁre on Target ﬁrst, 
+then the Overwatch token is removed, 
+and Target enters melee combat.
+Partial cover is any terrain object on the ﬁeld 
+that does not exceed the height of the units. 
+Objects taller than the units count as full cover 
+and are impassable. To move through partial 
+cover, subtract 1 inch from the Movement 
+Range. When shooting at a Target behind 
+partial cover, or with partial cover on the line 
+of ﬁre, the Target's agility increases 
+by 1 for each piece on that line.
+A unit's agility cannot exceed 5,
+regardless of the number of bonuses applied.
+Unit 1 opens ﬁre on Target, which is behind 
+partial cover. Target's agility without cover
+is 3, so in this case, its agility becomes 4.
+Unit 1 opens ﬁre on Target. It is not behind 
+partial cover, but partial cover is on the line 
+of ﬁre, so Target's agility still increases by 1.
+Actions that trigger Unit 1 to open ﬁre 
+before Target's declared action:
+SHOOTING
+MOVEMENT
+MELEE COMBAT
+DISENGAGING FROM MELEE LOCK
+ESCAPING FROM MELEE LOCK
+USING EQUIPMENT
+RELOADING
+Overwatch ﬁre follows the normal shooting 
+rules: line of sight, ammunition, etc.
+Unit 1 is in Overwatch mode. Target starts 
+moving and enters Unit 1's shooting range 
+but stops behind full cover (impassable terrain). 
+Under the normal shooting rules, Target is not 
+in Unit 1's line of sight, so the movement does 
+not trigger Overwatch. Target then throws 
+a grenade, dealing damage to Unit 1. 
+Unit 1 has taken damage, so the Overwatch 
+token is removed and Unit 1 is no longer 
+in Overwatch mode.
+PARTIAL COVER
+1O
+
+
+===== PAGE 12 =====
+
+1 inch radius from Unit 1
+Unit 1
+Target
+Partial cover
+Unit 1
+Target 1
+Target 2
+Partial cover
+Radius 1 inch
+1 inch radius from Unit 1
+Unit 1
+Target
+Partial cover
+number 1
+Partial cover
+number 2
+If partial cover stands between a shooting unit 
+and its Target, and the unit is within 1 inch 
+of that cover, the unit counts as being behind 
+it and can shoot without interference.
+If more than half of the Target's base is visible 
+past the edge of the partial cover, the Target 
+does not count as being behind it and 
+receives no agility bonus. 
+On a 28mm base, that means
+more than 14mm visible to the shooting unit.
+Unit 1 opens ﬁre on Target. Target is not 
+behind partial cover, but two pieces of partial 
+cover are on the line of ﬁre. Unit 1 is within 1 
+inch of piece 1, so piece 1 does not interfere 
+with the shot. However, piece 2 does interfere 
+and grants an agility bonus to Target.
+Unit 1 opens ﬁre on Target. Target is not 
+behind partial cover, but two pieces of partial 
+cover are on the line of ﬁre. Unit 1 is within 
+1 inch of piece 1, so piece 1 does not interfere 
+with the shot. However, piece 2 does interfere 
+and grants an agility bonus to Target.
+When shooting through partial cover, measure 
+the distance to the cover in the direction 
+of the Target. If the cover is within 1 inch, 
+it does not interfere with the shot.
+A Target behind a friendly unit can still be shot 
+at, but its agility increases by 1. 
+A unit's agility cannot exceed 5, regardless 
+of the number of bonuses applied. A Target 
+with a base agility of 5 receives no bonus.
+Friendly ﬁre will not occur if 50% 
+of the Target's base is in direct line of sight. 
+For example, a 28mm base needs at least 
+14mm visible to the shooting unit.
+SHOOTING THROUGH
+FRIENDLY UNITS
+Unit 1 can shoot at both Target 1 and Target 
+2. The cover does not interfere with the shot 
+at Target 1, but interferes with the shot at 
+Target 2, because it is more than 1 inch away.
+11
+
+
+===== PAGE 13 =====
+
+MELEE WEAPONS
+There are various types of melee weapons, 
+each with its own parameters and, in some 
+cases, special features. Every weapon proﬁle 
+includes its melee range, melee strength, 
+AP cost for melee combat, armor penetration 
+strength, damage per hit, and critical damage 
+per hit.
+1
+Melee range icon.
+Melee range in inches.
+MELEE RANGE
+WEAPON ABILITY: When rolling for armor penetration,
+re-roll each die that shows a 1 until it shows a higher value.
+4
+1
+O
+1
+2 3
+VOLT SWORD
+AP
+The range is measured using an inch ruler. 
+Each melee weapon proﬁle has its own melee 
+range, measured from the base of the unit.
+If the measurement reaches the base of
+the Target, it is considered within melee range.
+4
+Melee strength icon.
+Melee strength value.
+MELEE STRENGTH
+Melee strength shows the number of attacks, 
+meaning how many dice to roll in melee 
+combat. The defender rolls dice equal to its 
+melee strength when blocking those attacks. 
+Melee strength also indicates the value 
+the opponent must roll on a single die 
+to disengage from Melee Lock.
+ACTION POINTS (AP)
+FOR MELEE COMBAT
+The number of AP shows the amount 
+of AP needed to perform melee combat.
+1
+Melee AP cost icon.
+Number of AP needed for melee combat.
+AP
+ARMOR PENETRATION
+The armor penetration strength of a weapon
+is calculated based on its armor penetration 
+value.
+A value with a "+" sign means you need to 
+add the weapon's armor penetration value 
+to the Target's armor value.
+A value with a "-" sign means you need to 
+subtract the weapon's armor penetration value 
+from the Target's armor value.
+A value with a "0" sign means you don't need 
+to add or subtract anything from the Target's 
+armor value. 
+For example, if the Target in melee combat 
+has an armor value of 4 and the weapon has 
+an armor penetration of +1, add 1 to the 
+Target's armor value of 4. When engaging in 
+melee combat with this weapon, the Target's 
+effective armor value becomes 5, so the 
+weapon is less effective at penetrating armor. 
+By contrast, if the weapon's armor penetration 
+is -1, subtract 1 from the Target's armor value 
+of 4. When engaging in melee combat with 
+this weapon, the Target's effective armor 
+value becomes 3, so the weapon is more 
+effective at penetrating armor.
+O
+Armor penetration icon.
+Armor penetration value.
+12
+
+
+===== PAGE 14 =====
+
+SPECIAL FEATURES
+Unit 1
+Target
+8 inches
+Range radius
+Melee Unit 1
+Range radius
+Melee Target 1 
+Range radius
+Melee Target 2 
+Unit 1
+Target 1
+Target 2
+2
+Melee damage icon.
+Melee damage value.
+MELEE DAMAGE
+The standard damage value shows the amount 
+of damage inﬂicted by a hit that successfully 
+passes both the hit and armor penetration 
+checks.
+3
+Melee critical damage icon.
+Melee critical damage value.
+MELEE
+CRITICAL DAMAGE
+The critical damage value shows the amount 
+of damage inﬂicted by a hit that rolled 
+a 6 on the damage check. 
+Melee weapons may have additional special 
+features. If a weapon has special features, 
+they are described below its main parameters.
+ENGAGE
+Engage is a boosted movement toward 
+the Target that ends in melee combat.
+COST OF ENGAGE:
+2 AP
+MOVEMENT RANGE 
+BONUS DURING ENGAGE: 
++2 INCHES
+For example, a unit with a movement range of 
+6 inches moves up to 8 inches. Melee combat 
+begins once it reaches the Target. 
+All standard penalties for moving through 
+partial cover or friendly units apply.
+The measurement to the Target must reach 
+its base, just as with shooting. If it does not 
+reach the base, Engage is not possible.
+The melee range value also acts as a radius 
+around the unit. Enemy units inside that radius 
+are automatically in melee combat with that 
+unit. They cannot shoot or perform other 
+actions, except taking part in melee combat 
+or using movement to leave the melee radius.
+Unit 1 is in melee combat with Target 1 
+and Target 2 — in Melee Lock with Target 1, 
+and in ordinary melee combat with Target 2. 
+All three units can only ﬁght in melee or leave 
+melee combat. Target 2 can leave using 
+ordinary movement. Unit 1 and Target 1 
+are in Melee Lock because their bases touch, 
+so they can leave only by using Disengage or 
+Escape from Melee Lock. No other actions 
+are available to these units while they 
+are engaged in melee combat.
+MELEE
+RADIUS IMPACT
+13
+
+
+===== PAGE 15 =====
+
+Range radius
+Melee Unit 1
+Range radius
+Melee Target 1 
+Range radius
+Melee Target 2 
+Unit 1
+2
+Target 1
+Target 2
+4
+2
+MELEE COMBAT
+Melee combat begins when two or more 
+enemy units enter the melee radius, which is 
+usually 1 inch. Inside the melee radius, units 
+cannot use ranged weapons, equipment, 
+or any abilities that melee combat blocks. 
+To leave melee combat, spend 1 AP on 
+movement and move out of the melee radius. 
+Melee Lock is the exception: leaving it requires 
+Disengage or Escape from Melee Lock.
+MELEE LOCK
+Two units are in Melee Lock when their 
+bases touch. A unit can be in Melee Lock 
+with several enemy units at once.
+Melee Lock follows the same rules as melee 
+combat, but it is harder to leave: instead 
+of simply moving out, a unit must use 
+Disengage or Escape from Melee Lock.
+COST OF DISENGAGE
+FROM MELEE LOCK: 1 AP
+To leave Melee Lock, roll a D6 against 
+the enemy unit's melee strength. If the roll 
+matches or beats that value, the unit breaks 
+away and moves a distance equal to its 
+movement range.
+If the roll is lower, the attempt fails. 
+The unit stays where it is, and the enemy unit 
+immediately attacks it in melee combat 
+without spending AP. For this attack only, 
+the unit that failed the check has its melee 
+strength reduced by 1.
+DISENGAGING
+FROM MELEE LOCK
+Unit 1 is in melee combat with Target 1 
+and Target 2, but in Melee Lock only with 
+Target 1, whose melee strength is 4. 
+Unit 1 rolls one D6 and needs a 4 or higher to 
+break away. No roll is needed against Target 
+2, since their bases do not touch.
+A unit in Melee Lock with several enemy units 
+rolls one D6 against each of them in turn, 
+and must succeed against every one 
+to break away.
+COST OF ESCAPE
+FROM MELEE: 2 AP
+Escape from Melee Lock works the same as 
+Disengage from Melee Lock, but even if 
+the roll fails and the enemy unit attacks, 
+the unit still escapes and moves a distance 
+equal to its movement range.
+ESCAPING FROM
+MELEE LOCK
+14
+
+
+===== PAGE 16 =====
+
+Equipment is additional portable gear that 
+a unit receives before the game begins. 
+Players start with 4 equipment points, which can 
+be spent on medkits or grenades, unless 
+a unit's rules restrict this.
+NUMBER OF EQUIPMENT POINTS: 4
+EQUIPMENT COSTS:
+GRENADE: 2 POINTS
+MEDKIT: 2 POINTS
+GRENADE
+COST OF THROWING
+A GRENADE: 1 AP
+A grenade can be thrown up to 5 inches, 
+measured from the base of the throwing unit. 
+Place the token at any point within that distance.
+Unless its rules say otherwise, a unit can carry 
+only one piece of equipment: either one 
+grenade or one medkit. 
+If a unit carrying equipment is killed, the token 
+stays on the ground where it died, and any 
+unit without equipment of its own can pick it up.
+5 inches
+15
+If the throw ends on an enemy unit, friendly unit, 
+or partial cover, the token is always placed at 
+a shorter distance, meaning less than 
+5 inches.
+If the throw ends beyond an enemy unit, friendly 
+unit, or partial cover, and the token cannot be 
+placed within 5 inches, place it farther than 
+5 inches, next to the unit or cover that blocked 
+the throw.
+The blast radius of the grenade is 2 inches, 
+measured from the edge of the token.
+GRENADE TOKEN
+MEDKIT TOKEN
+Unit 1
+Unit 1
+Unit 2
+5 inches
+5 inches
+Partial cover
+Unit 1
+Unit 2
+5 inches
+Partial cover
+EQUIPMENT
+
+
+===== PAGE 17 =====
+
+Unit 1
+Grenade
+explosion radius 
+Unit 2
+Unit 3
+Unit 4
+Full Cover (Wall)
+Unit 1
+Grenade
+explosion radius 
+Unit 2
+Unit 3
+Unit 4
+Partial cover
+GRENADE
+5
+1
+AP
+2
+-1 1
+2
+2 inches
+Unit 1
+Explosion radius
+grenades
+To determine the damage from the explosion, 
+roll 2 dice for each unit within the blast radius 
+and compare the results with that unit's armor 
+value.
+GRENADE THROW
+EXAMPLE
+The grenade affects all units within its blast 
+radius, including friendly units. A unit is within 
+the blast radius if the measurement from 
+the grenade token reaches its base. 
+The grenade completely ignores partial cover 
+and agility. Any unit within the blast radius 
+immediately makes an armor penetration 
+check.
+If a unit is behind full cover but within the blast 
+radius, make a line of sight check as with 
+shooting to determine whether the fragments 
+reach it. The check is made from the grenade 
+token instead of the shooting unit.
+Unit 1 throws a grenade. Unit 2 is within 
+the blast radius and undergoes a check. 
+Unit 3 is outside the blast radius and does not. 
+Unit 4 is within the blast radius, but full cover 
+stands between it and the grenade token. 
+Less than 50% of Unit 4's base is visible 
+from the token, so the fragments cannot reach 
+it and Unit 4 undergoes no check.
+Unit 1 throws a grenade. Unit 2, Unit 3, and Unit 
+4 are within the blast radius, and all undergo 
+a check, since the grenade completely ignores 
+partial cover.
+16
+
+
+===== PAGE 18 =====
+
+Unit 1
+Radius 1 inch
+Doorway
+Door
+Doorway
+Radius 1 inch
+Unit 2
+Unit 3
+Unit 1
+Unit 1
+Radius 1 inch
+17
+4
+Unit 1
+Unit 2
+4
+Unit 3
+Grenade
+explosion radius 
+Unit 1 throws a grenade. Unit 2 and Unit 3 
+are within the blast radius and need to make 
+checks.
+Unit 2 and Unit 3 have an armor value of 4, 
+and the grenade has an armor penetration 
+of -1, so a roll of 3 or higher is needed to 
+penetrate.
+Unit 2 takes no damage because its rolls 
+are lower than 3.
+Unit 3 rolls 4 and 6. Both are 3 or higher, so 
+the armor is penetrated twice. The 6 counts 
+as critical damage. Unit 3 takes 3 damage in 
+total: 1 point for the 4, which is the grenade's 
+normal damage, and 2 points for the 6, which 
+is critical damage.
+MEDKIT
+A medkit restores 2 HP, but never above 
+the unit's maximum HP. A unit with a medkit 
+can use it on itself or on a friendly unit within 
+1 inch once during its activation. Using a medkit 
+costs no AP. Each medkit works only once, 
+so remove its token from the ﬁeld after use.
+Unit 1 has a medkit and can use it on itself, 
+on Unit 2, or on Unit 3, since both are within 
+1 inch.
+When a unit carrying equipment is killed, its 
+grenade or medkit stays on the ground where 
+it fell. Any unit not already carrying equipment 
+can pick it up.
+Picking up items costs no AP, 
+but the unit must be within 1 inch of it.
+Unit 1 spends 1 AP to move within 1 inch of 
+a grenade lying on the ground and picks it up 
+for free. With its remaining AP, Unit 1 can 
+throw the grenade or take any other action 
+costing 1 AP.
+ITEM PICKUP
+Opening or closing a door costs no AP, but 
+the unit must be within 1 inch of the doorway. 
+A unit farther away spends 1 AP to move 
+within 1 inch ﬁrst. Each unit can open or close 
+a door only once per activation.
+OPENING AND CLOSING
+DOORS
+
+
+===== PAGE 19 =====
+
+Team A
+Doorway
+Door
+Doorway
+Team B
+Radius 1 inch
+Doorway
+Door
+Doorway
+Team B
+Radius 1 inch
+Team A
+Radius 1 inch
+DOOR BLOCKING
+If a unit is within 1 inch of the doorway, the door is considered blocked. 
+A unit from the opposing team cannot open or close a blocked door.
+If two or more units from different teams are within 1 inch of the same doorway, the door is considered 
+blocked for everyone, and no unit can open or close it. 
+This applies regardless of which side of the door each unit stands on.
+18
+
+
+===== PAGE 20 =====
+
+19
+Unit 1 opens ﬁre on Target with a shotgun.
+Hit check
+Armor penetration test
+Damage
+9
+HP
+3
+A
+6
+M
+4
+Unit 1
+Target
+2
+1
+5
+3
+4
+6
+7
+8
+2
+5
+1
+AP
+AP
+-1 3 4
+SHOTGUN
+2 1
+1
+2
+4
+3
+5
+6
+1. Check that there is enough ammunition
+to shoot. Unit 1 has not ﬁred yet, 
+so it has full ammunition.
+Check that there is enough AP for the shot. 
+Unit 1 was just activated this round and has 2 AP.
+8 8. Check the shotgun’s damage values for 
+each type of hit. The shotgun deals 3 normal 
+damage and 4 critical damage, giving a total 
+of 7 (3 + 4 = 7). Subtract 7 from Target’s HP, 
+leaving Target with 2 HP (9 - 7 = 2).
+2. Check the range to Target. The range is 
+less than 5 inches, so the shotgun can reach 
+Target.
+4. The shotgun has 2 shots, so roll 2 dice 
+to check for hits. The rolls are 3 and 4. 
+Both rolls beat Target's agility, so both shots hit.
+3. Check Target’s agility. 
+Roll 3 or higher to hit.
+5. Before the armor penetration check, 
+compare the shotgun’s penetration value 
+with Target’s armor value. Target’s armor 
+value is 4, and the shotgun’s penetration is -1. 
+This means Target’s effective armor value 
+against the shotgun is 3 (4 - 1 = 3). 
+Roll 3 or higher to penetrate.
+6. Both shots hit Target, so roll 2 dice 
+to check for armor penetration. The rolls 
+are 3 and 6. Both shots penetrate the armor, 
+since Target’s effective armor value is 3. 
+7 7. Determine the damage from those same 
+rolls (3 and 6). The 3 indicates normal 
+damage, since every roll except a 6 is normal 
+damage. The 6 is critical damage.
+SHOOTING EXAMPLE
+
+
+===== PAGE 21 =====
+
+MELEE COMBAT EXAMPLE
+Melee combat is different from shooting: both the armor and agility of the Target are involved, 
+as well as its defense (the Target rolls dice equal to its melee strength).
+Unit 1 spends 1 AP to move into melee range of Target, and then spends another 1 AP to attack. 
+Unit 1 attacks with a combat knife, while Target defends with a Volt Sword.
+WEAPON ABILITY: When rolling for armor penetratsion, re-roll each die that shows 
+a 1 until it shows a higher value.
+Unit 1
+Target
+Armor penetration
+test 
+9
+HP
+3
+A
+6
+M
+4
+2
+4
+5
+2
+1
+O
+1
+2
+3
+COMBAT  KNIFE
+AP
+WEAPON ABILITY: When rolling for armor penetration,
+re-roll each die that shows a 1 until it shows a higher value.
+4
+1
+O
+1
+2
+3
+VOLT SWORD
+AP
+Damage
+7
+6
+3
+1
+4
+5
+4. Target, as the defender, rolls dice equal 
+to its melee strength. It has 4 dice, 
+so Target rolls 4 dice against those attacks. 
+6
+6. Make an armor penetration check. 
+7
+7. If the armor is penetrated, 
+determine damage. 
+5. Compare the values on the attacker’s 
+and defender’s dice. Each attack can be 
+blocked only by a die with a value that 
+matches or exceeds the attacker's die value. 
+Here, only the attack of 3 is blocked, since 
+the defender has a die of equal or higher 
+value. The attack of 5 is not blocked, 
+so only one of the hits gets through.
+1 1. Check that there is enough AP to attack. 
+Unit 1 has just moved for 1 AP 
+and has 1 AP remaining. 
+2
+2. Check Target’s agility. 
+Roll 3 or higher to hit.
+3 3. Unit 1, as the attacker, rolls dice equal to 
+its melee strength. It has 2 dice, so 
+Unit 1 makes 2 attacks with the combat knife.
+2O
+
+
+===== PAGE 22 =====
+
+21
+If the difference in VP between players is 1 or more at the end of any round, 
+the player with the lower VP receives a contract.
+That player draws one contract card and looks at it secretly. The card speciﬁes one unit name from 
+each available faction, and the Target is the unit from the faction the opponent is playing. 
+If that unit is already dead, the player shows the card to the opponent, places it at the bottom 
+of the deck, and draws another.
+A contract is fulﬁlled once the Target is eliminated, whether by the player, by scenario events, or by 
+any other means. The player announces it, shows the card to the opponent, adds the VP speciﬁed 
+on the card to their score, and discards it.
+OBJECTIVES
+OF THE CONTRACT
+EXAMPLE: At the end of round 2, Player A has 2 VP and Player B has 3 VP. 
+Before the start of round 3, Player A receives one contract. 
+Player B is playing the Ulfari, so Player A's Target is the unit Shade. 
+If Shade is eliminated by Player A or by any other means, Player A gains 1 VP.
+CONTRACTS
+
+
+===== PAGE 23 =====
+
+A re-roll is a chance to repeat an entire roll, not just one die. Each re-roll costs 1 re-roll point.
+Re-roll points come from two sources. A player whose Leader is alive gains 2 re-roll points at the start 
+of each round, and stops gaining them once that unit is killed. A player also gains 1 point immediately 
+each time one of their own units is killed.
+Re-roll points cannot be spent on the initiative roll, which decides who goes ﬁrst in the round, 
+or on event cards that call for a roll.
+In melee combat, the attacker can re-roll the hit check only before the defender rolls to block.
+RE-ROLL
+22
+
+
+===== PAGE 24 =====
+
+CONTRACTS
+23
+
+
+===== PAGE 25 =====
+
+CONTRACTS
+24
+
+
+===== PAGE 26 =====
+
+                                                 The action takes place inside a long-abandoned and heavily damaged 
+space drifter. Your mission is to inﬁltrate and take full control of the ship. As soon as your team reaches 
+the machine's core, it activates security protocols. However, due to severe damage, the machine cannot 
+distinguish between friend and foe. You also discover that you are not alone. A countdown begins, 
+and there isn't enough time to escape the ship. You need to reprogram the "core" to mark your team 
+as "friendly" and the opposing team as "hostile," thereby activating automatic turrets to eliminate 
+the enemy. If neither team succeeds in persuading the "core", both teams will be marked as "hostile" 
+and will be destroyed when the time runs out.
+CORE OF THE MACHINE: 
+                                               At the start of each round, draw a random "Core of the Machine" activation 
+card with negative effects for one or more of the three rooms (effect descriptions are on the card).
+Victory Conditions:
+1. Eliminate all enemy units.
+2. Accumulate more VP than the opponent to sway the "Core of the machine" to your side.
+If both teams have the same number of VP at the end of the game, everyone perishes as the "core" 
+marks everyone as "hostile" and destroys them.
+GAMEPLAY MECHANICS: 
+Deployment area - A
+Deployment area - B
+- Partial cover
+- Full Cover (Wall)
+- Door
+SCENARIO «CORE OF THE MACHINE»
+25
+
+
+===== PAGE 27 =====
+
+7,5’’
+15’’
+3,5’’
+3,5’’
+2,5’’
+2,5’’
+7,5’’
+6’’
+6’’
+10’’
+13’’
+7’’
+2,5’’
+2,5’’
+7,5’’
+7,5’’
+7’’
+7,5’’
+7,5’’
+7’’
+2,5’’
+2,5’’
+2,5’’
+2,5’’
+11,5’’
+14’’
+11,5’’
+11,5’’
+3’’
+11,5’’
+8’’
+8’’
+16,5’’
+6’’
+11,5’’
+3’’
+11,5’’
+11,5’’
+11,5’’
+14’’
+11,5’’
+3’’
+3’’
+11,5’’
+11,5’’
+11,5’’
+11,5’’
+11,5’’
+14’’
+11,5’’
+3’’
+3’’
+11,5’’
+11,5’’
+11,5’’
+33’’
+11,5’’
+14’’
+11,5’’
+3’’
+11,5’’
+11,5’’
+11,5’’
+3’’
+11,5’’
+24’’
+Deployment area - A
+Deployment area - B
+Deployment area - A
+Deployment area - B
+Deployment area - B
+Deployment area - A
+Deployment area - B
+Deployment area - A
+Deployment area - B
+Deployment area - A
+Deployment area - A
+Deployment area - B
+RANDOM VP PLACEMENT
+The random VP placement system applies to all scenarios. Before the game begins, roll one D6. 
+The result determines the VP placement for that game. The diagrams below use the scenario 
+"Core of the Machine" as an example. BOARD SIZE 33’’ X 24’’ 
+26
+
+
+===== PAGE 28 =====
+
+PROTOCOL CARDS
+27
+
+
+===== PAGE 29 =====
+
+PROTOCOL CARDS
+28
+
+
+===== PAGE 30 =====
+
+29
+PROTOCOL CARDS
+
+
+===== PAGE 31 =====
+
+PROTOCOL CARDS
+3O
+
+
+===== PAGE 32 =====
+
+31
+PROTOCOL CARDS
+
+
+===== PAGE 33 =====
+
+PROTAGEN MARINES
+5
+6
+1
+AP
+1
+AP
++1 1 2
+PISTOL
+3
+WEAPON ABILITY: When rolling for armor penetration,
+re-roll each die that shows a 1 until it shows a higher value.
+LEADER: The player gains 2 re-roll
+points at the start of each round.
+4
+1
+O
+1
+2 3
+VOLT SWORD
+AP
+COMMANDER
+RICKMAN
+9
+HP
+3
+A
+6
+M
+4
+2
+5
+1
+AP
+1
+AP
+-1 3 4
+SHOTGUN
+2
+SPECIAL ABILITY: Starts the game with
+2 grenades and cannot take other equipment.
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+3
+A
+6
+M
+4
+BLAST
+TEAM LIST
+2
+5
+1
+AP
+1
+AP
+-1 3 4
+SHOTGUN
+2
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+3
+A
+6
+M
+4
+HAMMER
+2
+5
+1
+AP
+1
+AP
+-1 3 4
+SHOTGUN
+2
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+3
+A
+6
+M
+4
+ANVIL
+32
+
+
+===== PAGE 34 =====
+
+33
+PROTAGEN MARINES
+TEAM LIST
+4
+8
+2
+AP
+1
+AP
+-2 2 3
+HEAVY WEAPON
+1
+1
+1
++1
+1
+1
+2
+FIST
+AP
+8
+HP
+3
+A
+5
+M
+4
+BASTION
+5
+6
+1
+AP
+1
+AP
++1 1 2
+PISTOL
+3
+5
+1
+O
+1
+1
+2
+COMBAT CLAWS
+AP
+8
+HP
+3
+A
+6
+M
+4
+BLADE
+2
+5
+1
+AP
+1
+AP
+-1 3 4
+SHOTGUN
+2
+1
+1
++1
+1
+1
+2
+FIST
+AP
+8
+HP
+2
+A
+5
+M
+5
+SHELLSHOCKER
+5
+6
+1
+AP
+1
+AP
++1 2 3
+PISTOL
+3
+3
+1
+-2
+1
+3 4
+COMBAT AXE
+AP
+8
+HP
+3
+A
+6
+M
+4
+SMASHER
+WEAPON ABILITY: Enemy units within 1 inch
+are in Melee Lock with this unit, even if their bases do not touch.
+
+
+===== PAGE 35 =====
+
+ULFARI
+TEAM LIST
+3
+7
+1
+AP
+1
+AP
+O 2 3
+RIFLE
+2
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+4
+A
+6
+M
+3
+RAVENER
+5
+6
+1
+AP
+1
+AP
++1 1 2
+PISTOL
+3
+4
+1
+-1
+1
+2 3
+RAZOR BLADE
+AP
+8
+HP
+4
+A
+6
+M
+3
+WRAITH
+5
+6
+1
+AP
+1
+AP
++1 1 2
+PISTOL
+3
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+4
+A
+7
+M
+3
+PHANTOM
+SPECIAL ABILITY: Starts the game with
+2 grenades and cannot take other equipment.
+5
+6
+1
+AP
+1
+AP
++1 1 2
+PISTOL
+3
+4
+1
+-1
+1
+2 3
+RAZOR BLADE
+AP
+9
+HP
+4
+A
+6
+M
+3
+SOUL EATER
+LEADER: The player gains 2 re-roll
+points at the start of each round.
+34
+
+
+===== PAGE 36 =====
+
+ULFARI
+TEAM LIST
+2
+5
+1
+AP
+1
+AP
+-1 3 4
+SHOTGUN
+2
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+4
+A
+6
+M
+3
+STALKER
+4
+8
+2
+AP
+1
+AP
+-2 2 3
+HEAVY WEAPON
+1
+1
+1
++1
+1
+1
+2
+FIST
+AP
+8
+HP
+3
+A
+6
+M
+3
+DOOM
+8
+HP
+5
+A
+7
+M
+3
+REAPER
+4
+1
+-1
+1
+2 3
+RAZOR BLADE
+AP
+3
+7
+1
+AP
+1
+AP
+O 2 3
+RIFLE
+2
+2
+1
+O
+1
+2 3
+COMBAT KNIFE
+AP
+8
+HP
+4
+A
+6
+M
+3
+SPECIAL ABILITY: Sniper — When this
+unit shoots, the Target's agility is reduced by 1.
+SHADE
+35
+
+
+===== PAGE 37 =====
+
