@@ -1,0 +1,65 @@
+# Contract Cards transcription — The Warcode Rulebook V.0.8.7-F
+
+**Source:** raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx — Contracts sheet
+**Method:** via typed transcription (owner spreadsheet)
+**Confidence:** draft
+**Date:** 2026-08-25
+
+Standard boilerplate on every card: "You have received a contract. Eliminate the target designated by enemy faction."
+All cards award **1 VP** on fulfilment.
+
+## Contract 4186
+VP: 1 VP
+Protagen Marines target: Commander Rickman
+Ulfari target: Soul Eater
+MDR Executive Unit target: Sergeant 139
+Custodia Silens target: Justicar Julius
+
+## Contract 9278
+VP: 1 VP
+Protagen Marines target: Shellshocker
+Ulfari target: Phantom
+MDR Executive Unit target: Combat Medic
+Custodia Silens target: Cremator
+
+## Contract 5039
+VP: 1 VP
+Protagen Marines target: Bastion
+Ulfari target: Reaper
+MDR Executive Unit target: Machine Gunner
+Custodia Silens target: Confessor
+
+## Contract 6037
+VP: 1 VP
+Protagen Marines target: Blade
+Ulfari target: Shade
+MDR Executive Unit target: Grenadier
+Custodia Silens target: Punisher
+
+## Contract 3697
+VP: 1 VP
+Protagen Marines target: Blast
+Ulfari target: Stalker
+MDR Executive Unit target: Comms Operator
+Custodia Silens target: Tormentor
+
+## Contract 4913
+VP: 1 VP
+Protagen Marines target: Anvil
+Ulfari target: Doom
+MDR Executive Unit target: Corporal
+Custodia Silens target: Lancer
+
+## Contract 3512
+VP: 1 VP
+Protagen Marines target: Smasher
+Ulfari target: Ravener
+MDR Executive Unit target: Marksman
+Custodia Silens target: Assassin
+
+## Contract 2984
+VP: 1 VP
+Protagen Marines target: Hammer
+Ulfari target: Wraith
+MDR Executive Unit target: Private
+Custodia Silens target: Executor

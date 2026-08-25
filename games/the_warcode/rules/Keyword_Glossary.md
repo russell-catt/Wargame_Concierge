@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Keyword_Glossary.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -47,7 +47,7 @@ One line per term. **`confidence: draft`**, read **2026-08-23**. Deep dives: [`K
 |--------|---------|
 | `draft` | Paraphrased from the v0.8.7-F extract; confirm against owned PDF before tournaments |
 
-All entries below are **`draft`** unless a future pass marks them verified.
+All entries below are **`draft`** unless a future pass marks them verified. Card lookups: [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md), [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
 ---
 
@@ -88,7 +88,9 @@ All entries below are **`draft`** unless a future pass marks them verified.
 | **Reload** | AP action restoring ammo to max | Triggers Overwatch if in range |
 | **Armor penetration (+/−/0)** | Adjusts target Armor for penetration rolls | + makes armor harder to beat |
 | **Damage / Critical damage** | HP loss on penetrating hit; **6** = critical value | Stack damage from multiple hits |
-| **Line of sight** | Shooter can see target base | Full cover needs 50% base visible |
+| **Line of sight** | Shooter must see target base; blocked by full cover unless **≥50%** of target base is visible (e.g. 14 mm on a 28 mm base) | Declare before shooting; friendlies use same 50% rule |
+| **Hit check** | Each shot/melee attack die must roll **≥ target Agility** (after modifiers) | Cover and Sniper change the threshold |
+| **Penetration check** | Each hit die rolls **≥ effective Armour** (weapon pen modifies Armour) | + pen raises effective Armour; − pen lowers it |
 | **Overwatch** | 1 AP reaction fire stance | Ends activation; see trigger list in Key_Concepts |
 
 ---
@@ -97,7 +99,7 @@ All entries below are **`draft`** unless a future pass marks them verified.
 
 | Term | What it means | When it matters |
 |------|---------------|-----------------|
-| **Melee range** | Weapon reach; also **radius** around unit | Enemies inside are in melee combat |
+| **Melee range** | Inches from base to target base; also **1-inch radius** around unit for “in melee” | Inside radius: no shoot, no equipment, no abilities — fight or leave |
 | **Melee Lock** | Bases **touching** an enemy | Cannot walk away without Disengage/Escape |
 | **Melee combat** | AP action; opposed dice then penetration | Different from shooting sequence |
 | **Engage** | 2 AP rush — move M+2" into melee | Common opener after a 1 AP approach |
@@ -110,8 +112,11 @@ All entries below are **`draft`** unless a future pass marks them verified.
 
 | Term | What it means | When it matters |
 |------|---------------|-----------------|
-| **Partial cover** | Terrain ≤ unit height; passable with −1" move | Also adds Agility when on line of fire |
-| **Full cover** | Taller than units; **impassable** wall | 50% base rule for shooting |
+| **Partial cover** | Terrain **not taller than units**; passable at **−1"** from Movement Range | Each piece on **line of fire** adds **+1 Agility** to target (cap 5) |
+| **Full cover (wall)** | Terrain **taller than units**; **impassable** | Blocks LoS unless ≥50% of target base visible |
+| **Line of fire** | Cover between shooter and target, even if target is not “behind” it | Stacks +1 Agility per interfering partial-cover piece |
+| **Shooter within 1" of cover** | Partial cover within 1" of shooter does **not** interfere with that shot | Lets you hug cover and still fire |
+| **Target behind partial cover** | Target within 1" of partial cover counts as behind it for Agility | More than half base past edge → no bonus |
 | **Move through friendly** | −2" from Movement Range | Plan lane discipline |
 | **Door / Doorway** | Open-close at 0 AP within 1 inch | **Blocked** if any unit within 1 inch |
 | **Door blocking** | Enemy (or mixed teams) within 1 inch stops door use | Control doorways tactically |
@@ -136,9 +141,37 @@ All entries below are **`draft`** unless a future pass marks them verified.
 | **Victory Point (VP)** | Scenario score; most VP wins (usually) | Earn from map tokens + contracts |
 | **VP token** | Marker on board; scored end of round | Control within 1 inch, no enemy in radius |
 | **Contested** | Both sides in 1 inch of same VP | Nobody scores that token |
-| **Contract** | Secret elimination mission when trailing ≥ 1 VP | Swing games when behind on points |
-| **Re-roll point** | Spend to repeat a whole roll | Leader + casualties feed the pool |
-| **Protocol card** | Scenario event (e.g. Core of the Machine) | OCR corpus pending — see Rulebook_Quotes |
+| **Contract** | Secret elimination mission when trailing ≥ 1 VP | One card names a Target per faction — read the column matching your opponent |
+| **Contract card ID** | Printed number on each contract (e.g. **6037**) | Eight unique cards in the beta deck; all award **1 VP** — see reference table |
+| **Re-roll point** | Spend to repeat a whole roll | Leader + casualties feed the pool; not on initiative or protocol D6 |
+| **Protocol card** | *Core of the Machine* activation card drawn **start of each round** | Map section picks which room(s) suffer the effect |
+| **Protocol room** | **Left wing**, **central hex**, or **right wing** on the ship map | Card **Map section** column names Left / Centre / Right / Total |
+| **Total protocol** | **Total Magnet**, **Total Hunt**, etc. | Affects **all three rooms** (flavour says “all rooms”; agree at table if rule text still says “this room”) |
+
+---
+
+## Protocol effect names (*Core of the Machine*)
+
+| Protocol | What it does | When |
+|----------|--------------|------|
+| **Magnet** | **−3"** to Movement Range if movement **starts** in affected room(s) | During movement |
+| **Hunt** | **3 damage** to units in room at end of round (OCR: **full health only**; spreadsheet: all units — see reference footnote) | End of round |
+| **Electricity** | D6 per unit in room; **3 or less** → **3 damage** | End of round |
+| **Poison** | **2 damage** to all units in room | End of round |
+| **Silence** | Units in room **cannot use ranged weapons** | While in room that round |
+
+Full 20-row deck: [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
+
+---
+
+## Map and setup
+
+| Term | What it means | When it matters |
+|------|---------------|-----------------|
+| **Board size** | **33" × 24"** standard playing surface | Scenario diagrams and VP placement |
+| **Deployment area A / B** | Opposite ends of the map | Round 1 initiative sets who deploys first |
+| **D6 VP placement** | One D6 before play picks 1 of **6** token layouts | Positions only — token **values** read from printed art |
+| **Slow / Standard / Fast** | Movement Range **5 / 6 / 7** inches per 1 AP move | Profile speed bands on unit cards |
 
 ---
 
@@ -163,12 +196,16 @@ Use bridges for **memory**, not rules substitution.
 - [`Key_Concepts.md`](Key_Concepts.md) — full mechanical explanations
 - [`Turn_Structure.md`](Turn_Structure.md) — when terms trigger
 - [`Rulebook_Quotes.md`](Rulebook_Quotes.md) — publisher wording
+- [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md) — eight-card contract deck
+- [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) — twenty protocol rows
 - [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) — cover types on the table
+- [`../setup/Board_Setup.md`](../setup/Board_Setup.md) — D6 VP placement at setup
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-08-25): S8 corpus pass — protocol names, contract IDs, cover subtypes, map/setup terms; removed OCR-pending stubs; card reference cross-links.
 - v0.1 (2026-08-23): Initial glossary from beta v0.8.7-F extract; comparative stubs for S8 expansion.
 
 ## Attribution

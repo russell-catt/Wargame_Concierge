@@ -89,7 +89,7 @@ Core Warcode control rule (paraphrase): a unit within **1 inch** of a VP token w
 | Pre-game gear | **4 equipment points** → grenades and/or medkits | Universal equipment, faction gear, pre-mission picks |
 | Shooting | **Ammunition counters**; **reload** costs AP | Ammo / action rules vary by weapon and edition |
 | Dice fixes | **Re-roll points**: 2/round while Leader lives; +1 when your unit dies | Ploys, faction abilities, crit op effects |
-| Faction layer | Statlines + a few weapon riders; Protocol Cards (beta OCR pending) | Army rules, ploys, tac ops, team rules |
+| Faction layer | Statlines + a few weapon riders; Protocol Cards (see [`Protocol_Cards_Reference.md`](../rules/Protocol_Cards_Reference.md)) | Army rules, ploys, tac ops, team rules |
 
 Warcode's resource layer is ** thinner by design** — less stratagem deck, more statline and positioning.
 

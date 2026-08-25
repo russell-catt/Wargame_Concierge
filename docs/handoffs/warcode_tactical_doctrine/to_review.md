@@ -36,11 +36,12 @@ Priority key:
 |------|--------|
 | **PR #16** — `feat(warcode): The Warcode system #3 scaffold + VIP agentic review` | **Merged** to `main` (2026-08-24) |
 | **PR #17** — `docs(handoffs): close warcode_tactical_doctrine after PR #16` | **Merged** to `main` (2026-08-24) |
-| **Branch `cursor/warcode-gw-obfuscation-b7e0`** | **Not merged** — AGENTS v0.5.5 extended ban (Rawmallet / 39.876 / 39.9) + shipping/KB scrub; **no open PR** as of 2026-08-24 |
-| **Track rollup** | Closed in [`docs/handoffs/README.md`](../README.md) |
-| **GATE lock** | **Provisional** — see [`review_manifests/GATE_user_lock.md`](review_manifests/GATE_user_lock.md) |
+| **Branch `feature-Warcode`** | **Active integration branch** — obfuscation v0.5.5 + card/map pass (2026-08-25). **Not merged to `main`** until owner gates |
+| **VIP review sharing** | **Rendered PDF by email** to dev team; `Agentic_Rules_and_Marketing_Review.md` **gitignored** on GitHub |
+| **GATE lock** | **Final** — see [`review_manifests/GATE_user_lock.md`](review_manifests/GATE_user_lock.md) (2026-08-25) |
+| **TTS** | **Parked indefinitely** — no workshop URL expected |
 
-**P0:** Open PR from `cursor/warcode-gw-obfuscation-b7e0` → squash-merge to `main`, or cherry-pick commit `3a50b29` if you prefer a fresh branch.
+**P0:** Merge to `main` is **on hold** per owner (2026-08-25). Export PDF locally before push if review file was previously tracked.
 
 ---
 
@@ -85,10 +86,9 @@ From final sanity, L2 lint, and plan archive [`reference/Warcode_Tactical_Doctri
 | Gap | Tier | Detail |
 |-----|------|--------|
 | **L1 — KB unit pages** | P1 | Faction pages exist under `KB/factions/warcode_*.md`; **no** `KB/units/` pages for Protagen/Ulfari models. Plan called for paraphrase + links to quoted datasheets. |
-| **S1b — Unscannable cards (pp24–25 + image-only pages)** | P1 | Contract cards on PDF pp.24–25 are art-only — individual targets and VP values **not** in [`Rulebook_Quotes.md`](../../../games/the_warcode/rules/Rulebook_Quotes.md). Protocol Cards done via [`protocol_cards.ocr.txt`](../../../raw/the_warcode/protocol_cards.ocr.txt). **You type up** card text; **agent ingests** into quotes corpus and enhances VIP review / other Warcode docs (see §5). |
-| **S8 — Partial keyword coverage** | P2 | [`Comparative_Glossary.md`](../../../games/the_warcode/rules/Comparative_Glossary.md) covers core terms + Protocol names; [`Keyword_Glossary.md`](../../../games/the_warcode/rules/Keyword_Glossary.md) still marks comparative stubs / Protocol OCR pending. Not a ship blocker. |
-| **GATE §13 brief** | P1 | No `13_*.md` manifest by design — owner prose lives only in the polished review §13. |
-| **TTS workshop URL** | P2 | [`guides/Tabletop_Simulator.md`](../../../games/the_warcode/guides/Tabletop_Simulator.md) — placeholder until you own TTS and paste Steam workshop link. |
+| **S1b — Unscannable cards** | **Done** — [`Warcode_Contract_Protocol_list.xlsx`](../../../raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx) + map PNGs; agent ingested 2026-08-25 |
+| **S8 — Keyword coverage** | **Done** — full pass 2026-08-25 |
+| **TTS workshop URL** | **Parked indefinitely** — owner schedule |
 
 ---
 

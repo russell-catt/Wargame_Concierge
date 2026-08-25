@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Rulebook_Quotes.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.1.1 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -13,6 +13,9 @@ SOURCES:
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt (native text extract)
   - raw/the_warcode/protocol_cards.ocr.txt (Protocol Cards, via OCR)
+  - raw/the_warcode/contract_cards_transcription.txt (Contract Cards, via typed transcription)
+  - raw/the_warcode/protocol_cards_transcription.txt (Protocol Cards room variants, via typed transcription)
+  - raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx (owner spreadsheet source)
 
 PURPOSE:
   Single verbatim reference surface for The Warcode free beta rulebook. Every
@@ -743,7 +746,113 @@ Target in this example is **9 HP / 3 Agility / 6 Movement / 4 Armor** with a **V
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.22 — "OBJECTIVES OF THE CONTRACT"
 
-PDF pages 24 and 25 are titled **CONTRACTS** and carry card art with no extractable text layer. The individual contract cards are **not** transcribed here — see [Gaps in the extract](#gaps-in-the-extract).
+PDF pages 24 and 25 are titled **CONTRACTS** and carry card art with no extractable text layer. The eight contract faces below were transcribed from the printed cards **via typed transcription** — see [`contract_cards_transcription.txt`](../../../raw/the_warcode/contract_cards_transcription.txt) and [`Warcode_Contract_Protocol_list.xlsx`](../../../raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx). Teaching table: [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md).
+
+Every card shares the same header and awards **1 VP** on fulfilment.
+
+### Contract 4186
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Commander Rickman  
+> Ulfari — Soul Eater  
+> MDR Executive Unit — Sergeant 139  
+> Custodia Silens — Justicar Julius
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 9278
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Shellshocker  
+> Ulfari — Phantom  
+> MDR Executive Unit — Combat Medic  
+> Custodia Silens — Cremator
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 5039
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Bastion  
+> Ulfari — Reaper  
+> MDR Executive Unit — Machine Gunner  
+> Custodia Silens — Confessor
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 6037
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Blade  
+> Ulfari — Shade  
+> MDR Executive Unit — Grenadier  
+> Custodia Silens — Punisher
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 3697
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Blast  
+> Ulfari — Stalker  
+> MDR Executive Unit — Comms Operator  
+> Custodia Silens — Tormentor
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 4913
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Anvil  
+> Ulfari — Doom  
+> MDR Executive Unit — Corporal  
+> Custodia Silens — Lancer
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 3512
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Smasher  
+> Ulfari — Ravener  
+> MDR Executive Unit — Marksman  
+> Custodia Silens — Assassin
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
+
+### Contract 2984
+
+> You have received a contract. Eliminate the target designated by enemy faction.
+>
+> **1 VP**
+>
+> Protagen Marines — Hammer  
+> Ulfari — Wraith  
+> MDR Executive Unit — Private  
+> Custodia Silens — Executor
+>
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
 
 ---
 
@@ -808,11 +917,40 @@ The page shows **six** labeled layouts (one per D6 result), each with **Deployme
 
 ---
 
-## 29. Protocol Cards (via OCR)
+## 29. Protocol Cards (via OCR + room variants)
 
-PDF pages 28–32 are titled **PROTOCOL CARDS** and are pure card art — the native extract yields only the heading. The card text below was read **via OCR** from rendered page images and is recorded in [`protocol_cards.ocr.txt`](../../../raw/the_warcode/protocol_cards.ocr.txt).
+PDF pages 28–32 are titled **PROTOCOL CARDS** and are pure card art — the native extract yields only the heading. The card text below was read **via OCR** from rendered page images and is recorded in [`protocol_cards.ocr.txt`](../../../raw/the_warcode/protocol_cards.ocr.txt). **Map-section variants** (Left / Centre / Right / Total) come from typed transcription in [`protocol_cards_transcription.txt`](../../../raw/the_warcode/protocol_cards_transcription.txt). Full 20-row table: [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
-These are the "Core of the Machine" activation cards drawn at the start of each round. Each protocol comes in a **room** version and a **Total** version.
+These are the "Core of the Machine" activation cards drawn at the start of each round. Five protocol types — **Magnet**, **Hunt**, **Electricity**, **Silence**, **Poison** — each appear as a **single-room** card (**Left**, **Centre**, or **Right**) or a **Total** card affecting all three rooms.
+
+### Room variants (Left / Centre / Right / Total)
+
+| Protocol | Map section | Applies to |
+|----------|-------------|------------|
+| Magnet | Left | Left room only |
+| Magnet | Centre | Centre room only |
+| Magnet | Right | Right room only |
+| Total Magnet | Left, Centre, Right | All three rooms |
+| Hunt | Left | Left room only |
+| Hunt | Centre | Centre room only |
+| Hunt | Right | Right room only |
+| Total Hunt | Left, Centre, Right | All three rooms |
+| Electricity | Left | Left room only |
+| Electricity | Centre | Centre room only |
+| Electricity | Right | Right room only |
+| Total Electricity | Left, Centre, Right | All three rooms |
+| Silence | Left | Left room only |
+| Silence | Centre | Centre room only |
+| Silence | Right | Right room only |
+| Total Silence | Left, Centre, Right | All three rooms |
+| Poison | Left | Left room only |
+| Poison | Centre | Centre room only |
+| Poison | Right | Right room only |
+| Total Poison | Left, Centre, Right | All three rooms |
+
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.28–32 — "PROTOCOL CARDS" — map sections via typed transcription (raw/the_warcode/protocol_cards_transcription.txt)
+
+The OCR blocks below quote the **room** and **Total** rules text. Flavour and rule wording for **Hunt** differ between OCR and transcription — see the Hunt footnote under [`Protocol "Hunt" (room)`](#protocol-hunt-room).
 
 ### Protocol "Magnet" (room)
 
@@ -840,6 +978,8 @@ These are the "Core of the Machine" activation cards drawn at the start of each 
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.28–32 — "PROTOCOL CARDS" — via OCR (raw/the_warcode/protocol_cards.ocr.txt)
 
+**Hunt rule footnote — OCR vs transcription:** OCR reads **"WITH FULL HEALTH"** on the printed card. The owner spreadsheet transcription reads **"all units in the room take 3 damage"** with no full-health qualifier. Until a second physical check resolves it, treat **FULL HEALTH** as the printed-card reading and **all units** as the spreadsheet reading. See [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
+
 ### Protocol "Total Hunt"
 
 > TURRETS ACTIVATE THROUGHOUT ALL ROOMS. TARGET ACQUISITION BEGINS.
@@ -848,7 +988,7 @@ These are the "Core of the Machine" activation cards drawn at the start of each 
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.28–32 — "PROTOCOL CARDS" — via OCR (raw/the_warcode/protocol_cards.ocr.txt)
 
-*OCR note: rule text still reads "the room" singular.*
+*OCR note: rule text still reads "the room" singular. Total Hunt flavour confirmed from OCR — the spreadsheet transcription incorrectly copied Magnet flavour for this row.*
 
 ### Protocol "Electricity" (room)
 
@@ -1010,9 +1150,9 @@ Things the beta PDF contains that this file cannot quote, because the pages carr
 | PDF page(s) | Content | Status |
 |-------------|---------|--------|
 | p.1 | Cover | No text |
-| pp.24–25 | **Contract cards** — individual card faces and VP values | **Not transcribed.** The p.22 example implies at least one card worth 1 VP. Needs an OCR pass. |
-| pp.28–32 | **Protocol Cards** | Transcribed **via OCR** — see Sec 29. Card-to-page mapping is approximate. |
-| p.27 | Six random VP layout diagrams | Dimensions extracted, positions not. Read the printed diagrams. |
+| pp.24–25 | **Contract cards** — individual card faces and VP values | **Closed** — typed transcription in Sec 25; teaching table in [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md). All eight cards award **1 VP**. |
+| pp.28–32 | **Protocol Cards** | Transcribed **via OCR** (Sec 29) plus **Left / Centre / Right / Total** map sections via typed transcription — see [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md). |
+| p.27 | Six random VP layout diagrams | Positions documented in [`../setup/Board_Setup.md`](../setup/Board_Setup.md); dimension callouts in Sec 28. |
 | pp.5, 33–36 | Unit and weapon stat cards | Reconstructed as tables in Sec 30–32, not quoted. |
 | p.37 | Trailing page | Empty in extract |
 
@@ -1035,13 +1175,16 @@ Other open items:
 - [`Equipment_Loot_and_Doors.md`](Equipment_Loot_and_Doors.md) — deep-dive on gear and map objects
 - [`Contracts_and_VP.md`](Contracts_and_VP.md) — deep-dive on scoring
 - [`Scenarios_and_Events.md`](Scenarios_and_Events.md) — deep-dive on the scenario and Protocol Cards
-- [`../setup/Board_Setup.md`](../setup/Board_Setup.md) — board and deployment
+- [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md) — all eight contract targets by faction
+- [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) — 20 protocol rows with map sections
+- [`../setup/Board_Setup.md`](../setup/Board_Setup.md) — board, deployment, and VP layout placement
 - [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) — cover and doors
 
 ---
 
 ## Change Log
 
+- v0.1.1 (2026-08-25): Sec 25 — eight contract cards via typed transcription (pp.24–25 gap closed). Sec 29 — Left/Centre/Right/Total room variants; Hunt OCR vs transcription footnote. Gaps table updated; links to Contract and Protocol reference pages.
 - v0.1 (2026-08-23): Initial verbatim appendix from beta v0.8.7-F native extract plus Protocol Cards OCR. Reconstructed weapon and team-list tables with flags on Smasher's pistol and Reaper's missing ranged profile.
 
 ## Attribution

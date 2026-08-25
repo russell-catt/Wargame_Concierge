@@ -209,7 +209,7 @@ Third game system, scaffolded **2026-08-23** (`warcode_tactical_doctrine`, Libra
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[warcode_rulebook_v087f]] | Free public beta V.0.8.7-F from RedMakers — primary rules truth for The Warcode until superseded; read via extract 2026-08-23 | draft | 2026-08-23 |
+| [[warcode_rulebook_v087f]] | Free public beta V.0.8.7-F from RedMakers — primary rules truth; contract/protocol transcriptions + map PNGs 2026-08-25 | draft | 2026-08-25 |
 | [[warcode_web_prelaunch_2026_08]] | Pre-launch site, Gamefound campaign, and VIP Facebook — marketing and faction blurbs; secondary to the beta PDF | draft | 2026-08-23 |
 
 ### Concepts (Warcode)
@@ -219,7 +219,8 @@ Third game system, scaffolded **2026-08-23** (`warcode_tactical_doctrine`, Libra
 | [[warcode_action_points]] | Each activated unit gets 2 AP per round to pay for moves, shots, melee, overwatch, and equipment — Pass ends activation without triggering Overwatch | draft | 2026-08-23 |
 | [[warcode_ammo]] | Ranged weapons track ammunition; need ≥1 to shoot, lose 1 after each shot; Reload restores max and can trigger enemy Overwatch | draft | 2026-08-23 |
 | [[warcode_overwatch]] | 1 AP reaction stance — shoots first when a qualifying enemy acts in range; ends the unit's activation for the round | draft | 2026-08-23 |
-| [[warcode_contracts]] | Secret elimination bounty when trailing by ≥1 VP at end of round — names one enemy unit for bonus VP if killed | draft | 2026-08-23 |
+| [[warcode_contracts]] | Secret elimination bounty when trailing ≥1 VP — eight-card deck transcribed, 1 VP each, four faction target columns | draft | 2026-08-25 |
+| [[warcode_protocol_cards]] | Scenario protocol deck — Magnet/Hunt/Electricity/Silence/Poison by Left/Centre/Right/Total room | draft | 2026-08-25 |
 | [[warcode_melee_lock]] | Bases touching an enemy — cannot walk away without Disengage (1 AP) or Escape (2 AP); distinct from melee range alone | draft | 2026-08-23 |
 
 ### Factions (Warcode)

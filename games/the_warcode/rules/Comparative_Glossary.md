@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Comparative_Glossary.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine S8)
 
@@ -279,6 +279,58 @@ Source: via OCR — Protocol Cards
 
 ---
 
+## Card and map terms (S8)
+
+### Shooting Range
+**Definition:** Maximum inches from shooter base to target base; must reach and have line of sight to fire.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — p.8 — "SHOOTING RANGE"  
+**Agentic commentary:** Range is measured base-to-base every time — no “within X of any part of the model” ambiguity.  
+(This seems related to weapon Range on operative profiles in That other game.)
+
+### Number of Shots
+**Definition:** Hit dice rolled when shooting; each die ≥ target Agility is a hit.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — p.8 — "NUMBER OF SHOTS"  
+**Agentic commentary:** More shots mean more chances to beat Agility, not automatic extra damage.  
+(This seems related to number of attack dice on a shooting action in That other game.)
+
+### Line of sight
+**Definition:** Shooter must see target base; full cover blocks unless at least half the target base is visible.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.8, 11 — shooting and cover examples  
+**Agentic commentary:** The 50%-of-base rule makes corner-peeking a measured skill, not a vibes call.  
+(This seems related to visibility / Obscured tests in That other game.)
+
+### VP token
+**Definition:** Board marker whose printed value is VP scored at end of round if you control it within 1 inch.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — p.4 — "VICTORY POINTS (VP)"  
+**Agentic commentary:** Token art carries the point value — the D6 table only randomises positions.  
+(This seems related to objective markers in That other game missions.)
+
+### Contested (VP)
+**Definition:** Both sides have a unit within 1 inch of the same VP token at end of round — nobody scores it.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — p.4 — "VICTORY POINTS (VP)"  
+**Agentic commentary:** One skirmisher in the inch cancels any number of enemy models — denial is cheap.  
+(This seems related to contested objective control in That other game.)
+
+### D6 VP placement
+**Definition:** Before play, roll one D6 to pick one of six printed VP token layouts on the 33" × 24" board.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — p.27 — "RANDOM VP PLACEMENT"  
+**Agentic commentary:** Objectives are public before deployment — you react with placement, not surprise.  
+(This seems related to pre-mission objective setup in That other game, though layouts are fixed per D6 here.)
+
+### Contract card ID
+**Definition:** Printed number on each of eight contract cards (e.g. **6037**); each lists four faction Target names, one of which applies.  
+Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — via typed transcription  
+**Agentic commentary:** The ID is bookkeeping — the hunt is whichever name matches your opponent's faction column.  
+(This seems related to tac-op card identity in That other game — different trigger, same “secret objective” feel.)
+
+### Protocol room / Map section
+**Definition:** Left wing, central hex, or right wing on the three-room map; protocol cards print **Left**, **Centre**, **Right**, or **Total** (all three).  
+Source: [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md); map diagrams — owner PNGs 2026-08-25  
+**Agentic commentary:** Read the map section before you commit models — the card tells you which room is hot this round.  
+(This seems related to mission sectors or room-based event triggers in narrative That other game scenarios.)
+
+---
+
 ## Force vocabulary
 
 ### Squad
@@ -309,4 +361,5 @@ Source: The Warcode Rulebook V.0.8.7-F.pdf — p.36 — Ulfari Shade
 
 ## Change Log
 
+- v0.2 (2026-08-25): S8 — card/map comparative rows (LoS, VP token, contested, D6 placement, contract ID, protocol room); existing bridges unchanged.
 - v0.1 (2026-08-23): S8 initial comparative glossary — beta terms + That other game bridges.
