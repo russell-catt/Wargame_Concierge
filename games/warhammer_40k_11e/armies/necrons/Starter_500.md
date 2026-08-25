@@ -35,7 +35,7 @@ UPDATE_TRIGGER:
 > **FORCE DISPOSITION — write on the list before you deploy (depends on which list below)**
 > **Canoptek Court path → Take and Hold** · `CANOPTEK COURT - 3DP - TAKE AND HOLD`
 > **Cryptek Conclave path → Priority Assets** · `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
-> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Conclave Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md)
+> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Conclave Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 500 points is the first size that feels like Warhammer 40,000 rather than a demo: two objectives worth fighting over, a real character, and enough units that the order you activate them starts to matter.
 

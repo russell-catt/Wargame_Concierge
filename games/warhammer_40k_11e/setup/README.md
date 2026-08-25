@@ -1,18 +1,19 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/README.md
-VERSION: v0.5.2 (2026-08-23)
+VERSION: v0.5.4 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S4)
 
 DOCUMENT_TYPE: Index / Section README
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
-REFERENCE_STATUS: Active - content authored in S3
+REFERENCE_STATUS: Active - content authored in S3; WD527 Commentary S2; system QR print shipped S4
 
 SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf (v1.1, read 2026-08-16)
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf (Section 13, read 2026-08-16)
   - C:\Personal\40K\Terrain\A4\ (path pointers only)
+  - C:\Personal\40K\WD_527\ (owned digital backup; Trinity Hobby 2026-08-22)
   - reference/Source_Library.md
 
 PURPOSE:
@@ -26,11 +27,13 @@ UPDATE_TRIGGER:
 
 # Setup - Warhammer 40,000 11th Edition
 
-**Status:** Populated in **S3**, from the owned Event Companion v1.1 and Core Rules PDF, both read **2026-08-16**; rule-ID cites added **2026-08-18** (`40k_warcom_quotes`).
+**Status:** Populated in **S3**, from the owned Event Companion v1.1 and Core Rules PDF, both read **2026-08-16**; rule-ID cites added **2026-08-18** (`40k_warcom_quotes`); WD527 locked Commentary on Board / Terrain / Force Dispositions **2026-08-25** (`wd527_shipping` S2).
 
 Everything that happens before battle round one, plus the terrain rules that shape the whole game.
 
 This folder may quote WarCom-free Core / local `eng_*` with filename + page + rule ID. Teaching stays paraphrase. Event Companion mission layouts and base-size lists are **inventoried, not dumped**. **Warhammer 40,000 is Copyright Games Workshop Limited.** Personal use only; never for sale.
+
+**WD527:** Locked **Commentary** blocks (teaching paraphrase + Trinity Hobby cite) live on [`Board_Setup.md`](Board_Setup.md), [`Terrain_Basics.md`](Terrain_Basics.md), and [`Chapter_Approved_Force_Dispositions.md`](Chapter_Approved_Force_Dispositions.md). Monthly mission: [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md) (**Mission 38 — Converging Ambition**). Tier **1.5** — Core / Event Companion win on mechanics. See shipping track [`docs/handoffs/wd527_research/track_shipping_in.md`](../../../docs/handoffs/wd527_research/track_shipping_in.md).
 
 ---
 
@@ -38,10 +41,22 @@ This folder may quote WarCom-free Core / local `eng_*` with filename + page + ru
 
 | File | What it covers |
 |------|----------------|
-| [`Board_Setup.md`](Board_Setup.md) | Table size (44" x 60" for events), the fourteen-step pre-game sequence, deployment zones and territory, objective types, strategic reserves, a printable pre-game checklist, and shortcuts for a first game |
-| [`Chapter_Approved_Force_Dispositions.md`](Chapter_Approved_Force_Dispositions.md) | **2-pager:** Force Dispositions, Primary matching, layouts A/B/C, Twists, starter-event checklist |
-| [`Terrain_Basics.md`](Terrain_Basics.md) | Terrain areas vs terrain features, the three categories (Exposed / Light / Dense), the four visibility rules (Benefit of Cover, Hidden, Obscuring, Solid), terrain and movement, and how much terrain a table actually needs |
+| [`Board_Setup.md`](Board_Setup.md) | Table size (44" x 60" for events), the fourteen-step pre-game sequence, deployment zones and territory, objective types, strategic reserves, a printable pre-game checklist, and shortcuts for a first game · WD527 Commentary (Disposition / Tactical; terrain objectives) |
+| [`Chapter_Approved_Force_Dispositions.md`](Chapter_Approved_Force_Dispositions.md) | **2-pager:** Force Dispositions, Primary matching, layouts A/B/C, Twists, starter-event checklist · WD527 Commentary (pairing + Tactical) |
+| [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md) | **Mission 38 — Converging Ambition** (WD527 Bunker); owned-materials build notes |
+| [`Terrain_Basics.md`](Terrain_Basics.md) | Terrain areas vs terrain features, the three categories (Exposed / Light / Dense), the four visibility rules (Benefit of Cover, Hidden, Obscuring, Solid), terrain and movement, and how much terrain a table actually needs · WD527 Commentary (footprints; Benefit of Cover) |
 | Learn-to-play print bag | Combined Saturday checklist (KT + 40K): [`../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md`](../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md) — PDFs in `C:\Personal\print_aids\learn_to_play_event\` |
+
+### Print aids (Letter → `C:\Personal\print_aids\40k_11e\`)
+
+| HTML | PDF | Notes |
+|------|-----|-------|
+| [`print/40k_system_quick_reference.html`](print/40k_system_quick_reference.html) | `40k_system_quick_reference.pdf` | **Shipped S4** — system Letter 2-pager (WD topic map; Core IDs). Outline: [`../rules/Quick_Reference_Card.md`](../rules/Quick_Reference_Card.md) |
+| [`print/40k_wound_roll_reference.html`](print/40k_wound_roll_reference.html) | `40k_wound_roll_reference.pdf` | Full S×T laminate — keep separate from system QR |
+| [`print/40k_wd527_mission.html`](print/40k_wd527_mission.html) | `40k_wd527_mission.pdf` | Mission 38 — Converging Ambition |
+| [`print/40k_chapter_approved_force_dispositions.html`](print/40k_chapter_approved_force_dispositions.html) | `40k_chapter_approved_force_dispositions.pdf` | Force Dispositions 2-pager |
+
+Export: `python games/warhammer_40k_11e/setup/print/_html_to_pdf.py`
 
 ---
 
@@ -76,6 +91,8 @@ Full catalogue: [`reference/Source_Library.md`](../../../reference/Source_Librar
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.4 (2026-08-25): Print table — system QR shipped (S4) with PDF path + outline link; wound laminate kept separate.
+- v0.5.3 (2026-08-25): WD527 Commentary + Mission 38 pointers; print list includes system QR (wd527_shipping S2).
 - v0.5.2 (2026-08-23): Index Chapter_Approved_Force_Dispositions 2-pager.
 - v0.5.1 (2026-08-18): Quote permission + Core ID cites (track `40k_warcom_quotes`). Event Companion still inventoried, not dumped.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

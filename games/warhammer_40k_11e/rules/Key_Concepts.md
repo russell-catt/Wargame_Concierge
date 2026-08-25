@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Key_Concepts.md
-VERSION: v0.5.2 (2026-08-23)
+VERSION: v0.5.3 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S1 wd527_shipping)
 
 DOCUMENT_TYPE: Teaching Guide / Core Mechanics
 PROJECT_NAME: Wargame_Concierge
@@ -92,11 +92,13 @@ Shooting and fighting both funnel into the same four steps. Everything you will 
 
 | S versus T | You need |
 |------------|----------|
-| S is at least double T | The easiest roll |
-| S is greater than T | Easier |
-| S equals T | Even |
-| S is less than T | Harder |
-| S is half T or less | The hardest roll |
+| S is at least double T | **2+** |
+| S is greater than T | **3+** |
+| S equals T | **4+** |
+| S is less than T (but greater than half T) | **5+** |
+| S is half T or less | **6+** |
+
+Full numeric grid: [`Wound_Roll_Reference.md`](Wound_Roll_Reference.md) · print [`../setup/print/40k_wound_roll_reference.html`](../setup/print/40k_wound_roll_reference.html).
 
 - An unmodified **1 always fails**; an unmodified **6 is a critical wound**, which switches on abilities like `[DEVASTATING WOUNDS]` and `[ANTI-X]`.
 
@@ -117,6 +119,12 @@ The rules that matter here:
 
 - A group with an already-wounded model must go first.
 - **Characters cannot be put in front of ordinary models.** This is why a leader hiding in a squad is genuinely hard to snipe - and why `[PRECISION]` weapons, which override this, are prized.
+
+**Commentary (White Dwarf 527 — Attack sequence / allocation groups):**
+
+When allocating wounds, put each CHARACTER alone; group other models by matching Wounds, Save, and Invulnerable Save. The defender declares hit order and works from worst save roll to best; characters stay last so a leader in a squad is hard to snipe without `[PRECISION]`.
+
+**Cite:** WD527, Attack sequence changes; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -179,6 +187,18 @@ Morale in 11th Edition is one roll with three sharp consequences.
 
 **Cryptek Conclave example:** Geomancer is **Support**; Necron Warriors are the bodyguard. At **250**, Support + Warriors is enough. At **500+**, a Royal Warden (**Leader**) can join the **same** Warrior brick alongside the Geomancer — Leader + Support + bodyguard = one unit.
 
+**Commentary (White Dwarf 527 — Leaders and Support):**
+
+*One Leader and one Support per bodyguard.* Unless a rule says otherwise, a bodyguard may take one of each — three datasheets become one attached unit for all rules purposes (e.g. Warboss + Bannernob, Librarian + Ancient).
+
+**Cite:** WD527, Leaders and Support; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
+**Commentary (White Dwarf 527 — Distance triad clarity):**
+
+Core uses three different distances for different jobs: coherency span is **2"** of a squadmate and **9"** of every other model (**03.03**); Ingress set-up is within **6"** of a battlefield edge (**20.04**); Deep Strike / ingress enemy gap is more than **8"**. A battle-report "6″ coherency" line is conflating Ingress edge distance with unit span — not an Ork or Da Jump exception.
+
+**Cite:** WD527, Distance clarification / Movement changes; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
 What follows from that:
 
 - Attacks target the combined unit and use the **bodyguard's Toughness**, not the character's.
@@ -219,6 +239,7 @@ Core stratagems every army has include Command Re-roll, Insane Bravery, Fire Ove
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.3 (2026-08-25): WD527 Commentary — allocation groups; Leaders and Support; distance triad (2"/9", Ingress 6", Deep Strike >8"); track `wd527_shipping` S1.
 - v0.5.2 (2026-08-23): Event feedback — OC terrain footprint + control-vs-score (**14.01**/**14.02**); Leader+Support join + deploy coherency (**19.01**/**03.03**).
 - v0.5.1 (2026-08-18): Rule-ID cites; cover/Heavy/OC paraphrase confirmed (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

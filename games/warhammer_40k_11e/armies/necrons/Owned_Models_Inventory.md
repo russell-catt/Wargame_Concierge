@@ -111,6 +111,7 @@ Second copies of the Tomb World battleline, plus a squad of Immortals, all still
 
 ## Related pages (cross-game)
 
+- [`README.md`](README.md) — faction entry · [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) · system spine: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md)
 - [`games/kill_team_2024/teams/canoptek_circle/README.md`](../../../kill_team_2024/teams/canoptek_circle/README.md) — the KT team package built from the Geomancer, Tomb Crawlers, and Macrocytes above
 - [`games/kill_team_2024/teams/canoptek_circle/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/canoptek_circle/Owned_Models_Inventory.md) — the KT-side inventory this page cross-links; owns the base-size / dual-legality detail
 - [`games/kill_team_2024/teams/hierotek_circle/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/hierotek_circle/Owned_Models_Inventory.md) — Hierotek operative map, proxies, base sizes

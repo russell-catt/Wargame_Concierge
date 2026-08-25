@@ -33,7 +33,7 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION — write on the list before you deploy**
 > **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
-> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 
@@ -61,8 +61,10 @@ Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 | **19.01** Form attached units | Before battle, each **Leader** / **Support** attaches to one eligible **bodyguard**. Normally **one Leader + one Support** per bodyguard → **one unit**. |
 | This 250 list | Geomancer is **Support**; Warriors are the bodyguard. Crawlers and Scarabs stay separate units. |
 | At 500+ | You can often add a **Leader** (e.g. Royal Warden) to the **same** Warrior brick alongside the Geomancer — three datasheets, one unit. |
-| **03.03** Coherency | When you **deploy** the attached unit, set up **all** its models as **one blob** in coherency (within 2" of another model in the unit, and within 9" of every model). Do not deploy the Geomancer as a separate unit. |
+| **03.03** Coherency | When you **deploy** the attached unit, set up **all** its models as **one blob** in coherency (within **2"** of another model in the unit, and within **9"** of every model). Do not deploy the Geomancer as a separate unit. Ingress from reserves is a different job: **6"** from a battlefield edge, **>8"** from enemies. |
 | Mid-game | You **cannot** attach later. Write the attachment on the list before deployment. |
+
+**S vs T wound bands (`05.02`):** S≥2×T → **2+** · S>T → **3+** · S=T → **4+** · S<T → **5+** · S≤½T → **6+**. Full grid: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md).
 
 ---
 
@@ -204,6 +206,7 @@ Pick the **Atomic Disintegrators** anti-Vehicle or anti-Monster menu option (con
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) · [`Cryptek_Conclave.md`](Cryptek_Conclave.md)
 - [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md)
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) — Objectives (**14.01**/**14.02**) and attach/deploy (**19.01**/**03.03**)
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md)
 
 ---
 
@@ -212,6 +215,7 @@ Pick the **Atomic Disintegrators** anti-Vehicle or anti-Monster menu option (con
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.4 (2026-08-25): WD527 shipping S6 — system spine; distance triad on coherency row; S vs T bands.
 - v1.3 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) section.
 - v1.2 (2026-08-20): Legion — re-roll D3 on any RP activate including Syphon; WarCom FAQ cite via analysis.
 - v1.1 (2026-08-19): Core rule IDs / plain-language pass (from main).

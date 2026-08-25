@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/First_Company_Task_Force.md
-VERSION: v1.0 (2026-08-22)
+VERSION: v1.1 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Librarian / Implementer — owned-shelf detachment writeup)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -42,6 +42,14 @@ This is the **best alternate detachment for your owned Blood Ravens shelf** afte
 **MFM tag pattern (confirm on your Marines MFM before play):** community builders list it as **2DP · Priority Assets** (retrieved 2026-08-22). Gladius is 3DP Priority Assets — same mission family, cheaper DP sticker if that matters for your event’s detachment budget.
 
 **Confidence:** `draft`. Gladius was cross-checked against your owned pack’s Gladius errata. This page has **not** had that owned-PDF pass yet — verify wording before a tournament.
+
+**Commentary (White Dwarf 527 — Charge):**
+
+When Terminators declare a charge, roll **2D6 first** — that roll is both max reach and which enemies are eligible. An 8.5" gap needs a 9; a fail does not let you pivot to a closer unit unless that unit was also inside the rolled distance.
+
+**Cite:** WD527, Charge (battle report Rules Focus); owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
+**Distances:** Deep Strike / ingress enemy gap **>8"**; coherency span **2"/9"** — do not call Ingress’s **6"** edge distance “coherency.”
 
 ---
 
@@ -151,6 +159,7 @@ Stay on Gladius until doctrines feel automatic. Switch to 1st Company for a “T
 - [`Oath_of_Moment.md`](Oath_of_Moment.md)
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) · [`README.md`](README.md)
 - Matched / Casual starters via [`README.md`](README.md) dual-path index
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 ---
 
@@ -159,6 +168,7 @@ Stay on Gladius until doctrines feel automatic. Switch to 1st Company for a “T
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.1 (2026-08-25): wd527_shipping S6 — Charge Commentary; 6″/8″/9″ distance note; system spine links.
 - v1.0 (2026-08-22): Initial teaching writeup for owned Terminator shelf; public refs retrieved 2026-08-22; `draft` pending owned PDF glance.
 
 ## Attribution

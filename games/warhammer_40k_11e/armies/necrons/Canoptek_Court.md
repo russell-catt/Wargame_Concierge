@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Canoptek_Court.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.3 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -33,7 +33,7 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION — write on the list before you deploy**
 > **Take and Hold** · MFM: `CANOPTEK COURT - 3DP - TAKE AND HOLD`
-> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound grid: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 The Necron detachment that turns **holding ground into shooting accuracy**. If you like the idea that standing in the right place makes your guns better — like a home-field advantage — this is the one.
 
@@ -84,6 +84,12 @@ Five habits to build:
 - **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win — like sacrificing a pawn to control the center of the board.
 
 **The trap:** pushing a fragile construct forward *hoping* to control No Man's Land, and losing both the model and the region. Take the ground with cheap bodies first, then benefit with the expensive shooting.
+
+**Commentary (White Dwarf 527 — Rules Focus: Terrain Objectives):**
+
+Power Matrix cares about **objective markers inside footprints** — stand models **inside** the terrain area (`14.01`) so your OC total (`14.02`) actually flips the region at the start of the phase.
+
+**Cite:** WD527, Rules Focus: Terrain Objectives; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -171,10 +177,17 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - what actually exists
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - Objective Control, which this rule is built on
 - [`../../setup/Board_Setup.md`](../../setup/Board_Setup.md) - deployment zones and No Man's Land
+- [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) - Mission 38 footprint layout
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) - S vs T wound grid
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
+- v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Terrain Objectives Commentary; GW notice.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer moved to game-ready; Plasmancer remains unowned / Apprentek proxy; Plasmacytes likely not dual-legal.
 - v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table and the beginner verdict were both built on the erroneous claim that Kill Team: Tomb World was not owned. Fit table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units - Geomancer, 2x Tomb Crawlers, 5x Macrocytes, 10x Warriors, 3x Scarab Swarms. Warriors and Scarabs re-tagged from "unassembled" to game-ready, with their owned duplicates flagged as build-before-play. The verdict "not first, on this collection" reversed: four of five game-ready units benefit from Power Matrix and Phase 1 is playable with zero purchases. Three units flagged as not yet costed from MFM v1.2. No rules content changed.

@@ -1,8 +1,8 @@
 <!--
 FILE: reference/Source_Library.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.4 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S3)
 
 DOCUMENT_TYPE: Reference / Source Catalog
 PROJECT_NAME: Wargame_Concierge
@@ -52,7 +52,8 @@ Catalog of **local path pointers** and **living web references** for this projec
 | **Path pointers only** | Local GW files stay under `C:\Personal\40K` or `C:\Personal\Kill Team`; the repo records paths |
 | **Teaching paraphrase** | `KB/` and `docs/` explain rules in our own words. Scoped verbatim quotes: KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Warcode free beta under `games/the_warcode/{rules,setup,factions}/`. Codex / Faction Pack / MFM points are not dumped |
 | **Cross-check before play** | Verify claims against owned PDFs and living web sources with a retrieval date |
-| **White Dwarf captures** | Secondary trust — never override official rules/team/mission/Nemesis PDFs |
+| **White Dwarf screen captures** | Secondary trust (e.g. KT WD517 Reddit captures) — never override official PDFs |
+| **Owned White Dwarf magazine** | **Tier 1.5** for commentary/missions in that issue — tier-1 Core still wins on mechanics (see `raw/pointers/white_dwarf_527.md`) |
 
 ---
 
@@ -109,6 +110,18 @@ All paths below are on the owner's machine. **Do not copy these files into git.*
 |------|----------|
 | `C:\Personal\40K\reference_sheet\quick-reference-sheet-included-in-this-months-white-dwarf-1.webp` | Quick reference sheet (part 1) |
 | `C:\Personal\40K\reference_sheet\quick-reference-sheet-included-in-this-months-white-dwarf-2.webp` | Quick reference sheet (part 2) |
+
+### White Dwarf 527 — owned (tier 1.5)
+
+| Path | Contents |
+|------|----------|
+| `C:\Personal\40K\WD_527\40K_ref-card.pdf` | 40K Quick Reference pull-out (2 pages) |
+| `C:\Personal\40K\WD_527\40K_missions.pdf` | Mission 38 card (40K p1; AoS p2) |
+| `C:\Personal\40K\WD_527\WD_527_1.pdf` … `WD_527_3.pdf` | Full issue scans |
+
+Pointer: [`raw/pointers/white_dwarf_527.md`](../raw/pointers/white_dwarf_527.md). **Tier 1.5** for commentary/missions; tier-1 Core wins on mechanics. Distinct from KT WD517 **secondary** screen captures.
+
+Teaching (paraphrase only): [`games/warhammer_40k_11e/setup/WD527_Monthly_Mission.md`](../games/warhammer_40k_11e/setup/WD527_Monthly_Mission.md) (Mission 38); wound laminate [`games/warhammer_40k_11e/rules/Wound_Roll_Reference.md`](../games/warhammer_40k_11e/rules/Wound_Roll_Reference.md); trust ladder [`docs/handoffs/wd527_research/track_shipping_in.md`](../docs/handoffs/wd527_research/track_shipping_in.md). System Letter QR HTML path: `games/warhammer_40k_11e/setup/print/40k_system_quick_reference.html` (S4).
 
 > **Note:** `.webp` reference images stay outside the repo. Path pointers only.
 
@@ -247,6 +260,7 @@ Quote appendix: `games/the_warcode/rules/Rulebook_Quotes.md`. Shipping naming: n
 ---
 
 ## Change Log
+- v0.5.4 (2026-08-25): WD527 section — teaching links (Mission 38, wound, trust ladder, system QR path) (wd527_shipping S3).
 - v0.5.3 (2026-08-23): The Warcode free beta — `raw/the_warcode/` PDF allowed; living web + VIP pointers (track `warcode_tactical_doctrine` S0).
 - v0.5.2 (2026-08-19): Living web — Wahapedia allowed for unit/stat lookup when WarCom does not publish profiles; 11e Necrons path preferred; 10e paths flagged as edition-risk.
 - v0.5.1 (2026-08-18): WarCom-free Core quote path; July `eng_*` hierarchy; Wahapedia 10e URL flag; Necron lists Personal-wins ranking (track `40k_warcom_quotes`).

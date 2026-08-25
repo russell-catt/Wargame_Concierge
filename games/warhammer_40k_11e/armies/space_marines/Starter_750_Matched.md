@@ -107,6 +107,12 @@ Inventory note: the Assault Terminator photo mixes TH/SS, lightning claws, and o
 
 ## Related pages
 
+### System spine (wd527_shipping)
+- Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md)
+- Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md)
+- Force Disposition: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+- System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
+
 - Casual twin: [`Starter_750_Casual.md`](Starter_750_Casual.md)
 
 - [`Starter_500_Matched.md`](Starter_500_Matched.md) · [`Starter_1000_Matched.md`](Starter_1000_Matched.md) · [`Starter_250_Matched.md`](Starter_250_Matched.md)
@@ -120,6 +126,7 @@ Inventory note: the Assault Terminator photo mixes TH/SS, lightning claws, and o
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
 - v1.x (2026-08-22): Matched/Casual split — this file is the **Matched** line; Legends live on Casual twin.
 - v1.1 (2026-08-21): Tac/Dev loadout notes synced to inventory.
 - v1.0 (2026-08-21): Initial owned Blood Ravens 750 path (double Terminators + Chaplain + Honour Vehement).

@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-23
-version: 0.5.7
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f]
+updated: 2026-08-24
+version: 0.5.8
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, white_dwarf_527]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024, the_warcode]
 ---
@@ -66,6 +66,7 @@ One page per ingested source. Location: `KB/sources/`.
 | [[warhammer_community]] | GW FAQs, errata, dataslates — surveyed 2026-08-20 for Legion / Syphon / character revive | draft | 2026-08-20 |
 | [[legends_field_manual_sm_2026_08]] | WarCom Legends Field Manual SM points (Servitors / Bike / Attack Bike) retrieved 2026-08-22 for Casual starters | draft | 2026-08-22 |
 | [[gw_ip_guidelines]] | Paraphrase of GW community IP guidelines + WarCom download licence; unofficial footer policy for games/ shipping | draft | 2026-08-23 |
+| [[white_dwarf_527]] | Owned WD527 tier 1.5 — commentary shipped to rules/setup/armies; system 2-pager + Mission 38 | verified | 2026-08-25 |
 
 ---
 
@@ -143,7 +144,11 @@ Pointer to the full research corpus: [[necrons_unit_index]].
 
 Deployment, terrain, missions, and scoring. Location: `KB/setup/`.
 
-40K setup remains empty (S3 shipping lives under `games/warhammer_40k_11e/setup/`). **Kill Team 2024** setup pages are catalogued in the KT24 section above ([[kill_team_terrain]], [[killzones_volkus_tomb_world]]).
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[wd527_monthly_mission]] | Mission 38 Converging Ambition — five Disposition Primaries; WD527 Bunker; links system QR | verified | 2026-08-25 |
+
+40K teaching setup also lives under `games/warhammer_40k_11e/setup/`. **Kill Team 2024** setup pages are catalogued in the KT24 section above ([[kill_team_terrain]], [[killzones_volkus_tomb_world]]).
 
 ---
 
@@ -158,6 +163,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
 | [[sm_matched_vs_casual_starters]] | Blood Ravens Gladius Matched vs Casual split; when to use which; Legends fit compromises by points level | draft | 2026-08-22 |
 | [[sm_owned_detachment_fit]] | Beyond Gladius: 1st Company then Anvil fit the owned Terminator / gun shelves; others thin | draft | 2026-08-22 |
+| [[wd527_orks_vs_blood_angels_walkthrough]] | WD527 First Contact battle report — setup through VP finish (BA 46–42) | verified | 2026-08-24 |
 
 *(Filename keeps the capitalised `S3` by explicit request in the L1 brief; it is the one deviation from lowercase `snake_case` in `KB/`.)*
 
