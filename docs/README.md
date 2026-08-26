@@ -1,6 +1,6 @@
 <!--
 FILE: docs/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-23)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -50,6 +50,7 @@ Process documents for the multi-agent workflow. Location: [`operations/`](operat
 |----------|---------|
 | [`operations/multiagent_coordinator_strategy.md`](operations/multiagent_coordinator_strategy.md) | The normative playbook: roles, tiers, slice state machine, git rules, Librarian governance (Sec 18) |
 | [`operations/librarian_agent.md`](operations/librarian_agent.md) | Librarian day-to-day: the query / ingest / lint / promote loop and the L0-L1-L2 maturity model |
+| [`operations/github_ship_smoothers.md`](operations/github_ship_smoothers.md) | Owner one-time GitHub settings so agents can squash-merge under the `public-access` ruleset |
 | [`operations/Flowcharting.md`](operations/Flowcharting.md) | House flowchart shapes: UML 2.5 activity (start / action / decision+guards / end). Not a rules source |
 
 > **Known issue:** `multiagent_coordinator_strategy.md` carries 26 dead relative links inherited from the `daily_report` repo it was adapted from. The prose is authoritative; those links are not. Flagged by the Librarian in [`handoffs/v1_scaffold/slices/L0_librarian.md`](handoffs/v1_scaffold/slices/L0_librarian.md).
@@ -97,6 +98,7 @@ Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everyt
 
 ## Change Log
 
+- v0.5.1 (2026-08-23): Date stamp (rule test #3); index `github_ship_smoothers.md`.
 - v0.5.0 (2026-08-18): Flowcharting.md indexed (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z). Later tracks via handoffs/README.md; Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial documentation index covering project documents, operations, and handoffs. Created in slice S1.
 
