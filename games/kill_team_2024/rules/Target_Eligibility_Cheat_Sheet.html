@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.9.1 (2026-08-26)
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -22,12 +22,9 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
 .sub { font-size: 8pt; color: #555; margin-bottom: 4px; }
 .legend { font-size: 6.5pt; color: #555; margin: 0 0 4px; }
 .legend span { margin-right: 10px; white-space: nowrap; }
-.layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
-  gap: 10px;
-  align-items: start;
-}
+.page { page-break-after: always; }
+.page:last-of-type { page-break-after: auto; }
+.sheet { width: 100%; max-width: 100%; }
 .tree {
   --dw: 220px;
   --dh: 104px;
@@ -469,19 +466,68 @@ h1 { font-size: 14pt; margin: 0 0 2px; color: #8b1a1a; }
   color: #666;
   text-align: center;
 }
-.side { font-size: 7.5pt; border-left: 3px solid #8b1a1a; padding-left: 8px; overflow: visible; text-align: left; }
-.side h2 { font-size: 9pt; margin: 6px 0 3px; color: #8b1a1a; }
-.side ul { margin: 0 0 6px 14px; padding: 0; }
-.side li { margin-bottom: 2px; }
+.reference {
+  font-size: 8pt;
+  line-height: 1.3;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 3px solid #8b1a1a;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.75rem 1.25rem;
+  text-align: left;
+}
+.reference-section { min-width: 0; break-inside: avoid; }
+.reference h2 {
+  font-size: 9pt;
+  margin: 0 0 4px;
+  color: #8b1a1a;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+.reference ul { margin: 0 0 6px 14px; padding: 0; }
+.reference li { margin-bottom: 3px; }
 cite { font-style: normal; color: #666; font-size: 7pt; }
-.footer { margin-top: 6px; font-size: 6.5pt; color: #444; border-top: 1px solid #ccc; padding-top: 4px; grid-column: 1 / -1; }
 .tag { display: inline-block; font-size: 6.5pt; padding: 1px 4px; border-radius: 3px; margin-left: 4px; }
 .tag-s { background: #c8e6c9; }
 .cap { font-size: 6pt; color: #666; text-align: center; margin: 0 0 2px; }
-.seq-label { text-align: center; }
+.seq-label { text-align: center; margin: 0 0 4px; }
+.sequence-strip {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.sequence-strip .node-action { margin: 0 auto; max-width: 100%; font-size: 7.5pt; }
+@media screen {
+  body { max-width: 100%; padding: 0.5rem; }
+  .tree-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+  .tree { min-width: 36rem; }
+}
 @media print {
   body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .layout { height: auto; max-height: none; }
+  .page-break-before-ref { page-break-before: always; break-before: page; }
+  .reference { break-inside: avoid-page; }
+  .tree-wrap { zoom: 0.78; }
+  .tree {
+    --gap: 14px;
+    --dh: 88px;
+    --cdh: 78px;
+    --stopstack: 58px;
+    --diag: 108px;
+    padding: 4px 4px 4px 6px;
+  }
+  .dblock .d-main > .node-decision {
+    padding: 4px 10px;
+    font-size: 7pt;
+  }
+  .node-action { font-size: 7pt; padding: 1px 5px; }
+  .seq-label { margin-top: 4px !important; font-size: 7pt; }
+  h1 { font-size: 12pt; margin-bottom: 0; }
+  .sub, .legend { margin-bottom: 2px; }
+  .gw-ip-banner { margin-bottom: 0.35em; padding: 0.25em 0.4em; }
 }
 .gw-ip-banner {
   font-size: 9pt;
@@ -498,10 +544,14 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   border-top: 1px solid #999;
   padding-top: 0.25em;
   line-height: 1.25;
+  width: 100%;
+  clear: both;
 }
 </style>
 </head>
 <body>
+
+<section class="page sheet">
 <p class="gw-ip-banner"><strong>UNOFFICIAL</strong> — fan teaching material, not a Games Workshop product, not endorsed by Games Workshop Limited.</p>
 <h1>Can I shoot? — Valid target quick tree</h1>
 <p class="sub">Kill Team 2024 · Personal use only · Never for sale · Rules quoted from owned local PDFs (see footer) · Shapes: UML 2.5 activity (not a rules source)</p>
@@ -512,7 +562,7 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   <span>◎ end</span>
 </p>
 
-<div class="layout">
+<div class="tree-wrap">
 <div class="tree">
   <div class="flow-spine">
   <div class="start-block">
@@ -702,42 +752,57 @@ cite { font-style: normal; color: #666; font-size: 7pt; }
   </div>
   </div>
 
-  <p class="arrow seq-label" style="margin-top:6px"><strong>After selected</strong> (sequence, not eligibility):</p>
+</div>
+</div>
+</section>
+
+<section class="page sheet">
+<p class="arrow seq-label"><strong>After selected</strong> (sequence, not eligibility):</p>
+<div class="sequence-strip">
   <div class="node-action tone-s">Obscured? Heavy intervening; 1" ignores only that part of Heavy, not the whole feature · discard 1 success; crits → normal <span class="tag tag-s">SEQUENCE</span> <cite>p.53</cite></div>
   <div class="node-action tone-s">Saturate weapon? Defender cannot retain cover saves <span class="tag tag-s">SEQUENCE</span> <cite>p.111</cite></div>
   <div class="node-action tone-s">Cover save (Engage in cover): collect three defence dice; retain one <strong>normal success</strong> without rolling; roll the remainder <span class="tag tag-s">SEQUENCE</span> <cite>p.43</cite></div>
 </div>
 
-<div class="side">
-  <h2>Modifiers when selecting</h2>
-  <ul>
-    <li><strong>Seek / Seek Light</strong> — Conceal cannot use terrain (Light only for Seek Light) for cover; save may remain. On Vantage you may elect Seek only (skip Vantage improved save) <cite>p.111, update log p.5</cite></li>
-    <li><strong>Vantage shooter</strong> — Vantage is also Light. Conceal targets ≥2" lower cannot use Light for cover; improved cover save. Accurate 1/2 vs Engage ≥2"/≥4" lower is SEQUENCE <cite>p.60</cite></li>
-    <li><strong>Blast / Torrent</strong> — secondaries valid regardless of Conceal; not selected. Cover/obscured (and Vantage improved save) copy the primary <cite>p.111, update log p.2 / p.4–5</cite></li>
-    <li><strong>Silent</strong> — Shoot with Conceal order using this weapon; does not lift in-enemy 1" control range <cite>p.111</cite></li>
-    <li><strong>Heavy</strong> — cannot use in an activation <em>or counteraction</em> in which it moved (and vice versa); Heavy (x only); does not prevent Guard <cite>update log p.2, lite p.3</cite></li>
-  </ul>
-  <h2>Intervening / lines</h2>
-  <ul>
-    <li>Shooter chooses targeting-line origin on own base; 1mm lines to facing parts of target base; markers treated as a base <cite>p.51</cite></li>
-    <li>Blocking gaps: visibility cannot pass; counts intervening (gaps, not physical terrain) <cite>p.59</cite></li>
-    <li>Exposed: never intervening for cover/obscured <cite>p.61</cite></li>
-    <li>Cover + obscured same feature: defender picks one <cite>update log p.2</cite></li>
-    <li>“Connected” Heavy for Vantage obscured = any part of the same terrain feature <cite>p.60, update log p.5</cite></li>
-  </ul>
-  <h2>1" control range</h2>
-  <ul>
-    <li>Visible + within 1" · mutual between operatives <cite>p.46</cite></li>
-  </ul>
-  <h2>Golden sources</h2>
-  <ul>
-    <li>779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf (baseline)</li>
-    <li>eng_17-06_…core_rules_update_log-…pdf (patches)</li>
-    <li>eng_jul25_kt_lite_rules-…pdf (intro subset — omission ≠ patch)</li>
-  </ul>
+<div class="reference">
+  <div class="reference-section">
+    <h2>Modifiers when selecting</h2>
+    <ul>
+      <li><strong>Seek / Seek Light</strong> — Conceal cannot use terrain (Light only for Seek Light) for cover; save may remain. On Vantage you may elect Seek only (skip Vantage improved save) <cite>p.111, update log p.5</cite></li>
+      <li><strong>Vantage shooter</strong> — Vantage is also Light. Conceal targets ≥2" lower cannot use Light for cover; improved cover save. Accurate 1/2 vs Engage ≥2"/≥4" lower is SEQUENCE <cite>p.60</cite></li>
+      <li><strong>Blast / Torrent</strong> — secondaries valid regardless of Conceal; not selected. Cover/obscured (and Vantage improved save) copy the primary <cite>p.111, update log p.2 / p.4–5</cite></li>
+      <li><strong>Silent</strong> — Shoot with Conceal order using this weapon; does not lift in-enemy 1" control range <cite>p.111</cite></li>
+      <li><strong>Heavy</strong> — cannot use in an activation <em>or counteraction</em> in which it moved (and vice versa); Heavy (x only); does not prevent Guard <cite>update log p.2, lite p.3</cite></li>
+    </ul>
+  </div>
+  <div class="reference-section">
+    <h2>Intervening / lines</h2>
+    <ul>
+      <li>Shooter chooses targeting-line origin on own base; 1mm lines to facing parts of target base; markers treated as a base <cite>p.51</cite></li>
+      <li>Blocking gaps: visibility cannot pass; counts intervening (gaps, not physical terrain) <cite>p.59</cite></li>
+      <li>Exposed: never intervening for cover/obscured <cite>p.61</cite></li>
+      <li>Cover + obscured same feature: defender picks one <cite>update log p.2</cite></li>
+      <li>“Connected” Heavy for Vantage obscured = any part of the same terrain feature <cite>p.60, update log p.5</cite></li>
+    </ul>
+  </div>
+  <div class="reference-section">
+    <h2>1" control range</h2>
+    <ul>
+      <li>Visible + within 1" · mutual between operatives <cite>p.46</cite></li>
+    </ul>
+  </div>
+  <div class="reference-section">
+    <h2>Golden sources</h2>
+    <ul>
+      <li>779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf (baseline)</li>
+      <li>eng_17-06_…core_rules_update_log-…pdf (patches)</li>
+      <li>eng_jul25_kt_lite_rules-…pdf (intro subset — omission ≠ patch)</li>
+    </ul>
+  </div>
 </div>
 
 <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Verbatim lines are from owned local PDFs for personal table use; they are not a substitute for official publications and must not be redistributed. Full quote appendix: <code>Target_Eligibility.md</code>. Layout inspiration (not rules): <strong>u/rdditonator</strong> (Can_I_Shoot.jpeg), <strong>u/Armagonix</strong> (KT24 cheat sheets + datacard template), <strong>u/burgerdrome</strong> (LOS flowchart, 2025-12-06) on r/killteam. Flowchart shapes: UML 2.5 activity notation. Teaching reference: <a href="https://www.uml-diagrams.org/about.html">uml-diagrams.org About</a>. <strong>Authored by Kirill Fakhroutdinov.</strong> Copyright © 2009–2026 uml-diagrams.org. All rights reserved. Not a Kill Team rules source.</p>
-</div>
+</section>
+
 </body>
 </html>

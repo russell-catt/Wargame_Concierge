@@ -637,3 +637,9 @@ Pages updated: KB/sources/white_dwarf_527.md (shipping surfaces); KB/setup/wd527
 Pages created: none (enhance sync, not full ingest)
 
 Key additions: Shipping track surfaces listed on source page (rules/setup Commentary, system QR, army guide pass). Trinity Hobby 2026-08-22 provenance. Distance triad teaching confirmed unchanged in analysis. Librarian did not write raw/.
+
+## [2026-08-26] layout | Target Eligibility cheat sheet render refactor
+
+Pages updated: games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html, print/kt_shared_target_eligibility.html, print/_html_to_pdf.py, print/README.md, rules/README.md, setup/Learn_to_Play_Print_Bag.md, templates/flowchart_html_classes.md, docs/handoffs/kt24_doc_followups/track_in.md
+
+Key additions: Removed fixed 280px sidebar; full-width flowchart (page 1) + sequence strip and reference panel (page 2). Playwright sync from rules/ before PDF export. Decision logic and PDF cites unchanged.
