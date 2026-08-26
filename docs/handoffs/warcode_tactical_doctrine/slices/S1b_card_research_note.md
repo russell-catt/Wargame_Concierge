@@ -28,12 +28,12 @@ Five effects × four map scopes: **Left**, **Centre**, **Right**, **Total** (Lef
 
 | Issue | Sources | Severity | Action |
 |-------|---------|----------|--------|
-| **Hunt — full health?** | OCR: "units **with full health** take 3 damage"; xlsx: "all units … take 3 damage" | **Medium** — rules ambiguity | Quote OCR in Rulebook_Quotes; footnote xlsx divergence in Protocol reference + §12 |
+| **Hunt — full health?** | OCR: "units **with full health** take 3 damage"; xlsx: "all units … take 3 damage" | **Closed** — OCR/PDF authoritative; xlsx error | Quote OCR in shipping; footnote xlsx |
 | **Total Hunt flavour** | xlsx copies Magnet flavour; OCR has correct turret text | Low — transcription error | Use OCR/PDF flavour for Total Hunt in shipping |
 | **Total Hunt/Centre/Right room Hunt** | xlsx Hunt non-Total rows also copy Magnet flavour for Centre/Right | Low — xlsx typos | Use OCR base "Hunt" flavour for room variants |
 | **Silence typo** | xlsx: "ranges weapons"; OCR: "RANGED WEAPONS" | Low | Quote OCR spelling in block quotes |
 | **Total variant scope** | OCR notes flavour says "all rooms" but rule text still says "this room" | Medium — polish bug | Retain in §12 B-series or design notes |
-| **Room selection** | xlsx has Map section column; OCR sidecar has no room split; extract silent on *how* room is chosen | **High** — teaching gap | Flag in Scenarios_and_Events + §12 A-series unless PDF scenario text defines draw |
+| **Room selection** | Card **map graphic** lights Left/Centre/Right or all three (Total); deployment top/bottom never lit | **Closed** — owner table read 2026-08-25 | Document in Scenarios + Protocol reference; §12 B10 closed |
 
 ## Map images
 
@@ -61,8 +61,8 @@ Five effects × four map scopes: **Left**, **Centre**, **Right**, **Total** (Lef
 | Destination | Items |
 |-------------|-------|
 | **Rulebook_Quotes / reference tables** | Full contract deck; protocol room variants (OCR-primary for Hunt/Total flavour) |
-| **§12 B bugs** | Hunt full-health OCR vs xlsx (if confirmed on PDF) |
-| **§12 A gaps** | Protocol target room draw undefined in extract |
+| **§12 B bugs** | Hunt xlsx error only (OCR wins) |
+| **§12 A gaps** | ~~Protocol target room draw~~ — closed: card map highlights |
 | **Footnotes only** | xlsx Total Hunt flavour typo |
 
 ## Related outputs

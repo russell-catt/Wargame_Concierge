@@ -97,7 +97,7 @@ Terrain reference: [`raw/the_warcode/images/Core_Machine_placement.png`](../../.
 | **Doors** | **10** doorways total — **six** on the hex perimeter (one per hex face) and **four** on the diagonal full-cover walls that separate deployment zones from the side wings |
 | **Cover legend** | **Partial cover** = dashed double line; **full cover (wall)** = solid thick line; **door** = quarter-circle swing arc |
 
-Protocol Cards name their target room on the card face (**Left**, **Centre**, **Right**, or **Total** for all three). There is no separate room roll — see [Protocol room targeting](#protocol-room-targeting) below.
+Protocol Cards name their target room on the card face — a **map diagram** with **Left**, **Centre**, or **Right** **lit** (or **all three** on **Total** cards). **Deployment bands** (top and bottom) are **never** lit and are **not** protocol-affected. There is no separate room roll — see [Protocol room targeting](#protocol-room-targeting) below.
 
 ### Victory conditions
 
@@ -151,17 +151,32 @@ Most effects then resolve at the **end** of the round, in the scenario-effects s
 
 ### Protocol room targeting
 
-Each printed card names its **map section** — **Left**, **Centre**, **Right**, or **Total** (all three rooms). The beta deck has **five** effect families × **four** scopes = **20** cards (see [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) when present; typed rows in [`protocol_cards_transcription.txt`](../../../raw/the_warcode/protocol_cards_transcription.txt)).
+Each printed card shows a **mini map** of the *Core of the Machine* layout:
+
+| Zone on card | Meaning |
+|--------------|---------|
+| **Top / bottom bands** | **Deployment areas A and B** — never highlighted; protocols **do not** affect these zones |
+| **Left wing lit** | Left rectangular room only |
+| **Centre (hex) lit** | Central hexagonal room only |
+| **Right wing lit** | Right rectangular room only |
+| **All three wings lit** | **Total** protocol — left, centre, and right rooms together |
+
+The **Map section** column in [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) matches the highlighted zone(s). **No second roll** picks the room — read the graphic on the card you drew.
 
 | Question | Answer in v0.8.7-F |
 |----------|-------------------|
-| **Which room is hit?** | **On the card** — Left, Centre, Right, or Total. No second roll for room. |
+| **Which room is hit?** | **Whichever zone(s) are lit** on the card — Left, Centre, Right, or all three (Total). |
+| **Are deployment zones affected?** | **No** — top/bottom deployment bands are outside protocol scope. |
 | **How is a card chosen?** | Scenario text: draw one random activation card each round. **Silent** on deck shuffle, exhaustion, and replacement. |
-| **Where are room boundaries?** | Left wing, central hex, and right wing on the scenario map — see [map topology](#core-of-the-machine--map-topology). Models in doorways or deployment strips need a table agreement until FAQ. |
+| **Where are room boundaries?** | Left wing, central hex, and right wing on the scenario map — see [map topology](#core-of-the-machine--map-topology). Models in doorways need a table agreement until FAQ. |
+
+The rulebook extract does **not** spell out the **highlighted-map** convention in prose — the cards carry it visually. Agree at setup how doorways and deployment-edge models count as "in the room."
+
+The beta deck has **five** effect families × **four** scopes = **20** cards — full table in [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
 The rulebook extract does **not** define how to randomise among the twenty cards (full shuffle vs subset vs with replacement). Agree at setup and log it as a beta teaching gap.
 
-The deck comes in matched scopes — a **room** version affecting one room, and a **Total** version affecting all three. Five effect families:
+The deck comes in matched scopes — a **room** version affecting one wing, and a **Total** version affecting all three protocol rooms (all lit on the card map). Five effect families:
 
 | Protocol | Scope | Effect | Timing |
 |----------|-------|--------|--------|
@@ -299,6 +314,7 @@ Because the card is drawn at the **start** of the round, every protocol is a pla
 
 ## Change Log
 
+- v0.3 (2026-08-25): Protocol scope — card map highlights Left/Centre/Right or Total; deployment zones excluded; Hunt FULL HEALTH confirmed (xlsx error).
 - v0.2 (2026-08-25): *Core of the Machine* map topology from `Core_Machine_placement.png`; protocol room targeting (Left/Centre/Right/Total on card; draw procedure silent); D6 VP gap closed — coordinates live in Board_Setup.
 - v0.1 (2026-08-23): Initial scenario and Protocol Card deep-dive from beta v0.8.7-F extract plus OCR sidecar. Flagged the Total-card rule-text scope bug.
 

@@ -202,7 +202,7 @@ Dropped gear stays where the carrier died; any unequipped unit within 1 inch can
 ## Open questions
 
 - Whether weapon abilities beyond the penetration re-roll appear on all factions — extract shows examples only.
-- Protocol target **room** for non-Total cards — **Map section** is printed on each card; rules extract does not define a separate room draw.
+- Protocol **scope** — each card's **map graphic** lights Left/Centre/Right or all three (Total); **deployment bands are never protocol-affected** (no separate room draw).
 
 ---
 

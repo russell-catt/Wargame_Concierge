@@ -52,7 +52,7 @@ Proxy tips: [`guides/Proxy_Play_at_Home.md`](guides/Proxy_Play_at_Home.md).
 
 Abandoned **space drifter**. Both squads reach the **machine core**; damaged security cannot tell friend from foe. **Countdown** running — reprogram the core to mark your team friendly and the enemy hostile (turrets). **Win** by wiping the enemy **or** having **more VP** to sway the core. **Tie VP** → both teams flagged hostile and destroyed.
 
-Each round: draw a **Core of the Machine** protocol card at **round start** — read the **Map section** (**Left**, **Centre**, **Right**, or **Total** for all three wings) to see which room(s) suffer the effect this round. Full deck: [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md).
+Each round: draw a **Core of the Machine** protocol card at **round start** — the card shows a **mini map**: whichever wing(s) are **lit** (**Left**, **Centre**, **Right**, or **all three** on **Total**) suffer the effect. **Deployment bands** (top/bottom) are never lit and are not affected. Full deck: [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md).
 
 ---
 

@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Protocol_Cards_Reference.md
-VERSION: v0.1 (2026-08-25)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine S1b)
 
@@ -37,13 +37,15 @@ UPDATE_TRIGGER:
 
 Twenty activation cards for *Core of the Machine* (PDF pp.28–32). **`confidence: draft`**, OCR read **2026-08-23**, room variants transcribed **2026-08-25**. Verbatim OCR quotes: [`Rulebook_Quotes.md`](Rulebook_Quotes.md) Sec 29. Scenario context: [`Scenarios_and_Events.md`](Scenarios_and_Events.md).
 
-Draw one at the **start of each round**. The **map section** on the card tells you which room(s) on the three-room ship map suffer the effect.
+Draw one at the **start of each round**. Each card prints a **mini map** of the board: **Left**, **Centre**, or **Right** is **highlighted** on single-room cards; **Total** cards highlight **all three** protocol wings. **Deployment bands** (top and bottom) are **never** highlighted and are **not** protocol-affected — only the left wing, central hex, and right wing count as protocol rooms.
+
+There is **no second roll** for room. Read the lit zone(s) on the card you drew.
 
 ---
 
 ## Master table (20 rows)
 
-Flavour for **Hunt** / **Total Hunt** rows marked *OCR* — the owner spreadsheet copied Magnet flavour by mistake for Centre, Right, and Total Hunt. Rule text follows the typed transcription unless noted.
+Flavour for **Hunt** / **Total Hunt** rows marked *OCR* — the owner spreadsheet copied Magnet flavour by mistake for Centre, Right, and Total Hunt. **Hunt rule text** follows **PDF/OCR** (full health only); xlsx mis-transcribed "all units".
 
 | # | Title | Map section | Flavour | Rule |
 |---|-------|-------------|---------|------|
@@ -51,10 +53,10 @@ Flavour for **Hunt** / **Total Hunt** rows marked *OCR* — the owner spreadshee
 | 2 | Total Magnet | Left, Centre, Right | The floor in the room became heavily magnetized. Movement becomes difficult. | All units that start their movement in this room suffer a -3 inch penalty to their movement profile |
 | 3 | Magnet | Centre | The floor in the room became heavily magnetized. Movement becomes difficult. | All units that start their movement in this room suffer a -3 inch penalty to their movement profile |
 | 4 | Magnet | Right | The floor in the room became heavily magnetized. Movement becomes difficult. | All units that start their movement in this room suffer a -3 inch penalty to their movement profile |
-| 5 | Hunt | Left | Turrets Activate throughout the room. Target acquisition begins. | See [Hunt rule footnote](#hunt-rule-footnote) below |
-| 6 | Total Hunt | Left, Centre, Right | *OCR:* Turrets Activate throughout all rooms. Target acquisition begins. | See [Hunt rule footnote](#hunt-rule-footnote) below |
-| 7 | Hunt | Centre | *OCR:* Turrets Activate throughout the room. Target acquisition begins. | See [Hunt rule footnote](#hunt-rule-footnote) below |
-| 8 | Hunt | Right | *OCR:* Turrets Activate throughout the room. Target acquisition begins. | See [Hunt rule footnote](#hunt-rule-footnote) below |
+| 5 | Hunt | Left | Turrets Activate throughout the room. Target acquisition begins. | At the end of the round, all units in the room **with full health** take 3 damage. |
+| 6 | Total Hunt | Left, Centre, Right | *OCR:* Turrets Activate throughout all rooms. Target acquisition begins. | At the end of the round, all units in the room **with full health** take 3 damage. *(Agree Total = all three rooms — rule line still says "the room".)* |
+| 7 | Hunt | Centre | *OCR:* Turrets Activate throughout the room. Target acquisition begins. | At the end of the round, all units in the room **with full health** take 3 damage. |
+| 8 | Hunt | Right | *OCR:* Turrets Activate throughout the room. Target acquisition begins. | At the end of the round, all units in the room **with full health** take 3 damage. |
 | 9 | Electricity | Left | Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks. | At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage. |
 | 10 | Total Electricity | Left, Centre, Right | Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks. | At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage. |
 | 11 | Electricity | Centre | Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks. | At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage. |
@@ -75,19 +77,16 @@ Flavour for **Hunt** / **Total Hunt** rows marked *OCR* — the owner spreadshee
 
 ## Hunt rule footnote
 
-The **Hunt** and **Total Hunt** cards disagree between OCR and spreadsheet on who takes damage:
+**Confirmed against PDF** (Protocol Cards pp.28–32 are flattened card art; OCR is the readable source): Hunt hits units **with full health** only.
 
-| Source | Wording |
-|--------|---------|
-| **OCR (printed card)** | AT THE END OF THE ROUND, ALL UNITS IN THE ROOM **WITH FULL HEALTH** TAKE 3 DAMAGE. |
-| **Typed transcription (xlsx)** | At the end of the round, **all units in the room** take 3 damage. |
+| Source | Wording | Status |
+|--------|---------|--------|
+| **OCR / printed card** | AT THE END OF THE ROUND, ALL UNITS IN THE ROOM **WITH FULL HEALTH** TAKE 3 DAMAGE. | **Authoritative** |
+| **Typed transcription (xlsx)** | At the end of the round, all units in the room take 3 damage. | **Transcription error** — ignore for Hunt |
 
-Until a second physical check resolves it:
+Wounded models in a hunted room are **safe** from Hunt that round; healing back to maximum HP puts a model back on the turret list.
 
-- **Table play default:** use the **OCR / FULL HEALTH** reading if you want printed-card fidelity.
-- **Alternate reading:** if **all units** is correct, wounded models in the room also take 3 damage at end of round — materially harsher for objective holders.
-
-Total Hunt's OCR rule line still reads **"the room"** (singular) while the flavour says **all rooms** — same polish inconsistency flagged in [`Rulebook_Quotes.md`](Rulebook_Quotes.md) Sec 29.
+Total Hunt's OCR rule line still reads **"the room"** (singular) while the flavour says **all rooms** and the card map lights **all three** wings — same polish inconsistency flagged in [`Rulebook_Quotes.md`](Rulebook_Quotes.md) Sec 29.
 
 ---
 
@@ -111,14 +110,15 @@ Total Hunt's OCR rule line still reads **"the room"** (singular) while the flavo
 
 ## Open questions
 
-- **Hunt FULL HEALTH** — confirm against a physical card; affects whether damaged models can safely sit in a hunted room.
-- Whether **Total** protocol rules intentionally hit all three rooms despite singular "this room" wording.
+- Whether **Total** protocol rules intentionally hit all three rooms despite singular "this room" wording (card map + flavour say yes).
 - Card-to-PDF-page mapping for each of the 20 faces (approximate pp.28–32 only).
+- Whether models standing in **doorways** or **deployment strips** count as "in the room" for protocol purposes.
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-08-25): Hunt rule confirmed FULL HEALTH via PDF/OCR; card map highlighting documents Left/Centre/Right/Total scope; deployment zones excluded.
 - v0.1 (2026-08-25): Initial 20-row table; Hunt OCR vs transcription footnote; Total Hunt flavour from OCR (S1b).
 
 ## Attribution

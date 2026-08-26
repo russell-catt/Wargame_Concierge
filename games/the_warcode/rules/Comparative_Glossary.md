@@ -324,9 +324,9 @@ Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — via typed transcri
 (This seems related to tac-op card identity in That other game — different trigger, same “secret objective” feel.)
 
 ### Protocol room / Map section
-**Definition:** Left wing, central hex, or right wing on the three-room map; protocol cards print **Left**, **Centre**, **Right**, or **Total** (all three).  
-Source: [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md); map diagrams — owner PNGs 2026-08-25  
-**Agentic commentary:** Read the map section before you commit models — the card tells you which room is hot this round.  
+**Definition:** Left wing, central hex, or right wing on the three-room map. Each protocol card prints a **map diagram**: the **lit** zone is Left, Centre, or Right; **Total** cards light **all three** wings. **Deployment bands** (top and bottom) are **never** lit and are **not** protocol-affected.  
+Source: [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md); map diagrams — owner PNGs 2026-08-25; card-face read 2026-08-25  
+**Agentic commentary:** No room roll — read which zone(s) glow on the card before you commit models.  
 (This seems related to mission sectors or room-based event triggers in narrative That other game scenarios.)
 
 ---

@@ -137,7 +137,7 @@ If you know **Murder Platoon** (That other game's skirmish mode): think smaller 
 ## Open questions
 
 - **Round count:** The extract references a "final round" but does not state a default number of rounds for all scenarios. Confirm per scenario card or a rules page outside the current extract.
-- **Protocol room draw:** How the physical deck selects Left vs Centre vs Right for non-Total cards is not spelled out in the rules extract — read the **Map section** printed on each card at the table.
+- **Protocol scope:** Each card's **map graphic** shows which wing(s) are hot — lit Left/Centre/Right or all three on Total; **deployment zones (top/bottom) are never affected**. Rules prose does not state this; see [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
 ---
 

@@ -144,8 +144,8 @@ All entries below are **`draft`** unless a future pass marks them verified. Card
 | **Contract** | Secret elimination mission when trailing ≥ 1 VP | One card names a Target per faction — read the column matching your opponent |
 | **Contract card ID** | Printed number on each contract (e.g. **6037**) | Eight unique cards in the beta deck; all award **1 VP** — see reference table |
 | **Re-roll point** | Spend to repeat a whole roll | Leader + casualties feed the pool; not on initiative or protocol D6 |
-| **Protocol card** | *Core of the Machine* activation card drawn **start of each round** | Map section picks which room(s) suffer the effect |
-| **Protocol room** | **Left wing**, **central hex**, or **right wing** on the ship map | Card **Map section** column names Left / Centre / Right / Total |
+| **Protocol card** | *Core of the Machine* activation card drawn **start of each round** | Mini **map on card** — lit Left/Centre/Right or all three (Total); deployment bands never lit |
+| **Protocol room** | **Left wing**, **central hex**, or **right wing** on the ship map | Match the **highlighted** zone(s) on the card; top/bottom deployment areas are **not** protocol rooms |
 | **Total protocol** | **Total Magnet**, **Total Hunt**, etc. | Affects **all three rooms** (flavour says “all rooms”; agree at table if rule text still says “this room”) |
 
 ---
@@ -155,7 +155,7 @@ All entries below are **`draft`** unless a future pass marks them verified. Card
 | Protocol | What it does | When |
 |----------|--------------|------|
 | **Magnet** | **−3"** to Movement Range if movement **starts** in affected room(s) | During movement |
-| **Hunt** | **3 damage** to units in room at end of round (OCR: **full health only**; spreadsheet: all units — see reference footnote) | End of round |
+| **Hunt** | **3 damage** to units **at full health** in affected room(s) at end of round (PDF/OCR confirmed; xlsx mis-transcribed) | End of round |
 | **Electricity** | D6 per unit in room; **3 or less** → **3 damage** | End of round |
 | **Poison** | **2 damage** to all units in room | End of round |
 | **Silence** | Units in room **cannot use ranged weapons** | While in room that round |

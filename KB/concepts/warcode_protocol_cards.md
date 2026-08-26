@@ -5,7 +5,7 @@ system: the_warcode
 created: 2026-08-25
 updated: 2026-08-25
 version: 0.5.5
-sources: [warcode_rulebook_v087f, raw/the_warcode/protocol_cards_transcription.txt, raw/the_warcode/protocol_cards.ocr.txt, games/the_warcode/rules/Scenarios_and_Events.md]
+sources: [warcode_rulebook_v087f, raw/the_warcode/protocol_cards_transcription.txt, raw/the_warcode/protocol_cards.ocr.txt, games/the_warcode/rules/Scenarios_and_Events.md, games/the_warcode/rules/Protocol_Cards_Reference.md]
 confidence: draft
 tags: [concept, the_warcode, protocol_cards, scenarios, events, rooms]
 ---
@@ -20,15 +20,16 @@ Scenario **event cards** drawn at the **start** of each round on indoor maps lik
 
 - **When drawn:** Start of round, before Initiative Phase.
 - **When resolved:** End of round (scenario-effects slot), before VP calculation — except teaching notes on Silence affecting ranged fire during the round.
-- **Scope:** Left/Centre/Right hit one wing of the three-room map; Total hits all rooms (wording on cards still inconsistent in beta — see VIP review §12).
+- **Scope:** Each card prints a **map diagram** — **Left**, **Centre**, or **Right** **highlighted** on single-room cards; **Total** cards highlight **all three** protocol wings. **Deployment bands** (top/bottom) are **never** highlighted and are **not** protocol-affected. No separate room roll.
+- **Hunt:** End-of-round **3 damage** to units **at full health** in affected room(s) — confirmed via PDF/OCR; owner xlsx mis-transcribed "all units".
 
 ---
 
 ## Why it matters at the table
 
-Protocols are **shared environmental hazards** — the damaged ship cannot distinguish friend from foe. Holding an objective in a poisoned or hunted room is a gamble because damage may land before scoring. **Silence** forces melee for a round in the affected room(s).
+Protocols are **shared environmental hazards** — the damaged ship cannot distinguish friend from foe. Holding an objective in a poisoned or hunted room is a gamble because damage may land before scoring. **Silence** forces melee for a round in the affected room(s). **Hunt** ignores wounded models — only **full-health** units in the lit zone(s) take damage.
 
-**Open teaching gap:** The beta extract does not clearly state **how** the active room section is chosen when a card says Left/Centre/Right only — confirm at the table against scenario text or RedMakers FAQ.
+**Teaching gap (partial):** Rules prose never states the **highlighted-map** convention; the card art carries it. Doorway / deployment-edge models still need table agreement.
 
 ---
 

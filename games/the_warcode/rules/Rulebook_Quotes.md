@@ -978,7 +978,7 @@ The OCR blocks below quote the **room** and **Total** rules text. Flavour and ru
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.28–32 — "PROTOCOL CARDS" — via OCR (raw/the_warcode/protocol_cards.ocr.txt)
 
-**Hunt rule footnote — OCR vs transcription:** OCR reads **"WITH FULL HEALTH"** on the printed card. The owner spreadsheet transcription reads **"all units in the room take 3 damage"** with no full-health qualifier. Until a second physical check resolves it, treat **FULL HEALTH** as the printed-card reading and **all units** as the spreadsheet reading. See [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
+**Hunt rule footnote — confirmed:** OCR of the printed card reads **"WITH FULL HEALTH"**. The owner spreadsheet transcription (**all units in the room**) is a **transcription error** — use the OCR/PDF wording. See [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
 ### Protocol "Total Hunt"
 

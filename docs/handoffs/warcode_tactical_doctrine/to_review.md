@@ -161,7 +161,7 @@ Also confirm §0 and §15 in the agentic review contain **unofficial and unautho
 |------|--------|
 | **MDR / Dominium** | Stubs only — [`factions/mdr/README.md`](../../../games/the_warcode/factions/mdr/README.md), [`factions/dominium/README.md`](../../../games/the_warcode/factions/dominium/README.md); no beta datasheets until RedMakers publish |
 | **Print HTML** | No Warcode print pipeline yet; GW footer rules apply if you add `games/the_warcode/**/print/` |
-| **Duplicate PDF cleanup** | L2 noted a stray copy at `raw/The Warcode Rulebook...` — canonical path is `raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf` only |
+| **Duplicate PDF cleanup** | Done **2026-08-25** — stray `raw/The Warcode Rulebook V.0.8.7-F.pdf` removed; canonical path is `raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf` only |
 | **Contract card transcription** | Covered in §5 — you type pp.24–25; agent ingests (OCR optional if you prefer) |
 | **L1 unit KB pages** | Eight models × two factions — paraphrase roles, link to squad datasheets |
 
@@ -201,7 +201,7 @@ Copy this section into your notes or tick here.
 - [ ] Purchase TTS; paste **workshop URL** into Tabletop_Simulator guide
 - [ ] L1 KB unit pages for Protagen / Ulfari
 - [ ] Expand S8 / Keyword_Glossary comparative rows
-- [ ] Remove duplicate PDF under `raw/` if still present
+- [x] Remove duplicate PDF under `raw/` if still present *(done 2026-08-25)*
 - [ ] MDR / Dominium when beta adds rosters
 
 ---
