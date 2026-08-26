@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Project_Structure.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.9.0 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -64,7 +64,9 @@ Wargame_Concierge/
 │
 ├── raw/                               IMMUTABLE - allowed sources only
 │   ├── README.md                      Layer contract and contents table
-│   └── pointers/                      Path pointers to C:\Personal\40K, C:\Personal\Kill Team, and living URLs
+│   ├── pointers/                      Path pointers to C:\Personal\40K, Kill Team, Warcode, WD527
+│   ├── the_warcode/                   Free beta PDF + OCR/transcription sidecars (allowed binary)
+│   └── white_dwarf_527/               Research notes (markdown only)
 │
 ├── KB/                                THE KNOWLEDGE BASE - Librarian owns
 │   ├── index.md                       Master catalog; every page is listed here
@@ -78,7 +80,7 @@ Wargame_Concierge/
 │   ├── factions/                      One page per army
 │   ├── detachments/                   One page per detachment and its rules package
 │   ├── units/                         One page per datasheet, in play terms
-│   ├── setup/                         Deployment, terrain, missions, scoring (KT24 pages as of v0.5.0)
+│   ├── setup/                         Deployment, terrain, missions, scoring
 │   └── analyses/                      Matchups, list comparisons, filed answers
 │
 ├── docs/                              SHIPPING - process and project reference
@@ -90,27 +92,29 @@ Wargame_Concierge/
 │   ├── Game_System_Scaffold.md        Reusable checklist for a new game system
 │   ├── operations/
 │   │   ├── multiagent_coordinator_strategy.md    Normative multi-agent playbook
-│   │   └── librarian_agent.md                    Librarian day-to-day operations
+│   │   ├── librarian_agent.md                    Librarian day-to-day operations
+│   │   └── github_ship_smoothers.md              Owner GitHub settings checklist
 │   └── handoffs/
-│       ├── README.md                  Active tracks index + artifact lifecycle
-│       └── README.md                  Later tracks index (slice files frozen)
+│       └── README.md                  Tracks index + artifact lifecycle
 │
 ├── games/                             SHIPPING - per-system teaching content
-│   ├── README.md                      What goes in a game subtree
-│   ├── warhammer_40k_11e/             First system
-│   └── kill_team_2024/                Second system — rules/, setup/killzones/, teams/, joint_ops/, nemesis_ops/, critical_ops/; Patch_Manifest.md; Target_Eligibility.md
+│   ├── README.md                      Systems index
+│   ├── warhammer_40k_11e/             System #1 — 40K 11e
+│   ├── kill_team_2024/                System #2 — KT24 / 3e
+│   └── the_warcode/                   System #3 — The Warcode free beta
 │
 ├── reference/                         READ-ONLY - patterns and seed context
 │   ├── Initial_Prompt.md              The verbatim prompts that started the project
 │   ├── Distilled_Project_Context.md   LLM-optimized context digest
-│   └── llm-wiki.md                    Karpathy "LLM Wiki" pattern doc
+│   ├── llm-wiki.md                    Karpathy "LLM Wiki" pattern doc
+│   └── Warcode_Tactical_Doctrine_Plan.md   Plan archive for system #3
 │
-├── templates/                         Rising Tide header/footer fragments (copy, do not edit)
+├── templates/                         Rising Tide header/footer + GW print fragments
 ├── checkins/                          Decision and build session notes
 └── prompts/                           Prompt history and reusable agent prompts
 ```
 
-Directories that exist but are still empty of content are placeholders created by an earlier slice. That is expected during `v1_scaffold`; see [`handoffs/v1_scaffold/track_in.md`](handoffs/v1_scaffold/track_in.md) for which slice fills each one.
+Directories that exist but are still empty of content are placeholders from early tracks. See [`handoffs/README.md`](handoffs/README.md) for live track status.
 
 ---
 
@@ -121,11 +125,12 @@ Directories that exist but are still empty of content are placeholders created b
 | Allowed in `raw/` | Never in `raw/` |
 |-------------------|-----------------|
 | Markdown notes authored by the project | Games Workshop PDFs |
-| Imported personal lists (e.g. the updated Necron list) | Official datasheet images, `.webp`, `.png` |
-| Source library path pointers | Anything copyrighted and redistributed |
+| Imported personal lists (e.g. the updated Necron list) | Official datasheet images (GW) |
+| Source library path pointers | GW binaries redistributed |
 | Research excerpts written in our own words | Secrets, credentials, `.env` content |
+| **Warcode free beta PDF** + OCR/xlsx/map sidecars under `raw/the_warcode/` | STL files |
 
-The external library at `C:\Personal\40K` (40K) and `C:\Personal\Kill Team` (KT24) stays **outside** this repo permanently. Reference both with markdown path pointers under `raw/pointers/`.
+The external libraries at `C:\Personal\40K` (40K / WD) and `C:\Personal\Kill Team` (KT24) stay **outside** this repo permanently. Reference them with markdown path pointers under `raw/pointers/`.
 
 **Who may write:** Coordinator or an Implementer slice explicitly authorized to copy a source in. The Librarian **never** writes here.
 
@@ -161,7 +166,7 @@ Reviewed, player-facing and process-facing truth.
 | **Filenames** | Rising Tide `Snake_Case` (e.g. `Keyword_Glossary.md`) |
 | **Promotion** | A `KB/` page becomes a shipping page only after review, with a row added to `KB/changelog.md` |
 
-`docs/` holds project and process reference. `games/` holds per-system teaching content, one subtree per system — `games/warhammer_40k_11e/` and `games/kill_team_2024/` (including `rules/Patch_Manifest.md`). The checklist for a **later** system is [`Game_System_Scaffold.md`](Game_System_Scaffold.md), section B.
+`docs/` holds project and process reference. `games/` holds per-system teaching content, one subtree per system — see [`../games/README.md`](../games/README.md) (40K 11e, Kill Team 2024, The Warcode). The checklist for a **later** system is [`Game_System_Scaffold.md`](Game_System_Scaffold.md), section B.
 
 ---
 
@@ -214,6 +219,7 @@ Still unsure? Ask which **layer** it belongs to first - raw, knowledge, shipping
 
 ## Change Log
 
+- v0.9.0 (2026-08-25): Three systems in layout (`the_warcode/`, WD527 raw notes); Warcode binary exception called out under `raw/`.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). `games/kill_team_2024` tree; `raw/pointers` for KT + 40K; KB `version:` field; Patch_Manifest.
 - v1.0 (2026-08-16): Initial layout reference - five trees, full directory map, per-layer rules, placement decision table. Created in slice S1.
 

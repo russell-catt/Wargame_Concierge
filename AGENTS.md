@@ -1,6 +1,6 @@
 <!--
 FILE: AGENTS.md
-VERSION: v0.5.5 (2026-08-24)
+VERSION: v0.9.0 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Librarian, slice L0)
 
@@ -27,7 +27,7 @@ UPDATE_TRIGGER:
 
 This file is the **schema source of truth**. Read it at the start of every session before touching `KB/`.
 
-**Domain:** tabletop **wargames**. First system: **Warhammer 40,000, 11th Edition** (Necrons and Space Marines). This is a hobby knowledge base for learning and playing games - it is *not* a technical-writing or software-documentation wiki. Write for a player at the table, not a developer.
+**Domain:** tabletop **wargames**. Systems onboarded: **Warhammer 40,000, 11th Edition** (Necrons and Space Marines); **Kill Team 2024**; **The Warcode** (RedMakers free beta). This is a hobby knowledge base for learning and playing games - it is *not* a technical-writing or software-documentation wiki. Write for a player at the table, not a developer. Project snapshot **v0.9.0** — next milestone: external user review and critique.
 
 ---
 
@@ -224,13 +224,15 @@ Non-negotiable. This is a personal learning KB, not a redistribution channel. **
 
 ### Living references
 
-11th Edition is current and changing. Treat these as the moving sources of record, and always record a **retrieval date** in `sources:`:
+Rules sources move. Treat these as the sources of record for their domains, and always record a **retrieval date** in `sources:`:
 
 | Reference | Use for |
 |-----------|---------|
-| [Warhammer Community](https://www.warhammer-community.com/) | Official rules updates, FAQs, errata, balance dataslates, previews |
+| [Warhammer Community](https://www.warhammer-community.com/) | Official 40K / KT rules updates, FAQs, errata, balance dataslates, previews |
 | [Wahapedia](https://wahapedia.ru/) | Consolidated rules and **unit/stat (datasheet) lookup** when WarCom does not publish those profiles; also cross-check |
 | `C:\Personal\40K` (local) | Owned PDFs and personal notes - **pointers only**, never copied in |
+| [`raw/the_warcode/`](raw/the_warcode/) free beta PDF | The Warcode rules baseline (see Sec 10 Warcode exception) |
+| [The Warcode pre-launch](https://pre-launch.thewarcode.com/) | Warcode marketing / VIP context — **secondary** to the free beta PDF |
 
 **Unit / stat lookup precedence** (army lists, teaching guides, KB unit pages):
 
@@ -343,6 +345,7 @@ When a KB page is stable enough to ship into `docs/` or `games/`:
 
 ## Change Log
 
+- v0.9.0 (2026-08-25): Domain line — three systems onboarded; project snapshot v0.9.0; living refs include Warcode beta + pre-launch. Next milestone: external user review and critique. (Sec 10 Warcode rules unchanged from v0.5.5.)
 - v0.5.5 (2026-08-24): Sec 10 — Warcode shipping naming ban extended: Kill Team plus Warhammer / 40,000 / 40K variants; obfuscation table (Rawmallet, 39.876, 39.9). `.cursor/rules/warcode-quotes.mdc` + qa-slice lint aligned.
 - v0.5.4 (2026-08-23): Sec 10 — Warcode free-beta quote exception (`games/the_warcode/` rules/setup/factions); `raw/the_warcode/` PDF git exemption; OCR note; That other game naming ban in Warcode shipping. Track `warcode_tactical_doctrine`.
 - v0.5.3 (2026-08-23): Sec 10 — GW unofficial / non-endorsement footer requirement on `games/` shipping and print HTML; warhammer.com legal pointer + retrieval date.

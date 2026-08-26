@@ -1,17 +1,18 @@
 <!--
 FILE: START_HERE.md
-VERSION: v0.5.1 (2026-08-23)
+VERSION: v0.9.0 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
+AUTHOR_OF_NOTES: Cursor (Implementer)
 
 DOCUMENT_TYPE: Onboarding / Entry Point
 PROJECT_NAME: Wargame_Concierge
-PROJECT_STATUS: Active - v0.5.1 snapshot
+PROJECT_STATUS: Active - v0.9.0 pre-external-review
 
 SOURCES:
   - README.md
   - AGENTS.md (KB schema source of truth)
-  - docs/handoffs/v1_scaffold/track_in.md (track state)
+  - games/README.md
+  - docs/handoffs/README.md
   - docs/operations/multiagent_coordinator_strategy.md
 
 PURPOSE:
@@ -26,32 +27,38 @@ PRIMARY_AUDIENCE:
 
 UPDATE_TRIGGER:
   Update when the read order changes, a new top-level entry point appears, or
-  the project moves off track v1_scaffold.
+  a new game system is onboarded.
 -->
 
 # START HERE
 
 **Wargame_Concierge is a personal concierge for learning tabletop wargames.** It teaches the rules, walks through setting up a board, and helps build beginner army lists from the models actually sitting on the shelf.
 
-The first systems in scope are **Warhammer 40,000, 11th Edition** (Necrons + Space Marines) and **Kill Team 2024 / 3e** (rules/reference shipped — see [`games/kill_team_2024/README.md`](games/kill_team_2024/README.md)). **Personal use only — never for sale.**
+**Systems in scope:**
 
-**Status:** **v0.5.0** (2026-08-18). Tags `v0.1.0` / `v0.5.0`. Later tracks via [`docs/handoffs/README.md`](docs/handoffs/README.md).
+| # | System | Start here |
+|---|--------|------------|
+| 1 | Warhammer 40,000, 11th Edition (Necrons + Space Marines) | [`games/warhammer_40k_11e/README.md`](games/warhammer_40k_11e/README.md) |
+| 2 | Kill Team 2024 / 3e | [`games/kill_team_2024/README.md`](games/kill_team_2024/README.md) |
+| 3 | The Warcode (RedMakers free beta) | [`games/the_warcode/README.md`](games/the_warcode/README.md) |
+
+**Personal use only — never for sale.**
+
+**Status:** **v0.9.0** (2026-08-25) — pre-external-review. **Next:** external user review and critique. Tracks: [`docs/handoffs/README.md`](docs/handoffs/README.md).
 
 ---
 
 ## Read order
 
-Four files, in this order. Stop after step 2 if you only need to find something.
-
 | # | Read | Why |
 |---|------|-----|
 | 1 | **`START_HERE.md`** (this file) | What the project is, the rules, where to go |
-| 2 | [`README.md`](README.md) | Project overview, directory map, links to everything |
+| 2 | [`README.md`](README.md) | Project overview, directory map, copyright |
 | 3 | [`KB/index.md`](KB/index.md) | Master catalog of the knowledge base |
-| 4 | [`games/kill_team_2024/README.md`](games/kill_team_2024/README.md) then [`Patch_Manifest.md`](games/kill_team_2024/rules/Patch_Manifest.md) and [`Target_Eligibility.md`](games/kill_team_2024/rules/Target_Eligibility.md) | KT24 shipping (if you are playing or editing Kill Team) |
+| 4 | The system README for the game you are playing or editing (table above) | Shipping spine for that system |
 | 5 | [`docs/Rehydration_Prompt.md`](docs/Rehydration_Prompt.md) | Full context rebuild for an AI session |
 
-**If you are an AI agent about to write anything:** read [`AGENTS.md`](AGENTS.md) too. It is the schema source of truth for the knowledge base and it is not optional.
+**If you are an AI agent about to write anything:** read [`AGENTS.md`](AGENTS.md) too. It is the schema source of truth and it is not optional.
 
 ---
 
@@ -75,11 +82,12 @@ The short version. The full map is in [`docs/Project_Structure.md`](docs/Project
 These are not style preferences. Breaking any of them is a defect.
 
 1. **Never write under `raw/`.** Immutability is the point of the layer. Read it, cite it, summarize it elsewhere.
-2. **Never commit GW binaries.** No PDFs, no official images, no `.webp`. The external library at `C:\Personal\40K` stays outside this repo and is referenced by **markdown path pointer only**. [`.gitignore`](.gitignore) enforces this - do not bypass it.
-3. **Teaching paraphrase in `KB/` and 40K shipping.** Under `games/kill_team_2024/` only, verbatim quotes from owned local KT24 PDFs are allowed (cite filename + page). Full-Scan baseline; dated `eng_*` patches supersede; Jul 25 lite is intro — omission is not a patch.
-4. **Subagents never `git commit` or `git push` unless the user explicitly gates it.** Coordinator is the sole git owner otherwise.
-5. **Only the Librarian writes under `KB/`.** Everyone else reads it and promotes from it with approval.
-6. **Write UTF-8, no BOM.** A handful of early files got this wrong and produce unreadable diffs.
+2. **Never commit GW binaries.** No GW PDFs or official images. Owned libraries at `C:\Personal\40K` and `C:\Personal\Kill Team` stay outside the repo — **markdown path pointers only**. Scoped exception: Warcode free-beta PDF under `raw/the_warcode/` (see [`AGENTS.md`](AGENTS.md) Sec 10).
+3. **Teaching paraphrase in `KB/` and `docs/`.** Scoped verbatim quotes only under the paths in AGENTS Sec 10 (KT24, 40K WarCom-free Core, Warcode free beta).
+4. **In `games/the_warcode/**` shipping,** never name GW proper nouns — use That other game / Rawmallet / 39.9 / 39.876.
+5. **Subagents never `git commit` or `git push` unless the user explicitly gates it.** Coordinator is the sole git owner otherwise.
+6. **Only the Librarian writes under `KB/`.** Everyone else reads it and promotes from it with approval.
+7. **Write UTF-8, no BOM.**
 
 ---
 
@@ -96,19 +104,22 @@ These are not style preferences. Breaking any of them is a defect.
 | Write or maintain KB pages | [`AGENTS.md`](AGENTS.md), then [`docs/operations/librarian_agent.md`](docs/operations/librarian_agent.md) |
 | Run or review a work slice | [`docs/handoffs/README.md`](docs/handoffs/README.md) |
 | Restart a cold AI session | [`docs/Rehydration_Prompt.md`](docs/Rehydration_Prompt.md) |
+| Play The Warcode | [`games/the_warcode/README.md`](games/the_warcode/README.md) |
 
 ---
 
 ## One thing to know about trust
 
-Warhammer 40,000 11th Edition is **new**, and the sources move under us. Every KB page carries a `confidence` value - `verified`, `draft`, `stub`, or `unverified` - and every rules claim records the date it was read.
+Warhammer 40,000 11th Edition and The Warcode free beta are both **moving**. Every KB page carries a `confidence` value — `verified`, `draft`, `stub`, or `unverified` — and every rules claim records the date it was read.
 
-**Treat `unverified` and `stub` as "do not take to the table without checking."** An honest uncertainty marker is worth more here than a confident guess. Cross-check against the local library or [Wahapedia](https://wahapedia.ru/) before a real game.
+**Treat `unverified` and `stub` as "do not take to the table without checking."** An honest uncertainty marker is worth more here than a confident guess.
 
 ---
 
 ## Change Log
 
+- v0.9.0 (2026-08-25): Snapshot v0.9.0; next milestone external user review and critique.
+- v0.5.6 (2026-08-25): Three systems (Warcode); hard rules and read order refreshed.
 - v0.5.1 (2026-08-23): Date stamp refresh (rule test #2).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Read order includes KT README / Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial onboarding entry point. Created in slice S1.
