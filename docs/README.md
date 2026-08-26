@@ -1,6 +1,6 @@
 <!--
 FILE: docs/README.md
-VERSION: v0.5.1 (2026-08-23)
+VERSION: v0.9.0 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
 
@@ -26,6 +26,8 @@ UPDATE_TRIGGER:
 
 Shipping reference for Wargame_Concierge: how the project is laid out, what has been decided, how the agents operate, and how to add the next game system.
 
+**Snapshot:** **v0.9.0** — phase **pre-external-review**. Next milestone: external user review and critique ([`Project_Planning.md`](Project_Planning.md)).
+
 **Layer note:** `docs/` is the **shipping** layer. It holds reviewed, player-facing and process-facing truth. Working synthesis lives one layer down in [`KB/`](../KB/) and is promoted here after review, with a row in [`KB/changelog.md`](../KB/changelog.md). See [`AGENTS.md`](../AGENTS.md) Sec 2.
 
 ---
@@ -38,7 +40,7 @@ Shipping reference for Wargame_Concierge: how the project is laid out, what has 
 | [`Project_Planning.md`](Project_Planning.md) | What has been decided, what is confirmed, what is still open? | Owner, Coordinator |
 | [`Project_Origin_Story.md`](Project_Origin_Story.md) | Why does this project exist, and who is it for? | Newcomers, beginners |
 | [`Rehydration_Prompt.md`](Rehydration_Prompt.md) | How does a cold AI session rebuild full context? | AI systems, owner during recovery |
-| [`Game_System_Scaffold.md`](Game_System_Scaffold.md) | What do I create when adding a new wargame? | Whoever onboards system #3 (KT24 is onboarded) |
+| [`Game_System_Scaffold.md`](Game_System_Scaffold.md) | What do I create when adding a new wargame? | Whoever onboards the **next** system (40K, KT24, and The Warcode are onboarded) |
 
 ---
 
@@ -63,10 +65,10 @@ Multi-agent track artifacts - briefs, implementer reports, QA reports, Librarian
 
 | Entry point | Contents |
 |-------------|----------|
-| [`handoffs/README.md`](handoffs/README.md) | **Later tracks index** (`tomb_world_ownership`, `kill_team_2024_scaffold`, `kt24_rules_quotes`, Nemesis, …) and the artifact lifecycle |
+| [`handoffs/README.md`](handoffs/README.md) | **Tracks index** (Warcode, WD527, KT scaffold, Nemesis, …) and the artifact lifecycle |
 | [`handoffs/v1_scaffold/track_in.md`](handoffs/v1_scaffold/track_in.md) | Historical: 40K beginner scaffold constraints and rollup |
 
-Shipping KT24 rules/reference: [`../games/kill_team_2024/rules/Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md).
+**Systems shipping:** [`../games/README.md`](../games/README.md) — 40K 11e, Kill Team 2024, The Warcode. KT24 rules spine: [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md).
 
 Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everything else under `docs/` uses the Rising Tide header and footer.
 
@@ -98,6 +100,8 @@ Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everyt
 
 ## Change Log
 
+- v0.9.0 (2026-08-25): Snapshot v0.9.0; Rehydration / Planning aligned to pre-external-review.
+- v0.5.6 (2026-08-25): Three systems noted; handoffs/systems index refreshed.
 - v0.5.1 (2026-08-23): Date stamp (rule test #3); index `github_ship_smoothers.md`.
 - v0.5.0 (2026-08-18): Flowcharting.md indexed (track `flowcharting_uml`). Project-wide semver snapshot (x.y.z). Later tracks via handoffs/README.md; Patch_Manifest / Target_Eligibility.
 - v1.0 (2026-08-16): Initial documentation index covering project documents, operations, and handoffs. Created in slice S1.

@@ -1,8 +1,8 @@
 <!--
 FILE: docs/Rehydration_Prompt.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.9.0 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
+AUTHOR_OF_NOTES: Cursor (Implementer)
 
 DOCUMENT_TYPE: Rehydration / Recovery
 PROJECT_NAME: Wargame_Concierge
@@ -12,7 +12,8 @@ SOURCES:
   - AGENTS.md (schema source of truth)
   - README.md
   - docs/Project_Planning.md
-  - docs/handoffs/v1_scaffold/track_in.md
+  - docs/handoffs/README.md
+  - games/README.md
   - docs/operations/librarian_agent.md
 
 PURPOSE:
@@ -35,8 +36,8 @@ USAGE_INSTRUCTIONS:
   rebuild full project understanding before proceeding. Do not skip the reads.
 
 UPDATE_TRIGGER:
-  Update whenever the read order, the layer contract, the hard rules, or the
-  active track changes.
+  Update whenever the read order, the layer contract, the hard rules, or
+  project phase / systems onboarded change.
 -->
 
 # Rehydration Prompt
@@ -47,26 +48,26 @@ For a session that starts with no memory of this project. Work through it in ord
 
 ## 1. Bootstrap read order
 
-Four reads, in this sequence. Each one assumes the previous.
-
 | # | Read | Why it is in this position |
 |---|------|---------------------------|
-| 1 | [`../AGENTS.md`](../AGENTS.md) | **Schema source of truth.** Layer contract, entity types, YAML (`version:`), copyright / KT24 quote exception + hierarchy |
+| 1 | [`../AGENTS.md`](../AGENTS.md) | **Schema source of truth.** Layer contract, entity types, YAML (`version:`), copyright / quote exceptions |
 | 2 | [`../KB/index.md`](../KB/index.md) | Master catalog |
 | 3 | **The last ~5 entries in** [`../KB/log.md`](../KB/log.md) | What happened recently |
-| 4 | [`../games/kill_team_2024/README.md`](../games/kill_team_2024/README.md), [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) | KT24 shipping spine (if the session touches Kill Team) |
-| 5 | [`handoffs/README.md`](handoffs/README.md) | Later tracks index — **do not treat frozen slice briefs as living status** |
+| 4 | [`../games/README.md`](../games/README.md) then the system README you are working in | Systems index — 40K / KT24 / The Warcode |
+| 5 | [`handoffs/README.md`](handoffs/README.md) | Tracks index — **do not treat frozen slice briefs as living status** |
 
 **Then, depending on what you are about to do:**
 
 | Task | Also read |
 |------|-----------|
-| Working a slice | The brief in [`handoffs/v1_scaffold/slices/`](handoffs/v1_scaffold/slices/), plus the previous slice's report |
+| Working a slice | The brief under [`handoffs/`](handoffs/), plus the previous slice's report |
 | Writing or maintaining `KB/` pages | [`operations/librarian_agent.md`](operations/librarian_agent.md) and [`../KB/ingest_procedure.md`](../KB/ingest_procedure.md) |
-| Writing shipping content | [`Project_Structure.md`](Project_Structure.md) for placement, [`../templates/README.md`](../templates/README.md) for the header and footer |
+| Writing shipping content | [`Project_Structure.md`](Project_Structure.md) for placement, [`../templates/README.md`](../templates/README.md) for headers/footers |
 | Answering a rules question | [`../KB/index.md`](../KB/index.md), then the pages it points at, then [`../KB/glossary.md`](../KB/glossary.md) |
 | Adding a new game system | [`Game_System_Scaffold.md`](Game_System_Scaffold.md) |
 | Deciding anything already decided | [`Project_Planning.md`](Project_Planning.md) |
+| KT24 rules work | [`../games/kill_team_2024/rules/Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) |
+| Warcode work | [`../games/the_warcode/README.md`](../games/the_warcode/README.md); naming ban in AGENTS Sec 10 |
 
 ---
 
@@ -83,16 +84,16 @@ C:\Personal\Personal_Projects\Wargame_Concierge.
 WHAT IT IS
 A personal knowledge base and teaching assistant for learning tabletop
 wargames: rules, board setup, and beginner lists from models actually owned.
-Systems: Warhammer 40,000 11th Edition (Necrons + Space Marines) and Kill Team
-2024. Personal use only — never for sale.
+Systems: Warhammer 40,000 11th Edition (Necrons + Space Marines); Kill Team
+2024; The Warcode (RedMakers free beta). Personal use only — never for sale.
+Phase: v0.9.0 pre-external-review — next milestone is external user critique.
 
 READ THESE FIRST, IN ORDER, BEFORE WRITING ANYTHING
 1. AGENTS.md
 2. KB/index.md
 3. KB/log.md, last ~5 entries
-4. games/kill_team_2024/README.md, rules/Patch_Manifest.md, rules/Target_Eligibility.md
-   (if the work touches Kill Team)
-5. docs/handoffs/README.md — later tracks; slice files are frozen
+4. games/README.md (+ the system README for this session's work)
+5. docs/handoffs/README.md — tracks; slice files are frozen
 
 ARCHITECTURE - FOUR LAYERS, DO NOT CONFLATE
   raw/          immutable allowed sources     (never write here)
@@ -105,21 +106,22 @@ HARD RULES
 - Never write under raw/.
 - Never git commit or git push unless the user explicitly gates it.
   Coordinator is the sole git owner on all other work.
-- Never commit Games Workshop binaries: no PDFs, images, .webp, .png.
+- Never commit Games Workshop binaries: no GW PDFs or official images.
   Owned libraries stay outside the repo (C:\Personal\40K and
   C:\Personal\Kill Team) — markdown path pointers only.
-- Teaching paraphrase in KB/ and 40K shipping. KT24 verbatim quotes only
-  under games/kill_team_2024/ (Full-Scan baseline; dated eng_* patches
-  supersede; Jul 25 lite is intro; omission is not a patch).
+  Exception: Warcode free-beta PDF under raw/the_warcode/ (not GW).
+- Teaching paraphrase in KB/ and docs/. Scoped verbatim quotes only per
+  AGENTS Sec 10 (KT24; 40K WarCom-free Core; Warcode free beta).
+- In games/the_warcode/** shipping, never name GW proper nouns — use
+  That other game / Murder Platoon / Rawmallet / 39.876 / 39.9.
 - Only the Librarian writes under KB/. YAML version: on every KB page.
 - Write UTF-8, no BOM.
 
-STATE AS OF v0.5.0 (2026-08-18)
-- Git tags: v0.1.0 on 1fa3b7c (S0+L0 bootstrap); v0.5.0 this snapshot.
-- KT24 Target_Eligibility owner-verified; Patch_Manifest shipped.
-- KB paraphrased from that shipping (targeting subset verified).
-- Living docs VERSION: v0.5.0 (2026-08-18). Do not rewrite historical
-  Change Log bullets. Do not edit docs/handoffs slice files.
+STATE AS OF v0.9.0 (2026-08-25)
+- Three systems onboarded under games/.
+- Warcode card/map corpus + VIP review PDF-email-only policy.
+- Next: external user review and critique.
+- Do not rewrite historical Change Log bullets. Do not edit handoff slice files.
 
 CONVENTIONS
 - KB/** uses YAML frontmatter only. docs/**, games/**, and root docs use
@@ -128,13 +130,12 @@ CONVENTIONS
 - docs/handoffs/** slice artifacts use the plain slice format, no RT header.
 - KB filenames: lowercase snake_case. Shipping filenames: Snake_Case.
 - Every KB page carries confidence: verified | draft | stub | unverified.
-  Be conservative; an honest unverified beats a confident guess.
 - Every rules claim from a living reference records a retrieval date.
-- YAML version: on KB pages (project semver, distinct from GW product editions).
 
 LIVING REFERENCES - patches happen, always record a retrieval date
 - https://www.warhammer-community.com/en-gb/
 - https://wahapedia.ru/
+- https://pre-launch.thewarcode.com/ (Warcode marketing; secondary to beta PDF)
 
 Confirm you have read the files above and state the current slice
 before proposing any work.
@@ -152,16 +153,13 @@ $root = "C:\Personal\Personal_Projects\Wargame_Concierge"
 # Last 5 KB log entries - step 3 of the read order
 Select-String -Path "$root\KB\log.md" -Pattern "^## \[" | Select-Object -Last 5
 
-# Current slice status
-Select-String -Path "$root\docs\handoffs\v1_scaffold\track_in.md" -Pattern "^\| \*\*S|^\| \*\*L|^\| \*\*Preflight"
+# Tracks index
+Get-Content "$root\docs\handoffs\README.md" | Select-Object -First 40
 
-# Commit history so far, and what is uncommitted right now
-git -C $root log --oneline
+# Commit history and working tree
+git -C $root log --oneline -10
 git -C $root status --short
 git -C $root remote -v
-
-# Confirm no GW binaries have crept in
-@(Get-ChildItem $root -Recurse -Include *.pdf,*.webp,*.png,*.jpg,*.jpeg,*.gif -File -Force -ErrorAction SilentlyContinue).Count
 ```
 
 ---
@@ -175,38 +173,26 @@ If you cannot answer these from what you just read, read again rather than guess
 | Which layer does the file I am about to write belong to? | [`Project_Structure.md`](Project_Structure.md) Sec 1 |
 | Am I allowed to write there? | [`../AGENTS.md`](../AGENTS.md) Sec 2 |
 | YAML frontmatter or Rising Tide header? | [`../AGENTS.md`](../AGENTS.md) Sec 6 |
-| What confidence value is honest for this claim? | [`../AGENTS.md`](../AGENTS.md) Sec 6 |
-| Has this already been decided? | [`Project_Planning.md`](Project_Planning.md) Sec 2 |
-| What models does the owner actually have? | [`Project_Planning.md`](Project_Planning.md) Sec 3 |
-| What is still open and blocking? | [`Project_Planning.md`](Project_Planning.md) Sec 4 |
-| Which slice am I in, and what are its exit criteria? | The brief in [`handoffs/v1_scaffold/slices/`](handoffs/v1_scaffold/slices/) |
+| What quote exceptions apply? | [`../AGENTS.md`](../AGENTS.md) Sec 10 |
+| What systems exist? | [`../games/README.md`](../games/README.md) |
+| What was already decided? | [`Project_Planning.md`](Project_Planning.md) |
 
 ---
 
-## 5. Common failure modes on a cold start
+## 5. Cold-start failure modes
 
-| Mistake | Why it happens | Cost |
-|---------|---------------|------|
-| Creating a `wiki/` directory | The Karpathy pattern doc in `reference/` calls the middle layer `wiki/` | Splits the knowledge layer in two |
-| Writing a Rising Tide HTML header onto a `KB/` page | Every other document in the repo has one | Breaks YAML frontmatter parsing in Obsidian and Dataview |
-| Writing under `raw/` | It looks like an ordinary directory | Destroys the immutability every KB citation depends on |
-| Marking a page `verified` after one unchecked read | Optimism | The confidence field is the entire trust model; inflating it breaks it |
-| Denying Tomb World ownership or calling it superseded | v1_scaffold drafts wrongly recorded Tomb World as not owned | Starter lists ignore the game-ready learning baseline; sprue-only assumptions |
-| Committing "just this one change" | Helpfulness | The Coordinator is the sole git owner - no exceptions |
-| Copying rules text to save time | Speed | Copyright violation, and it stops being a teaching document |
-| Writing UTF-16 | Some PowerShell redirection defaults do this on Windows | Unreadable diffs; some tooling treats the file as binary |
+| Temptation | Why it fails | Do this instead |
+|------------|--------------|-----------------|
+| Guessing ownership or points | Wrong lists reach the table | Read FOUNDATION / inventories |
+| Writing under `raw/` | Breaks immutability | Cite and paraphrase into KB or shipping |
+| Naming Kill Team / Warhammer inside Warcode shipping | Violates Sec 10 ban | Obfuscation table in AGENTS |
+| Copying rules text to save time | Copyright + teaching failure | Paraphrase or scoped quote paths only |
 
 ---
 
 ## 6. Keeping this file honest
 
-This document is only as good as its last update. It goes stale in three ways:
-
-1. **The read order changes** - a new entry point appears, or one of the four is retired.
-2. **The state block in section 2 drifts** - slices land, ownership changes, open questions resolve.
-3. **A hard rule changes** - rare, and the most damaging kind of drift if missed.
-
-Re-read section 2 against [`Project_Planning.md`](Project_Planning.md) and [`handoffs/v1_scaffold/track_in.md`](handoffs/v1_scaffold/track_in.md) at the end of every track. If they disagree, those two are right and this file is the bug.
+This document is only as good as its last update. Re-read section 2 against [`Project_Planning.md`](Project_Planning.md) and [`handoffs/README.md`](handoffs/README.md) at the end of every major track. If they disagree, those two are right and this file is the bug.
 
 ---
 
@@ -214,9 +200,10 @@ Re-read section 2 against [`Project_Planning.md`](Project_Planning.md) and [`han
 
 | Version | Date | Changes |
 |---------|------|---------|
-| v0.5.0 | 2026-08-18 | Project-wide semver. Read order: AGENTS + KB index + KT README / Patch_Manifest / Target_Eligibility; tags; quote exception + hierarchy |
-| v1.1 | 2026-08-16 | Ownership block and failure mode aligned to FOUNDATION — Tomb World owned and game-ready; dual Warriors/Scarabs; Immortals sprue; Hierotek TBD. S4 coord preflight |
-| v1.0 | 2026-08-16 | Initial rehydration prompt - four-step read order, paste-ready session block, bootstrap commands, cold-start failure modes. Created in slice S1 |
+| v0.9.0 | 2026-08-25 | Three systems; Warcode rules; pre-external-review phase; paste prompt refreshed |
+| v0.5.0 | 2026-08-18 | Project-wide semver. Read order: AGENTS + KB index + KT spine |
+| v1.1 | 2026-08-16 | Ownership block aligned to FOUNDATION — Tomb World owned |
+| v1.0 | 2026-08-16 | Initial rehydration prompt |
 
 ## Attribution
 

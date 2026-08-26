@@ -2,11 +2,13 @@
 
 **Purpose:** Allowed source material copied or authored for this project. Treat as **read-only** after ingest unless Coordinator authorizes a correction.
 
+**Also:** `C:\Personal\Kill Team` stays outside git — KT24 path pointers only (same rule as 40K).
+
 ## Rules
 
 - **Allowed:** Markdown notes, imported list blueprints, Source_Library pointer stubs, Wahapedia research excerpts we author.
 - **Never commit:** Games Workshop PDFs, official images, webp/png binaries, or other copyrighted GW assets.
-- **External library:** `C:\Personal\40K` remains outside this repo — use path pointers only.
+- **External libraries:** `C:\Personal\40K` and `C:\Personal\Kill Team` remain outside this repo — use path pointers only.
 
 ## Contents (populated by slice)
 

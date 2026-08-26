@@ -1,21 +1,23 @@
 <!--
 FILE: docs/Project_Planning.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.9.0 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; ownership sections rewritten in track tomb_world_ownership slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer)
 
 DOCUMENT_TYPE: Project Planning
 PROJECT_NAME: Wargame_Concierge
-PROJECT_PHASE: Bootstrap
+PROJECT_PHASE: Pre-external-review
 STATUS: Active
 
 SOURCES:
   - README.md
+  - AGENTS.md
+  - games/README.md
+  - docs/handoffs/README.md
   - docs/handoffs/v1_scaffold/track_in.md (constraints, model matrix, Preflight notes)
-  - docs/handoffs/v1_scaffold/slices/L0_librarian.md (schema decisions, open threads)
   - docs/handoffs/tomb_world_ownership/track_in.md (locked ownership decision, 2026-08-16)
+  - docs/handoffs/warcode_tactical_doctrine/ (system #3 closed)
   - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION - authoritative ownership)
-  - Cursor plan wargame_concierge_setup_ee78aead (locked decisions)
   - reference/Initial_Prompt.md (owner intent)
 
 PURPOSE:
@@ -50,13 +52,14 @@ Decisions of record for Wargame_Concierge. If a question here is marked resolved
 
 | Field | Value |
 |-------|-------|
-| Phase | Active — two systems |
-| Snapshot | **v0.5.0** (2026-08-18). Git tags `v0.1.0` (bootstrap commit `1fa3b7c`) and `v0.5.0` (this snapshot) |
-| Closed tracks | `v1_scaffold` (40K beginner spine); `tomb_world_ownership` (ownership correction); KT scaffold / quotes / Nemesis tracks as indexed in [`handoffs/README.md`](handoffs/README.md) |
-| KT24 shipping | Rules/reference landed: [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md) owner-verified 2026-08-18; [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md); hierarchy Full-Scan / `eng_*` / lite |
-| KB | Librarian pass paraphrased shipping into `KB/` (targeting subset verified; no quote dump) |
-| Git | Coordinator remains sole git owner **except** this explicit user-gated commit+push |
-| Live rollup | [`handoffs/README.md`](handoffs/README.md) — later tracks; frozen slice files |
+| Phase | **Pre-external-review** — three systems onboarded |
+| Snapshot | **v0.9.0** (2026-08-25) |
+| Systems | 40K 11e · Kill Team 2024 · **The Warcode** (free beta v0.8.7-F) — [`../games/README.md`](../games/README.md) |
+| Closed tracks | Indexed in [`handoffs/README.md`](handoffs/README.md) — includes `warcode_tactical_doctrine`, WD527 research/shipping, KT scaffold / quotes / Nemesis, `v1_scaffold`, Tomb World ownership |
+| Next milestone | **External user review and critique** of shipping teaching content (and VIP review PDF for Warcode, emailed separately) |
+| KB | Living; Librarian enhance passes after shipping tracks |
+| Git | Coordinator sole git owner except explicit user-gated commit+push |
+| Live rollup | [`handoffs/README.md`](handoffs/README.md) |
 
 ---
 
@@ -69,8 +72,7 @@ Decisions of record for Wargame_Concierge. If a question here is marked resolved
 | **Repository** | **Private** GitHub repo `russell-catt/Wargame_Concierge` | 2026-08-16 |
 | Location | `C:\Personal\Personal_Projects\Wargame_Concierge` | 2026-08-16 |
 | Git root | **Standalone** - its own `.git`, not a `Personal_Projects` monorepo leaf | 2026-08-16 |
-| Repo creation and push | Created and first pushed at `v1_scaffold` **S7** behind an explicit user gate - done. Later pushes stay Coordinator-owned | 2026-08-16 |
-| Git ownership | Coordinator alone commits. Subagents never commit or push | 2026-08-16 |
+| Git ownership | Coordinator alone commits. Subagents never commit or push unless user-gated | 2026-08-16 |
 
 Private is a deliberate choice, not a default. The unit research corpus is personal structured notes derived from material the owner holds; keeping the repo private is part of the copyright posture below.
 
@@ -78,46 +80,48 @@ Private is a deliberate choice, not a default. The unit research corpus is perso
 
 | Decision | Detail |
 |----------|--------|
-| **First system** | **Warhammer 40,000, 11th Edition** |
-| Primary army | **Necrons** - the learning army, built from models owned |
-| Secondary army | **Space Marines** - the opposing force, drawn from an existing pile of older models |
-| Game-agnostic by design | `games/` holds one subtree per system |
-| **Second system** | **Kill Team 2024** — onboarded (see `games/kill_team_2024/`). Scaffold is the pattern for system #3 |
-| Out of scope for v1 | Factions beyond Necrons and Space Marines for 40K; a web app or army builder; automated list validation; selling the project |
+| **System #1** | **Warhammer 40,000, 11th Edition** — Necrons (learning) + Space Marines (opposing pile) |
+| **System #2** | **Kill Team 2024** — onboarded under `games/kill_team_2024/` |
+| **System #3** | **The Warcode** — onboarded under `games/the_warcode/` (RedMakers free beta; GW proper-noun ban in shipping) |
+| Game-agnostic by design | `games/` holds one subtree per system; scaffold for the **next** system |
+| Out of scope for v0.9 | Web app / army builder; automated list validation; selling the project; MDR/Dominium datasheets until RedMakers publish |
 
 ### Copyright and sourcing
 
 | Decision | Detail |
 |----------|--------|
-| **No GW binaries in git** | No PDFs, official datasheet images, `.webp`, or `.png`. Enforced by `.gitignore`; bypassing it is a defect |
-| External library | `C:\Personal\40K` stays **outside** the repo. Markdown path pointers only |
-| One exception, already taken | The Preflight slice edited `C:\Personal\40K\rules\Necron_Lists.md` at source. That single file is imported into the project in S2. Everything else in that directory is read-only |
-| Writing style | **Teaching paraphrase** in `KB/` and 40K shipping. **KT24 quote exception** under `games/kill_team_2024/` only (owned local PDFs; personal use, never for sale) |
+| **No GW binaries in git** | No GW PDFs or official images. Enforced by `.gitignore` |
+| **Warcode free-beta exception** | PDF + OCR/xlsx/map sidecars may live under `raw/the_warcode/` (not GW) |
+| External libraries | `C:\Personal\40K`, `C:\Personal\Kill Team` stay **outside** the repo — path pointers only |
+| Writing style | **Teaching paraphrase** in `KB/` and `docs/` |
+| **Scoped verbatim quotes** | KT24 → `games/kill_team_2024/`; 40K WarCom-free Core → `games/warhammer_40k_11e/rules|setup/`; Warcode beta → `games/the_warcode/rules|setup|factions/` |
+| **Warcode shipping naming** | Never GW proper nouns in `games/the_warcode/**` — That other game / Rawmallet / 39.9 / 39.876 |
+| **GW unofficial footers** | Required on 40K / KT print HTML and player-facing army shipping — see `templates/Footer_Template_Gw_Print.md` |
 | Citation | Every rules claim names where it can be checked, **with a retrieval date** |
-| Unit research | Personal structured notes with source pointers - not a redistribution of official datasheets |
 
 ### Living web references
 
-11th Edition is current and moving. Both are treated as sources of record that decay, so anything drawn from them carries the date it was read.
+11th Edition and living web sources move. Anything drawn from them carries the date it was read.
 
 | Reference | URL | Use |
 |-----------|-----|-----|
-| Warhammer Community | <https://www.warhammer-community.com/en-gb/> | Official rules updates, FAQs, errata, balance dataslates, downloads |
-| Wahapedia | <https://wahapedia.ru/> | Consolidated rules and datasheet lookup; the research surface for the full unit pass in S6 |
+| Warhammer Community | <https://www.warhammer-community.com/en-gb/> | Official rules updates, FAQs, errata, balance dataslates |
+| Wahapedia | <https://wahapedia.ru/> | Consolidated rules and datasheet lookup when WarCom does not publish profiles |
+| The Warcode pre-launch | <https://pre-launch.thewarcode.com/> | Marketing / VIP context (secondary to free beta PDF) |
 
-**Patches happen.** Cross-check against the local faction packs and Munitorum-equivalent points documents before trusting a number in a real game. Wahapedia is convenience, and it can lag or differ.
+**Patches happen.** Cross-check owned PDFs before a real game. Wahapedia is convenience and can lag.
 
 ### Architecture and process
 
 | Decision | Detail |
 |----------|--------|
 | Knowledge pattern | Karpathy "LLM Wiki", adapted to wargames. `raw/` → `KB/` → shipping `docs/` + `games/` |
-| Middle layer is `KB/` | **Never** `wiki/`. The pattern doc says `wiki/`; this repo says `KB/` |
-| Schema source of truth | [`../AGENTS.md`](../AGENTS.md), with day-to-day operations in [`operations/librarian_agent.md`](operations/librarian_agent.md) |
-| Librarian ownership | The Librarian agent owns all `KB/` writes, never writes `raw/`, and never commits |
-| Documentation framework | Rising Tide headers and footers in `docs/`, `games/`, and root docs; YAML frontmatter in `KB/`. **The two do not stack** |
-| Workflow | Multi-slice, multi-agent, imported from the `daily_report` playbook, with locked per-role models and Tier 0-3 checks |
-| Obsidian | Repo root is a vault; `.obsidian/` inherited as a structural placeholder only |
+| Middle layer is `KB/` | **Never** `wiki/` |
+| Schema source of truth | [`../AGENTS.md`](../AGENTS.md); day-to-day in [`operations/librarian_agent.md`](operations/librarian_agent.md) |
+| Librarian ownership | Librarian owns all `KB/` writes, never writes `raw/`, and never commits |
+| Documentation framework | Rising Tide in `docs/` / `games/` / root; YAML in `KB/`. **Do not stack** |
+| Workflow | Multi-slice, multi-agent playbook with Tier 0–3 checks |
+| Obsidian | Repo root is a vault |
 | Encoding | UTF-8, no BOM |
 
 ---
@@ -247,29 +251,31 @@ Still worth closing, but no longer critical path. It dropped from blocker to nic
 
 ## 6. Immediate next actions
 
-Status as of **v0.5.0**. Coordinator still owns routine git; this snapshot is the exception.
+## 5. Next actions
+
+**Primary (v0.9.0):** **External user review and critique** — share selected shipping guides (and the Warcode VIP review PDF by email, not via GitHub) and collect feedback.
 
 | # | Action | Owner |
 |---|--------|-------|
-| 1 | Play a first KT24 game from shipping (Volkus or 3e Starter; Target_Eligibility at the table) | Owner |
-| 2 | Optional: ingest remaining Core chapters / team trees into KB when needed | Librarian |
-| 3 | Space Marine ownership inventory still open | Owner / later slice |
-| 4 | Playbook 26 dead links remain a known issue — do not rewrite Sec 17–18 | Later cleanup |
+| 1 | External review pass on teaching content (40K / KT24 / Warcode) | Owner + reviewers |
+| 2 | First table tests: KT24 Volkus/3e Starter; Warcode First Game Walkthrough; 40K Conclave | Owner |
+| 3 | Optional: L1 Warcode unit KB pages; MDR/Dominium when beta publishes | Later track |
+| 4 | Optional: ingest remaining Core chapters / team trees into KB when needed | Librarian |
+| 5 | Playbook 26 dead links remain a known issue — do not rewrite Sec 17–18 | Later cleanup |
 
 ### Known defects carried forward
 
 | Defect | Detail | Suggested owner |
 |--------|--------|-----------------|
 | Dead links in the playbook | `operations/multiagent_coordinator_strategy.md` has 26 relative links inherited from the `daily_report` repo that point at directories which do not exist here. The prose is authoritative; the links are not | A later cleanup slice |
-| UTF-16 encoded files | `checkins/README.md`, `prompts/README.md`, `docs/handoffs/README.md`, `raw/pointers/README.md`, and several slice artifacts in both tracks are UTF-16LE, against the UTF-8-no-BOM rule. They produce unreadable diffs and can fail to parse in Obsidian | Coordinator - note that `raw/pointers/README.md` sits under the immutable layer and needs an explicit authorization to touch |
-| Stale Tomb World supersession outside the S3 scope | `Rehydration_Prompt.md` and `reference/Source_Library.md` still deny Tomb World ownership. S3's brief limited it to three files, so these were flagged rather than fixed | Implementer or Coordinator, S4 or a follow-up slice |
-| Stale ownership rows in the detachment docs | `Canoptek_Court.md` and `Cryptek_Conclave.md` tag the first Warriors squad and Scarab set as unassembled, and Scarabs as "half" owned. Both are game-ready Tomb World units, and all 6 Scarabs are owned | A follow-up slice |
-| Points drift between FOUNDATION and the army docs | FOUNDATION prices 10 Warriors at 100; the army docs read 80 from Munitorum Field Manual v1.2. FOUNDATION is authoritative for ownership, not for costs | A points-verification slice |
+| UTF-16 encoded files | Some early README / slice artifacts may still be UTF-16LE against the UTF-8-no-BOM rule | Coordinator |
+| Points drift between FOUNDATION and army docs | FOUNDATION prices ownership; MFM prices costs — keep the distinction explicit | Points-verification when needed |
 
 ---
 
 ## Change Log
 
+- v0.9.0 (2026-08-25): Three systems onboarded (Warcode); copyright/sourcing refreshed; phase **pre-external-review**; next milestone external critique.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Status: KT24 rules/reference landed; tags `v0.1.0` / `v0.5.0`; Coordinator git owner except this user-gated commit+push.
 - v1.1 (2026-08-16): Ownership correction, track `tomb_world_ownership` slice S3. Sec 3 rewritten against FOUNDATION: Kill Team: Tomb World is **owned and game-ready** (Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms), with the second Warriors squad, second Scarab set, and Immortals owned on sprue, and totals of 20 Warriors and 6 Scarab Swarms. Removed the "Superseded: Kill Team: Tomb World" section and replaced it with a correction note recording that the prior claim was erroneous. Added the authoritative order for ownership facts. Downgraded the Hierotek Circle photo ID from blocker to open-but-non-blocking. Refreshed current status, completed-to-date, and next actions for the current track.
 - v1.0 (2026-08-16): Initial planning record - locked decisions, confirmed 2026-08-16 Necron ownership, Tomb World superseded, Power Matrix resolved to the Canoptek Court detachment rule, Hierotek Circle photo ID open, next actions. Created in slice S1. *(The Tomb World supersession recorded here was erroneous - see v1.1.)*
