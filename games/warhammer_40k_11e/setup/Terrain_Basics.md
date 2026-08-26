@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Terrain_Basics.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S2)
 
 DOCUMENT_TYPE: Teaching Guide / Terrain Reference
 PROJECT_NAME: Wargame_Concierge
@@ -13,6 +13,8 @@ SOURCES:
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf (Section 13, read 2026-08-16)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf (v1.1, read 2026-08-16)
   - C:\Personal\40K\Terrain\A4\ (printable A4 footprint packs - path pointers only)
+  - C:\Personal\40K\WD_527\ (owned digital backup; Trinity Hobby 2026-08-22)
+  - raw/white_dwarf_527/designer_commentary_notes.md
   - reference/Source_Library.md
 
 PURPOSE:
@@ -66,6 +68,12 @@ Why the distinction matters:
 
 So: agree your terrain areas out loud, with your opponent, **before** the first model moves.
 
+**Commentary (White Dwarf 527 — Rules Focus: Terrain Objectives):**
+
+The WD527 battle report places **footprint cutouts** on the mat first, then ruins on top — the footprint is the terrain area, and for objectives the area itself is what you control. That order matches Core teaching here and on [`Board_Setup.md`](Board_Setup.md); Mission 38 uses the same footprint layout idea — [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md).
+
+**Cite:** WD527, Rules Focus: Terrain Objectives (battle report); owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
 ---
 
 ## The three categories
@@ -96,6 +104,12 @@ A unit has the benefit of cover against a ranged attack if **every** model in it
 **What it does: it worsens the attacking weapon's Ballistic Skill by 1** (**13.08**).
 
 > This is an 11th Edition change worth reading twice. Cover **no longer improves your armour save**. It makes the enemy less accurate. If you learned the older wording, unlearn it.
+
+**Commentary (White Dwarf 527 — Rules Focus: Benefit of Cover):**
+
+Designer play notes line up with Core **13.08**: INFANTRY, BEAST, or SWARM wholly inside a terrain area get Benefit of Cover (attacker BS worsened by 1). Vehicles and Monsters get it when intervening terrain means they are not fully visible. Footprints first still matter — being inside the agreed area is what unlocks the Infantry-style path to cover.
+
+**Cite:** WD527, Rules Focus: Benefit of Cover (battle report); owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ### Hidden
 
@@ -206,6 +220,7 @@ Full catalogue with descriptions: [`reference/Source_Library.md`](../../../refer
 ## Related pages
 
 - [`Board_Setup.md`](Board_Setup.md) - the full pre-game sequence this fits into
+- [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md) - Mission 38 footprint layout
 - [`../rules/Key_Concepts.md`](../rules/Key_Concepts.md) - Objective Control and the attack sequence
 - [`../rules/Keyword_Glossary.md`](../rules/Keyword_Glossary.md) - Ignores Cover, Indirect Fire, Plunging Fire, Stealth
 - [`reference/Source_Library.md`](../../../reference/Source_Library.md) - every owned source and its path
@@ -217,6 +232,7 @@ Full catalogue with descriptions: [`reference/Source_Library.md`](../../../refer
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.2 (2026-08-25): WD527 locked Commentary (terrain footprints; Benefit of Cover alignment) (wd527_shipping S2).
 - v0.5.1 (2026-08-18): Rule-ID cites for cover/visibility (track `40k_warcom_quotes` S4).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial terrain guide (slice S3), from the owned Core Rules PDF Section 13 and Event Companion v1.1, both read 2026-08-16. A4 footprint packs recorded as path pointers only.

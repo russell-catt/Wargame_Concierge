@@ -1,19 +1,19 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/death_guard/README.md
-VERSION: v0.7 (2026-08-21)
+VERSION: v0.8 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5 - kill_team_2024_scaffold; cloud agent photo ID 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
 DOCUMENT_TYPE: Cross-Link Stub (NOT a faction package)
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Death Guard
-REFERENCE_STATUS: Stub - out of scope this track. No 40K rules content in this file.
+REFERENCE_STATUS: Stub - out of scope this track. No 40K army rules content in this file.
 
 SOURCES:
   - games/kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md (the Death Guard / 40K sync note that created this stub)
   - docs/handoffs/kill_team_2024_scaffold/track_in.md (cross-game policy - "Inventories sync" row)
-  - games/warhammer_40k_11e/README.md (locked scope: Necrons + Space Marines only, this track)
+  - games/warhammer_40k_11e/README.md (locked teaching forces: Necrons + Space Marines)
 
 PURPOSE:
   A minimal cross-link so a future 40K Death Guard track has somewhere to
@@ -31,9 +31,23 @@ UPDATE_TRIGGER:
 
 # Death Guard - cross-link stub (not a full army package)
 
-**This is not a faction package.** The `kill_team_2024_scaffold` track locks Warhammer 40,000 scope to **Necrons and Space Marines only** (see [`../../README.md`](../../README.md)). This file exists solely so the Plague Marines Kill Team miniatures - which are Death Guard models and could in principle field a 40K army - have a documented cross-link rather than silence.
+**This is not a faction package.** Teaching scope for 40K remains **Necrons and Space Marines** (see [`../../README.md`](../../README.md)). This file exists solely so the Plague Marines Kill Team miniatures - which are Death Guard models and could in principle field a 40K army - have a documented cross-link rather than silence.
 
 Do not add an army rule guide, detachment guide, starter lists, or unit research here without a track that explicitly brings Death Guard into 40K scope. That would invent a full army tree this slice was told not to build.
+
+---
+
+## System pointers (shared 11e — not Death Guard rules)
+
+| Aid | Path |
+|-----|------|
+| System README | [`../../README.md`](../../README.md) |
+| Wound chart | [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) |
+| Mission 38 | [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) |
+| Force Dispositions | [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) |
+| System Letter QR | [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html) |
+| Setup / rules indexes | [`../../setup/README.md`](../../setup/README.md) · [`../../rules/README.md`](../../rules/README.md) |
+| WD527 shipping track | [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md) |
 
 ---
 
@@ -57,7 +71,7 @@ Follow [`docs/Game_System_Scaffold.md`](../../../../docs/Game_System_Scaffold.md
 
 ## Related pages
 
-- [`../../README.md`](../../README.md) - 40K subtree entry point (locked scope: Necrons, Space Marines)
+- [`../../README.md`](../../README.md) - 40K subtree entry point (locked teaching forces: Necrons, Space Marines)
 - [`../../../kill_team_2024/teams/plague_marines/README.md`](../../../kill_team_2024/teams/plague_marines/README.md) - the full Kill Team package this stub cross-links to
 - [`../../../kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/plague_marines/Owned_Models_Inventory.md) - the Death Guard / 40K sync note
 
@@ -69,6 +83,7 @@ Follow [`docs/Game_System_Scaffold.md`](../../../../docs/Game_System_Scaffold.md
 
 ## Change Log
 
+- v0.8 (2026-08-25): wd527_shipping S6 — system spine pointers only (no army rules invented).
 - v0.7 (2026-08-21): Assembly/paint — full Plague Marines KT Starter Set 7/7 confirmed.
 - v0.6 (2026-08-21): Assembly/paint set to game ready from Plague Marines photo ID; Biologus Putrifier noted as owned 40K character via KT inventory.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

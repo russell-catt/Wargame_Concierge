@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions.md
-VERSION: v1.0 (2026-08-23)
+VERSION: v1.1 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S2)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -12,6 +12,8 @@ REFERENCE_STATUS: Active - teaching paraphrase; draft until cross-checked agains
 SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf (v1.1; sequence inventoried 2026-08-16)
   - WarCom: "How your army affects your mission" / "The Chapter Approved deck" (shape; retrieved via secondary summaries 2026-08-23)
+  - C:\Personal\40K\WD_527\ (owned digital backup; Trinity Hobby 2026-08-22)
+  - raw/white_dwarf_527/designer_commentary_notes.md
   - games/warhammer_40k_11e/setup/Board_Setup.md
   - Munitorum Field Manual detachment tags (Force Disposition names)
 
@@ -74,6 +76,12 @@ Your detachment’s MFM line looks like: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSE
 **Pickup / kitchen table:** you may change Disposition each battle (if your detachments allow more than one).  
 **Events (Event Companion):** lock **one** Disposition when you submit the list — it stays for the whole event. That locks you into a set of **five** possible Primaries (one per opponent Disposition).
 
+**Commentary (White Dwarf 527 — A New Era of War):**
+
+Force Disposition tags name what your army is trying to do (exterminate, hold ground, retrieve relics). Pairing your tag with the opponent’s sets **your** Primary — narratives can differ on the same board (e.g. Take and Hold vs Purge the Foe). In Tactical secondary mode, draw **two** cards each turn; several secondaries may stay active, the per-round secondary VP cap still applies, and Challenger is out of the pack. Caps above remain Event Companion SoT.
+
+**Cite:** WD527, A New Era of War (Force Disposition and Tactical missions); owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
 ---
 
 ## Pre-game sequence (mission-relevant steps)
@@ -87,11 +95,13 @@ Full fourteen steps: [`Board_Setup.md`](Board_Setup.md). Mission spine:
 | 3 | **Determine a Layout** | Each pairing has layouts **A / B / C** (organizer picks or roll) |
 | 4 | **Create the Battlefield** | 44"×60" events; place terrain per layout |
 | 5 | **Attacker / Defender** | Agree edges to layout; roll; winner picks role |
-| 6 | **Secondaries** | Fixed or Tactical (secret, then reveal) |
+| 6 | **Secondaries** | Fixed or Tactical (secret, then reveal). Tactical: two new cards/turn; round VP cap; no Challenger |
 | 7–11 | Formations → deploy → redeploy → first turn → pre-battle | Same as Board_Setup |
 | 12–14 | Play · end · total VP | Score **your** Primary + Secondaries |
 
 > **Deploying second is not a punishment.** Defender deploys first; Attacker sees the board. First turn is a **separate** roll-off.
+
+**Mission 38 tip:** WD527 Bunker card **Converging Ambition** replaces steps 2–3 when you play it — see [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md). Disposition on the list still decides which Primary block you score.
 
 <!-- pagebreak -->
 
@@ -141,11 +151,12 @@ Do **not** invent a Twist mid-game. If you are not using the physical deck, skip
 | Need | Page |
 |------|------|
 | Full setup sequence | [`Board_Setup.md`](Board_Setup.md) |
-| OC / terrain footprints | [`../rules/Key_Concepts.md`](../rules/Key_Concepts.md) |
+| Mission 38 (WD527) | [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md) |
+| OC / terrain footprints | [`../rules/Key_Concepts.md`](../rules/Key_Concepts.md) · [`Terrain_Basics.md`](Terrain_Basics.md) |
 | **Cryptek Conclave** (Priority Assets) Primaries | [`../armies/necrons/Cryptek_Conclave_Primary_Missions.md`](../armies/necrons/Cryptek_Conclave_Primary_Missions.md) |
 | Physical cards / layouts | Owned Chapter Approved deck + Event Companion PDF (not dumped in-repo) |
 
-**confidence: draft** — paraphrase from Event Companion sequence (owned, read 2026-08-16), MFM tags, and WarCom / community mission shape (2026-08-23). Verify Primary text on your cards before an event.
+**confidence: draft** — paraphrase from Event Companion sequence (owned, read 2026-08-16), MFM tags, WarCom / community mission shape (2026-08-23), and WD527 designer notes (tier 1.5). Verify Primary text on your cards before an event.
 
 ---
 
@@ -154,6 +165,7 @@ Do **not** invent a Twist mid-game. If you are not using the physical deck, skip
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.1 (2026-08-25): WD527 locked Commentary (Disposition pairing + Tactical secondaries); Mission 38 tip; secondary row density (wd527_shipping S2).
 - v1.0 (2026-08-23): Initial 2-pager from starter-event Force Disposition feedback.
 
 ## Attribution

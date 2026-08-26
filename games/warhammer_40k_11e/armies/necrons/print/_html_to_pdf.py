@@ -15,6 +15,7 @@ AIDS = [
     "40k_necrons_quick_reference",
     "40k_first_game_core",
     "40k_setup_terrain",
+    "40k_conclave_primary_missions",
 ]
 
 

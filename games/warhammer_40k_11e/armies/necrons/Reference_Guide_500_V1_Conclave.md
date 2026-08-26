@@ -33,7 +33,7 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION — write on the list before you deploy**
 > **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
-> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 Companion to [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md). Builds on [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md).
 
@@ -237,6 +237,7 @@ Off-turn stratagem on the Warrior brick a few times adds another ~3 avg wounds p
 - [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md)
 - [`Reanimation_Protocols.md`](Reanimation_Protocols.md) · [`Cryptek_Conclave.md`](Cryptek_Conclave.md)
 - [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md)
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
 
 ---
 
@@ -245,6 +246,7 @@ Off-turn stratagem on the Warrior brick a few times adds another ~3 avg wounds p
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.3 (2026-08-25): WD527 shipping S6 — system spine related links.
 - v1.2 (2026-08-20): Character note — WarCom July revive-as-solo-unit + RP excludes CHARACTER from bodyguard revive; link analysis.
 - v1.1 (2026-08-19): Core rule IDs / plain-language pass (from main).
 - v1.0 (2026-08-19): Initial 500 V1 Conclave reference with RP stacking math, dual-brick Conclave picks, Immortal/Warrior shooting math, off-turn stratagem model.

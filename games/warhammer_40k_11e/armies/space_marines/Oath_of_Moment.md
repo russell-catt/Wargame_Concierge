@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Oath_of_Moment.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S6)
 
 DOCUMENT_TYPE: Teaching Guide / Army Rule
 PROJECT_NAME: Wargame_Concierge
@@ -53,6 +53,8 @@ Against your chosen target, every attack your army makes gets:
 2. **Add 1 to the Wound roll**, *if* your army passes the purity condition below.
 
 Two of the three steps of the attack sequence, improved, army-wide, for free. That is a very large rule.
+
+**Wound band reminder:** +1 to Wound shifts the Core **05.02** S vs T band one step easier when it applies — keep [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) at the table.
 
 ---
 
@@ -119,7 +121,9 @@ Put a physical token on the oath target. Every Command phase, move it. The rule 
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) - the laminate version
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) - where the Command phase sits
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - the hit, wound, save, damage sequence this rule modifies
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) - S vs T bands the +1 Wound modifies
 - [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md) - army rule, detachment, attached unit
+- [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 ---
 
@@ -128,6 +132,7 @@ Put a physical token on the oath target. Every Command phase, move it. The rule 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.1 (2026-08-25): wd527_shipping S6 — wound-band pointer; system spine links (Mission 38 / Disposition / system QR).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial army rule teaching guide (slice S5), written from the owned Space Marines Faction Pack v1.1 Rules Updates and FAQs sections, read 2026-08-16. Upgrades the `draft` Oath of Moment entry in `Keyword_Glossary.md` and supersedes the `unverified` sketch in `KB/concepts/oath_of_moment.md`.
 

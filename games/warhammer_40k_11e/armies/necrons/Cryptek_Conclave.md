@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.3 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; ownership corrected by Librarian, slice L2 of tomb_world_ownership; Hierotek photo ID 2026-08-17)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -33,7 +33,7 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION — write on the list before you deploy**
 > **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
-> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+> Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound grid: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 The Necron detachment where **Cryptek characters upgrade the guns of whoever they are standing with**, one ability at a time, every **Shooting phase** (`10.02`).
 
@@ -93,6 +93,12 @@ Default for a new player: `[IGNORES COVER]` far more often than you would guess,
 - **The Munitorum Field Manual tells you who can attach to whom.** Each character entry lists its legal bodyguard units - Plasmancer and Psychomancer list Immortals and Necron Warriors; the Technomancer adds Canoptek Wraiths. Check there before you plan an attachment.
 - **You are not going to chase the enemy.** This army stands on objectives and out-lasts. If you find yourself moving three units per turn, you are playing the other detachment.
 - **The off-turn reanimation trick.** One of the detachment's **stratagems** (`15.01`) — **Potentiality Syphon** — fires a unit's Reanimation Protocols during **your opponent's Command phase** (`08.01`), if the unit is on an objective (`14.02`); a Cryptek unit reanimates one extra wound. That is a second helping of the army rule every round. See [`Reanimation_Protocols.md`](Reanimation_Protocols.md).
+
+**Commentary (White Dwarf 527 — Leaders and Support):**
+
+*One Leader and one Support per bodyguard.* Geomancer (**Support**) + Warriors is the 250 baseline; at 500+ add a **Leader** to the same brick when legal — three datasheets become one attached unit for all rules purposes. Deploy the whole blob in coherency **2″/9″** (`03.03`).
+
+**Cite:** WD527, Leaders and Support; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -178,6 +184,8 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) - what actually exists
 - [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md) - `[ASSAULT]`, `[HEAVY]`, `[ANTI-X]`, `[IGNORES COVER]`
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - Leaders, Support, and attached units
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) - S vs T (menu Anti-X often replaces this test)
+- [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) - Mission 38
 
 ---
 
@@ -186,6 +194,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Leaders and Support Commentary.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase or Apprentek proxy.
 - v1.1 (2026-08-16): **Ownership correction** (slice L2, `tomb_world_ownership`). The v1.0 fit table was built on the erroneous claim that Kill Team: Tomb World was not owned: it tagged the Warriors and Scarabs "unassembled", and it omitted the owned **Cryptek Geomancer** altogether. Table split into game-ready / on-sprue / not-owned and rebuilt around the five owned Tomb World units, with Tomb Crawlers and Macrocytes added. Three units flagged as not yet costed from MFM v1.2. The beginner verdict no longer "hinges on" whether the Hierotek Circle contains a Cryptek - the owned Geomancer fills that role, and the photo ID is an upside rather than a dependency. The KB-drift note updated: `KB/` was renamed to Technosorcerous Augmentations in the same slice. No rules content changed.

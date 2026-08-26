@@ -21,6 +21,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Closed — merged PR #7 |
 | GW community-content footer + games/ compliance | [`gw_community_content/`](gw_community_content/) | Closed — Complete (commits pending) |
 | The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | Closed — merged PR #16 |
+| WD527 research (40K ref card, Mission 38, wound laminate) | [`wd527_research/`](wd527_research/) | Closed - Complete (commit pending) |
 
 ## Artifact lifecycle (summary)
 

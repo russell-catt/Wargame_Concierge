@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.8 (2026-08-22)
+VERSION: v1.9 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — ownership update pass 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -31,6 +31,27 @@ Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md
 
 > **FORCE DISPOSITION (Gladius starters):** **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
 > Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
+
+**Commentary (White Dwarf 527 — A New Era of War):**
+
+Each player’s Force Disposition sets that player’s Primary — two Gladius Priority Assets lists still pair against whatever the opponent wrote. Write the tag before deploy so Mission 38 / Chapter Approved matching is not a mid-game rewrite.
+
+**Cite:** WD527, A New Era of War; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
+---
+
+## System spine (table aids)
+
+| Aid | Path |
+|-----|------|
+| Wound chart (S vs T) | [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · print [`../../setup/print/40k_wound_roll_reference.html`](../../setup/print/40k_wound_roll_reference.html) |
+| Mission 38 — Converging Ambition | [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) |
+| Force Dispositions | [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) |
+| System Letter QR | [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html) |
+| Distances / OC / attach | [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) · [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) — triad **6"** Ingress / **>8"** enemy gap / **9"** coherency span; OC = terrain **footprint** |
+| Shipping track | [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md) |
+
+Army laminate (md only — no `print/` HTML claimed): [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 
 ---
 
@@ -106,7 +127,7 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 ## Sources
 
 - Local: [`reference/Source_Library.md`](../../../../reference/Source_Library.md) · [`raw/pointers/40k_pics_ownership.md`](../../../../raw/pointers/40k_pics_ownership.md) · [`raw/pointers/40k_codexes.md`](../../../../raw/pointers/40k_codexes.md)
-- Shared rules: [`../../rules/README.md`](../../rules/README.md) · [`../../setup/README.md`](../../setup/README.md)
+- Shared rules: [`../../rules/README.md`](../../rules/README.md) · [`../../setup/README.md`](../../setup/README.md) · [`../../README.md`](../../README.md)
 - Companion: [`../necrons/README.md`](../necrons/README.md)
 - Kill Team: [Angels of Death](../../../kill_team_2024/teams/angels_of_death/README.md) · [Deathwatch](../../../kill_team_2024/teams/deathwatch/README.md)
 
@@ -117,6 +138,7 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.9 (2026-08-25): wd527_shipping S6 — system spine table (wound / Mission 38 / Disposition / system QR / 6″–8″–9″); Force Disposition Commentary.
 - v1.8 (2026-08-22): Index First Company + Anvil teaching guides (owned-shelf alternates to Gladius).
 - v1.7 (2026-08-22): Matched vs Casual dual-path starter index; Legends only on Casual.
 - v1.6 (2026-08-22): Astartes Servitors marked **Legends**; Techmarine matched-play alone.

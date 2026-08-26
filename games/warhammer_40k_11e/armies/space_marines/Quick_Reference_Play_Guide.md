@@ -1,14 +1,14 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.6.1 (2026-08-23)
+VERSION: v0.7.0 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S6)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
-REFERENCE_STATUS: Active - sources read 2026-08-16; starter snapshot synced to owned Blood Ravens paths 2026-08-21
+REFERENCE_STATUS: Active - sources read 2026-08-16; starter snapshot synced to owned Blood Ravens paths 2026-08-21; system spine densified 2026-08-25
 
 SOURCES:
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf
@@ -16,6 +16,8 @@ SOURCES:
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2)
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16)
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
+  - games/warhammer_40k_11e/rules/Wound_Roll_Reference.md · Key_Concepts.md · Turn_Structure.md
+  - games/warhammer_40k_11e/setup/WD527_Monthly_Mission.md · Chapter_Approved_Force_Dispositions.md
 
 PURPOSE:
   Table-side laminate. Two printed pages, page break marked with an HTML
@@ -23,9 +25,11 @@ PURPOSE:
 
 PRINT_NOTE:
   Exactly two pages by design. Do not add sections - replace instead. No
-  shopping content, no lore, no datasheet statlines.
+  shopping content, no lore, no datasheet statlines. No print HTML in this
+  folder yet — markdown is the laminate source (README claims md only).
 
 CHANGE_LOG:
+  - v0.7.0 (2026-08-25): wd527_shipping S6 — page-2 spine densify (S vs T bands, 6"/8"/9" triad, Mission 38 + system QR); OC footprint restated.
   - v0.6.1 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) pointers.
   - v0.6.0 (2026-08-21): Starter snapshot → owned Blood Ravens ladder (250–1000); ownership audited.
   - v1.0 (2026-08-16): Initial two-page laminate (slice S5).
@@ -49,7 +53,7 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION — write on the list before you deploy**
 > **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
-> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 ## YOUR TURN, IN ORDER
 
@@ -57,13 +61,13 @@ UPDATE_TRIGGER:
 |---|-------|---------|
 | 0 | **Start of turn** | Resolve "start of your turn" triggers |
 | 1 | **Command** | Both players +1CP. **PICK YOUR OATH TARGET.** **DECIDE: spend a doctrine?** Battle-shock rolls (2D6 vs Ld) for units battle-shocked or at/below half strength |
-| 2 | **Movement** | Select **every** unit and give it a move type. Reserves arrive. Check coherency |
+| 2 | **Movement** | Select **every** unit and give it a move type. Reserves arrive. Check coherency (**2"/9"**) |
 | 3 | **Shooting** | Pick unit, pick shooting type, pick targets, resolve attacks. **Shoot the oath target first** |
-| 4 | **Charge** | Within 12", not engaged, did not Advance / Fall Back. Roll 2D6. Charging unit gets Fights First |
+| 4 | **Charge** | Within 12", not engaged, did not Advance / Fall Back. **Roll 2D6 first** (reach + eligible targets). Charging unit gets Fights First |
 | 5 | **Fight** | Pile in 3" - fight (Fights First units first, then alternate) - consolidate 3" |
 | 6 | **End of turn** | End-of-turn triggers, score mission VP, fix coherency |
 
-**Move types:** Remain Stationary (keeps `[HEAVY]`) | Normal (M") | Advance (M + D6, no charge, `[ASSAULT]` only) | Fall Back (no shoot / charge) | Disembark | Ingress from reserves.
+**Move types:** Remain Stationary (keeps `[HEAVY]`) | Normal (M") | Advance (M + D6, no charge, `[ASSAULT]` only) | Fall Back (no shoot / charge) | Disembark | Ingress from reserves (**6"** of edge, **>8"** from enemies).
 
 **Shooting types:** Normal | Assault (advanced) | Close-quarters (engaged) | Indirect (unseen target, big penalty, gives cover).
 
@@ -109,7 +113,7 @@ Against that unit, every model in your army with the ability gets:
 ## COMBAT SEQUENCE
 
 1. **Hit** - D6 per attack vs BS (shooting) or WS (melee). Unmodified 1 always fails; unmodified 6 is a critical hit. **Oath target: re-roll misses.**
-2. **Wound** - D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound. **Oath target: +1, if your army qualifies.**
+2. **Wound** - D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound. **Oath target: +1, if your army qualifies.** **Bands below · full grid:** [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md).
 3. **Save** - defender rolls: armour save modified by AP, **or** invulnerable save ignoring AP. Unmodified 1 fails.
 4. **Damage** - each unsaved attack costs D wounds. Excess damage is lost, it does not spill to the next model.
 5. **Allocation** - defender chooses the order; already-wounded group goes first; **characters cannot be put in front**.
@@ -134,14 +138,34 @@ Against that unit, every model in your army with the ability gets:
 | Terminator Squad | 5 | **160** | 250 · 500 · 750×2 · 1000×2 |
 | Whirlwind (1st) | 1 | **175** | 1000 |
 
-**250 BR-1:** Chaplain 75 + Terminators 160 = **235**.
-**250 BR-2:** Captain 80 + Tactical 140 = **220**.
-**500:** Captain 80 + Tactical 140 + Devastators 120 + Terminators 160 = **500**.
-**750:** + Chaplain 75 + 2nd Terminators 160 + Honour Vehement 15 = **750**.
-**1000:** 750 core without HV + Techmarine 55 + Whirlwind 175 + HV 15 = **980**.
+**250 BR-1:** Chaplain 75 + Terminators 160 = **235**. **250 BR-2:** Captain 80 + Tactical 140 = **220**.
+**500:** Captain + Tac + Devs + Terms = **500**. **750:** + Chaplain + 2nd Terms + HV = **750**. **1000:** ~**980** with Tech + Whirlwind.
 
-**Enhancements:** The Honour Vehement 15 · Adept of the Codex 20 · Artificer Armour 20 · Fire Discipline 25.
-**Legends (friendly only):** Bike Squad · Attack Bike (gunner MM or HB).
+**Enhancements:** Honour Vehement 15 · Adept of the Codex 20 · Artificer Armour 20 · Fire Discipline 25. **Legends (friendly):** Bike Squad · Attack Bike.
+
+---
+
+## WOUND QUICK BANDS (Core 05.02) — S vs T
+
+| S vs T | Need | | S vs T | Need |
+|--------|------|-|--------|------|
+| S ≥ **2×** T | **2+** | | S **=** T | **4+** |
+| S **>** T (not 2×) | **3+** | | S **<** T (not ≤½) | **5+** |
+| | | | S ≤ **½** T | **6+** |
+
+Unmod **1** fails · unmod **6** = critical wound. Oath +1 Wound shifts the band one step easier when it applies. Full matrix: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · print `../../setup/print/40k_wound_roll_reference.html`.
+
+---
+
+## DISTANCES — do not mix (6" / 8" / 9")
+
+| Job | Distance | Rule ID |
+|-----|----------|---------|
+| **Ingress** set-up from battlefield edge | within **6"** | `20.04` |
+| **Deep Strike / ingress** enemy gap | more than **8"** | `20.04` / `24.09` |
+| **Coherency** span | **2"** of a squadmate **and** **9"** of every other model | `03.03` |
+| Engagement Range | **2"** horiz / **5"** vert | `03.04` |
+| Squad Tactics trigger (Gladius errata) | within **8"** | faction pack |
 
 ---
 
@@ -180,7 +204,7 @@ Against that unit, every model in your army with the ability gets:
 
 `[ASSAULT]` fire after advancing · `[HEAVY]` +1 to hit if unengaged and nothing moved over 3" · `[RAPID FIRE X]` +X attacks within half range · `[LETHAL HITS]` critical hit may skip the wound roll (optional) · `[SUSTAINED HITS X]` critical hit = +X hits · `[DEVASTATING WOUNDS]` critical wound = mortal wounds equal to Damage · `[IGNORES COVER]` target gets no cover benefit · `[TWIN-LINKED]` re-roll the **wound** roll · `[ANTI-X N+]` wound roll of N+ against keyword X is critical · `[LANCE]` +1 to wound if your unit charged this turn · `[BLAST]` +1 attack per five models in the target, never against an engaged unit · `[CLEAVE X]` Blast for melee: +X dice per five models, all attacks at one target · `[PRECISION]` can pick out an attached character · `[HAZARDOUS]` 1-2 on the hazard die costs you a mortal wound · `[MELTA X]` +X Damage within half range · `[TORRENT]` hits automatically · `[CLOSE-QUARTERS]` / `[PISTOL]` identical - shoot while engaged.
 
-**OC** (`14.02`) = sum of OC on models **in the objective's terrain footprint** (`14.01`) · **InSv** invulnerable save (ignores AP) · **Ld** rolled on 2D6 against a target such as 7+ · **Leader / Support** (`19.01`) attach pre-game; deploy as one unit · **Engagement Range** 2" horizontally, 5" vertically · **Coherency** (`03.03`) within 2" of one model and 9" of all.
+**OC** (`14.02`) = sum of OC on models **in the objective's terrain footprint** (`14.01`) · **InSv** invulnerable save (ignores AP) · **Ld** rolled on 2D6 against a target such as 7+ · **Leader / Support** (`19.01`) attach pre-game; deploy as one unit.
 
 ---
 
@@ -191,8 +215,9 @@ Against that unit, every model in your army with the ability gets:
 - [ ] Detachment named. Enhancement written next to its bearer. **Leader/Support attached to bodyguards now** (`19.01`).
 - [ ] Attached units will deploy in **coherency** (`03.03`) as one blob.
 - [ ] Three doctrine tick-boxes written at the top of your army list.
-- [ ] Reserves declared (max 50% of your points).
+- [ ] Reserves declared (max 50% of your points). Ingress = **6"** edge / **>8"** enemy gap.
 - [ ] Oath token ready at the table edge.
+- [ ] Mission card / Mission 38 notes if using WD527 monthly.
 
 ## END-OF-TURN CHECKLIST
 
@@ -203,11 +228,10 @@ Against that unit, every model in your army with the ability gets:
 
 ---
 
-*Verify vs Munitorum / faction pack - patches happen | 2026-08-16*
+*Verify vs Munitorum / faction pack - patches happen | 2026-08-25*
 
 ---
 
 ## Games Workshop notice
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
-
