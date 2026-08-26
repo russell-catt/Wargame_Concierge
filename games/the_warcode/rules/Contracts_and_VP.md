@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Contracts_and_VP.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -11,7 +11,7 @@ REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
 
 SOURCES:
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
-  - raw/the_warcode/rulebook_v087f_extract.txt
+  - raw/the_warcode/contract_cards_transcription.txt (via typed transcription, 2026-08-25)
 
 PURPOSE:
   Deep-dive on scoring: how VP tokens are captured and contested, how the
@@ -119,6 +119,51 @@ One VP for a kill, against a one-point deficit — so a contract is worth roughl
 
 The text says contracts accumulate — you receive one at the end of *any* round where you trail, and fulfilment is per-card. Nothing in the extract caps how many you can hold at once.
 
+### Draw and redraw at the table
+
+1. **Trigger:** end of any round where your VP total is **lower** than your opponent's by **1 or more**.
+2. **Draw** one contract face-down; read it **secretly**.
+3. **Pick the Target** from the column matching your opponent's faction (Protagen Marines, Ulfari, MDR Executive Unit, or Custodia Silens).
+4. **Dead target:** if that unit is already eliminated, **show** the card to your opponent, place it **bottom of the deck**, and **draw again** until you get a live Target or exhaust the deck.
+5. **Fulfil:** when the Target is eliminated by any means, announce, show the card, add the printed VP (always **1** in the beta deck), discard.
+
+You may hold **multiple unfulfilled contracts** if you stay behind several rounds — each qualifying round adds another draw unless the rules at your table cap it (beta text does not state a cap).
+
+### Full contract deck (eight cards)
+
+Each card awards **1 VP**. One card, four named Targets — only the opponent's faction column applies.
+
+| Card ID | Protagen Marines | Ulfari | MDR Executive Unit | Custodia Silens |
+|---------|------------------|--------|--------------------|-----------------|
+| **4186** | Commander Rickman | Soul Eater | Sergeant 139 | Justicar Julius |
+| **9278** | Shellshocker | Phantom | Combat Medic | Cremator |
+| **5039** | Bastion | Reaper | Machine Gunner | Confessor |
+| **6037** | Blade | Shade | Grenadier | Punisher |
+| **3697** | Blast | Stalker | Comms Operator | Tormentor |
+| **4913** | Anvil | Doom | Corporal | Lancer |
+| **3512** | Smasher | Ravener | Marksman | Assassin |
+| **2984** | Hammer | Wraith | Private | Executor |
+
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — via typed transcription (`raw/the_warcode/contract_cards_transcription.txt`)
+
+Lookup copy: [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md).
+
+### Matchup examples (Protagen vs Ulfari)
+
+| You play | Opponent plays | You draw card **6037** — your Target is… |
+|----------|----------------|------------------------------------------|
+| Protagen Marines | Ulfari | **Shade** (Ulfari column) |
+| Ulfari | Protagen Marines | **Blade** (Protagen column) |
+
+| You play | Opponent plays | You draw card **4186** — your Target is… |
+|----------|----------------|------------------------------------------|
+| Protagen Marines | Ulfari | **Soul Eater** |
+| Ulfari | Protagen Marines | **Commander Rickman** |
+
+The p.22 worked example is the same pattern: Player A trails, Player B plays Ulfari → Target **Shade** on card **6037**.
+
+MDR and Dominium (Custodia Silens) columns are on every card for future rosters — see [`../factions/mdr/README.md`](../factions/mdr/README.md) and [`../factions/dominium/README.md`](../factions/dominium/README.md).
+
 ### Playing around contracts
 
 If you are **ahead**, you know your opponent is hunting one of your models and you do not know which. Two habits help: keep no model isolated where a single activation can finish it, and remember that a model at low HP is a walking VP donation — heal it, screen it, or pull it back. Note also that leading by exactly 1 VP is the worst place to be, since it hands over a contract for the smallest possible advantage.
@@ -175,23 +220,24 @@ In the final round, a tie is the worst outcome for both players, which makes con
 - [`Combat_Ranged_and_Melee.md`](Combat_Ranged_and_Melee.md) — how re-rolls apply in a fight
 - [`Activation_and_AP.md`](Activation_and_AP.md) — activation order and who gets the last word
 - [`Rulebook_Quotes.md`](Rulebook_Quotes.md) — verbatim VP, contract and re-roll text
+- [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md) — eight-card lookup table
+- [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) — end-of-round kills that can fulfil contracts
 - [`../setup/Board_Setup.md`](../setup/Board_Setup.md) — VP token placement
 
 ---
 
 ## Open questions
 
-- **Contract card VP values** — the p.22 example shows 1 VP, but the contract card pages (PDF pp.24–25) are art with no text layer and have not been OCR'd. Other cards may be worth more.
-- Whether a player can hold **multiple unfulfilled contracts** at once, and whether they draw one per qualifying round indefinitely.
-- Whether a contract persists to the end of the game or expires when the player catches up on VP.
+- Whether a contract **expires** when the player catches up on VP, or persists until fulfilled.
 - Whether contract VP counts toward the *next* round's contract-trigger comparison immediately.
 - Default **round count** — the scenario references "the final round" and a countdown, but no number appears in the extracted text.
-- Whether all VP tokens are worth the same in the printed scenario, or vary by position.
+- Whether all VP tokens are worth the same in the printed scenario, or vary by position (diagrams show positions; values from token art).
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-08-25): Full eight-card deck table, draw/redraw steps, Protagen vs Ulfari Target examples; contract VP confirmed 1 each (S8).
 - v0.1 (2026-08-23): Initial VP, contracts and re-roll deep-dive from beta v0.8.7-F extract.
 
 ## Attribution

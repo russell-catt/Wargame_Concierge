@@ -3,9 +3,9 @@ title: Warcode Contracts
 type: concept
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
-sources: [warcode_rulebook_v087f, games/the_warcode/rules/Key_Concepts.md, games/the_warcode/rules/Turn_Structure.md, docs/handoffs/warcode_tactical_doctrine/review_manifests/05_factions.md]
+updated: 2026-08-25
+version: 0.5.5
+sources: [warcode_rulebook_v087f, raw/the_warcode/contract_cards_transcription.txt, games/the_warcode/rules/Contracts_and_VP.md, games/the_warcode/rules/Contract_Cards_Reference.md]
 confidence: draft
 tags: [concept, the_warcode, contracts, scoring, victory_points, catch_up]
 ---
@@ -29,7 +29,17 @@ Contracts sit beside map **VP tokens** (control within 1 inch, uncontested at en
 
 ## Why it matters at the table
 
-Contracts are a **catch-up bounty** — trailing players get a directed elimination goal. Killing the enemy **Leader** both shuts off 2 re-roll points per round and may complete a contract if that Leader was named. With only two beta rosters published, half of each contract card's faction-specific targets may be unread (OCR blocked on contract pages).
+Contracts are a **catch-up bounty** — trailing players get a directed elimination goal. The published deck has **eight cards**, each worth **1 VP**, with four faction target columns (Protagen Marines, Ulfari, MDR Executive Unit, Custodia Silens). Beta play uses only the opponent's column for the two published rosters.
+
+---
+
+## Deck shape (transcribed 2026-08-25)
+
+| Cards | VP each | Targets per card |
+|-------|---------|------------------|
+| 8 | 1 VP | One named unit per faction column |
+
+Example: Contract **6037** — if opponent plays Ulfari, target is **Shade** (matches p.22 worked example).
 
 ---
 
@@ -43,13 +53,11 @@ That other game's crit/tac op scoring uses mission cards and TP thresholds in Mu
 
 ## Open questions
 
-- Full contract deck text — beta pp. 23–24 are flattened images, unread.
-- Whether contracts reference MDR/Dominium units not yet published.
-
----
+- Whether unfulfilled contracts stack when trailing multiple rounds (rulebook silent).
+- How MDR/Dominium columns will read once full rosters publish.
 
 ## Related pages
 
-- [[warcode_rulebook_v087f]]
+- [[warcode_rulebook_v087f]] · [[warcode_protocol_cards]]
 - [[warcode_protagen_marines]] · [[warcode_ulfari]]
 - [`games/the_warcode/rules/Key_Concepts.md`](../../games/the_warcode/rules/Key_Concepts.md)

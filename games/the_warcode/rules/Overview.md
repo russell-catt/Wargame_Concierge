@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Overview.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -21,7 +21,7 @@ PURPOSE:
 
 PRIMARY_AUDIENCE:
   - A player learning The Warcode from zero
-  - Cross-game readers coming from Murder Platoon or 40K who need vocabulary first
+  - Cross-game readers coming from Murder Platoon or 39.9 who need vocabulary first
 
 KEY_SECTIONS_EXPECTED:
   - What a game is
@@ -104,7 +104,7 @@ Every unit has core stats — **Health (HP)**, **Agility (A)**, **Armor**, and *
 | **Measuring** | Inch ruler — movement, range, VP control, blast radii |
 | **Tokens** | Activation, Overwatch, ammunition, VP, equipment, grenade blast |
 | **Scenario** | Objectives, deployment zones, round count, special rules |
-| **Protocol / event cards** | Scenario-dependent; some pages may need OCR — see open questions |
+| **Protocol / event cards** | Scenario-dependent; *Core of the Machine* — 20-card deck with Left/Centre/Right/Total map sections |
 
 Terrain, doors, and cover types are covered in [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md). Pre-game sequence lives in [`../setup/Board_Setup.md`](../setup/Board_Setup.md).
 
@@ -123,6 +123,8 @@ If you know **Murder Platoon** (That other game's skirmish mode): think smaller 
 
 ## Related pages
 
+- [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md) — eight-card contract deck
+- [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) — protocol map sections and effects
 - [`Turn_Structure.md`](Turn_Structure.md) — round phases and activation checklist
 - [`Key_Concepts.md`](Key_Concepts.md) — shooting, melee, cover, equipment, contracts
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) — terms at a glance
@@ -135,12 +137,13 @@ If you know **Murder Platoon** (That other game's skirmish mode): think smaller 
 ## Open questions
 
 - **Round count:** The extract references a "final round" but does not state a default number of rounds for all scenarios. Confirm per scenario card or a rules page outside the current extract.
-- **Protocol Cards:** Referenced for scenario events; OCR content not yet in the teaching corpus.
+- **Protocol scope:** Each card's **map graphic** shows which wing(s) are hot — lit Left/Centre/Right or all three on Total; **deployment zones (top/bottom) are never affected**. Rules prose does not state this; see [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-08-25): Cross-links to card reference pages; protocol corpus note (S8).
 - v0.1 (2026-08-23): Initial teaching overview from beta v0.8.7-F extract (warcode_tactical_doctrine).
 
 ## Attribution

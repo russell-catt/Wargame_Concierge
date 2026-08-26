@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/Quick_Reference_Play_Guide.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -28,7 +28,7 @@ UPDATE_TRIGGER:
 ## Setup (in order)
 
 1. Scenario + victory conditions  
-2. D6 → VP placement  
+2. D6 → VP **positions** (1–6 layouts; values on token art)  
 3. D6 → deploy first + R1 initiative  
 4. Alternate deploy 1 unit  
 5. **4 equipment points** → grenades / medkits (unless unit locked)  
@@ -40,8 +40,10 @@ UPDATE_TRIGGER:
 
 ```
 INITIATIVE (D6) → TACTICAL (alternate activations) → END OF ROUND
-  → unit end effects → scenario/Core card → VP score → Contracts if behind → next round
+  → unit end effects → protocol (Map section: L/C/R/Total) → VP score → Contracts if behind → next round
 ```
+
+**Round start:** draw protocol — read **Left / Centre / Right / Total** before moving.
 
 **Final round** → winner per scenario. *Core of the Machine:* **tie VP = both lose**.
 
@@ -112,10 +114,11 @@ Flip token → unit spent for this round.
 
 ## VP & Contracts
 
+- **D6 VP setup:** one D6 → 1 of 6 token **layouts** on 33" × 24" board; read **values** from token art  
 - Control: friendly within **1"** of VP token, **no enemy** in 1" at end of round  
 - **Contested** if both sides present  
-- **Contract** if behind **≥1 VP:** secret card → eliminate named enemy unit → bonus VP  
-- Example target: **Shade** (Ulfari) — p.22  
+- **Contract** if behind **≥1 VP:** draw from **8-card** deck → Target = name in **opponent's faction column** → **1 VP** on kill (any cause)  
+- Example: vs Ulfari, card **6037** → hunt **Shade** — see [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md)  
 
 ---
 
@@ -210,12 +213,15 @@ Full profiles: [`factions/protagen_marines/Squad_Datasheet.md`](factions/protage
 
 - Walkthrough: [`First_Game_Walkthrough.md`](First_Game_Walkthrough.md)  
 - Glossary: [`rules/Keyword_Glossary.md`](rules/Keyword_Glossary.md)  
-- Quotes: [`rules/Rulebook_Quotes.md`](rules/Rulebook_Quotes.md) *(when populated)*  
+- Contracts: [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md)  
+- Protocols: [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md)  
+- Quotes: [`rules/Rulebook_Quotes.md`](rules/Rulebook_Quotes.md)  
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-08-25): D6 VP placement line; protocol Map section; eight-card contract reference (S8).
 - v0.1 (2026-08-23): Dense two-page-target QR (warcode_tactical_doctrine).
 
 ## Attribution

@@ -1,29 +1,30 @@
 # L2 — Lint note (warcode_tactical_doctrine)
 
 - **Status:** Resolved - Complete
-- **Date:** 2026-08-23
-- **Model:** Coordinator light + gemini-style defect pass
+- **Date:** 2026-08-25
+- **Model:** Coordinator — card/map enhancement pass
 
 ## Findings
 
 | Check | Result |
 |-------|--------|
-| `Kill Team` / `KT24` / `kill_team` under `games/the_warcode/` | **PASS** (zero matches after Comparative_Glossary fix) |
-| §0 / §15 "unofficial and unauthorized" in Agentic review | **PASS** (present) |
-| Beta PDF under `raw/the_warcode/` | Present; gitignore negation restored |
-| Rulebook_Quotes + OCR Protocol Cards | Present |
-| GATE lock file | Present (provisional user execution auth) |
-| Comparative_Glossary.md | Present |
-| Manifests R0–15 stubs | Present |
+| `Kill Team` / `KT24` / `kill_team` under `games/the_warcode/` | **PASS** |
+| `Warhammer` / `40,000` / `40K` / `40k` under `games/the_warcode/` | **PASS** (v0.5.5) |
+| **S1b** contract/protocol transcription | **PASS** — xlsx sidecars + Rulebook_Quotes pp.24–25 closed |
+| **S8** full keyword pass | **PASS** — Keyword_Glossary v0.2 + Comparative_Glossary extended |
+| D6 VP placement table | **PASS** — Board_Setup.md |
+| GATE lock | **Final** (2026-08-25) |
+| VIP review gitignore | **PASS** — `.gitignore` + `git rm --cached` on feature-Warcode |
+| Duplicate PDF at `raw/` root | **Removed** — canonical `raw/the_warcode/` only |
 
 ## Open / deferred
 
-- TTS workshop URL still TBD (user Steam)
-- Contract card pages 24–25 may need further OCR
-- Duplicate PDF at `raw/The Warcode Rulebook...` — prefer only `raw/the_warcode/` copy in commits
-- `_ocr_preview/*.png` gitignored — do not commit
+- TTS **parked indefinitely** (owner schedule)
+- L1 KB unit pages — priority backlog separate track
+- Merge `feature-Warcode` → `main` — **hold until user asks**
+- First Game Walkthrough — owner has not table-tested yet
 
-## Fixes applied
+## Fixes applied (2026-08-25)
 
-- Removed forbidden "kill team" phrase from Comparative_Glossary bridge line
-- Re-applied `.gitignore` Warcode PDF negation (had been missing from working tree)
+- Card/map enhancement pass: Contract + Protocol reference pages, map PNG ingest, §12 factual updates (review local only)
+- Removed duplicate PDF outside `raw/the_warcode/`

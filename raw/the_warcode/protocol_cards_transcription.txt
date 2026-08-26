@@ -1,0 +1,88 @@
+# Protocol Cards transcription — The Warcode Rulebook V.0.8.7-F
+
+**Source:** raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx — Protocols sheet
+**Method:** via typed transcription (owner spreadsheet)
+**Confidence:** draft
+**Date:** 2026-08-25
+
+**Note:** Cross-check against protocol_cards.ocr.txt — Total Hunt rows in xlsx carry incorrect Magnet flavour (transcription error).
+
+## Protocol "Magnet" — Left
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: All units that start their movement in this room suffer a -3 inch penalty to their movement profile
+
+## Protocol "Total Magnet" — Left, Centre, Right
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: All units that start their movement in this room suffer a -3 inch penalty to their movement profile
+
+## Protocol "Magnet" — Centre
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: All units that start their movement in this room suffer a -3 inch penalty to their movement profile
+
+## Protocol "Magnet" — Right
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: All units that start their movement in this room suffer a -3 inch penalty to their movement profile
+
+## Protocol "Hunt" — Left
+Flavour: Turrets Activate throughout the room. Target acquisition begins.
+Rule: At the end of the round, all units in the room take 3 damage.
+
+## Protocol "Total Hunt" — Left, Centre, Right
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: At the end of the round, all units in the room take 3 damage.
+
+## Protocol "Hunt" — Centre
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: At the end of the round, all units in the room take 3 damage.
+
+## Protocol "Hunt" — Right
+Flavour: The floor in the room became heavily magnetized. Movement becomes difficult.
+Rule: At the end of the round, all units in the room take 3 damage.
+
+## Protocol "Electricity" — Left
+Flavour: Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks.
+Rule: At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage.
+
+## Protocol "Total Electricity" — Left, Centre, Right
+Flavour: Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks.
+Rule: At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage.
+
+## Protocol "Electricity" — Centre
+Flavour: Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks.
+Rule: At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage.
+
+## Protocol "Electricity" — Right
+Flavour: Electrical Pulses start coursing through the room. It takes great effort to dodge electrical shocks.
+Rule: At the end of the round, roll one D6 for each unit in the room. If the result is 3 or less, the unit takes 3 damage.
+
+## Protocol "Silence" — Left
+Flavour: The room fills with unknown energy. All ranges weapons completely fail.
+Rule: All units in the room cannot use ranged weapons.
+
+## Protocol "Total Silence" — Left, Centre, Right
+Flavour: The room fills with unknown energy. All ranges weapons completely fail.
+Rule: All units in the room cannot use ranged weapons.
+
+## Protocol "Silence" — Centre
+Flavour: The room fills with unknown energy. All ranges weapons completely fail.
+Rule: All units in the room cannot use ranged weapons.
+
+## Protocol "Silence" — Right
+Flavour: The room fills with unknown energy. All ranges weapons completely fail.
+Rule: All units in the room cannot use ranged weapons.
+
+## Protocol "Poison" — Left
+Flavour: Caustic gas begins to seep throughout the room
+Rule: At the end of the round, all units take 2 damage.
+
+## Protocol "Total Poison" — Left, Centre, Right
+Flavour: Caustic gas begins to seep throughout the room
+Rule: At the end of the round, all units take 2 damage.
+
+## Protocol "Poison" — Centre
+Flavour: Caustic gas begins to seep throughout the room
+Rule: At the end of the round, all units take 2 damage.
+
+## Protocol "Poison" — Right
+Flavour: Caustic gas begins to seep throughout the room
+Rule: At the end of the round, all units take 2 damage.

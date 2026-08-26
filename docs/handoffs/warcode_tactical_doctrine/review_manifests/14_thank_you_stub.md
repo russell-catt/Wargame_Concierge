@@ -22,7 +22,7 @@
 
 ## Naming safety
 
-- Real people and RedMakers may be named — the naming ban covers **That other game** only.
+- Real people and RedMakers may be named — the naming ban covers **GW comparator proper nouns** only (Kill Team; Warhammer; 40,000 / 40K variants → That other game / Rawmallet / 39.876 / 39.9).
 - Surnames are unknown; use first names exactly as published. Do not invent, infer, or search-and-guess. See `02_who_is_developing.md`.
 
 ## Content to include if the owner wants it

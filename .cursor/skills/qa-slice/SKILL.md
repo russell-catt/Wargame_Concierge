@@ -30,6 +30,14 @@ Tier-2 QA for Wargame_Concierge implementer slices. Playbook: [`docs/operations/
 
 Template: [`templates/Footer_Template_Gw_Print.md`](../../templates/Footer_Template_Gw_Print.md).
 
+## Warcode GW proper-noun ban (when slice touches `games/the_warcode/`)
+
+- [ ] Zero matches under `games/the_warcode/**` for: `Kill Team`, `Warhammer` (any casing), `Warhammer 40,000`, `Warhammer 40K`, `40,000`, `40K`, `40k`.
+- [ ] Obfuscation in place where a comparator is needed: **That other game** / **Murder Platoon** (Kill Team); **Rawmallet** (Warhammer); **39.876** (40,000); **39.9** (40K / 40k).
+- [ ] Handoff manifests may name GW products for agent context only — strip before promotion to shipping.
+
+Rule: [`AGENTS.md`](../../AGENTS.md) Sec 10; [`.cursor/rules/warcode-quotes.mdc`](../../.cursor/rules/warcode-quotes.mdc).
+
 ## Enhancement-slice regression bar
 
 When the slice **enhances** existing shipping docs (Commentary inserts, densification, army-guide revamp, print HTML refresh):

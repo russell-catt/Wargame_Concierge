@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/rules/Scenarios_and_Events.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -13,6 +13,9 @@ SOURCES:
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
   - raw/the_warcode/protocol_cards.ocr.txt (via OCR)
+  - raw/the_warcode/protocol_cards_transcription.txt (via typed transcription, 2026-08-25)
+  - raw/the_warcode/images/Core_Machine_placement.png (map topology, 2026-08-25)
+  - raw/the_warcode/images/Core_Machine_obj_placement.png (D6 VP layouts, 2026-08-25)
 
 PURPOSE:
   Deep-dive on the scenario layer: «Core of the Machine», random VP placement,
@@ -79,6 +82,23 @@ The map is three rooms connected by doors, on a **33" × 24"** board:
 
 Three rooms is the number that matters, because the Protocol deck targets rooms. Every model on the board is always inside a protocol's potential blast area, and doors decide how fast you can leave one.
 
+### Core of the Machine — map topology
+
+Terrain reference: [`raw/the_warcode/images/Core_Machine_placement.png`](../../../raw/the_warcode/images/Core_Machine_placement.png). VP coordinates: [`../setup/Board_Setup.md`](../setup/Board_Setup.md#d6-coordinate-tables-core-of-the-machine).
+
+| Feature | Detail |
+|---------|--------|
+| **Board** | **33" × 24"** playing surface |
+| **Deployment area A** | Top band — one player's deployment zone |
+| **Deployment area B** | Bottom band — opposite deployment zone |
+| **Left wing** | Open rectangular room left of the hex; partial-cover **L** barriers and a dashed objective circle |
+| **Centre (hex)** | Central hexagonal room — the machine **core** (solid circle at hex centre); partial cover links core to the hex's right wall |
+| **Right wing** | Open rectangular room right of the hex; **T-shaped** partial cover with a small circle at the junction |
+| **Doors** | **10** doorways total — **six** on the hex perimeter (one per hex face) and **four** on the diagonal full-cover walls that separate deployment zones from the side wings |
+| **Cover legend** | **Partial cover** = dashed double line; **full cover (wall)** = solid thick line; **door** = quarter-circle swing arc |
+
+Protocol Cards name their target room on the card face — a **map diagram** with **Left**, **Centre**, or **Right** **lit** (or **all three** on **Total** cards). **Deployment bands** (top and bottom) are **never** lit and are **not** protocol-affected. There is no separate room roll — see [Protocol room targeting](#protocol-room-targeting) below.
+
 ### Victory conditions
 
 > Victory Conditions:
@@ -108,7 +128,14 @@ One D6 before the game selects one of six printed layouts, each showing both dep
 
 Rolling placement before deployment means both players see the objective spread and then place models alternately against it. There is no ambush value in objective placement and no way to skew the map toward your squad — the randomness is symmetrical, and the skill is in reacting to it during deployment.
 
-The extract preserves the dimension callouts from the diagrams (**33''**, **24''**, **16,5''**, **14''**, **11,5''**, **8''**, **7,5''**, **7''**, **6''**, **3,5''**, **3''**, **2,5''**) but not their positions, so the six layouts cannot be reconstructed from text. Measure off the printed page.
+**Full D6 tables with inch coordinates** for *Core of the Machine* are in [`../setup/Board_Setup.md`](../setup/Board_Setup.md#vp-token-placement). Source diagram: [`raw/the_warcode/images/Core_Machine_obj_placement.png`](../../../raw/the_warcode/images/Core_Machine_obj_placement.png).
+
+| D6 | Tokens | Summary |
+|----|--------|---------|
+| 1–3 | 3 | Left **3"**, hex centre (**14"** from left-wing wall), right **3"** — identical rolls |
+| 4 | 4 | Wings as above + hex vertical pair (**8"** from each deployment boundary) |
+| 5 | 5 | Wing corner pairs (**2.5"** / **7.5"**) + hex centre token |
+| 6 | 6 | Roll-5 wing pairs + hex pair (**6"** offsets) + right-wing pair from **board edge** |
 
 ---
 
@@ -122,7 +149,34 @@ One card per round, drawn at the **start** of the round — before initiative, b
 
 Most effects then resolve at the **end** of the round, in the scenario-effects slot before VP calculation. The full round shape on this map is therefore: **draw protocol → initiative → activate everything → protocol resolves → score**.
 
-The deck comes in matched pairs — a **room** version affecting one room, and a **Total** version affecting all three. Four effect families:
+### Protocol room targeting
+
+Each printed card shows a **mini map** of the *Core of the Machine* layout:
+
+| Zone on card | Meaning |
+|--------------|---------|
+| **Top / bottom bands** | **Deployment areas A and B** — never highlighted; protocols **do not** affect these zones |
+| **Left wing lit** | Left rectangular room only |
+| **Centre (hex) lit** | Central hexagonal room only |
+| **Right wing lit** | Right rectangular room only |
+| **All three wings lit** | **Total** protocol — left, centre, and right rooms together |
+
+The **Map section** column in [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) matches the highlighted zone(s). **No second roll** picks the room — read the graphic on the card you drew.
+
+| Question | Answer in v0.8.7-F |
+|----------|-------------------|
+| **Which room is hit?** | **Whichever zone(s) are lit** on the card — Left, Centre, Right, or all three (Total). |
+| **Are deployment zones affected?** | **No** — top/bottom deployment bands are outside protocol scope. |
+| **How is a card chosen?** | Scenario text: draw one random activation card each round. **Silent** on deck shuffle, exhaustion, and replacement. |
+| **Where are room boundaries?** | Left wing, central hex, and right wing on the scenario map — see [map topology](#core-of-the-machine--map-topology). Models in doorways need a table agreement until FAQ. |
+
+The rulebook extract does **not** spell out the **highlighted-map** convention in prose — the cards carry it visually. Agree at setup how doorways and deployment-edge models count as "in the room."
+
+The beta deck has **five** effect families × **four** scopes = **20** cards — full table in [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
+
+The rulebook extract does **not** define how to randomise among the twenty cards (full shuffle vs subset vs with replacement). Agree at setup and log it as a beta teaching gap.
+
+The deck comes in matched scopes — a **room** version affecting one wing, and a **Total** version affecting all three protocol rooms (all lit on the card map). Five effect families:
 
 | Protocol | Scope | Effect | Timing |
 |----------|-------|--------|--------|
@@ -224,12 +278,14 @@ Because the card is drawn at the **start** of the round, every protocol is a pla
 | Gap | Status |
 |-----|--------|
 | Protocol Card **page-to-card mapping** | Approximate. Cards are art across PDF pp.28–32; the OCR pass captured text but not per-page assignment. |
-| Whether the deck holds **more than five** protocol families | Unknown. Five room + five Total = ten cards identified; the deck may be larger. |
+| Whether the deck holds **more than five** protocol families | **Resolved for beta** — five families × four map scopes = 20 cards per owner transcription. |
 | Whether a protocol persists past the round it was drawn | Not stated. Magnet and Silence read as continuous *within* the round. |
-| Which room a card targets | The card names or shows the room; the OCR did not capture room identifiers. |
-| **Contract cards** (PDF pp.24–25) | Not OCR'd at all. See [`Contracts_and_VP.md`](Contracts_and_VP.md). |
+| Which room a card targets | **Resolved** — printed on card (Left / Centre / Right / Total). Full table: [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md). |
+| **How** the random draw works (shuffle, exhaust, replacement) | **Silent** in extract — table agreement required. |
+| **Contract cards** (PDF pp.24–25) | Typed transcription shipped — see [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md). |
 | **Round count** | The scenario references a countdown and "the final round" but no number appears in the extracted text. |
 | Other scenarios | Only «Core of the Machine» is printed in v0.8.7-F. |
+| **D6 VP layout coordinates** | **Resolved** — see [`../setup/Board_Setup.md`](../setup/Board_Setup.md#d6-coordinate-tables-core-of-the-machine). |
 
 ---
 
@@ -240,7 +296,8 @@ Because the card is drawn at the **start** of the round, every protocol is a pla
 - [`Combat_Ranged_and_Melee.md`](Combat_Ranged_and_Melee.md) — what Silence takes away
 - [`Equipment_Loot_and_Doors.md`](Equipment_Loot_and_Doors.md) — door control under Magnet
 - [`Rulebook_Quotes.md`](Rulebook_Quotes.md) — verbatim scenario text and the full Protocol Card OCR
-- [`../setup/Board_Setup.md`](../setup/Board_Setup.md) — 33" × 24" board and deployment areas
+- [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) — 20-card Left / Centre / Right / Total table (when present)
+- [`../setup/Board_Setup.md`](../setup/Board_Setup.md) — 33" × 24" board, D6 VP coordinates, deployment areas
 
 ---
 
@@ -257,6 +314,8 @@ Because the card is drawn at the **start** of the round, every protocol is a pla
 
 ## Change Log
 
+- v0.3 (2026-08-25): Protocol scope — card map highlights Left/Centre/Right or Total; deployment zones excluded; Hunt FULL HEALTH confirmed (xlsx error).
+- v0.2 (2026-08-25): *Core of the Machine* map topology from `Core_Machine_placement.png`; protocol room targeting (Left/Centre/Right/Total on card; draw procedure silent); D6 VP gap closed — coordinates live in Board_Setup.
 - v0.1 (2026-08-23): Initial scenario and Protocol Card deep-dive from beta v0.8.7-F extract plus OCR sidecar. Flagged the Total-card rule-text scope bug.
 
 ## Attribution

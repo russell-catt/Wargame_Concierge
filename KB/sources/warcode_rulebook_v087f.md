@@ -3,9 +3,9 @@ title: The Warcode Rulebook V.0.8.7-F
 type: source
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
-sources: [raw/pointers/warcode_rulebook_v087f.md, raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf, raw/the_warcode/rulebook_v087f_extract.txt, games/the_warcode/rules/Overview.md, games/the_warcode/rules/Key_Concepts.md]
+updated: 2026-08-25
+version: 0.5.5
+sources: [raw/pointers/warcode_rulebook_v087f.md, raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf, raw/the_warcode/rulebook_v087f_extract.txt, raw/the_warcode/contract_cards_transcription.txt, raw/the_warcode/protocol_cards_transcription.txt, raw/the_warcode/protocol_cards.ocr.txt, raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx, raw/the_warcode/images/Core_Machine_placement.png, raw/the_warcode/images/Core_Machine_obj_placement.png, games/the_warcode/rules/Overview.md]
 confidence: draft
 tags: [source, the_warcode, core_rules, beta, redmakers, quoting_policy]
 ---
@@ -23,6 +23,11 @@ Free public beta from RedMakers — primary rules truth for **The Warcode** unti
 | PDF | [`raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf`](../../raw/the_warcode/The%20Warcode%20Rulebook%20V.0.8.7-F.pdf) |
 | Pointer | [`raw/pointers/warcode_rulebook_v087f.md`](../../raw/pointers/warcode_rulebook_v087f.md) |
 | Extract | [`raw/the_warcode/rulebook_v087f_extract.txt`](../../raw/the_warcode/rulebook_v087f_extract.txt) |
+| Contract transcription | [`raw/the_warcode/contract_cards_transcription.txt`](../../raw/the_warcode/contract_cards_transcription.txt) |
+| Protocol transcription | [`raw/the_warcode/protocol_cards_transcription.txt`](../../raw/the_warcode/protocol_cards_transcription.txt) |
+| Protocol OCR | [`raw/the_warcode/protocol_cards.ocr.txt`](../../raw/the_warcode/protocol_cards.ocr.txt) |
+| Owner spreadsheet | [`raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx`](../../raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx) |
+| Core map / VP D6 images | [`raw/the_warcode/images/`](../../raw/the_warcode/images/) |
 
 ~37 pages. Protocol Cards and some layout pages may be flattened images — OCR before declaring gaps.
 
@@ -37,7 +42,24 @@ Free public beta from RedMakers — primary rules truth for **The Warcode** unti
 | `games/the_warcode/rules/`, `setup/`, `factions/` | **Yes** — beta PDF in `raw/the_warcode/`; cite filename + page |
 | `KB/` | **No** — teaching paraphrase, pointers, index only |
 
-See [`.cursor/rules/warcode-quotes.mdc`](../../.cursor/rules/warcode-quotes.mdc). **Never** name That other game's publisher product in `games/the_warcode/**` paths — use **That other game** or **Murder Platoon**.
+See [`.cursor/rules/warcode-quotes.mdc`](../../.cursor/rules/warcode-quotes.mdc).
+
+---
+
+## GW proper noun obfuscation (Warcode shipping)
+
+**All Games Workshop proper nouns are banned in `games/the_warcode/**` shipping** — not only That other game's product title. This extends the existing Kill Team naming ban to every GW trademark and product name that could appear in comparative text, examples, or bridge copy.
+
+| Banned (GW) | Use in `games/the_warcode/**` |
+|-------------|-------------------------------|
+| Warhammer | **Rawmallet** |
+| 40,000 | **39.876** |
+| 40K / 40k | **39.9** |
+| Kill Team (and variants) | **That other game** / **Murder Platoon** |
+
+**KB contract:** `KB/**` Warcode pages stay paraphrase and **may** document this policy and name the real systems for librarian context. When writing **collision flags** or **comparative bridges** meant to align with Warcode shipping examples, use **Rawmallet**, **39.9**, **39.876**, and **That other game** — never instruct shipping to paste GW product names. Cross-links to `games/kill_team_2024/` or `games/warhammer_40k_11e/` paths are fine as internal pointers; the obfuscated forms are for prose that would ship under `games/the_warcode/`.
+
+Recorded **2026-08-24** (safety fix — `warcode_tactical_doctrine` naming policy).
 
 ---
 
@@ -54,7 +76,7 @@ Teaching paraphrase from the extract, shipped under `games/the_warcode/rules/`:
 
 **Playable rosters in beta:** Protagen Marines and Ulfari (eight units each). MDR and Dominium are marketing-only in sources read.
 
-**Blocked / OCR pending:** Contract card deck (pp. 23–24), Protocol Cards (pp. 28–32).
+**Transcribed 2026-08-25:** Full **8-card contract deck** (1 VP each; four faction target columns including MDR Executive Unit and Custodia Silens). **Protocol Cards** with Left/Centre/Right/Total map sections — see [`games/the_warcode/rules/Contract_Cards_Reference.md`](../../games/the_warcode/rules/Contract_Cards_Reference.md) and [`Protocol_Cards_Reference.md`](../../games/the_warcode/rules/Protocol_Cards_Reference.md). D6 VP placement diagrams captured from owner map PNGs in [`games/the_warcode/setup/Board_Setup.md`](../../games/the_warcode/setup/Board_Setup.md).
 
 ---
 

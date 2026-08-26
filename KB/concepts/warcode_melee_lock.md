@@ -3,8 +3,8 @@ title: Warcode Melee Lock
 type: concept
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
+updated: 2026-08-24
+version: 0.5.4
 sources: [warcode_rulebook_v087f, games/the_warcode/rules/Key_Concepts.md, docs/handoffs/warcode_tactical_doctrine/review_manifests/05_factions.md]
 confidence: draft
 tags: [concept, the_warcode, melee_lock, melee, disengage, escape, core_rules]
@@ -42,7 +42,7 @@ Players often confuse "in melee range" with "locked." You can be in the 1 inch b
 
 That other game uses **1" control range** for Fight legality and marker contests in Murder Platoon — visibility-gated, APL-based. Warcode **Melee Lock** is **base contact** with disengage dice vs **Melee Strength**.
 
-**Collision flag:** Warcode **Melee Lock** ≠ That other game **1" control range** or 40K **Engagement Range** (2"/5", phase-based). See [[control_range_kill_team]] and 40K Engagement Range in [[glossary]].
+**Collision flag:** Warcode **Melee Lock** ≠ That other game **1" control range** or 39.9 **Engagement Range** (2"/5", phase-based). See [[control_range_kill_team]] and 39.9 Engagement Range in [[glossary]].
 
 ---
 

@@ -42,6 +42,11 @@ Scratchpad/
 !raw/the_warcode/*.PDF
 !raw/the_warcode/**/*.pdf
 !raw/the_warcode/**/*.PDF
+!raw/the_warcode/**/*.xlsx
+!raw/the_warcode/**/*.png
+
+# VIP agentic review — local + PDF email only; not on GitHub (owner 2026-08-25)
+games/the_warcode/reviews/Agentic_Rules_and_Marketing_Review.md
 
 # Allow markdown and Obsidian vault config
 !**/*.md

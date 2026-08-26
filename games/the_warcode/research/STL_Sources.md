@@ -45,7 +45,7 @@ There is **no** authorised third-party STL mirror in this repo. Do **not** commi
 
 Use owned collections per [`../guides/Proxy_Play_at_Home.md`](../guides/Proxy_Play_at_Home.md):
 
-- Warhammer 40,000 infantry at skirmish scale
+- Rawmallet 39.876 infantry at skirmish scale
 - Murder Platoon operatives where roles match
 - Terrain from Volkus / sector boards scaled to **33" × 24"**
 

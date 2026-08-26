@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/First_Game_Walkthrough.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-08-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -52,7 +52,7 @@ Proxy tips: [`guides/Proxy_Play_at_Home.md`](guides/Proxy_Play_at_Home.md).
 
 Abandoned **space drifter**. Both squads reach the **machine core**; damaged security cannot tell friend from foe. **Countdown** running — reprogram the core to mark your team friendly and the enemy hostile (turrets). **Win** by wiping the enemy **or** having **more VP** to sway the core. **Tie VP** → both teams flagged hostile and destroyed.
 
-Each round: draw a **Core of the Machine** activation card (negative effects in rooms).
+Each round: draw a **Core of the Machine** protocol card at **round start** — the card shows a **mini map**: whichever wing(s) are **lit** (**Left**, **Centre**, **Right**, or **all three** on **Total**) suffer the effect. **Deployment bands** (top/bottom) are never lit and are not affected. Full deck: [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md).
 
 ---
 
@@ -61,7 +61,7 @@ Each round: draw a **Core of the Machine** activation card (negative effects in 
 | Step | Action | Who |
 |------|--------|-----|
 | 1 | Read scenario victory conditions aloud | Both |
-| 2 | Roll D6 — VP token placement table | Both |
+| 2 | Roll D6 — VP token **positions** (see table below); place tokens using printed **values** on art | Both |
 | 3 | Roll D6 — deploy first + round 1 initiative | Both |
 | 4 | Alternate placing **one unit** until 16 models on board | Loser deploys first |
 | 5 | Spend **4 equipment points** each (grenades / medkits) | Both — **Blast** and **Phantom** skip (locked grenades) |
@@ -69,6 +69,19 @@ Each round: draw a **Core of the Machine** activation card (negative effects in 
 | 7 | Note **Reaper** has no gun — no Overwatch | Ulfari player |
 
 Full checklist: [`setup/Board_Setup.md`](setup/Board_Setup.md).
+
+### D6 VP placement (positions only)
+
+Roll **one D6** before deployment. Token **values** (1 vs 2 VP) still come from printed token art — the table fixes **where** tokens sit on the 33" × 24" *Core of the Machine* map:
+
+| D6 | Token count (typical) | Layout summary |
+|----|----------------------|----------------|
+| **1–3** | 3 per side | Left wing 3" in / centre-left on hex / right wing 3" in (layouts 1–3 match on owner map PNGs) |
+| **4** | 4 | Left 3", vertical pair at horizontal centre (8" from top/bottom deployment lines), right 3" |
+| **5** | 5 | Four corners 2.5" × 7.5" from edges + centre-left on hex |
+| **6** | 6 | Corner pairs + mid-right pair (asymmetric vertical spacing) |
+
+Measure from the rulebook diagram or owner map PNGs if positions must be exact.
 
 ---
 
@@ -101,9 +114,9 @@ Flip activation token when done — unit cannot act again this round.
 ### End of round
 
 1. Resolve end-of-round unit abilities.
-2. Resolve scenario / Core card effects.
+2. Resolve scenario / protocol card effects (check **Map section** — Left, Centre, Right, or Total).
 3. **Score VP** — unit within **1"** of token, no enemy in radius; contested if both present.
-4. If trailing by **1+ VP**, draw a **Contract** (homemade card naming one enemy unit — e.g. **Shade**).
+4. If trailing by **1+ VP**, draw a **Contract** from the eight-card deck — pick the Target in your opponent's faction column (e.g. vs Ulfari → **Shade** on card **6037**). See [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md).
 5. Start next round unless **final round** → determine winner.
 
 Detail: [`rules/Turn_Structure.md`](rules/Turn_Structure.md).
@@ -161,6 +174,7 @@ Walk through the rulebook **Shooting Example** (p.20) or **Melee Example** (p.21
 
 ## Change Log
 
+- v0.2 (2026-08-25): D6 VP placement summary; protocol Map section note; official contract deck reference (S8).
 - v0.1 (2026-08-23): Protagen vs Ulfari first-session script (warcode_tactical_doctrine).
 
 ## Attribution

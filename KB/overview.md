@@ -67,9 +67,10 @@ The edition is **new**, which shapes how this KB is written:
 
 **Added 2026-08-23, track `warcode_tactical_doctrine`, Librarian ingest.** RedMakers skirmish game — free public beta **V.0.8.7-F**. Everything under this heading carries `system: the_warcode`.
 
-**The Warcode is not 40K and not That other game:**
+**The Warcode is not 39.9 (Rawmallet) and not That other game:**
 
-- **Rules stay split.** Collision flags in [[glossary]] use **That other game** for Warcode↔Murder Platoon comparisons — never paste That other game's product name into `games/the_warcode/` paths.
+- **Rules stay split.** Collision flags in [[glossary]] use **That other game** for Warcode↔Murder Platoon comparisons and **39.9 / Rawmallet** for Rawmallet comparisons — never paste GW product names into `games/the_warcode/` paths.
+- **GW obfuscation policy:** All GW proper nouns banned in Warcode shipping — Warhammer→Rawmallet, 40K→39.9, 40,000→39.876, Kill Team→That other game. Documented on [[warcode_rulebook_v087f]].
 - **Quote exception** is scoped to `games/the_warcode/rules/`, `setup/`, and `factions/` from the committed beta PDF in `raw/the_warcode/`. **KB stays paraphrase.**
 - **Beta truth:** V.0.8.7-F baseline; newer free beta supersedes; omission is not a patch.
 

@@ -9,6 +9,18 @@
 - **OCR note:** Protocol Cards and some layout pages may be flattened images — OCR before declaring gaps
 - **Git:** Tracked under `raw/the_warcode/` (gitignore exemption)
 
+## Sidecars and owner transcriptions (2026-08-25)
+
+| Asset | Path |
+|-------|------|
+| Text extract | [`../the_warcode/rulebook_v087f_extract.txt`](../the_warcode/rulebook_v087f_extract.txt) |
+| Protocol OCR | [`../the_warcode/protocol_cards.ocr.txt`](../the_warcode/protocol_cards.ocr.txt) |
+| Contract transcription | [`../the_warcode/contract_cards_transcription.txt`](../the_warcode/contract_cards_transcription.txt) |
+| Protocol transcription (room variants) | [`../the_warcode/protocol_cards_transcription.txt`](../the_warcode/protocol_cards_transcription.txt) |
+| Master spreadsheet | [`../the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx`](../the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx) |
+| Core map | [`../the_warcode/images/Core_Machine_placement.png`](../the_warcode/images/Core_Machine_placement.png) |
+| VP placement D6 | [`../the_warcode/images/Core_Machine_obj_placement.png`](../the_warcode/images/Core_Machine_obj_placement.png) |
+
 ## Living web (secondary)
 
 | URL | Use |

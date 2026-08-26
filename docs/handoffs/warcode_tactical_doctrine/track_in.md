@@ -8,6 +8,7 @@
 - **Plan:** Cursor plan `warcode_tactical_doctrine_0b3c475b` (do not edit plan file)
 - **Archive:** [`reference/Warcode_Tactical_Doctrine_Plan.md`](../../../reference/Warcode_Tactical_Doctrine_Plan.md)
 - **Handoffs root:** `docs/handoffs/warcode_tactical_doctrine/`
+- **Owner review:** [\	o_review.md\](to_review.md)
 - **Playbook:** `docs/operations/multiagent_coordinator_strategy.md`
 - **Checklist:** `docs/Game_System_Scaffold.md` §§A2–F
 
@@ -33,7 +34,7 @@ Bootstrap **The Warcode** as system #3 (`the_warcode`):
 | PDF in git | `raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf` — allowed binary |
 | VIP / STL | $1 VIP only; no beta STLs; proxies until Gamefound Field Commander |
 | TTS | Workshop subscribed in Steam; TTS **not owned** yet |
-| Cross-game naming (shipping) | **Never** name Kill Team in `games/the_warcode/**`. Use **That other game** / **Murder Platoon** |
+| Cross-game naming (shipping) | **Never** in `games/the_warcode/**` (any casing): Kill Team; Warhammer; Warhammer 40,000 / Warhammer 40K; 40,000; 40K; 40k. Use **That other game** / **Murder Platoon** / **Rawmallet** / **39.876** / **39.9** (AGENTS Sec 10 v0.5.5) |
 | §0 / §15 review voice | Must include words **unofficial and unauthorized** |
 | OCR | Protocol Cards and image-flattened pages — OCR required |
 | Branch | `feature-Warcode` → PR squash merge to `main` |

@@ -23,6 +23,8 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | Closed — merged PR #16 |
 | WD527 research (40K ref card, Mission 38, wound laminate) | [`wd527_research/`](wd527_research/) | Closed - Complete (commit pending) |
 
+**Review queue:** Post-ship owner pass — [warcode_tactical_doctrine/to_review.md](warcode_tactical_doctrine/to_review.md).
+
 ## Artifact lifecycle (summary)
 
 1. `track_in.md` — Coordinator constraints / rollup / model matrix

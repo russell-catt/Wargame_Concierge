@@ -16,7 +16,7 @@ SOURCES:
   - https://pre-launch.thewarcode.com/ (retrieval 2026-08-23)
 
 PURPOSE:
-  Help a Murder Platoon / 40K skirmish player understand what changes at the
+  Help a Murder Platoon / 39.9 skirmish player understand what changes at the
   table when they pick up The Warcode. Never names That other game's real title.
 
 UPDATE_TRIGGER:
@@ -27,7 +27,7 @@ UPDATE_TRIGGER:
 
 **`confidence: draft`** — teaching comparison for personal learning. **Not endorsed by RedMakers or Gamefound.**
 
-If you already play **Murder Platoon** (That other game's squad skirmish mode) or small-scale **Warhammer 40,000**, this page maps the same mental models onto The Warcode without pretending the two games are interchangeable.
+If you already play **Murder Platoon** (That other game's squad skirmish mode) or small-scale **Rawmallet 39.876**, this page maps the same mental models onto The Warcode without pretending the two games are interchangeable.
 
 ---
 
@@ -89,7 +89,7 @@ Core Warcode control rule (paraphrase): a unit within **1 inch** of a VP token w
 | Pre-game gear | **4 equipment points** → grenades and/or medkits | Universal equipment, faction gear, pre-mission picks |
 | Shooting | **Ammunition counters**; **reload** costs AP | Ammo / action rules vary by weapon and edition |
 | Dice fixes | **Re-roll points**: 2/round while Leader lives; +1 when your unit dies | Ploys, faction abilities, crit op effects |
-| Faction layer | Statlines + a few weapon riders; Protocol Cards (beta OCR pending) | Army rules, ploys, tac ops, team rules |
+| Faction layer | Statlines + a few weapon riders; Protocol Cards (see [`Protocol_Cards_Reference.md`](../rules/Protocol_Cards_Reference.md)) | Army rules, ploys, tac ops, team rules |
 
 Warcode's resource layer is ** thinner by design** — less stratagem deck, more statline and positioning.
 

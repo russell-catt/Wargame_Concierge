@@ -193,6 +193,8 @@ Dropped gear stays where the carrier died; any unequipped unit within 1 inch can
 - [`Turn_Structure.md`](Turn_Structure.md) — when these mechanics fire in the round
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) — one-line term lookup
 - [`Rulebook_Quotes.md`](Rulebook_Quotes.md) — verbatim combat and cover text
+- [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md) — contract Target names by faction
+- [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) — end-of-round protocol effects
 - [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) — cover and doors on the board
 
 ---
@@ -200,12 +202,13 @@ Dropped gear stays where the carrier died; any unequipped unit within 1 inch can
 ## Open questions
 
 - Whether weapon abilities beyond the penetration re-roll appear on all factions — extract shows examples only.
-- Protocol / scenario event card timing vs end-of-round order — OCR pending.
+- Protocol **scope** — each card's **map graphic** lights Left/Centre/Right or all three (Total); **deployment bands are never protocol-affected** (no separate room draw).
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-08-25): Cross-links to card reference pages (S8).
 - v0.1 (2026-08-23): Initial key concepts from beta v0.8.7-F extract.
 
 ## Attribution
