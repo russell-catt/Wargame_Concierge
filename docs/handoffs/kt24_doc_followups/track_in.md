@@ -15,15 +15,9 @@ Owner to-dos parked so they are not lost. **This filing does not implement** pri
 
 ### 1. Print — US Letter landscape (not A4)
 
-Format `games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html` so it prints on **US Letter landscape**.
+**Addressed 2026-08-26** — [`Target_Eligibility_Cheat_Sheet.html`](../../../games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html) uses Letter landscape, full-width flowchart (page 1), reference panel (page 2). Fixed 280px sidebar removed.
 
-**Spot-read 2026-08-18:** CSS is currently A4:
-
-```
-@page { size: A4 landscape; margin: 8mm; }
-```
-
-Owner intent: `@page` (and any matching print CSS) should be **US Letter landscape**, not A4. Do not restyle the tree/layout in this track beyond the page size needed to print.
+~~Format `games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html` so it prints on **US Letter landscape**.~~
 
 ### 2. Freshness dates on Kill Team docs/cards
 

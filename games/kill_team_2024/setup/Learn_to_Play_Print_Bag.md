@@ -25,7 +25,7 @@ HTML sources (editable): [`../print/`](../print/) (Kill Team) and [`../../warham
 | `kt_pm_faction_rules.pdf` | Astartes / Poison / Resilient cheat |
 | `kt_shared_turn_structure.pdf` | Shared turning-point loop |
 | `kt_shared_volkus_terrain.pdf` | Doors / vantage / cover |
-| `kt_shared_target_eligibility.pdf` | Valid-target tree (Letter landscape) |
+| `kt_shared_target_eligibility.pdf` | Valid-target tree + reference (Letter landscape, 2 pages) |
 
 Also bring the seven HTML datacards under `teams/plague_marines/cards/` (browser print) or the owned Teams PDF on a tablet.
 

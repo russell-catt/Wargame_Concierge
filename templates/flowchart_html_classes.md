@@ -32,7 +32,7 @@ Use these class names on printable activity trees. Guide: [`docs/operations/Flow
 | `tone-y` | Color overlay | Valid (green) — on an action |
 | `tone-s` | Color overlay | Sequence reminder (blue) — on an action |
 
-Worked example: [`games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html`](../games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html).
+Worked example: [`games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html`](../games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html). **Layout:** full-width flowchart on page 1; sequence strip + reference panel (stacked, not sidebar) on page 2.
 
 ## Change Log
 

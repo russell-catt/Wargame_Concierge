@@ -3,10 +3,16 @@
 from __future__ import annotations
 
 import asyncio
+import shutil
 import sys
 from pathlib import Path
 
 HTML_DIR = Path(__file__).resolve().parent
+REPO_ROOT = HTML_DIR.parents[2]
+RULES_CHEAT_SHEET = (
+    REPO_ROOT / "games" / "kill_team_2024" / "rules" / "Target_Eligibility_Cheat_Sheet.html"
+)
+PRINT_CHEAT_SHEET = HTML_DIR / "kt_shared_target_eligibility.html"
 PDF_DIR = Path(r"C:\Personal\print_aids\learn_to_play_event")
 
 AIDS = [
@@ -24,8 +30,16 @@ AIDS = [
 ]
 
 
+def sync_target_eligibility_html() -> None:
+    """Copy canonical rules cheat sheet into print/ before export."""
+    if not RULES_CHEAT_SHEET.is_file():
+        raise FileNotFoundError(f"Missing canonical HTML: {RULES_CHEAT_SHEET}")
+    shutil.copy2(RULES_CHEAT_SHEET, PRINT_CHEAT_SHEET)
+
+
 async def main() -> int:
     PDF_DIR.mkdir(parents=True, exist_ok=True)
+    sync_target_eligibility_html()
     try:
         from playwright.async_api import async_playwright
     except ImportError:
