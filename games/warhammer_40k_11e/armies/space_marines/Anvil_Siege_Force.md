@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Anvil_Siege_Force.md
-VERSION: v1.0 (2026-08-22)
+VERSION: v1.1 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Librarian / Implementer — owned-shelf detachment writeup)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -43,6 +43,8 @@ This is the **second-best alternate detachment for your owned Blood Ravens shelf
 **MFM tag pattern (confirm on your Marines MFM before play):** community builders list it as **2DP · Take and Hold** (retrieved 2026-08-22).
 
 **Confidence:** `draft`. Not yet line-checked against your owned PDFs for this detachment.
+
+**Table habit:** Anvil wants planted guns on terrain **footprints** (`14.01`) — OC is the sum of models **inside** the objective’s terrain area (`14.02`), not “near the marker.” Wound chart: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md).
 
 ---
 
@@ -164,6 +166,7 @@ If the son is still learning Advance / Fall Back / charge timing, stay on Gladiu
 - [`Oath_of_Moment.md`](Oath_of_Moment.md)
 - [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) · [`README.md`](README.md)
 - [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md) — `[HEAVY]`
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 ---
 
@@ -172,6 +175,7 @@ If the son is still learning Advance / Fall Back / charge timing, stay on Gladiu
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.1 (2026-08-25): wd527_shipping S6 — terrain-footprint OC tip; system spine links.
 - v1.0 (2026-08-22): Initial teaching writeup for owned gun shelf; public refs retrieved 2026-08-22; `draft` pending owned PDF glance.
 
 ## Attribution

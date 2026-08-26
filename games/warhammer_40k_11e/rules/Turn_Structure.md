@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Turn_Structure.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S1 wd527_shipping)
 
 DOCUMENT_TYPE: Teaching Guide / Play Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -94,6 +94,12 @@ Your options:
 - [ ] Check **coherency** after every move: each model within 2" of at least one other model in its unit, and within 9" of all of them.
 - [ ] Resolve end-of-phase triggers.
 
+**Commentary (White Dwarf 527 — Movement changes):**
+
+Coherency is a dual test: every model within **2"** of another model in the unit, and within **9"** of every other model (**03.03**). Ingress sets up within **6"** of a battlefield edge (**20.04**) and more than **8"** from enemies; Deep Strike may appear anywhere more than **8"** from enemies. Do not conflate the 6" edge distance with the 9" coherency span — both Core numbers are real, for different jobs.
+
+**Cite:** WD527, Movement changes; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
 ---
 
 ## 3. Shooting phase
@@ -128,6 +134,12 @@ Your options:
 - [ ] A unit that completes a charge move has **Fights First** for the rest of the turn.
 - [ ] Resolve end-of-phase triggers.
 
+**Commentary (White Dwarf 527 — Charge / Jack Rules Focus):**
+
+*Roll charge distance before picking targets.* Roll 2D6 first; that roll both caps how far you can move and which enemies are eligible. A failed reach to a far target does not let you switch to a closer enemy that was outside the rolled distance.
+
+**Cite:** WD527, Charge / Jack Rules Focus; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
 > Your opponent can respond at the end of this phase with the **Heroic Intervention** core stratagem (1CP) and charge you back.
 
 ---
@@ -145,6 +157,12 @@ Your options:
   - You **must** fight with every unit that can. Piling in and consolidating are optional.
 - [ ] **Consolidate** (**12.07**, **12.08**). Both players make 3" consolidation moves - you first. The mode is forced by circumstance: stay engaged if you already are, otherwise engage an enemy within 3", otherwise move onto an objective within 3".
 - [ ] Resolve end-of-phase triggers.
+
+**Commentary (White Dwarf 527 — Pile-in / Consolidate):**
+
+Pile-in and consolidate are separate steps. The active player moves all eligible units first, then the opponent does. Sequencing matters when both sides want the same scrap of board.
+
+**Cite:** WD527, Pile-in / Consolidate; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 > **Objective Consolidation is a scoring tool, not an afterthought.** If nothing is close enough to fight, a 3" shuffle onto an objective can be worth more than the combat was.
 
@@ -187,6 +205,7 @@ Your turn ends. Your opponent takes theirs. When both have gone, the battle roun
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.2 (2026-08-25): WD527 Commentary blocks — Movement (2"/9", Ingress 6", Deep Strike >8"), Charge (2D6 first), Pile-in/Consolidate (active then opponent); track `wd527_shipping` S1.
 - v0.5.1 (2026-08-18): Rule-ID cites; no paraphrase rewrite (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial phase checklist (slice S3), written from the owned Core Rules PDF read 2026-08-16.

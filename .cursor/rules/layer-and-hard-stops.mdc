@@ -18,6 +18,7 @@ Schema source of truth: [`AGENTS.md`](../../AGENTS.md) (Sec 2 layers, Sec 10 cop
 ## Hard stops
 
 - Never commit Games Workshop binaries (PDF, webp, png, jpg, …). Owned libraries stay outside git (`C:\Personal\40K`, `C:\Personal\Kill Team`); markdown path pointers only.
+- Owned magazine scans (e.g. White Dwarf) stay outside git — path pointers only; research notes under `raw/<source>/` are **markdown only** (Coordinator / research Implementer; Librarian never writes `raw/`).
 - UTF-8, no BOM.
 - `git commit` / `git push` only when the **user explicitly gates** it. Coordinator is otherwise the sole git owner. Subagents never git.
 - Teaching paraphrase in `KB/` and 40K army pages. Scoped verbatim quotes only on AGENTS.md Sec 10 paths.

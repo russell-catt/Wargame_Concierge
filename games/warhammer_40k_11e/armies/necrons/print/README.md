@@ -19,6 +19,13 @@ Filename prefix: `40k_`. Never commit `*.pdf` (repo gitignore).
 | `40k_setup_terrain.html` | `40k_setup_terrain.pdf` | `../../setup/Board_Setup.md` + `Terrain_Basics.md` |
 | `40k_conclave_primary_missions.html` | `40k_conclave_primary_missions.pdf` | `../Cryptek_Conclave_Primary_Missions.md` |
 | *(setup)* `../../setup/print/40k_chapter_approved_force_dispositions.html` | `40k_chapter_approved_force_dispositions.pdf` | `../../setup/Chapter_Approved_Force_Dispositions.md` |
+| *(setup)* `../../setup/print/40k_wound_roll_reference.html` | `40k_wound_roll_reference.pdf` | `../../rules/Wound_Roll_Reference.md` |
+| *(setup)* `../../setup/print/40k_wd527_mission.html` | `40k_wd527_mission.pdf` | `../../setup/WD527_Monthly_Mission.md` |
+| *(setup)* `../../setup/print/40k_system_quick_reference.html` | `40k_system_quick_reference.pdf` | system Letter 2-pager (S4 shipping) |
+
+**System print PDFs:** `C:\Personal\print_aids\40k_11e\` — run `../../setup/print/_html_to_pdf.py`.
+
+**Key distances (table truth):** coherency **2″/9″** · Ingress **6″** edge · Deep Strike **>8″** · OC on terrain **footprint**.
 
 ## Combined event print bag
 

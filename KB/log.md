@@ -4,8 +4,8 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-22
-version: 0.5.5
+updated: 2026-08-25
+version: 0.5.6
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
@@ -615,3 +615,25 @@ Pages created: KB/sources/warcode_rulebook_v087f.md, warcode_web_prelaunch_2026_
 Pages updated: KB/index.md, glossary.md, overview.md, log.md
 
 Key additions: Third system `the_warcode` in KB — beta v0.8.7-F source + pre-launch web; five core concepts; four faction pages (two playable draft, two marketing stubs); glossary Warcode section with collision flags to That other game / 40K; all pages `confidence: draft` or `stub`, paraphrase only.
+
+## [2026-08-24] ingest | wd527_research — White Dwarf 527 (40K)
+
+Pages created: KB/sources/white_dwarf_527.md; KB/setup/wd527_monthly_mission.md; KB/analyses/wd527_orks_vs_blood_angels_walkthrough.md; raw/pointers/white_dwarf_527.md; raw/white_dwarf_527/*.md; games/warhammer_40k_11e/rules/Wound_Roll_Reference.md; games/warhammer_40k_11e/setup/WD527_Monthly_Mission.md; setup/print/40k_wound_roll_reference.html; setup/print/40k_wd527_mission.html; docs/handoffs/wd527_research/
+
+Pages updated: Key_Concepts, Board_Setup, setup/README, rules/README; Necron/SM QRs; 40k_first_game_core.html; reference/Source_Library.md; KB/index.md
+
+Key additions: Tier-1.5 WD527 trust; Mission 38 Converging Ambition; S×T wound laminate from Core 05.02; BA vs Orks battle walkthrough.
+
+## [2026-08-24] query | Da Jump 6″ vs 9″ coherency
+
+Pages consulted: white_dwarf_527; designer_commentary_notes; Core_Rules_Quotes 03.03 / 20.04 / 24.09; WarCom Armageddon Ork datasheets article
+
+Output filed: yes — clarified in KB/sources/white_dwarf_527.md, raw/white_dwarf_527/designer_commentary_notes.md + battle_report_notes.md, KB/analyses/wd527_orks_vs_blood_angels_walkthrough.md: 9″ = coherency span, 6″ = Ingress edge distance; Da Jump does not change coherency.
+
+## [2026-08-25] enhance | wd527_shipping — games/ Commentary + system 2-pager + army guides
+
+Pages updated: KB/sources/white_dwarf_527.md (shipping surfaces); KB/setup/wd527_monthly_mission.md; KB/analyses/wd527_orks_vs_blood_angels_walkthrough.md (date bump; still accurate); KB/index.md summaries
+
+Pages created: none (enhance sync, not full ingest)
+
+Key additions: Shipping track surfaces listed on source page (rules/setup Commentary, system QR, army guide pass). Trinity Hobby 2026-08-22 provenance. Distance triad teaching confirmed unchanged in analysis. Librarian did not write raw/.

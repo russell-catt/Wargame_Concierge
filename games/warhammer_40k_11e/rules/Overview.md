@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Overview.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.5.2 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S3; prior S2 tomb_world_ownership)
 
 DOCUMENT_TYPE: Teaching Guide / Beginner Overview
 PROJECT_NAME: Wargame_Concierge
@@ -139,11 +139,14 @@ For learning games, ignore all of this and agree a small number with your oppone
 | **Terrain** | Scenery, arranged in defined **terrain areas**. See [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) |
 | **Dice** | A handful of six-sided dice (D6). Twenty or more saves a lot of re-rolling |
 | **Tape measure** | Everything is measured in inches, and you may measure whenever you like |
-| **A mission** | Tells you the deployment map, the objectives, and how VP are scored |
+| **A mission** | Tells you the deployment map, the objectives, and how VP are scored. Learning default: [`../setup/WD527_Monthly_Mission.md`](../setup/WD527_Monthly_Mission.md) (**Mission 38 — Converging Ambition**) |
 | **Objective markers** | Flat circular markers, 40 mm across, where an objective is not already a piece of terrain |
 | **Your rules** | Datasheets and points for your army |
+| **Table aids** | Wound chart [`Wound_Roll_Reference.md`](Wound_Roll_Reference.md); system Letter 2-pager [`../setup/print/40k_system_quick_reference.html`](../setup/print/40k_system_quick_reference.html) (S4 ships the HTML) |
 
 Board setup, deployment, and the pre-game checklist are in [`../setup/Board_Setup.md`](../setup/Board_Setup.md).
+
+**Trust ladder:** tier **1** = Core / Event Companion / Chapter Approved (mechanics win); tier **1.5** = owned WD527 commentary and Mission 38 (`C:\Personal\40K\WD_527\`). See system [`../README.md`](../README.md) and shipping track [`docs/handoffs/wd527_research/track_shipping_in.md`](../../../docs/handoffs/wd527_research/track_shipping_in.md).
 
 ---
 
@@ -156,7 +159,7 @@ This project has a specific collection behind it, and it constrains what a first
 - A second Necron Warriors squad (10), a second Canoptek Scarab Swarms set (3), and a squad of Immortals (5) are owned but **unassembled** - build these to expand past the Tomb World force at larger points values.
 - The Space Marine collection has not been audited yet.
 
-A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structure.md), then play a tiny game with two or three units per side and **no secondary missions** - just move, shoot, fight, and count OC on one objective. Add complexity once the sequence feels automatic.
+A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structure.md), keep [`Wound_Roll_Reference.md`](Wound_Roll_Reference.md) at the table, then play a tiny game with two or three units per side and **no secondary missions** - just move, shoot, fight, and count OC on one objective. Add **Mission 38** ([`../setup/WD527_Monthly_Mission.md`](../setup/WD527_Monthly_Mission.md)) once the sequence feels automatic.
 
 ---
 
@@ -176,9 +179,13 @@ A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structur
 
 - [`Turn_Structure.md`](Turn_Structure.md) - the phase-by-phase checklist
 - [`Key_Concepts.md`](Key_Concepts.md) - attacks, saves, objectives, morale
+- [`Wound_Roll_Reference.md`](Wound_Roll_Reference.md) - S vs T wound matrix (Core **05.02**) + print laminate
 - [`Keyword_Glossary.md`](Keyword_Glossary.md) - every term in one place
 - [`../setup/Board_Setup.md`](../setup/Board_Setup.md) - table, deployment, objectives
 - [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) - terrain categories and how much you need
+- [`../setup/WD527_Monthly_Mission.md`](../setup/WD527_Monthly_Mission.md) - **Mission 38 — Converging Ambition**
+- [`../setup/print/40k_system_quick_reference.html`](../setup/print/40k_system_quick_reference.html) - system Letter 2-pager (phases + attack sequence; S4 owns HTML body)
+- [`../README.md`](../README.md) - subtree entry + trust ladder / WD527 provenance
 
 ---
 
@@ -187,6 +194,7 @@ A sensible learning path: read this page and [`Turn_Structure.md`](Turn_Structur
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.2 (2026-08-25): Cross-links — Mission 38, wound chart, system QR path, trust ladder (wd527_shipping S3). Teaching body unchanged.
 - v0.5.1 (2026-08-18): Rule-ID cites; no paraphrase rewrite (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-16): Corrected "Your realistic first game" - Kill Team: Tomb World is owned and game-ready (preferred learning baseline), not just the Hierotek Circle set. Removed the "only Hierotek is table-ready" claim; flagged the second Warriors squad, second Scarab set, and Immortals as owned/unassembled (slice S2, `tomb_world_ownership`).

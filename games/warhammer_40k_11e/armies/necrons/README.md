@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v0.5.3 (2026-08-19)
+VERSION: v0.5.4 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -31,6 +31,12 @@ UPDATE_TRIGGER:
 Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation** (fix themselves every turn at end of **Command**, `08.05`), **methodical shooting** (`10.02`), and **Canoptek construct** synergies. Two detachment paths are documented from this collection: **Canoptek Court** and **Cryptek Conclave**.
 
 **Start here:** [`Reanimation_Protocols.md`](Reanimation_Protocols.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game using the owned **Kill Team: Tomb World** force.
+
+**System spine (11e / WD527 shipping):** wound grid [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · Force Dispositions [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38 [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · system Letter QR [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html) · army laminate [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
+
+**Key distances (do not conflate):** coherency **2″** of a squadmate and **9″** of every other model (`03.03`) · Ingress set-up within **6″** of a battlefield edge (`20.04`) · Deep Strike / ingress enemy gap **>8″** · OC on the objective’s terrain **footprint** (`14.01` / `14.02`).
+
+WD527 commentary provenance (system README): owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -73,7 +79,9 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 | [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) | 500 V1 companion - RP stacking, dual-brick menus, shooting math |
 | [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) | **Two-page laminate** for the table - phases, army rule, Power Matrix, combat sequence, do/don't · Force Dispositions called out |
 
-**Chapter Approved / Force Dispositions:** every list and reference above should show the detachment’s Force Disposition in bold. System 2-pager: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
+**Chapter Approved / Force Dispositions:** every list and reference above should show the detachment’s Force Disposition in bold. System 2-pager: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md). Monthly card when in use: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) (Mission 38 — Converging Ambition).
+
+**Print bag:** [`print/README.md`](print/README.md) → `C:\Personal\print_aids\learn_to_play_event\`.
 
 ### Collection and research
 
@@ -105,6 +113,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.4 (2026-08-25): WD527 shipping S6 — system spine links (wound / Disposition / Mission 38 / system QR); distance triad; print-bag pointer.
 - v0.5.2 (2026-08-19): Indexed fully statted 250 / 500 V1 Conclave army lists and their reference guides.
 - v0.5.1 (2026-08-19): Indexed [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md); Hierotek correction text updated to photo-IDed roster.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

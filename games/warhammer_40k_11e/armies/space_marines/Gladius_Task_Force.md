@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Gladius_Task_Force.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S6)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -39,6 +39,12 @@ UPDATE_TRIGGER:
 The Gladius Task Force is the generalist Space Marine detachment and the right one to learn on. It has no gimmick to build a list around. It gives you **three once-per-battle permission slips**, and the whole skill of the detachment is knowing which turn to spend each one.
 
 **Munitorum Field Manual v1.2 tags it `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`**, read 2026-08-16. See the note on `DP` at the bottom of this page.
+
+**Commentary (White Dwarf 527 — Leaders and Support):**
+
+On Blood Ravens lists, a **Leader** (Captain / Chaplain) and a **Support** (e.g. Lieutenant, when eligible) may both join the same Tactical or Terminator bodyguard before battle — one attached unit, one coherency blob on deploy. Attach now; you cannot mid-game.
+
+**Cite:** WD527, Leaders and Support (battle report Rules Focus); owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -185,6 +191,7 @@ The Munitorum Field Manual tags every detachment with a number and a mission typ
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) - the laminate version of the doctrine cheat sheet
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) - Advance, Fall Back, and what they normally cost
 - [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md) - detachment, stratagem, enhancement, `[LANCE]`, `[SUSTAINED HITS X]`
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 ---
 
@@ -193,6 +200,7 @@ The Munitorum Field Manual tags every detachment with a number and a mission typ
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.1 (2026-08-25): wd527_shipping S6 — Leaders/Support Commentary; system spine links.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S5). Doctrine wording cross-checked against the Blade of Ultramar detachment printed in full in the owned faction pack v1.1, which uses identical Combat Doctrine text; stratagems and enhancements from public 11e references retrieved 2026-08-16 and reconciled against the owned pack's Gladius errata. Enhancement costs from MFM Marines v1.2. Upgrades the `unverified` Gladius Task Force entry in `Keyword_Glossary.md`.
 

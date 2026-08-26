@@ -18,20 +18,21 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | Cursor rules + skills (thin `.cursor/rules` + project skills citing AGENTS.md) | [`cursor_rules_skills/`](cursor_rules_skills/) | Closed - Complete (commits pending) |
 | KB shipping back-fill (OC + Power Matrix from on-disk shipping) | [`kb_shipping_backfill/`](kb_shipping_backfill/) | Closed - Complete (commits pending) |
 | Learn-to-play event (KT Volkus PM+Kommandos + first 40K Conclave) | [`learn_to_play_event/`](learn_to_play_event/) | Closed - Complete (commits pending) |
-| SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Closed - merged PR #7 |
-| GW community-content footer + games/ compliance | [`gw_community_content/`](gw_community_content/) | Closed - Complete (commits pending) |
-| The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | Closed - merged PR #16 |
+| SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Closed — merged PR #7 |
+| GW community-content footer + games/ compliance | [`gw_community_content/`](gw_community_content/) | Closed — Complete (commits pending) |
+| The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | Closed — merged PR #16 |
+| WD527 research (40K ref card, Mission 38, wound laminate) | [`wd527_research/`](wd527_research/) | Closed - Complete (commit pending) |
 
-**Review queue:** Post-ship owner pass - [warcode_tactical_doctrine/to_review.md](warcode_tactical_doctrine/to_review.md).
+**Review queue:** Post-ship owner pass — [warcode_tactical_doctrine/to_review.md](warcode_tactical_doctrine/to_review.md).
 
 ## Artifact lifecycle (summary)
 
-1. `track_in.md` - Coordinator constraints / rollup / model matrix
-2. `slices/{Id}_brief.md` - Ready entrance (Implementer or Librarian)
-3. `slices/{Id}_implementer.md` or `slices/L{n}_librarian.md` - Tier 1
-4. `slices/{Id}_qa.md` or `slices/L{n}_lib_qa.md` - Tier 2 -> Resolved - Complete
-5. `track_*_final_report.md` - Tier 3 Final Sanity
+1. `track_in.md` — Coordinator constraints / rollup / model matrix
+2. `slices/{Id}_brief.md` — Ready entrance (Implementer or Librarian)
+3. `slices/{Id}_implementer.md` or `slices/L{n}_librarian.md` — Tier 1
+4. `slices/{Id}_qa.md` or `slices/L{n}_lib_qa.md` — Tier 2 → Resolved - Complete
+5. `track_*_final_report.md` — Tier 3 Final Sanity
 
-**Librarian slices (Tier 0):** L0, L1, L2 - see playbook Sec 18.5.
+**Librarian slices (Tier 0):** L0, L1, L2 — see playbook §18.5.
 
 **Git:** Coordinator alone commits after each slice **Resolved - Complete**. Subagents do not commit or push.

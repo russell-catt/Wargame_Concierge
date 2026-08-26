@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/adepta_sororitas/README.md
-VERSION: v0.2 (2026-08-22)
+VERSION: v0.3 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (ownership intake — Sisters shelf declared 2026-08-22)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
 DOCUMENT_TYPE: Faction Overview / Ownership Stub
 PROJECT_NAME: Wargame_Concierge
@@ -26,9 +26,25 @@ UPDATE_TRIGGER:
 
 # Adepta Sororitas — ownership stub
 
-**Status:** owned shelf declared; **not game-ready** (unpainted). This is **not** a full faction package yet — no Miracle dice guide, detachment teach, or starters.
+**Status:** owned shelf declared; **not game-ready** (unpainted). This is **not** a full faction package yet — no Miracle dice guide, detachment teach, or starters. Do **not** invent Codex detachment guides here.
 
 **Army Faction note:** Sisters are their **own** Codex faction. They do **not** soup into Blood Ravens Space Marines as a second half of the list (see prior query). Limited overlap is only via **Assigned Agents** caps, or casual narrative.
+
+---
+
+## System pointers (when you do play 40K)
+
+Use the shared 11e spine — no Sisters-specific teaching in this folder yet:
+
+| Aid | Path |
+|-----|------|
+| System README | [`../../README.md`](../../README.md) |
+| Wound chart | [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) |
+| Mission 38 | [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) |
+| Force Dispositions | [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) |
+| System Letter QR | [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html) |
+| Setup / rules indexes | [`../../setup/README.md`](../../setup/README.md) · [`../../rules/README.md`](../../rules/README.md) |
+| WD527 shipping track | [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md) |
 
 ---
 
@@ -69,6 +85,7 @@ Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.3 (2026-08-25): wd527_shipping S6 — system spine pointers only (no army rules invented).
 - v0.2 (2026-08-22): Metal counts — Seraphim 5; Battle Sisters 10 (owner recall).
 - v0.1 (2026-08-22): Initial ownership stub from owner declaration.
 

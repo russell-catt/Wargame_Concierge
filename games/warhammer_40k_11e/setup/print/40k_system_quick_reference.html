@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40K System Quick Reference</title>
+<style>
+@page { size: letter; margin: 0.4in; }
+* { box-sizing: border-box; }
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 8.5pt;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+}
+h1 { font-size: 12.5pt; margin: 0 0 0.12em; }
+h2 { font-size: 10pt; margin: 0.28em 0 0.1em; border-bottom: 1px solid #333; padding-bottom: 1px; }
+h3 { font-size: 9pt; margin: 0.2em 0 0.06em; }
+p, ul, ol { margin: 0.1em 0; }
+ul, ol { padding-left: 1.1em; }
+li { margin: 0.04em 0; }
+table { width: 100%; border-collapse: collapse; margin: 0.1em 0 0.18em; font-size: 7.5pt; }
+th, td { border: 1px solid #444; padding: 1px 3px; vertical-align: top; text-align: left; }
+th { background: #e8e8e8; }
+.page { page-break-after: always; }
+.page:last-of-type { page-break-after: auto; }
+.cols { display: flex; gap: 0.45em; align-items: flex-start; }
+.cols > * { flex: 1; min-width: 0; }
+.callout {
+  border: 1.5px solid #333;
+  padding: 0.2em 0.35em;
+  margin: 0.15em 0;
+  background: #f7f7f7;
+  font-size: 8pt;
+}
+.dist td:first-child { font-weight: 700; width: 2.4em; text-align: center; }
+.bands td { text-align: center; }
+.bands th { text-align: center; }
+.mini { font-size: 7.5pt; color: #222; }
+.note { font-size: 7pt; color: #444; margin-top: 0.15em; }
+.gw-ip-banner {
+  font-size: 9pt;
+  font-weight: 600;
+  border: 2px solid #333;
+  padding: 0.3em 0.45em;
+  margin: 0 0 0.35em;
+  background: #f5f5f5;
+}
+.gw-ip-footer {
+  font-size: 6.5pt;
+  color: #444;
+  margin-top: 0.3em;
+  border-top: 1px solid #999;
+  padding-top: 0.2em;
+  line-height: 1.2;
+}
+</style>
+</head>
+<body>
+
+<section class="page">
+  <p class="gw-ip-banner"><strong>UNOFFICIAL</strong> — fan teaching material, not a Games Workshop product, not endorsed by Games Workshop Limited.</p>
+  <h1>Warhammer 40,000 — System Quick Reference</h1>
+  <p class="mini">Shortened teaching paraphrase. Bracket IDs = Core Rules. Active player = whose turn it is <strong>[01.03]</strong>. No faction rules on this sheet.</p>
+
+  <h2>Turn sequence <span class="mini">[07.02]</span></h2>
+  <table>
+    <thead><tr><th>#</th><th>Step / phase</th><th>Do this</th></tr></thead>
+    <tbody>
+      <tr><td>0</td><td><strong>Start of Turn</strong></td><td>Resolve “start of your turn” triggers</td></tr>
+      <tr><td>1</td><td><strong>Command</strong> [08]</td><td>Start → Core CP → Battle-shock → abilities → End</td></tr>
+      <tr><td>2</td><td><strong>Movement</strong> [09]</td><td>Select every unit; give a move type; reserves arrive</td></tr>
+      <tr><td>3</td><td><strong>Shooting</strong> [10]</td><td>Pick shooting type; resolve attacks [05]</td></tr>
+      <tr><td>4</td><td><strong>Charge</strong> [11]</td><td>Roll 2D6 first; move into engagement</td></tr>
+      <tr><td>5</td><td><strong>Fight</strong> [12]</td><td>Pile In → Fight (both players) → Consolidate</td></tr>
+      <tr><td>6</td><td><strong>End of Turn</strong></td><td>Non-mission triggers; score mission VP; fix coherency</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cols">
+    <div>
+      <h2>Command <span class="mini">[08]</span></h2>
+      <ul>
+        <li><strong>Core CP [08.02]:</strong> both players gain <strong>+1 CP</strong>.</li>
+        <li><strong>Battle-shock [08.03]:</strong> roll for already battle-shocked units and units at/below half-strength (2D6 vs Ld).</li>
+        <li><strong>While battle-shocked:</strong> OC = 0; cannot be targeted by stratagems; cannot perform actions.</li>
+        <li>Then Command abilities / army rules that trigger here; End of Command.</li>
+      </ul>
+
+      <h2>Movement <span class="mini">[09]</span></h2>
+      <table>
+        <thead><tr><th>Type</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Remain Stationary [09.04]</td><td>No move; keeps [HEAVY] / indirect accuracy</td></tr>
+          <tr><td>Normal [09.05]</td><td>Up to M"; start &amp; end unengaged</td></tr>
+          <tr><td>Advance [09.06]</td><td>M + D6; no charge; only [ASSAULT] shoot</td></tr>
+          <tr><td>Fall Back [09.07]</td><td>Up to M; no shoot / charge / actions</td></tr>
+          <tr><td>Disembark / Ingress</td><td>From transport / from reserves</td></tr>
+        </tbody>
+      </table>
+      <p class="mini"><strong>Engagement range:</strong> 2" horizontal / 5" vertical. Check <strong>coherency [03.03]</strong> after every move.</p>
+    </div>
+    <div>
+      <h2>Shooting <span class="mini">[10]</span></h2>
+      <table>
+        <thead><tr><th>Type</th><th>When</th></tr></thead>
+        <tbody>
+          <tr><td>Normal [10.04]</td><td>Unengaged; did not Advance</td></tr>
+          <tr><td>Assault [10.05]</td><td>Advanced; only [ASSAULT] weapons</td></tr>
+          <tr><td>Close-quarters [10.06]</td><td>Engaged; only [CLOSE-QUARTERS] at engaged foes</td></tr>
+          <tr><td>Indirect [10.07]</td><td>[INDIRECT FIRE]; heavy penalty; gives cover</td></tr>
+        </tbody>
+      </table>
+      <p class="mini">Targets usually need visibility [06.01], range, and to be unengaged. Engaged Monsters/Vehicles can still be shot (−1 to hit).</p>
+
+      <h2>Key distances</h2>
+      <table class="dist">
+        <thead><tr><th>Dist</th><th>What it is for</th></tr></thead>
+        <tbody>
+          <tr><td>2"</td><td>Engagement (horiz.); coherency adjacency to a squadmate [03.03]</td></tr>
+          <tr><td>6"</td><td>Ingress: set up within 6" of a battlefield edge [20.04]</td></tr>
+          <tr><td>8"</td><td>Reserves / Deep Strike: more than 8" from all enemies</td></tr>
+          <tr><td>9"</td><td>Coherency span: every model within 9" of all others in the unit [03.03]</td></tr>
+        </tbody>
+      </table>
+      <p class="mini">Do not mix 6" edge ingress with 9" coherency — different jobs.</p>
+    </div>
+  </div>
+
+  <h2>Terrain categories (brief) <span class="mini">[13]</span></h2>
+  <table>
+    <thead><tr><th>Category</th><th>Player reminder</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Exposed</strong></td><td>Open ground / light scatter — little or no cover / Hidden protection</td></tr>
+      <tr><td><strong>Light</strong></td><td>Typical ruins/barricades; Infantry/Beast/Swarm/Mobile move through per keywords [13.06]</td></tr>
+      <tr><td><strong>Dense</strong></td><td>Heavier LOS/movement restrictions; often where <strong>Hidden [13.09]</strong> applies</td></tr>
+    </tbody>
+  </table>
+  <div class="callout">
+    <strong>Visibility strip:</strong> Benefit of Cover [13.08] = worsen attacker <strong>BS by 1</strong> (not a better Sv). Hidden [13.09] = dense keywords stay hidden until they shoot; detect within <strong>15"</strong>. Obscuring [13.10] = blocks LOS from outside the area. Agree <strong>terrain areas before features</strong>.
+  </div>
+  <p class="note">Layout inspired by White Dwarf 527 quick-reference pull-out (topic map only). Owned digital backup purchased Trinity Hobby <strong>2026-08-22</strong>; local <code>C:\Personal\40K\WD_527\</code>. Tier 1.5 — Core wins on mechanics. Full wound matrix: print aid <code>40k_wound_roll_reference</code>.</p>
+  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Page 1 of 2</p>
+</section>
+
+<section class="page">
+  <h1>System Quick Reference — Charge, Fight &amp; Attacks</h1>
+  <p class="mini">Page 2 of 2 · Core IDs in brackets · Teaching paraphrase</p>
+
+  <div class="cols">
+    <div>
+      <h2>Charge phase <span class="mini">[11]</span></h2>
+      <div class="callout">
+        <strong>2D6 first [11.02].</strong> Roll charge distance <em>before</em> locking targets. The roll caps both eligible enemies and how far you may move. You cannot switch to a closer foe that was outside the rolled distance.
+      </div>
+      <ul>
+        <li><strong>Eligible:</strong> on the battlefield; within <strong>12"</strong> of an enemy; unengaged; did not Advance or Fall Back this turn.</li>
+        <li>Nominate targets within 12" <em>and</em> within the rolled distance; move; end engaged (typically within <strong>1"</strong> of a target).</li>
+        <li>If you cannot engage <strong>all</strong> nominated targets, the charge fails — nothing moves.</li>
+        <li>A unit that completes a charge has <strong>Fights First</strong> for the rest of the turn.</li>
+        <li class="mini">Opponent may answer with Heroic Intervention (1CP) at end of your Charge phase.</li>
+      </ul>
+
+      <h2>Fight phase <span class="mini">[12]</span></h2>
+      <ol>
+        <li><strong>Pile In [12.02]</strong> — eligible units, up to <strong>3"</strong>. Active player first, then opponent. Models already in base contact stay put.</li>
+        <li><strong>Fight [12.04]</strong> — both players alternate. Resolve all <strong>Fights First</strong> units first (starting with the active player), then everyone else. Each model uses one melee weapon vs engaged targets. You must fight with every unit that can.</li>
+        <li><strong>Consolidate [12.07]</strong> — up to <strong>3"</strong>; active then opponent. Stay engaged if already; else engage within 3"; else move onto an objective within 3" when able.</li>
+      </ol>
+      <p class="mini">Pile-in and consolidate are separate steps. Objective consolidation is a scoring tool, not an afterthought.</p>
+    </div>
+    <div>
+      <h2>Attack sequence <span class="mini">[05]</span></h2>
+      <p class="mini">Select weapons → select targets → resolve [04]. Same four rolls for shooting and melee.</p>
+      <table>
+        <thead><tr><th>Step</th><th>Rule</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Hit [05.01]</strong></td><td>D6 ≥ BS/WS. Unmod <strong>1</strong> fails. Unmod <strong>6</strong> = critical hit.</td></tr>
+          <tr><td><strong>Wound [05.02]</strong></td><td>S vs T (bands below). Unmod <strong>1</strong> fails. Unmod <strong>6</strong> = critical wound.</td></tr>
+          <tr><td><strong>Save [05.03]</strong></td><td>Defender: armour (AP applies) <em>or</em> invulnerable (no AP). Unmod <strong>1</strong> fails.</td></tr>
+          <tr><td><strong>Damage [05.04]</strong></td><td>Unsaved attacks cost <strong>D</strong> wounds. Excess does not spill to the next model.</td></tr>
+        </tbody>
+      </table>
+      <p class="mini"><strong>Allocation:</strong> defender groups by W/Sv/InSv; already-wounded group first; characters last (unless [PRECISION]).</p>
+
+      <h2>Wound bands — S vs T <span class="mini">[05.02]</span></h2>
+      <table class="bands">
+        <thead>
+          <tr><th>Compare</th><th>Need</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>S ≥ 2×T</td><td><strong>2+</strong></td></tr>
+          <tr><td>S &gt; T (not 2×)</td><td><strong>3+</strong></td></tr>
+          <tr><td>S = T</td><td><strong>4+</strong></td></tr>
+          <tr><td>S &lt; T but &gt; ½T</td><td><strong>5+</strong></td></tr>
+          <tr><td>S ≤ ½T</td><td><strong>6+</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="mini"><strong>Examples:</strong> S4 vs T4 → 4+. S9 vs T6 → 3+. S4 vs T7 → 5+.</p>
+      <div class="callout">
+        <strong>Full S×T laminate:</strong> print / PDF <code>40k_wound_roll_reference</code> (same folder / <code>C:\Personal\print_aids\40k_11e\</code>). This card keeps the five bands only — it does <em>not</em> replace the dedicated wound chart.
+      </div>
+
+      <h2>OC reminder <span class="mini">[14]</span></h2>
+      <ul>
+        <li>Terrain <strong>footprint</strong> is usually the objective — models inside the area count.</li>
+        <li>Sum OC at end of every phase; higher controls; tie = nobody.</li>
+        <li>Battle-shocked units contribute <strong>OC 0</strong>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>At-table checklist</h2>
+  <table>
+    <thead><tr><th>Trap</th><th>Fix</th></tr></thead>
+    <tbody>
+      <tr><td>Forgot to select a unit in Movement</td><td>Every unit is selected — remain stationary still counts</td></tr>
+      <tr><td>Advanced then tried to charge</td><td>Advance removes charge for the turn (unless a rule says otherwise)</td></tr>
+      <tr><td>Thought Fight phase was yours alone</td><td>Both players fight, alternating</td></tr>
+      <tr><td>Treated cover as +1 save</td><td>11e cover worsens attacker BS by 1 [13.08]</td></tr>
+      <tr><td>Skipped consolidate</td><td>3" onto an objective can be the real prize</td></tr>
+    </tbody>
+  </table>
+  <p class="note">Layout inspired by White Dwarf 527 quick-reference pull-out (topic map only). Owned digital backup purchased Trinity Hobby <strong>2026-08-22</strong>; local <code>C:\Personal\40K\WD_527\</code>. Tier 1.5 — Core wins on mechanics.</p>
+  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Page 2 of 2</p>
+</section>
+
+</body>
+</html>

@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave_Primary_Missions.md
-VERSION: v1.0 (2026-08-23)
+VERSION: v1.1 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -33,9 +33,13 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION:** **Priority Assets**  
 > MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`  
-> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 You always play **your** Priority Assets Primary. Opponent’s Disposition picks **which** of the five below. Caps: **15VP**/round · **45VP**/game. Round 5 objective scoring often moves to **end of turn** if you go second — check the card.
+
+**Key distances / OC:** Coherency **2″/9″** (`03.03`) · Ingress **6″** edge / Deep Strike **>8″** enemies · OC on terrain **footprint** (`14.01` / `14.02`).
+
+**S vs T bands (`05.02`):** S≥2×T → **2+** · S>T → **3+** · S=T → **4+** · S<T → **5+** · S≤½T → **6+** — full grid [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md).
 
 **Conclave plan in one line:** Warrior brick **holds** Expansion / non-home OC; Scarabs / Crawlers / spare bodies **Action**; Cryptek menu keeps the brick shooting; Reanimation + Syphon punish anyone who chips you on a flag (`14.02`, `08.05`).
 
@@ -132,11 +136,12 @@ You always play **your** Priority Assets Primary. Opponent’s Disposition picks
 ## Pre-game (Conclave)
 
 - [ ] List says **FORCE DISPOSITION: PRIORITY ASSETS**
-- [ ] Opponent Disposition known → circle the mission above
-- [ ] Layout A/B/C agreed
-- [ ] Geomancer attached to Warriors (`19.01`); deploy in coherency (`03.03`)
+- [ ] Opponent Disposition known → circle the mission above (or Mission 38 Primary block if that card replaces matching)
+- [ ] Layout A/B/C agreed · footprints for OC (`14.01`)
+- [ ] Geomancer attached to Warriors (`19.01`); deploy in coherency **2″/9″** (`03.03`)
 - [ ] Twist: usually **off** at events
 - [ ] Physical Primary card open — this laminate is a map, not a substitute
+- [ ] Wound laminate / system QR at hand
 
 **confidence: draft.** VP numbers and Action names are teaching shape from community/card reviews (retrieved 2026-08-23). **Your Chapter Approved card wins** if anything disagrees.
 
@@ -146,6 +151,8 @@ You always play **your** Priority Assets Primary. Opponent’s Disposition picks
 
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) · [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md)
 - [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+- [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md)
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md)
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md)
 
 ## Games Workshop notice
@@ -153,6 +160,7 @@ You always play **your** Priority Assets Primary. Opponent’s Disposition picks
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.1 (2026-08-25): WD527 shipping S6 — system spine links; S vs T bands; key distances; Mission 38; 2-pager density fill.
 - v1.0 (2026-08-23): Initial Priority Assets / Conclave Primaries 2-pager (starter-event feedback).
 
 ## Attribution

@@ -1,0 +1,38 @@
+---
+description: White Dwarf Commentary paraphrase and cite rules under games/warhammer_40k_11e
+globs:
+  - games/warhammer_40k_11e/**/*
+alwaysApply: false
+---
+
+# White Dwarf Commentary
+
+Cite [`AGENTS.md`](../../AGENTS.md) Sec 10. **AGENTS.md wins.** Companion to [`40k-core-quotes.mdc`](40k-core-quotes.mdc) (Core quotes) — this rule covers **magazine Commentary**, not WarCom-free Core quote blocks.
+
+## Allowed shape
+
+Under `games/warhammer_40k_11e/` only: **teaching paraphrase** of owned White Dwarf designer / Rules Focus material.
+
+- Body: **at most 6 sentences**. Not a full magazine block-quote. Optional one short italic phrase to anchor a named Rules Focus label.
+- Always include a **Cite** line: issue number, article/section name, purchase provenance, local path pointer, **Tier 1.5**.
+- Tier **1.5** (owned WD) informs commentary and table practice; **Tier 1** Core / Event Companion / Chapter Approved–MFM **wins** on mechanical conflict.
+
+Locked example (adapt issue/vendor/date/path per track):
+
+```markdown
+**Commentary (White Dwarf 527 — <section or Rules Focus title>):**
+
+<1–6 sentences teaching paraphrase.>
+
+**Cite:** WD527, <article/section name>; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+```
+
+## Disallowed
+
+- Multi-paragraph magazine excerpts or Mission card / datasheet / ref-card art dumps.
+- Committing GW binaries (PDF, png, jpg, webp, …). Owned magazine scans stay **outside** git; markdown path pointers only.
+- Using WD Commentary to override Core rule IDs or Event Companion text on a conflict without logging the conflict.
+
+## Print HTML
+
+Compact commentary callout is OK; still require UNOFFICIAL banner/footer per [`gw-unofficial-footer.mdc`](gw-unofficial-footer.mdc).

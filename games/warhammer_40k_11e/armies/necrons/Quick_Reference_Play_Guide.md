@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Quick_Reference_Play_Guide.md
-VERSION: v0.5.3 (2026-08-23)
+VERSION: v0.5.4 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -26,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
+  - v0.5.4 (2026-08-25): WD527 shipping S6 — distance triad; S vs T bands; Mission 38 / system QR links; Leaders+Support Commentary; 2-pager density fill.
   - v0.5.3 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) pointers.
   - v1.2 (2026-08-16): Page 2 starter snapshot rebuilt around the owned, game-ready Kill Team: Tomb World force (Geomancer + Warriors + Tomb Crawlers = 240 pts). Sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not blockers (slice S2, `tomb_world_ownership`).
   - v1.1 (2026-08-16): Starter snapshot ownership re-verified against FOUNDATION (build-before-play + Hierotek TBD). *(Described Tomb World as not owned - superseded by v1.2.)*
@@ -51,7 +52,9 @@ UPDATE_TRIGGER:
 > **FORCE DISPOSITIONS (write on every list)**
 > **Cryptek Conclave → Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`)
 > **Canoptek Court → Take and Hold** (`CANOPTEK COURT - 3DP - TAKE AND HOLD`)
-> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Conclave Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md)
+> Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Conclave Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
+
+**Key distances:** Coherency **2″** of a squadmate + **9″** of every other model (`03.03`) · Ingress within **6″** of a battlefield edge (`20.04`) · Deep Strike / ingress enemy gap **>8″** · OC = sum inside the objective’s terrain **footprint** (`14.01` / `14.02`).
 
 ## YOUR TURN, IN ORDER
 
@@ -65,7 +68,7 @@ UPDATE_TRIGGER:
 | 5 | **Fight** (`12.01`–`12.09`) | **Pile in** 3" (`12.02`) — **fight** (`12.04`, Fights First first) — **consolidate** 3" (`12.07`) |
 | 6 | **End of turn** | End-of-turn triggers, score mission VP, fix coherency |
 
-**Move types:** Remain Stationary (`09.04`, keeps `[HEAVY]`) | Normal (`09.05`, M") | Advance (`09.06`, M + D6, no charge, `[ASSAULT]` only) | Fall Back (`09.07`, no shoot / charge) | Disembark | Ingress from reserves.
+**Move types:** Remain Stationary (`09.04`, keeps `[HEAVY]`) | Normal (`09.05`, M") | Advance (`09.06`, M + D6, no charge, `[ASSAULT]` only) | Fall Back (`09.07`, no shoot / charge) | Disembark | Ingress from reserves (**6″** from edge, **>8″** from enemies).
 
 **Shooting types:** Normal (`10.04`) | Assault (`10.05`, advanced) | Close-quarters (`10.06`, engaged) | Indirect (`10.07`, unseen target, big penalty, gives cover `13.08`).
 
@@ -117,11 +120,17 @@ Spend each reanimated wound in this order:
 ## COMBAT SEQUENCE
 
 1. **Hit** (`05.01`) - D6 per attack vs BS (shooting) or WS (melee). Unmodified 1 always fails; unmodified 6 is a critical hit.
-2. **Wound** (`05.02`) - D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound.
+2. **Wound** (`05.02`) - D6 per hit, S vs T. Unmodified 1 always fails; unmodified 6 is a critical wound. **Bands:** S≥2×T → **2+** · S>T → **3+** · S=T → **4+** · S<T → **5+** · S≤½T → **6+**. **Grid:** [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · print `setup/print/40k_wound_roll_reference`.
 3. **Save** (`05.03`) - defender rolls: armour save modified by AP, **or** invulnerable save ignoring AP. Unmodified 1 fails.
 4. **Damage** (`05.04`) - each unsaved attack costs D wounds. Excess damage is lost, it does not spill to the next model.
 5. **Allocation** - defender chooses the order; already-wounded group goes first; **characters cannot be put in front**.
 6. **Cover in 11e** (`13.08`) worsens the attacker's **Ballistic Skill by 1** - it is not a save bonus.
+
+**Commentary (White Dwarf 527 — Leaders and Support):**
+
+*One Leader and one Support per bodyguard.* Geomancer is **Support**; at 500+ a Royal Warden (**Leader**) can join the same Warrior brick — three datasheets, one unit for all rules purposes.
+
+**Cite:** WD527, Leaders and Support; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 <!-- pagebreak -->
 
@@ -165,12 +174,19 @@ Spend each reanimated wound in this order:
 - **Level of control (`14.02`):** at end of **every phase and turn**, **sum OC** of your models in range. Higher total controls; **tie = nobody**.
 - **Score VP** when the **mission card** says (often end of turn) for objectives you control — control first, then score.
 - Battle-shocked units contribute **0 OC** (`08.03`).
+- **Mission 38:** Converging Ambition uses the same footprint idea — [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md).
 
 ## ATTACH & DEPLOY (Ch. 19)
 
 - **Form (`19.01`):** before battle, each Leader/Support attaches to one eligible bodyguard. Normally **one Leader + one Support** per bodyguard → **one unit**.
 - **250 Conclave:** Geomancer (**Support**) + Warriors. At 500+, add a **Leader** (e.g. Royal Warden) to the **same** brick if the datasheet allows.
-- **Deploy (`03.03`):** set up **all** attached models together in coherency (2"/9" horizontal tests). Cannot attach mid-game.
+- **Deploy (`03.03`):** set up **all** attached models together in coherency (**2″** of one model and **9″** of all). Cannot attach mid-game.
+
+**Commentary (White Dwarf 527 — Distance triad clarity):**
+
+Core uses three different jobs: coherency span **2″/9″** (`03.03`); Ingress edge **6″** (`20.04`); Deep Strike / ingress enemy gap **>8″**. Do not call the Ingress edge distance “coherency.”
+
+**Cite:** WD527, Distance clarification / Movement changes; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -184,23 +200,25 @@ Spend each reanimated wound in this order:
 
 ## PRE-GAME CHECKLIST
 
+- [ ] **Force Disposition** written in BIG letters (Priority Assets or Take and Hold).
 - [ ] Terrain on the table **before** deployment. Agree what is Light / Dense / Obscuring.
 - [ ] Objective **terrain footprints** agreed (`14.01`) — note which are in No Man's Land.
 - [ ] Detachment named. Enhancements written down. **Leader/Support attached to bodyguards now** (`19.01`).
 - [ ] Attached units will deploy in **coherency** (`03.03`) as one blob.
-- [ ] Reserves declared (max 50% of your points).
+- [ ] Reserves declared (max 50% of your points) — Ingress **6″** edge / **>8″** enemies.
 - [ ] Reanimation token on the table edge.
+- [ ] Wound laminate / system QR at hand if needed.
 
 ## END-OF-TURN CHECKLIST
 
-- [ ] Score your mission VP.
+- [ ] Score your mission VP (Mission 38 Primary block if that card is in use).
 - [ ] Fix coherency - out-of-coherency units lose models.
 - [ ] Note which objectives you hold going into your opponent's turn.
 - [ ] Did you reanimate this turn? If not, it is gone - do not take it later.
 
 ---
 
-*Verify vs Munitorum / faction pack - patches happen | 2026-08-16*
+*Verify vs Munitorum / faction pack - patches happen | 2026-08-25*
 
 ---
 

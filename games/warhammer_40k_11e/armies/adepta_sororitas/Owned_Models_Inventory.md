@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/adepta_sororitas/Owned_Models_Inventory.md
-VERSION: v0.2 (2026-08-22)
+VERSION: v0.3 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (ownership intake 2026-08-22)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -82,6 +82,13 @@ UPDATE_TRIGGER:
 
 ## Related
 
+### System spine (wd527_shipping)
+- Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md)
+- Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md)
+- Force Disposition: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
+- System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
+- System README: [`../../README.md`](../../README.md) · shipping track: [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md)
+
 - [`README.md`](README.md)
 - KT: [`../../../kill_team_2024/teams/celestian_insidiants/README.md`](../../../kill_team_2024/teams/celestian_insidiants/README.md)
 - SM (no soup): [`../space_marines/README.md`](../space_marines/README.md)
@@ -93,6 +100,7 @@ UPDATE_TRIGGER:
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.3 (2026-08-25): wd527_shipping S6 — system spine pointers.
 - v0.2 (2026-08-22): Metal counts — Seraphim **5** (confirmed); Battle Sisters **10** (owner recall).
 - v0.1 (2026-08-22): Owner declaration — metal Canoness / Battle Sisters / Seraphim; Celestian Insidiants; all unpainted.
 

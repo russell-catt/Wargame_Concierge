@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
-VERSION: v0.5.3 (2026-08-20)
+VERSION: v0.5.4 (2026-08-25)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
 
 DOCUMENT_TYPE: Teaching Guide / Army Rule
 PROJECT_NAME: Wargame_Concierge
@@ -35,6 +35,8 @@ Think of your Necron units like robots with spare parts in a backpack. Every tur
 > **Necron army rule** (see owned Necron faction pack — not a Core Rules ID). Timing lines up with the end of the **Command phase** (`08.05`).
 
 **Where to check it:** your own Necrons faction pack, `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf` (Version 1.1). Cross-checked against Wahapedia's Necrons Army Rules section on **2026-08-16**.
+
+**System spine:** wound grid [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · Force Dispositions [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38 [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · system QR [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html) · laminate [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 
 ---
 
@@ -71,12 +73,18 @@ That order has a consequence people miss at the table: **chip damage soaks up yo
 
 Four habits follow from that, and they are the difference between a new Necron player and a good one:
 
-- **Stand on the objective and take the hit.** The instinct to pull a damaged unit back is usually wrong. That unit is scoring **Objective Control** (`14.02`) — like holding a capture-the-flag spot — every phase it stays, and it will get some of the damage back at the end of your next **Command phase** (`08.05`).
-- **Do not lose the last model.** A unit at one model is worth far more than a unit at zero, because one model reanimates and zero models never come back. Screening, coherency, and keeping a body out of blast range all matter more than they look.
+- **Stand on the objective and take the hit.** The instinct to pull a damaged unit back is usually wrong. That unit is scoring **Objective Control** (`14.02`) on the terrain **footprint** (`14.01`) every phase it stays, and it will get some of the damage back at the end of your next **Command phase** (`08.05`).
+- **Do not lose the last model.** A unit at one model is worth far more than a unit at zero, because one model reanimates and zero models never come back. Screening, coherency (**2″/9″**, `03.03`), and keeping a body out of blast range all matter more than they look.
 - **Spread your own casualties, concentrate your enemy's.** You want your opponent's damage smeared thinly across several units. Deploy so no single unit is the only sensible target.
 - **The rule is worth more the longer the game runs.** A Warrior block that survives four battle rounds has effectively been re-bought. Trading it away early throws that away, even at a favourable exchange rate.
 
 This is also why Necrons are a forgiving army to learn on. A positioning mistake that would cost another army a whole unit usually costs you some wounds and one turn of recovery.
+
+**Commentary (White Dwarf 527 — Rules Focus: Terrain Objectives):**
+
+Hold the **footprint**, not a floating marker idea — models inside the terrain area control it. Chip damage on a flag you still occupy is often wasted against Reanimation.
+
+**Cite:** WD527, Rules Focus: Terrain Objectives; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
 
 ---
 
@@ -110,10 +118,17 @@ Put a physical reminder on the table - a dice, a token, a note on your list - th
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) - the laminate version
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) - where the Command phase sits
 - [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) - wounds, saves, Objective Control
+- [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) - S vs T wound grid
+- [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) - Mission 38 when that card is in use
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
 ## Change Log
+- v0.5.4 (2026-08-25): WD527 shipping S6 — system spine links; footprint/OC teaching; Terrain Objectives Commentary; GW notice.
 - v0.5.3 (2026-08-20): Legion row — WarCom FAQ pattern + analysis link; character revive clarified via sibling guides.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial army rule teaching guide (slice S4), written from the owned Necrons Faction Pack v1.1 and the Wahapedia Necrons army rule, both read 2026-08-16. Supersedes the `unverified` sketch in `KB/concepts/reanimation_protocols.md`.

@@ -4,172 +4,128 @@
 <meta charset="utf-8">
 <title>40K First Game — Core</title>
 <style>
-@page { size: letter; margin: 0.5in; }
+@page { size: letter; margin: 0.4in; }
 * { box-sizing: border-box; }
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 10.5pt;
-  line-height: 1.28;
+  font-size: 9pt;
+  line-height: 1.18;
   color: #111;
   margin: 0;
 }
-h1 { font-size: 15pt; margin: 0 0 0.25em; }
-h2 { font-size: 11.5pt; margin: 0.5em 0 0.2em; border-bottom: 1px solid #333; padding-bottom: 1px; }
-h3 { font-size: 10.5pt; margin: 0.35em 0 0.15em; }
-p, ol, ul { margin: 0.2em 0; }
-ol, ul { padding-left: 1.2em; }
-table { width: 100%; border-collapse: collapse; margin: 0.2em 0 0.35em; font-size: 9.5pt; }
-th, td { border: 1px solid #444; padding: 2px 5px; vertical-align: top; text-align: left; }
+h1 { font-size: 12.5pt; margin: 0 0 0.12em; }
+h2 { font-size: 10pt; margin: 0.28em 0 0.1em; border-bottom: 1px solid #333; padding-bottom: 1px; }
+h3 { font-size: 9pt; margin: 0.22em 0 0.08em; }
+p, ol, ul { margin: 0.1em 0; }
+ol, ul { padding-left: 1.1em; }
+table { width: 100%; border-collapse: collapse; margin: 0.1em 0 0.2em; font-size: 8pt; }
+th, td { border: 1px solid #444; padding: 1px 3px; vertical-align: top; text-align: left; }
 th { background: #e8e8e8; }
 .page { page-break-after: always; }
 .page:last-of-type { page-break-after: auto; }
-.footer {
-  font-size: 8pt;
-  color: #444;
-  margin-top: 0.5em;
-  border-top: 1px solid #999;
-  padding-top: 0.25em;
-}
 .callout {
   border: 1.5px solid #333;
-  padding: 0.3em 0.45em;
-  margin: 0.3em 0;
+  padding: 0.2em 0.35em;
+  margin: 0.2em 0;
   background: #f7f7f7;
+  font-size: 8pt;
 }
+.mini { font-size: 7.5pt; }
 .gw-ip-banner {
-  font-size: 9pt;
+  font-size: 8pt;
   font-weight: 600;
   border: 2px solid #333;
-  padding: 0.35em 0.5em;
-  margin: 0 0 0.5em;
+  padding: 0.2em 0.35em;
+  margin: 0 0 0.3em;
   background: #f5f5f5;
 }
 .gw-ip-footer {
-  font-size: 7pt;
+  font-size: 6.5pt;
   color: #444;
-  margin-top: 0.5em;
+  margin-top: 0.3em;
   border-top: 1px solid #999;
-  padding-top: 0.25em;
-  line-height: 1.25;
+  padding-top: 0.15em;
+  line-height: 1.2;
 }
 </style>
 </head>
 <body>
 
 <section class="page">
-  <h1>First game — Core turn &amp; dice</h1>
-  <p>Cut from turn structure + key concepts for a first table game. Core rule IDs are pointers. Army rules: Necron print aids (paraphrase — Codex wall).</p>
-
-  <h2>Battle round frame</h2>
-  <p>A <strong>battle round</strong> (07) is: start-of-round rules, then <strong>both</strong> players take a turn, then end-of-round rules. Your turn: Start of Turn → five phases → End of Turn.</p>
+  <div class="gw-ip-banner"><strong>UNOFFICIAL</strong> — not endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale.</div>
+  <h1>First game — Core turn &amp; dice | Page 1 of 2</h1>
+  <p class="mini">Core IDs are pointers. Army rules: Necron print aids (Codex wall paraphrase). <strong>Spine:</strong> <code>40k_system_quick_reference</code> · <code>40k_wound_roll_reference</code> · Force Dispositions · Mission 38 <code>40k_wd527_mission</code>.</p>
+  <p class="mini"><strong>Distances:</strong> Coherency <strong>2″/9″</strong> (03.03) · Ingress <strong>6″</strong> edge (20.04) · Deep Strike / ingress enemy gap <strong>&gt;8″</strong> · OC on terrain <strong>footprint</strong> (14.01/14.02).</p>
 
   <h2>Your turn, in order</h2>
+  <p class="mini">Battle round (07): both players take a turn. Your turn = Start → five phases → End.</p>
   <table>
     <thead><tr><th>#</th><th>Phase</th><th>What you are deciding</th></tr></thead>
     <tbody>
       <tr><td>0</td><td>Start of Turn</td><td>Resolve “start of your turn” triggers</td></tr>
-      <tr><td>1</td><td><strong>Command</strong> (08)</td><td>Bookkeeping: both +1 CP (08.02); battle-shock (08.03); Necrons <strong>REANIMATE at end</strong> (08.05)</td></tr>
-      <tr><td>2</td><td><strong>Movement</strong> (09)</td><td>Where the game is won — select <strong>every</strong> unit; give a move type</td></tr>
-      <tr><td>3</td><td><strong>Shooting</strong> (10)</td><td>Which threat you remove; pick shooting type + targets (visibility 06.01)</td></tr>
-      <tr><td>4</td><td><strong>Charge</strong> (11)</td><td>Whether a 2D6 gamble is worth it; failed charge often means standing open</td></tr>
-      <tr><td>5</td><td><strong>Fight</strong> (12)</td><td>Activation order — both players fight, alternating</td></tr>
+      <tr><td>1</td><td><strong>Command</strong> (08)</td><td>+1 CP both; battle-shock; Necrons <strong>REANIMATE at end</strong> (08.05)</td></tr>
+      <tr><td>2</td><td><strong>Movement</strong> (09)</td><td>Select <strong>every</strong> unit; move type; reserves / Ingress</td></tr>
+      <tr><td>3</td><td><strong>Shooting</strong> (10)</td><td>Shooting type + targets (visibility 06.01)</td></tr>
+      <tr><td>4</td><td><strong>Charge</strong> (11)</td><td>2D6 gamble; failed charge often = standing open</td></tr>
+      <tr><td>5</td><td><strong>Fight</strong> (12)</td><td>Both players fight, alternating</td></tr>
       <tr><td>6</td><td>End of Turn</td><td>Score VP; fix coherency</td></tr>
     </tbody>
   </table>
 
-  <h3>Move types (pick one per unit)</h3>
+  <h3>Move types</h3>
   <table>
     <thead><tr><th>Type</th><th>Distance</th><th>Cost</th></tr></thead>
     <tbody>
-      <tr><td>Remain Stationary (09.04)</td><td>Nothing moves</td><td>Keeps [HEAVY]</td></tr>
-      <tr><td>Normal Move (09.05)</td><td>Up to M</td><td>Start and end unengaged</td></tr>
-      <tr><td>Advance (09.06)</td><td>M + D6</td><td>Cannot charge; only [ASSAULT] shoot</td></tr>
+      <tr><td>Remain Stationary (09.04)</td><td>—</td><td>Keeps [HEAVY]</td></tr>
+      <tr><td>Normal (09.05)</td><td>Up to M</td><td>Start/end unengaged</td></tr>
+      <tr><td>Advance (09.06)</td><td>M + D6</td><td>No charge; [ASSAULT] only</td></tr>
       <tr><td>Fall Back (09.07)</td><td>Up to M</td><td>No shoot / charge / action</td></tr>
+      <tr><td>Ingress (reserves)</td><td><strong>6″</strong> from edge; <strong>&gt;8″</strong> from enemies</td><td>≠ 9″ coherency span</td></tr>
     </tbody>
   </table>
 
-  <h3>Shooting types</h3>
-  <table>
-    <thead><tr><th>Type</th><th>When</th></tr></thead>
-    <tbody>
-      <tr><td>Normal (10.04)</td><td>Unengaged and did not Advance</td></tr>
-      <tr><td>Assault (10.05)</td><td>Advanced — only [ASSAULT] weapons</td></tr>
-      <tr><td>Close-quarters (10.06)</td><td>Engaged — only [CLOSE-QUARTERS], only at units you are engaged with</td></tr>
-      <tr><td>Indirect (10.07)</td><td>Unseen target; heavy penalty; gives cover (13.08)</td></tr>
-    </tbody>
-  </table>
+  <h3>Shooting / Charge / Fight</h3>
+  <p class="mini"><strong>Shoot:</strong> Normal | Assault (advanced) | Close-quarters (engaged) | Indirect (unseen; gives cover 13.08). <strong>Visibility (06.01):</strong> usually visible + in range + unengaged; Monsters/Vehicles while engaged at −1 to hit.</p>
+  <p class="mini"><strong>Charge (11.02):</strong> within 12″, not engaged, no Advance/Fall Back; 2D6; must end engaged with nominated targets. <strong>Fight:</strong> pile in 3″ → fight (Fights First first) → consolidate 3″.</p>
 
-  <div class="callout">
-    <strong>Visibility (06.01):</strong> Targets must normally be visible, in range, and unengaged. Enemy Monsters and Vehicles are the exception — you can shoot those while they are engaged, at −1 to hit. Terrain may block or obscure LOS — see setup/terrain aid.
-  </div>
-
-  <h3>Charge &amp; Fight (short)</h3>
-  <ul>
-    <li><strong>Charge (11.02):</strong> within 12", not engaged, did not Advance/Fall Back; roll 2D6; must end engaged with all nominated targets or the charge fails.</li>
-    <li><strong>Fight:</strong> pile in 3" (12.02) → fight (12.04, Fights First first) → consolidate 3" (12.07). Objective consolidation is free scoring movement.</li>
-  </ul>
-
-  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Page 1 of 2</p>
+  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> Completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge / never for sale. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Page 1 of 2</p>
 </section>
 
 <section class="page">
-  <h2>Attack sequence (hit → wound → save → damage)</h2>
-  <ol>
-    <li><strong>Hit</strong> (05.01) — D6 vs BS (shoot) or WS (melee). Unmodified <strong>1 always fails</strong>; unmodified <strong>6 is a critical hit</strong>.</li>
-    <li><strong>Wound</strong> (05.02) — D6, Strength vs Toughness. Unmodified 1 fails; unmodified 6 is a critical wound.</li>
-    <li><strong>Save</strong> (05.03) — Defender rolls: armour save modified by AP, <strong>or</strong> invulnerable save (ignores AP). Unmodified 1 fails.</li>
-    <li><strong>Damage</strong> (05.04) — Each unsaved attack costs D wounds. Excess damage does <strong>not</strong> spill to the next model.</li>
+  <h1>First game — Core turn &amp; dice | Page 2 of 2</h1>
+
+  <h2>Attack sequence + S vs T</h2>
+  <ol class="mini">
+    <li><strong>Hit</strong> (05.01) — vs BS/WS; unmodified 1 fails; 6 = critical hit.</li>
+    <li><strong>Wound</strong> (05.02) — S vs T: <strong>S≥2×T → 2+</strong> · <strong>S&gt;T → 3+</strong> · <strong>S=T → 4+</strong> · <strong>S&lt;T → 5+</strong> · <strong>S≤½T → 6+</strong>. Full grid: <code>40k_wound_roll_reference</code>.</li>
+    <li><strong>Save</strong> (05.03) — armour (−AP) or invuln. <strong>Damage</strong> (05.04) — excess does not spill.</li>
+    <li><strong>Allocation:</strong> defender order; already-wounded first; characters cannot be put in front.</li>
   </ol>
-  <p><strong>Allocation:</strong> Defender chooses order; already-wounded group first; <strong>characters cannot be put in front</strong> of ordinary models.</p>
+  <p class="mini"><strong>Cover (13.08):</strong> worsens attacker BS by 1 — not a save bonus.</p>
 
-  <h3>Wound chart (S vs T) — plain</h3>
-  <table>
-    <thead><tr><th>S versus T</th><th>You need</th></tr></thead>
-    <tbody>
-      <tr><td>S at least double T</td><td>Easiest</td></tr>
-      <tr><td>S greater than T</td><td>Easier</td></tr>
-      <tr><td>S equals T</td><td>Even</td></tr>
-      <tr><td>S less than T</td><td>Harder</td></tr>
-      <tr><td>S half T or less</td><td>Hardest</td></tr>
-    </tbody>
-  </table>
+  <h2>OC, attach, battle-shock</h2>
+  <p class="mini"><strong>14.01 / 14.02:</strong> Objective = terrain footprint; sum OC inside each phase/turn; higher controls; tie = nobody; score when mission card says. Battle-shocked = <strong>0 OC</strong>.</p>
+  <p class="mini"><strong>19.01 / 03.03:</strong> one Leader + one Support per bodyguard → one unit; deploy as one <strong>2″/9″</strong> coherency blob. Cannot attach mid-game. Ingress <strong>6″</strong> edge / <strong>&gt;8″</strong> enemies is a different job.</p>
+  <p class="mini"><strong>Battle-shock (08.03):</strong> Command phase — already shocked or ≤ half strength; 2D6 vs Ld. While shocked: no OC · no your stratagems · no actions.</p>
 
-  <h2>Objective Control (OC) vs Battle-shock</h2>
-  <h3>OC — how you win (Ch. 14 / 14.01–14.02)</h3>
-  <ol>
-    <li><strong>Terrain objectives (14.01):</strong> the mission’s terrain <strong>footprint</strong> <em>is</em> the objective. A model counts while it is <strong>inside that terrain area</strong>.</li>
-    <li><strong>Level of control (14.02):</strong> at the end of <strong>every phase and turn</strong>, <strong>sum OC</strong> of models in range. Higher total controls; tie = nobody.</li>
-    <li><strong>Score VP</strong> when the <strong>mission card</strong> says (often end of turn) for objectives you control — control first, then score.</li>
-  </ol>
-  <ul>
-    <li>Control <strong>flips constantly</strong> — re-checked every phase.</li>
-    <li>Bodies beat quality: ten OC 1 out-hold one OC 3 tank.</li>
-    <li>A <strong>battle-shocked</strong> unit has <strong>no OC</strong>.</li>
-  </ul>
-
-  <h3>Attach &amp; deploy (Ch. 19 / 19.01 + 03.03)</h3>
-  <ul>
-    <li><strong>Form (19.01):</strong> before battle, Leader and/or Support attach to an eligible bodyguard. Normally <strong>one Leader + one Support</strong> → one unit.</li>
-    <li><strong>Deploy (03.03):</strong> set up <strong>all</strong> attached models as one coherency blob (2&quot;/9&quot;). Cannot attach mid-game.</li>
-  </ul>
-
-  <h3>Battle-shock (08.03, 01.07)</h3>
-  <p><strong>When:</strong> Command phase — units already battle-shocked or at/below half-strength. Roll 2D6 vs Leadership.</p>
-  <p><strong>While battle-shocked:</strong> OC = nothing · cannot be targeted by your stratagems · cannot start/complete actions · Fall Back uses Desperate Escape.</p>
+  <div class="callout">
+    <strong>Force Disposition / Mission 38:</strong> Write Disposition on the list at Muster. Matching sets each Primary (Chapter Approved Force Dispositions 2-pager). Mission 38 Converging Ambition (<code>40k_wd527_mission</code>) replaces Determine Mission / Layout when in use; Disposition still picks your Primary block.
+  </div>
 
   <h2>Common beginner mistakes</h2>
   <table>
     <thead><tr><th>Mistake</th><th>Reality</th></tr></thead>
     <tbody>
-      <tr><td>Forgetting to select a unit to move</td><td>Every unit must be selected — even Remain Stationary</td></tr>
+      <tr><td>Skip selecting a unit to move</td><td>Every unit must be selected — even Remain Stationary</td></tr>
       <tr><td>Advance then charge</td><td>Advancing removes charge unless a rule says otherwise</td></tr>
       <tr><td>Fight phase is “mine alone”</td><td>Both players fight, alternating</td></tr>
-      <tr><td>Cover as a save bonus</td><td>In 11e, cover worsens attacker’s BS by 1 (13.08)</td></tr>
-      <tr><td>Ignoring consolidation</td><td>3" free move onto an objective after fights</td></tr>
+      <tr><td>Cover as a save bonus</td><td>11e: cover worsens attacker BS by 1</td></tr>
+      <tr><td>Ignoring consolidation</td><td>3″ free move onto an objective after fights</td></tr>
+      <tr><td>Calling Ingress “6″ coherency”</td><td>Edge distance ≠ unit span (2″/9″)</td></tr>
     </tbody>
   </table>
 
-  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Page 2 of 2</p>
+  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> Completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge / never for sale. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Page 2 of 2</p>
 </section>
 
 </body>
