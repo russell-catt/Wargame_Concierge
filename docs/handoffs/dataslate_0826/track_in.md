@@ -1,20 +1,20 @@
 <!--
 FILE: docs/handoffs/dataslate_0826/track_in.md
-VERSION: v0.2 (2026-08-27)
+VERSION: v0.3 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Coordinator — plan package + SM paste)
+AUTHOR_OF_NOTES: Cursor (Coordinator — plan + SM paste + Necron MFM v1.3)
 
 DOCUMENT_TYPE: Track hand-off in
 PROJECT_NAME: Wargame_Concierge
 TRACK: dataslate_0826
-STATUS: Open — plan + SM Codex research; execution gated; G1 partial
+STATUS: Open — plan + SM Codex + Necron MFM v1.3 research; execution gated; G1 partial
 -->
 
 # Track in — dataslate_0826
 
 - **Project:** Wargame_Concierge
 - **Track:** `dataslate_0826`
-- **Status:** Open — plan on `feature/dataslate_0826`; SM Codex preview research filed; **execution gated** (dataslate links still unresolved)
+- **Status:** Open — SM Codex preview + Necron MFM v1.3 research on `feature/dataslate_0826`; **execution gated**
 - **Branch:** `feature/dataslate_0826` (user-requested name)
 - **Handoffs root:** `docs/handoffs/dataslate_0826/`
 - **Playbook:** [`docs/operations/multiagent_coordinator_strategy.md`](../../operations/multiagent_coordinator_strategy.md)
@@ -152,15 +152,18 @@ flowchart TD
   QA1 --> S2 --> QA2
   QA1 --> S2b[S2b SM Codex Oct readiness]
   S2b --> QA2b[QA-S2b]
+  QA1 --> S2c[S2c Necron MFM v1.3]
+  S2c --> QA2c[QA-S2c]
   QA1 --> S3 --> QA3
   QA2 --> S4
   QA2b --> S4
+  QA2c --> S4
   QA3 --> S4
   S4 --> QA4 --> S5 --> QA5
   QA5 --> L0 --> L1 --> QAL --> FS
 ```
 
-**Pipelining:** After QA1 PASS, S2, S2b, and S3 may run in parallel (separate agents). S4 waits for QA2 + QA2b + QA3. L0 may draft source stubs after S0 locks dates (even before shipping finishes) but L1 enhance waits for S2/S2b/S3/S5 content. S2b may start from the SM research note even if dataslate dates are still TBD (preview banners only).
+**Pipelining:** After QA1 PASS, S2 / S2b / S2c / S3 may run in parallel. S2c may start from the MFM research note with owner auth (pointers updated in-slice OK). S4 waits for QA2 + QA2b + QA2c + QA3. S2b may start from SM research before dataslate lock.
 
 ## Slice map
 
