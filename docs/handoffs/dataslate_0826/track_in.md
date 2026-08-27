@@ -67,7 +67,8 @@ Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP befo
 
 | Headline | Research |
 |----------|----------|
-| **Universal Rules Updates v1.1** (legal 26 Aug 2026) | [`40k_universal_rules_updates_v1_1.md`](research/40k_universal_rules_updates_v1_1.md) — staging path locked for **S2e** |
+| Universal Rules Updates v1.1 (legal 26 Aug 2026) | [`40k_universal_rules_updates_v1_1.md`](research/40k_universal_rules_updates_v1_1.md) — staging path locked for **S2e** |
+| WarCom 40K balance “What’s New?” (owner paste) | [`warcom_40k_balance_commentary_aug.md`](research/warcom_40k_balance_commentary_aug.md) — Orks excluded; Sep last monthly; FD map tweaks |
 | Necrons + SM **Faction Pack v1.2** (legal 26 Aug 2026) | [`staging_40k_faction_packs_v1_2.md`](research/staging_40k_faction_packs_v1_2.md) |
 | KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
 | KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
@@ -311,6 +312,7 @@ flowchart TD
 
 ## Change Log
 
+- v0.9 (2026-08-27): WarCom 40K balance commentary paste (Orks out; Sep last monthly; FD maps).
 - v0.8 (2026-08-27): Temp `raw/_dataslate_0826_staging/` drop zone + CLEANUP brief (Drive drag failed).
 - v0.7 (2026-08-27): Owner added Kill Team dataslate to Drive folder; still unread (egress).
 - v0.6 (2026-08-27): Google Drive dataslate folder pointer; egress blocked pending allowlist/upload.
