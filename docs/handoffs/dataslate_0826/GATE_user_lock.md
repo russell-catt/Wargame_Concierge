@@ -8,9 +8,10 @@
 
 | # | Gate | Status |
 |---|------|--------|
-| G1 | WarCom egress allowlist **or** owner pastes resolved L1–L3 titles/dates/PDF names | Open |
+| G1 | WarCom egress allowlist **or** owner pastes resolved L1–L3 titles/dates/PDF names | **Partial** — SM Codex preview body pasted 2026-08-27 ([`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md)); still need other two links + canonical URL |
 | G2 | Owner confirms dataslate PDFs saved locally (or accepts `draft`-only shipping) | Open |
 | G3 | Owner authorizes multi-slice execution (Impl → QA ≠ model → FS third model) | Open |
+| G3b | Optional: authorize **S2b only** (SM October readiness banners) before dataslates land | Open |
 
 ## Authorize by saying
 

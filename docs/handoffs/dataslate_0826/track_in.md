@@ -45,7 +45,18 @@ STATUS: Open — plan package Ready; execution gated on Preflight link resolve +
 | L2 | `https://news.warhammer.com/optiext/optiextension.dll?ID=oGaQ5eOApC1Q-hcypyE7zoFhMv6hgaWSzW1A3xVHSue3e3-ZPpkSIZWdipRa8LOWLH00qp_3g15zYsX_K2A` |
 | L3 | `https://news.warhammer.com/optiext/optiextension.dll?ID=NTOd06r859kUenLP4iE4NYBr2beBbX0uj9BZh9WeCsuZ3BM0xvoWY9CyN_SxDE3TFE1JYgktd5TzzPIZXaw` |
 
-**Egress note (plan session):** Cloud egress currently blocks `news.warhammer.com` / `warhammer-community.com`. Domains requested for allowlist. Until allowed (or owner pastes resolved titles/URLs/PDF names), S0 stays **Blocked**.
+**Egress note (plan session):** Cloud egress currently blocks `news.warhammer.com` / `warhammer-community.com`. Domains requested for allowlist. Until allowed (or owner pastes resolved titles/URLs/PDF names), full S0 stays **Blocked**.
+
+### Partial resolve — owner paste 2026-08-27
+
+| Field | Value |
+|-------|-------|
+| **Doc** | [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md) |
+| **Class** | Codex: Space Marines preview (App launch **October**) |
+| **L1–L3 slot** | _TBD — assign when URL known_ |
+| **Key shipping risk** | Tac → Intercessor Proxy; Dev → Desolation Proxy; Whirlwind → Legends |
+
+Still needed from owner or egress: the other two links (expected Balance Dataslates) + canonical URL for this SM article.
 
 ## Locked dates (fill in S0)
 
@@ -53,7 +64,8 @@ STATUS: Open — plan package Ready; execution gated on Preflight link resolve +
 |-------|-------|
 | **40K Balance Dataslate date** | _TBD — S0_ |
 | **KT Balance Dataslate date** | _TBD — S0_ (may equal 40K date) |
-| **Announcement retrieval date** | _TBD — S0_ |
+| **SM Codex preview (owner paste)** | 2026-08-27 (paste date); Codex/App **October** |
+| **Announcement retrieval date** | Partial — 2026-08-27 paste |
 | **Footer stamp strings** | See convention below once dates lock |
 
 ## Footer freshness convention (locked for this track)
@@ -70,6 +82,12 @@ Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom). Teaching paraphrase —
 
 ```text
 Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom) · teaching paraphrase.
+```
+
+**SM Codex preview (until Codex ships):**
+
+```text
+Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.
 ```
 
 **Warcode / non-GW systems:**
@@ -128,14 +146,17 @@ flowchart TD
 
   PF --> S0 --> QA0 --> S1 --> QA1
   QA1 --> S2 --> QA2
+  QA1 --> S2b[S2b SM Codex Oct readiness]
+  S2b --> QA2b[QA-S2b]
   QA1 --> S3 --> QA3
   QA2 --> S4
+  QA2b --> S4
   QA3 --> S4
   S4 --> QA4 --> S5 --> QA5
   QA5 --> L0 --> L1 --> QAL --> FS
 ```
 
-**Pipelining:** After QA1 PASS, S2 and S3 may run in parallel (separate agents). S4 waits for both QA2 and QA3. L0 may draft source stubs after S0 locks dates (even before shipping finishes) but L1 enhance waits for S2/S3/S5 content.
+**Pipelining:** After QA1 PASS, S2, S2b, and S3 may run in parallel (separate agents). S4 waits for QA2 + QA2b + QA3. L0 may draft source stubs after S0 locks dates (even before shipping finishes) but L1 enhance waits for S2/S2b/S3/S5 content. S2b may start from the SM research note even if dataslate dates are still TBD (preview banners only).
 
 ## Slice map
 
@@ -146,8 +167,10 @@ flowchart TD
 | **QA-S0** | QA | Re-check URLs/dates/impact matrix vs article text |
 | **S1** | Implementer | `raw/pointers/*` + living sources; footer template currency line; no binaries |
 | **QA-S1** | QA | Pointer hygiene; template does not drop UNOFFICIAL requirements |
-| **S2** | Implementer | 40K shipping: lists, QRs, Key Concepts, setup/rules teaching as impacted; stamp footers |
+| **S2** | Implementer | 40K shipping from **Balance Dataslate** (when S0 locks it): lists, QRs, Key Concepts; stamp footers |
 | **QA-S2** | QA | Codex wall; regression bar; legibility spot-check ≥3 changed pages |
+| **S2b** | Implementer | SM Codex October readiness: Legendary Proxies / Legends honesty; **no** early T5/S5 list rewrite — see [`slices/S2b_brief.md`](slices/S2b_brief.md) |
+| **QA-S2b** | QA | Preview vs live truth separation; Tac/Dev/Whirlwind honesty; legibility ≥3 SM pages |
 | **S3** | Implementer | KT24 shipping: teams/rules/print as impacted; stamp footers |
 | **QA-S3** | QA | Quote hierarchy; regression; legibility spot-check ≥3 pages |
 | **S4** | Implementer | Project core: `README.md`, `START_HERE.md`, `AGENTS.md` living-refs touch if needed, `docs/README.md`, `docs/Project_Planning.md`, `docs/Game_System_Scaffold.md`, `games/README.md`, `raw/README.md` (pointer note only — Coordinator/Implementer may edit `raw/` markdown pointers, never binaries) |
@@ -197,9 +220,10 @@ flowchart TD
 
 ## Open questions (owner)
 
-1. Confirm resolved article titles once S0 can fetch (or paste them if egress stays blocked).
+1. Confirm which of L1–L3 is the SM Codex preview; paste the other two articles (or URLs) — expected Balance Dataslates.
 2. Have the dataslate PDFs been saved under `C:\Personal\40K\rules\` and `C:\Personal\Kill Team\…` yet? If not, S2/S3 stay discovery-only (`draft`) until local files exist.
-3. Authorize full track execution after Preflight/S0?
+3. Authorize S2b (SM preview banners) now, full track later, or wait for all three links?
+4. Preferred Matched framing post-October: keep Tac/Dev as Legendary Proxies on “Matched*” with event caveat, or force Intercessor/Desolation swaps for tournament lists?
 
 ## Slice rollup
 
@@ -210,8 +234,10 @@ flowchart TD
 | QA-S0 | Pending |
 | S1 | Ready (depends QA-S0) |
 | QA-S1 | Pending |
-| S2 | Ready (depends QA-S1) |
+| S2 | Ready (depends QA-S1 + dataslate lock) |
 | QA-S2 | Pending |
+| S2b | Ready (SM research note filed; may run with owner auth before dataslate lock) |
+| QA-S2b | Pending |
 | S3 | Ready (depends QA-S1) |
 | QA-S3 | Pending |
 | S4 | Ready (depends QA-S2 + QA-S3) |
@@ -225,4 +251,5 @@ flowchart TD
 
 ## Change Log
 
+- v0.2 (2026-08-27): Owner SM Codex preview paste → research note; add S2b; expand goals beyond dataslate-only.
 - v0.1 (2026-08-27): Plan package — multi-slice track, model matrix, footer currency convention, core-file inventories.
