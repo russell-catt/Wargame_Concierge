@@ -37,6 +37,7 @@
 
 ## Unblock options
 
-1. Approve Drive egress domains for this cloud environment, **or**
-2. Upload the **Kill Team Balance Dataslate** PDF (and any unread 40K files) to the agent chat, **or**
-3. Paste the folder file list (names) and upload only the unread ones.
+1. **Preferred now:** Drop PDFs into [`raw/_dataslate_0826_staging/`](../../../raw/_dataslate_0826_staging/) on `feature/dataslate_0826` (temporary gitignore; CLEANUP before main).
+2. Approve Drive egress domains, **or**
+3. Upload PDFs to agent chat when drag works.
+
