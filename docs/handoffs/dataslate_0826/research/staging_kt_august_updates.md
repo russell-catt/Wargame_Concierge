@@ -12,12 +12,12 @@
 ## Important (owner lock 2026-08-27)
 
 **There is no singular Kill Team “Balance Dataslate” PDF.**  
-The quarterly balance package is:
+Owner lock (2026-08-27): the quarterly balance package is the **Core rules update combined with team updates** — specifically:
 
 1. **Core / killzone / mission-pack update surfaces** (e.g. Tomb World update log, Mission packs update log, and any Core rules patches), **plus**
 2. **Team online rules** PDFs that incorporate the balance tweaks (dated stamps such as `eng_26-08_`).
 
-WarCom “download the balance update” means those documents / App mirrors — not one titled dataslate file. Stop treating a missing `*balance*dataslate*.pdf` as a blocker.
+WarCom “download the balance update” means those documents / App mirrors — not one titled dataslate file. Do **not** hunt for or block on a missing `*balance*dataslate*.pdf`.
 
 ## Tomb World update log (paraphrase)
 

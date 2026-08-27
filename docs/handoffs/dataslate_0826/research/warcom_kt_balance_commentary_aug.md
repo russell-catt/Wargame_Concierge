@@ -4,7 +4,7 @@
 - **Captured:** 2026-08-27
 - **Provenance:** Owner-pasted WarCom Kill Team quarterly balance “top five” commentary (canonical URL TBD).
 - **Product class:** Announcement / design intent for the **Kill Team quarterly balance update** (end of summer / Aug window).
-- **Package shape (owner lock 2026-08-27):** **No singular dataslate file.** Balance = **core/update-log surfaces + team online rules** updates. See [`staging_kt_august_updates.md`](staging_kt_august_updates.md).
+- **Package shape (owner lock 2026-08-27):** **No singular dataslate file.** Balance = **Core rules update combined with team updates** (update logs + dated team online rules). See [`staging_kt_august_updates.md`](staging_kt_august_updates.md).
 - **Confidence:** `draft` until URL locked; package pieces are in staging (update logs + team packs).
 - **Copyright:** Do not promote verbatim to `games/` or `KB/`. Teaching paraphrase only. Scoped KT quotes only under `games/kill_team_2024/` with filename + page.
 
@@ -26,9 +26,9 @@ Article closes: download the balance update; next look is in a few months (next 
 
 | Item | Status in track |
 |------|-----------------|
-| Singular KT Balance Dataslate PDF | **Does not exist** (owner lock) — do not block on it |
+| Singular KT Balance Dataslate PDF | **Does not exist** (owner lock) — do not hunt for or block on it |
 | Hierotek Circle online rules | Staged: `eng_hierotek_circle_online_rules-*.pdf` — S3 verify regen timing vs commentary |
-| Tomb World / Mission packs Aug logs | Staged — part of the **core/update** half of the package |
+| Tomb World / Mission packs Aug logs | Staged — **Core / update-log** half of the package |
 | Priority learning teams (Canoptek, Plague Marines, Angels of Death) | Staged online rules — refresh teaching; top-five teams not priority → waiver |
 | Canoptek / Tomb World | Indirect — Hierotek sibling; Tomb World log separate |
 
@@ -36,12 +36,9 @@ Article closes: download the balance update; next look is in a few months (next 
 
 1. **In scope:** Hierotek regen timing (if any teaching mentions Hierotek / Apprentek proxy); priority team pack currency stamps; Tomb World teleport/breach notes from update log; Nemesis Towering commentary.
 2. **Out of scope (waiver):** Fellgor, Goremongers, Raveners, Wolf Scouts full teaching — record commentary only in this research note + optional glossary stubs later.
-3. Currency stamp: **Kill Team quarterly balance — August 2026** (update logs + dated team online rules; no singular dataslate filename).
+3. Currency stamp: **Kill Team quarterly balance — August 2026** (Core rules update + team updates; no singular dataslate filename).
 
-## Open questions
-
-1. Canonical WarCom URL?
-2. Expand S3 beyond priority teams + Hierotek note?
+## Owner paste (agent context — do not promote verbatim)
 
 ```text
 The end of summer means it's time for another quarterly balance update for Kill Team, with some significant tweaks to teams like the Wolf Scouts, Fellgor Ravagers, and Raveners.

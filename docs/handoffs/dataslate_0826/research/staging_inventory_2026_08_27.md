@@ -3,7 +3,7 @@
 - **Branch:** `feature/dataslate_0826` @ `9a9dcf8` (Universal Rules added)
 - **Path:** `raw/_dataslate_0826_staging/`
 - **Count:** 14 PDFs (+ README)
-- **Note:** **No singular “Balance Dataslate” PDF** (owner lock). KT package = update logs + team online rules. 40K package = Universal Rules + Faction Packs + MFM (not one dataslate file either for our purposes).
+- **Note:** **No singular “Balance Dataslate” PDF** (owner lock). KT package = **Core rules update combined with team updates** (update logs + team online rules). 40K package = Universal Rules + Faction Packs + MFM (not one dataslate file either for our purposes).
 
 ## Inventory
 
@@ -36,7 +36,7 @@
 
 ## Missing vs owner expectation
 
-- Standalone KT **Balance Dataslate** PDF: **not in drop**. Treat update logs + dated `eng_26-08_` team packs as the KT balance/update surface until a titled dataslate appears.
+- Standalone KT **Balance Dataslate** PDF: **does not exist** (owner lock). Treat Core/update logs + dated `eng_26-08_` team packs as the full KT balance package — do not wait for a titled dataslate.
 - Standalone 40K Balance Dataslate PDF: **not in drop**. Faction Packs v1.2 + Universal Rules v1.1 + MFM v1.3 cover the Aug 26 package.
 
 ## Detail notes

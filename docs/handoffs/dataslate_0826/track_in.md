@@ -59,7 +59,7 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 **PDF staging (2026-08-27):** Owner drops unread GW PDFs into [`raw/_dataslate_0826_staging/`](../../raw/_dataslate_0826_staging/) on this branch (temp gitignore negation). Extract → research. **CLEANUP** before merge to `main` — see [`slices/CLEANUP_brief.md`](slices/CLEANUP_brief.md).
 
-Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP before merge.
+Still needed: authorize slices; CLEANUP before merge. KT package shape locked (no singular dataslate).
 
 ## Staging pull (2026-08-27 @ `9a9dcf8`)
 
@@ -73,15 +73,15 @@ Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP befo
 | KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
 | WarCom KT quarterly balance “top five” (owner paste) | [`warcom_kt_balance_commentary_aug.md`](research/warcom_kt_balance_commentary_aug.md) — Hierotek in scope; Fellgor/Goremongers/Raveners/Wolf Scouts waiver unless expanded |
 | KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
-| **No** titled Balance Dataslate PDF | **Owner lock:** correct — KT = core/update logs + team rules; 40K = Universal Rules + FP + MFM |
+| **No** singular KT Balance Dataslate PDF | **Owner lock:** correct — KT = **Core rules update + team updates** (update logs + dated team online rules); 40K = Universal Rules + FP + MFM |
 
 ## Locked dates (fill in S0)
 
 | Field | Value |
 |-------|-------|
 | **40K Balance Dataslate date** | _No standalone PDF in staging_ — use Faction Pack **v1.2** + Universal Rules **v1.1** + MFM **v1.3** (all legal / stamped **26 Aug 2026** where dated) |
-| **KT Balance Dataslate date** | **N/A — no singular file** (owner lock). Package = Aug 2026 update logs + dated team online rules (`eng_26-08_`, etc.) |
-| **KT package stamp (currency)** | **Kill Team quarterly balance — August 2026** |
+| **KT Balance Dataslate date** | **N/A — no singular file** (owner lock). Package = **Core rules update combined with team updates** |
+| **KT package stamp (currency)** | **Kill Team quarterly balance — August 2026** (Core/update logs + team online rules) |
 | **40K Faction Packs** | Necrons + Space Marines **v1.2** · legal **26 Aug 2026** |
 | **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** |
 | **Necron MFM** | **v1.3** (owner paste 2026-08-27) |
@@ -121,6 +121,12 @@ Rules currency: Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · te
 
 ```text
 Rules currency: Munitorum Field Manual — Necrons v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+```
+
+**Kill Team (no singular dataslate — Core + team package):**
+
+```text
+Rules currency: Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs.
 ```
 
 **SM Codex preview (until Codex ships):**
@@ -314,6 +320,7 @@ flowchart TD
 
 ## Change Log
 
+- v0.12 (2026-08-27): Owner reaffirm — KT has **no singular dataslate**; package = **Core rules update + team updates**; KT footer stamp; clear stale “need KT dataslate” blockers.
 - v0.11 (2026-08-27): Owner lock — no singular KT dataslate; package = core/update logs + team online rules.
 - v0.10 (2026-08-27): WarCom KT quarterly balance commentary (top five); Hierotek in S3 scope.
 - v0.9 (2026-08-27): WarCom 40K balance commentary paste (Orks out; Sep last monthly; FD maps).

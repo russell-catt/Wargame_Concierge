@@ -15,15 +15,15 @@
 
 ## Requirements
 
-1. Add/update markdown pointers for 40K and KT Balance Dataslates (new files under `raw/pointers/` as needed — e.g. `balance_dataslate_40k_0826.md`, `balance_dataslate_kt_0826.md`).
+1. Add/update markdown pointers for the **40K Aug package** (Universal Rules / FP / MFM — not necessarily one dataslate file) and the **KT package** (**Core rules update + team updates** — **no** singular `balance_dataslate_kt_*.md` filename required; name pointers after real PDFs / package stamp).
 2. Update `web_living_sources.md`, `kill_team_web_living_sources.md` (if present), and `Source_Library.md` catalog rows with **retrieval dates**.
-3. Extend GW footer templates with the **optional currency line** from `track_in.md` (do not remove UNOFFICIAL / non-endorsement sentences).
+3. Extend GW footer templates with the **optional currency lines** from `track_in.md` (incl. KT quarterly package stamp; do not remove UNOFFICIAL / non-endorsement sentences).
 4. Note in pointer docs: PDFs stay outside git; read in place once owner saves them.
 5. Write `S1_implementer.md`.
 
 ## Exit criteria (QA verifies)
 
-- [ ] Pointers name WarCom URLs + dataslate dates + local path expectations
+- [ ] Pointers name WarCom URLs + package dates/stamps + local path expectations; KT not framed as a missing singular dataslate
 - [ ] Template currency section present; banner/footer A–D still required
 - [ ] No binaries committed
 - [ ] Librarian did not need to write `raw/` (Implementer owns pointers)
