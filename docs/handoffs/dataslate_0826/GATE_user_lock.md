@@ -21,6 +21,7 @@ Staging README: [`raw/_dataslate_0826_staging/README.md`](../../../raw/_dataslat
 | G1 | WarCom egress / pastes / uploads / Drive | **Partial** — pastes + Universal Rules upload; Drive still blocked |
 | G1d | Remaining PDFs via **`raw/_dataslate_0826_staging/`** | **PASS** — 14 PDFs (incl. Universal Rules v1.1) as of `9a9dcf8` |
 | G-KT | KT package shape | **PASS** — **no singular dataslate**; package = **Core rules update + team updates** (owner lock 2026-08-27) |
+| G-40K | 40K package shape | **PASS** — **no singular dataslate**; package = **Universal Rules + Faction Pack + MFM** (owner lock 2026-08-27) |
 | G2 | Owner confirms long-term copies under `C:\Personal\…` (or accepts `draft`) | Open |
 | G3 | Owner authorizes multi-slice execution | Open |
 | G-clean | **CLEANUP** staging PDFs + gitignore before squash-merge | Required |

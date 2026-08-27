@@ -3,7 +3,8 @@
 - **Track:** `dataslate_0826`
 - **Captured:** 2026-08-27
 - **Provenance:** Owner-pasted “What’s New?” body from a Warhammer Community **40K** article (canonical URL TBD — egress blocked).
-- **Product class:** Announcement / design intent for the **August balance package** (points + detachment pairing + Force Disposition maps) — not a PDF.
+- **Product class:** Announcement / design intent for the **August balance package** (points + detachment pairing + Force Disposition maps) — **not** a singular dataslate PDF.
+- **Package shape (owner lock 2026-08-27):** Same as KT — **no singular dataslate**. 40K package = **Universal Rules update + Faction Pack updates + MFM points** (+ commentary). See [`research_plan_restatement.md`](research_plan_restatement.md).
 - **Confidence:** `draft` until URL + retrieval date locked.
 - **Copyright:** Do not promote verbatim to `games/` or `KB/`. Teaching paraphrase only.
 

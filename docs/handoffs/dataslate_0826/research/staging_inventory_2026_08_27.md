@@ -3,7 +3,7 @@
 - **Branch:** `feature/dataslate_0826` @ `9a9dcf8` (Universal Rules added)
 - **Path:** `raw/_dataslate_0826_staging/`
 - **Count:** 14 PDFs (+ README)
-- **Note:** **No singular “Balance Dataslate” PDF** (owner lock). KT package = **Core rules update combined with team updates** (update logs + team online rules). 40K package = Universal Rules + Faction Packs + MFM (not one dataslate file either for our purposes).
+- **Note:** **No singular “Balance Dataslate” PDF** for **40K or KT** (owner lock). 40K package = Universal Rules + Faction Packs + MFM. KT package = **Core rules update combined with team updates**.
 
 ## Inventory
 

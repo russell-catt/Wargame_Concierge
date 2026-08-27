@@ -25,9 +25,9 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 1. **Parse** the three owner WarCom newsletter links → canonical article URLs, titles, dates, PDF names, and systems touched. **At least one link is a Codex: Space Marines preview (October), not a Balance Dataslate** — see [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md).
 2. **Pointer + inventory** only under `raw/pointers/` — **never** commit GW dataslate / Codex PDFs/binaries.
-3. **Shipping impact:** 40K + KT Balance Dataslates where applicable; **plus** SM Codex October readiness (Legendary Proxies / Legends honesty) without rewriting live lists to preview stats early. Codex wall intact on armies.
+3. **Shipping impact:** 40K + KT **balance packages** (Core/universal + faction/team updates — **no** singular dataslate file); **plus** SM Codex October readiness (Legendary Proxies / Legends honesty) without rewriting live lists to preview stats early. Codex wall intact on armies.
 4. **Core currency pass:** project root + `docs/` cores, and each game’s cores (40K, KT24, Warcode N/A stamp).
-5. **Footer freshness:** dataslate date and/or SM Codex preview / October stamp as applicable.
+5. **Footer freshness:** package piece stamps (not a fictional dataslate filename) and/or SM Codex preview / October stamp as applicable.
 6. **Heavy QA:** Tier 2 every slice; Impl ≠ QA model; FS third family; legibility spot-checks.
 
 ## Non-goals
@@ -59,11 +59,11 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 **PDF staging (2026-08-27):** Owner drops unread GW PDFs into [`raw/_dataslate_0826_staging/`](../../raw/_dataslate_0826_staging/) on this branch (temp gitignore negation). Extract → research. **CLEANUP** before merge to `main` — see [`slices/CLEANUP_brief.md`](slices/CLEANUP_brief.md).
 
-Still needed: authorize slices; CLEANUP before merge. KT package shape locked (no singular dataslate).
+Still needed: authorize slices; CLEANUP before merge. **Package shape locked for both systems** (no singular dataslate — Core/universal + faction/team updates).
 
 ## Staging pull (2026-08-27 @ `9a9dcf8`)
 
-**14 PDFs** in `raw/_dataslate_0826_staging/`. Full table: [`research/staging_inventory_2026_08_27.md`](research/staging_inventory_2026_08_27.md).
+**14 PDFs** in `raw/_dataslate_0826_staging/`. Full table: [`research/staging_inventory_2026_08_27.md`](research/staging_inventory_2026_08_27.md). Owner review restatement: [`research/research_plan_restatement.md`](research/research_plan_restatement.md).
 
 | Headline | Research |
 |----------|----------|
@@ -73,13 +73,14 @@ Still needed: authorize slices; CLEANUP before merge. KT package shape locked (n
 | KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
 | WarCom KT quarterly balance “top five” (owner paste) | [`warcom_kt_balance_commentary_aug.md`](research/warcom_kt_balance_commentary_aug.md) — Hierotek in scope; Fellgor/Goremongers/Raveners/Wolf Scouts waiver unless expanded |
 | KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
-| **No** singular KT Balance Dataslate PDF | **Owner lock:** correct — KT = **Core rules update + team updates** (update logs + dated team online rules); 40K = Universal Rules + FP + MFM |
+| **No** singular Balance Dataslate (40K or KT) | **Owner lock:** both = **Core/universal update + faction/team updates** (+ MFM for 40K points) |
 
 ## Locked dates (fill in S0)
 
 | Field | Value |
 |-------|-------|
-| **40K Balance Dataslate date** | _No standalone PDF in staging_ — use Faction Pack **v1.2** + Universal Rules **v1.1** + MFM **v1.3** (all legal / stamped **26 Aug 2026** where dated) |
+| **40K Balance Dataslate date** | **N/A — no singular file** (owner lock). Package = **Universal Rules v1.1 + Faction Pack v1.2 + MFM v1.3** |
+| **40K package stamp (currency)** | **40K Aug 2026 package** — Universal Rules **v1.1** · Faction Pack **v1.2** · MFM **v1.3** (legal / App **26 Aug 2026** where dated) |
 | **KT Balance Dataslate date** | **N/A — no singular file** (owner lock). Package = **Core rules update combined with team updates** |
 | **KT package stamp (currency)** | **Kill Team quarterly balance — August 2026** (Core/update logs + team online rules) |
 | **40K Faction Packs** | Necrons + Space Marines **v1.2** · legal **26 Aug 2026** |
@@ -93,19 +94,13 @@ Still needed: authorize slices; CLEANUP before merge. KT package shape locked (n
 
 Extend existing GW notices — **do not replace** UNOFFICIAL / non-endorsement language.
 
-**Print HTML (append inside `.gw-ip-footer` or immediately after):**
+**Print HTML / Markdown — prefer package stamps (no singular dataslate):**
 
 ```text
-Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom). Teaching paraphrase — verify owned PDF before tournament play.
+Rules currency: 40K Aug 2026 package — Universal Rules v1.1 · Faction Pack v1.2 · MFM v1.3 (legal / App 26 Aug 2026 where dated). Teaching paraphrase — verify owned PDFs before tournament play.
 ```
 
-**Markdown shipping (`## Games Workshop notice` or Attribution):**
-
-```text
-Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom) · teaching paraphrase.
-```
-
-**Universal Rules Updates:**
+**Universal Rules Updates (piece-specific, optional):**
 
 ```text
 Rules currency: Universal Rules Updates v1.1 (legal 26 Aug 2026) · supersedes July v1.0 on same topics.
@@ -138,8 +133,10 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Warcode / non-GW systems:**
 
 ```text
-Last reviewed: <YYYY-MM-DD> · not affected by Games Workshop Balance Dataslates.
+Last reviewed: <YYYY-MM-DD> · not affected by Games Workshop balance packages.
 ```
+
+**Deprecated for this track:** do **not** invent `Rules currency: Balance Dataslate <date>` when no such file exists.
 
 **Templates:** S1 updates [`templates/Footer_Template_Gw_Print.md`](../../../templates/Footer_Template_Gw_Print.md) + [`templates/Gw_Print_Banner.html`](../../../templates/Gw_Print_Banner.html) with an optional “currency line” section so future slices reuse it.
 
@@ -221,7 +218,7 @@ flowchart TD
 | **QA-S0** | QA | Re-check URLs/dates/impact matrix vs article text |
 | **S1** | Implementer | `raw/pointers/*` + living sources; footer template currency line; no binaries |
 | **QA-S1** | QA | Pointer hygiene; template does not drop UNOFFICIAL requirements |
-| **S2** | Implementer | 40K shipping from **Balance Dataslate** (when S0 locks it): lists, QRs, Key Concepts; stamp footers |
+| **S2** | Implementer | 40K shipping from **Aug package pieces** (FP v1.2 + FD notes as needed; MFM/core via S2c–S2e): lists, QRs, Key Concepts; stamp **package** footers — not a singular dataslate hunt |
 | **QA-S2** | QA | Codex wall; regression bar; legibility spot-check ≥3 changed pages |
 | **S2b** | Implementer | SM Codex October readiness: Legendary Proxies / Legends honesty; **no** early T5/S5 list rewrite — see [`slices/S2b_brief.md`](slices/S2b_brief.md) |
 | **QA-S2b** | QA | Preview vs live truth separation; Tac/Dev/Whirlwind honesty; legibility ≥3 SM pages |
@@ -237,7 +234,7 @@ flowchart TD
 | **QA-S4** | QA | Currency claims match S0 dates; no stale “July-only” language where dataslate supersedes |
 | **S5** | Implementer | Game core READMEs + Event_Ready + rules/setup indexes for **all three** systems; sweep remaining GW footers for currency line; Warcode N/A stamp |
 | **QA-S5** | QA | Footer sample audit; Warcode proper-noun ban untouched |
-| **L0** | Librarian | KB source page stubs for 40K + KT dataslates |
+| **L0** | Librarian | KB source page stubs for 40K + KT **packages** (not fictional dataslate filenames) |
 | **L1** | Librarian | Enhance entities/glossary/index/log; or no-op waivers with reasons |
 | **QA-L1** | QA | Librarian enhance checklist |
 | **FS** | Final Sanity | Cross-slice rollup; open questions closed or waived; **legibility spot-checks** on a fixed sample set; track final report |
@@ -296,7 +293,7 @@ flowchart TD
 | QA-S0 | Pending |
 | S1 | Ready (depends QA-S0) |
 | QA-S1 | Pending |
-| S2 | Ready (depends QA-S1 + dataslate lock) |
+| S2 | Ready (depends QA-S1 + **40K package** lock — **PASS**, no singular dataslate) |
 | QA-S2 | Pending |
 | S2b | Ready (SM research note filed; may run with owner auth before dataslate lock) |
 | QA-S2b | Pending |
@@ -320,6 +317,7 @@ flowchart TD
 
 ## Change Log
 
+- v0.13 (2026-08-27): Owner lock — **40K also** has no singular dataslate; package = Core/universal + Faction Pack + MFM. Research plan restatement filed for review.
 - v0.12 (2026-08-27): Owner reaffirm — KT has **no singular dataslate**; package = **Core rules update + team updates**; KT footer stamp; clear stale “need KT dataslate” blockers.
 - v0.11 (2026-08-27): Owner lock — no singular KT dataslate; package = core/update logs + team online rules.
 - v0.10 (2026-08-27): WarCom KT quarterly balance commentary (top five); Hierotek in S3 scope.
