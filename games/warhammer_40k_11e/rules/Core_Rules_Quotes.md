@@ -1,17 +1,18 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Core_Rules_Quotes.md
-VERSION: v0.5.1 (2026-08-18)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, track 40k_warcom_quotes / S2)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 / S2e)
 
 DOCUMENT_TYPE: Rules Quote Appendix
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 — 11th Edition
-REFERENCE_STATUS: Draft — Core IDs extracted 2026-08-18 from owned local PDF; personal use only; never for sale
+REFERENCE_STATUS: Draft — Core IDs extracted 2026-08-18 from owned local PDF; Universal Rules Updates v1.1 (legal 26 Aug 2026) quote pass added 2026-08-27; personal use only; never for sale
 
 SOURCES:
   - C:\\Personal\\40K\\rules\\eng_01-06_warhammer40k_new40k_core_rules.pdf (read in place 2026-08-18)
-  - C:\\Personal\\40K\\rules\\eng_22-07_warhammer_40,000_universal_rules_updates.pdf (v1.0, legal 22 Jul 2026; read in place 2026-08-18)
+  - C:\\Personal\\40K\\rules\\eng_22-07_warhammer_40,000_universal_rules_updates.pdf (v1.0, legal 22 Jul 2026; SUPERSEDED by v1.1 on the same topics; read in place 2026-08-18)
+  - raw/_dataslate_0826_staging/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf (Universal Rules Updates v1.1, legal 26 Aug 2026; branch-only staging copy, read in place 2026-08-27; PDF not committed — see raw/pointers/rules_core.md)
   - https://www.warhammer-community.com/en-gb/articles/nhqt9wx3/new40k-rules-download-the-free-core-rules-now/ (retrieved 2026-08-18)
 
 PURPOSE:
@@ -26,7 +27,9 @@ UPDATE_TRIGGER:
 
 **Personal use only. Never for sale.** Quotes from owned local WarCom-free Core PDFs only; read in place at `C:\Personal\40K\rules\`. **Warhammer 40,000 is Copyright Games Workshop Limited.**
 
-**Source hierarchy:** Core Rules PDF (`eng_01-06_warhammer40k_new40k_core_rules.pdf`) is the baseline. Dated `eng_*` stamps supersede on the same topic. Omission in a later lite/FAQ/Event Companion is **not** a patch. July universal updates (`eng_22-07_warhammer_40,000_universal_rules_updates.pdf`, v1.0, legal 22 July 2026) patch **stratagem** interactions (unnamed 0CP, multi-use, 12" targeting → 18", add-unit once per battle) — they do **not** reprint Core IDs.
+**Source hierarchy:** Core Rules PDF (`eng_01-06_warhammer40k_new40k_core_rules.pdf`) is the baseline. Dated `eng_*` stamps supersede on the same topic. Omission in a later lite/FAQ/Event Companion is **not** a patch. **Universal Rules Updates v1.1 (legal 26 Aug 2026) supersedes v1.0 (legal 22 July 2026) on the same topics** — see the August section below. Neither sheet reprints Core IDs for the stratagem items; v1.1 additionally assigns **new** Core IDs `18.06`/`18.07` for disembark move typing.
+
+**Currency stamp (2026-08-27):** Universal Rules Updates **v1.1, legal 26 Aug 2026** — cross-checked against this file's Transports section (`18.03`–`18.07`) and the July stratagem flags (`15.x`). No other Core ID required a rewrite.
 
 Teaching paraphrase lives in [`Overview.md`](Overview.md), [`Turn_Structure.md`](Turn_Structure.md), [`Key_Concepts.md`](Key_Concepts.md), [`Keyword_Glossary.md`](Keyword_Glossary.md), [`../setup/Board_Setup.md`](../setup/Board_Setup.md), and [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md). This file is the citation spine.
 
@@ -47,11 +50,13 @@ PDF text-layer extraction can split ligatures and headings. If a block looks off
 
 ---
 
-## July `eng_22-07_*` deltas (universal rules updates v1.0)
+## July `eng_22-07_*` deltas (universal rules updates v1.0) — **SUPERSEDED**
+
+**Status:** **Superseded by Universal Rules Updates v1.1 (26 Aug 2026) on the same topics** — see the August section immediately below. Kept here for history only; do not teach from this section.
 
 **Source:** `eng_22-07_warhammer_40,000_universal_rules_updates.pdf` — p.1 — legal matched play from 22 July 2026.
 
-The sheet does not assign new Core IDs. Flag it against **15.x stratagems**:
+The sheet did not assign new Core IDs. It was flagged against **15.x stratagems**:
 
 1. Unnamed “target a friendly unit with a stratagem for 0CP” effects instead **reduce that use by 1CP**.
 2. “Use this stratagem even if already used this phase/turn” clauses only apply if the **stratagem is named**.
@@ -62,9 +67,46 @@ Event Companion v1.1 (same July stamp) additionally caps **non-Core CP** at 1 pe
 
 ---
 
+## August `eng_*` deltas (universal rules updates v1.1) — **CURRENT**
+
+**Product:** Universal Rules Updates — **Version 1.1**. **Legal for matched play from 26 August 2026.** Supersedes July v1.0 on the same topics.
+
+**Source:** `eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf` — p.1 — legal matched play from 26 August 2026. **Branch-only staging copy** at `raw/_dataslate_0826_staging/` (not committed as a permanent SoT — see [`../../../raw/pointers/rules_core.md`](../../../raw/pointers/rules_core.md)); the owner's saved local filename under `C:\Personal\40K\rules\` is TBD and may drop the `&`.
+
+Items 1–4 repeat with the **same intent** as July v1.0, still flagged against **15.x stratagems** (no new Core IDs):
+
+1. Unnamed “target a friendly unit with a stratagem for 0CP” effects instead **reduce that use by 1CP**.
+2. “Use this stratagem even if already used this phase/turn” (or per-player-per-turn / per-round / per-battle) clauses only apply if the **stratagem is named**.
+3. Stratagems that limited ranged targeting to **12"** now use **18"**.
+4. Stratagems that add “a new unit identical to your destroyed unit” gain the restriction **once per battle**.
+
+**NEW in v1.1 — disembark move typing.** The sheet assigns two **new** Core IDs, `18.06` and `18.07`, so that special rules granting an extra-permissive disembark all point at the same named move instead of each inventing its own:
+
+### 18.06 ASSAULT DISEMBARK MOVE
+
+**Source:** `eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf` — p.1 — **MOVE TYPES FOR DISEMBARKING UNITS — 18.06**, Universal Rules Updates v1.1, legal 26 Aug 2026.
+
+> If a rule allows a unit to be eligible to declare a charge after
+> disembarking from a TRANSPORT model that made a normal move
+> that turn, that unit makes an assault disembark move (18.06) for that
+> disembarkation (instead of a disembark move).
+
+### 18.07 SHOCK DISEMBARK MOVE
+
+**Source:** `eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf` — p.1 — **MOVE TYPES FOR DISEMBARKING UNITS — 18.07**, Universal Rules Updates v1.1, legal 26 Aug 2026.
+
+> If a rule allows a unit to disembark from a TRANSPORT model
+> that made an advance move that turn, that unit makes a shock
+> disembark move (18.07) for that disembarkation (instead of a
+> disembark move).
+
+**Reading it:** neither `18.06` nor `18.07` grants the charge-after-normal-move or disembark-after-advance permission by itself — some *other* rule (a faction ability, stratagem, or wargear rule) has to grant that permission first. What v1.1 adds is the **name** for the resulting move, which matters because other rules can then react to "an assault disembark move" or "a shock disembark move" specifically (e.g. to deny it, or to grant a bonus only on that move type). Base `18.04` **DISEMBARK MOVE** eligibility (no advance/fall-back by the TRANSPORT that phase) is unchanged for the ordinary case.
+
+---
+
 ## Full Core ID index
 
-156 numbered IDs from `eng_01-06_warhammer40k_new40k_core_rules.pdf` (88 PDF pages). **112 quoted**, **44 stubbed**.
+156 numbered IDs from `eng_01-06_warhammer40k_new40k_core_rules.pdf` (88 PDF pages), plus **2 new IDs** (`18.06`, `18.07`) assigned by Universal Rules Updates v1.1. **114 quoted**, **44 stubbed**.
 
 | ID | Title | Page | Quote or stub | July flag |
 |----|-------|------|---------------|-----------|
@@ -166,6 +208,8 @@ Event Companion v1.1 (same July stamp) additionally caps **non-Core CP** at 1 pe
 | 18.03 | DISEMBARKING | p.64 | **quote** | — |
 | 18.04 | DISEMBARK MOVE | p.65 | **quote** | — |
 | 18.05 | EMERGENCY DISEMBARK MOVE | p.65 | **quote** | — |
+| 18.06 | ASSAULT DISEMBARK MOVE | p.1 (v1.1 sheet) | **quote** | **NEW in v1.1** — assault disembark move, when a rule allows a charge after disembarking from a TRANSPORT that made a normal move |
+| 18.07 | SHOCK DISEMBARK MOVE | p.1 (v1.1 sheet) | **quote** | **NEW in v1.1** — shock disembark move, when a rule allows disembarking from a TRANSPORT that Advanced |
 | 19.01 | FORMING ATTACHED UNITS | p.66 | **quote** | — |
 | 19.02 | ATTACKING ATTACHED UNITS | p.66 | **quote** | — |
 | 19.03 | KEYWORDS IN ATTACHED UNITS | p.67 | **quote** | — |
@@ -1763,6 +1807,7 @@ Event Companion v1.1 (same July stamp) additionally caps **non-Core CP** at 1 pe
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.6.0 (2026-08-27): Universal Rules Updates **v1.1** (legal 26 Aug 2026) quote pass — marked July v1.0 superseded; added August v1.1 section with verbatim `18.06` ASSAULT DISEMBARK MOVE / `18.07` SHOCK DISEMBARK MOVE (filename + p.1 + rule ID); items 1–4 stratagem flags carried forward with the same intent; Full Core ID index gains two new rows (track `dataslate_0826` slice S2e).
 - v0.5.1 (2026-08-18): Initial numbered-ID index + teaching-spine quotes (track `40k_warcom_quotes` S2).
 
 ## Attribution

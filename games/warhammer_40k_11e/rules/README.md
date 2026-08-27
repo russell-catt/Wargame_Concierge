@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/README.md
-VERSION: v0.5.3 (2026-08-25)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4 wd527_shipping)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 / S2e)
 
 DOCUMENT_TYPE: Index / Section README
 PROJECT_NAME: Wargame_Concierge
@@ -24,11 +24,11 @@ UPDATE_TRIGGER:
 
 # Rules - Warhammer 40,000 11th Edition
 
-**Status:** Teaching spine from **S3** (owned PDFs, read **2026-08-16**); numbered quote appendix from track **`40k_warcom_quotes`** (read **2026-08-18**).
+**Status:** Teaching spine from **S3** (owned PDFs, read **2026-08-16**); numbered quote appendix from track **`40k_warcom_quotes`** (read **2026-08-18**); Universal Rules Updates **v1.1** currency pass from track **`dataslate_0826`** slice **S2e** (read **2026-08-27**).
 
 Teaching pages stay **beginner paraphrase**. Verbatim Core text lives only in [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md) (WarCom-free + local `eng_*`; filename + page + rule ID). Army / Codex / Faction Pack rules are **not** quoted here. **Warhammer 40,000 is Copyright Games Workshop Limited.** Personal use only; never for sale.
 
-**Hierarchy:** Core (`eng_01-06_*`) is baseline; dated `eng_*` (July universal updates, Event Companion) supersede on the same topic; omission is not a patch.
+**Hierarchy:** Core (`eng_01-06_*`) is baseline; dated `eng_*` (Universal Rules Updates, Event Companion) supersede on the same topic; omission is not a patch. **Universal Rules Updates v1.1 (legal 26 Aug 2026) supersedes v1.0 (legal 22 Jul 2026) on the same topics** — v1.1 also adds disembark move typing (`18.06`/`18.07`), new in this edition.
 
 **WD527 Commentary:** Teaching pages in this folder carry locked **Commentary (White Dwarf 527 — …)** blocks (tier **1.5** paraphrase + Cite line). Mechanics still lose to Core / Event Companion. Shipping track: [`docs/handoffs/wd527_research/track_shipping_in.md`](../../../docs/handoffs/wd527_research/track_shipping_in.md).
 
@@ -75,6 +75,7 @@ Every claim in this section can be checked against the local library catalogued 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.6.0 (2026-08-27): Universal Rules Updates v1.1 (legal 26 Aug 2026) currency pass — hierarchy note updated (v1.1 supersedes v1.0; disembark move typing `18.06`/`18.07` new); track `dataslate_0826` slice S2e.
 - v0.5.3 (2026-08-25): Index Quick_Reference_Card + system QR print (wd527_shipping S4).
 - v0.5.2 (2026-08-25): Pointer to WD527 Commentary blocks + `wd527_shipping` track (slice S1).
 - v0.5.1 (2026-08-18): Quote appendix + WarCom-free exception (track `40k_warcom_quotes`). Teaching pages remain paraphrase with rule-ID cites.

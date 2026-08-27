@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.9 (2026-08-25)
+VERSION: v1.11 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
@@ -11,10 +11,11 @@ FACTION: Space Marines
 
 SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1, read 2026-08-16)
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, read 2026-08-16 / re-checked 2026-08-21)
-  - Warhammer Legends Field Manual (WarCom PDF, retrieved 2026-08-22) — Casual list points only
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27, includes Legends section — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md; read 2026-08-16 / re-checked 2026-08-21)
+  - Warhammer Legends Field Manual (WarCom PDF, retrieved 2026-08-22) — Casual list points only; cross-checked, same figures now folded into MFM Marines v1.3 Legends section
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16)
+  - docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md (owner paste 2026-08-27, `draft`) — Codex: Space Marines October preview / Legendary Proxies / Legends
 
 PURPOSE:
   Entry point for the Space Marine force (Blood Ravens paint, Codex SM rules).
@@ -74,6 +75,34 @@ Old links to `Starter_{N}.md` are **shims** that point here. Tournament night �
 | 1000 | [`Starter_1000_Matched.md`](Starter_1000_Matched.md) | [`Starter_1000_Casual.md`](Starter_1000_Casual.md) | [`Starter_1000.md`](Starter_1000.md) |
 
 **Casual 1000 primary** fits Servitors + Bike Squad + Attack Bike by dropping the Whirlwind (artillery variant keeps Whirlwind, drops Honour Vehement / second Term options — see that page).
+
+---
+
+## SM Codex October readiness (preview — do not play yet)
+
+> **Preview, not current rules.** WarCom previews a forthcoming **Codex: Space Marines** (App launch **October**). Every starter on this page stays **current Faction Pack v1.2 / MFM** until that Codex actually ships — nobody plays the October preview stats (Tacticus **T5**, Intercessor bolt rifle S5/S6, Phobos **M8"**) at the table yet. Research note: [`../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md`](../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md) (`draft`, owner paste 2026-08-27).
+
+### Legendary Proxies (teaching paraphrase)
+
+When the Codex ships, these datasheets leave it and become **Legendary Proxies** — field the model, use the counts-as unit's rules. Legendary Proxies are for home / store / club / campaign play; a **competitive event needs the organiser's permission**, same spirit as existing Legends policy.
+
+| Leaving unit | Counts as | Owned here? |
+|--------------|-----------|-------------|
+| **Tactical Squad** | Intercessor Squad | **Yes** — both Firstborn Tacticals |
+| **Devastator Squad** | Desolation Squad | **Yes** |
+| Suppressor Squad | Inceptor Squad | Not owned |
+| Pedro Kantor | Captain | Not owned (named character) |
+| Uriel Ventris | Captain | Not owned (named character) |
+
+**Do not** swap the Matched starters above to Intercessor / Desolation points yet. Tactical Squad and Devastator Squad keep their own datasheet and their own MFM points until the Codex is actually live — the swap only happens once QA and the owner gate a follow-up recost slice.
+
+### Future Legends (owned vehicles affected)
+
+These datasheets leave the Codex and move to **Warhammer Legends** support (App, alongside the Codex): Centurion Assault Squad · Centurion Devastator Squad · Razorback · Predator Destructor · Predator Annihilator · **Vindicator** · **Whirlwind** · **Dreadnought** · Stormhawk Interceptor · Stormtalon Gunship · Stormraven Gunship · Hammerfall Bunker.
+
+**Bold** = owned in this collection (see [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) Step 2 table). **Whirlwind stays Matched-legal today** — it fields on [`Starter_1000_Matched.md`](Starter_1000_Matched.md) with **no** Legends tag, and only becomes a Legends unit once the Codex ships, same timing as Tactical / Devastator above.
+
+Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.
 
 ---
 
@@ -137,7 +166,11 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+
 ## Change Log
+- v1.11 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste, retrieved 2026-08-27); Legends citation (Bike/Attack Bike/Servitors) now cross-checked against MFM v1.3 Legends section, figures unchanged; `Rules currency` line added.
+- v1.10 (2026-08-27): dataslate_0826 S2b — SM Codex October readiness section: Legendary Proxies mapping table (Tac→Intercessor, Dev→Desolation) + future Legends vehicle list (owned bold); preview note; no early T5/S5 rewrite.
 - v1.9 (2026-08-25): wd527_shipping S6 — system spine table (wound / Mission 38 / Disposition / system QR / 6″–8″–9″); Force Disposition Commentary.
 - v1.8 (2026-08-22): Index First Company + Anvil teaching guides (owned-shelf alternates to Gladius).
 - v1.7 (2026-08-22): Matched vs Casual dual-path starter index; Legends only on Casual.
@@ -157,4 +190,4 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 - Warhammer 40,000 is a trademark of Games Workshop Limited. Teaching paraphrase only.
 
 ## Rising Tide Notes
-- **Verify before you play.** Points and Legends from owned Marines MFM / faction pack / Legends Field Manual.
+- **Verify before you play.** Points reflect MFM Marines v1.3 (owner paste, retrieved 2026-08-27); Legends folded into the same manual's Legends section; also check faction pack.

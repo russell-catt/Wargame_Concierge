@@ -1,17 +1,18 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_250.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.3 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Learning List / Starter Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Active - Tomb World force is game-ready today; Hierotek Circle photo ID closed 2026-08-17; Warriors points verified against MFM v1.2 on 2026-08-16, Geomancer/Tomb Crawler points sourced from Necron_Lists.md pending independent MFM re-verification
+REFERENCE_STATUS: Active - Tomb World force is game-ready today; Hierotek Circle photo ID closed 2026-08-17; Warriors points re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); Geomancer/Tomb Crawler points sourced from Necron_Lists.md pending independent MFM re-verification
 
 SOURCES:
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - Necron Warriors points value on this page
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - Necron Warriors points value superseded by v1.3 below
+  - MFM Necrons v1.3 (owner paste 2026-08-27; PDF path pending confirmation) - Necron Warriors 10 models now **85** pts; see [`docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1; read 2026-08-16)
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (ownership, corrected 2026-08-16)
   - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION; Geomancer/Tomb Crawler points)
@@ -41,21 +42,21 @@ A first game should be small, short, and mostly about learning the **phase order
 
 ---
 
-## The Tomb World list - 245 / 250 points *(playable now)*
+## The Tomb World list - 250 / 250 points *(playable now)*
 
 **Fully statted play sheet:** [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md)
 
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
 | **Cryptek Geomancer** | 1 | **75** | **OWNED** - Kill Team: Tomb World, game-ready |
-| **Necron Warriors** | 10 | **80** | **OWNED** - Kill Team: Tomb World, game-ready |
+| **Necron Warriors** | 10 | **85** | **OWNED** - Kill Team: Tomb World, game-ready |
 | **Canoptek Tomb Crawlers** | 2 | **50** | **OWNED** - Kill Team: Tomb World, game-ready |
 | **Canoptek Scarab Swarms** | 3 | **40** | **OWNED** - Kill Team: Tomb World, game-ready |
-| | | **245** | MFM v1.2 (read 2026-08-19); 5 pts under cap is fine for learning |
+| | | **250** | MFM Necrons **v1.3** (owner paste 2026-08-27, draft) — Warriors ▲+5 lands the list exactly on cap (was 245 / 250 under MFM v1.2) |
 
 *Strategy:* Attach the Geomancer to the Warriors. Crawlers push mid; Scarabs go wide. See [`Canoptek_Court.md`](Canoptek_Court.md) / [`Cryptek_Conclave.md`](Cryptek_Conclave.md).
 
-**Minimal three-unit variant (205 pts):** Drop Scarabs — Geomancer + Warriors + Crawlers only.
+**Minimal three-unit variant (210 pts):** Drop Scarabs — Geomancer + Warriors + Crawlers only.
 
 ---
 
@@ -135,7 +136,10 @@ Three units is enough to practise everything that matters and few enough to fini
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v0.5.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**. Tomb World list now lands exactly on **250** (was 245/250 under v1.2); minimal three-unit variant 205→**210**.
 - v0.5.1 (2026-08-19): Linked [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.3 (2026-08-17): Hierotek photo ID closed; checklist replaced with named 40K map and proxy notes. Plasmacyte to-do added: 25–28mm base rings.

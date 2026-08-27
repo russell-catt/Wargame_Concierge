@@ -1,15 +1,15 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_500_V1_Conclave.md
-VERSION: v1.2 (2026-08-19)
+VERSION: v1.3 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Librarian stat pass)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Army List / Fully Statted Play Sheet
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 500 V1 (no new purchases; Hierotek proxies OK). Points: MFM v1.2 (read 2026-08-19). Profiles: Wahapedia wh40k11ed (retrieved 2026-08-19).
+REFERENCE_STATUS: Active - 500 V1 (no new purchases; Hierotek proxies OK). Points: Necron Warriors and Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); other points remain MFM v1.2 (read 2026-08-19). Profiles: Wahapedia wh40k11ed (retrieved 2026-08-19).
 
 SOURCES:
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, read 2026-08-19)
@@ -44,7 +44,7 @@ UPDATE_TRIGGER:
 | **Purchases** | **$0** - Hierotek proxies allowed (opponent OK) |
 | **Bench first** | 2nd Scarab set; Immortals sprue to finish a 5 with Hierotek Guardians |
 | **Companion guide** | [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) |
-| **confidence** | draft — MFM v1.2 + Wahapedia 2026-08-19 |
+| **confidence** | draft — MFM v1.2 + Wahapedia 2026-08-19; Warriors/Plasmancer MFM v1.3 owner paste 2026-08-27 |
 
 ---
 
@@ -53,14 +53,13 @@ UPDATE_TRIGGER:
 | # | Unit | Models | Pts | Source |
 |---|------|--------|-----|--------|
 | 1 | **Cryptek Geomancer** *(Warlord)* | 1 | 75 | OWNED — Tomb World |
-| 1a | **Atomic Disintegrators** | — | 10 | Enhancement on Geomancer |
 | 2 | **Technomancer** (Canoptek Cloak) | 1 | 80 | OWNED — Hierotek |
-| 3 | **Plasmancer** *(Apprentek proxy)* | 1 | 55 | OWNED proxy — Hierotek |
+| 3 | **Plasmancer** *(Apprentek proxy)* | 1 | 60 | OWNED proxy — Hierotek |
 | 4 | **Royal Warden** *(Despotek proxy)* | 1 | 50 | OWNED proxy — Hierotek |
-| 5 | **Necron Warriors** | 10 | 80 | OWNED — Tomb World |
+| 5 | **Necron Warriors** | 10 | 85 | OWNED — Tomb World |
 | 6 | **Immortals** | 5 | 70 | 3 Guardians + 2 sprue |
 | 7 | **Canoptek Scarab Swarms** | 6 | 80 | OWNED — both sets merged |
-| | | | **500** | |
+| | | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; **Atomic Disintegrators enhancement dropped** (owner-safe cut, -10) to absorb the delta and stay exactly on 500 |
 
 ### Battle Formations (declare before deployment)
 
@@ -75,7 +74,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 
 ## Characters
 
-### Cryptek Geomancer (Warlord) + Atomic Disintegrators — 85 pts
+### Cryptek Geomancer (Warlord) — 75 pts
 
 | | |
 |--|--|
@@ -89,7 +88,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 | Tremorglaive — shock wave pulse | 18" | D6+2 | N/A | 4 | 0 | 1 | Ignores Cover, Torrent |
 | Tremorglaive (melee) | Melee | 2 | 4+ | 8 | -2 | 2 | — |
 
-**Abilities:** Tectonic Reverberations (pin one enemy within 18" each Movement phase); Obelisk Node Control (Reserves bubble on your objective). **Enhancement:** Atomic Disintegrators — anti-Monster / anti-Vehicle menu options.
+**Abilities:** Tectonic Reverberations (pin one enemy within 18" each Movement phase); Obelisk Node Control (Reserves bubble on your objective). *(No enhancement on this budget list — Atomic Disintegrators was dropped in the v1.3 recost to stay exactly on 500; add it for +10 pts if your muster allows more.)*
 
 ---
 
@@ -110,7 +109,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 
 ---
 
-### Plasmancer (Apprentek proxy) — 55 pts
+### Plasmancer (Apprentek proxy) — 60 pts
 
 | | |
 |--|--|
@@ -144,7 +143,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 
 ---
 
-## Necron Warriors (10) — 80 pts
+## Necron Warriors (10) — 85 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -203,7 +202,7 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 
 ## Pre-game checklist
 
-- [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; enhancement: Atomic Disintegrators
+- [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; no enhancement on this budget list (MFM v1.3 lands exactly on 500 without one)
 - [ ] Attachments written: Warriors ← Warden + Geomancer; Immortals ← Techno or Plasmancer proxy
 - [ ] Opponent agrees Apprentek→Plasmancer and Despotek→Warden proxies
 - [ ] Scarabs built to 6; Immortals 5 on the table
@@ -225,7 +224,10 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**; dropped the Atomic Disintegrators enhancement (owner-safe cut, -10) to stay exactly on 500.
 - v1.2 (2026-08-19): Full Wahapedia stat pass for all characters; MFM v1.2 verified 500 total. confidence: draft.
 - v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.
 - v1.0 (2026-08-19): Initial list with VERIFY blanks.

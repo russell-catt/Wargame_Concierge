@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_500.md
-VERSION: v2.0 (2026-08-22)
+VERSION: v2.1 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — sm_matched_vs_casual S0)
 
@@ -36,7 +36,10 @@ Also: [`README.md`](README.md) dual-path index · [`Owned_Models_Inventory.md`](
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+
 ## Change Log
+- v2.1 (2026-08-27): dataslate_0826 S2d — currency line only (shim carries no points, points live on the Matched/Casual twins above).
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
 - v2.0 (2026-08-22): Thin shim after Matched/Casual split (track `sm_matched_vs_casual`).
 

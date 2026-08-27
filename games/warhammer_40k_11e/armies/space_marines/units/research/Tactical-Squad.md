@@ -35,6 +35,9 @@ Verify Munitorum Marines PDF | 2026-08-16
 ## List-building notes
 Inventory TBD for son's force.
 
+## SM Codex October preview (owner paste 2026-08-27, `draft`)
+WarCom previews **Codex: Space Marines** (App, October). On that date this datasheet leaves the Codex and becomes a **Legendary Proxy**: field the model, use the **Intercessor Squad** rules. Home / store / club / campaign only — event organiser permission needed competitively. Until the Codex ships, Tactical Squad stays its own datasheet at its own MFM points (matched-legal today, no swap). See `docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md`.
+
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/space-marines/Tactical-Squad
 - Local faction pack cross-check: pending

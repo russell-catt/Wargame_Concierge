@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_1000_Casual.md
-VERSION: v1.0 (2026-08-22)
+VERSION: v1.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — sm_matched_vs_casual S4)
+AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview; prior sm_matched_vs_casual S4)
 
 DOCUMENT_TYPE: Learning List / Casual Legends
 PROJECT_NAME: Wargame_Concierge
@@ -13,8 +13,8 @@ REFERENCE_STATUS: Casual / Legends — opponent agreement required. Not matched 
 
 SOURCES:
   - games/warhammer_40k_11e/armies/space_marines/Starter_1000_Matched.md
-  - Warhammer Legends Field Manual (WarCom PDF warhammer40000_legends_fieldmanual_eng_16.10.pdf, retrieved 2026-08-22)
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2)
+  - Warhammer Legends Field Manual (WarCom PDF warhammer40000_legends_fieldmanual_eng_16.10.pdf, retrieved 2026-08-22) — cross-checked, same figures now folded into MFM Marines v1.3 Legends section
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27, includes Legends section — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md)
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
 
 PURPOSE:
@@ -30,7 +30,9 @@ UPDATE_TRIGGER:
 > **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`
 > How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)
 
-> **Casual — Legends allowed (opponent agreement).** Do **not** use this list in matched play / tournament. Legends points from Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — draft until owned PDF glance.
+> **Casual — Legends allowed (opponent agreement).** Do **not** use this list in matched play / tournament. Legends points cross-checked against the **MFM Marines v1.3 Legends section** (owner paste, retrieved **2026-08-27**) — matches prior Warhammer Legends Field Manual figures (WarCom PDF, retrieved 2026-08-22); draft until owned PDF glance.
+
+> **SM Codex October preview:** **Tactical Squad**, **Devastator Squad**, and the **Whirlwind** (variant table) all stay current Faction Pack / MFM — matched-legal, their own points — until **Codex: Space Marines** ships (WarCom preview, October). After that, Tactical/Devastator leave the Codex as **Legendary Proxies** (Intercessor Squad / Desolation Squad) and the Whirlwind moves to **Warhammer Legends** — both need event-organiser permission for competitive play. No stat/points swap on this page yet. Mapping table: [`README.md`](README.md).
 
 Matched 1000 is **980** with Whirlwind + Techmarine and **no** Legends costed (Servitors / bikes stay in the case). Adding Servitors (55) + Bike Squad (80) + Attack Bike (55) on top of that 980 overshoots 1000. This Casual rebuild **drops the Whirlwind**, keeps double Terminators + both Leaders + Techmarine, and costs **all three** owned Legends units into one combined table — a cogent armour + midboard + guns + fast flank force.
 
@@ -42,17 +44,17 @@ Matched 1000 is **980** with Whirlwind + Techmarine and **no** Legends costed (S
 
 | Unit | Models | Points | Source | Ownership | Notes |
 |------|--------|--------|--------|-----------|-------|
-| **Captain** (Leader) | 1 | **80** | MFM v1.2 | **Owned** | → Tactical Squad |
-| **- The Honour Vehement** | - | **15** | MFM v1.2 | n/a | Enhancement |
-| **Chaplain in Terminator Armour** (Leader) | 1 | **75** | MFM v1.2 | **Owned** | → first Terminator Squad; claw = **Storm Shield** |
-| **Techmarine** (Leader) | 1 | **55** | MFM v1.2 | **Owned** | → Devastators |
-| **Astartes Servitors** | 4 | **55** | Legends FM | **Owned** | **Legends** — Mindlock / Servitor Retinue |
-| **Tactical Squad** | 10 | **140** | MFM v1.2 | **Owned** | Flamer in Tac1 |
-| **Devastator Squad** | 5 | **120** | MFM v1.2 | **Owned** | HB / MM / PC / LC / meltagun |
-| **Terminator Squad** | 5 | **160** | MFM v1.2 | **Owned** | Chaplain attaches |
-| **Terminator Squad** | 5 | **160** | MFM v1.2 | **Owned** | Second brick |
-| **Bike Squad** | 3 | **80** | Legends FM | **Owned** | **Legends** |
-| **Attack Bike Squad** | 1 | **55** | Legends FM | **Owned** | **Legends** — MM or HB |
+| **Captain** (Leader) | 1 | **80** | MFM v1.3 | **Owned** | → Tactical Squad |
+| **- The Honour Vehement** | - | **15** | MFM v1.3 | n/a | Enhancement |
+| **Chaplain in Terminator Armour** (Leader) | 1 | **75** | MFM v1.3 | **Owned** | → first Terminator Squad; claw = **Storm Shield** |
+| **Techmarine** (Leader) | 1 | **55** | MFM v1.3 | **Owned** | → Devastators |
+| **Astartes Servitors** | 4 | **55** | MFM v1.3 (Legends) | **Owned** | **Legends** — Mindlock / Servitor Retinue |
+| **Tactical Squad** | 10 | **140** | MFM v1.3 | **Owned** | Flamer in Tac1 |
+| **Devastator Squad** | 5 | **120** | MFM v1.3 | **Owned** | HB / MM / PC / LC / meltagun |
+| **Terminator Squad** | 5 | **160** | MFM v1.3 | **Owned** | Chaplain attaches |
+| **Terminator Squad** | 5 | **160** | MFM v1.3 | **Owned** | Second brick |
+| **Bike Squad** | 3 | **80** | MFM v1.3 (Legends) | **Owned** | **Legends** |
+| **Attack Bike Squad** | 1 | **55** | MFM v1.3 (Legends) | **Owned** | **Legends** — MM or HB |
 | | | **995** | | | |
 
 Five points spare. **Whirlwind** sits this game — bring it on Matched 1000 or the artillery variant below.
@@ -73,16 +75,16 @@ Artillery + one brick + all Legends:
 
 | Unit | Models | Points | Source | Notes |
 |------|--------|--------|--------|-------|
-| **Captain** + **Honour Vehement** | 1 | **80** + **15** | MFM | |
-| **Chaplain in Terminator Armour** | 1 | **75** | MFM | → Terminator Squad |
-| **Techmarine** | 1 | **55** | MFM | |
-| **Astartes Servitors** | 4 | **55** | Legends FM | **Legends** |
-| **Tactical Squad** | 10 | **140** | MFM | |
-| **Devastator Squad** | 5 | **120** | MFM | |
-| **Terminator Squad** | 5 | **160** | MFM | One brick only |
-| **Whirlwind** | 1 | **175** | MFM | Hatch figure unfinished |
-| **Bike Squad** | 3 | **80** | Legends FM | **Legends** |
-| **Attack Bike Squad** | 1 | **55** | Legends FM | **Legends** |
+| **Captain** + **Honour Vehement** | 1 | **80** + **15** | MFM v1.3 | |
+| **Chaplain in Terminator Armour** | 1 | **75** | MFM v1.3 | → Terminator Squad |
+| **Techmarine** | 1 | **55** | MFM v1.3 | |
+| **Astartes Servitors** | 4 | **55** | MFM v1.3 (Legends) | **Legends** |
+| **Tactical Squad** | 10 | **140** | MFM v1.3 | |
+| **Devastator Squad** | 5 | **120** | MFM v1.3 | |
+| **Terminator Squad** | 5 | **160** | MFM v1.3 | One brick only |
+| **Whirlwind** | 1 | **175** | MFM v1.3 | Hatch figure unfinished |
+| **Bike Squad** | 3 | **80** | MFM v1.3 (Legends) | **Legends** |
+| **Attack Bike Squad** | 1 | **55** | MFM v1.3 (Legends) | **Legends** |
 | | | **1010** | | | **Over by 10** |
 
 Drop Honour Vehement → **995 / 1000**. Use that as the artillery + Legends build.
@@ -127,7 +129,13 @@ Tournament / matched: [`Starter_1000_Matched.md`](Starter_1000_Matched.md) — T
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App), now including the Legends section · teaching paraphrase · verify owned PDF.
+
+Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.
+
 ## Change Log
+- v1.2 (2026-08-27): dataslate_0826 S2b — SM Codex October preview callout (Tac/Dev → future Legendary Proxies; Whirlwind → future Legends); preview footer line; no early points/stat swap.
+- v1.1 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; cross-checked Bike Squad (80) / Attack Bike (55) / Astartes Servitors (55) against the new **MFM v1.3 Legends section** — figures **unchanged** vs the standalone Legends Field Manual; Source column now cites MFM v1.3 (Legends).
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
 - v1.0 (2026-08-22): Initial Casual 1000 — combined table with Servitors + Bike Squad + Attack Bike; Whirlwind dropped on primary (kept on HV-off artillery variant).
 
@@ -136,4 +144,4 @@ Tournament / matched: [`Starter_1000_Matched.md`](Starter_1000_Matched.md) — T
 - Teaching paraphrase only.
 
 ## Rising Tide Notes
-- **Verify before you play.** Legends points draft (retrieved 2026-08-22).
+- **Verify before you play.** Points reflect MFM Marines v1.3 (owner paste, retrieved 2026-08-27) including the Legends section; figures draft until owned PDF cross-check.

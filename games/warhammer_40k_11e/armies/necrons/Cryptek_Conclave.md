@@ -128,7 +128,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
 | Cryptek Geomancer | **75** | **Yes - game ready** | Attach to Warriors; Conclave/Court Cryptek |
-| Necron Warriors (10) | **80** | **Yes - game ready** | Bodyguard unit |
+| Necron Warriors (10) | **85** | **Yes - game ready** | Bodyguard unit — MFM Necrons **v1.3** ▲+5 (owner paste 2026-08-27, draft; was 80 under v1.2) |
 | Canoptek Tomb Crawlers (2) | **50** | **Yes - game ready** | Screening — MFM v1.2 verified 2026-08-19 |
 | Canoptek Macrocytes (5) | **70** | **Yes - game ready** | Phase 2 bodies — MFM v1.2 verified 2026-08-19 |
 | Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | Objective-grabbers; no Cryptek synergy |
@@ -146,7 +146,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 | Yes - on sprue | Merging to 20 is legal, and a 20-body block is what the rule wants |
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes - on sprue | Merging to 20 is legal, and a 20-body block is what the rule wants |
 | Immortals (5) | **70** | Yes - on sprue | Better guns, fewer bodies |
 | Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | Merging to 6 is legal |
 
@@ -155,12 +155,12 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Unit | MFM v1.2 | Note |
 |------|----------|------|
 | Immortals (second box, merging to 10) | **140** for 10 | Merging to 10 is legal |
-| Plasmancer | **55** | Cheapest Cryptek; attaches to Immortals or Warriors. **Not in Hierotek** — Apprentek is a kitchen-table proxy only. Buy for events. |
+| Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cheapest Cryptek; attaches to Immortals or Warriors. **Not in Hierotek** — Apprentek is a kitchen-table proxy only. Buy for events. |
 | Royal Warden | **50** | Cheap **Leader**, so it stacks with a Cryptek Support. **Not owned** — Despotek is a casual proxy (32mm). |
 | Lychguard (5) | **80** | Bodyguard wall. The old note's 170 for five was badly wrong |
 | Illuminor Szeras | **175** | Expensive; leave until well past 500 points |
 
-> **Points verified 2026-08-19.** Geomancer **75**, Tomb Crawlers **50** (2), Macrocytes **70** (5) — read from owned MFM v1.2. Older [`Necron_Lists.md`](Necron_Lists.md) used 85 for Crawlers/Macrocytes; that was wrong.
+> **Points verified 2026-08-19 (MFM v1.2); Warriors and Plasmancer superseded 2026-08-27.** Geomancer **75**, Tomb Crawlers **50** (2), Macrocytes **70** (5) — read from owned MFM v1.2, still current. Older [`Necron_Lists.md`](Necron_Lists.md) used 85 for Crawlers/Macrocytes; that was wrong. **Necron Warriors (10) are now 85 and Plasmancer is now 60 under MFM Necrons v1.3** (owner paste 2026-08-27, `draft`) — see [`docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md).
 
 **One more correction from S3, closed here.** The old notes claimed Canoptek Macrocytes grant `[IGNORES COVER]` to nearby infantry. They do not. Checked on the Macrocytes datasheet in the owned faction pack v1.1: their aura makes **enemies** less accurate near them, and their wargear can add a wound to a nearby unit's reanimation. `[IGNORES COVER]` is one of the options on **this detachment's** menu - the two rules had been run together.
 
@@ -193,7 +193,10 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v0.5.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**; Plasmancer 55→**60**.
 - v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Leaders and Support Commentary.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase or Apprentek proxy.

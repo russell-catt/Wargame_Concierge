@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S4; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Team Package Entry Point
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
@@ -28,6 +28,8 @@ UPDATE_TRIGGER:
 # Canoptek Circle
 
 **Necron kill team. Full package — slice S4.** Sinister, emotionless Canoptek constructs working in service of a single Cryptek — the **Geomancer** — who plants three **Obelisk Node** markers around the killzone and warps the fight to favour whoever stands inside the network they form.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`. See [`Team_Rule_Guide.md`](Team_Rule_Guide.md#update-log--august-2026-teaching-paraphrase) for the August package deltas.
 
 This is a different game from the 40K Necron army in the same collection ([`../../../warhammer_40k_11e/armies/necrons/README.md`](../../../warhammer_40k_11e/armies/necrons/README.md)). Kill Team and Warhammer 40,000 rules never merge in this project, even though several of the physical models are shared — see [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for exactly which ones.
 
@@ -93,6 +95,7 @@ Do not confuse the KT **Canoptek Macrocyte Warrior** operative with the 40K **Ne
 
 ## Change Log
 
+- v0.6.0 (2026-08-27): dataslate_0826 S3 — Rules currency stamp (Kill Team quarterly balance, August 2026); pointer to Team_Rule_Guide update log.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): Photo ID — loadouts and photo pointer in inventory.
 - v1.2 (2026-08-17): Card_Schema row updated for HTML datacards (`kt24_rules_quotes` S4).

@@ -122,7 +122,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Canoptek Tomb Crawlers (2) | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Canoptek |
 | Canoptek Macrocytes (5) | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Canoptek |
 | Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | **Yes** - Canoptek. Your cheapest Matrix-flipper |
-| Necron Warriors (10) | **80** | **Yes - game ready** | No - screen and objective body only |
+| Necron Warriors (10) | **85** | **Yes - game ready** | No - screen and objective body only — MFM Necrons **v1.3** ▲+5 (owner paste 2026-08-27, draft; was 80 under v1.2) |
 
 **Game-ready today - Hierotek Circle (photo ID 2026-08-17).** KT-legal as based. See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
@@ -137,7 +137,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 | Unit | MFM v1.2 | Owned? | Matrix benefit? |
 |------|----------|--------|-----------------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 | Yes - on sprue | No |
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes - on sprue | No |
 | Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | **Yes** - merging to 6 is legal and cheap |
 | Immortals (5) | **70** | Yes - on sprue | No - good unit, no detachment benefit |
 
@@ -147,7 +147,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 |------|----------|------|
 | Canoptek Wraiths (3) | **95** first unit / **115** second | Melee construct that takes midfield |
 | Canoptek Doomstalker | **140** | The backline gun this detachment is named for |
-| Plasmancer | **55** | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
+| Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
 
 > **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list. Everything else on this page was read from MFM v1.2 on 2026-08-16.
 
@@ -186,7 +186,10 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v0.5.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**; Plasmancer 55→**60**.
 - v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Terrain Objectives Commentary; GW notice.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer moved to game-ready; Plasmancer remains unowned / Apprentek proxy; Plasmacytes likely not dual-legal.

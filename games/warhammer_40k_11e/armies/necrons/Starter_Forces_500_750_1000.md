@@ -1,14 +1,14 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_Forces_500_750_1000.md
-VERSION: v1.2 (2026-08-19)
+VERSION: v1.3 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Learning List / Expansion Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Active - primary detachment Cryptek Conclave. V1 = no new model purchases; Hierotek proxies allowed (kitchen table). V2 = finished Conclave lists with purchases. All unit points verified MFM v1.2 (read 2026-08-19). Fully statted play sheets: Army_List_*_Conclave.md.
+REFERENCE_STATUS: Active - primary detachment Cryptek Conclave. V1 = no new model purchases; Hierotek proxies allowed (kitchen table). V2 = finished Conclave lists with purchases. Warriors/Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); all other unit points remain MFM v1.2 (read 2026-08-19). Fully statted play sheets: Army_List_*_Conclave.md.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (v0.5.0; Hierotek ID)
@@ -58,7 +58,7 @@ Canoptek Court remains a legal alternate on this collection; it is **not** the l
 | Technomancer (Canoptek Cloak) | 1 | **Technomancer** (real Cryptek Support) | **80** | Owned Cryptek #2 |
 | Immortal Guardians | 3 | **Immortals** bodies | toward 5 @ **70** | Combine with sprue Immortals |
 | Despotek | 1 | Casual **Royal Warden** proxy (Leader) | **50** | Lets a Cryptek Support share a brick. Or count as Immortal body instead |
-| Apprentek | 1 | Casual **Plasmancer** proxy | **55** | V1 only. V2 buys a real Plasmancer for events |
+| Apprentek | 1 | Casual **Plasmancer** proxy | **60** | MFM v1.3 (was 55). V1 only. V2 buys a real Plasmancer for events |
 | Plasmacytes ×2 | 2 | **Out** until 25–28mm base rings | - | Do not rebase |
 
 **Not in the box:** real Plasmancer, Psychomancer, Chronomancer, Deathmarks.
@@ -72,11 +72,11 @@ Canoptek Court remains a legal alternate on this collection; it is **not** the l
 | Cryptek Geomancer | **75** | MFM v1.2 (read 2026-08-19) |
 | Canoptek Tomb Crawlers (2) | **50** | MFM v1.2 — *was 85 in stale Necron_Lists* |
 | Canoptek Macrocytes (5) | **70** | MFM v1.2 — *was 85 in stale Necron_Lists* |
-| Necron Warriors (10) / (20) | **80** / **190** | MFM v1.2 |
+| Necron Warriors (10) / (20) | **85** / **190** | **MFM v1.3** (10-model ▲+5, owner paste 2026-08-27, draft; was 80/190 under v1.2) |
 | Canoptek Scarab Swarms (3) / (6) | **40** / **80** | MFM v1.2 |
 | Immortals (5) / (10) | **70** / **140** | MFM v1.2 |
 | Technomancer (1st) | **80** | MFM v1.2 |
-| Plasmancer | **55** | MFM v1.2 |
+| Plasmancer | **60** | **MFM v1.3** (▲+5, owner paste 2026-08-27, draft; was 55 under v1.2) |
 | Royal Warden | **50** | MFM v1.2 |
 | Lychguard (5) | **80** | MFM v1.2 |
 | Illuminor Szeras | **175** | MFM v1.2 |
@@ -103,19 +103,18 @@ Warrior flayer/reaper choices and similar options are normally **0 pts**. Use **
 |----------------|--------|-----|--------|
 | Cryptek Geomancer | 1 | 75 | OWNED - Tomb World |
 | Technomancer | 1 | 80 | OWNED - Hierotek |
-| Plasmancer (Apprentek proxy) | 1 | 55 | OWNED proxy - Hierotek |
+| Plasmancer (Apprentek proxy) | 1 | **60** | OWNED proxy - Hierotek |
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy - Hierotek |
-| Necron Warriors | 10 | 80 | OWNED - Tomb World |
+| Necron Warriors | 10 | **85** | OWNED - Tomb World |
 | Immortals | 5 | 70 | 3 Guardians + 2 sprue |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED - merge both Scarab sets |
-| **Atomic Disintegrators** | - | **10** | Enhancement on Geomancer or Technomancer |
-| | | **500** | |
+| | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; enhancement dropped (owner-safe cut, -10) to stay exactly on 500 |
 
 **Bench before play:** 2nd Scarab set; enough Immortals sprue to finish a 5 with the Guardians.
 
 **Attachments:** Warden (Leader) + Geomancer (Support) on the Warriors. Technomancer or Plasmancer proxy on the Immortals. Scarabs grab and screen.
 
-**Why this list:** every Conclave lever you already own - two real Crypteks, a Leader proxy so Support can share a brick, Immortals for the shooting menu, and a 10-pt enhancement to land exactly on 500.
+**Why this list:** every Conclave lever you already own - two real Crypteks, a Leader proxy so Support can share a brick, Immortals for the shooting menu - and MFM v1.3's Warriors/Plasmancer ▲ lands it exactly on 500 without an enhancement pad.
 
 ### V2 - finished with purchases - 500 / 500
 
@@ -123,13 +122,12 @@ Warrior flayer/reaper choices and similar options are normally **0 pts**. Use **
 |----------------|--------|-----|--------|
 | Cryptek Geomancer | 1 | 75 | OWNED |
 | Technomancer | 1 | 80 | OWNED - Hierotek |
-| **Plasmancer** | 1 | **55** | **BUY** (replaces Apprentek proxy) |
+| **Plasmancer** | 1 | **60** | **BUY** (replaces Apprentek proxy) |
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy - keep until you buy a real Warden |
-| Necron Warriors | 10 | 80 | OWNED |
+| Necron Warriors | 10 | **85** | OWNED |
 | Immortals | 5 | 70 | OWNED (Guardians + sprue) |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
-| **Atomic Disintegrators** | - | **10** | Enhancement |
-| | | **500** | |
+| | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; enhancement dropped (owner-safe cut, -10) to stay exactly on 500 |
 
 **Buy:** 1× Plasmancer (~$45 CAD retail). Optional later: real Royal Warden for events / WYSIWYG.
 
@@ -147,18 +145,18 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 |----------------|--------|-----|--------|
 | Cryptek Geomancer | 1 | 75 | OWNED |
 | Technomancer | 1 | 80 | OWNED - Hierotek |
-| Plasmancer (Apprentek proxy) | 1 | 55 | OWNED proxy |
+| Plasmancer (Apprentek proxy) | 1 | **60** | OWNED proxy |
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy |
-| Necron Warriors | 10 | 80 | OWNED |
-| Necron Warriors | 10 | 80 | OWNED - sprue (build) |
+| Necron Warriors | 10 | **85** | OWNED |
+| Necron Warriors | 10 | **85** | OWNED - sprue (build) |
 | Canoptek Tomb Crawlers | 2 | 50 | OWNED |
 | Canoptek Macrocytes | 5 | 70 | OWNED |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
 | Immortals | 5 | 70 | Guardians + sprue |
 | **Gauntlet of Compression** | - | **20** | Enhancement |
 | **Gravitic Bolas** | - | **15** | Enhancement |
-| **Quantum Abacus** | - | **15** | Enhancement |
-| | | **750** | |
+| **Atomic Disintegrators** | - | **10** | Enhancement |
+| | | **750** | MFM v1.3 — Warriors ▲+5 ×2, Plasmancer ▲+5; enhancement stack swapped (Quantum Abacus → Atomic Disintegrators, -5) to land exactly on 750. *(The v1.2 printing's four-line total also had a pre-existing arithmetic slip — this row is now checked to add up.)* |
 
 **Bench:** 2nd Warriors, 2nd Scarabs, Immortals sprue as above.
 
@@ -170,18 +168,18 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 |----------------|--------|-----|--------|
 | Cryptek Geomancer | 1 | 75 | OWNED |
 | Technomancer | 1 | 80 | OWNED - Hierotek |
-| **Plasmancer** | 1 | **55** | **BUY** |
+| **Plasmancer** | 1 | **60** | **BUY** |
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy |
-| Necron Warriors | 10 | 80 | OWNED |
-| Necron Warriors | 10 | 80 | OWNED - sprue |
+| Necron Warriors | 10 | **85** | OWNED |
+| Necron Warriors | 10 | **85** | OWNED - sprue |
 | Canoptek Tomb Crawlers | 2 | 50 | OWNED |
 | Canoptek Macrocytes | 5 | 70 | OWNED |
 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
 | Immortals | 5 | 70 | OWNED |
 | **Gauntlet of Compression** | - | **20** | Enhancement |
 | **Gravitic Bolas** | - | **15** | Enhancement |
-| **Quantum Abacus** | - | **15** | Enhancement |
-| | | **750** | |
+| **Atomic Disintegrators** | - | **10** | Enhancement |
+| | | **750** | MFM v1.3 — same recost + enhancement swap as V1 (see above) |
 
 **Buy:** 1× Plasmancer only (~$45). Same shell as V1 with a legal Plasmancer.
 
@@ -191,21 +189,21 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 
 ## 1,000 points - Cryptek Conclave
 
-### V1 - no purchases (Hierotek proxies OK) - 770 / 1,000 *(cannot fill)*
+### V1 - no purchases (Hierotek proxies OK) - 725 / 1,000 *(cannot fill)*
 
 Maximum owned + proxy Conclave cast without new kits:
 
 | Unit / upgrade | Pts |
 |----------------|-----|
-| Geomancer + Technomancer + Plasmancer proxy + Warden proxy | 75+80+55+50 = **260** |
-| Warriors (20) | **190** |
+| Geomancer + Technomancer + Plasmancer proxy + Warden proxy | 75+80+**60**+50 = **265** |
+| Warriors (20) | **190** *(20-model band unchanged by v1.3)* |
 | Immortals (5) | **70** |
 | Tomb Crawlers + Macrocytes + Scarabs (6) | 50+70+80 = **200** |
-| **Ceiling** | **720** |
+| **Ceiling** | **725** |
 
 | | |
 |--|--|
-| Shortfall to 1,000 | **280** |
+| Shortfall to 1,000 | **275** |
 | Enhancement pad alone | At most ~60 pts if you stack several — **still short** |
 
 Play at **750** V1, or move to V2.
@@ -218,7 +216,7 @@ Play at **750** V1, or move to V2.
 |----------------|--------|-----|--------|
 | Cryptek Geomancer | 1 | 75 | OWNED |
 | Technomancer | 1 | 80 | OWNED - Hierotek |
-| **Plasmancer** | 1 | **55** | **BUY** |
+| **Plasmancer** | 1 | **60** | **BUY** |
 | Royal Warden (Despotek proxy) | 1 | 50 | OWNED proxy *(or BUY real Warden)* |
 | Necron Warriors | 20 | 190 | OWNED (merge) |
 | Immortals | 5 | 70 | OWNED |
@@ -228,15 +226,13 @@ Play at **750** V1, or move to V2.
 | **Illuminor Szeras** | 1 | **175** | **BUY** |
 | **Lychguard** | 5 | **80** | **BUY** |
 | **Gauntlet of Compression** | - | **20** | Enhancement |
-| **Atomic Disintegrators** | - | **10** | Enhancement |
-| **Gravitic Bolas** | - | **15** | Enhancement |
-| | | **1,000** | |
+| | | **1,000** | MFM v1.3 — Plasmancer ▲+5 (Warriors 20-band unchanged); Atomic Disintegrators and Gravitic Bolas dropped (owner-safe cut, -25) to land exactly on 1,000. *(The v1.2 printing's three-enhancement total also had a pre-existing arithmetic slip — this row is now checked to add up.)* |
 
 **Buy list:** Plasmancer + Illuminor Szeras + Lychguard (5) (~$45 + $70 + $70 ≈ **$185 CAD** retail). Optional: real Royal Warden; second Immortals box (merge to 10 @ 140) as a later swap.
 
 **Attachments:** Warden + Geomancer on the 20 Warriors; Technomancer or Plasmancer on Immortals; Szeras behind the Warrior phalanx; Lychguard as the character screen.
 
-**Enhancement count:** three listed to hit 1,000 exactly with Macrocytes on the table. Re-muster in the app if enhancement limits differ.
+**Enhancement count:** one enhancement (Gauntlet of Compression) lands 1,000 exactly with Macrocytes on the table. Re-muster in the app if enhancement limits differ.
 
 ---
 
@@ -283,7 +279,10 @@ Play at **750** V1, or move to V2.
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**. 500 V1/V2 drop the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500. 750 V1/V2 swap Quantum Abacus → Atomic Disintegrators in the enhancement stack (also fixes a pre-existing v1.2 addition error) to land exactly on 750. 1,000 V1 ceiling 720→**725**, shortfall 280→**275**. 1,000 V2 drops Atomic Disintegrators + Gravitic Bolas (owner-safe cut, keeps Gauntlet of Compression only; also fixes a pre-existing v1.2 addition error) to land exactly on 1,000.
 - v1.3 (2026-08-19): MFM v1.2 re-read — Tomb Crawlers **50**, Macrocytes **70**. Linked Army_List_750/1000 play sheets; 750/1000 rebalance; V1 ceiling 720 without purchases.
 - v1.2 (2026-08-19): Primary detachment switched to **Cryptek Conclave**. V1/V2 lists rewritten per size with Conclave enhancements as point-padding. Court demoted to alternate. V1 500 and 750 land exact; V2 500/750 buy Plasmancer only; V2 1,000 adds Szeras + Lychguard + enhancements to 1,000.
 - v1.1 (2026-08-19): Rebuilt after Hierotek photo ID; Court was V2 default - superseded.

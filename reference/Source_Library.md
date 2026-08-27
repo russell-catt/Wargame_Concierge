@@ -1,8 +1,8 @@
 <!--
 FILE: reference/Source_Library.md
-VERSION: v0.5.4 (2026-08-25)
+VERSION: v0.5.5 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, dataslate_0826 S1)
 
 DOCUMENT_TYPE: Reference / Source Catalog
 PROJECT_NAME: Wargame_Concierge
@@ -66,22 +66,25 @@ All paths below are on the owner's machine. **Do not copy these files into git.*
 | Path | Contents |
 |------|----------|
 | `C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf` | Core rules (11th Edition). WarCom-free baseline. Numbered IDs. Quote appendix: `games/warhammer_40k_11e/rules/Core_Rules_Quotes.md` |
-| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf` | Universal rules updates v1.0 (22 Jul 2026). Dated stamp supersedes Core on the same topic |
+| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf` | Universal rules updates v1.0 (22 Jul 2026). **Superseded by v1.1 below on the same topics** |
+| `C:\Personal\40K\rules\` (expected save — v1.1) | **Universal Rules Updates v1.1**, legal matched play **26 Aug 2026**. Repeats July intent (0CP unnamed stratagems, multi-use naming, 12"→18" anti-target range, respawn once-per-battle) + **new** disembark move typing (`18.06` assault disembark, `18.07` shock disembark). `draft` pending owner save-confirm — pointer: [`raw/pointers/rules_core.md`](../raw/pointers/rules_core.md) |
 | `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf` | Event companion v1.1. Inventoried; mission layouts / base sizes **not dumped** |
 
 ### Faction packs (11th Edition)
 
 | Path | Contents |
 |------|----------|
-| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf` | Necrons faction pack |
-| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf` | Space Marines faction pack |
+| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf` | Necrons faction pack, legal 22 Jul 2026. **Superseded by v1.2 below on the same topics** |
+| `C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf` | Space Marines faction pack, legal 22 Jul 2026. **Superseded by v1.2 below on the same topics** |
+| `C:\Personal\40K\rules\` (expected save — v1.2, both factions) | **Faction Pack v1.2** (Necrons + Space Marines), legal matched play **26 Aug 2026**. Codex wall — teaching paraphrase only. `draft` pending owner save-confirm — pointers: [`raw/pointers/faction_pack_necrons.md`](../raw/pointers/faction_pack_necrons.md), [`raw/pointers/faction_pack_space_marines.md`](../raw/pointers/faction_pack_space_marines.md) |
 
 ### Points documents
 
 | Path | Contents |
 |------|----------|
-| `C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf` | Munitorum Field Manual (general) |
-| `C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf` | Munitorum Field Manual (Space Marines supplement) |
+| `C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf` | Munitorum Field Manual (general/Necrons), stamped v1.2 in repo lists. **Superseded by v1.3 below on the same units** |
+| `C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf` | Munitorum Field Manual (Space Marines supplement), stamped v1.2 in repo lists. **Superseded by v1.3 below on the same units** |
+| `C:\Personal\40K\rules\` (expected save — MFM v1.3, Necrons + Space Marines) | **Munitorum Field Manual v1.3** (owner paste 2026-08-27). Necron Warriors 10→85, other ▲; SM Centurion Devastators / Land Raider Redeemer / Librarian in Terminator Armour / Vulkan He'stan ▲; SM MFM now carries a **LEGENDS** section. `draft` — no PDF read yet, pointer only: [`raw/pointers/points_manuals.md`](../raw/pointers/points_manuals.md) |
 
 ### Terrain area footprints
 
@@ -140,8 +143,8 @@ Obsolete: former flat `C:\Personal\Kill Team\rules\` — use `kill_team_2024\` /
 |------|--------------|-------|
 | Core / lite / update logs / universal equipment / sniper | [`raw/pointers/kill_team_2024_core.md`](../raw/pointers/kill_team_2024_core.md) | Primary: `779937548-Core-Rules-KILL-TEAM-3E-Full-Scan.pdf` |
 | Approved Ops | [`raw/pointers/kill_team_2024_approved_ops.md`](../raw/pointers/kill_team_2024_approved_ops.md) | Tournament companion + update log |
-| Teams (10 owned) | [`raw/pointers/kill_team_2024_teams.md`](../raw/pointers/kill_team_2024_teams.md) | Angels of Death, Canoptek Circle, Celestian Insidiants, Death Korps, Deathwatch, Hierotek Circle, Kommandos, Murderwing, Plague Marines, Vespid Stingwings |
-| Mission packs | [`raw/pointers/kill_team_2024_missions.md`](../raw/pointers/kill_team_2024_missions.md) | Volkus, Shadowhunt, Tomb World, Hivestorm, Titus, Terror on Devlan, terrain templates |
+| Teams (10 owned) | [`raw/pointers/kill_team_2024_teams.md`](../raw/pointers/kill_team_2024_teams.md) | Angels of Death, Canoptek Circle, Celestian Insidiants, Death Korps, Deathwatch, Hierotek Circle, Kommandos, Murderwing, Plague Marines, Vespid Stingwings. **Aug 2026 quarterly balance:** online-rules updates for all ten (priority: Angels of Death, Canoptek Circle, Plague Marines) added `dataslate_0826` S1 — `draft`, pointer only |
+| Mission packs | [`raw/pointers/kill_team_2024_missions.md`](../raw/pointers/kill_team_2024_missions.md) | Volkus, Shadowhunt, Tomb World, Hivestorm, Titus, Terror on Devlan, terrain templates. **Aug 2026 quarterly balance:** Tomb World + Mission packs update logs (Nemesis Towering Size, teleport commentary) added `dataslate_0826` S1 |
 | Critical Ops 2024 + 2025 | [`raw/pointers/kill_team_2024_critical_ops.md`](../raw/pointers/kill_team_2024_critical_ops.md) | Physical decks owned; printables on disk |
 | Nemesis Operatives / NPO | [`raw/pointers/kill_team_2024_nemesis_operatives.md`](../raw/pointers/kill_team_2024_nemesis_operatives.md) | Join Ops SoT |
 | Terror on Devlan Dossier | [`raw/pointers/kill_team_2024_terror_on_devlan.md`](../raw/pointers/kill_team_2024_terror_on_devlan.md) | Dossier + mission pack |
@@ -260,6 +263,7 @@ Quote appendix: `games/the_warcode/rules/Rulebook_Quotes.md`. Shipping naming: n
 ---
 
 ## Change Log
+- v0.5.5 (2026-08-27): `dataslate_0826` S1 — 40K Aug 2026 package rows (Universal Rules v1.1, Faction Pack v1.2 Necrons+SM, MFM v1.3) and KT Aug 2026 quarterly balance rows (Tomb World/Mission packs update logs, priority team online-rules updates); all `draft`, pointer-only, no PDFs committed. No singular Balance Dataslate for either system (owner lock).
 - v0.5.4 (2026-08-25): WD527 section — teaching links (Mission 38, wound, trust ladder, system QR path) (wd527_shipping S3).
 - v0.5.3 (2026-08-23): The Warcode free beta — `raw/the_warcode/` PDF allowed; living web + VIP pointers (track `warcode_tactical_doctrine` S0).
 - v0.5.2 (2026-08-19): Living web — Wahapedia allowed for unit/stat lookup when WarCom does not publish profiles; 11e Necrons path preferred; 10e paths flagged as edition-risk.

@@ -1,6 +1,6 @@
 <!--
 FILE: templates/Gw_Print_Banner.html
-VERSION: v1.0 (2026-08-23)
+VERSION: v1.1 (2026-08-27)
 OWNER: Russell Catt
 PURPOSE: Shared CSS + HTML snippets for GW unofficial banners/footers on games/ print HTML.
 USAGE: Copy the <style> block into print HTML <head>; paste banner on page 1; footer on every page.
@@ -24,6 +24,13 @@ USAGE: Copy the <style> block into print HTML <head>; paste banner on page 1; fo
   padding-top: 0.25em;
   line-height: 1.25;
 }
+.gw-currency-line {
+  font-size: 7pt;
+  color: #555;
+  font-style: italic;
+  margin-top: 0.15em;
+  line-height: 1.2;
+}
 -->
 
 <!-- === B — Banner (first page only, immediately after <body> or start of first .page) === -->
@@ -37,3 +44,22 @@ USAGE: Copy the <style> block into print HTML <head>; paste banner on page 1; fo
 
 <!-- === D — Datacard micro (class .ft) === -->
 <!-- UNOFFICIAL · not endorsed by Games Workshop Limited · personal use only · © Games Workshop Limited -->
+
+<!-- === E — Currency line (optional, additive; place immediately after footer A on pages that depend on a dated GW package). Never invent a "Balance Dataslate <date>" line when no such file exists — name the actual package pieces/stamps. === -->
+
+<!-- E1 — 40K package stamp (prefer this over piece-specific lines when several pieces apply) -->
+<p class="gw-currency-line">Rules currency: 40K Aug 2026 package — Universal Rules v1.1 · Faction Pack v1.2 · MFM v1.3 (legal / App 26 Aug 2026 where dated). Teaching paraphrase — verify owned PDFs before tournament play.</p>
+
+<!-- E2 — 40K piece-specific (optional, single-piece pages) -->
+<p class="gw-currency-line">Rules currency: Universal Rules Updates v1.1 (legal 26 Aug 2026) · supersedes July v1.0 on same topics.</p>
+<p class="gw-currency-line">Rules currency: Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.</p>
+<p class="gw-currency-line">Rules currency: Munitorum Field Manual — Necrons v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.</p>
+
+<!-- E3 — Kill Team quarterly balance (no singular dataslate — Core + team package) -->
+<p class="gw-currency-line">Rules currency: Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs.</p>
+
+<!-- E4 — SM Codex preview note (pairs with E1, does not replace it) -->
+<p class="gw-currency-line">Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.</p>
+
+<!-- E5 — Warcode / non-GW systems (N/A stamp) -->
+<p class="gw-currency-line">Last reviewed: &lt;YYYY-MM-DD&gt; · not affected by Games Workshop balance packages.</p>

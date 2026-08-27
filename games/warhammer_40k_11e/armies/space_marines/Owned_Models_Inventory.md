@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.8 (2026-08-22)
+VERSION: v1.10 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — Pics ownership pass 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -15,10 +15,11 @@ SOURCES:
   - C:\Personal\40K\Pics\AOD_*.HEIC, Angels_of_Death.HEIC, Captain_gravis_Shield.HEIC, Deathwatch.HEIC
   - Owner locks: Blood Ravens = Codex SM rules + BR paint; Deathwatch = separate identity; AoD dual-use into Codex SM; BR painted & game-ready
   - C:\Personal\40K\codexes\ (10e SM + Necrons Codices — path pointer only; paid; no large quotes; may lag 11e)
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2; read 2026-08-16)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2; read 2026-08-16; superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27, includes Legends section — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1; Legends 2026-08-16)
   - games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md
   - games/kill_team_2024/teams/deathwatch/Owned_Models_Inventory.md
+  - docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md (owner paste 2026-08-27, `draft`)
 
 PURPOSE:
   Catalogue Space Marine models for Codex SM lists (Blood Ravens paint + Primaris dual-use).
@@ -65,9 +66,9 @@ Inventory is **photo-audited (2026-08-21)**. Re-open this page when something ne
 
 ## Step 2 - is it Legends?
 
-Checked against the Legends section of the owned faction pack v1.1 on **2026-08-16**:
+Checked against the Legends section of the owned faction pack v1.1 on **2026-08-16**; points column re-stamped **MFM Marines v1.3** on 2026-08-27 (owner paste — see [`docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md)):
 
-| Older kit | Still matched-play legal? | MFM Marines v1.2 |
+| Older kit | Still matched-play legal? | MFM Marines v1.3 |
 |-----------|---------------------------|------------------|
 | Tactical Squad (10) | **Yes** | 140 |
 | Devastator Squad (5 / 10) | **Yes** | 120 / 200 |
@@ -79,7 +80,8 @@ Checked against the Legends section of the owned faction pack v1.1 on **2026-08-
 | Vanguard Veteran Squad with Jump Packs (5) | **Yes** | 105 |
 | Rhino / Razorback | **Yes** | 65 / 85 |
 | Predator Destructor / Annihilator | **Yes** | 140 / 135 |
-| Land Raider / Crusader / Redeemer | **Yes** | 220 / 220 / 250 |
+| Land Raider / Crusader | **Yes** | 220 / 220 |
+| Land Raider Redeemer | **Yes** | 260 / 280 ▲ (1st–2nd / 3rd+; was 250 under v1.2 — see [`units/research/Land-Raider-Redeemer.md`](units/research/Land-Raider-Redeemer.md)) |
 | Land Speeder | **Yes** | 105 |
 | Whirlwind / Vindicator | **Yes** | 175 / 185 |
 | Drop Pod | **Yes** | 60 |
@@ -96,6 +98,8 @@ Checked against the Legends section of the owned faction pack v1.1 on **2026-08-
 
 **This list is not exhaustive.** Prefer current Faction Pack + MFM over the owned 10e Codex PDFs for legality/points.
 
+**SM Codex October preview (owner paste 2026-08-27, `draft`):** WarCom previews **Codex: Space Marines** (App launch October). On that date, **Tactical Squad** and **Devastator Squad** leave the Codex as **Legendary Proxies** (count as Intercessor Squad / Desolation Squad respectively); **Whirlwind, Vindicator, Predator Destructor, Predator Annihilator, Razorback, Dreadnought** move to **Warhammer Legends**. Until the Codex actually ships, every row above is unchanged — every one of those units is still current Faction Pack + MFM and still reads **Yes** for matched play. Full mapping table + event-permission note: [`README.md`](README.md). Research: [`../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md`](../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md).
+
 ---
 
 ## Game-ready (table today) — Codex Space Marines
@@ -108,7 +112,7 @@ Assembled, based, painted, fieldable under Codex SM (Blood Ravens or dual-use Pr
 |----------------|-----|----------|-------|-------|
 | **Tactical Squad** | 10 | Assembled | Painted | `Tactical_sqaud 1` — Mk VI; Sgt BP+chainsword; 1 missile launcher; **1 flamer**; remaining bolters. Bolter bodies may be **loaned to Devastators** to make that squad 10 (see Devastator row) |
 | **Tactical Squad** | 10 | Assembled | Painted | `Tactical_Squad_2` — Sgt BP+chainsword; **1 flamer** (not heavy bolter); 1 missile launcher; bolters. **Owned as 10** — one model fallen off / detached; reattach before play (photo showed 8). Same **loan-to-Devastators** option |
-| **Devastator Squad** | 5 | Assembled | Painted | `Devastators` — **heavy bolter, multi-melta, plasma cannon, lascannon, meltagun** (one each). **Pool note:** bolter Tactical Marines can be **reassigned** to pad this unit to a full **10** (MFM **200** pts) — shrink a Tactical Squad accordingly; do not double-count bodies |
+| **Devastator Squad** | 5 | Assembled | Painted | `Devastators` — **heavy bolter, multi-melta, plasma cannon, lascannon, meltagun** (one each). **Pool note:** bolter Tactical Marines can be **reassigned** to pad this unit to a full **10** (MFM v1.3 **200** pts, unchanged) — shrink a Tactical Squad accordingly; do not double-count bodies |
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminator Squad 1` — Sgt SB+power sword; cyclone; assault cannon; 2× SB+power fist |
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminstor squad 2` — Sgt SB+power sword; 4× SB+power fist |
 | **Terminator Assault Squad** | 5 | Assembled | Painted | Mixed loadouts in one photo: ~2 TH/SS, ~2 lightning claws, 1 SB+fist — **honesty:** may need split or opponent agreement for strict Assault Terminator datasheet |
@@ -117,7 +121,7 @@ Assembled, based, painted, fieldable under Codex SM (Blood Ravens or dual-use Pr
 | **Veteran Sergeant** / veteran character | 1 | Assembled | Painted | `Veteran_Sergeant` — power fist + bolt weapon; confirm exact datasheet vs faction pack |
 | **Lieutenant with Combi-weapon** | 1 | Assembled | Painted | `spares` — combi-weapon + chainsword. MFM datasheet **Lieutenant with Combi-weapon** (not plain Lieutenant) |
 | **Tactical Marines** (loose) | 2 | Assembled | Painted | `spares` — bolters; **not** a formal squad (Tactical 2 is already a full 10 once the fallen-off body is reattached) |
-| **Techmarine** | 1 | Assembled | Painted | `Techmarine_with_Servitors` — character only for matched play (MFM **55**). Photo can read Enginseer-like; treat as **Techmarine** pending pack name glance |
+| **Techmarine** | 1 | Assembled | Painted | `Techmarine_with_Servitors` — character only for matched play (MFM v1.3 **55**, unchanged). Photo can read Enginseer-like; treat as **Techmarine** pending pack name glance |
 | **Whirlwind** | 1 | Assembled | Painted | `Whirlwind` — hull painted; hatch figure unfinished |
 
 Four Servitor bodies travel with the Techmarine photo — see **Owned but Legends** below (**Astartes Servitors**).
@@ -150,7 +154,7 @@ Four Servitor bodies travel with the Techmarine photo — see **Owned but Legend
 
 ## Owned but Legends (friendly OK — Casual starters only)
 
-Cost these only on [`Starter_*_Casual.md`](Starter_1000_Casual.md) lists (combined tables). Matched starters leave them in the case. Points: Warhammer Legends Field Manual (WarCom PDF, retrieved **2026-08-22**) — draft until owned PDF glance: Bike Squad 3 = **80**, Attack Bike 1 = **55**, Astartes Servitors 4 = **55**.
+Cost these only on [`Starter_*_Casual.md`](Starter_1000_Casual.md) lists (combined tables). Matched starters leave them in the case. Points: **MFM Marines v1.3 Legends section** (owner paste, retrieved **2026-08-27**) — cross-checked against and **unchanged** from the standalone Warhammer Legends Field Manual (WarCom PDF, retrieved 2026-08-22); draft until owned PDF glance: Bike Squad 3 = **80**, Attack Bike 1 = **55**, Astartes Servitors 4 = **55**.
 
 | Datasheet name | Qty | Assembly | Paint | Notes |
 |----------------|-----|----------|-------|-------|
@@ -247,7 +251,13 @@ Detail: [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/te
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.
+
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+
 ## Change Log
+- v1.10 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; Land Raider Redeemer ▲ **260/280** (was 250) flagged, other Step 2 legality-table costs re-verified **unchanged**; Legends citation (Bike/Attack Bike/Servitors) moved to MFM v1.3 Legends section, figures unchanged.
+- v1.9 (2026-08-27): dataslate_0826 S2b — SM Codex October preview note on the Step 2 Legends table (Tac/Dev → Legendary Proxies; Whirlwind/Vindicator/Predator D+A/Razorback/Dreadnought → future Legends); no early recost.
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
 - v1.8 (2026-08-22): Point Legends units at Casual starters; Legends FM points note (draft, retrieved 2026-08-22).
 - v1.7 (2026-08-22): **Astartes Servitors** → Legends (WarCom Legends PDF + absent from matched-play MFM SM list). Techmarine stays game-ready alone.
@@ -270,4 +280,4 @@ Detail: [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/te
 
 ## Rising Tide Notes
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check against current Munitorum Field Manual and faction pack. Photo ID dated **2026-08-21**.
+- **Verify before you play.** Points reflect MFM Marines v1.3 (owner paste, retrieved 2026-08-27); cross-check against faction pack. Photo ID dated **2026-08-21**.

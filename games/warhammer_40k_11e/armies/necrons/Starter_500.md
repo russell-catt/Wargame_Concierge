@@ -1,17 +1,18 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_500.md
-VERSION: v0.5.2 (2026-08-19)
+VERSION: v0.5.3 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; tomb_world_ownership sync; Path A cheaper-first)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Learning List / Expansion Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Active - built on the game-ready Tomb World force; assumes the sprue extras (2nd Warriors, 2nd Scarabs, Immortals) are built where noted; Warriors/Immortals/Scarabs points verified against MFM v1.2 on 2026-08-16, Geomancer/Tomb Crawler/Macrocyte points sourced from Necron_Lists.md pending independent MFM re-verification
+REFERENCE_STATUS: Active - built on the game-ready Tomb World force; assumes the sprue extras (2nd Warriors, 2nd Scarabs, Immortals) are built where noted; Warriors/Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); Immortals/Scarabs points verified against MFM v1.2 on 2026-08-16 (unaffected by v1.3 ▲ deltas), Geomancer/Tomb Crawler/Macrocyte points sourced from Necron_Lists.md pending independent MFM re-verification
 
 SOURCES:
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - superseded on Warriors/Plasmancer by v1.3 below
+  - MFM Necrons v1.3 (owner paste 2026-08-27; PDF path pending confirmation) - Necron Warriors 10 models **85**, Plasmancer **60**; see [`docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1; read 2026-08-16)
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (ownership, corrected 2026-08-16)
   - games/warhammer_40k_11e/armies/necrons/Starter_250.md (the list this grows from)
@@ -39,7 +40,7 @@ UPDATE_TRIGGER:
 
 500 points is the first size that feels like Warhammer 40,000 rather than a demo: two objectives worth fighting over, a real character, and enough units that the order you activate them starts to matter.
 
-Both lists below **start from the full, owned Kill Team: Tomb World box** - nothing needs to be built or bought to reach the **315-point** foundation (MFM v1.2).
+Both lists below **start from the full, owned Kill Team: Tomb World box** - nothing needs to be built or bought to reach the **320-point** foundation (MFM Necrons v1.3, owner paste 2026-08-27, draft).
 
 ---
 
@@ -48,11 +49,11 @@ Both lists below **start from the full, owned Kill Team: Tomb World box** - noth
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World, game-ready |
-| Necron Warriors | 10 | **80** | **OWNED** - Tomb World, game-ready |
+| Necron Warriors | 10 | **85** | **OWNED** - Tomb World, game-ready |
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World, game-ready |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World, game-ready |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World, game-ready |
-| | | **315** | Zero purchases, zero assembly - MFM v1.2 (read 2026-08-19) |
+| | | **320** | Zero purchases, zero assembly - MFM Necrons **v1.3** (owner paste 2026-08-27, draft; was **315** under v1.2 — Warriors ▲+5) |
 
 **Do not re-shop any line above** - all five units are already on the table. The Macrocytes and this set of Scarab Swarms in particular are Tomb World stock, not shopping targets.
 
@@ -60,19 +61,19 @@ Plus the **Hierotek Circle** set (photo ID 2026-08-17): **Technomancer** owned; 
 
 ---
 
-## Path A - Canoptek Court, 355 / 500
+## Path A - Canoptek Court, 360 / 500
 
 The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawlers, and Macrocytes all benefit from the Power Matrix. See [`Canoptek_Court.md`](Canoptek_Court.md). Active list needs no purchase: build the 2nd Scarab set and you are ready.
 
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
-| Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
+| Necron Warriors | 10 | **85** | **OWNED** - Tomb World |
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms (2nd set) | 3 | **40** | **OWNED** - sprue, build before play |
-| | | **355** | Zero purchases, one bench evening |
+| | | **360** | Zero purchases, one bench evening — MFM v1.3 (was 355 under v1.2) |
 
 **How it is meant to be arranged:**
 
@@ -80,7 +81,7 @@ The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawler
 - **Tomb Crawlers take the middle.** Control half the No Man's Land objectives at the start of a phase (`07.02`) and the whole region joins your Matrix for that phase — which upgrades the Crawlers and any other Canoptek in that region.
 - **Macrocytes and both Scarab units go wide.** Cheap **Objective Control** (`14.02`) bodies that also count as Canoptek for the Matrix bonus.
 
-**Full 500 variant - add Wraiths + enhancement.** Buy Canoptek Wraiths (3) for 95 → **450**. Pad with a Conclave/Court enhancement (e.g. Atomic Disintegrators 10 + Gauntlet of Compression 20 + Gravitic Bolas 15 + Quantum Abacus 15 = 50) if your muster allows — or add Technomancer (owned, 80) and trim Scarabs to 3 (−40) for **490**, then one 10-pt enhancement → **500**.
+**Full 500 variant - add Wraiths + enhancement.** Buy Canoptek Wraiths (3) for 95 → **455**. Pad to exactly 500 with three Conclave/Court enhancements: Atomic Disintegrators 10 + Gauntlet of Compression 20 + Gravitic Bolas 15 = **45** → **500** exactly *(drop Quantum Abacus from the stack — the four-enhancement combo in the v1.2 printing summed to 60, not 50, and over-totalled; this v1.3 pass corrects it)*.
 
 ---
 
@@ -91,15 +92,14 @@ The detachment the Immortals and Hierotek proxies feed. See [`Cryptek_Conclave.m
 | Unit | Models | Pts | Ownership |
 |------|--------|-----|-----------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
-| **Atomic Disintegrators** (enhancement) | — | **10** | On Geomancer |
 | Royal Warden *(Despotek proxy)* | 1 | **50** | **OWNED** proxy - Hierotek |
-| Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
+| Necron Warriors | 10 | **85** | **OWNED** - Tomb World |
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
 | Immortals | 5 | **70** | **OWNED** - sprue + Hierotek Guardians |
-| Plasmancer *(Apprentek proxy)* | 1 | **55** | **OWNED** proxy - Hierotek |
-| | | **500** | |
+| Plasmancer *(Apprentek proxy)* | 1 | **60** | **OWNED** proxy - Hierotek |
+| | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; **Atomic Disintegrators enhancement dropped** (owner-safe cut, -10) to absorb the +10 delta and stay exactly on 500 |
 
 Optional extras (swap in if rebalancing): **Technomancer** (Hierotek, **80** pts) as second Cryptek Support; merge **6 Scarab Swarms** (**80** pts) per [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) by trimming Macrocytes/Crawlers.
 
@@ -109,7 +109,7 @@ Optional extras (swap in if rebalancing): **Technomancer** (Hierotek, **80** pts
 - **Plasmancer proxy on Immortals** — second Cryptek brick (or swap in owned Technomancer).
 - **Tomb Crawlers, Macrocytes, and Scarabs** screen and contest — no Conclave gun buff, but free OC.
 
-**Cheaper variant - 315 points, no proxies.** Just the Tomb World foundation. Add Immortals (build first) for **385** with no purchase at all.
+**Cheaper variant - 320 points, no proxies.** Just the Tomb World foundation. Add Immortals (build first) for **390** with no purchase at all.
 
 ---
 
@@ -118,14 +118,14 @@ Optional extras (swap in if rebalancing): **Technomancer** (Hierotek, **80** pts
 | Model | Points | Path A | Path B |
 |-------|--------|--------|--------|
 | Cryptek Geomancer | 75 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
-| Necron Warriors (10) | 80 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
+| Necron Warriors (10) | **85** | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Tomb Crawlers (2) | 50 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Macrocytes (5) | 70 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Scarab Swarms (3) | 40 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - sprue | - |
 | Immortals (5) | 70 | - | **OWNED** - sprue |
 | Canoptek Wraiths (3) | 95 | Optional (full 500) | - |
-| Plasmancer | 55 | - | Buy for events (Apprentek proxy kitchen-table only) |
+| Plasmancer | **60** | - | Buy for events (Apprentek proxy kitchen-table only) |
 | Technomancer | 80 | Optional extra Cryptek | **OWNED** (Hierotek) |
 
 Retail and second-hand price tracking for genuinely-unowned models lives in [`Necron_Lists.md`](Necron_Lists.md) - **its shopping tracker already excludes the full Tomb World box, the 2nd Warriors squad, the 2nd Scarab set, and the Immortals as owned.**
@@ -171,7 +171,10 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v0.5.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Warriors 80→**85**, Plasmancer 55→**60**. Foundation 315→**320**; Path A 355→**360**; full-500 Wraiths variant re-solved (dropped Quantum Abacus, a pre-existing v1.2 arithmetic error, to land exactly on 500); Path B drops the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500; cheaper no-proxy variant 315/385→**320/390**.
 - v0.5.1 (2026-08-19): Linked dual-path [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) (Hierotek proxies in V1).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.4 (2026-08-17): Hierotek photo ID — Technomancer owned; Plasmancer remains a purchase / Apprentek proxy; Path B table updated.
