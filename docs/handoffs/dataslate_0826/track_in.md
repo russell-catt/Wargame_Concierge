@@ -59,7 +59,7 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 **PDF staging (2026-08-27):** Owner drops unread GW PDFs into [`raw/_dataslate_0826_staging/`](../../raw/_dataslate_0826_staging/) on this branch (temp gitignore negation). Extract → research. **CLEANUP** before merge to `main` — see [`slices/CLEANUP_brief.md`](slices/CLEANUP_brief.md).
 
-Still needed: authorize slices; CLEANUP before merge. **Package shape locked for both systems** (no singular dataslate — Core/universal + faction/team updates).
+**Authorized 2026-08-27:** full track; accept `draft` (G2 waived); KT = update **provided** teams only (Death Korps / Kommandos = no-op). CLEANUP before merge still required.
 
 ## Staging pull (2026-08-27 @ `9a9dcf8`)
 

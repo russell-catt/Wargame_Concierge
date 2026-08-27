@@ -2,9 +2,10 @@
 
 - **Track:** `dataslate_0826`
 - **Slice:** S3
-- **Status:** Ready — package sources in staging (update logs + team packs); **not** blocked on a singular dataslate PDF
+- **Status:** **Authorized** — full track; update **teams provided in staging** only
 - **Depends:** QA-S1 PASS (may run parallel with S2*); KT package readable in staging
 - **Recommended models:** Implementer `claude-sonnet-5-thinking-high` · QA `gpt-5.6-sol-high`
+- **Owner lock (2026-08-27):** Update teams with staged online rules. Owned teams with **no** package update this pass = **no-op**: **Death Korps**, **Kommandos**.
 
 ## Inherited documentation
 
