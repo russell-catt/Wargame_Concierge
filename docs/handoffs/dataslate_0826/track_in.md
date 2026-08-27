@@ -55,8 +55,9 @@ STATUS: Open — research packed; execution gated; G1 partial
 | [`research/necron_mfm_v1_3.md`](research/necron_mfm_v1_3.md) | **MFM Necrons v1.3** | Warriors 10: **80→85**; other ▲ |
 | [`research/sm_mfm_v1_3.md`](research/sm_mfm_v1_3.md) | **MFM Space Marines v1.3** | BR cores unchanged; stamp v1.3; Casual Legends |
 | [`research/40k_universal_rules_updates_v1_1.md`](research/40k_universal_rules_updates_v1_1.md) | **Universal Rules Updates v1.1** (legal **26 Aug 2026**) | Supersedes July v1.0; **new** disembark → `18.06`/`18.07` |
+| [`research/gdrive_40k_dataslates.md`](research/gdrive_40k_dataslates.md) | Google Drive folder (open share) | **Egress blocked** — inventory empty until fetch or upload |
 
-Still needed: KT / remaining newsletter link(s) if any; canonical WarCom URLs; local PDF save confirmation for MFM + this sheet.
+Still needed: Drive folder listing / uploads; KT if separate; canonical WarCom URLs; local PDF save confirmation.
 
 ## Locked dates (fill in S0)
 
@@ -294,6 +295,7 @@ flowchart TD
 
 ## Change Log
 
+- v0.6 (2026-08-27): Google Drive dataslate folder pointer; egress blocked pending allowlist/upload.
 - v0.5 (2026-08-27): Universal Rules Updates v1.1 (26 Aug 2026) from upload → research + S2e; new disembark typing.
 - v0.4 (2026-08-27): SM MFM v1.3 owner paste → research + S2d; BR cores unchanged.
 - v0.3 (2026-08-27): Necron MFM v1.3 owner paste → research + S2c; Warriors 10 @ 85.
