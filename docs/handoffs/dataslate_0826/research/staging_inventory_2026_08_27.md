@@ -3,7 +3,7 @@
 - **Branch:** `feature/dataslate_0826` @ `9a9dcf8` (Universal Rules added)
 - **Path:** `raw/_dataslate_0826_staging/`
 - **Count:** 14 PDFs (+ README)
-- **Note:** No file titled “Balance Dataslate.” Drop is **Faction Packs v1.2 (40K)**, **KT update logs / tournament companion**, and **KT team online rules** (incl. `eng_26-08_` Angels of Death).
+- **Note:** **No singular “Balance Dataslate” PDF** (owner lock). KT package = update logs + team online rules. 40K package = Universal Rules + Faction Packs + MFM (not one dataslate file either for our purposes).
 
 ## Inventory
 

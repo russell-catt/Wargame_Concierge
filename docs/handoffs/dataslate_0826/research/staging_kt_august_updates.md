@@ -4,14 +4,20 @@
 - **Sources (staging):**  
   - `raw/_dataslate_0826_staging/eng_killzone_tomb_world_update_log-ptyzlo3dfr-ivlzsazxnf.pdf` (2 pp, created 10 Aug 2026)  
   - `raw/_dataslate_0826_staging/eng_mission_packs_update_log-51t6hsixc0-buxngu8xav.pdf` (1 pp, created 5 Aug 2026)  
-  - Related: `eng_kt_approved_ops_2025_tournament_companion-*.pdf` (11 pp) — event framework, not a balance dataslate  
+  - Related: `eng_kt_approved_ops_2025_tournament_companion-*.pdf` (11 pp) — event framework companion (not a team rules pack)  
   - Team packs: `eng_26-08_killteam_angels_of_death_*` + Canoptek / Plague Marines / others online rules
 - **Confidence:** `draft`
 - **Copyright:** Verbatim quotes only under `games/kill_team_2024/` with filename + page. Research here is paraphrase.
 
-## Important
+## Important (owner lock 2026-08-27)
 
-**No standalone “Kill Team Balance Dataslate” PDF** was in the staging drop. These **update logs** + dated online team rules are the KT balance/commentary surface for Aug 2026.
+**There is no singular Kill Team “Balance Dataslate” PDF.**  
+The quarterly balance package is:
+
+1. **Core / killzone / mission-pack update surfaces** (e.g. Tomb World update log, Mission packs update log, and any Core rules patches), **plus**
+2. **Team online rules** PDFs that incorporate the balance tweaks (dated stamps such as `eng_26-08_`).
+
+WarCom “download the balance update” means those documents / App mirrors — not one titled dataslate file. Stop treating a missing `*balance*dataslate*.pdf` as a blocker.
 
 ## Tomb World update log (paraphrase)
 

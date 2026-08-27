@@ -2,8 +2,8 @@
 
 - **Track:** `dataslate_0826`
 - **Slice:** S3
-- **Status:** Ready — **blocked on KT dataslate source** (Drive unread; awaiting upload or egress)
-- **Depends:** QA-S1 PASS (may run parallel with S2*); KT dataslate PDF readable (Drive or chat upload)
+- **Status:** Ready — package sources in staging (update logs + team packs); **not** blocked on a singular dataslate PDF
+- **Depends:** QA-S1 PASS (may run parallel with S2*); KT package readable in staging
 - **Recommended models:** Implementer `claude-sonnet-5-thinking-high` · QA `gpt-5.6-sol-high`
 
 ## Inherited documentation
@@ -17,12 +17,12 @@
 
 ## Requirements
 
-1. Extract any KT Balance Dataslate PDF if/when staged; until then use commentary + update logs + `eng_26-08_` / online team packs.
+1. Extract / use **KT package** as update logs + team online rules (owner lock: **no singular dataslate PDF** — do not block waiting for one).
 2. **In scope:** priority teams (Canoptek, Plague Marines, Angels of Death) currency vs staged online rules; Tomb World teleport/breach; Nemesis Towering; **Hierotek regen timing** (commentary + online pack) if teaching mentions Hierotek/Apprentek.
 3. **Waiver unless owner expands:** Fellgor, Goremongers, Raveners, Wolf Scouts — keep in research note only.
-4. Stamp KT **Rules currency** (Aug 2026 quarterly balance / update logs) on touched GW notices/footers.
+4. Stamp KT **Rules currency: quarterly balance August 2026** (update logs + dated team packs) on touched GW notices/footers.
 5. Write `S3_implementer.md` with file list + no-op waivers.
-6. Do not expand into parked `kt24_doc_followups` unless dataslate forces a touch.
+6. Do not expand into parked `kt24_doc_followups` unless package forces a touch.
 7. **Never commit permanent PDF copies** outside staging; CLEANUP before main.
 
 ## Exit criteria (QA verifies)
