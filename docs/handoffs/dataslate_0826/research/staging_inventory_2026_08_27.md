@@ -37,7 +37,7 @@
 ## Missing vs owner expectation
 
 - Standalone KT **Balance Dataslate** PDF: **does not exist** (owner lock). Treat Core/update logs + dated `eng_26-08_` team packs as the full KT balance package — do not wait for a titled dataslate.
-- Standalone 40K Balance Dataslate PDF: **not in drop**. Faction Packs v1.2 + Universal Rules v1.1 + MFM v1.3 cover the Aug 26 package.
+- Standalone 40K Balance Dataslate PDF: **does not exist** (owner lock). Faction Packs v1.2 + Universal Rules v1.1 + MFM v1.3 **are** the Aug package.
 
 ## Detail notes
 
