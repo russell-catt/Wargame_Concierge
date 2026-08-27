@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Anvil_Siege_Force.md
-VERSION: v1.1 (2026-08-25)
+VERSION: v1.2 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
 
@@ -15,7 +15,7 @@ SOURCES:
   - https://www.newrecruit.eu/wiki/wh40k-11e (Anvil Siege Force / Shield of the Imperium, retrieved 2026-08-22)
   - https://www.40k.app/factions/space-marines/detachments/anvil-siege-force (retrieved 2026-08-22)
   - Community detachment focus notes (Goonhammer / Tabletop Battles summaries, retrieved 2026-08-22) — Oath vs Anvil +1 Wound interaction flagged
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2) — confirm DP / enhancement costs before play
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27 — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md) — confirm DP / enhancement costs before play
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
   - games/warhammer_40k_11e/armies/space_marines/Gladius_Task_Force.md
 
@@ -174,7 +174,10 @@ If the son is still learning Advance / Fall Back / charge timing, stay on Gladiu
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+
 ## Change Log
+- v1.2 (2026-08-27): dataslate_0826 S2d — SOURCES pointer stamped to **MFM Marines v1.3**; enhancement figures on this page stay public-ref draft, still need the owned-PDF pass.
 - v1.1 (2026-08-25): wd527_shipping S6 — terrain-footprint OC tip; system spine links.
 - v1.0 (2026-08-22): Initial teaching writeup for owned gun shelf; public refs retrieved 2026-08-22; `draft` pending owned PDF glance.
 

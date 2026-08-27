@@ -1,16 +1,17 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Turn_Structure.md
-VERSION: v0.5.2 (2026-08-25)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1 wd527_shipping)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 / S2e)
 
 DOCUMENT_TYPE: Teaching Guide / Play Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
-REFERENCE_STATUS: Active - draft, spot-checked against owned Core Rules PDF 2026-08-16
+REFERENCE_STATUS: Active - draft, spot-checked against owned Core Rules PDF 2026-08-16; disembark move typing added 2026-08-27 per Universal Rules Updates v1.1
 
 SOURCES:
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf (read 2026-08-16)
+  - raw/_dataslate_0826_staging/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf (Universal Rules Updates v1.1, legal 26 Aug 2026; staging copy, read 2026-08-27)
   - reference/Source_Library.md
 
 PURPOSE:
@@ -40,6 +41,8 @@ Read top to bottom. Each phase has a short "what you are actually deciding" note
 Checked against the owned Core Rules PDF on **2026-08-16**. Numbered IDs point at [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md).
 
 **Contradiction check (2026-08-18):** move types (**09.04–09.07**), shooting types (**10.04–10.07**), charge (**11.02**, **11.04**), pile-in/consolidate (**12.02–12.08**), and Core CP (**08.02**) match the 2026-08-16 paraphrase. No rewrite.
+
+**Currency stamp (2026-08-27):** Universal Rules Updates **v1.1, legal 26 Aug 2026** cross-checked. Disembark move types gain two new named cases (`18.06` assault, `18.07` shock) — added to the Movement phase section below. No other move type changed.
 
 ---
 
@@ -99,6 +102,13 @@ Your options:
 Coherency is a dual test: every model within **2"** of another model in the unit, and within **9"** of every other model (**03.03**). Ingress sets up within **6"** of a battlefield edge (**20.04**) and more than **8"** from enemies; Deep Strike may appear anywhere more than **8"** from enemies. Do not conflate the 6" edge distance with the 9" coherency span — both Core numbers are real, for different jobs.
 
 **Cite:** WD527, Movement changes; owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
+**Disembark move types (currency: Universal Rules Updates v1.1, legal 26 Aug 2026):** an ordinary **disembark move** (Core **18.04**) needs the TRANSPORT to have remained stationary or made a normal move that phase — it cannot have Advanced or Fallen Back. Two special cases now have their own names, because some faction/wargear rules grant permissions the base disembark move does not:
+
+- **Assault disembark move** (**18.06**) — used instead of a normal disembark move when a rule lets your unit be eligible to **declare a charge** after disembarking from a TRANSPORT that made a **normal move** that turn.
+- **Shock disembark move** (**18.07**) — used instead of a normal disembark move when a rule lets your unit **disembark from a TRANSPORT that Advanced** that turn.
+
+Neither ID grants the permission by itself — a separate ability has to allow the charge or the disembark-after-advance first. **v1.1** just gives the resulting move a name other rules can key off. Verbatim quotes: [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md) (August `eng_*` deltas section).
 
 ---
 
@@ -205,6 +215,7 @@ Your turn ends. Your opponent takes theirs. When both have gone, the battle roun
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.6.0 (2026-08-27): Universal Rules Updates v1.1 (legal 26 Aug 2026) currency pass — added assault disembark move (`18.06`) / shock disembark move (`18.07`) teaching paraphrase to the Movement phase; track `dataslate_0826` slice S2e.
 - v0.5.2 (2026-08-25): WD527 Commentary blocks — Movement (2"/9", Ingress 6", Deep Strike >8"), Charge (2D6 first), Pile-in/Consolidate (active then opponent); track `wd527_shipping` S1.
 - v0.5.1 (2026-08-18): Rule-ID cites; no paraphrase rewrite (track `40k_warcom_quotes` S3).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

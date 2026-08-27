@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v0.5.4 (2026-08-25)
+VERSION: v0.5.6 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping; dataslate_0826 S2)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -10,8 +10,9 @@ GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 
 SOURCES:
-  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1, read 2026-08-16)
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, read 2026-08-16)
+  - raw/_dataslate_0826_staging/eng_wh40k_faction_pack_necrons-eweoek106p-nqomxds3qr.pdf (Faction Pack v1.2, legal from 26 Aug 2026; staging read — supersedes the eng_22-07 v1.1 copy below on the same topics)
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1, read 2026-08-16; superseded)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, read 2026-08-16; superseded by MFM Necrons v1.3 owner paste retrieved 2026-08-27)
   - https://wahapedia.ru/wh40k10ed/factions/necrons (retrieved 2026-08-16)
   - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION, corrected 2026-08-16)
   - docs/handoffs/tomb_world_ownership/track_in.md (locked ownership decision)
@@ -71,7 +72,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 | [`Starter_250.md`](Starter_250.md) | First-game learning list built from the game-ready Tomb World force, plus Hierotek named map |
 | [`Starter_500.md`](Starter_500.md) | Both detachment paths at ~500 points, every entry tagged Tomb World / sprue / purchase |
 | [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) | **500 / 750 / 1,000** - Cryptek Conclave V1 (no buy, Hierotek proxies OK) vs V2 (finished with purchases) |
-| [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md) | Fully statted **245/250** Conclave list (Geomancer + Warriors + Crawlers + Scarabs) |
+| [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md) | Fully statted **250/250** Conclave list (Geomancer + Warriors + Crawlers + Scarabs) |
 | [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) | Fully statted **500 V1** Conclave list (no purchases; Hierotek proxies) |
 | [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md) | Fully statted **750 V1** Conclave list (no purchases) |
 | [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md) | Fully statted **1,000 V2** Conclave list (Plasmancer + Szeras + Lychguard buys) |
@@ -112,7 +113,11 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
+
 ## Change Log
+- v0.5.6 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: the two v1.2 items relevant to this collection (Cryptek Support-not-Leader, Canoptek Court's 9"→8" stratagem range) were already correctly taught on [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) from the v1.1 errata pass. Cursed Legion (Unnatural Aggression) and Night Scythe FRAME/stat notes are not taught on any page in this collection — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`.
+- v0.5.5 (2026-08-27): MFM Necrons v1.3 recost pointer (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60** across starter lists, army lists, and detachment guides; see [`Starter_250.md`](Starter_250.md) etc. for the re-totalled numbers.
 - v0.5.4 (2026-08-25): WD527 shipping S6 — system spine links (wound / Disposition / Mission 38 / system QR); distance triad; print-bag pointer.
 - v0.5.2 (2026-08-19): Indexed fully statted 250 / 500 V1 Conclave army lists and their reference guides.
 - v0.5.1 (2026-08-19): Indexed [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md); Hierotek correction text updated to photo-IDed roster.

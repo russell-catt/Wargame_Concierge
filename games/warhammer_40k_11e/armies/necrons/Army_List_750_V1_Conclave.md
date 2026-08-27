@@ -1,15 +1,15 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_750_V1_Conclave.md
-VERSION: v1.0 (2026-08-19)
+VERSION: v1.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Army List / Fully Statted Play Sheet
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 750 V1. Points MFM v1.2 (read 2026-08-19). Stats Wahapedia 2026-08-19. confidence: draft.
+REFERENCE_STATUS: Active - 750 V1. Points: Necron Warriors and Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); other points remain MFM v1.2 (read 2026-08-19). Stats Wahapedia 2026-08-19. confidence: draft.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Starter_Forces_500_750_1000.md
@@ -48,18 +48,20 @@ UPDATE_TRIGGER:
 |---|----------------|--------|-----|
 | 1 | Cryptek Geomancer *(Warlord)* | 1 | 75 |
 | 2 | Technomancer | 1 | 80 |
-| 3 | Plasmancer *(Apprentek proxy)* | 1 | 55 |
+| 3 | Plasmancer *(Apprentek proxy)* | 1 | 60 |
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 |
-| 5 | Necron Warriors | 10 | 80 |
-| 6 | Necron Warriors *(2nd squad — build)* | 10 | 80 |
+| 5 | Necron Warriors | 10 | 85 |
+| 6 | Necron Warriors *(2nd squad — build)* | 10 | 85 |
 | 7 | Canoptek Tomb Crawlers | 2 | 50 |
 | 8 | Canoptek Macrocytes | 5 | 70 |
 | 9 | Canoptek Scarab Swarms | 6 | 80 |
 | 10 | Immortals | 5 | 70 |
 | 11 | **Gauntlet of Compression** | — | 20 |
 | 12 | **Gravitic Bolas** | — | 15 |
-| 13 | **Quantum Abacus** | — | 15 |
+| 13 | **Atomic Disintegrators** | — | 10 |
 | | | | **750** |
+
+MFM v1.3 — Warriors ▲+5 ×2, Plasmancer ▲+5; enhancement stack swapped (Quantum Abacus → Atomic Disintegrators, -5) to land exactly on 750. *(The v1.0 printing's four-line total also had a pre-existing arithmetic slip — this row is now checked to add up.)*
 
 **Attachments:** Warden + Geomancer on one Warrior squad; Technomancer or Plasmancer proxy on Immortals. Second Warriors, Macrocytes, Crawlers, Scarabs for board control.
 
@@ -108,7 +110,7 @@ Duplicate profiles match [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Concl
 |-------------|-----|-------------------|
 | Gauntlet of Compression | 20 | Geomancer or Technomancer — +6" range to unit guns |
 | Gravitic Bolas | 15 | Either Cryptek — slow/charge brake |
-| Quantum Abacus | 15 | Either Cryptek — CP when unit targeted by stratagem |
+| Atomic Disintegrators | 10 | Either Cryptek — anti-Monster / anti-Vehicle menu options *(swapped in for Quantum Abacus in the v1.3 recost to land exactly on 750)* |
 
 ---
 
@@ -123,7 +125,10 @@ Duplicate profiles match [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Concl
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.1 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85** ×2, Plasmancer 55→**60**; enhancement stack swapped (Quantum Abacus → Atomic Disintegrators, -5) to land exactly on 750 (also fixes a pre-existing v1.0 arithmetic slip in that stack).
 - v1.0 (2026-08-19): Initial fully statted 750 V1. MFM v1.2 re-cost (Crawlers 50, Macrocytes 70); enhancements rebalance to 750.
 
 ## Attribution

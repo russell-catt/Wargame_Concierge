@@ -1,19 +1,19 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.7.0 (2026-08-25)
+VERSION: v0.7.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S6)
+AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview; prior wd527_shipping S6)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
-REFERENCE_STATUS: Active - sources read 2026-08-16; starter snapshot synced to owned Blood Ravens paths 2026-08-21; system spine densified 2026-08-25
+REFERENCE_STATUS: Active - sources read 2026-08-16; starter snapshot synced to owned Blood Ravens paths 2026-08-21; system spine densified 2026-08-25; MFM stamp v1.3 2026-08-27
 
 SOURCES:
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1)
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27 — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md; BR core costs re-verified unchanged)
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16)
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
   - games/warhammer_40k_11e/rules/Wound_Roll_Reference.md · Key_Concepts.md · Turn_Structure.md
@@ -29,6 +29,8 @@ PRINT_NOTE:
   folder yet — markdown is the laminate source (README claims md only).
 
 CHANGE_LOG:
+  - v0.7.2 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** on Starter Snapshot heading; core costs re-verified unchanged vs v1.2; page count unchanged.
+  - v0.7.1 (2026-08-27): dataslate_0826 S2b — one-line SM Codex October preview note (Tac/Dev → Legendary Proxy; Whirlwind → Legends) added to Starter Snapshot; 2-page count unchanged.
   - v0.7.0 (2026-08-25): wd527_shipping S6 — page-2 spine densify (S vs T bands, 6"/8"/9" triad, Mission 38 + system QR); OC footprint restated.
   - v0.6.1 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) pointers.
   - v0.6.0 (2026-08-21): Starter snapshot → owned Blood Ravens ladder (250–1000); ownership audited.
@@ -123,7 +125,7 @@ Against that unit, every model in your army with the ability gets:
 
 # SPACE MARINES - TABLE REFERENCE | Page 2 of 2
 
-## STARTER SNAPSHOT - owned Blood Ravens (MFM Marines v1.2)
+## STARTER SNAPSHOT - owned Blood Ravens (MFM Marines v1.3)
 
 **Paint:** Blood Ravens · **Rules:** Codex SM + Gladius. Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md). Chaplain claw = **Storm Shield** in game.
 
@@ -142,6 +144,8 @@ Against that unit, every model in your army with the ability gets:
 **500:** Captain + Tac + Devs + Terms = **500**. **750:** + Chaplain + 2nd Terms + HV = **750**. **1000:** ~**980** with Tech + Whirlwind.
 
 **Enhancements:** Honour Vehement 15 · Adept of the Codex 20 · Artificer Armour 20 · Fire Discipline 25. **Legends (friendly):** Bike Squad · Attack Bike.
+
+**SM Codex Oct preview:** Tac/Dev/Whirlwind stay current Faction Pack/MFM until the Codex ships — then Legendary Proxy (Tac→Intercessor, Dev→Desolation) / Legends (Whirlwind). See [`README.md`](README.md).
 
 ---
 
@@ -228,10 +232,12 @@ Unmod **1** fails · unmod **6** = critical wound. Oath +1 Wound shifts the band
 
 ---
 
-*Verify vs Munitorum / faction pack - patches happen | 2026-08-25*
+*Verify vs Munitorum / faction pack - patches happen | 2026-08-27 (MFM Marines v1.3)*
 
 ---
 
 ## Games Workshop notice
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.

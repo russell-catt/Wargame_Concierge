@@ -2,7 +2,7 @@
 
 > **Working copy.** If this file and `C:\Personal\40K\Necron_Lists.md` diverge, **the Personal path wins.** Do not overwrite the Personal file from this copy. Ownership facts for play live in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
-> **MFM v1.2 pass (2026-08-19):** Tomb World subtotal **315** (was 385). Tomb Crawlers **50**, Macrocytes **70**, Warriors **80** per [`C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf`](file:///C:/Personal/40K/rules/Warhammer%2040,000_%20Munitorum%20Field%20Manual.pdf). Fully statted play sheets: [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md), [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md), [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md), [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md).
+> **MFM Necrons v1.3 pass (2026-08-27, owner paste, draft):** Tomb World subtotal **320** (was 315 @ v1.2, 385 pre-v1.2). Tomb Crawlers **50**, Macrocytes **70**, Warriors **85** (▲+5 vs v1.2) per [`docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md) — PDF path pending confirmation under [`C:\Personal\40K\rules\`](file:///C:/Personal/40K/rules/). Fully statted play sheets: [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md), [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md), [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md), [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md).
 
 > **System spine (WD527 shipping):** Force Dispositions [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38 [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · system QR [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html). Write **Priority Assets** (Conclave) or **Take and Hold** (Court) on every list.
 
@@ -21,9 +21,9 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 | Cryptek Geomancer | 1 | Cryptek Geomancer | 75 | Game ready |
 | Canoptek Tomb Crawlers | 2 | Canoptek Tomb Crawlers | 50 | Game ready — 1 twin gauss reapers + 1 transdimensional isolator |
 | Canoptek Macrocytes | 5 | Canoptek Macrocytes | 70 | Game ready — 1 Accelerator, 1 Reanimator, 3 Warriors (2 gauss scalpel, 1 tesla caster) |
-| Necron Warriors | 10 | Necron Warriors | 80 | Game ready — mixed gauss flayer / gauss reaper (photo shows 10) |
+| Necron Warriors | 10 | Necron Warriors | **85** | Game ready — mixed gauss flayer / gauss reaper (photo shows 10) — MFM v1.3 ▲+5 |
 | Canoptek Scarab Swarms | 3 | Canoptek Scarab Swarms | 40 | Game ready (Tomb World) |
-| **Tomb World subtotal** | | | **315** | MFM v1.2 verified 2026-08-19 |
+| **Tomb World subtotal** | | | **320** | MFM Necrons **v1.3** (owner paste 2026-08-27, draft; was 315 under v1.2 verified 2026-08-19) |
 
 **Hierotek Circle Kill Team (used)** — assembled + painted; **photo ID 2026-08-17**:
 
@@ -68,7 +68,7 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 ### Phase 1: 250-Point Learning Force
 
 **Preferred start (playable now):** **Kill Team: Tomb World** game-ready units:
-* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (80 pts) + **2x Canoptek Tomb Crawlers** (50 pts) = **205 pts** *(MFM v1.2; add Scarabs, Macrocytes, or an enhancement to approach 250)*
+* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (85 pts) + **2x Canoptek Tomb Crawlers** (50 pts) = **210 pts** *(MFM Necrons v1.3, owner paste 2026-08-27, draft; add Scarabs, Macrocytes, or an enhancement to approach 250)*
 * *Strategy:* Attach Geomancer and Tomb Crawlers to Warriors for Power Matrix re-roll practice.
 
 **Alternate:** Hierotek Technomancer + assembled Immortals (see Foundation). Plasmancer remains a purchase or Apprentek proxy.
@@ -119,7 +119,7 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 ### Phase 1: 250-Point Learning Force
 
 **Preferred start (playable now):** **Kill Team: Tomb World** game-ready units:
-* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (80 pts) + **2x Canoptek Tomb Crawlers** (50 pts) = **205 pts** *(MFM v1.2; add Scarabs, Macrocytes, or an enhancement to approach 250)*
+* **1x Cryptek Geomancer** (75 pts) + **10x Necron Warriors** (85 pts) + **2x Canoptek Tomb Crawlers** (50 pts) = **210 pts** *(MFM Necrons v1.3, owner paste 2026-08-27, draft; add Scarabs, Macrocytes, or an enhancement to approach 250)*
 * *Strategy:* Geomancer leads Warriors; Tomb Crawlers screen for Conclave practice.
 
 **Hierotek:** Technomancer owned. Plasmancer is **not** in the box (Apprentek is a casual proxy only).
@@ -134,14 +134,14 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 * **5x Immortals** (70 pts) — *already purchased (1 box of 5), unassembled*
 
 **Still to acquire:**
-* **1x Plasmancer** (55 pts) *(Purchased)* — MFM v1.2
+* **1x Plasmancer** (60 pts) *(Purchased)* — MFM Necrons v1.3 (owner paste 2026-08-27, draft; was 55 under v1.2)
 
 *Strategy:* Once built, Plasmancer leads Immortals for critical hits; Macrocytes grant [IGNORES COVER] to nearby infantry.
 
 ### Phase 3: 750-Point Expansion
 * **Additions:**
   * Illuminor Szeras (175 pts) *(Purchased)*
-  * **10x Necron Warriors** (80 pts) — *2nd squad on sprue (owned); build to merge with Tomb World squad into 20-man block (190 pts merged)*
+  * **10x Necron Warriors** (85 pts, MFM v1.3) — *2nd squad on sprue (owned); build to merge with Tomb World squad into 20-man block (190 pts merged, unchanged)*
 * *Strategy:* Szeras behind a 20-man Warrior phalanx for AP aura and durability.
 
 ### Phase 4: 1,000-Point Target List
@@ -201,4 +201,8 @@ If a seller lists a sealed or partially built bundle box, it is almost always si
 ## Games Workshop notice
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
+**Change log (dataslate_0826 S2c, 2026-08-27):** MFM Necrons v1.3 recost — Tomb World Warriors 80→**85** (Tomb World subtotal 315→**320**); Plasmancer 55→**60**; Phase 1 preferred-start math 205→**210** (both detachment options).
 

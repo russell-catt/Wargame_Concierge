@@ -1,15 +1,15 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md
-VERSION: v1.2 (2026-08-19)
+VERSION: v1.4 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Army List / Fully Statted Play Sheet
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 250-pt learning list. Profiles: MFM v1.2 points (read 2026-08-19); stats cross-checked Wahapedia wh40k11ed 2026-08-19 + local research. confidence: draft (Wahapedia cross-check; verify vs owned pack before events).
+REFERENCE_STATUS: Active - 250-pt learning list. Points: Necron Warriors re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); other points remain MFM v1.2 (read 2026-08-19); stats cross-checked Wahapedia wh40k11ed 2026-08-19 + local research. confidence: draft (Wahapedia cross-check; verify vs owned pack before events).
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Starter_250.md
@@ -29,7 +29,7 @@ UPDATE_TRIGGER:
   Update when MFM points, datasheets, or the 250 starter change.
 -->
 
-# Army list - 245 pts - Cryptek Conclave
+# Army list - 250 pts - Cryptek Conclave
 
 > **FORCE DISPOSITION — write on the list before you deploy**
 > **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
@@ -39,12 +39,12 @@ UPDATE_TRIGGER:
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
 | **Force Disposition** | **Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
-| **Points** | **245 / 250** *(5 pts under cap — fine for learning)* |
+| **Points** | **250 / 250** *(exact)* |
 | **Warlord** | Cryptek Geomancer |
 | **Playable tonight?** | Yes — all four units game-ready (Tomb World) |
 | **Companion guide** | [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md) |
 
-> **MFM v1.2 correction (2026-08-19):** Tomb Crawlers are **50** pts (not 85). Macrocytes are **70** pts (not 85). This list uses Crawlers + Scarabs instead of an enhancement pad to stay near 250.
+> **MFM Necrons v1.3 (owner paste 2026-08-27, draft):** Necron Warriors (10) are **85** pts (▲+5 vs v1.2's 80). Tomb Crawlers are **50** pts, Macrocytes **70** pts (both unchanged, per MFM v1.2 correction 2026-08-19). The Warriors ▲ takes this list from 245/250 to **exactly 250** — no enhancement pad needed.
 
 ---
 
@@ -53,14 +53,14 @@ UPDATE_TRIGGER:
 | # | Unit | Models | Pts | Role |
 |---|------|--------|-----|------|
 | 1 | **Cryptek Geomancer** *(Warlord)* | 1 | 75 | Support — attaches to Warriors |
-| 2 | **Necron Warriors** | 10 | 80 | Battleline / home objective |
+| 2 | **Necron Warriors** | 10 | 85 | Battleline / home objective |
 | 3 | **Canoptek Tomb Crawlers** | 2 | 50 | Screen / midfield |
 | 4 | **Canoptek Scarab Swarms** | 3 | 40 | Wide OC / harassment |
-| | | | **245** | |
+| | | | **250** | |
 
 **Battle Formations:** Geomancer (**Support**) attaches to Warriors before deployment (**19.01**). Deploy them as **one unit** in coherency (**03.03**) — not as two separate units. Crawlers and Scarabs are separate. At 500+ you can often add a **Leader** to the same Warrior brick alongside this Support.
 
-**Optional pad to exactly 250:** Add **Atomic Disintegrators (10)** on the Geomancer → **255** *(5 over — drop Scarabs for a 3-unit 215+10 list)*.
+**Already exact at 250 — do not add an enhancement**, or the list goes over cap. Three-unit variant (drop Scarabs): Geomancer + Warriors + Crawlers = **210**; +Atomic Disintegrators (10) → **220**.
 
 **Owned wargear:** Warriors — mixed gauss flayer / gauss reaper. Tomb Crawlers — 1× twin gauss reapers, 1× transdimensional isolator.
 
@@ -87,7 +87,7 @@ UPDATE_TRIGGER:
 
 ---
 
-## Unit 2 — Necron Warriors (10) + attached Geomancer — 80 pts
+## Unit 2 — Necron Warriors (10) + attached Geomancer — 85 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -101,7 +101,7 @@ UPDATE_TRIGGER:
 
 **Abilities:** Reanimation Protocols; Their Number is Legion (read datasheet). With Geomancer attached → Cryptek unit for Conclave shooting menu.
 
-*Sources: local research + Wahapedia; MFM v1.2 80 pts / 10.*
+*Sources: local research + Wahapedia; MFM Necrons v1.3 85 pts / 10 (owner paste 2026-08-27, draft; was 80 under v1.2).*
 
 ---
 
@@ -170,7 +170,10 @@ UPDATE_TRIGGER:
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**. List now lands exactly on **250** (was 245/250); removed the now-moot Atomic Disintegrators pad note.
 - v1.3 (2026-08-19): Plain-language play section; rule ID cites for phases and core rules.
 - v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.
 - v1.0 (2026-08-19): Initial list with VERIFY blanks.

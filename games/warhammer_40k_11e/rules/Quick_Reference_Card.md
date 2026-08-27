@@ -1,17 +1,18 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Quick_Reference_Card.md
-VERSION: v1.0 (2026-08-25)
+VERSION: v1.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 / S2e)
 
 DOCUMENT_TYPE: Rules Outline / Play Aid Index
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
-REFERENCE_STATUS: Active - teaching outline; mechanics from Core tier 1
+REFERENCE_STATUS: Active - teaching outline; mechanics from Core tier 1; disembark move typing added 2026-08-27 per Universal Rules Updates v1.1
 
 SOURCES:
   - raw/white_dwarf_527/reference_sheet_outline.md (WD527 topic map; layout inspiration)
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf (read 2026-08-16)
+  - raw/_dataslate_0826_staging/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf (Universal Rules Updates v1.1, legal 26 Aug 2026; staging copy, read 2026-08-27)
   - C:\Personal\40K\WD_527\40K_ref-card.pdf (tier 1.5 layout inspiration only)
   - games/warhammer_40k_11e/rules/Turn_Structure.md
   - games/warhammer_40k_11e/rules/Key_Concepts.md
@@ -70,6 +71,7 @@ Remain Stationary / Normal / Advance / Fall Back / Disembark / Ingress (**09.02*
 - Engagement range: **2"** horizontal, **5"** vertical  
 - Coherency (**03.03**): **2"** to a squadmate + **9"** to all models in the unit  
 - Ingress: within **6"** of a battlefield edge, more than **8"** from enemies (**20.04**); Deep Strike: anywhere more than **8"** from enemies  
+- Disembark (**18.04**): TRANSPORT not Advanced/Fallen Back. **v1.1 (26 Aug 2026):** charge-after-normal-move disembark = **assault disembark move (18.06)**; disembark-after-Advance = **shock disembark move (18.07)** — both need a separate rule granting the permission
 
 ### Shooting (**10**)
 
@@ -137,6 +139,7 @@ Full matrix laminate: [`Wound_Roll_Reference.md`](Wound_Roll_Reference.md) · [`
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.1 (2026-08-27): Universal Rules Updates v1.1 (legal 26 Aug 2026) currency pass — added disembark move typing line (`18.06` assault / `18.07` shock) to Movement (**09**) side; track `dataslate_0826` slice S2e.
 - v1.0 (2026-08-25): Initial outline from WD527 topic map + Core IDs (wd527_shipping S4).
 
 ## Attribution

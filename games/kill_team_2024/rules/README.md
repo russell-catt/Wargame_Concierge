@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/rules/README.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1; patch sync slice P)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5; S1/P provenance)
 
 DOCUMENT_TYPE: Index / Section README
 PROJECT_NAME: Wargame_Concierge
@@ -47,6 +47,8 @@ Setup and kill zones live one level across in [`../setup/`](../setup/) (populate
 
 **Open (parked):** KT freshness dates from `eng_DD-MM_` PDFs and complete operative cards — [`kt24_doc_followups/track_in.md`](../../../docs/handoffs/kt24_doc_followups/track_in.md). *(Cheat sheet Letter landscape + stacked reference layout: addressed 2026-08-26.)*
 
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / killzone / mission-pack update logs), `draft`, retrieved 2026-08-27. This shared spine's paraphrase pages were not rewritten this pass — the package's teaching deltas (Tomb World teleport/Breach, Nemesis Towering Size) landed on [`../setup/killzones/tomb_world.md`](../setup/killzones/tomb_world.md) and `nemesis_ops/`, not here. Full disposition: [`docs/handoffs/dataslate_0826/slices/S3_implementer.md`](../../../docs/handoffs/dataslate_0826/slices/S3_implementer.md).
+
 ---
 
 ## Confidence
@@ -73,6 +75,7 @@ Every claim in this section traces to `raw/pointers/kill_team_2024_core.md`, [`P
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.1 (2026-08-27): Rules currency line — Kill Team quarterly balance, August 2026; pointer to where the package's teaching deltas actually landed (setup/killzones + nemesis_ops, not this shared spine) (track `dataslate_0826` slice S5).
 - v0.5.0 (2026-08-18): Cheat sheet restyled to UML activity shapes (track `flowcharting_uml`); link Flowcharting.md. Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-18): Slice P — Core PDFs opened; hierarchy Full-Scan + update log over lite; Patch_Manifest indexed; targeting owner-verified.
 - v1.0 (2026-08-17): Replaced the S0 stub with a real index. Four rules documents authored (slice S1). Confidence section updated to cite the six KB concept pages the Librarian (L1) landed in parallel, from the same source.

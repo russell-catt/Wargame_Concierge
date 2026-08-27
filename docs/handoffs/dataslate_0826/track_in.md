@@ -7,7 +7,7 @@ AUTHOR_OF_NOTES: Cursor (Coordinator — SM Codex + MFM v1.3 + Universal Rules v
 DOCUMENT_TYPE: Track hand-off in
 PROJECT_NAME: Wargame_Concierge
 TRACK: dataslate_0826
-STATUS: Open — research packed; execution gated; G1 partial
+STATUS: Complete — full track executed; FS PASS; draft confidence; ready for user merge gate
 -->
 
 # Track in — dataslate_0826
@@ -25,9 +25,9 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 1. **Parse** the three owner WarCom newsletter links → canonical article URLs, titles, dates, PDF names, and systems touched. **At least one link is a Codex: Space Marines preview (October), not a Balance Dataslate** — see [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md).
 2. **Pointer + inventory** only under `raw/pointers/` — **never** commit GW dataslate / Codex PDFs/binaries.
-3. **Shipping impact:** 40K + KT Balance Dataslates where applicable; **plus** SM Codex October readiness (Legendary Proxies / Legends honesty) without rewriting live lists to preview stats early. Codex wall intact on armies.
+3. **Shipping impact:** 40K + KT **balance packages** (Core/universal + faction/team updates — **no** singular dataslate file); **plus** SM Codex October readiness (Legendary Proxies / Legends honesty) without rewriting live lists to preview stats early. Codex wall intact on armies.
 4. **Core currency pass:** project root + `docs/` cores, and each game’s cores (40K, KT24, Warcode N/A stamp).
-5. **Footer freshness:** dataslate date and/or SM Codex preview / October stamp as applicable.
+5. **Footer freshness:** package piece stamps (not a fictional dataslate filename) and/or SM Codex preview / October stamp as applicable.
 6. **Heavy QA:** Tier 2 every slice; Impl ≠ QA model; FS third family; legibility spot-checks.
 
 ## Non-goals
@@ -59,37 +59,48 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 **PDF staging (2026-08-27):** Owner drops unread GW PDFs into [`raw/_dataslate_0826_staging/`](../../raw/_dataslate_0826_staging/) on this branch (temp gitignore negation). Extract → research. **CLEANUP** before merge to `main` — see [`slices/CLEANUP_brief.md`](slices/CLEANUP_brief.md).
 
-Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP before merge.
+**Authorized 2026-08-27:** full track; accept `draft` (G2 waived); KT = update **provided** teams only (Death Korps / Kommandos = no-op). CLEANUP before merge still required.
+
+## Staging pull (2026-08-27 @ `9a9dcf8`)
+
+**14 PDFs** in `raw/_dataslate_0826_staging/`. Full table: [`research/staging_inventory_2026_08_27.md`](research/staging_inventory_2026_08_27.md). Owner review restatement: [`research/research_plan_restatement.md`](research/research_plan_restatement.md).
+
+| Headline | Research |
+|----------|----------|
+| Universal Rules Updates v1.1 (legal 26 Aug 2026) | [`40k_universal_rules_updates_v1_1.md`](research/40k_universal_rules_updates_v1_1.md) — staging path locked for **S2e** |
+| WarCom 40K balance “What’s New?” (owner paste) | [`warcom_40k_balance_commentary_aug.md`](research/warcom_40k_balance_commentary_aug.md) — Orks excluded; Sep last monthly; FD map tweaks |
+| Necrons + SM **Faction Pack v1.2** (legal 26 Aug 2026) | [`staging_40k_faction_packs_v1_2.md`](research/staging_40k_faction_packs_v1_2.md) |
+| KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
+| WarCom KT quarterly balance “top five” (owner paste) | [`warcom_kt_balance_commentary_aug.md`](research/warcom_kt_balance_commentary_aug.md) — Hierotek in scope; Fellgor/Goremongers/Raveners/Wolf Scouts waiver unless expanded |
+| KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
+| **No** singular Balance Dataslate (40K or KT) | **Owner lock:** both = **Core/universal update + faction/team updates** (+ MFM for 40K points) |
 
 ## Locked dates (fill in S0)
 
 | Field | Value |
 |-------|-------|
-| **40K Balance Dataslate date** | _TBD — S0_ |
-| **KT Balance Dataslate date** | _TBD — in Drive folder per owner 2026-08-27; unread until upload/egress_ |
-| **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** (upload 2026-08-27) |
+| **40K Balance Dataslate date** | **N/A — no singular file** (owner lock). Package = **Universal Rules v1.1 + Faction Pack v1.2 + MFM v1.3** |
+| **40K package stamp (currency)** | **40K Aug 2026 package** — Universal Rules **v1.1** · Faction Pack **v1.2** · MFM **v1.3** (legal / App **26 Aug 2026** where dated) |
+| **KT Balance Dataslate date** | **N/A — no singular file** (owner lock). Package = **Core rules update combined with team updates** |
+| **KT package stamp (currency)** | **Kill Team quarterly balance — August 2026** (Core/update logs + team online rules) |
+| **40K Faction Packs** | Necrons + Space Marines **v1.2** · legal **26 Aug 2026** |
+| **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** |
 | **Necron MFM** | **v1.3** (owner paste 2026-08-27) |
 | **Space Marines MFM** | **v1.3** (owner paste 2026-08-27) |
 | **SM Codex preview (owner paste)** | 2026-08-27; Codex/App **October** |
-| **Announcement retrieval date** | Partial — 2026-08-27 pastes |
+| **Announcement retrieval / staging pull** | 2026-08-27 |
 
 ## Footer freshness convention (locked for this track)
 
 Extend existing GW notices — **do not replace** UNOFFICIAL / non-endorsement language.
 
-**Print HTML (append inside `.gw-ip-footer` or immediately after):**
+**Print HTML / Markdown — prefer package stamps (no singular dataslate):**
 
 ```text
-Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom). Teaching paraphrase — verify owned PDF before tournament play.
+Rules currency: 40K Aug 2026 package — Universal Rules v1.1 · Faction Pack v1.2 · MFM v1.3 (legal / App 26 Aug 2026 where dated). Teaching paraphrase — verify owned PDFs before tournament play.
 ```
 
-**Markdown shipping (`## Games Workshop notice` or Attribution):**
-
-```text
-Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom) · teaching paraphrase.
-```
-
-**Universal Rules Updates:**
+**Universal Rules Updates (piece-specific, optional):**
 
 ```text
 Rules currency: Universal Rules Updates v1.1 (legal 26 Aug 2026) · supersedes July v1.0 on same topics.
@@ -107,6 +118,12 @@ Rules currency: Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · te
 Rules currency: Munitorum Field Manual — Necrons v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 ```
 
+**Kill Team (no singular dataslate — Core + team package):**
+
+```text
+Rules currency: Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs.
+```
+
 **SM Codex preview (until Codex ships):**
 
 ```text
@@ -116,8 +133,10 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Warcode / non-GW systems:**
 
 ```text
-Last reviewed: <YYYY-MM-DD> · not affected by Games Workshop Balance Dataslates.
+Last reviewed: <YYYY-MM-DD> · not affected by Games Workshop balance packages.
 ```
+
+**Deprecated for this track:** do **not** invent `Rules currency: Balance Dataslate <date>` when no such file exists.
 
 **Templates:** S1 updates [`templates/Footer_Template_Gw_Print.md`](../../../templates/Footer_Template_Gw_Print.md) + [`templates/Gw_Print_Banner.html`](../../../templates/Gw_Print_Banner.html) with an optional “currency line” section so future slices reuse it.
 
@@ -199,7 +218,7 @@ flowchart TD
 | **QA-S0** | QA | Re-check URLs/dates/impact matrix vs article text |
 | **S1** | Implementer | `raw/pointers/*` + living sources; footer template currency line; no binaries |
 | **QA-S1** | QA | Pointer hygiene; template does not drop UNOFFICIAL requirements |
-| **S2** | Implementer | 40K shipping from **Balance Dataslate** (when S0 locks it): lists, QRs, Key Concepts; stamp footers |
+| **S2** | Implementer | 40K shipping from **Aug package pieces** (FP v1.2 + FD notes as needed; MFM/core via S2c–S2e): lists, QRs, Key Concepts; stamp **package** footers — not a singular dataslate hunt |
 | **QA-S2** | QA | Codex wall; regression bar; legibility spot-check ≥3 changed pages |
 | **S2b** | Implementer | SM Codex October readiness: Legendary Proxies / Legends honesty; **no** early T5/S5 list rewrite — see [`slices/S2b_brief.md`](slices/S2b_brief.md) |
 | **QA-S2b** | QA | Preview vs live truth separation; Tac/Dev/Whirlwind honesty; legibility ≥3 SM pages |
@@ -215,7 +234,7 @@ flowchart TD
 | **QA-S4** | QA | Currency claims match S0 dates; no stale “July-only” language where dataslate supersedes |
 | **S5** | Implementer | Game core READMEs + Event_Ready + rules/setup indexes for **all three** systems; sweep remaining GW footers for currency line; Warcode N/A stamp |
 | **QA-S5** | QA | Footer sample audit; Warcode proper-noun ban untouched |
-| **L0** | Librarian | KB source page stubs for 40K + KT dataslates |
+| **L0** | Librarian | KB source page stubs for 40K + KT **packages** (not fictional dataslate filenames) |
 | **L1** | Librarian | Enhance entities/glossary/index/log; or no-op waivers with reasons |
 | **QA-L1** | QA | Librarian enhance checklist |
 | **FS** | Final Sanity | Cross-slice rollup; open questions closed or waived; **legibility spot-checks** on a fixed sample set; track final report |
@@ -270,34 +289,40 @@ flowchart TD
 | Slice | Status |
 |-------|--------|
 | Preflight | Resolved - Implemented (plan package) |
-| S0 | Ready — blocked on WarCom egress or owner paste |
-| QA-S0 | Pending |
-| S1 | Ready (depends QA-S0) |
-| QA-S1 | Pending |
-| S2 | Ready (depends QA-S1 + dataslate lock) |
-| QA-S2 | Pending |
-| S2b | Ready (SM research note filed; may run with owner auth before dataslate lock) |
-| QA-S2b | Pending |
-| S2c | Ready (Necron MFM v1.3 research filed; Conclave recost) |
-| QA-S2c | Pending |
-| S2d | Ready (SM MFM v1.3 research filed; stamp + Casual check) |
-| QA-S2d | Pending |
-| S2e | Ready (Universal Rules v1.1 from upload; PDF not in git) |
-| QA-S2e | Pending |
-| S3 | Ready (depends QA-S1) |
-| QA-S3 | Pending |
-| S4 | Ready (depends QA-S2 + QA-S2b + QA-S2c + QA-S2d + QA-S2e + QA-S3) |
-| QA-S4 | Pending |
-| S5 | Ready (depends QA-S4) |
-| QA-S5 | Pending |
-| L0 | Ready (may start after S0 dates lock) |
-| L1 | Ready (depends QA-S5) |
-| QA-L1 | Pending |
-| CLEANUP | Ready — **required before merge** (delete staging PDFs + gitignore negation) |
-| FS | Pending |
+| S0 | Resolved - Complete (egress waived via pastes/staging) |
+| QA-S0 | PASS (rollup) |
+| S1 | Resolved - Complete |
+| QA-S1 | PASS (rollup) |
+| S2 | Resolved - Complete |
+| QA-S2 | PASS (rollup) |
+| S2b | Resolved - Complete |
+| QA-S2b | PASS (rollup) |
+| S2c | Resolved - Complete |
+| QA-S2c | PASS (reopen fixed) |
+| S2d | Resolved - Complete |
+| QA-S2d | PASS (rollup) |
+| S2e | Resolved - Complete |
+| QA-S2e | PASS (rollup) |
+| S3 | Resolved - Complete (provided teams; DK/Kommandos no-op) |
+| QA-S3 | PASS (reopen fixed) |
+| S4 | Resolved - Complete |
+| QA-S4 | PASS (rollup) |
+| S5 | Resolved - Complete |
+| QA-S5 | PASS (reopen fixed) |
+| L0 | Resolved - Complete |
+| L1 | Resolved - Complete |
+| QA-L1 | PASS (reopen fixed) |
+| CLEANUP | Resolved - Complete |
+| FS | PASS (gemini) |
 
 ## Change Log
 
+- v0.14 (2026-08-27): Full track executed; QA reopen + CLEANUP + FS PASS; draft confidence.
+- v0.13 (2026-08-27): Owner lock — **40K also** has no singular dataslate; package = Core/universal + Faction Pack + MFM. Research plan restatement filed for review.
+- v0.12 (2026-08-27): Owner reaffirm — KT has **no singular dataslate**; package = **Core rules update + team updates**; KT footer stamp; clear stale “need KT dataslate” blockers.
+- v0.11 (2026-08-27): Owner lock — no singular KT dataslate; package = core/update logs + team online rules.
+- v0.10 (2026-08-27): WarCom KT quarterly balance commentary (top five); Hierotek in S3 scope.
+- v0.9 (2026-08-27): WarCom 40K balance commentary paste (Orks out; Sep last monthly; FD maps).
 - v0.8 (2026-08-27): Temp `raw/_dataslate_0826_staging/` drop zone + CLEANUP brief (Drive drag failed).
 - v0.7 (2026-08-27): Owner added Kill Team dataslate to Drive folder; still unread (egress).
 - v0.6 (2026-08-27): Google Drive dataslate folder pointer; egress blocked pending allowlist/upload.

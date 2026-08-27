@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_250_Conclave.md
-VERSION: v1.3 (2026-08-23)
+VERSION: v1.5 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -37,7 +37,7 @@ UPDATE_TRIGGER:
 
 Companion to [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md).
 
-**List in one line:** Geomancer (Atomic Disintegrators) + 10 Warriors + 2 Tomb Crawlers + 3 Scarabs = **255** *(245 without enhancement)*. Geomancer attaches to Warriors.
+**List in one line:** Geomancer + 10 Warriors + 2 Tomb Crawlers + 3 Scarabs = **250** exactly (MFM Necrons v1.3, owner paste 2026-08-27, draft — Warriors ▲+5 replaces the old 245 + enhancement-pad approach). Geomancer attaches to Warriors.
 
 ---
 
@@ -214,7 +214,10 @@ Pick the **Atomic Disintegrators** anti-Vehicle or anti-Monster menu option (con
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.5 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — list-in-one-line now 250 exact (Warriors 80→**85**), enhancement pad note removed.
 - v1.4 (2026-08-25): WD527 shipping S6 — system spine; distance triad on coherency row; S vs T bands.
 - v1.3 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) section.
 - v1.2 (2026-08-20): Legion — re-roll D3 on any RP activate including Syphon; WarCom FAQ cite via analysis.

@@ -3,8 +3,8 @@ title: Nemesis Operatives (Kill Team 2024 dossier)
 type: source
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-17
-version: 0.5.0
+updated: 2026-08-27
+version: 0.5.1
 sources:
   - raw/pointers/kill_team_2024_nemesis_operatives.md
   - docs/handoffs/nemesis_ops_ocr_spotcheck/OCR_Spotcheck_Matrix.md
@@ -57,3 +57,4 @@ An 80-page Kill Team 2024 expansion built around a Nemesis Custom Builder and Am
 ## Related pages
 
 - [[index]] · [[glossary]] · [[warcom_nemesis_operatives_free]] · [[community_kt24_npo_aids]]
+- [[kt_aug_2026_balance_package]] — Aug 2026 mission-pack update log: custom Nemesis should almost always keep Towering Size (2026-08-27)

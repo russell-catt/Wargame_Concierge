@@ -1,15 +1,15 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_1000_V2_Conclave.md
-VERSION: v1.0 (2026-08-19)
+VERSION: v1.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Army List / Fully Statted Play Sheet
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 1000 V2 (purchases: Plasmancer, Szeras, Lychguard). MFM v1.2 read 2026-08-19. Stats Wahapedia 2026-08-19. confidence: draft.
+REFERENCE_STATUS: Active - 1000 V2 (purchases: Plasmancer, Szeras, Lychguard). Points: Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft; Warriors 20-model band unchanged); other points remain MFM v1.2 read 2026-08-19. Stats Wahapedia 2026-08-19. confidence: draft.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Starter_Forces_500_750_1000.md
@@ -43,9 +43,9 @@ UPDATE_TRIGGER:
 |---|----------------|--------|-----|--------|
 | 1 | Cryptek Geomancer *(Warlord)* | 1 | 75 | OWNED |
 | 2 | Technomancer | 1 | 80 | OWNED — Hierotek |
-| 3 | **Plasmancer** | 1 | 55 | **BUY** |
+| 3 | **Plasmancer** | 1 | 60 | **BUY** |
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 | OWNED proxy |
-| 5 | Necron Warriors | 20 | 190 | OWNED (merge) |
+| 5 | Necron Warriors | 20 | 190 | OWNED (merge) — 20-model band unchanged by v1.3 |
 | 6 | Immortals | 5 | 70 | OWNED |
 | 7 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
 | 8 | Canoptek Tomb Crawlers | 2 | 50 | OWNED |
@@ -53,9 +53,7 @@ UPDATE_TRIGGER:
 | 10 | **Illuminor Szeras** | 1 | 175 | **BUY** |
 | 11 | **Lychguard** | 5 | 80 | **BUY** |
 | 12 | **Gauntlet of Compression** | — | 20 | Enhancement |
-| 13 | **Atomic Disintegrators** | — | 10 | Enhancement |
-| 14 | **Gravitic Bolas** | — | 15 | Enhancement |
-| | | | **1,000** | |
+| | | | **1,000** | MFM v1.3 — Plasmancer ▲+5; Atomic Disintegrators + Gravitic Bolas dropped (owner-safe cut, -25) to land exactly on 1,000. *(The v1.0 printing's three-enhancement total also had a pre-existing arithmetic slip — this row is now checked to add up.)* |
 
 **Attachments:** Warden + Geomancer on 20 Warriors; Technomancer or Plasmancer on Immortals; Szeras behind Warrior phalanx; Lychguard screen characters.
 
@@ -111,7 +109,10 @@ See [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md) and [`Army_Li
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.1 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Plasmancer 55→**60** (Warriors 20-band unchanged). Dropped Atomic Disintegrators + Gravitic Bolas (owner-safe cut, keep Gauntlet of Compression only; also fixes a pre-existing v1.0 arithmetic slip) to land exactly on 1,000.
 - v1.0 (2026-08-19): Initial fully statted 1000 V2. Rebalanced vs stale Crawler/Macrocyte points; Macrocytes included; three enhancements to 1,000.
 
 ## Attribution

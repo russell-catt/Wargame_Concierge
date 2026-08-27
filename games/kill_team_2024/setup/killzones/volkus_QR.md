@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/volkus_QR.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent — Condensed Stronghold callout + event-ready pass)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5; event-ready provenance)
 
 DOCUMENT_TYPE: Table Aid
 PROJECT_NAME: Wargame_Concierge
@@ -47,3 +47,5 @@ UPDATE_TRIGGER:
 Join Ops first pick with 3e Starter. Full detail: [`volkus.md`](volkus.md).
 
 *Verify vs owned Core Book / Jun 17 update log | 2026-08-21*
+
+*Rules currency: Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · no Volkus-specific change found in the staged Aug 2026 pack · teaching paraphrase · verify owned PDFs | 2026-08-27*

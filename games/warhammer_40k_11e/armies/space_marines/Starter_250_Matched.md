@@ -1,18 +1,18 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_250_Matched.md
-VERSION: v0.6.0 (2026-08-21)
+VERSION: v0.7.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — ownership update pass 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
 
 DOCUMENT_TYPE: Learning List / Starter Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
 DETACHMENT: Gladius Task Force
-REFERENCE_STATUS: Active for owned Blood Ravens paths; legacy Primaris paths retained. Points from MFM Marines v1.2 (read 2026-08-16 / re-checked via page render 2026-08-21)
+REFERENCE_STATUS: Active for owned Blood Ravens paths; legacy Primaris paths retained. Points from MFM Marines v1.3 (owner paste retrieved 2026-08-27; read 2026-08-16 / re-checked via page render 2026-08-21)
 
 SOURCES:
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, printed 13 Aug 2026)
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2 print 13 Aug 2026, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27 — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md; BR core costs re-verified unchanged 2026-08-27)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1)
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
 
@@ -35,11 +35,13 @@ UPDATE_TRIGGER:
 
 > **Matched play — no Legends.** Costed from Munitorum Field Manual (Marines) only. For Bike Squad, Attack Bike, and Astartes Servitors see the Casual twin.
 
+> **SM Codex October preview:** BR-2's **Tactical Squad** stays current Faction Pack / MFM — matched-legal, its own points — until **Codex: Space Marines** ships (WarCom preview, October). After that it leaves the Codex as a **Legendary Proxy** (counts as Intercessor Squad; event permission needed). No stat/points swap on this page yet. Mapping table: [`README.md`](README.md).
+
 A first game should be small, short, and mostly about learning the phase order. 250 points is roughly two or three units a side and finishes in an evening.
 
 **Paint / rules:** Blood Ravens paint; **Codex Space Marines** + [Gladius Task Force](Gladius_Task_Force.md). Deathwatch models stay out of these lists.
 
-**Every points value below is from Munitorum Field Manual (Marines) v1.2** (printed 13 Aug 2026).
+**Every points value below is from Munitorum Field Manual (Marines) v1.3** (owner paste, retrieved 2026-08-27; supersedes v1.2 printed 13 Aug 2026 — Blood Ravens core costs unchanged).
 
 ---
 
@@ -47,7 +49,7 @@ A first game should be small, short, and mostly about learning the phase order. 
 
 Best “few models, big armour” first game.
 
-| Unit | Models | MFM Marines v1.2 | Ownership |
+| Unit | Models | MFM Marines v1.3 | Ownership |
 |------|--------|------------------|-----------|
 | **Chaplain in Terminator Armour** (Leader) | 1 | **75** | **Owned** |
 | **Terminator Squad** | 5 | **160** | **Owned** |
@@ -65,7 +67,7 @@ Fifteen points spare — leave them.
 
 More bodies, more Objective Control practice.
 
-| Unit | Models | MFM Marines v1.2 | Ownership |
+| Unit | Models | MFM Marines v1.3 | Ownership |
 |------|--------|------------------|-----------|
 | **Captain** (Leader) | 1 | **80** | **Owned** (Firstborn Captain) |
 | **Tactical Squad** | 10 | **140** | **Owned** (`Tactical_sqaud 1` — includes **flamer**) |
@@ -79,7 +81,7 @@ Attach the **Captain to the Tactical Squad**.
 
 Use when Intercessor / Assault Intercessor bodies reach legal fives (BT set + AoD dual-use). Until then prefer BR-1 / BR-2.
 
-| Unit | Models | MFM Marines v1.2 | Ownership |
+| Unit | Models | MFM Marines v1.3 | Ownership |
 |------|--------|------------------|-----------|
 | **Captain** (Leader) | 1 | **80** | Owned (`AOD_Captain` when used for KT/40K dual-use). **Not** the Gravis relic-shield Captain — that model is **40K only** |
 | **Intercessor Squad** | 5 | **80** | Partial — need five bolt-rifle bodies |
@@ -133,7 +135,13 @@ Use when Intercessor / Assault Intercessor bodies reach legal fives (BT set + Ao
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.
+
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+
 ## Change Log
+- v0.7.2 (2026-08-27): dataslate_0826 S2b — SM Codex October preview callout on BR-2 (Tactical Squad → future Legendary Proxy); preview footer line; no early points/stat swap.
+- v0.7.1 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste); Chaplain/Terminator/Captain/Tactical core costs re-verified **unchanged** vs v1.2; totals arithmetic re-checked (235/220/235 legacy).
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
 - v1.x (2026-08-22): Matched/Casual split — this file is the **Matched** line; Legends live on Casual twin.
 - v0.6.1 (2026-08-21): Loadout notes — Tac flamer; Dev weapon list; Gravis Captain excluded from Primaris Captain slot.
@@ -147,4 +155,4 @@ Use when Intercessor / Assault Intercessor bodies reach legal fives (BT set + Ao
 - Warhammer 40,000 is a trademark of Games Workshop Limited. Teaching paraphrase only.
 
 ## Rising Tide Notes
-- **Verify before you play.** Points reflect MFM Marines v1.2 (13 Aug 2026 print).
+- **Verify before you play.** Points reflect MFM Marines v1.3 (owner paste, retrieved 2026-08-27; supersedes v1.2 13 Aug 2026 print — Blood Ravens core costs unchanged).

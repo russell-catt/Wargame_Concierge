@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/README.md
-VERSION: v0.5.4 (2026-08-25)
+VERSION: v0.5.5 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S4)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5)
 
 DOCUMENT_TYPE: Index / Section README
 PROJECT_NAME: Wargame_Concierge
@@ -34,6 +34,8 @@ Everything that happens before battle round one, plus the terrain rules that sha
 This folder may quote WarCom-free Core / local `eng_*` with filename + page + rule ID. Teaching stays paraphrase. Event Companion mission layouts and base-size lists are **inventoried, not dumped**. **Warhammer 40,000 is Copyright Games Workshop Limited.** Personal use only; never for sale.
 
 **WD527:** Locked **Commentary** blocks (teaching paraphrase + Trinity Hobby cite) live on [`Board_Setup.md`](Board_Setup.md), [`Terrain_Basics.md`](Terrain_Basics.md), and [`Chapter_Approved_Force_Dispositions.md`](Chapter_Approved_Force_Dispositions.md). Monthly mission: [`WD527_Monthly_Mission.md`](WD527_Monthly_Mission.md) (**Mission 38 — Converging Ambition**). Tier **1.5** — Core / Event Companion win on mechanics. See shipping track [`docs/handoffs/wd527_research/track_shipping_in.md`](../../../docs/handoffs/wd527_research/track_shipping_in.md).
+
+**Rules currency:** no Aug 2026 package piece (Universal Rules v1.1 / Faction Pack v1.2 / MFM v1.3) changes board size, deployment, or terrain content on this page — grepped, no hits. Full package stamp: [`../README.md`](../README.md).
 
 ---
 
@@ -91,6 +93,7 @@ Full catalogue: [`reference/Source_Library.md`](../../../reference/Source_Librar
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.5.5 (2026-08-27): Rules currency line — confirmed no Aug 2026 package piece touches this folder's content; pointer to `../README.md` for the package stamp (track `dataslate_0826` slice S5).
 - v0.5.4 (2026-08-25): Print table — system QR shipped (S4) with PDF path + outline link; wound laminate kept separate.
 - v0.5.3 (2026-08-25): WD527 Commentary + Mission 38 pointers; print list includes system QR (wd527_shipping S2).
 - v0.5.2 (2026-08-23): Index Chapter_Approved_Force_Dispositions 2-pager.

@@ -3,9 +3,9 @@ title: WarCom-free 11e Core Rules
 type: source
 system: warhammer_40k_11e
 created: 2026-08-18
-updated: 2026-08-18
-version: 0.5.1
-sources: [raw/pointers/rules_core.md, raw/pointers/web_living_sources.md, games/warhammer_40k_11e/rules/Core_Rules_Quotes.md]
+updated: 2026-08-27
+version: 0.5.2
+sources: [raw/pointers/rules_core.md, raw/pointers/web_living_sources.md, games/warhammer_40k_11e/rules/Core_Rules_Quotes.md, 40k_aug_2026_balance_package]
 confidence: draft
 tags: [source, warhammer_40k_11e, core_rules, quoting_policy, warcom]
 ---
@@ -51,6 +51,8 @@ Read **in place**. Never copy PDFs into git.
 - July universal sheet: unnamed 0CP, multi-use stratagems, 12"→18" targeting, add-unit once per battle
 - Event Companion: 44"×60" event board, mission sequence, non-Core CP cap — **index only this track**
 
+**Superseded 2026-08-27 (`dataslate_0826`).** The July universal sheet (v1.0, legal 22 Jul 2026) is superseded on shared topics by **Universal Rules Updates v1.1** (legal 26 Aug 2026), which repeats items 1–4 with the same intent and adds a net-new item: **disembark move typing** (`18.06` assault disembark move, `18.07` shock disembark move). See [[40k_aug_2026_balance_package]] and the two new glossary stubs. This page's July content stays historically accurate; treat v1.1 as current.
+
 ## What it does not cover
 
 - Codex / Faction Pack datasheets, stratagems, detachment rules
@@ -74,6 +76,7 @@ Cite IDs such as **01.01** (Armies) and **06.01** (Visibility) from that file. D
 - [[glossary]] — rule-ID citation convention; OC vs KT 1" control range
 - [[local_library_pointers]]
 - [[warhammer_community]]
+- [[40k_aug_2026_balance_package]] — v1.1 supersession, 2026-08-27
 - [[index]]
 
 ---

@@ -1,14 +1,14 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/tomb_world.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; patch sync slice P)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; patch sync slice P; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Teaching Guide / Killzone Reference
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team 2024 (3rd Edition / KT24)
 OWNERSHIP_STATUS: UNASSEMBLED (track_in.md, Preflight lock 2026-08-17)
-REFERENCE_STATUS: Active - teaching paraphrase; Close Quarters Guard aligned to Jun 17 update log p.3 (2026-08-18)
+REFERENCE_STATUS: Active - teaching paraphrase; Close Quarters Guard aligned to Jun 17 update log p.3 (2026-08-18); teleport/breach commentary aligned to Aug '26 killzone update log (2026-08-27)
 
 SOURCES:
   - raw/pointers/kill_team_2024_missions.md (Killzone: Tomb World mission pack PDF, owned)
@@ -17,6 +17,7 @@ SOURCES:
   - Games Workshop webstore - "Killzone: Tomb World" product listing (component list, retrieved 2026-08-17)
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md (cross-game note on Tomb World operatives)
   - docs/handoffs/kill_team_2024_scaffold/track_in.md
+  - `eng_killzone_tomb_world_update_log-ptyzlo3dfr-ivlzsazxnf.pdf` (staging, read 2026-08-27) - dataslate_0826 S3
 
 PURPOSE:
   Teach what Killzone: Tomb World is and what "unassembled" specifically means
@@ -31,6 +32,8 @@ UPDATE_TRIGGER:
 # Killzone: Tomb World - unassembled, terrain only
 
 **Status: UNASSEMBLED.** Build before dedicated Tomb World missions. This page exists so setup is ready the moment the terrain sprue comes off the shelf.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`.
 
 ---
 
@@ -73,6 +76,17 @@ Read the full Close Quarters section in the Core Book / mission pack before play
 
 ---
 
+### Teleport pad and breach point — August 2026 update log
+
+Paraphrase from `eng_killzone_tomb_world_update_log-ptyzlo3dfr-ivlzsazxnf.pdf` (staging, read 2026-08-27). Verify against your owned Killzone: Tomb World mission pack PDF before play.
+
+- **Teleport does not bypass "cannot end that move closer" restrictions.** Rules commentary confirms: if a rule says an operative "cannot end that move" closer to enemy operatives, dropzones, etc., **teleporting does not let you ignore that restriction.**
+- **Teleport pad, tightened:** equipment terrain cannot be set up within 2" of a teleport pad; an operative touching a teleport pad that has another operative already on it is treated as being within that operative's control range; **an operative cannot teleport more than once per activation.**
+- **Breach point / Breach action, tightened:** the action's AP discount (1 less AP, minimum 1AP) is gone from the errata history — the current wording is that the Breach action **cannot be performed for less than 2AP** during an activation/counteraction that also performed the Charge or Shoot action (or vice versa).
+- **Older commentary (unchanged, still active):** teleporting is **not** treated as having moved for rules with a distance requirement — named examples: Brood Brothers **Alpha Predator**, Plague Marines **Lumbering Death**, Vespid Stingwings **Neutron Charge**. If a Plague Marines or Vespid Stingwings operative in this killzone teleports, it does not satisfy a "must have moved [X]"-style condition on those team rules.
+
+---
+
 ## What to check in the owned PDFs before your first game
 
 - Exact terrain piece list and grid placement, from the box insert or the owned Killzone: Tomb World mission pack PDF
@@ -87,11 +101,21 @@ Read the full Close Quarters section in the Core Book / mission pack before play
 - [`../../rules/Patch_Manifest.md`](../../rules/Patch_Manifest.md) - Close Quarters Guard errata
 - [`shadowhunt.md`](shadowhunt.md) - depends on this terrain for full Descent missions
 - [`../../teams/README.md`](../../teams/README.md) - Canoptek Circle and Deathwatch ownership
+- [`../../teams/plague_marines/README.md`](../../teams/plague_marines/README.md) - Lumbering Death / teleport distance-requirement note
+- [`../../teams/vespid_stingwings/README.md`](../../teams/vespid_stingwings/README.md) - Neutron Charge / teleport distance-requirement note
 - [`../../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md`](../../../warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md) - the already-game-ready Tomb World operatives (40K side)
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
+**Rules currency:** Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence draft
+
 ## Change Log
+- v0.6.1 (2026-08-27): QA reopen — add Games Workshop notice + currency line (dataslate_0826).
+- v0.6.0 (2026-08-27): dataslate_0826 S3 — teleport vs "cannot end move closer" rules commentary; teleport pad / breach point AP tightening; older teleport-not-moved commentary cross-referenced to Plague Marines and Vespid Stingwings. Currency stamp: Kill Team quarterly balance — August 2026.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-18): Slice P — Close Quarters Guard (moves/set up; On Guard blocks counteract that TP). Shared with Gallowdark until that killzone page exists.
 - v1.0 (2026-08-17): Initial killzone page (slice S2), cross-checked against Wahapedia KT3 Killzones and the GW webstore product listing, both read 2026-08-17. Cross-linked to the 40K Necron inventory to separate operative readiness from terrain build status.

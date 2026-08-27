@@ -4,14 +4,16 @@ type: faction
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, reanimation_protocols]
+updated: 2026-08-27
+version: 0.5.3
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, reanimation_protocols, 40k_aug_2026_balance_package]
 confidence: draft
 tags: [faction, necrons, primary, ownership, learning_army]
 ---
 
 # Necrons
+
+Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 250 pts (MFM v1.3, Aug 2026 package).
 
 The owner's primary army: an ancient robotic civilisation that plays as the game's attrition faction, recovering models as fast as most opponents can remove them.
 
@@ -90,7 +92,7 @@ Two paths are costed from this collection. Neither is committed to.
 | [[canoptek_court]] | Canoptek constructs - Wraiths, Doomstalkers | Owned Macrocytes, Tomb Crawlers, and Scarabs are all Canoptek and all game-ready; the Wraiths and Doomstalkers it is named for are still unowned |
 | [[cryptek_conclave]] | Cryptek characters leading infantry | Owned Warriors are exactly its battleline, and the game-ready **Cryptek Geomancer** supplies the character type the detachment is built on; Immortals join once built |
 
-**Both paths now start from a playable list.** Shipping Cryptek Conclave Phase 1 is **245 pts** (Geomancer 75 + 10 Warriors 80 + 2 Tomb Crawlers **50** MFM v1.2 + 3 Scarabs 40) — see `Army_List_250_Conclave.md`. Older owner notes said 260 without Scarabs / with wrong Crawler points. Detachment choice is no longer gated on buying or identifying anything.
+**Both paths now start from a playable list.** Shipping Cryptek Conclave Phase 1 was **245 pts** under MFM v1.2 (Geomancer 75 + 10 Warriors 80 + 2 Tomb Crawlers **50** + 3 Scarabs 40) — see `Army_List_250_Conclave.md`. **As of the Aug 2026 balance package (MFM v1.3, owner paste 2026-08-27, `draft`), Necron Warriors 10-model band rose 80 → 85 (▲+5), so the same list is now 250/250 pts exactly** — recosted in shipping slice S2c, 2026-08-27. See [[40k_aug_2026_balance_package]] and [[necron_warriors]]. Older owner notes said 260 without Scarabs / with wrong Crawler points. Detachment choice is no longer gated on buying or identifying anything.
 
 Cryptek Conclave remains the cheaper route to a *complete* path, and it no longer depends on a guess: the Geomancer is a real, owned, painted Cryptek, where before this rested on an assumption about the Hierotek Circle box. Canoptek Court is rated the stronger detachment by the owner's notes and now has real Canoptek bodies behind it, but still asks for roughly two Doomstalkers and six Wraiths.
 
@@ -138,4 +140,5 @@ No per-datasheet `KB/units/` pages exist yet - [[necrons_unit_index]] explains w
 - [[space_marines]] - the opposing force
 - [[necron_lists_owner_notes]] - the source for ownership and both paths
 - [[kill_team_necron_photos]] - photo pointer ingest
+- [[40k_aug_2026_balance_package]] - MFM v1.3 points recost, 2026-08-27
 - [[index]] · [[glossary]] · [[overview]]

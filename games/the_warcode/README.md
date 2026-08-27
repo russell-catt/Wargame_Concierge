@@ -1,8 +1,8 @@
 <!--
 FILE: games/the_warcode/README.md
-VERSION: v0.3 (2026-08-25)
+VERSION: v0.4 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine S0)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5; warcode_tactical_doctrine S0 provenance)
 
 DOCUMENT_TYPE: Game System Overview
 PROJECT_NAME: Wargame_Concierge
@@ -32,6 +32,8 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 **Rules quoting:** Under `rules/`, `setup/`, and `factions/` you may quote the free beta PDF verbatim (filename + page). Card references: [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md), [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md).
 
 **Naming safety:** No GW comparator proper nouns in this subtree. Use **That other game** / **Murder Platoon**, **Rawmallet**, **39.876**, and **39.9** only — full ban table in `AGENTS.md` Sec 10 and [`.cursor/rules/warcode-quotes.mdc`](../../.cursor/rules/warcode-quotes.mdc).
+
+**Last reviewed: 2026-08-27 · not affected by Games Workshop balance packages.** This subtree ships from the RedMakers free beta rulebook, not a Games Workshop product — the Aug 2026 balance-package currency pass running elsewhere in this repo ([`docs/handoffs/dataslate_0826/track_in.md`](../../docs/handoffs/dataslate_0826/track_in.md)) has no bearing on any page here.
 
 ---
 
@@ -80,6 +82,7 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 
 ## Change Log
 
+- v0.4 (2026-08-27): Added the locked "Last reviewed — not affected by Games Workshop balance packages" currency stamp; no GW proper nouns introduced (track `dataslate_0826` slice S5).
 - v0.3 (2026-08-25): Read order + subtree — Contract_Cards_Reference, Protocol_Cards_Reference (S8).
 - v0.2 (2026-08-24): Naming safety — full GW obfuscation table (Rawmallet / 39.9 / 39.876 + That other game).
 - v0.1 (2026-08-23): S0 stub — vocabulary, subtree, unofficial disclaimer.

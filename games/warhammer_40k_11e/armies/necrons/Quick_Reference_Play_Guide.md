@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Quick_Reference_Play_Guide.md
-VERSION: v0.5.4 (2026-08-25)
+VERSION: v0.5.5 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -26,6 +26,7 @@ PRINT_NOTE:
   shopping content, no lore, no datasheet statlines.
 
 CHANGE_LOG:
+  - v0.5.5 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — starter snapshot Warriors 80→85, Plasmancer 55→60; 250-tonight math now lands exactly on 250 (was 245).
   - v0.5.4 (2026-08-25): WD527 shipping S6 — distance triad; S vs T bands; Mission 38 / system QR links; Leaders+Support Commentary; 2-pager density fill.
   - v0.5.3 (2026-08-23): Event feedback — Objectives/OC (**14.01**/**14.02**) and Leader+Support deploy (**19.01**/**03.03**) pointers.
   - v1.2 (2026-08-16): Page 2 starter snapshot rebuilt around the owned, game-ready Kill Team: Tomb World force (Geomancer + Warriors + Tomb Crawlers = 240 pts). Sprue extras (2nd Warriors, 2nd Scarabs, Immortals) tagged build-before-play, not blockers (slice S2, `tomb_world_ownership`).
@@ -141,14 +142,14 @@ Spend each reanimated wound in this order:
 | Unit | Models | Pts | State |
 |------|--------|-----|-------|
 | Cryptek Geomancer | 1 | **75** | **OWNED** - Tomb World |
-| Necron Warriors | 10 | **80** | **OWNED** - Tomb World |
+| Necron Warriors | 10 | **85** | **OWNED** - Tomb World (MFM Necrons **v1.3**, owner paste 2026-08-27, draft) |
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World (MFM v1.2) |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** (MFM v1.2) |
 | Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (build 2nd 3 before play) |
 | Immortals / Technomancer | 5 / 1 | **70 / 80** | Immortals sprue; Technomancer Hierotek **OWNED** |
-| Plasmancer (Support) | 1 | **55** | Not owned — buy / Apprentek proxy |
+| Plasmancer (Support) | 1 | **60** | Not owned — buy / Apprentek proxy (MFM v1.3, was 55) |
 
-**250 tonight:** Geomancer 75 + Warriors 80 + Crawlers 50 (+ Scarabs 40) = **245**. **Attach Geomancer to Warriors** (`19.01`).
+**250 tonight:** Geomancer 75 + Warriors 85 + Crawlers 50 + Scarabs 40 = **250** exactly. **Attach Geomancer to Warriors** (`19.01`).
 **500 Court / Conclave:** see army READMEs — Court wants Macrocytes/Scarabs/Wraiths; Conclave adds Immortals + Plasmancer.
 
 ---
@@ -218,11 +219,13 @@ Core uses three different jobs: coherency span **2″/9″** (`03.03`); Ingress 
 
 ---
 
-*Verify vs Munitorum / faction pack - patches happen | 2026-08-25*
+*Verify vs Munitorum / faction pack - patches happen | 2026-08-27*
 
 ---
 
 ## Games Workshop notice
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 

@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions.md
-VERSION: v1.1 (2026-08-25)
+VERSION: v1.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S2)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S2; dataslate_0826 S2)
 
 DOCUMENT_TYPE: Play Aid / Laminate (exactly 2 pages)
 PROJECT_NAME: Wargame_Concierge
@@ -12,6 +12,7 @@ REFERENCE_STATUS: Active - teaching paraphrase; draft until cross-checked agains
 SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf (v1.1; sequence inventoried 2026-08-16)
   - WarCom: "How your army affects your mission" / "The Chapter Approved deck" (shape; retrieved via secondary summaries 2026-08-23)
+  - docs/handoffs/dataslate_0826/research/warcom_40k_balance_commentary_aug.md (owner paste, captured 2026-08-27, `draft`, canonical URL TBD) — August recommended-layout adjustment note
   - C:\Personal\40K\WD_527\ (owned digital backup; Trinity Hobby 2026-08-22)
   - raw/white_dwarf_527/designer_commentary_notes.md
   - games/warhammer_40k_11e/setup/Board_Setup.md
@@ -81,6 +82,10 @@ Your detachment’s MFM line looks like: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSE
 Force Disposition tags name what your army is trying to do (exterminate, hold ground, retrieve relics). Pairing your tag with the opponent’s sets **your** Primary — narratives can differ on the same board (e.g. Take and Hold vs Purge the Foe). In Tactical secondary mode, draw **two** cards each turn; several secondaries may stay active, the per-round secondary VP cap still applies, and Challenger is out of the pack. Caps above remain Event Companion SoT.
 
 **Cite:** WD527, A New Era of War (Force Disposition and Tactical missions); owned digital backup purchased Trinity Hobby **2026-08-22**; local scans `C:\Personal\40K\WD_527\`. Tier **1.5** — Core / Event Companion win on mechanics.
+
+---
+
+> **August balance-package note (WarCom, `draft`, owner paste captured 2026-08-27):** Force Disposition matchups are under watch this pass. **Disruption** players are being given more **recommended layouts with six total objectives**, to blunt the first-turn advantage that Disruption's Actions-heavy Primary can carry. Some **expansion-objective terrain footprints** are also nudged slightly to open movement lanes for larger vehicles and monsters. **We do not have the specific layout letters or an Event Companion / Chapter Approved PDF for this pass** — do not assume layout A/B/C on this page changed; agree layout with your opponent or TO as always, and re-check the physical deck / app before an event. See [`../../../docs/handoffs/dataslate_0826/research/warcom_40k_balance_commentary_aug.md`](../../../docs/handoffs/dataslate_0826/research/warcom_40k_balance_commentary_aug.md).
 
 ---
 
@@ -165,6 +170,7 @@ Do **not** invent a Twist mid-game. If you are not using the physical deck, skip
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.2 (2026-08-27): dataslate_0826 S2 — added a `draft` paraphrase note (WarCom August balance-package owner paste, captured 2026-08-27) on the recommended-layout watch: more six-objective Disruption maps, nudged expansion-objective terrain footprints for vehicle/monster lanes. No map ID, layout letter, or physical deck content invented — flagged explicitly that no Event Companion / Chapter Approved PDF confirms the specific layouts yet.
 - v1.1 (2026-08-25): WD527 locked Commentary (Disposition pairing + Tactical secondaries); Mission 38 tip; secondary row density (wd527_shipping S2).
 - v1.0 (2026-08-23): Initial 2-pager from starter-event Force Disposition feedback.
 

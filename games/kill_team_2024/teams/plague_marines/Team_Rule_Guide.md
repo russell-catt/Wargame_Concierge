@@ -1,20 +1,24 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/Team_Rule_Guide.md
-VERSION: v0.6.0 (2026-08-21)
+VERSION: v0.7.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3 — learn_to_play_event; quotes from kt24_rules_quotes S5)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S3 — learn_to_play_event; quotes from kt24_rules_quotes S5; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Team Rule Guide (quoted)
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
 TEAM: Plague Marines
+REFERENCE_STATUS: Active — Astartes and Poison quote blocks re-verified against Aug '26 online rules pack (2026-08-27), unchanged; *Toxic timing clarification added
 
 SOURCES:
   - C:\Personal\Kill Team\kill_team_2024\Teams\eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf (read in place 2026-08-17; paraphrase notes added 2026-08-21)
+  - `eng_plague_marines_online_rules-wqjvit50wj-jvekzllwdl.pdf` (staging, read 2026-08-27) — dataslate_0826 S3, August '26 update log
 -->
 
 # Team Rule Guide — Plague Marines
 
 **Personal use only. Never for sale.** Quotes from `eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf`, read **2026-08-17**.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`. Astartes and Poison quotes below cross-checked against the Aug '26 online rules pack — **text unchanged.**
 
 ---
 
@@ -63,6 +67,15 @@ SOURCES:
 
 ---
 
+## Update log — August 2026 (teaching paraphrase)
+
+From `eng_plague_marines_online_rules-wqjvit50wj-jvekzllwdl.pdf` errata p.7 (staging, read 2026-08-27). Verify against your owned team PDF before play.
+
+- ***Toxic weapon rule, timing clarified** (Champion plague sword, Warrior boltgun, Bombardier blight grenade): the bonus damage only applies **against an enemy operative that already had one of your Poison tokens at the start of that action.** Rules commentary example: shooting Blight Grenades at multiple targets — only change the Damage stat for the targets that had a Poison token when the action started; this takes precedence over the usual rule about weapon stats changing mid-action.
+- **Cross-reference — teleport and Lumbering Death:** the Kill Team **Rules Commentary** confirms teleporting is **not** treated as having moved for distance-requirement rules, and Plague Marines **Lumbering Death** is one of the named examples. If you're playing in Killzone: Tomb World (or any killzone with teleport pads) and a Plague Marines operative teleports, that move does **not** satisfy Lumbering Death's movement requirement. Detail: [`../../setup/killzones/tomb_world.md`](../../setup/killzones/tomb_world.md#teleport-pad-and-breach-point--august-2026-update-log).
+
+---
+
 ## Printable datacards
 
 Seven HTML cards: [`cards/Card_Schema.md`](cards/Card_Schema.md).
@@ -75,6 +88,7 @@ Seven HTML cards: [`cards/Card_Schema.md`](cards/Card_Schema.md).
 
 ## Change Log
 
+- v0.7.0 (2026-08-27): dataslate_0826 S3 — Update log (August 2026): *Toxic weapon rule timing clarification; teleport/Lumbering Death cross-reference to Tomb World killzone page. Currency stamp. Astartes/Poison quotes re-verified against Aug '26 pack — unchanged.
 - v0.6.0 (2026-08-21): Slice S3 — short "What it means" after each quote (quotes unchanged).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-17): Local Teams PDF quotes + seven datacards (`kt24_rules_quotes` S5).

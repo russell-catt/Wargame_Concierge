@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_500_V1_Conclave.md
-VERSION: v1.2 (2026-08-20)
+VERSION: v1.4 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -37,7 +37,7 @@ UPDATE_TRIGGER:
 
 Companion to [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md). Builds on [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md).
 
-**List in one line:** Geomancer (Atomic Disintegrators) + Technomancer + Apprentek→Plasmancer + Despotek→Warden + 10 Warriors + 5 Immortals + 6 Scarabs = **500**.
+**List in one line:** Geomancer + Technomancer + Apprentek→Plasmancer + Despotek→Warden + 10 Warriors + 5 Immortals + 6 Scarabs = **500** (MFM Necrons v1.3, owner paste 2026-08-27, draft — Warriors and Plasmancer ▲+5 each; the Atomic Disintegrators enhancement was dropped, owner-safe cut, to stay exactly on 500).
 
 **Attachments:** Warriors ← Warden + Geomancer; Immortals ← Technomancer **or** Plasmancer proxy.
 
@@ -116,7 +116,7 @@ Wounds on the Geomancer / Warden / Technomancer / Plasmancer proxy are part of t
 Pick **one** when you select that unit to shoot:
 
 `[ANTI-INFANTRY 3+]` · `[ANTI-MOUNTED 4+]` · `[ASSAULT]` · `[HEAVY]` · `[IGNORES COVER]`  
-**+ Atomic Disintegrators:** anti-Monster / anti-Vehicle options (on Geomancer's Warriors brick).
+**+ Atomic Disintegrators:** anti-Monster / anti-Vehicle options, if taken — *not included on this budget list after the v1.3 recost* (dropped to absorb the Warriors/Plasmancer ▲ and stay exactly on 500).
 
 ### Two bricks = two picks
 
@@ -224,7 +224,7 @@ Off-turn stratagem on the Warrior brick a few times adds another ~3 avg wounds p
 
 | Model on table | Playing as | Pts |
 |----------------|------------|-----|
-| Apprentek | Plasmancer | 55 |
+| Apprentek | Plasmancer | 60 |
 | Despotek | Royal Warden | 50 |
 | Technomancer | Technomancer (legal) | 80 |
 | Immortal Guardians | Immortals | in the 5 |
@@ -245,7 +245,10 @@ Off-turn stratagem on the Warrior brick a few times adds another ~3 avg wounds p
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
 ## Change Log
+- v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Warriors/Plasmancer ▲+5 each; Atomic Disintegrators dropped from the list-in-one-line and menu note (owner-safe cut) to stay exactly on 500.
 - v1.3 (2026-08-25): WD527 shipping S6 — system spine related links.
 - v1.2 (2026-08-20): Character note — WarCom July revive-as-solo-unit + RP excludes CHARACTER from bodyguard revive; link analysis.
 - v1.1 (2026-08-19): Core rule IDs / plain-language pass (from main).

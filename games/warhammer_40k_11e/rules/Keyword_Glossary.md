@@ -1,17 +1,18 @@
 <!--
 FILE: games/warhammer_40k_11e/rules/Keyword_Glossary.md
-VERSION: v0.5.2 (2026-08-23)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S3)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 / S2e)
 
 DOCUMENT_TYPE: Reference / Term Glossary
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
-REFERENCE_STATUS: Active - draft, spot-checked against owned PDFs 2026-08-16
+REFERENCE_STATUS: Active - draft, spot-checked against owned PDFs 2026-08-16; disembark move typing added 2026-08-27 per Universal Rules Updates v1.1
 
 SOURCES:
   - C:\Personal\40K\rules\eng_01-06_warhammer40k_new40k_core_rules.pdf (read 2026-08-16)
-  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf (v1.0, read 2026-08-16)
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_universal_rules_updates.pdf (v1.0, read 2026-08-16; SUPERSEDED by v1.1 on the same topics)
+  - raw/_dataslate_0826_staging/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf (Universal Rules Updates v1.1, legal 26 Aug 2026; staging copy, read 2026-08-27)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1, read 2026-08-16)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf (v1.1, read 2026-08-16)
   - https://wahapedia.ru/wh40k10ed/factions/necrons (retrieved 2026-08-16)
@@ -48,6 +49,8 @@ UPDATE_TRIGGER:
 One line per term, in plain English. Weapon abilities are written the way they appear on a datasheet, in square brackets and capitals: `[BLAST]`.
 
 Numbered Core IDs (example **13.08**) point at [`Core_Rules_Quotes.md`](Core_Rules_Quotes.md). This page stays beginner paraphrase. **40K Objective Control (OC)** is a datasheet characteristic (**14.02**); Kill Team uses **1" control range** and APL totals — not OC.
+
+**Currency stamp (2026-08-27):** Universal Rules Updates **v1.1, legal 26 Aug 2026** cross-checked. New terms: Assault Disembark Move (**18.06**), Shock Disembark Move (**18.07**). July v1.0 stratagem items are superseded on the same topics with the same intent — no glossary term text changes.
 
 ---
 
@@ -86,6 +89,9 @@ Anything not marked `verified` should be checked against your faction pack or th
 | **Scouts X"** | A free pre-battle move of X inches | Happens before the first turn, and must end more than 8" from enemies | `verified` |
 | **Surge Move** | A rules-triggered move toward the closest enemy unit | Usually a reaction granted by a faction ability | `verified` |
 | **Taking to the skies** | A FLY unit's option to ignore terrain and models while moving, for 2" of distance | Turns awkward terrain into a straight line | `verified` |
+| **Disembark Move** (**18.04**) | The default move a unit makes leaving a TRANSPORT | Needs that TRANSPORT to have remained stationary or made a normal move this phase — not Advanced or Fallen Back | `verified` |
+| **Assault Disembark Move** (**18.06**) | The named move used **instead of** a disembark move when a rule lets your unit charge after disembarking from a TRANSPORT that made a **normal move** this turn | New in Universal Rules Updates v1.1, legal 26 Aug 2026. The permission to charge still has to come from elsewhere (a faction/wargear rule); this ID just names the resulting move | `draft` |
+| **Shock Disembark Move** (**18.07**) | The named move used **instead of** a disembark move when a rule lets your unit disembark from a TRANSPORT that **Advanced** this turn | New in Universal Rules Updates v1.1, legal 26 Aug 2026. Same pattern as Assault Disembark Move — some other rule has to grant the permission first | `draft` |
 
 ---
 
@@ -240,6 +246,7 @@ Terms this project has got wrong before, or has found a source disagreeing with.
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.6.0 (2026-08-27): Universal Rules Updates v1.1 (legal 26 Aug 2026) currency pass — added Disembark Move (**18.04**), Assault Disembark Move (**18.06**), and Shock Disembark Move (**18.07**) to Movement and positioning; flagged July v1.0 as superseded on the same topics; track `dataslate_0826` slice S2e.
 - v0.5.2 (2026-08-23): Event feedback — OC terrain footprint / control-vs-score; Leader+Support + coherency cites (**14.01**/**14.02**/**19.01**/**03.03**).
 - v0.5.1 (2026-08-18): Rule-ID cites; OC vs KT 1" control range flag (track `40k_warcom_quotes` S3/S4).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/README.md
-VERSION: v0.7 (2026-08-21)
+VERSION: v0.8 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S0)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5)
 
 DOCUMENT_TYPE: Game System Overview
 PROJECT_NAME: Wargame_Concierge
@@ -33,6 +33,8 @@ Priority learning teams this track: **Canoptek Circle**, **Plague Marines**, **A
 **Rules quoting (KT24 only):** This subtree may reproduce **verbatim** rules text from owned local PDFs under `C:\Personal\Kill Team\kill_team_2024\` (read in place; never commit PDFs). **40K** quoting is a separate exception under `games/warhammer_40k_11e/rules/` and `setup/` only (WarCom-free Core + rule IDs) — not in this subtree. Army/Codex folders remain paraphrase.
 
 **Not current play:** older Kill Team 2021 / 2e material lives under [`reference/kill_team_2e/`](../../reference/kill_team_2e/) only.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / killzone / mission-pack update logs + priority team online rules: Angels of Death, Canoptek Circle, Plague Marines), `draft` (retrieved 2026-08-27). **No singular "Balance Dataslate" file** — see [`docs/handoffs/dataslate_0826/track_in.md`](../../docs/handoffs/dataslate_0826/track_in.md) (owner lock). Team-by-team disposition: [`docs/handoffs/dataslate_0826/slices/S3_implementer.md`](../../docs/handoffs/dataslate_0826/slices/S3_implementer.md). Death Korps and Kommandos are an explicit **no-op** this package.
 
 ---
 
@@ -103,6 +105,7 @@ Specific thanks to these users for guides used as **layout inspiration** in this
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.8 (2026-08-27): Rules currency line — Kill Team quarterly balance, August 2026 (Core/update logs + priority team online rules), `draft`; pointer to S3 team disposition; Death Korps/Kommandos no-op noted (track `dataslate_0826` slice S5).
 - v0.7 (2026-08-21): Event_Ready checklist (READY); Volkus QR Condensed Stronghold Lethal 5+ callout linked.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v0.6 (2026-08-18): Slice P — Patch_Manifest; targeting quotes owner-verified vs Full-Scan + Jun 17 update log + Jul 25 lite.

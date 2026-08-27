@@ -2,17 +2,17 @@
 
 - **Track:** `dataslate_0826`
 - **Captured:** 2026-08-27
-- **Updated:** 2026-08-27 — owner reports **Kill Team dataslate** (and more files) added to folder
+- **Updated:** 2026-08-27 — staging pull supersedes Drive for this track; **KT has no singular dataslate** (Core + team package)
 - **Open sharing link:** https://drive.google.com/drive/folders/1__0mxNLzh1ZcmPcNA_-8kPcw_12L3Kj6
-- **Purpose:** Owner-shared cache of **40K** and **Kill Team** dataslate / update PDFs beyond pastes already filed.
-- **Agent status (2026-08-27):** **Still blocked** — `drive.google.com` returns empty (egress). Re-requested allowlist for `drive.google.com` + `drive.usercontent.google.com`. No new files in agent `uploads/` yet (only Universal Rules v1.1 PDF from earlier).
+- **Purpose:** Owner-shared cache of **40K** and **Kill Team** update PDFs beyond pastes already filed.
+- **Agent status (2026-08-27):** Staging pull complete — see [`staging_inventory_2026_08_27.md`](staging_inventory_2026_08_27.md). Drive still unused.
 
-## Expected (owner-reported; not yet inventory-verified)
+## Expected (owner-reported; corrected)
 
 | Item | Notes | Slice when readable |
 |------|-------|---------------------|
-| Kill Team Balance Dataslate (filename TBD) | Added to Drive folder 2026-08-27 | **S3** + pointer under `raw/pointers/kill_team_*` |
-| Additional 40K dataslate files (TBD) | “More files” — list when fetch works | S2 / S1 as applicable |
+| KT Core / update logs + team online rules | **Not** a singular Balance Dataslate PDF (owner lock) | **S3** + pointers under `raw/pointers/kill_team_*` |
+| Additional 40K package files (TBD) | Universal Rules / FP / MFM companions if any | S2 / S1 as applicable |
 
 ## Inventory (fill when accessible)
 

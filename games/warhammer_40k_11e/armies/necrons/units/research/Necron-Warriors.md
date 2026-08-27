@@ -37,7 +37,7 @@ Many Necron Characters/Crypteks can lead — verify sheet.
 INFANTRY, BATTLELINE, NECRON WARRIORS / FACTION: NECRONS
 
 ## Points / cost notes
-10 models 80; 20 models 190 (MFM v1.2 spot-check 2026-08-16)
+10 models **85** (▲+5); 20 models 190 — unchanged (MFM v1.3, owner paste 2026-08-27; supersedes 10-model 80 spot-checked 2026-08-16 against v1.2)
 
 ## List-building notes
 Owned x10 unassembled — build before play.
@@ -45,6 +45,7 @@ Owned x10 unassembled — build before play.
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Necron-Warriors
 - Local faction pack cross-check: partial
+- MFM Necrons v1.3 (owner paste 2026-08-27); PDF path pending confirmation under `C:\Personal\40K\rules\`. `draft` until owned-PDF cross-check.
 - Attestation: personal structured notes for private repo use; not a GW redistribution
 
 
@@ -59,4 +60,4 @@ Owned x10 unassembled — build before play.
 
 
 ---
-Verify vs current Munitorum / faction pack — patches happen | 2026-08-16
+Verify vs current Munitorum / faction pack — patches happen | 2026-08-27

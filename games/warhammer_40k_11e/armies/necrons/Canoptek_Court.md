@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Canoptek_Court.md
-VERSION: v0.5.3 (2026-08-25)
+VERSION: v0.5.5 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping; dataslate_0826 S2)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -12,7 +12,8 @@ REFERENCE_STATUS: Active - detachment rule verified 2026-08-16 (faction pack FAQ
 
 SOURCES:
   - https://wahapedia.ru/wh40k10ed/factions/necrons (Canoptek Court detachment rule, enhancements, stratagems; retrieved 2026-08-16)
-  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1 Rules Updates and FAQ for this detachment; read 2026-08-16)
+  - raw/_dataslate_0826_staging/eng_wh40k_faction_pack_necrons-eweoek106p-nqomxds3qr.pdf (Faction Pack v1.2, legal from 26 Aug 2026, staging read 2026-08-27) — confirms Reactive Subroutines stays at **8"** (the v1.1 errata from 9") under v1.2
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (v1.1 Rules Updates and FAQ for this detachment; read 2026-08-16; superseded)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - all points on this page
   - games/warhammer_40k_11e/rules/Key_Concepts.md (Objective Control, attack sequence)
 
@@ -122,7 +123,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Canoptek Tomb Crawlers (2) | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Canoptek |
 | Canoptek Macrocytes (5) | *not yet costed from MFM v1.2* | **Yes - game ready** | **Yes** - Canoptek |
 | Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | **Yes** - Canoptek. Your cheapest Matrix-flipper |
-| Necron Warriors (10) | **80** | **Yes - game ready** | No - screen and objective body only |
+| Necron Warriors (10) | **85** | **Yes - game ready** | No - screen and objective body only — MFM Necrons **v1.3** ▲+5 (owner paste 2026-08-27, draft; was 80 under v1.2) |
 
 **Game-ready today - Hierotek Circle (photo ID 2026-08-17).** KT-legal as based. See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
@@ -137,7 +138,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 | Unit | MFM v1.2 | Owned? | Matrix benefit? |
 |------|----------|--------|-----------------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 | Yes - on sprue | No |
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes - on sprue | No |
 | Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | **Yes** - merging to 6 is legal and cheap |
 | Immortals (5) | **70** | Yes - on sprue | No - good unit, no detachment benefit |
 
@@ -147,7 +148,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 |------|----------|------|
 | Canoptek Wraiths (3) | **95** first unit / **115** second | Melee construct that takes midfield |
 | Canoptek Doomstalker | **140** | The backline gun this detachment is named for |
-| Plasmancer | **55** | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
+| Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
 
 > **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list. Everything else on this page was read from MFM v1.2 on 2026-08-16.
 
@@ -186,7 +187,11 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
+
 ## Change Log
+- v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: v1.2 confirms the Reactive Subroutines stratagem stays at the **8" range** this page already taught from the v1.1 errata pass ("a 9" range dropped to 8""). Source citation updated; teaching text unchanged.
+- v0.5.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**; Plasmancer 55→**60**.
 - v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Terrain Objectives Commentary; GW notice.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.2 (2026-08-17): Hierotek photo ID — Technomancer moved to game-ready; Plasmancer remains unowned / Apprentek proxy; Plasmacytes likely not dual-legal.

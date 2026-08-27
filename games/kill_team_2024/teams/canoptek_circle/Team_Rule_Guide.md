@@ -1,15 +1,17 @@
 <!--
 FILE: games/kill_team_2024/teams/canoptek_circle/Team_Rule_Guide.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S4 — kt24_rules_quotes)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S4 — kt24_rules_quotes; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Team Rule Guide (quoted + teaching)
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
 TEAM: Canoptek Circle
+REFERENCE_STATUS: Active — Obelisk Node Matrix quote cross-checked against Aug '26 online rules pack (2026-08-27); no change to the quoted text itself
 
 SOURCES:
   - C:\Personal\Kill Team\kill_team_2024\Teams\eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf (read in place 2026-08-17)
+  - `eng_canoptek_circle_online_rules-oyuqtupnb7-kwrjrlduzv.pdf` (staging, read 2026-08-27) — dataslate_0826 S3, August '26 update log
 
 PURPOSE:
   Obelisk Node Matrix faction rule and roster — verbatim quotes from owned Teams PDF plus owner loadout lock.
@@ -18,6 +20,8 @@ PURPOSE:
 # Team Rule Guide — Obelisk Node Matrix
 
 **Personal use only. Never for sale.** Verbatim blocks below from `eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf`, read **2026-08-17**.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`.
 
 ---
 
@@ -60,6 +64,16 @@ PURPOSE:
 
 ---
 
+## Update log — August 2026 (teaching paraphrase)
+
+From `eng_canoptek_circle_online_rules-oyuqtupnb7-kwrjrlduzv.pdf` errata p.8 (staging, read 2026-08-27). Verify against your owned team PDF before play.
+
+- **Tomb Crawler, Dimensional Banishment weapon rule:** now has **no effect if the target is a NEMESIS operative or the Red Terror NPO.** Don't expect this weapon rule to remove a Nemesis or the Red Terror from the killzone.
+- **Geomancer, Obelisk Node Control:** the mission-action substitution now excludes both **Pick Up Marker and Retrieve** (Approved Ops 2025) — previously only Retrieve was excluded.
+- **Rules commentary:** if a Tomb Crawler incapacitates an enemy **Hierotek Circle** operative via Dimensional Banishment, that enemy operative does **not** get a Reanimation marker set up for it — Reanimation Protocols is fully bypassed, not just delayed. Relevant if you're facing Hierotek Circle across the table with a Tomb World-lineage killzone in play. Also see the [teleport / breach commentary on the Tomb World killzone page](../../setup/killzones/tomb_world.md) if either side is using teleport pads this game.
+
+---
+
 ## Printable datacards
 
 See [`cards/Card_Schema.md`](cards/Card_Schema.md) — five HTML cards with full statlines.
@@ -80,6 +94,7 @@ See [`cards/Card_Schema.md`](cards/Card_Schema.md) — five HTML cards with full
 
 ## Change Log
 
+- v0.6.0 (2026-08-27): dataslate_0826 S3 — Update log (August 2026): Tomb Crawler Dimensional Banishment vs Nemesis/Red Terror; Geomancer Obelisk Node Control mission-action exclusion; Reanimation-token commentary vs Hierotek Circle. Currency stamp. Obelisk Node Matrix quote block re-verified against Aug '26 pack — unchanged.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v2.0 (2026-08-17): Local Teams PDF quotes + datacards (`kt24_rules_quotes` S4). Supersedes Wahapedia-only draft.
 - v1.0 (2026-08-17): Initial teaching draft (kill_team_2024_scaffold S4).

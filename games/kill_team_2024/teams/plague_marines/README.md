@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/plague_marines/README.md
-VERSION: v0.7.1 (2026-08-21)
+VERSION: v0.8.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, learn_to_play_event S3; cloud agent photo ID 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer, learn_to_play_event S3; cloud agent photo ID 2026-08-21; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Team Package Entry Point
 PROJECT_NAME: Wargame_Concierge
@@ -28,6 +28,8 @@ UPDATE_TRIGGER:
 # Plague Marines - Kill Team 2024 (KT24)
 
 **Corrupted Death Guard.** Slow, durable Chaos Space Marine operatives that spread **Poison** and shrug big hits with **Disgustingly Resilient**. This team wins by trading at mid-range and grinding objectives, not by winning a footrace.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`. See [`Team_Rule_Guide.md`](Team_Rule_Guide.md#update-log--august-2026-teaching-paraphrase) for the August package deltas (Toxic timing; teleport/Lumbering Death).
 
 **Owned PDF opened / cross-checked.** Faction rules and roster are quoted from the owned Teams PDF in [`Team_Rule_Guide.md`](Team_Rule_Guide.md). Operative **statlines** live on the seven HTML datacards in [`cards/`](cards/Card_Schema.md). Role summaries stay teaching paraphrase.
 
@@ -101,6 +103,7 @@ Full detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md#death-guard
 
 ## Change Log
 
+- v0.8.0 (2026-08-27): dataslate_0826 S3 — Rules currency stamp (Kill Team quarterly balance, August 2026); pointer to Team_Rule_Guide update log.
 - v0.7.1 (2026-08-21): Rebase merge — learn_to_play kid package + 7/7 photo ID.
 - v0.7 (2026-08-21): Full 7/7 photo ID; Kill Team Starter Set provenance; Heavy Gunner confirmed.
 - v0.6.1 (2026-08-21): Bombardier confirmed in photo ID follow-up; six of seven slots owned.

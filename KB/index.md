@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-24
-version: 0.5.8
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, white_dwarf_527]
+updated: 2026-08-27
+version: 0.5.9
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, white_dwarf_527, 40k_aug_2026_balance_package, kt_aug_2026_balance_package, sm_codex_oct_2026_preview]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024, the_warcode]
 ---
@@ -46,7 +46,7 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 |------|---------|------------|---------|
 | [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-19 |
 | [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-19 |
-| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-19 |
+| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-27 |
 | [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-18 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 
@@ -58,7 +58,7 @@ One page per ingested source. Location: `KB/sources/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[warcom_free_core_rules_11e]] | WarCom-free 11e Core PDF + July universal updates; numbered-ID quote appendix in shipping; KB paraphrase only | draft | 2026-08-18 |
+| [[warcom_free_core_rules_11e]] | WarCom-free 11e Core PDF + July universal updates (v1.0, **superseded** by Aug v1.1); numbered-ID quote appendix in shipping; KB paraphrase only | draft | 2026-08-27 |
 | [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-17 |
 | [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-17 |
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
@@ -67,6 +67,8 @@ One page per ingested source. Location: `KB/sources/`.
 | [[legends_field_manual_sm_2026_08]] | WarCom Legends Field Manual SM points (Servitors / Bike / Attack Bike) retrieved 2026-08-22 for Casual starters | draft | 2026-08-22 |
 | [[gw_ip_guidelines]] | Paraphrase of GW community IP guidelines + WarCom download licence; unofficial footer policy for games/ shipping | draft | 2026-08-23 |
 | [[white_dwarf_527]] | Owned WD527 tier 1.5 — commentary shipped to rules/setup/armies; system 2-pager + Mission 38 | verified | 2026-08-25 |
+| [[40k_aug_2026_balance_package]] | No singular dataslate: Universal Rules v1.1 + Faction Pack v1.2 (Necrons/SM) + MFM v1.3 — Necron Warriors 80→85, SM cores unchanged, disembark move typing | draft | 2026-08-27 |
+| [[sm_codex_oct_2026_preview]] | Separate product: Codex SM October 2026 preview — Legendary Proxies / Legends honesty, no early stat rewrite | draft | 2026-08-27 |
 
 ---
 
@@ -107,8 +109,8 @@ One page per army. Location: `KB/factions/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necrons]] | Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 245 pts (MFM v1.2) | draft | 2026-08-19 |
-| [[space_marines]] | Blood Ravens Codex SM Gladius force; Matched vs Casual starter split; owned Legends on Casual only | draft | 2026-08-22 |
+| [[necrons]] | Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 250 pts (MFM v1.3, Aug 2026 package) | draft | 2026-08-27 |
+| [[space_marines]] | Blood Ravens Codex SM Gladius force; Matched vs Casual starter split; MFM v1.3 unchanged; Codex Oct preview readiness only | draft | 2026-08-27 |
 
 ---
 
@@ -132,7 +134,7 @@ One page per datasheet, written in play terms. Location: `KB/units/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necron_warriors]] | Battleline brick; Their Number is Legion re-rolls RP D3; owned 10+10 | draft | 2026-08-19 |
+| [[necron_warriors]] | Battleline brick; Their Number is Legion re-rolls RP D3; owned 10+10; MFM v1.3 10-model band 85 (▲+5) | draft | 2026-08-27 |
 | [[techmarine]] | Owned Firstborn Techmarine; matched-legal alone; unlocks Servitors on Casual lists | draft | 2026-08-22 |
 | [[astartes_servitors]] | Legends infantry ×4 with Techmarine; Casual Gladius only; Mindlock / Servitor Retinue | draft | 2026-08-22 |
 
@@ -183,6 +185,7 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 | [[warcom_nemesis_operatives_free]] | WarCom preview articles surveyed for free Nemesis numeric profiles — none found (2026-08-17) | draft | 2026-08-17 |
 | [[community_kt24_npo_aids]] | Community NPO/KT24 cheat sheets — draft secondary, stale-risk | unverified | 2026-08-17 |
 | [[kill_team_necron_photos]] | Path pointer to owner photos of painted Necron models under `C:\Personal\Kill Team\Teams\` used to identify Canoptek Circle, Hierotek Circle, and Tomb World Warrior/Scarab NPOs. Binaries stay outside git. | draft | 2026-08-17 |
+| [[kt_aug_2026_balance_package]] | No singular dataslate: Core/killzone/mission-pack update logs + priority team online rules — Tomb World teleport/breach, Nemesis Towering Size, Hierotek regen-timing note | draft | 2026-08-27 |
 
 ### Concepts (KT24)
 
@@ -276,6 +279,7 @@ Short per-directory README stubs restate the page contract for each entity type.
 - [[uml_diagrams_org]] · [[flowcharting_uml_activity]] - project flowchart notation (not game rules)
 - [[ingest_procedure]] - how to add to this catalog
 - [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources (system #3)
+- [[40k_aug_2026_balance_package]] · [[kt_aug_2026_balance_package]] · [[sm_codex_oct_2026_preview]] - Aug 2026 balance package + Oct Codex preview (`dataslate_0826`, 2026-08-27)
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth
 
 ## Units (pointers)

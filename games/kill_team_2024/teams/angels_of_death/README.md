@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/README.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Team Package — Entry Point
 PROJECT_NAME: Wargame_Concierge
@@ -31,6 +31,8 @@ UPDATE_TRIGGER:
 **Priority team (S6 — full package).** A generic Adeptus Astartes kill team built from Intercessor-pattern operatives plus three optional leaders — the "any Chapter, any Space Marine box" option in KT24.
 
 **Status:** `draft`. Written from the living Wahapedia page and a secondary published review, both retrieved **2026-08-17**. The owned team PDF has not been opened this slice — cross-check before a tournament.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`. Chapter Tactics cross-checked against a staged Aug '26 online rules pack — see [`Team_Rule_Guide.md`](Team_Rule_Guide.md#update-log--august-2026-teaching-paraphrase).
 
 **Start here:** [`Team_Rule_Guide.md`](Team_Rule_Guide.md) for the faction rules, then [`Starter_Roster.md`](Starter_Roster.md) for a first list, then [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) for the table laminate.
 
@@ -97,6 +99,7 @@ This roster is built almost entirely from parts on **Intercessor-family 40K kits
 
 ## Change Log
 
+- v1.2 (2026-08-27): dataslate_0826 S3 — Rules currency stamp (Kill Team quarterly balance, August 2026); pointer to Team_Rule_Guide update log (Chapter Tactics cross-check).
 - v1.1 (2026-08-21): Partial photo ID — five used Intercessors (BT paint, not played as BT).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Full package (slice S6) — team rule guide, inventory worksheet, starter roster, two-page laminate, operative index, and card schema. 40K Space Marine sync added.

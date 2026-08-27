@@ -1,8 +1,8 @@
 <!--
 FILE: docs/README.md
-VERSION: v0.9.0 (2026-08-25)
+VERSION: v0.9.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S1)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
 DOCUMENT_TYPE: Folder README / Documentation Index
 PROJECT_NAME: Wargame_Concierge
@@ -70,6 +70,8 @@ Multi-agent track artifacts - briefs, implementer reports, QA reports, Librarian
 
 **Systems shipping:** [`../games/README.md`](../games/README.md) — 40K 11e, Kill Team 2024, The Warcode. KT24 rules spine: [`Patch_Manifest.md`](../games/kill_team_2024/rules/Patch_Manifest.md), [`Target_Eligibility.md`](../games/kill_team_2024/rules/Target_Eligibility.md).
 
+**Active track:** [`handoffs/dataslate_0826/track_in.md`](handoffs/dataslate_0826/track_in.md) — Aug 2026 GW balance currency pass (40K Universal Rules v1.1 / Faction Pack v1.2 / MFM v1.3; KT quarterly balance package). Current stamps live on each system's own README, not here.
+
 Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everything else under `docs/` uses the Rising Tide header and footer.
 
 ---
@@ -100,6 +102,7 @@ Handoff **slice** artifacts are frozen — do not edit briefs/QA/reports. Everyt
 
 ## Change Log
 
+- v0.9.1 (2026-08-27): Handoffs section — pointer to the active `dataslate_0826` track (Aug 2026 GW balance currency pass); currency stamps live on system READMEs, not here (track `dataslate_0826` slice S4).
 - v0.9.0 (2026-08-25): Snapshot v0.9.0; Rehydration / Planning aligned to pre-external-review.
 - v0.5.6 (2026-08-25): Three systems noted; handoffs/systems index refreshed.
 - v0.5.1 (2026-08-23): Date stamp (rule test #3); index `github_ship_smoothers.md`.

@@ -1,12 +1,12 @@
 <!--
 FILE: games/kill_team_2024/nemesis_ops/How_To_Create_A_Nemesis_Operative.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S2 — nemesis_ops_ocr_spotcheck)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S2 — nemesis_ops_ocr_spotcheck; dataslate_0826 S3)
 DOCUMENT_TYPE: Teaching Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
-REFERENCE_STATUS: Active — process steps vision-verified 2026-08-17; no dossier datasheet numbers
+REFERENCE_STATUS: Active — process steps vision-verified 2026-08-17; no dossier datasheet numbers; Towering Size note aligned to Aug '26 mission packs update log (2026-08-27)
 
 SOURCES:
   - raw/pointers/kill_team_2024_nemesis_operatives.md
@@ -15,6 +15,7 @@ SOURCES:
   - docs/handoffs/nemesis_ops_ocr_spotcheck/OCR_Spotcheck_Matrix.md
   - games/kill_team_2024/nemesis_ops/WarCom_Free_Statlines.md
   - raw/pointers/community_kt24_npo_cheat_sheet.md
+  - `eng_mission_packs_update_log-51t6hsixc0-buxngu8xav.pdf` (staging, read 2026-08-27) — dataslate_0826 S3
 
 PURPOSE:
   Beginner walkthrough for creating a Nemesis Operative with the Custom Builder.
@@ -26,6 +27,8 @@ UPDATE_TRIGGER:
 # How to create a Nemesis Operative
 
 **Confidence: verified** for Custom Builder **process steps** (allegiance → size → NPO behaviour → weapons → traits) after vision spot-check against the owned PDF (track `nemesis_ops_ocr_spotcheck`, 2026-08-17). **No datasheet numbers from the dossier appear on this page.** Full profiles live on blank datacards / the official app / WarCom downloads you own — not in this repo.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`.
 
 ---
 
@@ -46,7 +49,7 @@ UPDATE_TRIGGER:
 Complete the builder steps on the blank cards (dossier Custom Builder section):
 
 1. **Allegiance** — Pick one allegiance keyword for the operative (examples named in the book include major 40K faction families such as Imperium, Chaos, Aeldari, Necron, Ork, T’au Empire, Tyranid, Leagues of Votann). That keyword gates who can share a kill team with it, and it unlocks an **allegiance trait** later.
-2. **Size** — Choose Small / Medium / Large. Larger size means a tougher, more powerful Nemesis and (in Joint Ops / Nemesis Ops packs) fewer other operatives alongside it. Prefer a size that matches the model’s base and the killzone — very large bases can be awkward on tight maps.
+2. **Size** — Choose Small / Medium / Large. Larger size means a tougher, more powerful Nemesis and (in Joint Ops / Nemesis Ops packs) fewer other operatives alongside it. Prefer a size that matches the model’s base and the killzone — very large bases can be awkward on tight maps. **Keep Towering Size almost always** — August 2026 rules commentary treats removing it as the exception (named exceptions: Ambull, Archivist), not a default option; even a Small custom Nemesis should usually keep the no-Conceal / always-valid-target behaviour Towering Size grants. Detail: [`Custom_Builder.md`](Custom_Builder.md#step-2-addendum--keep-towering-size-august-2026-commentary).
 3. **Behaviour (NPO only)** — If the Nemesis is a **non-player** operative, pick a behaviour that drives its orders and action priorities (the book’s families include melee-forward, shooting-forward, and mixed patterns such as Brawler / Marksman / Guardian / Battler). If it is a **player** Nemesis, you choose its orders like a normal operative (with the book’s action restrictions for Nemesis).
 
 Details and trait lists: [`Custom_Builder.md`](Custom_Builder.md).
@@ -109,6 +112,7 @@ Pointer: [`raw/pointers/community_kt24_npo_cheat_sheet.md`](../../../raw/pointer
 | WarCom free numeric profiles | none found 2026-08-17 |
 | Community sheet | optional aid only; stale-risk |
 | Ambull / Archivist mission titles | vision-confirmed — see [`Mission_Packs.md`](Mission_Packs.md) |
+| Towering Size commentary (Aug '26 mission packs update log) | read from staging 2026-08-27; cross-check owned dossier |
 
 ## Related pages
 
@@ -123,6 +127,7 @@ Pointer: [`raw/pointers/community_kt24_npo_cheat_sheet.md`](../../../raw/pointer
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.6.0 (2026-08-27): dataslate_0826 S3 — Towering Size commentary note at step 2 (Aug '26 mission packs update log); currency stamp.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-17): OCR spot-check — process steps → `verified`; VERIFY table updated.
 - v1.0 (2026-08-17): S2 required How-To (process paraphrase; no dossier numbers).

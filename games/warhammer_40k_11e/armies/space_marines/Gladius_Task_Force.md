@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Gladius_Task_Force.md
-VERSION: v0.5.1 (2026-08-25)
+VERSION: v0.5.3 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S6)
+AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S6; dataslate_0826 S2)
 
 DOCUMENT_TYPE: Teaching Guide / Detachment
 PROJECT_NAME: Wargame_Concierge
@@ -12,8 +12,9 @@ DETACHMENT: Gladius Task Force
 REFERENCE_STATUS: Active - detachment rule and stratagems cross-checked 2026-08-16. Errata and FAQ from the owned faction pack v1.1; full detachment text from public 11e references, because the owned pack carries only this detachment's updates
 
 SOURCES:
-  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1; Rules Updates and FAQs read 2026-08-16) - Gladius errata, and the Combat Doctrine wording confirmed via the Blade of Ultramar detachment printed in full in the same pack
-  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, printed 13 Aug 2026; read 2026-08-16) - detachment tag and every enhancement cost
+  - raw/_dataslate_0826_staging/eng_wh40k_faction_pack_space_marines-kxoxqpsahz-u0lzirv0zl.pdf (Faction Pack v1.2, legal from 26 Aug 2026, staging read 2026-08-27) — confirms Adaptive Strategy's "no active doctrine required" FAQ and the Squad Tactics 8" trigger range are unchanged under v1.2
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1; Rules Updates and FAQs read 2026-08-16; superseded) - Gladius errata, and the Combat Doctrine wording confirmed via the Blade of Ultramar detachment printed in full in the same pack
+  - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2 printed 13 Aug 2026, read 2026-08-16; superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27 — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md; enhancement costs re-verified unchanged) - detachment tag and every enhancement cost
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16) - full stratagem and enhancement text
   - https://www.newrecruit.eu/wiki/wh40k-11e (Gladius Task Force entry, retrieved 2026-08-16) - detachment rule wording cross-check
 
@@ -38,7 +39,7 @@ UPDATE_TRIGGER:
 
 The Gladius Task Force is the generalist Space Marine detachment and the right one to learn on. It has no gimmick to build a list around. It gives you **three once-per-battle permission slips**, and the whole skill of the detachment is knowing which turn to spend each one.
 
-**Munitorum Field Manual v1.2 tags it `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`**, read 2026-08-16. See the note on `DP` at the bottom of this page.
+**Munitorum Field Manual v1.3 tags it `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`** (owner paste, retrieved 2026-08-27; unchanged from v1.2, read 2026-08-16). See the note on `DP` at the bottom of this page.
 
 **Commentary (White Dwarf 527 — Leaders and Support):**
 
@@ -157,9 +158,9 @@ Your own pack v1.1 changes three Gladius entries. Public references and older pr
 
 ## Enhancements
 
-Points from Munitorum Field Manual v1.2, read 2026-08-16. All four are worth knowing; none are worth buying at 250 points.
+Points from Munitorum Field Manual v1.3 (owner paste, retrieved 2026-08-27; unchanged from v1.2 read 2026-08-16). All four are worth knowing; none are worth buying at 250 points.
 
-| Enhancement | MFM v1.2 | What it does, in short |
+| Enhancement | MFM v1.3 | What it does, in short |
 |-------------|----------|------------------------|
 | **The Honour Vehement** | **15** | +1 Attacks and Strength on the bearer's melee weapons; **+2 instead** under the Assault Doctrine |
 | **Adept of the Codex** | **20** | Captain only. Puts the bearer's unit into **Tactical Doctrine** even if the army has already used it |
@@ -199,7 +200,11 @@ The Munitorum Field Manual tags every detachment with a number and a mission typ
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · **Faction Pack v1.2** (legal 26 Aug 2026) · teaching paraphrase · verify owned PDF.
+
 ## Change Log
+- v0.5.3 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: this page's Adaptive Strategy FAQ line and the Squad Tactics 9"→8" errata were already correctly taught from the v1.1 pass; v1.2 confirms both unchanged. Source citation updated; teaching text unchanged.
+- v0.5.2 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; Honour Vehement / Adept of the Codex / Artificer Armour / Fire Discipline costs re-verified **unchanged** vs v1.2.
 - v0.5.1 (2026-08-25): wd527_shipping S6 — Leaders/Support Commentary; system spine links.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-16): Initial detachment teaching guide (slice S5). Doctrine wording cross-checked against the Blade of Ultramar detachment printed in full in the owned faction pack v1.1, which uses identical Combat Doctrine text; stratagems and enhancements from public 11e references retrieved 2026-08-16 and reconciled against the owned pack's Gladius errata. Enhancement costs from MFM Marines v1.2. Upgrades the `unverified` Gladius Task Force entry in `Keyword_Glossary.md`.

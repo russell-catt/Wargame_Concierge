@@ -1,19 +1,20 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/Team_Rule_Guide.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; dataslate_0826 S3)
 
 DOCUMENT_TYPE: Teaching Guide / Faction Rules
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Kill Team — 2024 / 3e (KT24)
 TEAM: Angels of Death
-REFERENCE_STATUS: Draft — written from the living Wahapedia Angel of Death page, retrieved 2026-08-17. Owned team PDF not yet opened this slice.
+REFERENCE_STATUS: Draft — written from the living Wahapedia Angel of Death page, retrieved 2026-08-17. Chapter Tactics (all eight) and the August '26 Chapter Tactics errata cross-checked against the staged `eng_26-08_` online rules pack 2026-08-27; ploys/equipment below remain Wahapedia-sourced and not yet cross-checked against the owned team PDF.
 
 SOURCES:
   - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17)
   - raw/pointers/kill_team_2024_teams.md — local PDF pointer, not opened this slice
   - games/kill_team_2024/rules/Key_Concepts.md (APL, Orders, 1" control range vocabulary used below)
+  - `eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf` (staging, read 2026-08-27) — dataslate_0826 S3, August '26 dated pack; Chapter Tactics + update log cross-check only
 
 PURPOSE:
   Explain what Astartes, Chapter Tactics, and the team's ploys and equipment
@@ -31,7 +32,9 @@ UPDATE_TRIGGER:
 
 # Team Rule Guide — Angels of Death
 
-Written as teaching paraphrase from the living Wahapedia Angel of Death page, retrieved **2026-08-17**. Status: `draft` — not yet cross-checked against the owned team PDF. Nothing below reproduces ploy card text or datacard statlines; look those up in your team PDF or the Kill Team app before play.
+Written as teaching paraphrase from the living Wahapedia Angel of Death page, retrieved **2026-08-17**. Status: `draft` — Chapter Tactics cross-checked against the staged Aug '26 online rules pack 2026-08-27 (see Update log below); ploys/equipment sections not yet cross-checked against the owned team PDF. Nothing below reproduces ploy card text or datacard statlines; look those up in your team PDF or the Kill Team app before play.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence `draft`.
 
 ---
 
@@ -63,11 +66,13 @@ At list-build, select a **primary** and a **secondary** Chapter Tactic from a sh
 | **Resolute** | Ignore stat-lowering effects on your APL, including the enemy's stun-style weapon rule |
 | **Stealthy** | While the operative has any cover save available, you get a better version of it (an extra save, or the save upgraded to a critical) |
 | **Mobile** | Cheaper to Fall Back, and can Charge even while already in an enemy's 1" control range, escaping that engagement to do so |
-| **Hardy** | Defence dice crit more easily when the operative is shot, and its first big hit taken while retaliating in melee is softened |
+| **Hardy** | Defence dice crit more easily when the operative is shot, and its first big hit taken while retaliating in melee is softened¹ |
 | **Sharpshooter** | Bolt weapons get more reliable *first* shots on an activation where the operative didn't Charge, Fall Back, or Reposition |
 | **Siege Specialist** | Ranged weapons ignore the target's cover benefit; in melee, the enemy can't call in an assisting operative against you |
 
 **Reading the pool:** Aggressive/Dueller lean melee, Sharpshooter/Siege Specialist lean ranged, Stealthy/Hardy lean defensive, Mobile is a mobility/disengage tool, and Resolute is a counter to enemy control effects. Most rosters pick one offensive tactic and one defensive-or-utility tactic rather than doubling down on one axis — a team that is already melee-heavy from its operative choices gets more value from Stealthy or Hardy as the second pick than from also taking Aggressive.
+
+¹ **Hardy — August 2026 cross-check.** The staged `eng_26-08_` pack's live rules text gives Hardy one bullet (defence dice results of **5+ are critical successes** when the operative is shot). Its **August '26 errata explicitly "reverts a previous change"**, restoring a second bullet: the first time an attack dice inflicts Normal Dmg of 3+ on this operative **while it's retaliating**, that dice inflicts 1 less damage. Both bullets are current as of the August 2026 package — this table row already reflected both effects, so no correction was needed, but this is now cross-checked rather than assumed. Verify against your owned team PDF, as the two clauses appear in different parts of the online rules pack.
 
 ---
 
@@ -110,6 +115,15 @@ At list-build, select a **primary** and a **secondary** Chapter Tactic from a sh
 
 ---
 
+## Update log — August 2026 (teaching paraphrase)
+
+From `eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf` errata p.9 (staging, read 2026-08-27). Verify against your owned team PDF before play.
+
+- **Chapter Tactics, Hardy:** reverted to include the retaliation-damage-softening bullet alongside the defence-dice-crit bullet — see footnote ¹ above. No other Chapter Tactic changed this package.
+- No other Angels of Death faction rules, ploys, or equipment changed in the August '26 errata section of the staged pack. Everything else in this guide is unaffected by this package.
+
+---
+
 ## Common beginner mistakes
 
 | Mistake | What actually happens |
@@ -139,6 +153,7 @@ At list-build, select a **primary** and a **secondary** Chapter Tactic from a sh
 
 ## Change Log
 
+- v0.6.0 (2026-08-27): dataslate_0826 S3 — Chapter Tactics cross-checked against staged Aug '26 online rules pack; Hardy footnote (errata reverts retaliation-softening bullet back in); Update log section; currency stamp.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.0 (2026-08-17): Initial faction rule guide (slice S6), written from the living Wahapedia Angel of Death page, retrieved 2026-08-17.
 

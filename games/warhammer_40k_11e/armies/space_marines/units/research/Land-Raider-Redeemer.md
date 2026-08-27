@@ -32,6 +32,8 @@ _Pending_
 ## Points / cost notes
 Verify Munitorum Field Manual — research 2026-08-16.
 
+**▲ MFM Marines v1.3 (owner paste, retrieved 2026-08-27):** **260 / 280** (1st–2nd / 3rd+ copy), +10 / +10 vs the 250 flat cost stamped under v1.2. See [`docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md`](../../../../../docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md) and [`Owned_Models_Inventory.md`](../../Owned_Models_Inventory.md) Step 2 table. Not owned; not in any Blood Ravens Matched/Casual starter — noted for research only, no list edit.
+
 ## List-building notes
 Roster entry for later list-building / datasheet cards.
 

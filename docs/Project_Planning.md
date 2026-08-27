@@ -1,8 +1,8 @@
 <!--
 FILE: docs/Project_Planning.md
-VERSION: v0.9.0 (2026-08-25)
+VERSION: v0.9.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
 DOCUMENT_TYPE: Project Planning
 PROJECT_NAME: Wargame_Concierge
@@ -60,6 +60,7 @@ Decisions of record for Wargame_Concierge. If a question here is marked resolved
 | KB | Living; Librarian enhance passes after shipping tracks |
 | Git | Coordinator sole git owner except explicit user-gated commit+push |
 | Live rollup | [`handoffs/README.md`](handoffs/README.md) |
+| Balance docs now in play | **`dataslate_0826`** track (2026-08-27, open) — Aug 2026 GW balance packages: **40K** = Universal Rules v1.1 + Faction Pack v1.2 (Necrons + SM) + MFM v1.3; **Kill Team** = Core/update-log package + priority team online rules. **No singular "Balance Dataslate" file for either system** (owner lock). Warcode unaffected. See [`handoffs/dataslate_0826/track_in.md`](handoffs/dataslate_0826/track_in.md) for locked dates; current stamps live on each system's own README |
 
 ---
 
@@ -275,6 +276,7 @@ Still worth closing, but no longer critical path. It dropped from blocker to nic
 
 ## Change Log
 
+- v0.9.1 (2026-08-27): Current status — added the `dataslate_0826` track row (Aug 2026 GW balance packages: 40K Universal Rules v1.1 + Faction Pack v1.2 + MFM v1.3; KT Core/update-log + team package; no singular dataslate file for either system; Warcode unaffected). Currency stamps live on system READMEs, not restated here (slice S4).
 - v0.9.0 (2026-08-25): Three systems onboarded (Warcode); copyright/sourcing refreshed; phase **pre-external-review**; next milestone external critique.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Status: KT24 rules/reference landed; tags `v0.1.0` / `v0.5.0`; Coordinator git owner except this user-gated commit+push.
 - v1.1 (2026-08-16): Ownership correction, track `tomb_world_ownership` slice S3. Sec 3 rewritten against FOUNDATION: Kill Team: Tomb World is **owned and game-ready** (Geomancer, 2 Tomb Crawlers, 5 Macrocytes, 10 Warriors, 3 Scarab Swarms), with the second Warriors squad, second Scarab set, and Immortals owned on sprue, and totals of 20 Warriors and 6 Scarab Swarms. Removed the "Superseded: Kill Team: Tomb World" section and replaced it with a correction note recording that the prior claim was erroneous. Added the authoritative order for ownership facts. Downgraded the Hierotek Circle photo ID from blocker to open-but-non-blocking. Refreshed current status, completed-to-date, and next actions for the current track.

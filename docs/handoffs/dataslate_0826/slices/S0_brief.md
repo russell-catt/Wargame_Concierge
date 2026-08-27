@@ -14,7 +14,7 @@
 
 1. Resolve L1, L2, L3 optiext URLs to canonical `warhammer-community.com` article (or downloads) URLs.
 2. Record for each: title, publish date, system (40K / KT / both), PDF / dataslate product names, one-paragraph paraphrase of what changed (no rules dump).
-3. Fill **Locked dates** table in `track_in.md` (40K + KT dataslate dates).
+3. Fill **Locked dates** table in `track_in.md` (40K package stamps + KT **Core + team** package stamp — KT has **no** singular dataslate date).
 4. Inventory expected local paths under `C:\Personal\40K\rules\` and `C:\Personal\Kill Team\kill_team_2024\` (exist / missing).
 5. Draft **impact matrix**: factions, teams, and shipping paths likely affected (Necrons, Space Marines, Canoptek Circle, Plague Marines, Angels of Death, QRs, lists, MFM points callouts).
 6. Write `S0_implementer.md` with verbatim fetch commands / failure notes.
