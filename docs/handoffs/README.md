@@ -8,6 +8,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 
 | Track | Folder | Status |
 |-------|--------|--------|
+| Balance Dataslates Aug 2026 (40K + KT) | [`dataslate_0826/`](dataslate_0826/) | Open — plan package on `feature/dataslate_0826`; execution gated |
 | v1 scaffold (40K 11e beginner content + Karpathy KB) | [`v1_scaffold/`](v1_scaffold/) | Closed - Complete |
 | Tomb World ownership sync | [`tomb_world_ownership/`](tomb_world_ownership/) | In Progress |
 | Kill Team 2024 scaffold (KT24 / 3e + Join Ops + 2e archive) | [`kill_team_2024_scaffold/`](kill_team_2024_scaffold/) | In Progress |
