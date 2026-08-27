@@ -12,7 +12,7 @@
 | G2 | Owner confirms PDFs saved under `C:\Personal\40K\rules\` (or accepts `draft`) | Open — also save Drive folder copies locally |
 | G3 | Owner authorizes multi-slice execution | Open |
 | G3b | Optional: authorize **S2b** / **S2c** / **S2d** / **S2e** before full track | Open |
-| G1d | Unblock Drive: allowlist **or** upload folder PDFs / paste file list | **Open** |
+| G1d | Unblock Drive **or** upload KT dataslate (+ new 40K files) | **Open** — owner added KT dataslate to Drive; agent still cannot read folder |
 
 ## Authorize by saying
 
