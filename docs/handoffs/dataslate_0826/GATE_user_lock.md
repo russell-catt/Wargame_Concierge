@@ -19,10 +19,9 @@ Staging README: [`raw/_dataslate_0826_staging/README.md`](../../../raw/_dataslat
 | # | Gate | Status |
 |---|------|--------|
 | G1 | WarCom egress / pastes / uploads / Drive | **Partial** — pastes + Universal Rules upload; Drive still blocked |
-| G1d | Remaining PDFs via **`raw/_dataslate_0826_staging/`** (KT dataslate + unread 40K) | **Open — drop zone ready** |
-| G2 | Owner confirms long-term copies under `C:\Personal\40K\rules\` / Kill Team tree (or accepts `draft`) | Open |
+| G1d | Remaining PDFs via **`raw/_dataslate_0826_staging/`** | **PASS** — 13 PDFs pulled 2026-08-27; inventory filed |
+| G2 | Owner confirms long-term copies under `C:\Personal\…` (or accepts `draft`) | Open |
 | G3 | Owner authorizes multi-slice execution | Open |
-| G3b | Optional: authorize **S2b** / **S2c** / **S2d** / **S2e** before full track | Open |
 | G-clean | **CLEANUP** staging PDFs + gitignore before squash-merge | Required |
 
 ## Drop then say
