@@ -4,11 +4,19 @@
 **Branch:** `feature/dataslate_0826`  
 **Date opened:** 2026-08-27
 
+## Owner authorization (2026-08-27)
+
+| Gate | Decision |
+|------|----------|
+| Research plan | **OK** — proceed |
+| Execution | **Authorize full track** (S0 → FS) |
+| G2 local PDF copies | **Accept `draft`** for now (no wait on `C:\Personal\…` confirm) |
+| KT teams | **Update teams provided in staging**; owned teams with **no** update this package = **no-op** (Death Korps, Kommandos) |
+| Package shape | **No singular dataslate** (40K or KT) — Core/universal + faction/team updates |
+
 ## PDF staging workflow (locked 2026-08-27)
 
-Drive / chat drag failed for remaining files. Owner plan:
-
-1. Drop GW dataslate PDFs into **`raw/_dataslate_0826_staging/`** on this branch (temporary `.gitignore` negation).
+1. Drop GW PDFs into **`raw/_dataslate_0826_staging/`** (temporary `.gitignore` negation).
 2. Agent reads → research markdown → authorized slices.
 3. **CLEANUP** before merge to `main`: delete PDFs + remove gitignore negation.
 
@@ -18,18 +26,18 @@ Staging README: [`raw/_dataslate_0826_staging/README.md`](../../../raw/_dataslat
 
 | # | Gate | Status |
 |---|------|--------|
-| G1 | WarCom egress / pastes / uploads / Drive | **Partial** — pastes + Universal Rules upload; Drive still blocked |
-| G1d | Remaining PDFs via **`raw/_dataslate_0826_staging/`** | **PASS** — 14 PDFs (incl. Universal Rules v1.1) as of `9a9dcf8` |
-| G-KT | KT package shape | **PASS** — **no singular dataslate**; package = **Core rules update + team updates** (owner lock 2026-08-27) |
-| G-40K | 40K package shape | **PASS** — **no singular dataslate**; package = **Universal Rules + Faction Pack + MFM** (owner lock 2026-08-27) |
-| G2 | Owner confirms long-term copies under `C:\Personal\…` (or accepts `draft`) | Open |
-| G3 | Owner authorizes multi-slice execution | Open |
-| G-clean | **CLEANUP** staging PDFs + gitignore before squash-merge | Required |
+| G1 | WarCom egress / pastes / uploads / Drive | **Partial** — pastes + staging; Drive unused |
+| G1d | Staging PDFs | **PASS** — 14 PDFs |
+| G-KT | KT package shape | **PASS** — Core + team updates |
+| G-40K | 40K package shape | **PASS** — Universal Rules + FP + MFM |
+| G2 | Local `C:\Personal\…` copies | **WAIVED — accept `draft`** |
+| G3 | Owner authorizes multi-slice execution | **PASS — full track** |
+| G-clean | **CLEANUP** staging PDFs + gitignore before squash-merge | Required before merge |
+
+## Authorize execution (received)
+
+> Research plan OK. Go for full track. Accept draft for now. Update the teams provided. Other owned teams received no update.
 
 ## Drop then say
 
 > PDFs dropped in `raw/_dataslate_0826_staging/` — inventory and extract.
-
-## Authorize execution
-
-> Authorize dataslate_0826 — run S0 through FS on `feature/dataslate_0826` (cleanup before merge).
