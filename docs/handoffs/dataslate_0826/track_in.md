@@ -71,6 +71,7 @@ Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP befo
 | WarCom 40K balance “What’s New?” (owner paste) | [`warcom_40k_balance_commentary_aug.md`](research/warcom_40k_balance_commentary_aug.md) — Orks excluded; Sep last monthly; FD map tweaks |
 | Necrons + SM **Faction Pack v1.2** (legal 26 Aug 2026) | [`staging_40k_faction_packs_v1_2.md`](research/staging_40k_faction_packs_v1_2.md) |
 | KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
+| WarCom KT quarterly balance “top five” (owner paste) | [`warcom_kt_balance_commentary_aug.md`](research/warcom_kt_balance_commentary_aug.md) — Hierotek in scope; Fellgor/Goremongers/Raveners/Wolf Scouts waiver unless expanded |
 | KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
 | **No** titled Balance Dataslate PDF | Update logs + Faction Packs + MFM v1.3 + Universal Rules v1.1 = Aug package |
 
@@ -79,7 +80,7 @@ Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP befo
 | Field | Value |
 |-------|-------|
 | **40K Balance Dataslate date** | _No standalone PDF in staging_ — use Faction Pack **v1.2** + Universal Rules **v1.1** + MFM **v1.3** (all legal / stamped **26 Aug 2026** where dated) |
-| **KT Balance Dataslate date** | _No standalone PDF_ — Tomb World / Mission packs update logs **August 2026** + `eng_26-08_` team packs |
+| **KT Balance Dataslate date** | WarCom quarterly balance commentary **Aug 2026** (paste); **PDF still missing** from staging — update logs + `eng_26-08_` packs as interim |
 | **40K Faction Packs** | Necrons + Space Marines **v1.2** · legal **26 Aug 2026** |
 | **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** |
 | **Necron MFM** | **v1.3** (owner paste 2026-08-27) |
@@ -312,6 +313,7 @@ flowchart TD
 
 ## Change Log
 
+- v0.10 (2026-08-27): WarCom KT quarterly balance commentary (top five); Hierotek in S3 scope.
 - v0.9 (2026-08-27): WarCom 40K balance commentary paste (Orks out; Sep last monthly; FD maps).
 - v0.8 (2026-08-27): Temp `raw/_dataslate_0826_staging/` drop zone + CLEANUP brief (Drive drag failed).
 - v0.7 (2026-08-27): Owner added Kill Team dataslate to Drive folder; still unread (egress).
