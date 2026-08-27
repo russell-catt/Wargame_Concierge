@@ -1,6 +1,6 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/tomb_world.md
-VERSION: v0.6.0 (2026-08-27)
+VERSION: v0.6.1 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2; patch sync slice P; dataslate_0826 S3)
 
@@ -107,7 +107,14 @@ Paraphrase from `eng_killzone_tomb_world_update_log-ptyzlo3dfr-ivlzsazxnf.pdf` (
 
 ---
 
+## Games Workshop notice
+
+**UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
+**Rules currency:** Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · confidence draft
+
 ## Change Log
+- v0.6.1 (2026-08-27): QA reopen — add Games Workshop notice + currency line (dataslate_0826).
 - v0.6.0 (2026-08-27): dataslate_0826 S3 — teleport vs "cannot end move closer" rules commentary; teleport pad / breach point AP tightening; older teleport-not-moved commentary cross-referenced to Plague Marines and Vespid Stingwings. Currency stamp: Kill Team quarterly balance — August 2026.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.1 (2026-08-18): Slice P — Close Quarters Guard (moves/set up; On Guard blocks counteract that TP). Shared with Gallowdark until that killzone page exists.

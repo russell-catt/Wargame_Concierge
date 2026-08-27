@@ -35,12 +35,6 @@ Scratchpad/
 *.tiff
 *.tif
 
-# TEMPORARY (feature/dataslate_0826 only) — owner-gated PDF drop for agent read.
-# REMOVE this block + delete raw/_dataslate_0826_staging/*.pdf before merge to main.
-!raw/_dataslate_0826_staging/
-!raw/_dataslate_0826_staging/**
-!raw/_dataslate_0826_staging/*.pdf
-!raw/_dataslate_0826_staging/*.PDF
 
 # Warcode free beta rulebook only — RedMakers public beta (not GW)
 !raw/the_warcode/

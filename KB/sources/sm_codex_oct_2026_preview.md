@@ -14,6 +14,8 @@ tags: [source, space_marines, codex, preview, legends, legendary_proxies, octobe
 
 # Codex Space Marines — October 2026 preview
 
+Separate product: Codex SM October 2026 preview — Legendary Proxies / Legends honesty, no early stat rewrite.
+
 **A separate product from the August balance package** ([[40k_aug_2026_balance_package]]). WarCom previews a forthcoming **Codex: Space Marines**, launching **October 2026** in the Warhammer 40,000 App — readiness and honesty content only, **not** an early rewrite of any list to preview stats.
 
 **Confidence:** `draft`. Owner-pasted WarCom article body; canonical URL not yet locked (egress blocked at capture time). No table in this repo may be built from these preview numbers until the Codex actually ships.

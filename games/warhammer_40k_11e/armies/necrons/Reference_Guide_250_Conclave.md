@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reference_Guide_250_Conclave.md
-VERSION: v1.3 (2026-08-23)
+VERSION: v1.5 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 

@@ -13,6 +13,8 @@ tags: [faction, necrons, primary, ownership, learning_army]
 
 # Necrons
 
+Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 250 pts (MFM v1.3, Aug 2026 package).
+
 The owner's primary army: an ancient robotic civilisation that plays as the game's attrition faction, recovering models as fast as most opponents can remove them.
 
 ---

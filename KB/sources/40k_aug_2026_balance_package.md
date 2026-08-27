@@ -18,6 +18,8 @@ tags: [source, warhammer_40k_11e, balance, points, faction_pack, universal_rules
 
 # 40K Aug 2026 balance package
 
+No singular dataslate: Universal Rules v1.1 + Faction Pack v1.2 (Necrons/SM) + MFM v1.3 — Necron Warriors 80→85, SM cores unchanged, disembark move typing.
+
 **There is no single titled "Balance Dataslate" file for 40K.** The August 2026 balance pass is a **package of separately-versioned pieces**, all legal from **26 August 2026** unless noted: **Universal Rules Updates v1.1** (core), **Faction Pack v1.2** (Necrons + Space Marines, the only two onboarded factions), and **Munitorum Field Manual v1.3** (Necrons + Space Marines points), plus a WarCom "What's New?" commentary article for design intent. Owner lock 2026-08-27 — do not invent a fictional single-file dataslate name anywhere downstream.
 
 **Confidence:** `draft` throughout. Universal Rules v1.1 and Faction Pack v1.2 were read from a staged PDF (`raw/_dataslate_0826_staging/`, temporary, cleanup pending); MFM v1.3 for both factions is an **owner paste**, not yet cross-checked against a saved PDF under `C:\Personal\40K\rules\`. Upgrade to `verified` only after that PDF cross-check happens.
@@ -48,7 +50,7 @@ Items 1–4 (unnamed 0CP stratagems, multi-use stratagem naming, 12"→18" range
 - A disembark that follows a TRANSPORT's **Normal move** this turn, where the disembarking unit then charges, is now a named **assault disembark move**.
 - A disembark from a TRANSPORT that **Advanced** this turn is now a named **shock disembark move**.
 
-These are new Core rule IDs, not new permissions by themselves — see [[assault_disembark_move]] / [[shock_disembark_move]] stubs in [[glossary]].
+These are new Core rule IDs, not new permissions by themselves — glossary-only keywords: Assault disembark move and Shock disembark move in [[glossary]] (not standalone pages).
 
 ### Faction Pack v1.2 (rules/FAQ, no points)
 

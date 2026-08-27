@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md
-VERSION: v1.3 (2026-08-27)
+VERSION: v1.4 (2026-08-27)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 

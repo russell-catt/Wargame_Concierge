@@ -46,7 +46,7 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 |------|---------|------------|---------|
 | [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-19 |
 | [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-19 |
-| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-19 |
+| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-27 |
 | [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-18 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 

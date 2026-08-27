@@ -15,6 +15,8 @@ tags: [source, kill_team_2024, balance, quarterly, tomb_world, nemesis_ops, augu
 
 # Kill Team quarterly balance — Aug 2026 package
 
+No singular dataslate: Core/killzone/mission-pack update logs + priority team online rules — Tomb World teleport/breach, Nemesis Towering Size, Hierotek regen-timing note.
+
 **There is no single titled "Balance Dataslate" file for Kill Team either.** The quarterly package is the **Core / killzone / mission-pack update logs combined with dated team online rules**, plus a WarCom "top five" commentary article naming design intent. Owner lock 2026-08-27 (same shape as the 40K package) — do not invent or hunt for a single dataslate filename.
 
 **Confidence:** `draft`. Package pieces were read from staged PDFs (`raw/_dataslate_0826_staging/`, temporary, cleanup pending) and paraphrased into shipping under the KT24 Sec 10 quote exception; this KB page stays paraphrase only.

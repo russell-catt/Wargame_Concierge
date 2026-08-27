@@ -13,6 +13,8 @@ tags: [faction, space_marines, blood_ravens, gladius, secondary, opposing_force]
 
 # Space Marines
 
+Blood Ravens Codex SM Gladius force; Matched vs Casual starter split; MFM v1.3 unchanged; Codex Oct preview readiness only.
+
 Blood Ravens–painted Codex Space Marines force for the owner's son: Gladius Task Force teaching lists split into **Matched** (no Legends) and **Casual** (Legends allowed) paths.
 
 ---

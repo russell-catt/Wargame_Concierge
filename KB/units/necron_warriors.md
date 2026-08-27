@@ -19,6 +19,8 @@ tags: [unit, necrons, battleline, warriors, starter]
 
 # Necron Warriors
 
+Battleline brick; Their Number is Legion re-rolls RP D3; owned 10+10; MFM v1.3 10-model band 85 (▲+5).
+
 Battleline bodyguard brick for learning lists: hold home or mid objectives (`14.02`), absorb fire, and feed [[reanimation_protocols]].
 
 **Plain version:** Ten robot soldiers that stand on a flag spot, get shot, then quietly put themselves back together at the end of your **Command phase** (`08.05`).

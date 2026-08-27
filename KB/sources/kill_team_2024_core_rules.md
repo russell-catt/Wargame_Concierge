@@ -3,8 +3,8 @@ title: Kill Team 2024 - Core Rules
 type: source
 system: kill_team_2024
 created: 2026-08-17
-updated: 2026-08-18
-version: 0.5.0
+updated: 2026-08-27
+version: 0.5.1
 sources: [raw/pointers/kill_team_2024_core.md, raw/pointers/kill_team_2024_teams.md, games/kill_team_2024/rules/Patch_Manifest.md, games/kill_team_2024/rules/Target_Eligibility.md]
 confidence: verified
 tags: [source, kill_team_2024, core_rules, target_eligibility, quoting_policy]

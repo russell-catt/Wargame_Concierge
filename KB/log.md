@@ -4,8 +4,8 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024]
 created: 2026-08-16
-updated: 2026-08-25
-version: 0.5.6
+updated: 2026-08-27
+version: 0.5.7
 sources: []
 confidence: verified
 tags: [log, activity, append-only, kill_team_2024]
