@@ -61,17 +61,29 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP before merge.
 
+## Staging pull (2026-08-27 @ `9f7bf1b`)
+
+**13 PDFs** in `raw/_dataslate_0826_staging/`. Full table: [`research/staging_inventory_2026_08_27.md`](research/staging_inventory_2026_08_27.md).
+
+| Headline | Research |
+|----------|----------|
+| Necrons + SM **Faction Pack v1.2** (legal 26 Aug 2026) | [`staging_40k_faction_packs_v1_2.md`](research/staging_40k_faction_packs_v1_2.md) |
+| KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
+| KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
+| **No** titled Balance Dataslate PDF | Update logs + Faction Packs + MFM v1.3 + Universal Rules v1.1 = Aug package |
+
 ## Locked dates (fill in S0)
 
 | Field | Value |
 |-------|-------|
-| **40K Balance Dataslate date** | _TBD — S0_ |
-| **KT Balance Dataslate date** | _TBD — in Drive folder per owner 2026-08-27; unread until upload/egress_ |
-| **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** (upload 2026-08-27) |
+| **40K Balance Dataslate date** | _No standalone PDF in staging_ — use Faction Pack **v1.2** + Universal Rules **v1.1** + MFM **v1.3** (all legal / stamped **26 Aug 2026** where dated) |
+| **KT Balance Dataslate date** | _No standalone PDF_ — Tomb World / Mission packs update logs **August 2026** + `eng_26-08_` team packs |
+| **40K Faction Packs** | Necrons + Space Marines **v1.2** · legal **26 Aug 2026** |
+| **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** |
 | **Necron MFM** | **v1.3** (owner paste 2026-08-27) |
 | **Space Marines MFM** | **v1.3** (owner paste 2026-08-27) |
 | **SM Codex preview (owner paste)** | 2026-08-27; Codex/App **October** |
-| **Announcement retrieval date** | Partial — 2026-08-27 pastes |
+| **Announcement retrieval / staging pull** | 2026-08-27 |
 
 ## Footer freshness convention (locked for this track)
 
