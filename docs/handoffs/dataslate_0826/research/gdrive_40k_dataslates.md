@@ -1,16 +1,24 @@
-# Pointer — Google Drive 40K dataslate folder (owner)
+# Pointer — Google Drive 40K + Kill Team dataslate folder (owner)
 
 - **Track:** `dataslate_0826`
 - **Captured:** 2026-08-27
+- **Updated:** 2026-08-27 — owner reports **Kill Team dataslate** (and more files) added to folder
 - **Open sharing link:** https://drive.google.com/drive/folders/1__0mxNLzh1ZcmPcNA_-8kPcw_12L3Kj6
-- **Purpose:** Owner-shared cache of additional **40K dataslate / update PDFs** beyond pastes already filed (Necron MFM v1.3, SM MFM v1.3, Universal Rules v1.1, SM Codex preview).
-- **Agent status (2026-08-27):** **Blocked** — cloud egress returns empty response for `drive.google.com`. Allowlist requested. Inventory below stays empty until fetch succeeds or owner uploads files / pastes the folder listing.
+- **Purpose:** Owner-shared cache of **40K** and **Kill Team** dataslate / update PDFs beyond pastes already filed.
+- **Agent status (2026-08-27):** **Still blocked** — `drive.google.com` returns empty (egress). Re-requested allowlist for `drive.google.com` + `drive.usercontent.google.com`. No new files in agent `uploads/` yet (only Universal Rules v1.1 PDF from earlier).
+
+## Expected (owner-reported; not yet inventory-verified)
+
+| Item | Notes | Slice when readable |
+|------|-------|---------------------|
+| Kill Team Balance Dataslate (filename TBD) | Added to Drive folder 2026-08-27 | **S3** + pointer under `raw/pointers/kill_team_*` |
+| Additional 40K dataslate files (TBD) | “More files” — list when fetch works | S2 / S1 as applicable |
 
 ## Inventory (fill when accessible)
 
-| Filename | Product / version | Legal / stamp date | Local path expected | Research note | Slice |
-|----------|-------------------|--------------------|---------------------|---------------|-------|
-| _TBD_ | | | `C:\Personal\40K\rules\` | | |
+| Filename | System | Product / version | Legal / stamp date | Local path expected | Research note | Slice |
+|----------|--------|-------------------|--------------------|---------------------|---------------|-------|
+| _TBD — Drive unread_ | 40K / KT | | | `C:\Personal\40K\rules\` or `C:\Personal\Kill Team\kill_team_2024\` | | |
 
 ## Already covered outside this folder (do not re-dump)
 
@@ -24,11 +32,11 @@
 ## Constraints
 
 - **Never commit GW PDFs** from Drive into git. Download to owner library / agent temp for read-only extract → markdown research only.
-- Prefer saving copies under `C:\Personal\40K\rules\` with WarCom/`eng_*` filenames when known.
-- Update [`raw/pointers/rules_core.md`](../../../../raw/pointers/rules_core.md) / [`points_manuals.md`](../../../../raw/pointers/points_manuals.md) in S1 after inventory locks.
+- KT quotes only under `games/kill_team_2024/` per AGENTS Sec 10; `KB/` stays paraphrase.
+- Prefer saving KT sheet under `C:\Personal\Kill Team\kill_team_2024\` (or rules root) with WarCom/`eng_*` filename when known.
 
 ## Unblock options
 
 1. Approve Drive egress domains for this cloud environment, **or**
-2. Upload individual PDFs to the agent (same as Universal Rules upload), **or**
-3. Paste the folder file list (names + sizes) and upload only the unread ones.
+2. Upload the **Kill Team Balance Dataslate** PDF (and any unread 40K files) to the agent chat, **or**
+3. Paste the folder file list (names) and upload only the unread ones.
