@@ -1,20 +1,20 @@
 <!--
 FILE: docs/handoffs/dataslate_0826/track_in.md
-VERSION: v0.4 (2026-08-27)
+VERSION: v0.5 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Coordinator — SM Codex + Necron/SM MFM v1.3)
+AUTHOR_OF_NOTES: Cursor (Coordinator — SM Codex + MFM v1.3 + Universal Rules v1.1)
 
 DOCUMENT_TYPE: Track hand-off in
 PROJECT_NAME: Wargame_Concierge
 TRACK: dataslate_0826
-STATUS: Open — plan + research (SM Codex, Necron MFM, SM MFM); execution gated; G1 partial
+STATUS: Open — research packed; execution gated; G1 partial
 -->
 
 # Track in — dataslate_0826
 
 - **Project:** Wargame_Concierge
 - **Track:** `dataslate_0826`
-- **Status:** Open — SM Codex + Necron/SM MFM v1.3 research on `feature/dataslate_0826`; **execution gated**
+- **Status:** Open — research on `feature/dataslate_0826` (SM Codex, Necron/SM MFM v1.3, Universal Rules v1.1); **execution gated**
 - **Branch:** `feature/dataslate_0826` (user-requested name)
 - **Handoffs root:** `docs/handoffs/dataslate_0826/`
 - **Playbook:** [`docs/operations/multiagent_coordinator_strategy.md`](../../operations/multiagent_coordinator_strategy.md)
@@ -53,9 +53,10 @@ STATUS: Open — plan + research (SM Codex, Necron MFM, SM MFM); execution gated
 |-----|-------|-------------------|
 | [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md) | Codex: SM preview (October) | Tac/Dev Proxies; Whirlwind Legends |
 | [`research/necron_mfm_v1_3.md`](research/necron_mfm_v1_3.md) | **MFM Necrons v1.3** | Warriors 10: **80→85**; other ▲ |
-| [`research/sm_mfm_v1_3.md`](research/sm_mfm_v1_3.md) | **MFM Space Marines v1.3** | BR cores unchanged; stamp v1.3; Casual Legends section; few ▲ (Redeemer, etc.) |
+| [`research/sm_mfm_v1_3.md`](research/sm_mfm_v1_3.md) | **MFM Space Marines v1.3** | BR cores unchanged; stamp v1.3; Casual Legends |
+| [`research/40k_universal_rules_updates_v1_1.md`](research/40k_universal_rules_updates_v1_1.md) | **Universal Rules Updates v1.1** (legal **26 Aug 2026**) | Supersedes July v1.0; **new** disembark → `18.06`/`18.07` |
 
-Still needed: remaining newsletter link(s) if any (KT?), canonical URLs, local PDF save confirmation.
+Still needed: KT / remaining newsletter link(s) if any; canonical WarCom URLs; local PDF save confirmation for MFM + this sheet.
 
 ## Locked dates (fill in S0)
 
@@ -63,6 +64,7 @@ Still needed: remaining newsletter link(s) if any (KT?), canonical URLs, local P
 |-------|-------|
 | **40K Balance Dataslate date** | _TBD — S0_ |
 | **KT Balance Dataslate date** | _TBD — S0_ |
+| **40K Universal Rules Updates** | **v1.1** — legal **26 Aug 2026** (upload 2026-08-27) |
 | **Necron MFM** | **v1.3** (owner paste 2026-08-27) |
 | **Space Marines MFM** | **v1.3** (owner paste 2026-08-27) |
 | **SM Codex preview (owner paste)** | 2026-08-27; Codex/App **October** |
@@ -82,6 +84,12 @@ Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom). Teaching paraphrase —
 
 ```text
 Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom) · teaching paraphrase.
+```
+
+**Universal Rules Updates:**
+
+```text
+Rules currency: Universal Rules Updates v1.1 (legal 26 Aug 2026) · supersedes July v1.0 on same topics.
 ```
 
 **Space Marines MFM:**
@@ -164,17 +172,20 @@ flowchart TD
   S2c --> QA2c[QA-S2c]
   QA1 --> S2d[S2d SM MFM v1.3]
   S2d --> QA2d[QA-S2d]
+  QA1 --> S2e[S2e Universal Rules v1.1]
+  S2e --> QA2e[QA-S2e]
   QA1 --> S3 --> QA3
   QA2 --> S4
   QA2b --> S4
   QA2c --> S4
   QA2d --> S4
+  QA2e --> S4
   QA3 --> S4
   S4 --> QA4 --> S5 --> QA5
   QA5 --> L0 --> L1 --> QAL --> FS
 ```
 
-**Pipelining:** After QA1 PASS, S2 / S2b / S2c / S2d / S3 may run in parallel. S2c/S2d may start from MFM research with owner auth. S4 waits for QA2 + QA2b + QA2c + QA2d + QA3.
+**Pipelining:** After QA1 PASS, S2–S2e and S3 may run in parallel. MFM/core research slices may start with owner auth before full S0. S4 waits for QA2 + QA2b + QA2c + QA2d + QA2e + QA3.
 
 ## Slice map
 
@@ -193,6 +204,8 @@ flowchart TD
 | **QA-S2c** | QA | Arithmetic + version stamps; no full MFM dump; legibility ≥3 Conclave pages |
 | **S2d** | Implementer | SM **MFM v1.3** stamp + Casual Legends cross-check — [`slices/S2d_brief.md`](slices/S2d_brief.md) |
 | **QA-S2d** | QA | v1.2→v1.3 stamps; BR totals; Legends section cite; no premature Codex Proxy rewrite |
+| **S2e** | Implementer | **Universal Rules Updates v1.1** (26 Aug 2026) — pointers + Core quotes + disembark teaching — [`slices/S2e_brief.md`](slices/S2e_brief.md) |
+| **QA-S2e** | QA | July superseded; `18.06`/`18.07` present; no PDF in git; Sec 10 |
 | **S3** | Implementer | KT24 shipping: teams/rules/print as impacted; stamp footers |
 | **QA-S3** | QA | Quote hierarchy; regression; legibility spot-check ≥3 pages |
 | **S4** | Implementer | Project core: `README.md`, `START_HERE.md`, `AGENTS.md` living-refs touch if needed, `docs/README.md`, `docs/Project_Planning.md`, `docs/Game_System_Scaffold.md`, `games/README.md`, `raw/README.md` (pointer note only — Coordinator/Implementer may edit `raw/` markdown pointers, never binaries) |
@@ -244,9 +257,10 @@ flowchart TD
 
 1. Confirm L1–L3 mapping across SM Codex / Necron MFM / SM MFM / KT; paste any remaining article.
 2. Confirm Necron + Marines MFM v1.3 PDFs saved under `C:\Personal\40K\rules\`.
-3. Authorize **S2c** (Necron recost), **S2d** (SM stamp), **S2b** (October banners), full track, or wait?
-4. Casual Legends SoT: MFM v1.3 Legends section vs standalone Legends Field Manual on conflict?
-5. Preferred Matched framing post-October for SM Tac/Dev (Proxies vs force Intercessor/Desolation swaps)?
+3. Authorize **S2c** / **S2d** / **S2e** (core v1.1) / **S2b** / full track, or wait?
+4. Confirm Universal Rules v1.1 PDF saved under `C:\Personal\40K\rules\` (upload was agent-ephemeral).
+5. Casual Legends SoT: MFM v1.3 Legends section vs standalone Legends Field Manual on conflict?
+6. Preferred Matched framing post-October for SM Tac/Dev (Proxies vs force Intercessor/Desolation swaps)?
 
 ## Slice rollup
 
@@ -265,9 +279,11 @@ flowchart TD
 | QA-S2c | Pending |
 | S2d | Ready (SM MFM v1.3 research filed; stamp + Casual check) |
 | QA-S2d | Pending |
+| S2e | Ready (Universal Rules v1.1 from upload; PDF not in git) |
+| QA-S2e | Pending |
 | S3 | Ready (depends QA-S1) |
 | QA-S3 | Pending |
-| S4 | Ready (depends QA-S2 + QA-S2b + QA-S2c + QA-S2d + QA-S3) |
+| S4 | Ready (depends QA-S2 + QA-S2b + QA-S2c + QA-S2d + QA-S2e + QA-S3) |
 | QA-S4 | Pending |
 | S5 | Ready (depends QA-S4) |
 | QA-S5 | Pending |
@@ -278,6 +294,7 @@ flowchart TD
 
 ## Change Log
 
+- v0.5 (2026-08-27): Universal Rules Updates v1.1 (26 Aug 2026) from upload → research + S2e; new disembark typing.
 - v0.4 (2026-08-27): SM MFM v1.3 owner paste → research + S2d; BR cores unchanged.
 - v0.3 (2026-08-27): Necron MFM v1.3 owner paste → research + S2c; Warriors 10 @ 85.
 - v0.2 (2026-08-27): Owner SM Codex preview paste → research note; add S2b; expand goals beyond dataslate-only.
