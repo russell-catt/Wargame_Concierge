@@ -8,10 +8,10 @@
 
 | # | Gate | Status |
 |---|------|--------|
-| G1 | WarCom egress allowlist **or** owner pastes resolved L1–L3 titles/dates/PDF names | **Partial** — SM Codex preview body pasted 2026-08-27 ([`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md)); still need other two links + canonical URL |
-| G2 | Owner confirms dataslate PDFs saved locally (or accepts `draft`-only shipping) | Open |
+| G1 | WarCom egress allowlist **or** owner pastes resolved L1–L3 titles/dates/PDF names | **Partial** — SM Codex preview + **Necron MFM v1.3** pasted; still need remaining link(s) + canonical URLs |
+| G2 | Owner confirms dataslate / MFM PDFs saved locally (or accepts `draft`-only shipping) | Open — MFM v1.3 paste received; PDF path unconfirmed |
 | G3 | Owner authorizes multi-slice execution (Impl → QA ≠ model → FS third model) | Open |
-| G3b | Optional: authorize **S2b only** (SM October readiness banners) before dataslates land | Open |
+| G3b | Optional: authorize **S2b** (SM October readiness) and/or **S2c** (Necron MFM recost) before full track | Open |
 
 ## Authorize by saying
 

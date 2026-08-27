@@ -47,26 +47,24 @@ STATUS: Open — plan + SM Codex research; execution gated; G1 partial
 
 **Egress note (plan session):** Cloud egress currently blocks `news.warhammer.com` / `warhammer-community.com`. Domains requested for allowlist. Until allowed (or owner pastes resolved titles/URLs/PDF names), full S0 stays **Blocked**.
 
-### Partial resolve — owner paste 2026-08-27
+### Partial resolve — owner pastes 2026-08-27
 
-| Field | Value |
-|-------|-------|
-| **Doc** | [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md) |
-| **Class** | Codex: Space Marines preview (App launch **October**) |
-| **L1–L3 slot** | _TBD — assign when URL known_ |
-| **Key shipping risk** | Tac → Intercessor Proxy; Dev → Desolation Proxy; Whirlwind → Legends |
+| Doc | Class | Key shipping risk |
+|-----|-------|-------------------|
+| [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md) | Codex: SM preview (October) | Tac/Dev Proxies; Whirlwind Legends |
+| [`research/necron_mfm_v1_3.md`](research/necron_mfm_v1_3.md) | **MFM Necrons v1.3** | Warriors 10: **80→85**; Plasmancer +5; Lokhust/Ophydian/Skorpekh Lord ups |
 
-Still needed from owner or egress: the other two links (expected Balance Dataslates) + canonical URL for this SM article.
+Still needed: remaining newsletter link(s) (KT dataslate / other), canonical URLs, local PDF save confirmation.
 
 ## Locked dates (fill in S0)
 
 | Field | Value |
 |-------|-------|
 | **40K Balance Dataslate date** | _TBD — S0_ |
-| **KT Balance Dataslate date** | _TBD — S0_ (may equal 40K date) |
-| **SM Codex preview (owner paste)** | 2026-08-27 (paste date); Codex/App **October** |
-| **Announcement retrieval date** | Partial — 2026-08-27 paste |
-| **Footer stamp strings** | See convention below once dates lock |
+| **KT Balance Dataslate date** | _TBD — S0_ |
+| **Necron MFM** | **v1.3** (owner paste 2026-08-27) |
+| **SM Codex preview (owner paste)** | 2026-08-27; Codex/App **October** |
+| **Announcement retrieval date** | Partial — 2026-08-27 pastes |
 
 ## Footer freshness convention (locked for this track)
 
@@ -82,6 +80,12 @@ Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom). Teaching paraphrase —
 
 ```text
 Rules currency: Balance Dataslate <YYYY-MM-DD> (WarCom) · teaching paraphrase.
+```
+
+**Necron MFM:**
+
+```text
+Rules currency: Munitorum Field Manual — Necrons v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 ```
 
 **SM Codex preview (until Codex ships):**
@@ -171,6 +175,8 @@ flowchart TD
 | **QA-S2** | QA | Codex wall; regression bar; legibility spot-check ≥3 changed pages |
 | **S2b** | Implementer | SM Codex October readiness: Legendary Proxies / Legends honesty; **no** early T5/S5 list rewrite — see [`slices/S2b_brief.md`](slices/S2b_brief.md) |
 | **QA-S2b** | QA | Preview vs live truth separation; Tac/Dev/Whirlwind honesty; legibility ≥3 SM pages |
+| **S2c** | Implementer | Necron **MFM v1.3** list recost (Warriors +5, other ▲) — [`slices/S2c_brief.md`](slices/S2c_brief.md) |
+| **QA-S2c** | QA | Arithmetic + version stamps; no full MFM dump; legibility ≥3 Conclave pages |
 | **S3** | Implementer | KT24 shipping: teams/rules/print as impacted; stamp footers |
 | **QA-S3** | QA | Quote hierarchy; regression; legibility spot-check ≥3 pages |
 | **S4** | Implementer | Project core: `README.md`, `START_HERE.md`, `AGENTS.md` living-refs touch if needed, `docs/README.md`, `docs/Project_Planning.md`, `docs/Game_System_Scaffold.md`, `games/README.md`, `raw/README.md` (pointer note only — Coordinator/Implementer may edit `raw/` markdown pointers, never binaries) |
@@ -220,10 +226,10 @@ flowchart TD
 
 ## Open questions (owner)
 
-1. Confirm which of L1–L3 is the SM Codex preview; paste the other two articles (or URLs) — expected Balance Dataslates.
-2. Have the dataslate PDFs been saved under `C:\Personal\40K\rules\` and `C:\Personal\Kill Team\…` yet? If not, S2/S3 stay discovery-only (`draft`) until local files exist.
-3. Authorize S2b (SM preview banners) now, full track later, or wait for all three links?
-4. Preferred Matched framing post-October: keep Tac/Dev as Legendary Proxies on “Matched*” with event caveat, or force Intercessor/Desolation swaps for tournament lists?
+1. Confirm which of L1–L3 map to SM Codex preview vs Necron MFM v1.3 vs KT/other; paste any remaining article.
+2. Confirm Necron MFM v1.3 PDF saved under `C:\Personal\40K\rules\`.
+3. Authorize **S2c** (Necron recost) now, **S2b** (SM banners), full track, or wait?
+4. Preferred Matched framing post-October for SM Tac/Dev (Proxies vs force Intercessor/Desolation swaps)?
 
 ## Slice rollup
 
@@ -238,9 +244,11 @@ flowchart TD
 | QA-S2 | Pending |
 | S2b | Ready (SM research note filed; may run with owner auth before dataslate lock) |
 | QA-S2b | Pending |
+| S2c | Ready (Necron MFM v1.3 research filed; Conclave recost) |
+| QA-S2c | Pending |
 | S3 | Ready (depends QA-S1) |
 | QA-S3 | Pending |
-| S4 | Ready (depends QA-S2 + QA-S2b + QA-S3) |
+| S4 | Ready (depends QA-S2 + QA-S2b + QA-S2c + QA-S3) |
 | QA-S4 | Pending |
 | S5 | Ready (depends QA-S4) |
 | QA-S5 | Pending |
@@ -251,5 +259,6 @@ flowchart TD
 
 ## Change Log
 
+- v0.3 (2026-08-27): Necron MFM v1.3 owner paste → research + S2c; Warriors 10 @ 85.
 - v0.2 (2026-08-27): Owner SM Codex preview paste → research note; add S2b; expand goals beyond dataslate-only.
 - v0.1 (2026-08-27): Plan package — multi-slice track, model matrix, footer currency convention, core-file inventories.
