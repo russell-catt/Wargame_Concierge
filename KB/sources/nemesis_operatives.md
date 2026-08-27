@@ -57,3 +57,4 @@ An 80-page Kill Team 2024 expansion built around a Nemesis Custom Builder and Am
 ## Related pages
 
 - [[index]] · [[glossary]] · [[warcom_nemesis_operatives_free]] · [[community_kt24_npo_aids]]
+- [[kt_aug_2026_balance_package]] — Aug 2026 mission-pack update log: custom Nemesis should almost always keep Towering Size (2026-08-27)

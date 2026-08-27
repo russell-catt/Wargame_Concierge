@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Reanimation_Protocols.md
-VERSION: v0.5.4 (2026-08-25)
+VERSION: v0.5.5 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping)
+AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping; dataslate_0826 S2)
 
 DOCUMENT_TYPE: Teaching Guide / Army Rule
 PROJECT_NAME: Wargame_Concierge
@@ -11,7 +11,8 @@ FACTION: Necrons
 REFERENCE_STATUS: Active - verified against owned faction pack and Wahapedia, read 2026-08-16
 
 SOURCES:
-  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (Version 1.1, legal from 22 July 2026; read 2026-08-16)
+  - raw/_dataslate_0826_staging/eng_wh40k_faction_pack_necrons-eweoek106p-nqomxds3qr.pdf (Faction Pack v1.2, legal from 26 Aug 2026, staging read 2026-08-27) — confirms Reanimation Protocols still heals **D3** wounds per activation under v1.2, unchanged
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_necrons.pdf (Version 1.1, legal from 22 July 2026; read 2026-08-16; superseded)
   - https://wahapedia.ru/wh40k10ed/factions/necrons (Army Rules section, retrieved 2026-08-16)
   - games/warhammer_40k_11e/rules/Turn_Structure.md (phase order)
 
@@ -127,7 +128,10 @@ Put a physical reminder on the table - a dice, a token, a note on your list - th
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
+**Rules currency:** Faction Pack Necrons **v1.2** (legal 26 Aug 2026) · verify owned PDF.
+
 ## Change Log
+- v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026) in SOURCES. No rules-fact change: v1.2 confirms the army rule still heals **D3** wounds per activation, exactly as taught on this page since v1.0.
 - v0.5.4 (2026-08-25): WD527 shipping S6 — system spine links; footprint/OC teaching; Terrain Objectives Commentary; GW notice.
 - v0.5.3 (2026-08-20): Legion row — WarCom FAQ pattern + analysis link; character revive clarified via sibling guides.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).

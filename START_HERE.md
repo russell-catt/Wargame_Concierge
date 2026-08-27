@@ -1,8 +1,8 @@
 <!--
 FILE: START_HERE.md
-VERSION: v0.9.0 (2026-08-25)
+VERSION: v0.9.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
 DOCUMENT_TYPE: Onboarding / Entry Point
 PROJECT_NAME: Wargame_Concierge
@@ -45,6 +45,8 @@ UPDATE_TRIGGER:
 **Personal use only — never for sale.**
 
 **Status:** **v0.9.0** (2026-08-25) — pre-external-review. **Next:** external user review and critique. Tracks: [`docs/handoffs/README.md`](docs/handoffs/README.md).
+
+**Rules currency:** GW balance packages (40K, Kill Team) move on their own schedule. Check the system README in the table above for the current stamp — this file and `README.md` never carry package details themselves.
 
 ---
 
@@ -118,6 +120,7 @@ Warhammer 40,000 11th Edition and The Warcode free beta are both **moving**. Eve
 
 ## Change Log
 
+- v0.9.1 (2026-08-27): Added a "Rules currency" cue pointing at each system's own README for the current balance-package stamp (track `dataslate_0826` slice S4).
 - v0.9.0 (2026-08-25): Snapshot v0.9.0; next milestone external user review and critique.
 - v0.5.6 (2026-08-25): Three systems (Warcode); hard rules and read order refreshed.
 - v0.5.1 (2026-08-23): Date stamp refresh (rule test #2).

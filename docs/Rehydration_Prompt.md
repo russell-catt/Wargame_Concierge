@@ -1,8 +1,8 @@
 <!--
 FILE: docs/Rehydration_Prompt.md
-VERSION: v0.9.0 (2026-08-25)
+VERSION: v0.9.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
 DOCUMENT_TYPE: Rehydration / Recovery
 PROJECT_NAME: Wargame_Concierge
@@ -123,6 +123,17 @@ STATE AS OF v0.9.0 (2026-08-25)
 - Next: external user review and critique.
 - Do not rewrite historical Change Log bullets. Do not edit handoff slice files.
 
+RULES FRESHNESS (checked 2026-08-27)
+- GW patches rules and points between publications. Do not assume the last
+  session's balance figures are still current.
+- Track dataslate_0826 (open) is the Aug 2026 GW balance currency pass:
+  40K = Universal Rules v1.1 + Faction Pack v1.2 + MFM v1.3 (Necrons/SM);
+  Kill Team = Core/update-log package + priority team online rules.
+  Neither system has a singular "Balance Dataslate" file (owner lock).
+  The Warcode is unaffected (not a GW system).
+- Do not restate package figures here — read the current stamp on the
+  relevant games/{system}/README.md before citing a point cost or rule ID.
+
 CONVENTIONS
 - KB/** uses YAML frontmatter only. docs/**, games/**, and root docs use
   Rising Tide HTML headers plus a Change Log / Attribution footer. The two
@@ -200,6 +211,7 @@ This document is only as good as its last update. Re-read section 2 against [`Pr
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.9.1 | 2026-08-27 | Added a "Rules freshness" block to the paste prompt naming the open `dataslate_0826` currency pass and directing readers to each system's own README rather than restating package figures here (slice S4) |
 | v0.9.0 | 2026-08-25 | Three systems; Warcode rules; pre-external-review phase; paste prompt refreshed |
 | v0.5.0 | 2026-08-18 | Project-wide semver. Read order: AGENTS + KB index + KT spine |
 | v1.1 | 2026-08-16 | Ownership block aligned to FOUNDATION — Tomb World owned |

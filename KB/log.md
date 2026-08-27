@@ -643,3 +643,19 @@ Key additions: Shipping track surfaces listed on source page (rules/setup Commen
 Pages updated: games/kill_team_2024/rules/Target_Eligibility_Cheat_Sheet.html, print/kt_shared_target_eligibility.html, print/_html_to_pdf.py, print/README.md, rules/README.md, setup/Learn_to_Play_Print_Bag.md, templates/flowchart_html_classes.md, docs/handoffs/kt24_doc_followups/track_in.md
 
 Key additions: Removed fixed 280px sidebar; full-width flowchart (page 1) + sequence strip and reference panel (page 2). Playwright sync from rules/ before PDF export. Decision logic and PDF cites unchanged.
+
+## [2026-08-27] ingest | dataslate_0826 L0 — Aug 2026 balance package source stubs
+
+Pages created: KB/sources/40k_aug_2026_balance_package.md, KB/sources/kt_aug_2026_balance_package.md, KB/sources/sm_codex_oct_2026_preview.md
+
+Pages updated: none this slice (index rows deferred to L1 per brief)
+
+Key additions: Owner lock restated — **no singular "Balance Dataslate" exists** for either 40K or Kill Team; both are packages of separately-versioned pieces (40K: Universal Rules Updates v1.1 + Faction Pack v1.2 + Munitorum Field Manual v1.3; KT: Core/killzone/mission-pack update logs + dated team online rules), plus a WarCom commentary article each. Codex: Space Marines October 2026 preview filed as a **separate product**, readiness/honesty only. All three pages `confidence: draft`, retrieval 2026-08-27. Librarian did not write `raw/`; did not git.
+
+## [2026-08-27] enhance | dataslate_0826 L1 — KB sync after S1–S3 shipping
+
+Pages updated: KB/units/necron_warriors.md (MFM v1.3: 10-model band 80→85); KB/factions/necrons.md (Phase 1 Conclave list 245→250 pts); KB/factions/space_marines.md (MFM v1.3 currency, no owned point change; Codex Oct preview pointer added); KB/sources/warcom_free_core_rules_11e.md (July v1.0 marked superseded by Aug v1.1); KB/sources/nemesis_operatives.md, KB/sources/kill_team_2024_core_rules.md (back-links to kt_aug_2026_balance_package); KB/glossary.md (four new draft terms + updated counts); KB/index.md (three new source rows + refreshed summaries/dates on five touched pages)
+
+Pages created: none (enhance sync per `.cursor/skills/librarian-enhance/SKILL.md`; new sources were L0's job)
+
+Key additions: **Necron Warriors** MFM v1.3 recost (80→85, ▲+5) synced from shipping slice S2c; **Space Marines** confirmed no owned-cost change from MFM v1.3 (slice S2d) plus a preview-readiness pointer to the October Codex (slice S2b). **Glossary:** Assault disembark move (`18.06`) / Shock disembark move (`18.07`) / Disembark move (context) from Universal Rules Updates v1.1; **Legendary Proxies** distinguished explicitly from Warhammer Legends (different mechanism — borrows a datasheet vs keeps its own). No contradictions found between shipping and prior KB claims; no glossary term conflict. Librarian did not write `raw/`; did not git.

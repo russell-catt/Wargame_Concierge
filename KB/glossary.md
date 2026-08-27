@@ -4,9 +4,9 @@ type: glossary
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-24
-version: 0.5.4
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08]
+updated: 2026-08-27
+version: 0.5.5
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024, the_warcode]
 ---
@@ -25,14 +25,16 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Status after L2 40K pass (2026-08-16).** L0 seeded four terms, L1 expanded them to 32, and **L2 reconciled the page against the rules documents S3, S4 and S5 actually read.** Three new terms were added in that pass: Territory, Support, and Combat Doctrines.
 
-**Game terms (29):**
+**Game terms (33):**
 
 | Status | Meaning | Count |
 |--------|---------|-------|
 | `verified` | Cross-checked against a rules source; retrieval date recorded | **24** |
-| `draft` | Named by a source that was read; effect not cross-checked | 4 |
+| `draft` | Named by a source that was read; effect not cross-checked | 8 |
 | `unverified` | Written from familiarity or a prior edition. **Confirm before use** | **0** |
 | `unresolved` | Appeared in a source and maps to nothing recognised | 1 |
+
+**2026-08-27 (`dataslate_0826` L1):** four terms added, all `draft` — Disembark move, Assault disembark move, Shock disembark move (Universal Rules Updates v1.1, core rules) and Legendary Proxies (SM Codex October preview, distinct from Warhammer Legends). See [[40k_aug_2026_balance_package]] and [[sm_codex_oct_2026_preview]].
 
 **Project vocabulary (7):** all `verified` - these describe this project's own conventions, not the game, so they can be confirmed from the repo itself. **Assemble-to-expand** is new in the `tomb_world_ownership` L1 pass. **Flowcharting (UML activity)** terms (activity, action, decision node, guard, initial/final) are additional `draft` notation entries (2026-08-18) — not game keywords.
 
@@ -177,6 +179,23 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: core rules
 - Verify against: shipping `Keyword_Glossary.md`
 
+**Disembark move** *(Core `18.04`)* - `draft` · **new 2026-08-27** (Aug 2026 balance package, S2e)
+: The general act of a unit leaving a TRANSPORT model. Named for context — the two specific typed disembark moves below are what changed in the Aug 2026 package.
+- Faction / scope: core rules, transports
+- Verify against: shipping `Core_Rules_Quotes.md` (`18.04`); [[40k_aug_2026_balance_package]]
+
+**Assault disembark move** *(Core `18.06`, new)* - `draft` · **new 2026-08-27** (Universal Rules Updates v1.1)
+: A disembark that follows the TRANSPORT making a **Normal move** this turn, where the disembarking unit then charges. Universal Rules Updates v1.1 (legal 26 Aug 2026) gives this a name and a rule ID for the first time — it does not by itself grant a new permission, it types an existing situation so other rules can reference it precisely.
+- Faction / scope: core rules, transports
+- Verify against: shipping `Core_Rules_Quotes.md` (`18.06`, verbatim quote, filename+page cited); [[40k_aug_2026_balance_package]]
+- See also: **Shock disembark move**, below
+
+**Shock disembark move** *(Core `18.07`, new)* - `draft` · **new 2026-08-27** (Universal Rules Updates v1.1)
+: A disembark from a TRANSPORT that **Advanced** this turn. Same treatment as Assault disembark move — new name and ID, not a new blanket permission by itself.
+- Faction / scope: core rules, transports
+- Verify against: shipping `Core_Rules_Quotes.md` (`18.07`, verbatim quote, filename+page cited); [[40k_aug_2026_balance_package]]
+- See also: **Assault disembark move**, above
+
 ---
 
 ## Necrons
@@ -275,9 +294,17 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Verify against: `raw/pointers/faction_pack_space_marines.md`
 
 **Warhammer Legends** - `draft`
-: Official “legacy kit” rules lane: usable in friendly games with opponent agreement, **not** matched-play / Munitorum Field Manual costed. Owned SM examples: Bike Squad, Attack Bike, Astartes Servitors. Points live in the Legends Field Manual ([[legends_field_manual_sm_2026_08]], retrieved 2026-08-22). Shipping: Casual `Starter_*_Casual.md` only.
+: Official “legacy kit” rules lane: usable in friendly games with opponent agreement, **not** matched-play / Munitorum Field Manual costed. Owned SM examples: Bike Squad, Attack Bike, Astartes Servitors. Points live in the Legends Field Manual ([[legends_field_manual_sm_2026_08]], retrieved 2026-08-22) — as of the Aug 2026 package, the same figures also appear in the **MFM v1.3 Legends section**, confirmed identical. Shipping: Casual `Starter_*_Casual.md` only.
 - Faction / scope: 40K system-wide; SM examples above
-- See also: [[sm_matched_vs_casual_starters]] · [[astartes_servitors]]
+- See also: [[sm_matched_vs_casual_starters]] · [[astartes_servitors]] · [[40k_aug_2026_balance_package]]
+
+**Legendary Proxies** - `draft` · **new 2026-08-27** (SM Codex October preview)
+: A **different lane from Warhammer Legends**, previewed for the October 2026 Codex: Space Marines. A unit leaving the Codex becomes a Legendary Proxy when it can be **played using a comparable unit's current rules and points** rather than getting its own Legends datasheet — e.g. Tactical Squad counts as an Intercessor Squad, Devastator Squad counts as a Desolation Squad, Suppressor Squad counts as an Inceptor Squad. Both Legendary Proxies and Legends units stay usable at home / stores / clubs / campaigns; competitive events need event-organiser permission for either.
+: **Do not conflate with Warhammer Legends.** Legends units keep their *own* rules/points in the Legends Field Manual / MFM Legends section; Legendary Proxies borrow *someone else's* datasheet entirely and have no stat line of their own. Whirlwind, Centurions, Predators, etc. are named as future **Legends** (own datasheet), not Legendary Proxies, in the same preview.
+: **Not table-legal yet.** This is a WarCom preview of an unreleased Codex — no list in this repo swaps to Proxy rules until the Codex actually ships (locked stance, shipping slice S2b, 2026-08-27).
+- Faction / scope: Space Marines, preview only until October 2026
+- Verify against: [[sm_codex_oct_2026_preview]]
+- See also: **Warhammer Legends**, above · [[space_marines]]
 
 **Matched play** - `draft`
 : Event / tournament legality using current Faction Pack + Munitorum Field Manual lists — **no Legends** units costed. Shipping home: `Starter_*_Matched.md`.
@@ -664,6 +691,7 @@ How this KB writes about the game.
 - [[their_number_is_legion_potentiality_syphon_250]] - filed Legion + Syphon answer (2026-08-19)
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]] - promoted Kill Team 2024 concept pages
 - [[warcode_action_points]] · [[warcode_ammo]] · [[warcode_overwatch]] · [[warcode_contracts]] · [[warcode_melee_lock]] - promoted Warcode concept pages
+- [[40k_aug_2026_balance_package]] · [[kt_aug_2026_balance_package]] · [[sm_codex_oct_2026_preview]] - Aug 2026 balance package sources (disembark move types, Legendary Proxies)
 - [[kill_team_terrain]] · [[killzones_volkus_tomb_world]] - KT24 setup
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
 - [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources

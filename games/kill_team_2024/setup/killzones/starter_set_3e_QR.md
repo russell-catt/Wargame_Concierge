@@ -1,7 +1,8 @@
 <!--
 FILE: games/kill_team_2024/setup/killzones/starter_set_3e_QR.md
-VERSION: v0.5.0 (2026-08-18)
+VERSION: v0.5.1 (2026-08-27)
 DOCUMENT_TYPE: Table Aid
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5)
 -->
 
 # 3e Starter — quick reference
@@ -22,3 +23,5 @@ Details: [`starter_set_3e.md`](starter_set_3e.md) · [`../../joint_ops/NPO_Cheat
 ## Games Workshop notice
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Kill Team and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Kill Team is Copyright Games Workshop Limited 2024. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
+
+**Rules currency:** Kill Team quarterly balance — August 2026 (Core / update logs + team online rules) · teaching paraphrase · verify owned PDFs · retrieved 2026-08-27.

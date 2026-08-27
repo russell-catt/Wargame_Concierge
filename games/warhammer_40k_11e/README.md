@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/README.md
-VERSION: v0.5.4 (2026-08-25)
+VERSION: v0.6.0 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer, wd527_shipping S3; S0 provenance)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5)
 
 DOCUMENT_TYPE: Game System Overview
 PROJECT_NAME: Wargame_Concierge
@@ -46,6 +46,8 @@ Importing commentary from user's digital backup of White Dwarf 527, purchased fr
 **Trust ladder:** tier **1** = Core / Event Companion / Chapter Approved (mechanics win); tier **1.5** = owned WD527 commentary and Mission 38 (local scans `C:\Personal\40K\WD_527\`). See shipping track [`docs/handoffs/wd527_research/track_shipping_in.md`](../../docs/handoffs/wd527_research/track_shipping_in.md).
 
 **Rules quoting (40K rules/setup only):** [`rules/`](rules/) and [`setup/`](setup/) may reproduce **verbatim** WarCom-**free** Core text (and matching local `C:\Personal\40K\rules\eng_*`) with filename + page + **rule ID**. **Codex wall:** [`armies/`](armies/) stays teaching paraphrase — never quote Codex / Faction Pack / paid army rules. **Hierarchy:** Core PDF is baseline; dated `eng_*` stamps supersede on the same topic; omission is not a patch. Citation spine: [`rules/Core_Rules_Quotes.md`](rules/Core_Rules_Quotes.md).
+
+**Rules currency: 40K Aug 2026 package** — Universal Rules Updates **v1.1** (legal 26 Aug 2026; disembark move typing `18.06`/`18.07`, see [`rules/README.md`](rules/README.md)) · Faction Pack **v1.2** (Necrons + Space Marines) · Munitorum Field Manual **v1.3** — all `draft` (owner paste / staging pull, retrieved 2026-08-27). **No singular "Balance Dataslate" file** — this is Core/universal updates plus faction and points-manual pieces (owner lock, [`docs/handoffs/dataslate_0826/track_in.md`](../../docs/handoffs/dataslate_0826/track_in.md)). Per-army detail: [`armies/necrons/README.md`](armies/necrons/README.md), [`armies/space_marines/README.md`](armies/space_marines/README.md) (also carries the **Codex: Space Marines October** preview note). Teaching paraphrase — verify owned PDFs before tournament play.
 
 ---
 
@@ -100,6 +102,7 @@ This subtree uses Games Workshop terms. Mapping from the [game-agnostic scaffold
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v0.6.0 (2026-08-27): Rules currency line — 40K Aug 2026 package (Universal Rules v1.1 · Faction Pack v1.2 · MFM v1.3), `draft`, pointer to army READMEs for detail; no singular dataslate file (track `dataslate_0826` slice S5).
 - v0.5.4 (2026-08-25): S3 polish — Overview in How to learn + subtree; system QR marked Planned (S4); Mission 38 bold in setup step (provenance / trust ladder untouched).
 - v0.5.3 (2026-08-25): WD527 shipping — Trinity Hobby provenance; trust ladder; Mission 38 / wound / system 2-pager rows; setup Active.
 - v0.5.2 (2026-08-22): Adepta Sororitas ownership stub (metal + Celestian Insidiants); unpainted.

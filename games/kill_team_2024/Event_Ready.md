@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/Event_Ready.md
-VERSION: v1.1 (2026-08-21)
+VERSION: v1.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (cloud agent — learning-event pack-out 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5)
 
 DOCUMENT_TYPE: Event checklist / status
 PROJECT_NAME: Wargame_Concierge
@@ -22,6 +22,8 @@ UPDATE_TRIGGER:
 **Status: READY** (2026-08-21)
 
 Learning event pack-out confirmed. Venue may supply main killzone boards; bring your own scatter / equipment baggie.
+
+**Rules currency: Kill Team quarterly balance — August 2026** (Core / update logs + team online rules), `draft`, retrieved 2026-08-27. Plague Marines cheat sheets and roster carry this stamp — re-print if the printed sheets pre-date 2026-08-27. See [`README.md`](README.md) for the full pointer.
 
 ---
 
@@ -92,6 +94,7 @@ Learning event pack-out confirmed. Venue may supply main killzone boards; bring 
 
 ## Change Log
 
+- v1.2 (2026-08-27): Rules currency line — Kill Team quarterly balance, August 2026; re-print cue for pre-dated cheat sheets (track `dataslate_0826` slice S5).
 - v1.1 (2026-08-21): Added Volkus scatter baggie (includes Universal Equipment) to pack-out.
 - v1.0 (2026-08-21): Initial learning-event READY checklist from pack-out conversation.
 

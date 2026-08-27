@@ -1,8 +1,8 @@
 <!--
 FILE: README.md
-VERSION: v0.9.0 (2026-08-25)
+VERSION: v0.9.1 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer)
+AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
 DOCUMENT_TYPE: Project Overview
 PROJECT_NAME: Wargame_Concierge
@@ -207,6 +207,8 @@ Patches happen. Re-check before a real game.
 
 **v0.9.0 (2026-08-25).** Three systems onboarded (Warcode applied). Phase: **pre-external-review**. **Next:** external user review and critique. Tracks: [`docs/handoffs/README.md`](docs/handoffs/README.md). Decisions: [`docs/Project_Planning.md`](docs/Project_Planning.md).
 
+**Rules currency:** GW balance packages move faster than this file. Each system's own README carries the current stamp — see [`games/README.md`](games/README.md) for the per-system pointer table. This file never repeats the package details; it only points at where they live.
+
 ---
 
 ## Key documents
@@ -229,6 +231,7 @@ Patches happen. Re-check before a real game.
 
 ## Change Log
 
+- v0.9.1 (2026-08-27): Project status — added a "Rules currency" pointer line to `games/README.md`'s per-system stamp table, so a reader lands on the current package/quarterly currency without this file duplicating it (track `dataslate_0826` slice S4).
 - v0.9.0 (2026-08-25): Project snapshot v0.9.0; next milestone external user review and critique.
 - v0.5.6 (2026-08-25): Three-system overview (Warcode); copyright/sourcing aligned with AGENTS Sec 10; structure map and status refreshed.
 - v0.5.1 (2026-08-23): Date stamp refresh.

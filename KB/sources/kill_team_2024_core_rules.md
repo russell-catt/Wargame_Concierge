@@ -70,6 +70,7 @@ L1 concept pages were **flagged then rewritten** from shipping paraphrase (2026-
 
 - [[glossary]] — KT24 quote exception in Style conventions
 - [[valid_target]] · [[cover_kill_team]] · [[turning_points]] · [[kill_team_terrain]]
+- [[kt_aug_2026_balance_package]] — Aug 2026 quarterly balance package (Core/killzone update logs + team online rules, 2026-08-27)
 - [[index]]
 - `games/kill_team_2024/README.md` — community thanks + never-sold
 

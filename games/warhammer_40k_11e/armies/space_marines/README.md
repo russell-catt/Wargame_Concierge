@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.11 (2026-08-27)
+VERSION: v1.12 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6)
+AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6; dataslate_0826 S2)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -10,7 +10,8 @@ GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
 
 SOURCES:
-  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1, read 2026-08-16)
+  - raw/_dataslate_0826_staging/eng_wh40k_faction_pack_space_marines-kxoxqpsahz-u0lzirv0zl.pdf (Faction Pack v1.2, legal from 26 Aug 2026; staging read — supersedes the eng_22-07 v1.1 copy below on the same topics)
+  - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1, read 2026-08-16; superseded)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27, includes Legends section — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md; read 2026-08-16 / re-checked 2026-08-21)
   - Warhammer Legends Field Manual (WarCom PDF, retrieved 2026-08-22) — Casual list points only; cross-checked, same figures now folded into MFM Marines v1.3 Legends section
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
@@ -166,9 +167,10 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
+**Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · **Faction Pack v1.2** (legal 26 Aug 2026) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.12 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: Gladius's Adaptive Strategy FAQ and the Squad Tactics 8" range were already correctly taught on [`Gladius_Task_Force.md`](Gladius_Task_Force.md) from the v1.1 errata pass. Terminator Teleport Homer (9"→8"), Outrider Thunderous Impact, Guilliman/Uriel Ventris stratagem-cost interactions, Wardens of Ultramar, and Armoured Speartip Rapid Embarkation are not taught on any owned-collection page — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`. This section's own "SM Codex October readiness" banner already cited Faction Pack v1.2 correctly (S2b); only the header SOURCES/currency line lagged.
 - v1.11 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste, retrieved 2026-08-27); Legends citation (Bike/Attack Bike/Servitors) now cross-checked against MFM v1.3 Legends section, figures unchanged; `Rules currency` line added.
 - v1.10 (2026-08-27): dataslate_0826 S2b — SM Codex October readiness section: Legendary Proxies mapping table (Tac→Intercessor, Dev→Desolation) + future Legends vehicle list (owned bold); preview note; no early T5/S5 rewrite.
 - v1.9 (2026-08-25): wd527_shipping S6 — system spine table (wound / Mission 38 / Disposition / system QR / 6″–8″–9″); Force Disposition Commentary.
