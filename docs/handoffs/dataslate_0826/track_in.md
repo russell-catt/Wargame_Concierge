@@ -1,20 +1,20 @@
 <!--
 FILE: docs/handoffs/dataslate_0826/track_in.md
-VERSION: v0.1 (2026-08-27)
+VERSION: v0.2 (2026-08-27)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Coordinator — plan package)
+AUTHOR_OF_NOTES: Cursor (Coordinator — plan package + SM paste)
 
 DOCUMENT_TYPE: Track hand-off in
 PROJECT_NAME: Wargame_Concierge
 TRACK: dataslate_0826
-STATUS: Open — plan package Ready; execution gated on Preflight link resolve + user auth
+STATUS: Open — plan + SM Codex research; execution gated; G1 partial
 -->
 
 # Track in — dataslate_0826
 
 - **Project:** Wargame_Concierge
 - **Track:** `dataslate_0826`
-- **Status:** Open — plan package on branch `feature/dataslate_0826` (2026-08-27); **execution gated** until Preflight resolves WarCom links + user authorizes
+- **Status:** Open — plan on `feature/dataslate_0826`; SM Codex preview research filed; **execution gated** (dataslate links still unresolved)
 - **Branch:** `feature/dataslate_0826` (user-requested name)
 - **Handoffs root:** `docs/handoffs/dataslate_0826/`
 - **Playbook:** [`docs/operations/multiagent_coordinator_strategy.md`](../../operations/multiagent_coordinator_strategy.md)
@@ -23,12 +23,12 @@ STATUS: Open — plan package Ready; execution gated on Preflight link resolve +
 
 ## Goals
 
-1. **Parse** the three owner WarCom newsletter links → canonical article URLs, titles, **dataslate effective dates**, free PDF filenames, and which systems they touch (40K / Kill Team / both).
-2. **Pointer + inventory** only under `raw/pointers/` (and living-source tables) — **never** commit GW dataslate PDFs/binaries.
-3. **Shipping impact pass** for **Warhammer 40,000 11e** and **Kill Team 2024**: update teaching docs where points, rules, or team packages changed; teaching paraphrase; Codex wall intact on 40K armies.
-4. **Core currency pass:** project root + `docs/` core files, and **each game’s core files** (`games/warhammer_40k_11e/`, `games/kill_team_2024/`, `games/the_warcode/` — Warcode marks N/A for GW dataslate but still gets a “last reviewed” stamp).
-5. **Footer freshness:** every touched GW footer / Games Workshop notice / print footer notes the **dataslate date** (locked convention below).
-6. **Heavy QA:** Tier 2 after every shipping/Librarian slice; Implementer model ≠ QA model; Final Sanity uses a **third** model family; FS performs **legibility spot-checks** on changed pages.
+1. **Parse** the three owner WarCom newsletter links → canonical article URLs, titles, dates, PDF names, and systems touched. **At least one link is a Codex: Space Marines preview (October), not a Balance Dataslate** — see [`research/sm_codex_oct_preview.md`](research/sm_codex_oct_preview.md).
+2. **Pointer + inventory** only under `raw/pointers/` — **never** commit GW dataslate / Codex PDFs/binaries.
+3. **Shipping impact:** 40K + KT Balance Dataslates where applicable; **plus** SM Codex October readiness (Legendary Proxies / Legends honesty) without rewriting live lists to preview stats early. Codex wall intact on armies.
+4. **Core currency pass:** project root + `docs/` cores, and each game’s cores (40K, KT24, Warcode N/A stamp).
+5. **Footer freshness:** dataslate date and/or SM Codex preview / October stamp as applicable.
+6. **Heavy QA:** Tier 2 every slice; Impl ≠ QA model; FS third family; legibility spot-checks.
 
 ## Non-goals
 
@@ -240,7 +240,7 @@ flowchart TD
 | QA-S2b | Pending |
 | S3 | Ready (depends QA-S1) |
 | QA-S3 | Pending |
-| S4 | Ready (depends QA-S2 + QA-S3) |
+| S4 | Ready (depends QA-S2 + QA-S2b + QA-S3) |
 | QA-S4 | Pending |
 | S5 | Ready (depends QA-S4) |
 | QA-S5 | Pending |

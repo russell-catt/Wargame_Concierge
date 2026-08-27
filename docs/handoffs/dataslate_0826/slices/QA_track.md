@@ -13,6 +13,7 @@ After each Implementer/Librarian slice reaches Tier 1, QA writes:
 | S0 | `S0_qa.md` |
 | S1 | `S1_qa.md` |
 | S2 | `S2_qa.md` |
+| S2b | `S2b_qa.md` |
 | S3 | `S3_qa.md` |
 | S4 | `S4_qa.md` |
 | S5 | `S5_qa.md` |
