@@ -1,14 +1,15 @@
 # Staging inventory — raw/_dataslate_0826_staging (pulled 2026-08-27)
 
-- **Branch:** `feature/dataslate_0826` @ `9f7bf1b`
+- **Branch:** `feature/dataslate_0826` @ `9a9dcf8` (Universal Rules added)
 - **Path:** `raw/_dataslate_0826_staging/`
-- **Count:** 13 PDFs (+ README)
+- **Count:** 14 PDFs (+ README)
 - **Note:** No file titled “Balance Dataslate.” Drop is **Faction Packs v1.2 (40K)**, **KT update logs / tournament companion**, and **KT team online rules** (incl. `eng_26-08_` Angels of Death).
 
 ## Inventory
 
 | Filename | System | Pages | Stamp / product | Slice relevance |
 |----------|--------|-------|-----------------|-----------------|
+| `eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf` | 40K | 1 | **Universal Rules Updates v1.1** — legal **26 Aug 2026** | **S2e** (same bytes as earlier chat upload) |
 | `eng_wh40k_faction_pack_necrons-eweoek106p-nqomxds3qr.pdf` | 40K | 57 | **Faction Pack v1.2** — legal **26 Aug 2026** | S2 / S2c adjacent; Cryptek teaching; **Codex wall** |
 | `eng_wh40k_faction_pack_space_marines-kxoxqpsahz-u0lzirv0zl.pdf` | 40K | 219 | **Faction Pack v1.2** — legal **26 Aug 2026** | S2 / S2d / S2b; Gladius FAQs; **Codex wall** |
 | `eng_killzone_tomb_world_update_log-ptyzlo3dfr-ivlzsazxnf.pdf` | KT | 2 | Tomb World update log — commentary **Aug ’26** + prior errata | **S3** (Tomb World / Canoptek) |

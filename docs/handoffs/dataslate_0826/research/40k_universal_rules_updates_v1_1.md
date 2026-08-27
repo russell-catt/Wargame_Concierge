@@ -4,8 +4,11 @@
 - **Captured:** 2026-08-27
 - **Upload (agent read only — do not commit):**  
   `/home/ubuntu/.cursor/projects/workspace/uploads/eng_wh40k_core_key_universal_rules_updates-lu3grocned-rphh78bl6k_15b5.pdf`
-- **Expected local SoT (owner save):**  
-  `C:\Personal\40K\rules\` — prefer keeping WarCom filename or dated `eng_*` copy of this sheet
+- **Staging SoT (on branch, temporary):**  
+  `raw/_dataslate_0826_staging/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf`  
+  (`cmp` identical to chat upload; note `&` in filename)
+- **Expected local SoT (owner save after CLEANUP):**  
+  `C:\Personal\40K\rules\` — prefer WarCom/`eng_*` name without `&` if renaming on disk
 - **Product:** **UNIVERSAL RULES UPDATES — VERSION 1.1**
 - **Legal matched play from:** **26 August 2026**
 - **PDF metadata:** Created/Mod 24 Jul 2026 (InDesign); 1 page; text layer OK

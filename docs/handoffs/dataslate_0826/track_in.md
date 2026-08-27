@@ -61,12 +61,13 @@ STATUS: Open — research packed; execution gated; G1 partial
 
 Still needed: owner PDF drop (esp. KT dataslate); authorize slices; CLEANUP before merge.
 
-## Staging pull (2026-08-27 @ `9f7bf1b`)
+## Staging pull (2026-08-27 @ `9a9dcf8`)
 
-**13 PDFs** in `raw/_dataslate_0826_staging/`. Full table: [`research/staging_inventory_2026_08_27.md`](research/staging_inventory_2026_08_27.md).
+**14 PDFs** in `raw/_dataslate_0826_staging/`. Full table: [`research/staging_inventory_2026_08_27.md`](research/staging_inventory_2026_08_27.md).
 
 | Headline | Research |
 |----------|----------|
+| **Universal Rules Updates v1.1** (legal 26 Aug 2026) | [`40k_universal_rules_updates_v1_1.md`](research/40k_universal_rules_updates_v1_1.md) — staging path locked for **S2e** |
 | Necrons + SM **Faction Pack v1.2** (legal 26 Aug 2026) | [`staging_40k_faction_packs_v1_2.md`](research/staging_40k_faction_packs_v1_2.md) |
 | KT Tomb World + Mission packs **Aug ’26** logs | [`staging_kt_august_updates.md`](research/staging_kt_august_updates.md) |
 | KT team online rules (AoD `eng_26-08_`, Canoptek, PM, …) | Inventory only — S3 diffs |
