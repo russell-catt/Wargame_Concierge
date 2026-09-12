@@ -1,19 +1,20 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.10 (2026-08-27)
+VERSION: v1.11 (2026-09-12)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
+AUTHOR_OF_NOTES: Cursor (Implementer — Indomitus SM half selection ownership 2026-09-12)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
-REFERENCE_STATUS: Active — Blood Ravens Firstborn + AoD Primaris photo ID 2026-08-21. Deathwatch separate identity.
+REFERENCE_STATUS: Active — Blood Ravens Firstborn + AoD Primaris photo ID 2026-08-21; Indomitus SM half selection added 2026-09-12. Deathwatch separate identity.
 
 SOURCES:
   - C:\Personal\40K\Pics\Blood_Ravens\*.HEIC (read 2026-08-21; previews C:\Personal\40K\Pics\_preview\Blood_Ravens\)
   - C:\Personal\40K\Pics\AOD_*.HEIC, Angels_of_Death.HEIC, Captain_gravis_Shield.HEIC, Deathwatch.HEIC
   - Owner locks: Blood Ravens = Codex SM rules + BR paint; Deathwatch = separate identity; AoD dual-use into Codex SM; BR painted & game-ready
+  - Owner acquisition 2026-09-12: selection from Space Marine half of Indomitus (assembled, unprimed); photo in session — save under C:\Personal\40K\Pics\ when convenient (binaries stay outside git)
   - C:\Personal\40K\codexes\ (10e SM + Necrons Codices — path pointer only; paid; no large quotes; may lag 11e)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2; read 2026-08-16; superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27, includes Legends section — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md)
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1; Legends 2026-08-16)
@@ -26,15 +27,15 @@ PURPOSE:
   Deathwatch tracked as separate identity only.
 
 UPDATE_TRIGGER:
-  Re-check Legends on each faction pack revision; refine provisional AoD loadouts; paint Deathwatch.
+  Re-check Legends on each faction pack revision; refine provisional AoD loadouts; paint Deathwatch; prime/paint Indomitus SM half selection.
 -->
 
 # Space Marine Owned Models Inventory
 
-**As of 2026-08-21.** Photo audit from `C:\Personal\40K\Pics`:
+**As of 2026-09-12.** Photo audit from `C:\Personal\40K\Pics` (2026-08-21) plus Indomitus SM half selection (owner 2026-09-12):
 
 - **Blood Ravens Firstborn** — painted, game-ready; **Codex Space Marines** rules + Blood Ravens paint only.
-- **Primaris** — used BT Intercessor set (not played as BT) + Angels of Death Pics specialists (dual-use Codex SM).
+- **Primaris** — used BT Intercessor set (not played as BT) + Angels of Death Pics specialists (dual-use Codex SM) + **Indomitus SM half selection** (assembled, **unprimed** — not table-ready).
 - **Deathwatch** — ~11 primed veterans; **separate rules identity** (not Gladius/BR).
 
 Record assembly and paint state, not just counts. Matched-play squad sizes still need honesty where photos show incomplete or mixed loadouts.
@@ -139,7 +140,7 @@ Four Servitor bodies travel with the Techmarine photo — see **Owned but Legend
 | Datasheet name | Qty | Assembly | Paint | Notes |
 |----------------|-----|----------|-------|-------|
 | **Captain** | 1 | Assembled | Painted | `AOD_Captain` — power fist + HBP; green/DW cosmetics OK for Codex SM |
-| **Captain** (Relic Shield / Gravis) | 1 | Assembled | **Primed** | `Captain_gravis_Shield` — Gravis Captain with relic shield; Necron trophy base. **40K legal only** — not dual-legal for Kill Team |
+| **Captain** (Relic Shield / Gravis) | 1 | Assembled | **Primed** | `Captain_gravis_Shield` — Captain with relic shield (filename says Gravis; Indomitus-shaped). Necron trophy base. **Originally from Indomitus SM half** — already owned before the 2026-09-12 selection. **40K legal only** — not dual-legal for Kill Team. Do **not** double-count if another Indomitus Captain appears |
 | **Intercessor Squad** (bodies) | ≥2 | Assembled | Painted | `AOD_Sergeant` + `AOD_intercessor` (+ others if proxied) — do not double-count vs BT set |
 | **Assault Intercessor Squad** (body) | ≥1 | Assembled | Painted | `AOD_Assault_Intercessor` (yellow) |
 | **Heavy Intercessor Squad** | ≥1 | Assembled | Painted | `AOD_Heavy_Int` — Blood Ravens Gravis / heavy bolt rifle |
@@ -149,6 +150,25 @@ Four Servitor bodies travel with the Techmarine photo — see **Owned but Legend
 **Matched-play note:** Primaris Intercessors from the BT set still do **not** form one legal Intercessor Squad with the Assault loadout body. Combine with AOD bodies carefully by datasheet.
 
 **Firstborn pool note:** Tactical bolter Marines may be **reassigned into the Devastator Squad** to field Devastators as **10 models (200 pts)** instead of 5 (120 pts). That reduces the donating Tactical Squad’s count — do not list the same body twice.
+
+---
+
+## Owned — assembled, unprimed (paint before play)
+
+Purchased **2026-09-12**: a **selection** of the Space Marine half of the **Indomitus** box (secondary-market / split-box). All models below are **assembled and based**, bare plastic (**not primed**). Not game-ready until primed and painted.
+
+**Captain overlap:** the Primaris Captain with relic shield from this box was **already owned** (`Captain_gravis_Shield` above — primed). This purchase did **not** add a second Captain.
+
+| Datasheet name | Qty | Assembly | Paint | Notes |
+|----------------|-----|----------|-------|-------|
+| **Chaplain** (Primaris) | 1 | Assembled | Unpainted | Indomitus SM half — crozius + bolt pistol; bare plastic |
+| **Judiciar** | 1 | Assembled | Unpainted | Indomitus SM half — executioner relic blade; bare plastic |
+| **Bladeguard Veterans** | 3 | Assembled | Unpainted | Indomitus SM half — storm shields + power swords; bare plastic |
+| **Bladeguard Ancient** | 1 | Assembled | Unpainted | Indomitus SM half — company standard; bare plastic |
+| **Outriders** | 3 | Assembled | Unpainted | Indomitus SM half — Primaris bikes (oval bases); bare plastic. **Not** Firstborn Bike Squad (Legends) |
+| **Assault Intercessor Squad** | 10 | Assembled | Unpainted | Indomitus SM half — HBP + chainsword; bare plastic. **Add** to existing painted Assault bodies (used set + AoD); do not merge into one painted squad until this block is painted |
+
+**KT note:** the new Assault Intercessors can feed Angels of Death Assault Warrior / Sergeant slots once painted and loadouts are confirmed — see [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md). Chaplain, Judiciar, Bladeguard, and Outriders are **40K-facing** for this collection (not AoD roster fillers).
 
 ---
 
@@ -193,12 +213,13 @@ Cost these only on [`Starter_*_Casual.md`](Starter_1000_Casual.md) lists (combin
 
 | 40K datasheet (this collection) | Kill Team source operative(s) | Dual-legal? |
 |----------------------------------|-------------------------------|-------------|
-| Intercessor / Assault Intercessor bodies | Intercessor Sergeant, Warriors, Assault Warrior | **Yes** — dual-legal (owner) |
+| Intercessor / Assault Intercessor bodies | Intercessor Sergeant, Warriors, Assault Warrior | **Yes** — dual-legal (owner). Indomitus ×10 Assault Intercessors expand the pool once painted |
 | Captain (`AOD_Captain`) | Space Marine Captain | Pending / use as AoD Captain when base matches |
-| **Captain in Gravis Armour** (relic shield) | — | **No** — **40K legal only** (`Captain_gravis_Shield`) |
+| **Captain** (relic shield) | — | **No** — **40K legal only** (`Captain_gravis_Shield`; Indomitus provenance) |
 | Heavy Intercessor | Heavy Intercessor Gunner | **Yes** — dual-legal (owner) |
 | Eliminator | Eliminator Sniper | **Yes** — dual-legal (owner) |
 | Lieutenant Titus | — | **No** — wrong base for KT |
+| Chaplain / Judiciar / Bladeguard / Outriders (Indomitus) | — | **No** — 40K datasheets; not AoD roster fillers |
 | Deathwatch veterans | Deathwatch KT team | Separate identity — not AoD / not BR Gladius |
 
 Detail: [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md).
@@ -221,10 +242,11 @@ Detail: [`angels_of_death/Owned_Models_Inventory.md`](../../../kill_team_2024/te
 
 1. **Game-ready** = assembled, based, and fieldable under current edition rules.
 2. **Build before play** = purchased but not yet assembled.
-3. **Legends** = owned and playable in friendly games by agreement, not matched-play costed.
-4. **Shopping lists** must not double-count anything marked owned above.
-5. Record the **datasheet name**, not the box name.
-6. Prefer **Faction Pack + MFM** over 10e Codex PDFs for points/legality; Codex at `C:\Personal\40K\codexes\` is path-pointer / kit-ID only (paid, no large quotes, rotates).
+3. **Paint before play** = assembled (and usually based) but unprimed / unpainted — owned, not table-ready.
+4. **Legends** = owned and playable in friendly games by agreement, not matched-play costed.
+5. **Shopping lists** must not double-count anything marked owned above.
+6. Record the **datasheet name**, not the box name.
+7. Prefer **Faction Pack + MFM** over 10e Codex PDFs for points/legality; Codex at `C:\Personal\40K\codexes\` is path-pointer / kit-ID only (paid, no large quotes, rotates).
 
 ---
 
@@ -256,6 +278,7 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.11 (2026-09-12): Indomitus SM half **selection** — Chaplain, Judiciar, Bladeguard Veterans ×3, Bladeguard Ancient, Outriders ×3, Assault Intercessors ×10; assembled, **unprimed**. Captain with relic shield already owned (same box provenance) — no double-count. Paint-before-play inventory rule + AoD Assault pool note.
 - v1.10 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; Land Raider Redeemer ▲ **260/280** (was 250) flagged, other Step 2 legality-table costs re-verified **unchanged**; Legends citation (Bike/Attack Bike/Servitors) moved to MFM v1.3 Legends section, figures unchanged.
 - v1.9 (2026-08-27): dataslate_0826 S2b — SM Codex October preview note on the Step 2 Legends table (Tac/Dev → Legendary Proxies; Whirlwind/Vindicator/Predator D+A/Razorback/Dreadnought → future Legends); no early recost.
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
