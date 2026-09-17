@@ -41,13 +41,14 @@ WD527 commentary provenance (system README): owned digital backup purchased Trin
 
 ---
 
-## Current collection status (2026-08-16)
+## Current collection status (2026-09-17)
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready now (preferred learning baseline)** | **Kill Team: Tomb World** - Cryptek Geomancer (1), Canoptek Tomb Crawlers (2), Canoptek Macrocytes (5), Necron Warriors (10), Canoptek Scarab Swarms (3). All assembled and painted. |
+| **Game-ready now (preferred learning baseline)** | **Kill Team: Tomb World** - Cryptek Geomancer (1), Canoptek Tomb Crawlers (2), Canoptek Macrocytes (5), Necron Warriors (10 — **5 reaper / 5 flayer**), Canoptek Scarab Swarms (3). All assembled and painted. |
 | **Also game-ready** | Hierotek Circle (photo ID 2026-08-17): Technomancer, 3 Immortal Guardians, Despotek, Apprentek, 2 Plasmacytes. See inventory for legal vs proxy. |
-| **Owned, build before play (assemble-to-expand)** | 10 more Warriors (2nd squad), 3 more Scarab Swarms (2nd set), 5 Immortals - all unassembled |
+| **Owned — base & paint before play** | 2nd Warriors (10 — **5 reaper / 5 flayer**), 2nd Scarab Swarms (3) — assembled off-base, unpainted (2026-09-17) |
+| **Owned — build before play** | 5 Immortals — still unassembled |
 | **Ownership totals** | 20 Warriors, 6 Scarab Swarms, Geomancer, Tomb Crawlers, Macrocytes, Technomancer, Immortals (Hierotek assembled + sprue), Apprentek/Plasmacytes (see dual-legality) |
 
 See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
@@ -116,6 +117,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.7 (2026-09-17): Collection status — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.6 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: the two v1.2 items relevant to this collection (Cryptek Support-not-Leader, Canoptek Court's 9"→8" stratagem range) were already correctly taught on [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) from the v1.1 errata pass. Cursed Legion (Unnatural Aggression) and Night Scythe FRAME/stat notes are not taught on any page in this collection — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`.
 - v0.5.5 (2026-08-27): MFM Necrons v1.3 recost pointer (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60** across starter lists, army lists, and detachment guides; see [`Starter_250.md`](Starter_250.md) etc. for the re-totalled numbers.
 - v0.5.4 (2026-08-25): WD527 shipping S6 — system spine links (wound / Disposition / Mission 38 / system QR); distance triad; print-bag pointer.

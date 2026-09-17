@@ -143,13 +143,18 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Apprentek | — | KT-only; casual Plasmancer proxy. Not a purchased Plasmancer | |
 | Hierotek Plasmacytes (2) | — | KT-legal; 40K likely not until **25–28mm base rings** | |
 
+**Owned but assembled — base & paint before play.**
+
+| Unit | MFM v1.2 | Owned? | Note |
+|------|----------|--------|------|
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — assembled off-base / unpainted (2026-09-17); **5 reaper / 5 flayer** | Merging to 20 is legal, and a 20-body block is what the rule wants |
+| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — assembled off-base / unpainted (2026-09-17) | Merging to 6 is legal |
+
 **Owned but on sprue - build before play.**
 
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes - on sprue | Merging to 20 is legal, and a 20-body block is what the rule wants |
 | Immortals (5) | **70** | Yes - on sprue | Better guns, fewer bodies |
-| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | Merging to 6 is legal |
 
 **Not owned.**
 
@@ -197,6 +202,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: v1.2 confirms Crypteks remain **Support**, not Leader — this page already taught that correctly from the v1.1 pass (line: "The owned faction pack v1.1 moved Crypteks from Leader to Support"). Source citation updated; teaching text unchanged.
 - v0.5.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**; Plasmancer 55→**60**.
 - v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Leaders and Support Commentary.

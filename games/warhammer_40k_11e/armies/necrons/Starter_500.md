@@ -8,7 +8,7 @@ DOCUMENT_TYPE: Learning List / Expansion Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
-REFERENCE_STATUS: Active - built on the game-ready Tomb World force; assumes the sprue extras (2nd Warriors, 2nd Scarabs, Immortals) are built where noted; Warriors/Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); Immortals/Scarabs points verified against MFM v1.2 on 2026-08-16 (unaffected by v1.3 ▲ deltas), Geomancer/Tomb Crawler/Macrocyte points sourced from Necron_Lists.md pending independent MFM re-verification
+REFERENCE_STATUS: Active - built on the game-ready Tomb World force; assumes the assembled extras (2nd Warriors, 2nd Scarabs) are based/painted and Immortals are built where noted; Warriors/Plasmancer re-costed to MFM Necrons v1.3 (owner paste 2026-08-27, draft); Immortals/Scarabs points verified against MFM v1.2 on 2026-08-16 (unaffected by v1.3 ▲ deltas), Geomancer/Tomb Crawler/Macrocyte points sourced from Necron_Lists.md pending independent MFM re-verification
 
 SOURCES:
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual.pdf (v1.2, printed 2026-08-13; read 2026-08-16) - superseded on Warriors/Plasmancer by v1.3 below
