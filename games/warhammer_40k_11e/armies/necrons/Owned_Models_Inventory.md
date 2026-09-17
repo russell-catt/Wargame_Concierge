@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
-VERSION: v1.6 (2026-09-17)
+VERSION: v1.7 (2026-09-17)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — 2nd Warriors + Scarabs assembled 2026-09-17; prior S2/S4 / tomb_world_ownership)
 
@@ -73,6 +73,7 @@ Second copies of the Tomb World battleline, assembled **2026-09-17** (owner phot
 |------|-----|----------|-------|-------|
 | Necron Warriors | 10 (2nd squad) | Assembled (off-base) | Unpainted | **5 gauss reaper + 5 gauss flayer** — same split as 1st squad. Merges into a 20-model block once based. Owner photo 2026-09-17 |
 | Canoptek Scarab Swarms | 3 (2nd set) | Assembled (off-base) | Unpainted | From Warriors kit / expand set. Merges into a 6-swarm block once based. Owner photo 2026-09-17 |
+| Immortals | 5 (2nd squad) | Assembled (based) | Primed / metallic drybrush | **All 5 tesla carbines** (short guns with the circular “turbine” muzzle — not gauss blasters). Purchased 2026-09-17. Merges with 1st box + Hierotek bodies toward a 10-model brick once painted |
 
 ---
 
@@ -80,9 +81,9 @@ Second copies of the Tomb World battleline, assembled **2026-09-17** (owner phot
 
 | Item | Qty | Assembly | Paint | Notes |
 |------|-----|----------|-------|-------|
-| Immortals | 5 (1 squad) | Unassembled | - | Still on sprue. Build before play; do **not** overwrite Hierotek assembled Immortals as this sprue |
+| Immortals | 5 (1st squad / box) | Unassembled | - | Still on sprue. Build before play; do **not** overwrite Hierotek assembled Immortals or the new tesla squad as this sprue |
 
-**Still on sprue:** 5 Immortals only. Hierotek already contributes assembled Immortals separately.
+**Still on sprue:** 5 Immortals (1st box) only.
 
 ---
 
@@ -95,7 +96,7 @@ Second copies of the Tomb World battleline, assembled **2026-09-17** (owner phot
 | Cryptek Geomancer | 1 (Tomb World) | - | - | 1 |
 | Canoptek Tomb Crawlers | 2 (Tomb World) | - | - | 2 |
 | Canoptek Macrocytes | 5 (Tomb World) | - | - | 5 |
-| Immortals | 3 Guardians + Despotek if counted as Immortal (Hierotek) | - | 5 (sprue) | 8 or 9 depending on Despotek use |
+| Immortals | 3 Guardians + Despotek if counted as Immortal (Hierotek) | 5 (2nd squad, **tesla carbines**, primed) | 5 (1st box sprue) | **13 or 14** depending on Despotek use (enough for a legal 10 once sprue is built) |
 | Technomancer | 1 (Hierotek) | - | - | 1 |
 | Apprentek | 1 (KT-only / Plasmancer proxy) | - | - | 1 model, not a 40K datasheet |
 | Canoptek Plasmacytes (Hierotek) | 2 | - | - | 2 — 40K legality likely no until **25–28mm base rings** |
@@ -134,6 +135,7 @@ Second copies of the Tomb World battleline, assembled **2026-09-17** (owner phot
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.7 (2026-09-17): 2nd Immortals squad (5) purchased — assembled, based, primed; **all tesla carbines**. 1st Immortals box remains on sprue. Totals 13–14 Immortal bodies with Hierotek.
 - v1.6 (2026-09-17): 2nd Necron Warriors (10) + Scarab Swarms (3) **assembled** (off-base, unpainted). Loadout **5 gauss reaper + 5 gauss flayer** — matches 1st squad. Immortals remain on sprue. New base/paint-before-play bucket.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
 - v1.5 (2026-08-17): Plasmacyte to-do — purchase 25–28mm base rings (do not rebase).
