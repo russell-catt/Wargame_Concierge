@@ -140,12 +140,13 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 |------|----------|--------|-----------------|
 | Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — assembled off-base / unpainted (2026-09-17); **5 reaper / 5 flayer** | No |
 | Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — assembled off-base / unpainted (2026-09-17) | **Yes** - merging to 6 is legal and cheap |
+| Immortals (second box, merging to 10) | **140** for 10 | Yes — **OWNED** 2026-09-17; **tesla carbines**, primed | No - good unit, no detachment benefit |
 
 **Owned but on sprue - build before play.**
 
 | Unit | MFM v1.2 | Owned? | Matrix benefit? |
 |------|----------|--------|-----------------|
-| Immortals (5) | **70** | Yes - on sprue | No - good unit, no detachment benefit |
+| Immortals (5, 1st box) | **70** | Yes - on sprue | No - good unit, no detachment benefit |
 
 **Not owned.**
 
@@ -195,6 +196,7 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.7 (2026-09-17): 2nd Immortals purchased — **tesla carbines**, primed; added to assembled ownership fit.
 - v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: v1.2 confirms the Reactive Subroutines stratagem stays at the **8" range** this page already taught from the v1.1 errata pass ("a 9" range dropped to 8""). Source citation updated; teaching text unchanged.
 - v0.5.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**; Plasmancer 55→**60**.
