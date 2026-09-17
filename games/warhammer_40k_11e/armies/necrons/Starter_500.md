@@ -174,6 +174,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v0.5.4 (2026-09-17): Ownership note — 2nd Warriors + Scarabs are assembled (base/paint remaining); Immortals still on sprue.
 - v0.5.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Warriors 80→**85**, Plasmancer 55→**60**. Foundation 315→**320**; Path A 355→**360**; full-500 Wraiths variant re-solved (dropped Quantum Abacus, a pre-existing v1.2 arithmetic error, to land exactly on 500); Path B drops the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500; cheaper no-proxy variant 315/385→**320/390**.
 - v0.5.1 (2026-08-19): Linked dual-path [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) (Hierotek proxies in V1).
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z).
