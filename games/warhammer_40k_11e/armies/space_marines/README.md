@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.12 (2026-08-27)
+VERSION: v1.13 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6; dataslate_0826 S2)
 
@@ -174,6 +174,7 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · **Faction Pack v1.2** (legal 26 Aug 2026) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.13 (2026-09-18): Son 500 play pack — statted army list, how-army-works 2-pager, 11e cheat sheet with wound matrix (`Son_Play_Pack_500.md` + `print/`).
 - v1.12 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: Gladius's Adaptive Strategy FAQ and the Squad Tactics 8" range were already correctly taught on [`Gladius_Task_Force.md`](Gladius_Task_Force.md) from the v1.1 errata pass. Terminator Teleport Homer (9"→8"), Outrider Thunderous Impact, Guilliman/Uriel Ventris stratagem-cost interactions, Wardens of Ultramar, and Armoured Speartip Rapid Embarkation are not taught on any owned-collection page — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`. This section's own "SM Codex October readiness" banner already cited Faction Pack v1.2 correctly (S2b); only the header SOURCES/currency line lagged.
 - v1.11 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste, retrieved 2026-08-27); Legends citation (Bike/Attack Bike/Servitors) now cross-checked against MFM v1.3 Legends section, figures unchanged; `Rules currency` line added.
 - v1.10 (2026-08-27): dataslate_0826 S2b — SM Codex October readiness section: Legendary Proxies mapping table (Tac→Intercessor, Dev→Desolation) + future Legends vehicle list (owned bold); preview note; no early T5/S5 rewrite.

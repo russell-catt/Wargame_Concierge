@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Army_List_500_Matched_Statted.md
-VERSION: v1.0 (2026-09-18)
+VERSION: v1.1 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — son play pack)
 
@@ -39,7 +39,7 @@ UPDATE_TRIGGER:
 | **Detachment** | Gladius Task Force |
 | **Force Disposition** | **Priority Assets** (`GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`) |
 | **Points** | **500 / 500** |
-| **Warlord** | Captain (Firstborn) |
+| **Warlord** | Captain (Primaris / Indomitus — pistol, power sword, Relic Shield) |
 | **Paint** | Blood Ravens |
 | **Companion** | [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) |
 | **confidence** | draft — Wahapedia 2026-09-18 + MFM v1.3 points; verify vs owned faction pack |
@@ -70,7 +70,7 @@ Terminators and Devastators are separate units (no character on them at 500).
 
 | Model truth | Matched table call |
 |-------------|--------------------|
-| Captain: lightning claw + combi-weapon on the plastic | Count as **master-crafted power weapon** + **master-crafted boltgun** (current Captain datasheet options) unless opponent agrees otherwise |
+| Captain: **Indomitus Primaris** — heavy bolt pistol, master-crafted power sword, **Relic Shield** | Legal Captain datasheet loadout as written (**W6** from Relic Shield). Firstborn claw+combi Captain stays in the case for this list |
 | Devastators: meltagun on the fifth body | **Sergeant** — meltagun is **not** on the Devastator Sergeant list. Field as bolt pistol + Astartes chainsword (or boltgun). Four heavies stay legal |
 | Terminators: assault cannon **and** cyclone on the same 5 | Only **one** storm-bolter upgrade per five models. **Pick one** for the list (recommend **assault cannon** for learning volume, or **cyclone** for krak shots). The other model shoots as storm bolter + power fist |
 | Two SB bodies | **Chainfists** (owner photo 2026-09-18) — legal |
@@ -79,19 +79,22 @@ Terminators and Devastators are separate units (no character on them at 500).
 
 ## 1 — Captain (Warlord) — 80 pts
 
+Indomitus Primaris Captain — **heavy bolt pistol**, **master-crafted power weapon** (power sword on the model), **Relic Shield**.
+
 | | |
 |--|--|
-| **Profile** | M6" · T4 · Sv3+ · W5 · Ld6+ · OC1 · **4+ invulnerable** |
+| **Profile** | M6" · T4 · Sv3+ · **W6** · Ld6+ · OC1 · **4+ invulnerable** |
 | **Attaches to** | Tactical Squad (this list) |
-| **Table loadout (count-as)** | Master-crafted boltgun; master-crafted power weapon; bolt pistol optional on datasheet defaults — use the count-as row below |
+| **Owned kit** | Indomitus box Primaris Captain (pistol + power sword + Relic Shield) |
 | **Role** | Midboard Leader; **Rites of Battle** (1CP discount once/round); **Finest Hour** once/battle in Fight |
 
-| Weapon | Range | A | BS/WS | S | AP | D | Keywords |
-|--------|-------|---|-------|---|----|---|----------|
-| Master-crafted boltgun | 24" | 2 | 2+ | 4 | -1 | 2 | — |
-| Master-crafted power weapon | Melee | 6 | 2+ | 5 | -2 | 2 | — |
+| Weapon / gear | Range | A | BS/WS | S | AP | D | Keywords / notes |
+|----------------|-------|---|-------|---|----|---|------------------|
+| Heavy bolt pistol | 18" | 1 | 2+ | 4 | -1 | 1 | [PISTOL] |
+| Master-crafted power weapon | Melee | 6 | 2+ | 5 | -2 | 2 | Power sword on the model |
+| Relic Shield | — | — | — | — | — | — | Bearer’s **Wounds = 6** |
 
-**Abilities (paraphrase):** Leader; Oath of Moment; Rites of Battle; Finest Hour. Iron Halo → 4++.
+**Abilities (paraphrase):** Leader; Oath of Moment; Rites of Battle; Finest Hour. Iron Halo → 4++. Relic Shield → W6.
 
 ---
 
@@ -199,6 +202,7 @@ Terminators and Devastators are separate units (no character on them at 500).
 
 ## Change Log
 
+- v1.1 (2026-09-18): Warlord = Indomitus Primaris Captain (HBP + MC power weapon + Relic Shield, W6) — not Firstborn claw/combi count-as.
 - v1.0 (2026-09-18): Initial statted 500 Matched pack for son (Captain + Tac + Dev + Terms); loadout honesty notes; Wahapedia 2026-09-18 profiles.
 
 ## Attribution

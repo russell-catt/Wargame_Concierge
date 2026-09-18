@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.10 (2026-08-27)
+VERSION: v1.12 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
 
@@ -116,7 +116,7 @@ Assembled, based, painted, fieldable under Codex SM (Blood Ravens or dual-use Pr
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminator Squad 1` — Sgt SB+power sword; cyclone; assault cannon; 2× SB+power fist |
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminstor squad 2` — Sgt SB+power sword; 4× SB+power fist |
 | **Terminator Assault Squad** | 5 | Assembled | Painted | Mixed loadouts in one photo: ~2 TH/SS, ~2 lightning claws, 1 SB+fist — **honesty:** may need split or opponent agreement for strict Assault Terminator datasheet |
-| **Captain** (Firstborn) | 1 | Assembled | Painted | `Firstborn Captain` — lightning claw + combi-weapon |
+| **Captain** (Firstborn) | 1 | Assembled | Painted | `Firstborn Captain` — lightning claw + combi-weapon. **Not** the son 500 Warlord (that list uses Indomitus Primaris Relic Shield Captain) |
 | **Chaplain in Terminator Armour** | 1 | Assembled | Painted | `firstborn_Chaplain_terminator` — crozius + claw on the model; **in game count the claw as a Storm Shield** (owner). Black armour, BR accents |
 | **Veteran Sergeant** / veteran character | 1 | Assembled | Painted | `Veteran_Sergeant` — power fist + bolt weapon; confirm exact datasheet vs faction pack |
 | **Lieutenant with Combi-weapon** | 1 | Assembled | Painted | `spares` — combi-weapon + chainsword. MFM datasheet **Lieutenant with Combi-weapon** (not plain Lieutenant) |
@@ -138,6 +138,7 @@ Four Servitor bodies travel with the Techmarine photo — see **Owned but Legend
 
 | Datasheet name | Qty | Assembly | Paint | Notes |
 |----------------|-----|----------|-------|-------|
+| **Captain** (Indomitus / Relic Shield) | 1 | Assembled | Painted | Indomitus box Primaris Captain — **heavy bolt pistol + master-crafted power sword + Relic Shield**. **Warlord on son 500 Matched list** ([`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md)) |
 | **Captain** | 1 | Assembled | Painted | `AOD_Captain` — power fist + HBP; green/DW cosmetics OK for Codex SM |
 | **Captain** (Relic Shield / Gravis) | 1 | Assembled | **Primed** | `Captain_gravis_Shield` — Gravis Captain with relic shield; Necron trophy base. **40K legal only** — not dual-legal for Kill Team |
 | **Intercessor Squad** (bodies) | ≥2 | Assembled | Painted | `AOD_Sergeant` + `AOD_intercessor` (+ others if proxied) — do not double-count vs BT set |
@@ -256,6 +257,7 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.12 (2026-09-18): Indomitus Primaris Captain (HBP + power sword + Relic Shield) added as son 500 Warlord; Firstborn claw/combi noted as not on that list.
 - v1.10 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; Land Raider Redeemer ▲ **260/280** (was 250) flagged, other Step 2 legality-table costs re-verified **unchanged**; Legends citation (Bike/Attack Bike/Servitors) moved to MFM v1.3 Legends section, figures unchanged.
 - v1.9 (2026-08-27): dataslate_0826 S2b — SM Codex October preview note on the Step 2 Legends table (Tac/Dev → Legendary Proxies; Whirlwind/Vindicator/Predator D+A/Razorback/Dreadnought → future Legends); no early recost.
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
