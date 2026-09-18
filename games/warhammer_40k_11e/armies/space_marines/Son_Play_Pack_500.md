@@ -24,7 +24,7 @@ Print these three Letter aids (HTML → PDF outside the repo). All are **UNOFFIC
 | **How your army works** (roles, Oath, Terminator reserves) | [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) | [`print/40k_sm_how_army_works_500.html`](print/40k_sm_how_army_works_500.html) | 2 |
 | **11e cheat sheet + wound matrix** | (system spine; pack copy) | [`print/40k_11e_cheat_sheet_wounds.html`](print/40k_11e_cheat_sheet_wounds.html) | 2 |
 
-**List:** Captain (80) + Tacticals (140) + Devastators (120) + Terminators (160) = **500**. Detachment: Gladius. Force Disposition: **Priority Assets**.
+**List:** Captain — Indomitus Primaris, HBP + power sword + Relic Shield (**80**, W6) + Tacticals (**140**) + Devastators (**120**) + Terminators (**160**) = **500**. Detachment: Gladius. Force Disposition: **Priority Assets**.
 
 **Also useful:** [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) · [`Oath_of_Moment.md`](Oath_of_Moment.md) · [`Starter_500_Matched.md`](Starter_500_Matched.md)
 
