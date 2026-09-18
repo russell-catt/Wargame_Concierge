@@ -31,6 +31,10 @@ UPDATE_TRIGGER:
 
 Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md`](Oath_of_Moment.md), then pick a **Matched** or **Casual** starter below.
 
+### Son’s 500 play pack (print bag)
+
+Statted list + how-the-army-works 2-pager + system cheat sheet **with full wound matrix**: [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) · print HTML in [`print/`](print/).
+
 > **FORCE DISPOSITION (Gladius starters):** **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
 > Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
 
@@ -53,7 +57,7 @@ Each player’s Force Disposition sets that player’s Primary — two Gladius P
 | Distances / OC / attach | [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) · [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) — triad **6"** Ingress / **>8"** enemy gap / **9"** coherency span; OC = terrain **footprint** |
 | Shipping track | [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md) |
 
-Army laminate (md only — no `print/` HTML claimed): [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
+Army laminate: [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md). **Son 500 print pack:** [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) (statted list + how-it-works + cheat sheet w/ wound matrix).
 
 ---
 
