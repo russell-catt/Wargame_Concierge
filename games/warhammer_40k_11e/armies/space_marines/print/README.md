@@ -13,7 +13,7 @@ Filename prefix: `40k_`.
 | HTML | Source | Pages |
 |------|--------|-------|
 | `40k_sm_army_list_500.html` | [`../Army_List_500_Matched_Statted.md`](../Army_List_500_Matched_Statted.md) | 2 |
-| `40k_sm_how_army_works_500.html` | [`../How_Your_Army_Works_500.md`](../How_Your_Army_Works_500.md) | 2 |
+| `40k_sm_how_army_works_500.html` | [`../How_Your_Army_Works_500.md`](../How_Your_Army_Works_500.md) | 4 |
 | `40k_11e_cheat_sheet_wounds.html` | System cheat + Core 05.02 wound matrix (pack copy) | 2 |
 
 Index: [`../Son_Play_Pack_500.md`](../Son_Play_Pack_500.md).

@@ -1,10 +1,10 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/How_Your_Army_Works_500.md
-VERSION: v1.0 (2026-09-18)
+VERSION: v1.1 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — son play pack)
 
-DOCUMENT_TYPE: Teaching Guide / 2-page laminate source
+DOCUMENT_TYPE: Teaching Guide / laminate source
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Space Marines
@@ -15,26 +15,32 @@ SOURCES:
   - games/warhammer_40k_11e/armies/space_marines/Oath_of_Moment.md
   - games/warhammer_40k_11e/armies/space_marines/Gladius_Task_Force.md
   - games/warhammer_40k_11e/armies/space_marines/Army_List_500_Matched_Statted.md
+  - games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave_Primary_Missions.md (Priority Assets Primary shape)
+  - games/warhammer_40k_11e/setup/Chapter_Approved_Force_Dispositions.md
   - games/warhammer_40k_11e/rules/Keyword_Glossary.md (Strategic Reserves, Deep Strike, Rapid Ingress)
   - games/warhammer_40k_11e/rules/Turn_Structure.md
 
 PURPOSE:
-  Exactly two printed pages: how the son’s 500 Gladius list should work —
-  unit jobs, Oath of Moment, Terminators + reserves toolkit.
+  How the son’s 500 Gladius list should work — unit jobs, Oath of Moment,
+  Terminators + reserves toolkit, and all five Priority Assets Primaries.
 
 PRINT_NOTE:
-  Print HTML: print/40k_sm_how_army_works_500.html — exactly 2 pages, both filled.
+  Print HTML: print/40k_sm_how_army_works_500.html — 4 Letter pages.
 
 UPDATE_TRIGGER:
-  List composition change or Core/faction errata to Oath / Deep Strike / Rapid Ingress.
+  List composition change, Core/faction errata to Oath / Deep Strike / Rapid Ingress,
+  or Chapter Approved / Event Companion Primary text change.
 -->
 
-# How your army works — 500 Gladius | Page 1 of 2
+# How your army works — 500 Gladius | Page 1 of 4
 
-> **FORCE DISPOSITION:** **Priority Assets** · `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
-> List: [`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md) · System cheat (wounds): [`print/40k_11e_cheat_sheet_wounds.html`](print/40k_11e_cheat_sheet_wounds.html)
+> **FORCE DISPOSITION: PRIORITY ASSETS**  
+> MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
+> List: [`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md) · Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Wound cheat: [`print/40k_11e_cheat_sheet_wounds.html`](print/40k_11e_cheat_sheet_wounds.html)
 
 **One-sentence plan:** Park Devastators on a lane, push Captain + Tacticals onto the mid objective, and drop Terminators where the Oath target is weakest.
+
+You always play **your** Priority Assets Primary. Opponent’s Disposition picks **which** of the five below. Caps: **15VP**/round · **45VP**/game. Round 5 objective scoring often moves to **end of turn** if you go second — check the card.
 
 ---
 
@@ -42,9 +48,9 @@ UPDATE_TRIGGER:
 
 | Unit | Job | Do this | Don’t do this |
 |------|-----|---------|---------------|
-| **Captain + Tacticals** | Midboard **OC** brick | Walk onto an objective and stay. Flamer clears screens in front. Missile pokes (frag crowds / krak hard targets). Captain fights what touches you | Chase the whole board alone |
-| **Devastators** | Gunline | **Remain Stationary** for Signum (Ignores Cover). Shoot the **Oath** target first. Lascannon / multi-melta for big stuff; HB / plasma for packs | Advance every turn “just because” |
-| **Terminators** | Hammer / scare piece | Start in **reserves** (Deep Strike) most games. Arrive turn 2+ near the Oath target or a free objective | Walk them on from your edge turn 1 unless the board is tiny |
+| **Captain + Tacticals** | Midboard **OC** brick | Walk onto an objective and stay. Flamer clears screens. Missile pokes. Captain fights what touches you. **Also** your main **Action** body when the Primary asks | Chase the whole board alone |
+| **Devastators** | Gunline | **Remain Stationary** for Signum (Ignores Cover). Shoot the **Oath** target first | Advance every turn “just because” |
+| **Terminators** | Hammer / scare piece | Start in **reserves** (Deep Strike). Arrive turn 2+ near Oath or a free objective / Action spot | Walk on from your edge turn 1 unless the board is tiny |
 
 ---
 
@@ -54,15 +60,13 @@ UPDATE_TRIGGER:
 **What:** Name **one** enemy unit. Until your next Command phase (covers their turn too):
 
 1. **Re-roll Hit rolls** against that unit (shooting and melee).  
-2. **+1 to Wound** against that unit — if you are on a Codex Space Marines detachment **and** the list has no Blood Angels / Dark Angels / Deathwatch / Space Wolves models (your Blood Ravens Gladius list qualifies).
+2. **+1 to Wound** against that unit — Codex Space Marines detachment **and** no Blood Angels / Dark Angels / Deathwatch / Space Wolves models (your Blood Ravens Gladius list qualifies).
 
-| Legal (sounds weird, is OK) | Remember |
-|-----------------------------|----------|
-| Name a unit in a transport | You still can’t shoot the passengers until they hop out |
-| Name a unit still in reserves | Be ready when it arrives |
-| No LOS / range needed to name it | Forgetting to pick = wasted turn |
-
-**Habit:** Say the Oath target out loud every Command phase. Shoot it first with whoever can see it. Splitting fire throws the free buff away.
+| Legal (sounds weird, is OK) | Habit |
+|-----------------------------|-------|
+| Name a unit in a transport | Say the Oath target out loud every Command phase |
+| Name a unit still in reserves | Shoot it first with whoever can see it |
+| No LOS / range needed to name it | Splitting fire throws the free buff away |
 
 Full teach: [`Oath_of_Moment.md`](Oath_of_Moment.md).
 
@@ -82,7 +86,98 @@ Skipping a round is fine. **Adaptive Strategy (1CP)** puts **one unit** into any
 
 <!-- pagebreak -->
 
-# How your army works — 500 Gladius | Page 2 of 2
+# How your army works — 500 Gladius | Page 2 of 4
+
+## The five Primaries (you = Priority Assets)
+
+**confidence: draft.** VP numbers and Action names are teaching shape (same Priority Assets pairings as [`../necrons/Cryptek_Conclave_Primary_Missions.md`](../necrons/Cryptek_Conclave_Primary_Missions.md); retrieved shape 2026-08-23). **Your Chapter Approved card wins** if anything disagrees.
+
+### 1. Secure Asset — vs **Take and Hold**
+
+| Your scoring shape (paraphrase — verify card) | Keys for this 500 Gladius |
+|-----------------------------------------------|---------------------------|
+| End of turn: **Action** Secure Asset on a non-home objective | Captain brick Actions; leave someone else on the flag if you can |
+| End of turn: bonus if you **destroy** a unit on a **Central** | Devs + Oath into whatever sits Central |
+| From BR2 Command (R5 EOT): hold non-home; bonus for holding **3+** | Tac brick holds Expansion; Terms steal a second non-home |
+| Opponent: end-of-turn hold **3+**; Command hold **2+** / hold **more**; end-game your home | Stop **Hold More**; guard your home late with Terms or leftover models |
+
+**Success:** Steady Actions + never gift Hold More. Defence in depth on Expansion beats chasing every kill.
+
+### 2. Vital Link — vs **Purge the Foe**
+
+| Your scoring shape | Keys for this 500 Gladius |
+|--------------------|---------------------------|
+| End of turn: hold Central + **Operation Markers** you place via Action (stacking VP) | **Captain brick on Central** Action repeatedly — this is the tarpit mission |
+| BR2+ Command: hold non-home; bonus if that is Central | Prefer Central for the big ticks |
+| End game: opponent’s home (big VP) | Optional hail Mary with Terms — not plan A |
+| Opponent: kill units / Kill More; also hold non-home / Hold More | Do **not** feed free kills; Terms arrive to *contest*, not suicide |
+
+**Success:** One durable brick that Actions Central every turn. Oath whoever threatens the brick. If blocked once, hold one safe non-home and stage for late home steal.
+
+### 3. Sabotage — vs **Priority Assets** (mirror)
+
+| Your scoring shape | Keys for this 500 Gladius |
+|--------------------|---------------------------|
+| End of turn: **Sabotage Action** on each non-home (bonus in **enemy territory**, Central counts) | You have **few** Action pieces — Tac brick does most Actions; Terms can Action after they land |
+| BR2+ Command: hold 1+ non-home | Keep Expansion locked while Actions run |
+| Opponent: identical | Deny first-turn mega scores; Overwatch / engage their Action chips |
+
+**Success:** Early Action volume wins — but this list is Action-poor vs Scarab-style armies. Deploy to stop their turn-1 triple Sabotage; don’t race Actions you can’t win — hold Expansion and pick high-value Sabotages (enemy territory / Central).
+
+<!-- pagebreak -->
+
+# How your army works — 500 Gladius | Page 3 of 4
+
+### 4. Extract Relic — vs **Disruption**
+
+| Your scoring shape | Keys for this 500 Gladius |
+|--------------------|---------------------------|
+| Disruption places **Operation Markers** on terrain outside their DZ | Know which markers exist before round 1 |
+| Once/turn **Sensor Sweep** Action on a Central (while you control it) removes a marker; you score for completing Sweeps | Be the one Sweeping — Captain brick on Central |
+| End of turn: Sweep done · kill a unit that started on an objective · final-marker control bonus | Devs / Terms kill on-objective units when safe; contest final marker terrain |
+| BR2+ Command: hold non-home | Expansion still matters |
+| Opponent also Sweeps (denies your Sweep VP) and scores kills / final marker | Engagement-block Centrals after you have enough Sweeps |
+
+**Success:** Trade Sweeps early on markers in **their** half; then lock the last marker on **your** Expansion terrain. Durable multi-model units block their Sweep.
+
+### 5. Vanguard Operation — vs **Reconnaissance**
+
+| Your scoring shape | Keys for this 500 Gladius |
+|--------------------|---------------------------|
+| Once/turn **Vanguard Operation** Action: start in Shooting while in a terrain area in **enemy territory** (Central counts); completes if no enemies in that area | Send **Terminators** (or a brave Tac chip) into enemy-half terrain after they land |
+| End of turn: kill 1+ enemy units | Oath + Devs pick off chips; don’t donate the Action unit for free |
+| BR2+ Command: hold 1+ non-home | Captain brick on Expansion |
+| End game: control their **home** (big VP) | Late Terms push only if Actions already banked |
+| Opponent: hold Centrals · kill your units that started in terrain · hold multiple non-homes · end-game deny your presence in their territory | Action units that finish and leave, or a tarpit that won’t die |
+
+**Success:** Action in enemy territory **without** feeding terrain-kill points. Hold Expansion every Command. End with a model in their half when possible.
+
+---
+
+## Gladius toolkit vs mission asks
+
+| Tool | Use it when |
+|------|-------------|
+| **Captain + Tacticals** | Secure Asset / Vital Link / Sabotage Actions · Expansion hold · Central tarpit |
+| **Devastators** | Kill-on-Central / Kill More answers · Oath gunline every mission |
+| **Terminators (Deep Strike)** | Steal non-home · Vanguard Action spot · deny Hold More · late home steal |
+| **Oath of Moment** | Whatever unit is scoring against you *or* sitting on your Action objective |
+| **Combat Doctrines** | Advance+shoot (Dev doctrine) to reach Action range; Fall Back+shoot (Tac doctrine) when stuck |
+
+---
+
+## Pre-game checklist
+
+- [ ] List says **FORCE DISPOSITION: PRIORITY ASSETS**
+- [ ] Opponent Disposition known → circle the mission above (or Mission 38 Primary block if that card replaces matching)
+- [ ] Layout A/B/C agreed · footprints for OC
+- [ ] Terminators declared in reserves / Deep Strike
+- [ ] Twist: usually **off** at events
+- [ ] Physical Primary card open — this sheet is a map, not a substitute
+
+<!-- pagebreak -->
+
+# How your army works — 500 Gladius | Page 4 of 4
 
 ## Terminators — reserves toolkit
 
@@ -102,7 +197,7 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 
 1. **Declare** them in reserves / Deep Strike before the game.  
 2. **Turn 1:** play with Captain brick + Devastators; pick Oath.  
-3. **Turn 2:** Deep Strike where you can see the Oath target or steal an objective — **or** Rapid Ingress at the end of their Movement if they overextended.  
+3. **Turn 2:** Deep Strike where you can see the Oath target, steal an objective, or reach an Action spot — **or** Rapid Ingress at the end of their Movement if they overextended.  
 4. After they land: shoot (Fury of the First helps vs Oath), then charge if the math is good. Chainfists for vehicles; fists / power weapon for infantry.
 
 **Teleport Homer:** optional token from the datasheet — confirm the exact wording on your faction pack before relying on it; Deep Strike alone is enough to learn.
@@ -112,11 +207,11 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 ## Turn checklist (your turn)
 
 1. **Command** — +CP; **name Oath**; optional Doctrine; Battle-shock if needed.  
-2. **Movement** — every unit gets a move type; **bring Terminators in** if this is the turn.  
+2. **Movement** — every unit gets a move type; **bring Terminators in** if this is the turn; start Actions if the Primary needs them.  
 3. **Shooting** — Oath target first; Devastators prefer Stay Still.  
 4. **Charge** — roll **2D6 first**; only engage what the roll can reach.  
 5. **Fight** — pile in → fight → consolidate.  
-6. **End** — score mission VP.
+6. **End** — score **your** Primary mission VP.
 
 ---
 
@@ -125,7 +220,8 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 - You named an Oath target every turn.  
 - Devastators sat still at least twice for Signum.  
 - Terminators arrived turn 2 (or Rapid Ingress) without dying to “set up at 7″.”  
-- Captain + Tacticals spent more time on an objective than chasing models off the board.
+- Captain + Tacticals spent more time on an objective (or finishing an Action) than chasing models off the board.  
+- You knew **which** of the five Primaries you were on before turn 1.
 
 ---
 
@@ -133,6 +229,8 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 
 - [`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md)  
 - [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md)  
+- [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)  
+- [`../necrons/Cryptek_Conclave_Primary_Missions.md`](../necrons/Cryptek_Conclave_Primary_Missions.md) (same Priority Assets Primary set)  
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) · [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md)  
 - Print: [`print/40k_sm_how_army_works_500.html`](print/40k_sm_how_army_works_500.html)
 
@@ -144,6 +242,7 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 
 ## Change Log
 
+- v1.1 (2026-09-18): Added all five Priority Assets Primaries (Secure Asset / Vital Link / Sabotage / Extract Relic / Vanguard Operation) with Gladius 500 keys; FORCE DISPOSITION banner in all caps; expanded to 4 pages.
 - v1.0 (2026-09-18): Initial 2-pager for son 500 Gladius pack (roles, Oath, Terminator reserves toolkit).
 
 ## Attribution

@@ -33,9 +33,9 @@ Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md
 
 ### Son’s 500 play pack (print bag)
 
-Statted list + how-the-army-works 2-pager + system cheat sheet **with full wound matrix**: [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) · print HTML in [`print/`](print/).
+Statted list + how-the-army-works (roles, Oath, Terminator reserves, **all five Priority Assets Primaries**) + system cheat sheet **with full wound matrix**: [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) · print HTML in [`print/`](print/).
 
-> **FORCE DISPOSITION (Gladius starters):** **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
+> **FORCE DISPOSITION: PRIORITY ASSETS** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
 > Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
 
 **Commentary (White Dwarf 527 — A New Era of War):**

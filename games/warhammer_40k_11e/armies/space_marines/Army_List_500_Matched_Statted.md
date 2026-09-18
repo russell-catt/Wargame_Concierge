@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Army_List_500_Matched_Statted.md
-VERSION: v1.1 (2026-09-18)
+VERSION: v1.2 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — son play pack)
 
@@ -30,14 +30,14 @@ UPDATE_TRIGGER:
 
 # Army list — 500 pts Matched — Gladius (statted)
 
-> **FORCE DISPOSITION — write on the list before you deploy**  
-> **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
-> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Wound chart: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · How to play this list: [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) · System cheat sheet (wounds on-sheet): [`print/40k_11e_cheat_sheet_wounds.html`](print/40k_11e_cheat_sheet_wounds.html)
+> **FORCE DISPOSITION: PRIORITY ASSETS**  
+> MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS` — write on the list before you deploy  
+> How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Primaries for this list: [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) · Wound chart: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System cheat sheet (wounds on-sheet): [`print/40k_11e_cheat_sheet_wounds.html`](print/40k_11e_cheat_sheet_wounds.html)
 
 | Field | Value |
 |-------|-------|
 | **Detachment** | Gladius Task Force |
-| **Force Disposition** | **Priority Assets** (`GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`) |
+| **FORCE DISPOSITION** | **PRIORITY ASSETS** (`GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`) |
 | **Points** | **500 / 500** |
 | **Warlord** | Captain (Primaris / Indomitus — pistol, power sword, Relic Shield) |
 | **Paint** | Blood Ravens |
@@ -202,6 +202,7 @@ Indomitus Primaris Captain — **heavy bolt pistol**, **master-crafted power wea
 
 ## Change Log
 
+- v1.2 (2026-09-18): Banner + field row use **FORCE DISPOSITION: PRIORITY ASSETS** in all caps near the top.
 - v1.1 (2026-09-18): Warlord = Indomitus Primaris Captain (HBP + MC power weapon + Relic Shield, W6) — not Firstborn claw/combi count-as.
 - v1.0 (2026-09-18): Initial statted 500 Matched pack for son (Captain + Tac + Dev + Terms); loadout honesty notes; Wahapedia 2026-09-18 profiles.
 
