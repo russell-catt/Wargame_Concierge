@@ -113,7 +113,7 @@ Assembled, based, painted, fieldable under Codex SM (Blood Ravens or dual-use Pr
 | **Tactical Squad** | 10 | Assembled | Painted | `Tactical_sqaud 1` — Mk VI; Sgt BP+chainsword; 1 missile launcher; **1 flamer**; remaining bolters. Bolter bodies may be **loaned to Devastators** to make that squad 10 (see Devastator row) |
 | **Tactical Squad** | 10 | Assembled | Painted | `Tactical_Squad_2` — Sgt BP+chainsword; **1 flamer** (not heavy bolter); 1 missile launcher; bolters. **Owned as 10** — one model fallen off / detached; reattach before play (photo showed 8). Same **loan-to-Devastators** option |
 | **Devastator Squad** | 5 | Assembled | Painted | `Devastators` — **heavy bolter, multi-melta, plasma cannon, lascannon, meltagun** (one each). **Pool note:** bolter Tactical Marines can be **reassigned** to pad this unit to a full **10** (MFM v1.3 **200** pts, unchanged) — shrink a Tactical Squad accordingly; do not double-count bodies |
-| **Terminator Squad** | 5 | Assembled | Painted | `Terminator Squad 1` — Sgt SB+power sword; cyclone; assault cannon; 2× SB+power fist |
+| **Terminator Squad** | 5 | Assembled | Painted | `Terminator Squad 1` — Sgt SB+power sword; cyclone + power fist; assault cannon + power fist; **2× SB+chainfist** (owner photo 2026-09-18) |
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminstor squad 2` — Sgt SB+power sword; 4× SB+power fist |
 | **Terminator Assault Squad** | 5 | Assembled | Painted | Mixed loadouts in one photo: ~2 TH/SS, ~2 lightning claws, 1 SB+fist — **honesty:** may need split or opponent agreement for strict Assault Terminator datasheet |
 | **Captain** (Firstborn) | 1 | Assembled | Painted | `Firstborn Captain` — lightning claw + combi-weapon |
