@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.10 (2026-08-27)
+VERSION: v1.11 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
 
@@ -256,6 +256,7 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.11 (2026-09-18): Terminator Squad 1 melee honesty — **2× SB+chainfist** (owner photo); cyclone and assault cannon keep **power fists**.
 - v1.10 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; Land Raider Redeemer ▲ **260/280** (was 250) flagged, other Step 2 legality-table costs re-verified **unchanged**; Legends citation (Bike/Attack Bike/Servitors) moved to MFM v1.3 Legends section, figures unchanged.
 - v1.9 (2026-08-27): dataslate_0826 S2b — SM Codex October preview note on the Step 2 Legends table (Tac/Dev → Legendary Proxies; Whirlwind/Vindicator/Predator D+A/Razorback/Dreadnought → future Legends); no early recost.
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).
