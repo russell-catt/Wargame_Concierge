@@ -10,18 +10,21 @@ Filename prefix: `40k_`. Never commit `*.pdf` (repo gitignore).
 
 ## Aids
 
-| HTML (this folder) | PDF (print folder) | Source |
-|--------------------|--------------------|--------|
-| `40k_roster_250_conclave.html` | `40k_roster_250_conclave.pdf` | `../Army_List_250_Conclave.md` |
-| `40k_reference_250_conclave.html` | `40k_reference_250_conclave.pdf` | `../Reference_Guide_250_Conclave.md` |
-| `40k_necrons_quick_reference.html` | `40k_necrons_quick_reference.pdf` | `../Quick_Reference_Play_Guide.md` |
-| `40k_first_game_core.html` | `40k_first_game_core.pdf` | `../../rules/Turn_Structure.md` + `Key_Concepts.md` |
-| `40k_setup_terrain.html` | `40k_setup_terrain.pdf` | `../../setup/Board_Setup.md` + `Terrain_Basics.md` |
-| `40k_conclave_primary_missions.html` | `40k_conclave_primary_missions.pdf` | `../Cryptek_Conclave_Primary_Missions.md` |
-| *(setup)* `../../setup/print/40k_chapter_approved_force_dispositions.html` | `40k_chapter_approved_force_dispositions.pdf` | `../../setup/Chapter_Approved_Force_Dispositions.md` |
-| *(setup)* `../../setup/print/40k_wound_roll_reference.html` | `40k_wound_roll_reference.pdf` | `../../rules/Wound_Roll_Reference.md` |
-| *(setup)* `../../setup/print/40k_wd527_mission.html` | `40k_wd527_mission.pdf` | `../../setup/WD527_Monthly_Mission.md` |
-| *(setup)* `../../setup/print/40k_system_quick_reference.html` | `40k_system_quick_reference.pdf` | system Letter 2-pager (S4 shipping) |
+| HTML (this folder) | PDF (print folder) | Source | Pages |
+|--------------------|--------------------|--------|-------|
+| `40k_roster_500_conclave.html` | `40k_roster_500_conclave.pdf` | `../Army_List_500_V1_Conclave.md` | 2 |
+| `40k_how_army_works_500_conclave.html` | `40k_how_army_works_500_conclave.pdf` | `../How_Your_Army_Works_500.md` | 5 |
+| `40k_conclave_primary_missions.html` | `40k_conclave_primary_missions.pdf` | `../Cryptek_Conclave_Primary_Missions.md` | 2 |
+| `40k_roster_250_conclave.html` | `40k_roster_250_conclave.pdf` | `../Army_List_250_Conclave.md` | 2 |
+| `40k_reference_250_conclave.html` | `40k_reference_250_conclave.pdf` | `../Reference_Guide_250_Conclave.md` | 2 |
+| `40k_necrons_quick_reference.html` | `40k_necrons_quick_reference.pdf` | `../Quick_Reference_Play_Guide.md` | 2 |
+| `40k_first_game_core.html` | `40k_first_game_core.pdf` | `../../rules/Turn_Structure.md` + `Key_Concepts.md` | 2 |
+| `40k_setup_terrain.html` | `40k_setup_terrain.pdf` | `../../setup/Board_Setup.md` + `Terrain_Basics.md` | 2 |
+
+**500 play pack index:** [`../Cryptek_Play_Pack_500.md`](../Cryptek_Play_Pack_500.md).
+
+**Pack PDF folder:** `C:\Personal\print_aids\40k_11e\` (also cloud `/opt/cursor/artifacts/print_aids_40k_11e/`).  
+**Legacy 250 event bag:** `C:\Personal\print_aids\learn_to_play_event\`.
 
 **System print PDFs:** `C:\Personal\print_aids\40k_11e\` — run `../../setup/print/_html_to_pdf.py`.
 
@@ -32,23 +35,14 @@ Filename prefix: `40k_`. Never commit `*.pdf` (repo gitignore).
 Saturday checklist (KT son / KT dad / 40K dad):  
 [`games/kill_team_2024/setup/Learn_to_Play_Print_Bag.md`](../../../../kill_team_2024/setup/Learn_to_Play_Print_Bag.md)
 
-All event PDFs (KT + 40K) share `C:\Personal\print_aids\learn_to_play_event\`.
-
-
-## Regenerate PDFs
+## Regenerate PDFs (US Letter)
 
 ```powershell
-pip install playwright
-playwright install chromium
-python games/warhammer_40k_11e/armies/necrons/print/_html_to_pdf.py
+cd games\warhammer_40k_11e\armies\necrons\print
+python _html_to_pdf.py
 ```
 
-Or Edge headless per file:
-
-```powershell
-msedge --headless --disable-gpu --print-to-pdf="C:\Personal\print_aids\learn_to_play_event\40k_roster_250_conclave.pdf" "file:///C:/Personal/Personal_Projects/Wargame_Concierge/games/warhammer_40k_11e/armies/necrons/print/40k_roster_250_conclave.html"
-```
-
+HTML `@page { size: letter }` drives dimensions. Needs Playwright Chromium **or** Google Chrome / Chromium. `*.pdf` stays gitignored.
 ## GW unofficial footer
 
 Every HTML file in this folder carries **UNOFFICIAL** banner (page 1) and **non-endorsement** footer on each page. Template: [`templates/Gw_Print_Banner.html`](../../../../../templates/Gw_Print_Banner.html). Policy: [`docs/handoffs/gw_community_content/track_in.md`](../../../../../docs/handoffs/gw_community_content/track_in.md).

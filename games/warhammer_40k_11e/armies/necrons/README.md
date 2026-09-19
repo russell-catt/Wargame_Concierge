@@ -33,6 +33,13 @@ Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation
 
 **Start here:** [`Reanimation_Protocols.md`](Reanimation_Protocols.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game using the owned **Kill Team: Tomb World** force.
 
+### Cryptek 500 play pack (app backup)
+
+Statted list + how-the-army-works (RP, Conclave menu, Primaries, **CP spends**) + Primaries laminate: [`Cryptek_Play_Pack_500.md`](Cryptek_Play_Pack_500.md) · print HTML in [`print/`](print/).
+
+> **FORCE DISPOSITION: PRIORITY ASSETS** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`  
+> Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
+
 **System spine (11e / WD527 shipping):** wound grid [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · Force Dispositions [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38 [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · system Letter QR [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html) · army laminate [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
 
 **Key distances (do not conflate):** coherency **2″** of a squadmate and **9″** of every other model (`03.03`) · Ingress set-up within **6″** of a battlefield edge (`20.04`) · Deep Strike / ingress enemy gap **>8″** · OC on the objective’s terrain **footprint** (`14.01` / `14.02`).

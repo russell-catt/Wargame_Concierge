@@ -32,8 +32,8 @@ UPDATE_TRIGGER:
 
 # Cryptek Conclave - the Technosorcerous Augmentations detachment
 
-> **FORCE DISPOSITION — write on the list before you deploy**
-> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> **FORCE DISPOSITION: PRIORITY ASSETS**
+> MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS` — write on the list before you deploy
 > Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound grid: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 The Necron detachment where **Cryptek characters upgrade the guns of whoever they are standing with**, one ability at a time, every **Shooting phase** (`10.02`).
@@ -114,7 +114,18 @@ Points from **Munitorum Field Manual v1.2**; effects paraphrased from the owned 
 | Quantum Abacus | 15 | A chance of CP back whenever the bearer's unit is targeted by a stratagem |
 | Atomic Disintegrators | 10 | Adds anti-Monster and anti-Vehicle options to the detachment rule's menu |
 
-The stratagems cover: ignoring hit-roll and Ballistic Skill modifiers, granting an invulnerable save to a Warriors or Immortals unit that is being shot at, punishing the killing of a Cryptek, lending the Cryptek keyword to a nearby model, picking a **second** ability from the detachment menu, and the off-turn reanimation described above. Six stratagems, all 1CP, all read off your own pack before the game.
+The stratagems (all **1CP**; teaching paraphrase — verify owned Faction Pack):
+
+| Stratagem | When | Short effect |
+|-----------|------|--------------|
+| **Molecular Targeting** | Your Shooting or Fight | Ignore Hit / BS / WS modifiers; Cryptek units also ignore Wound modifiers |
+| **Microscarab Swarm** | When a Warriors / Immortals unit is targeted | Soft invulnerable save (Warriors) / stronger invuln (Immortals) — confirm exact values on pack |
+| **Animus Curse** | After a Cryptek is destroyed (verify trigger) | Punish the killer — confirm effect on pack |
+| **Synergistic Empowerment** | Start of your Shooting | One nearby Necron model (not Monster/Vehicle) gains **CRYPTEK** until end of phase |
+| **Untapped Power** | Your Shooting (before that Cryptek unit shoots) | That Cryptek unit picks **two** menu abilities this phase |
+| **Potentiality Syphon** | Opponent’s Command | One Necron unit on an objective activates Reanimation Protocols; Cryptek units +1 wound |
+
+Paper CP sheet for the 500 list: [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md). Names beyond Syphon are `draft` (community/Wahapedia shape retrieved 2026-09-19) until a fresh pack line-check.
 
 ---
 
