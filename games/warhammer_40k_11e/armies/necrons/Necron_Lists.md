@@ -21,7 +21,7 @@ This blueprint outlines expansion paths to a 1,000-point army using either the *
 | Cryptek Geomancer | 1 | Cryptek Geomancer | 75 | Game ready |
 | Canoptek Tomb Crawlers | 2 | Canoptek Tomb Crawlers | 50 | Game ready — 1 twin gauss reapers + 1 transdimensional isolator |
 | Canoptek Macrocytes | 5 | Canoptek Macrocytes | 70 | Game ready — 1 Accelerator, 1 Reanimator, 3 Warriors (2 gauss scalpel, 1 tesla caster) |
-| Necron Warriors | 10 | Necron Warriors | **85** | Game ready — mixed gauss flayer / gauss reaper (photo shows 10) — MFM v1.3 ▲+5 |
+| Necron Warriors | 10 | Necron Warriors | **85** | Game ready — **5 gauss reaper + 5 gauss flayer** (same as 2nd squad) — MFM v1.3 ▲+5 |
 | Canoptek Scarab Swarms | 3 | Canoptek Scarab Swarms | 40 | Game ready (Tomb World) |
 | **Tomb World subtotal** | | | **320** | MFM Necrons **v1.3** (owner paste 2026-08-27, draft; was 315 under v1.2 verified 2026-08-19) |
 
@@ -39,15 +39,21 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 
 **Preferred learning baseline:** Tomb World units above. Hierotek adds a Technomancer and extra Immortal bodies; Plasmancer/Warden remain **proxy-only**.
 
-### 🔧 Build-before-play (owned, not yet on table)
+### 🔧 Assembled — base & paint before play (owned, not yet on table)
 
 | Item | Qty | Status | Notes |
 | :--- | :--- | :--- | :--- |
-| **Necron Warriors** | 10 (2nd squad) | Purchased, unassembled | Assemble-to-expand beyond Tomb World squad |
-| **Canoptek Scarab Swarms** | 3 (2nd set) | Purchased, unassembled | Assemble-to-expand beyond Tomb World swarms |
-| **Immortals** | 5 (1 squad) | Purchased, unassembled | Build before play — do **not** list as future "Need 1 box" without adjusting shopping |
+| **Necron Warriors** | 10 (2nd squad) | Assembled (off-base), unpainted | **5 gauss reaper + 5 gauss flayer** — same split as Tomb World squad. Owner assembly 2026-09-17 |
+| **Canoptek Scarab Swarms** | 3 (2nd set) | Assembled (off-base), unpainted | Expand beyond Tomb World swarms. Owner assembly 2026-09-17 |
+| **Immortals** | 5 (2nd squad) | Assembled (based), primed | **All tesla carbines** (not gauss blasters). Purchased 2026-09-17 |
 
-**Ownership totals:** 20 Warriors (10 game-ready + 10 sprue), 6 Scarab Swarms (3 game-ready + 3 sprue), Geomancer, Tomb Crawlers, Macrocytes, Technomancer (Hierotek), Immortals (Hierotek assembled + 5 sprue), Apprentek (proxy-only), Hierotek Plasmacytes (KT-legal, 40K likely not).
+### 🔧 Build-before-play (still on sprue)
+
+| Item | Qty | Status | Notes |
+| :--- | :--- | :--- | :--- |
+| **Immortals** | 5 (1st squad / box) | Purchased, unassembled | Build before play — do **not** list as future "Need 1 box" without adjusting shopping |
+
+**Ownership totals:** 20 Warriors (10 game-ready + 10 assembled/unpainted), 6 Scarab Swarms (3 game-ready + 3 assembled/unpainted), Geomancer, Tomb Crawlers, Macrocytes, Technomancer (Hierotek), Immortals (Hierotek assembled + 5 sprue + 5 tesla primed), Apprentek (proxy-only), Hierotek Plasmacytes (KT-legal, 40K likely not).
 
 ---
 
@@ -73,13 +79,13 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 
 **Alternate:** Hierotek Technomancer + assembled Immortals (see Foundation). Plasmancer remains a purchase or Apprentek proxy.
 
-**Build before play (not yet on table):** Extra Warriors (10), Scarab Swarms (3), Immortals (5) — all on sprue. Assemble-to-expand; do not count toward learning games until built.
+**Expand before play (not yet on table):** Extra Warriors (10) + Scarab Swarms (3) — **assembled, off-base, unpainted** (2026-09-17). Immortals (5) still on sprue. Do not count toward learning games until based/painted (Warriors/Scarabs) or built (Immortals).
 
 ### Phase 2: 500-Point Expansion
 
 **From owned inventory:**
 * **5x Canoptek Macrocytes** (70 pts) — *from Tomb World box, game ready*
-* **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, unassembled — build before play*
+* **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, assembled off-base / unpainted — base & paint before play*
 
 **Still to acquire:**
 * **1x Canoptek Doomstalker** (140 pts) — *purchased (future)* — MFM v1.2
@@ -102,8 +108,8 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 **Already purchased (exclude from retail shopping):**
 * ~~Kill Team: Tomb World~~ — Geomancer, 2× Tomb Crawlers, 5× Macrocytes, 10× Warriors, 3× Scarab Swarms (game ready)
 * ~~Necron Immortals (1 box of 5)~~ — owned, unassembled
-* ~~Canoptek Scarab Swarms (2nd set of 3)~~ — owned, unassembled
-* ~~Necron Warriors (2nd squad of 10)~~ — owned, unassembled
+* ~~Canoptek Scarab Swarms (2nd set of 3)~~ — owned, assembled (off-base / unpainted 2026-09-17)
+* ~~Necron Warriors (2nd squad of 10)~~ — owned, assembled (off-base / unpainted; 5 reaper + 5 flayer)
 
 Use these Games Workshop standard Canadian retail prices to hunt for Facebook Marketplace deals:
 
@@ -124,13 +130,13 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 
 **Hierotek:** Technomancer owned. Plasmancer is **not** in the box (Apprentek is a casual proxy only).
 
-**Build before play (not yet on table):** Extra Warriors (10), Scarab Swarms (3), Immortals (5) — all on sprue.
+**Expand before play (not yet on table):** Extra Warriors (10) + Scarab Swarms (3) — **assembled, off-base, unpainted** (2026-09-17). Immortals (5) still on sprue. Do not count toward learning games until based/painted (Warriors/Scarabs) or built (Immortals).
 
 ### Phase 2: 500-Point Expansion
 
 **From owned inventory:**
 * **5x Canoptek Macrocytes** (70 pts) — *from Tomb World box, game ready*
-* **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, unassembled*
+* **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, assembled off-base / unpainted — base & paint before play*
 * **5x Immortals** (70 pts) — *already purchased (1 box of 5), unassembled*
 
 **Still to acquire:**
@@ -141,28 +147,28 @@ Use these Games Workshop standard Canadian retail prices to hunt for Facebook Ma
 ### Phase 3: 750-Point Expansion
 * **Additions:**
   * Illuminor Szeras (175 pts) *(Purchased)*
-  * **10x Necron Warriors** (85 pts, MFM v1.3) — *2nd squad on sprue (owned); build to merge with Tomb World squad into 20-man block (190 pts merged, unchanged)*
+  * **10x Necron Warriors** (85 pts, MFM v1.3) — *2nd squad assembled off-base / unpainted (owned); base & paint to merge with Tomb World squad into 20-man block (190 pts merged, unchanged)*
 * *Strategy:* Szeras behind a 20-man Warrior phalanx for AP aura and durability.
 
 ### Phase 4: 1,000-Point Target List
 * **Additions:**
   * 10x Lychguard (160 pts) *(Purchased — 2 boxes of 5)* — MFM v1.2
-  * **5x Immortals** (70 pts) *(Purchased — second box; first box of 5 already owned — merges into max block of 10 @ 140 pts)*
+  * **5x Immortals** (70 pts) *(OWNED — second box purchased 2026-09-17, **tesla carbines**, primed; first box still on sprue — merges into max block of 10 @ 140 pts)*
 * *Strategy:* Lychguard shield wall for Cryptek characters.
 
 ### 🛒 Cryptek Conclave Shopping & CAD Price Tracker
 
 **Already purchased (exclude from retail shopping):**
 * ~~Kill Team: Tomb World~~ — full box contents (game ready)
-* ~~Necron Warriors (20 total — 10 Tomb World + 10 sprue)~~ — no additional Warrior boxes needed
+* ~~Necron Warriors (20 total — 10 Tomb World + 10 assembled/unpainted)~~ — no additional Warrior boxes needed
 * ~~Necron Immortals (first box of 5)~~ — owned, unassembled
-* ~~Canoptek Scarab Swarms (6 total — 3 Tomb World + 3 sprue)~~ — no additional Scarab boxes needed
+* ~~Canoptek Scarab Swarms (6 total — 3 Tomb World + 3 assembled/unpainted)~~ — no additional Scarab boxes needed
 
 Use these Games Workshop standard Canadian retail prices to hunt for Facebook Marketplace deals:
 
 * **Plasmancer** (Need 1) | Retail: $45.00 CAD
 * **Illuminor Szeras** (Need 1) | Retail: $70.00 CAD
-* **Necron Immortals** (Need **1** more box of 5 — first box already owned) | Retail: $55.00 CAD
+* ~~**Necron Immortals** (2nd box of 5)~~ — owned 2026-09-17 (**tesla carbines**, primed); first box still on sprue
 * **Necron Lychguard** (Need 2 boxes of 5) | Retail: $70.00 CAD per box | *Total: $140.00 CAD*
 * **Total Retail Value (remaining):** $310.00 CAD
 * 🎯 **Marketplace Target Price (Aim for 30%–50% off):** **$155.00 – $220.00 CAD**
@@ -203,6 +209,8 @@ If a seller lists a sealed or partially built bundle box, it is almost always si
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+
+**Change log (2026-09-17):** 2nd Immortals (5) purchased — **tesla carbines**, assembled/based/primed. 1st Immortals box remains on sprue. Earlier same day: 2nd Warriors (10 — **5 gauss reaper / 5 gauss flayer**) + Scarab Swarms (3) **assembled** (off-base, unpainted).
 
 **Change log (dataslate_0826 S2c, 2026-08-27):** MFM Necrons v1.3 recost — Tomb World Warriors 80→**85** (Tomb World subtotal 315→**320**); Plasmancer 55→**60**; Phase 1 preferred-start math 205→**210** (both detachment options).
 
