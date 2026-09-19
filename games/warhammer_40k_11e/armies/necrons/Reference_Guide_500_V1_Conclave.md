@@ -31,8 +31,8 @@ UPDATE_TRIGGER:
 
 # Reference guide - 500 pts V1 Cryptek Conclave
 
-> **FORCE DISPOSITION — write on the list before you deploy**
-> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> **FORCE DISPOSITION: PRIORITY ASSETS**
+> MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS` — write on the list before you deploy
 > Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 Companion to [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md). Builds on [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md).

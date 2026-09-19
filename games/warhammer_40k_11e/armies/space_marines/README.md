@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.13 (2026-09-18)
+VERSION: v1.14 (2026-09-18)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — wd527_shipping S6; dataslate_0826 S2)
+AUTHOR_OF_NOTES: Cursor (Implementer — Indomitus SM half selection ownership 2026-09-12)
 
 DOCUMENT_TYPE: Faction Overview
 PROJECT_NAME: Wargame_Concierge
@@ -14,7 +14,7 @@ SOURCES:
   - C:\Personal\40K\rules\eng_22-07_warhammer_40,000_faction_pack_space_marines.pdf (v1.1, read 2026-08-16; superseded)
   - C:\Personal\40K\rules\Warhammer 40,000_ Munitorum Field Manual_Marines.pdf (v1.2, superseded by MFM Marines v1.3 owner paste retrieved 2026-08-27, includes Legends section — see docs/handoffs/dataslate_0826/research/sm_mfm_v1_3.md; read 2026-08-16 / re-checked 2026-08-21)
   - Warhammer Legends Field Manual (WarCom PDF, retrieved 2026-08-22) — Casual list points only; cross-checked, same figures now folded into MFM Marines v1.3 Legends section
-  - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21)
+  - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md (photo ID 2026-08-21; Indomitus SM half selection 2026-09-12)
   - https://www.40k.app/factions/space-marines/detachments/gladius-task-force (retrieved 2026-08-16)
   - docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md (owner paste 2026-08-27, `draft`) — Codex: Space Marines October preview / Legendary Proxies / Legends
 
@@ -111,13 +111,14 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 
 ---
 
-## Current collection status (2026-08-21)
+## Current collection status (2026-09-12)
 
-**Photo-audited.** Blood Ravens Firstborn are painted and game-ready. Primaris AoD dual-use is in progress (some incomplete squads). Deathwatch is a **separate identity**.
+**Photo-audited** (2026-08-21) plus **Indomitus SM half selection** (2026-09-12). Blood Ravens Firstborn are painted and game-ready. Primaris AoD dual-use is in progress (some incomplete squads). New Indomitus Primaris are assembled but **unprimed**. Deathwatch is a **separate identity**.
 
 | Category | Detail |
 |----------|--------|
-| **Game-ready (Codex SM)** | Tacticals (**10 + 10**; Tac2 reattach one fallen-off body; each has a **flamer**; bolter bodies may **pad Devastators to 10**), Devastators (5: HB / multi-melta / plasma cannon / lascannon / meltagun — or 10 via Tactical loan), Terminator Squads (2×5), Terminator Assault (5, mixed), Firstborn Captain, Terminator Chaplain (claw = **Storm Shield**), Veteran Sergeant, Lieutenant with Combi-weapon + 2 loose Marines, **Techmarine** (matched play), Whirlwind; Primaris Intercessors / AoD (Intercessors, Heavy Int, Eliminator **dual-legal**); Gravis Captain + relic shield **40K only** |
+| **Game-ready (Codex SM)** | Tacticals (**10 + 10**; Tac2 reattach one fallen-off body; each has a **flamer**; bolter bodies may **pad Devastators to 10**), Devastators (5: HB / multi-melta / plasma cannon / lascannon / meltagun — or 10 via Tactical loan), Terminator Squads (2×5), Terminator Assault (5, mixed), Firstborn Captain, Terminator Chaplain (claw = **Storm Shield**), Veteran Sergeant, Lieutenant with Combi-weapon + 2 loose Marines, **Techmarine** (matched play), Whirlwind; Primaris Intercessors / AoD (Intercessors, Heavy Int, Eliminator **dual-legal**); Captain + relic shield **40K only** (Indomitus provenance; primed) |
+| **Owned — paint before play (Indomitus SM half selection)** | Primaris **Chaplain**, **Judiciar**, **Bladeguard Veterans** ×3, **Bladeguard Ancient**, **Outriders** ×3, **Assault Intercessors** ×10 — assembled, bare plastic. Captain from that box already owned (do not double-count) |
 | **Owned, Legends (friendly / Casual lists)** | Bike Squad (3); Attack Bike (1 — gunner **MM or HB**); **Astartes Servitors** ×4 (with Techmarine) — costed only on **Casual** starters |
 | **Separate identity** | Deathwatch ~11 primed veterans — not Gladius/BR lists |
 | **Chapter (paint / play)** | Blood Ravens paint; **Codex Space Marines** rules. Used Intercessors: BT paint, not played as BT |
@@ -174,7 +175,8 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · **Faction Pack v1.2** (legal 26 Aug 2026) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
-- v1.13 (2026-09-18): Son 500 play pack — statted army list, how-army-works 2-pager, 11e cheat sheet with wound matrix (`Son_Play_Pack_500.md` + `print/`).
+- v1.14 (2026-09-18): Son 500 play pack — statted army list, how-army-works, 11e cheat sheet with wound matrix (`Son_Play_Pack_500.md` + `print/`).
+- v1.13 (2026-09-12): Collection status — Indomitus SM half selection (assembled, unprimed); Captain with relic shield already owned from that box.
 - v1.12 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: Gladius's Adaptive Strategy FAQ and the Squad Tactics 8" range were already correctly taught on [`Gladius_Task_Force.md`](Gladius_Task_Force.md) from the v1.1 errata pass. Terminator Teleport Homer (9"→8"), Outrider Thunderous Impact, Guilliman/Uriel Ventris stratagem-cost interactions, Wardens of Ultramar, and Armoured Speartip Rapid Embarkation are not taught on any owned-collection page — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`. This section's own "SM Codex October readiness" banner already cited Faction Pack v1.2 correctly (S2b); only the header SOURCES/currency line lagged.
 - v1.11 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste, retrieved 2026-08-27); Legends citation (Bike/Attack Bike/Servitors) now cross-checked against MFM v1.3 Legends section, figures unchanged; `Rules currency` line added.
 - v1.10 (2026-08-27): dataslate_0826 S2b — SM Codex October readiness section: Legendary Proxies mapping table (Tac→Intercessor, Dev→Desolation) + future Legends vehicle list (owned bold); preview note; no early T5/S5 rewrite.

@@ -31,14 +31,14 @@ UPDATE_TRIGGER:
 
 # Army list - 500 pts V1 - Cryptek Conclave (no purchases)
 
-> **FORCE DISPOSITION — write on the list before you deploy**
-> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> **FORCE DISPOSITION: PRIORITY ASSETS**
+> MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS` — write on the list before you deploy
 > Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 | Field | Value |
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
-| **Force Disposition** | **Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
+| **FORCE DISPOSITION** | **PRIORITY ASSETS** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
 | **Points** | **500 / 500** |
 | **Warlord** | Cryptek Geomancer |
 | **Purchases** | **$0** - Hierotek proxies allowed (opponent OK) |
@@ -202,12 +202,12 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 
 ## Pre-game checklist
 
-- [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; no enhancement on this budget list (MFM v1.3 lands exactly on 500 without one)
+- [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; **FORCE DISPOSITION: PRIORITY ASSETS**; no enhancement on this budget list (MFM v1.3 lands exactly on 500 without one)
 - [ ] Attachments written: Warriors ← Warden + Geomancer; Immortals ← Techno or Plasmancer proxy
 - [ ] Opponent agrees Apprentek→Plasmancer and Despotek→Warden proxies
 - [ ] Scarabs built to 6; Immortals 5 on the table
 - [ ] Token: **end of Command phase → REANIMATE**
-- [ ] Print [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md)
+- [ ] Print [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) · [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) · pack index [`Cryptek_Play_Pack_500.md`](Cryptek_Play_Pack_500.md)
 
 ---
 
@@ -227,6 +227,7 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v1.4 (2026-09-19): FORCE DISPOSITION banner in all caps; link Cryptek 500 play pack / how-army-works CP sheet.
 - v1.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**; dropped the Atomic Disintegrators enhancement (owner-safe cut, -10) to stay exactly on 500.
 - v1.2 (2026-08-19): Full Wahapedia stat pass for all characters; MFM v1.2 verified 500 total. confidence: draft.
 - v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.

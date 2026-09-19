@@ -32,8 +32,8 @@ UPDATE_TRIGGER:
 
 # Cryptek Conclave - the Technosorcerous Augmentations detachment
 
-> **FORCE DISPOSITION — write on the list before you deploy**
-> **Priority Assets** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`
+> **FORCE DISPOSITION: PRIORITY ASSETS**
+> MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS` — write on the list before you deploy
 > Matching Primaries: [`Cryptek_Conclave_Primary_Missions.md`](Cryptek_Conclave_Primary_Missions.md) · How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound grid: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 The Necron detachment where **Cryptek characters upgrade the guns of whoever they are standing with**, one ability at a time, every **Shooting phase** (`10.02`).
@@ -114,7 +114,18 @@ Points from **Munitorum Field Manual v1.2**; effects paraphrased from the owned 
 | Quantum Abacus | 15 | A chance of CP back whenever the bearer's unit is targeted by a stratagem |
 | Atomic Disintegrators | 10 | Adds anti-Monster and anti-Vehicle options to the detachment rule's menu |
 
-The stratagems cover: ignoring hit-roll and Ballistic Skill modifiers, granting an invulnerable save to a Warriors or Immortals unit that is being shot at, punishing the killing of a Cryptek, lending the Cryptek keyword to a nearby model, picking a **second** ability from the detachment menu, and the off-turn reanimation described above. Six stratagems, all 1CP, all read off your own pack before the game.
+The stratagems (all **1CP**; teaching paraphrase — verify owned Faction Pack):
+
+| Stratagem | When | Short effect |
+|-----------|------|--------------|
+| **Molecular Targeting** | Your Shooting or Fight | Ignore Hit / BS / WS modifiers; Cryptek units also ignore Wound modifiers |
+| **Microscarab Swarm** | When a Warriors / Immortals unit is targeted | Soft invulnerable save (Warriors) / stronger invuln (Immortals) — confirm exact values on pack |
+| **Animus Curse** | After a Cryptek is destroyed (verify trigger) | Punish the killer — confirm effect on pack |
+| **Synergistic Empowerment** | Start of your Shooting | One nearby Necron model (not Monster/Vehicle) gains **CRYPTEK** until end of phase |
+| **Untapped Power** | Your Shooting (before that Cryptek unit shoots) | That Cryptek unit picks **two** menu abilities this phase |
+| **Potentiality Syphon** | Opponent’s Command | One Necron unit on an objective activates Reanimation Protocols; Cryptek units +1 wound |
+
+Paper CP sheet for the 500 list: [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md). Names beyond Syphon are `draft` (community/Wahapedia shape retrieved 2026-09-19) until a fresh pack line-check.
 
 ---
 
@@ -143,19 +154,24 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Apprentek | — | KT-only; casual Plasmancer proxy. Not a purchased Plasmancer | |
 | Hierotek Plasmacytes (2) | — | KT-legal; 40K likely not until **25–28mm base rings** | |
 
+**Owned but assembled — base & paint before play.**
+
+| Unit | MFM v1.2 | Owned? | Note |
+|------|----------|--------|------|
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — assembled off-base / unpainted (2026-09-17); **5 reaper / 5 flayer** | Merging to 20 is legal, and a 20-body block is what the rule wants |
+| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — assembled off-base / unpainted (2026-09-17) | Merging to 6 is legal |
+| Immortals (second box, merging to 10) | **140** for 10 | Yes — **OWNED** 2026-09-17; **tesla carbines**, primed | Merging to 10 is legal once 1st box is built |
+
 **Owned but on sprue - build before play.**
 
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes - on sprue | Merging to 20 is legal, and a 20-body block is what the rule wants |
-| Immortals (5) | **70** | Yes - on sprue | Better guns, fewer bodies |
-| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes - on sprue | Merging to 6 is legal |
+| Immortals (5, 1st box) | **70** | Yes - on sprue | Better guns, fewer bodies |
 
 **Not owned.**
 
 | Unit | MFM v1.2 | Note |
 |------|----------|------|
-| Immortals (second box, merging to 10) | **140** for 10 | Merging to 10 is legal |
 | Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cheapest Cryptek; attaches to Immortals or Warriors. **Not in Hierotek** — Apprentek is a kitchen-table proxy only. Buy for events. |
 | Royal Warden | **50** | Cheap **Leader**, so it stacks with a Cryptek Support. **Not owned** — Despotek is a casual proxy (32mm). |
 | Lychguard (5) | **80** | Bodyguard wall. The old note's 170 for five was badly wrong |
@@ -197,6 +213,8 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.7 (2026-09-17): 2nd Immortals purchased — **tesla carbines**, primed; shopping row marked owned.
+- v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: v1.2 confirms Crypteks remain **Support**, not Leader — this page already taught that correctly from the v1.1 pass (line: "The owned faction pack v1.1 moved Crypteks from Leader to Support"). Source citation updated; teaching text unchanged.
 - v0.5.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**; Plasmancer 55→**60**.
 - v0.5.3 (2026-08-25): WD527 shipping S6 — system spine links; Leaders and Support Commentary.
