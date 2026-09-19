@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.13 (2026-09-12)
+VERSION: v1.14 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — Indomitus SM half selection ownership 2026-09-12)
 
@@ -31,7 +31,11 @@ UPDATE_TRIGGER:
 
 Versatile, durable, and forgiving for a beginner. Start with [`Oath_of_Moment.md`](Oath_of_Moment.md), then pick a **Matched** or **Casual** starter below.
 
-> **FORCE DISPOSITION (Gladius starters):** **Priority Assets** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
+### Son’s 500 play pack (print bag)
+
+Statted list + how-the-army-works (roles, Oath, Terminator reserves, **all five Priority Assets Primaries**, **CP spends**) + system cheat sheet **with full wound matrix**: [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) · print HTML in [`print/`](print/).
+
+> **FORCE DISPOSITION: PRIORITY ASSETS** · MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
 > Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).
 
 **Commentary (White Dwarf 527 — A New Era of War):**
@@ -53,7 +57,7 @@ Each player’s Force Disposition sets that player’s Primary — two Gladius P
 | Distances / OC / attach | [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) · [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) — triad **6"** Ingress / **>8"** enemy gap / **9"** coherency span; OC = terrain **footprint** |
 | Shipping track | [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md) |
 
-Army laminate (md only — no `print/` HTML claimed): [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
+Army laminate: [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md). **Son 500 print pack:** [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) (statted list + how-it-works + cheat sheet w/ wound matrix).
 
 ---
 
@@ -171,6 +175,7 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · **Faction Pack v1.2** (legal 26 Aug 2026) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.14 (2026-09-18): Son 500 play pack — statted army list, how-army-works, 11e cheat sheet with wound matrix (`Son_Play_Pack_500.md` + `print/`).
 - v1.13 (2026-09-12): Collection status — Indomitus SM half selection (assembled, unprimed); Captain with relic shield already owned from that box.
 - v1.12 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: Gladius's Adaptive Strategy FAQ and the Squad Tactics 8" range were already correctly taught on [`Gladius_Task_Force.md`](Gladius_Task_Force.md) from the v1.1 errata pass. Terminator Teleport Homer (9"→8"), Outrider Thunderous Impact, Guilliman/Uriel Ventris stratagem-cost interactions, Wardens of Ultramar, and Armoured Speartip Rapid Embarkation are not taught on any owned-collection page — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`. This section's own "SM Codex October readiness" banner already cited Faction Pack v1.2 correctly (S2b); only the header SOURCES/currency line lagged.
 - v1.11 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste, retrieved 2026-08-27); Legends citation (Bike/Attack Bike/Servitors) now cross-checked against MFM v1.3 Legends section, figures unchanged; `Rules currency` line added.

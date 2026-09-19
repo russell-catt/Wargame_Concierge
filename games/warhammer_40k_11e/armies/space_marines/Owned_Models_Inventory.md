@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
-VERSION: v1.12 (2026-09-18)
+VERSION: v1.13 (2026-09-18)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — Indomitus SM half selection ownership 2026-09-12)
 
@@ -117,7 +117,7 @@ Assembled, based, painted, fieldable under Codex SM (Blood Ravens or dual-use Pr
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminator Squad 1` — Sgt SB+power sword; cyclone + power fist; assault cannon + power fist; **2× SB+chainfist** (owner photo 2026-09-18) |
 | **Terminator Squad** | 5 | Assembled | Painted | `Terminstor squad 2` — Sgt SB+power sword; 4× SB+power fist |
 | **Terminator Assault Squad** | 5 | Assembled | Painted | Mixed loadouts in one photo: ~2 TH/SS, ~2 lightning claws, 1 SB+fist — **honesty:** may need split or opponent agreement for strict Assault Terminator datasheet |
-| **Captain** (Firstborn) | 1 | Assembled | Painted | `Firstborn Captain` — lightning claw + combi-weapon |
+| **Captain** (Firstborn) | 1 | Assembled | Painted | `Firstborn Captain` — lightning claw + combi-weapon. **Not** the son 500 Warlord (that list uses the Indomitus Relic Shield Captain) |
 | **Chaplain in Terminator Armour** | 1 | Assembled | Painted | `firstborn_Chaplain_terminator` — crozius + claw on the model; **in game count the claw as a Storm Shield** (owner). Black armour, BR accents |
 | **Veteran Sergeant** / veteran character | 1 | Assembled | Painted | `Veteran_Sergeant` — power fist + bolt weapon; confirm exact datasheet vs faction pack |
 | **Lieutenant with Combi-weapon** | 1 | Assembled | Painted | `spares` — combi-weapon + chainsword. MFM datasheet **Lieutenant with Combi-weapon** (not plain Lieutenant) |
@@ -140,7 +140,7 @@ Four Servitor bodies travel with the Techmarine photo — see **Owned but Legend
 | Datasheet name | Qty | Assembly | Paint | Notes |
 |----------------|-----|----------|-------|-------|
 | **Captain** | 1 | Assembled | Painted | `AOD_Captain` — power fist + HBP; green/DW cosmetics OK for Codex SM |
-| **Captain** (Relic Shield / Gravis) | 1 | Assembled | **Primed** | `Captain_gravis_Shield` — Captain with relic shield (filename says Gravis; Indomitus-shaped). Necron trophy base. **Originally from Indomitus SM half** — already owned before the 2026-09-12 selection. **40K legal only** — not dual-legal for Kill Team. Do **not** double-count if another Indomitus Captain appears |
+| **Captain** (Relic Shield / Gravis) | 1 | Assembled | **Primed** | `Captain_gravis_Shield` — Captain with relic shield (filename says Gravis; Indomitus-shaped). HBP + master-crafted power sword + Relic Shield. Necron trophy base. **Originally from Indomitus SM half** — already owned before the 2026-09-12 selection. **Warlord on son 500 Matched list** ([`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md)). **40K legal only** — not dual-legal for Kill Team. Do **not** double-count |
 | **Intercessor Squad** (bodies) | ≥2 | Assembled | Painted | `AOD_Sergeant` + `AOD_intercessor` (+ others if proxied) — do not double-count vs BT set |
 | **Assault Intercessor Squad** (body) | ≥1 | Assembled | Painted | `AOD_Assault_Intercessor` (yellow) |
 | **Heavy Intercessor Squad** | ≥1 | Assembled | Painted | `AOD_Heavy_Int` — Blood Ravens Gravis / heavy bolt rifle |
@@ -278,6 +278,7 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.13 (2026-09-18): Son 500 Warlord pointer on Indomitus Relic Shield Captain (no extra body); Firstborn claw/combi is not on that list.
 - v1.12 (2026-09-18): Terminator Squad 1 melee honesty — **2× SB+chainfist** (owner photo); cyclone and assault cannon keep **power fists**.
 - v1.11 (2026-09-12): Indomitus SM half **selection** — Chaplain, Judiciar, Bladeguard Veterans ×3, Bladeguard Ancient, Outriders ×3, Assault Intercessors ×10; assembled, **unprimed**. Captain with relic shield already owned (same box provenance) — no double-count. Paint-before-play inventory rule + AoD Assault pool note.
 - v1.10 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3**; Land Raider Redeemer ▲ **260/280** (was 250) flagged, other Step 2 legality-table costs re-verified **unchanged**; Legends citation (Bike/Attack Bike/Servitors) moved to MFM v1.3 Legends section, figures unchanged.

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40K 11e Cheat Sheet — with Wound Matrix</title>
+<style>
+@page { size: letter; margin: 0.38in; }
+* { box-sizing: border-box; }
+body { font-family: Georgia, "Times New Roman", Times, serif; font-size: 8pt; line-height: 1.18; color: #111; margin: 0; }
+h1 { font-size: 12pt; margin: 0 0 0.1em; }
+h2 { font-size: 9.5pt; margin: 0.2em 0 0.06em; border-bottom: 1px solid #333; padding-bottom: 1px; }
+h3 { font-size: 8.5pt; margin: 0.12em 0 0.04em; }
+p, ul, ol { margin: 0.08em 0; }
+ul, ol { padding-left: 1.1em; }
+li { margin: 0.02em 0; }
+table { width: 100%; border-collapse: collapse; margin: 0.08em 0 0.12em; font-size: 7pt; }
+th, td { border: 1px solid #444; padding: 1px 2px; vertical-align: top; text-align: left; }
+th { background: #e8e8e8; }
+.page { page-break-after: always; }
+.page:last-of-type { page-break-after: auto; }
+.cols { display: flex; gap: 0.35em; }
+.cols > * { flex: 1; min-width: 0; }
+.callout { border: 1.5px solid #333; padding: 0.15em 0.3em; margin: 0.1em 0; background: #f7f7f7; font-size: 7.5pt; }
+.mini { font-size: 7pt; color: #222; }
+.bands td, .bands th { text-align: center; }
+.matrix { font-size: 6.2pt; }
+.matrix td, .matrix th { text-align: center; padding: 0 1px; }
+.matrix th.rowhdr { text-align: left; width: 1.6em; }
+.gw-ip-banner { font-size: 8pt; font-weight: 600; border: 2px solid #333; padding: 0.22em 0.35em; margin: 0 0 0.25em; background: #f5f5f5; }
+.gw-ip-footer { font-size: 6pt; color: #444; margin-top: 0.18em; border-top: 1px solid #999; padding-top: 0.12em; line-height: 1.15; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <p class="gw-ip-banner"><strong>UNOFFICIAL</strong> — fan teaching material, not a Games Workshop product, not endorsed by Games Workshop Limited.</p>
+  <h1>Warhammer 40,000 11e — System cheat sheet</h1>
+  <p class="mini">Page 1 of 2 · Core paraphrase · Bracket IDs = Core Rules · No faction rules · Wound <strong>bands</strong> here; full S×T matrix on page 2</p>
+
+  <h2>Turn sequence <span class="mini">[07.02]</span></h2>
+  <table>
+    <thead><tr><th>#</th><th>Phase</th><th>Do this</th></tr></thead>
+    <tbody>
+      <tr><td>0</td><td>Start of turn</td><td>Start-of-turn triggers</td></tr>
+      <tr><td>1</td><td><strong>Command</strong> [08]</td><td>Both +1 CP · Battle-shock · army/Command abilities</td></tr>
+      <tr><td>2</td><td><strong>Movement</strong> [09]</td><td>Select every unit; give a move type; reserves arrive</td></tr>
+      <tr><td>3</td><td><strong>Shooting</strong> [10]</td><td>Pick shooting type; resolve attacks [05]</td></tr>
+      <tr><td>4</td><td><strong>Charge</strong> [11]</td><td>Roll 2D6 first; move into engagement</td></tr>
+      <tr><td>5</td><td><strong>Fight</strong> [12]</td><td>Pile In → Fight (both players) → Consolidate</td></tr>
+      <tr><td>6</td><td>End of turn</td><td>Non-mission triggers; score mission VP; fix coherency</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cols">
+    <div>
+      <h2>Movement types <span class="mini">[09]</span></h2>
+      <table>
+        <tbody>
+          <tr><td>Remain Stationary</td><td>No move; keeps [HEAVY]</td></tr>
+          <tr><td>Normal</td><td>Up to M″; start &amp; end unengaged</td></tr>
+          <tr><td>Advance</td><td>M+D6; no charge; only [ASSAULT] shoot</td></tr>
+          <tr><td>Fall Back</td><td>Up to M; no shoot / charge / actions</td></tr>
+          <tr><td>Reserves / Ingress</td><td>Arrive from off-board</td></tr>
+        </tbody>
+      </table>
+      <p class="mini"><strong>Engagement:</strong> 2″ horiz / 5″ vert. <strong>Coherency [03.03]:</strong> 2″ to a squadmate + 9″ to every model in the unit.</p>
+
+      <h2>Key distances</h2>
+      <table>
+        <tbody>
+          <tr><td>2″</td><td>Engagement (horiz.); coherency to a squadmate</td></tr>
+          <tr><td>6″</td><td>Ingress: set up within 6″ of a battlefield edge [20.04]</td></tr>
+          <tr><td>8″</td><td>Reserves / Deep Strike: more than 8″ from all enemies</td></tr>
+          <tr><td>9″</td><td>Coherency span: every model within 9″ of all others [03.03]</td></tr>
+        </tbody>
+      </table>
+      <p class="mini">Do not mix 6″ edge ingress with 9″ coherency.</p>
+    </div>
+    <div>
+      <h2>Attack sequence <span class="mini">[05]</span></h2>
+      <table>
+        <tbody>
+          <tr><td><strong>Hit [05.01]</strong></td><td>D6 ≥ BS/WS. Unmod 1 fails. Unmod 6 = critical hit.</td></tr>
+          <tr><td><strong>Wound [05.02]</strong></td><td>S vs T (bands / matrix). Unmod 1 fails. Unmod 6 = critical wound.</td></tr>
+          <tr><td><strong>Save [05.03]</strong></td><td>Armour (AP applies) <em>or</em> invulnerable (no AP). Unmod 1 fails.</td></tr>
+          <tr><td><strong>Damage [05.04]</strong></td><td>Unsaved attacks cost D wounds. Excess does not spill.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Wound bands <span class="mini">[05.02]</span></h2>
+      <table class="bands">
+        <thead><tr><th>Compare</th><th>Need</th></tr></thead>
+        <tbody>
+          <tr><td>S ≥ 2×T</td><td><strong>2+</strong></td></tr>
+          <tr><td>S &gt; T (not 2×)</td><td><strong>3+</strong></td></tr>
+          <tr><td>S = T</td><td><strong>4+</strong></td></tr>
+          <tr><td>S &lt; T but &gt; ½T</td><td><strong>5+</strong></td></tr>
+          <tr><td>S ≤ ½T</td><td><strong>6+</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="mini">Examples: bolter S4 vs T4 → 4+. Melta S9 vs T6 → 3+. S4 vs T7 → 5+.</p>
+
+      <h2>Charge / Fight (pocket)</h2>
+      <ul>
+        <li><strong>Charge:</strong> roll 2D6 first — roll caps targets and distance.</li>
+        <li><strong>Fight:</strong> Pile In 3″ → Fight (Fights First first) → Consolidate 3″.</li>
+        <li>Both players fight; alternate activations.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout"><strong>Cover in 11e:</strong> Benefit of Cover worsens attacker <strong>BS by 1</strong> — it is not a +1 save. Battle-shocked units have <strong>OC 0</strong>.</div>
+
+  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Page 1 of 2</p>
+</section>
+
+<section class="page">
+  <h1>Wound roll matrix — Strength vs Toughness</h1>
+  <p class="mini">Page 2 of 2 · Core <strong>05.02</strong> · Row = attack Strength · Column = target Toughness · Cell = minimum D6 to wound · Unmod <strong>1</strong> always fails · Unmod <strong>6</strong> = critical wound</p>
+
+  <div class="callout"><strong>Quick rules:</strong> S ≥ 2×T → <strong>2+</strong> · S &gt; T → <strong>3+</strong> · S = T → <strong>4+</strong> · S &lt; T (but &gt; ½T) → <strong>5+</strong> · S ≤ ½T → <strong>6+</strong></div>
+
+  <table class="matrix">
+    <thead>
+      <tr><th class="rowhdr">S\T</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th></tr>
+    </thead>
+    <tbody>
+<tr><th class="rowhdr">1</th><td>4+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td></tr>
+<tr><th class="rowhdr">2</th><td>2+</td><td>4+</td><td>5+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td></tr>
+<tr><th class="rowhdr">3</th><td>2+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td></tr>
+<tr><th class="rowhdr">4</th><td>2+</td><td>2+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td></tr>
+<tr><th class="rowhdr">5</th><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td><td>6+</td></tr>
+<tr><th class="rowhdr">6</th><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>6+</td><td>6+</td><td>6+</td></tr>
+<tr><th class="rowhdr">7</th><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>6+</td></tr>
+<tr><th class="rowhdr">8</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td></tr>
+<tr><th class="rowhdr">9</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td></tr>
+<tr><th class="rowhdr">10</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td><td>5+</td></tr>
+<tr><th class="rowhdr">11</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>5+</td></tr>
+<tr><th class="rowhdr">12</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td></tr>
+<tr><th class="rowhdr">13</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td></tr>
+<tr><th class="rowhdr">14</th><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>3+</td><td>4+</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cols">
+    <div>
+      <h2>Your guns → common T (Blood Ravens 500)</h2>
+      <table>
+        <thead><tr><th>Weapon S</th><th>vs T4</th><th>vs T5</th><th>vs T6</th><th>vs T8</th><th>vs T10</th></tr></thead>
+        <tbody>
+          <tr><td>Bolter / flamer S4</td><td>4+</td><td>5+</td><td>5+</td><td>6+</td><td>6+</td></tr>
+          <tr><td>Heavy bolter S5</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td><td>6+</td></tr>
+          <tr><td>Assault cannon S6</td><td>3+</td><td>3+</td><td>4+</td><td>5+</td><td>5+</td></tr>
+          <tr><td>Plasma cannon S7</td><td>3+</td><td>3+</td><td>3+</td><td>5+</td><td>5+</td></tr>
+          <tr><td>Krak / fist S8–9</td><td>2+/2+</td><td>3+/3+</td><td>3+/3+</td><td>4+/3+</td><td>5+/5+</td></tr>
+          <tr><td>Lascannon S12</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>3+</td></tr>
+        </tbody>
+      </table>
+      <p class="mini">Oath +1 Wound shifts the band one step easier when it applies.</p>
+    </div>
+    <div>
+      <h2>Reserves pocket</h2>
+      <ul>
+        <li><strong>Strategic Reserves:</strong> arrive from BR2; usually 6″ of edge + &gt;8″ enemies; ≤50% points; gone if still off end of BR3.</li>
+        <li><strong>Deep Strike:</strong> anywhere &gt;8″ from enemies.</li>
+        <li><strong>Rapid Ingress (1CP):</strong> end of their Movement; not BR1.</li>
+      </ul>
+      <h2>OC pocket <span class="mini">[14]</span></h2>
+      <ul>
+        <li>Sum OC on the objective <strong>footprint</strong>.</li>
+        <li>Higher controls; tie = nobody.</li>
+        <li>Battle-shocked = OC 0.</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="gw-ip-footer"><strong>UNOFFICIAL.</strong> This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos. Page 2 of 2</p>
+</section>
+
+</body>
+</html>
