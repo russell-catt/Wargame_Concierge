@@ -56,16 +56,35 @@ def chrome_bin() -> str | None:
 
 def render_chrome(html_path: Path, pdf_path: Path, chrome: str) -> None:
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
-    # CSS @page { size: letter } drives dimensions; no header/footer chrome.
-    cmd = [
-        chrome,
-        "--headless=new",
-        "--disable-gpu",
-        "--no-pdf-header-footer",
-        f"--print-to-pdf={pdf_path}",
-        html_path.as_uri(),
-    ]
-    subprocess.run(cmd, check=True, capture_output=True)
+    # Unique profile avoids SingletonLock races; timeout because headless
+    # Chrome often hangs after writing the PDF in this environment.
+    import tempfile
+    import time
+
+    with tempfile.TemporaryDirectory(prefix="chrome-pdf-") as prof:
+        cmd = [
+            chrome,
+            "--headless=new",
+            "--disable-gpu",
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "--no-pdf-header-footer",
+            f"--user-data-dir={prof}",
+            f"--print-to-pdf={pdf_path}",
+            html_path.as_uri(),
+        ]
+        try:
+            subprocess.run(cmd, check=False, capture_output=True, timeout=45)
+        except subprocess.TimeoutExpired:
+            # PDF is usually already on disk when Chrome stalls after write.
+            pass
+        # Brief settle for filesystem flush
+        for _ in range(20):
+            if pdf_path.is_file() and pdf_path.stat().st_size > 1000:
+                return
+            time.sleep(0.25)
+        raise RuntimeError(f"Chrome did not produce PDF: {pdf_path}")
+
 
 
 async def render_playwright(html_path: Path, pdf_path: Path) -> None:
