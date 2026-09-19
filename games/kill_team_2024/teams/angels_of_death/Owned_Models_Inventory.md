@@ -1,8 +1,8 @@
 <!--
 FILE: games/kill_team_2024/teams/angels_of_death/Owned_Models_Inventory.md
-VERSION: v1.4 (2026-08-21)
+VERSION: v1.5 (2026-09-12)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — Pics ownership pass 2026-08-21)
+AUTHOR_OF_NOTES: Cursor (Implementer — Indomitus Assault Intercessor pool sync 2026-09-12)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -13,6 +13,7 @@ REFERENCE_STATUS: Active — expanded photo ID 2026-08-21 from C:\Personal\40K\P
 SOURCES:
   - C:\Personal\40K\Pics\AOD_*.HEIC, Angels_of_Death.HEIC, Captain_gravis_Shield.HEIC (read 2026-08-21; previews under C:\Personal\40K\Pics\_preview\root\)
   - Earlier chat photo ID 2026-08-21: five used Primaris Intercessors (BT paint, not played as BT) + Lieutenant Titus (40K only)
+  - Owner 2026-09-12: Indomitus SM half selection includes Assault Intercessors ×10 (assembled, unprimed) — expands AoD Assault pool once painted; see 40K SM inventory
   - games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md
   - https://wahapedia.ru/kill-team3/kill-teams/angel-of-death/ (retrieved 2026-08-17)
 
@@ -21,7 +22,8 @@ PURPOSE:
 
 UPDATE_TRIGGER:
   Update when loadout mismatches are resolved (Grenadier / Assault Sergeant),
-  bases confirmed for dual-legality, or chapter/proxy play preference changes.
+  bases confirmed for dual-legality, chapter/proxy play preference changes,
+  or Indomitus Assault Intercessors are primed/painted.
 -->
 
 # Angels of Death — Owned Models Inventory
@@ -71,13 +73,13 @@ Binaries stay outside git. Previews (not committed): `C:\Personal\40K\Pics\_prev
 | Assault Intercessor Sergeant | ⌀32mm | **Provisional** | Partial | Assault Intercessor Squad | `AOD_Assault Sergeant` — loadout mismatch; pending |
 | Intercessor Sergeant | ⌀32mm | **Yes** (≥2) | **Yes** | Intercessor Squad | Used BT set + `AOD_Sergeant` |
 | Assault Intercessor Grenadier | ⌀32mm | **Provisional** | **Yes** | Assault Intercessor Squad | `AOD Grenadier` — photo ≠ classic grenadier |
-| Assault Intercessor Warrior | ⌀32mm | **Yes** (≥2) | **Yes** | Assault Intercessor Squad | Used set + yellow `AOD_Assault_Intercessor` |
+| Assault Intercessor Warrior | ⌀32mm | **Yes** (≥2 painted; **+10** unprimed) | Mixed | Assault Intercessor Squad | Used set + yellow `AOD_Assault_Intercessor` painted. **Indomitus ×10** (2026-09-12) assembled bare plastic — paint before KT use |
 | Eliminator Sniper | ⌀40mm | **Yes** | **Yes** | Eliminator Squad | `AOD_Sniper` |
 | Heavy Intercessor Gunner | ⌀40mm | **Yes** | **Yes** | Heavy Intercessor Squad | `AOD_Heavy_Int` (Blood Ravens) |
 | Intercessor Gunner | ⌀32mm | **Not confirmed** | — | Intercessor Squad | Still no grenade-launcher Intercessor |
 | Intercessor Warrior (×N) | ⌀32mm | **Yes** (≥4) | **Yes** | Intercessor Squad | Used set ×3 + `AOD_intercessor` (+ DW-painted body if proxied) |
 
-**Playable tonight for KT:** a legal **1+5** is **plausible** using Captain or Intercessor Sergeant + Eliminator + Heavy Intercessor + Assault Warrior + Intercessor Warriors — but treat Grenadier / Assault Sergeant slots as **proxy-only** until loadouts match. Casual with opponent agreement is fine.
+**Playable tonight for KT:** a legal **1+5** is **plausible** using Captain or Intercessor Sergeant + Eliminator + Heavy Intercessor + Assault Warrior + Intercessor Warriors — but treat Grenadier / Assault Sergeant slots as **proxy-only** until loadouts match. Casual with opponent agreement is fine. The Indomitus Assault Intercessors are **not** KT-ready until primed/painted.
 
 ---
 
@@ -116,6 +118,7 @@ Binaries stay outside git. Previews (not committed): `C:\Personal\40K\Pics\_prev
 
 ## Change Log
 
+- v1.5 (2026-09-12): Indomitus SM half — Assault Intercessors ×10 assembled/unprimed expand Assault Warrior pool once painted; not KT-ready yet. Captain with relic shield remains 40K-only (same box provenance).
 - v1.4 (2026-08-21): Dual-legal lock — Intercessors / Heavy Int / Eliminator **yes**; Gravis relic-shield Captain **40K only**.
 - v1.3 (2026-08-21): Pics folder photo ID — Captain, Eliminator, Heavy Intercessor, Intercessors confirmed; Grenadier / Assault Sergeant provisional; relic-shield Captain (filename Gravis) noted; dual-use into Codex SM.
 - v1.2 (2026-08-21): Lieutenant Titus noted as **40K-only** (wrong base for KT) — does not fill Captain slot.
