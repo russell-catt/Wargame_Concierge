@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/How_Your_Army_Works_500.md
-VERSION: v1.1 (2026-09-18)
+VERSION: v1.2 (2026-09-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent — son play pack)
 
@@ -22,17 +22,18 @@ SOURCES:
 
 PURPOSE:
   How the son’s 500 Gladius list should work — unit jobs, Oath of Moment,
-  Terminators + reserves toolkit, and all five Priority Assets Primaries.
+  Terminators + reserves toolkit, all five Priority Assets Primaries, and
+  every CP spend (Core + Gladius) on paper — no app required.
 
 PRINT_NOTE:
-  Print HTML: print/40k_sm_how_army_works_500.html — 4 Letter pages.
+  Print HTML: print/40k_sm_how_army_works_500.html — 5 Letter pages.
 
 UPDATE_TRIGGER:
-  List composition change, Core/faction errata to Oath / Deep Strike / Rapid Ingress,
-  or Chapter Approved / Event Companion Primary text change.
+  List composition change, Core/faction errata to Oath / Deep Strike / Rapid Ingress /
+  stratagems, or Chapter Approved / Event Companion Primary text change.
 -->
 
-# How your army works — 500 Gladius | Page 1 of 4
+# How your army works — 500 Gladius | Page 1 of 5
 
 > **FORCE DISPOSITION: PRIORITY ASSETS**  
 > MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
@@ -86,7 +87,7 @@ Skipping a round is fine. **Adaptive Strategy (1CP)** puts **one unit** into any
 
 <!-- pagebreak -->
 
-# How your army works — 500 Gladius | Page 2 of 4
+# How your army works — 500 Gladius | Page 2 of 5
 
 ## The five Primaries (you = Priority Assets)
 
@@ -126,7 +127,7 @@ Skipping a round is fine. **Adaptive Strategy (1CP)** puts **one unit** into any
 
 <!-- pagebreak -->
 
-# How your army works — 500 Gladius | Page 3 of 4
+# How your army works — 500 Gladius | Page 3 of 5
 
 ### 4. Extract Relic — vs **Disruption**
 
@@ -177,7 +178,7 @@ Skipping a round is fine. **Adaptive Strategy (1CP)** puts **one unit** into any
 
 <!-- pagebreak -->
 
-# How your army works — 500 Gladius | Page 4 of 4
+# How your army works — 500 Gladius | Page 4 of 5
 
 ## Terminators — reserves toolkit
 
@@ -222,13 +223,62 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 - Terminators arrived turn 2 (or Rapid Ingress) without dying to “set up at 7″.”  
 - Captain + Tacticals spent more time on an objective (or finishing an Action) than chasing models off the board.  
 - You knew **which** of the five Primaries you were on before turn 1.
+- You looked at the **CP spends** page when you wanted a ploy (no app).
+
+<!-- pagebreak -->
+
+# How your army works — 500 Gladius | Page 5 of 5
+
+## CP spends (stratagems / “ploys”) — paper sheet
+
+40K calls these **Stratagems**. Same idea as Kill Team ploys: spend **CP**, pick one, resolve it.  
+**Start each battle round:** both players gain **+1 CP** in the Command phase. Captain **Rites of Battle** can discount **one** stratagem by 1CP once per round (ability, not a stratagem).
+
+**Rules for every spend:** same stratagem **once per phase**; normally **one stratagem per unit per phase**; **battle-shocked** units cannot be targeted by your stratagems.  
+**confidence: draft** — teaching paraphrase from [`Gladius_Task_Force.md`](Gladius_Task_Force.md) + Core glossary; verify on Core + faction pack cards before events.
+
+### On Space Marine Turn
+
+| Spend | CP | When | What it does (short) | Son tip |
+|-------|----|------|----------------------|---------|
+| **Adaptive Strategy** *(Gladius)* | 1 | Your **Command** | Put **one** Astartes unit into any Combat Doctrine — even one already used, even if no army doctrine is active | Best “oops I need Fall Back + shoot” button for one unit |
+| **Storm of Fire** *(Gladius)* | 1 | Your **Shooting** | That unit’s ranged weapons get **[IGNORES COVER]**; under **Devastator Doctrine** also **+1 AP** | Devs / Terms shooting the Oath target |
+| **Honour the Chapter** *(Gladius)* | 1 | Your **Fight** | That unit’s melee gets **[LANCE]**; under **Assault Doctrine** also **+1 AP** | Terms / Captain brick on the all-in fight |
+| **Only in Death Does Duty End** *(Gladius)* | 2 | Your **Fight** | Models destroyed before they swung still get to fight before removal | Expensive — save for a swingy Terminator fight |
+| **Insane Bravery** *(Core)* | 1 | Your **Command** | Auto-pass one Battle-shock test (**once per battle**) | Keep OC on the mid objective |
+| **Epic Challenge** *(Core)* | 1 | Your **Fight** | Captain’s melee gains **[PRECISION]** for that fight | Duelling their character in the Tac brick |
+| **Explosives** *(Core)* | 1 | Your **Shooting** | One model throws a grenade / explosives profile (if the datasheet has it) | Tacticals only if the sheet lists grenades — skip if unsure |
+
+### On Opponent Turn
+
+| Spend | CP | When | What it does (short) | Son tip |
+|-------|----|------|----------------------|---------|
+| **Squad Tactics** *(Gladius)* | 1 | Enemy finishes a move **within 8″** of your Astartes unit | That unit makes a **reactive move D6″** (full **6″** if under **Tactical Doctrine**) | Scoot off a lane or onto an objective after they approach |
+| **Armour of Contempt** *(Gladius)* | 1 | Enemy attacks target your Astartes unit | Worsen the **AP** of those attacks by **1** (until that attacking unit finishes) | Terms / Captain brick when the big gun swings |
+| **Rapid Ingress** *(Core)* | 1 | **End of their Movement** | Bring a reserves unit in early (Deep Strike → **>8″** anywhere). **Not in battle round 1** | Default Terminator trick — arrive, then act on *your* next turn |
+| **Fire Overwatch** *(Core)* | 1 | Enemy unit moves / Advances / Falls Back / Charges within range | Your unit shoots them (**snap / Overwatch** — usually hits on unmodified **6s**; check Core card) | Devs or Terms when they walk into a gun lane |
+| **Smokescreen** *(Core)* | 1 | Your unit is chosen as a ranged target | That unit counts as being under a smoke / cover benefit for the attack (verify Core wording) | Soften a Devastator volley into your brick |
+| **Heroic Intervention** *(Core)* | 1 | **End of their Charge** | One of your units charges back (strike the charger, or a short capped charge — verify card) | Protect the objective when they charge something else nearby |
+| **Counter-offensive** *(Core)* | 2 | Their **Fight** (after they pick a fighter) | Your unit gains **Fights First** / next activation interrupt (verify Core card) | Premium — only when the fight order would lose you the brick |
+
+### Other
+
+| Spend / note | CP | When | What it does (short) | Son tip |
+|--------------|----|------|----------------------|---------|
+| **Command Re-roll** *(Core)* | 1 | After **you** make a Hit, Wound, Save, Charge, Advance, Battle-shock, etc. roll | Re-roll that roll (one dice or one test — follow the Core card) | Either player’s turn. Best on a failed charge or a key Oath wound |
+| **Snap Shooting** *(Core)* | 1 | Check Core card for trigger | Restricted shooting mode / related reactive shoot — **read the card**; do not invent timing | If the laminate and Core disagree, **Core wins** |
+| **Crushing Impact** *(Core)* | 1 | Vehicle / Monster charge tricks | **N/A this list** — no vehicles | Ignore until you add a tank |
+| **Captain — Rites of Battle** | — | Once / round | Discount **one** stratagem targeting his unit (or as datasheet says) by **1CP** | Say it out loud: “Rites — this one’s free / cheaper” |
+| **Combat Doctrines** | **0** | Your Command | Free once-each army permissions (Advance+shoot / Fall Back+shoot+charge / Advance+charge) | Not CP — **Adaptive Strategy** is the CP version for one unit |
+
+**Default first-game CP plan:** bank for **Rapid Ingress** (Terms) · **Armour of Contempt** when the brick is shot · **Command Re-roll** on a charge · **Adaptive Strategy** if one unit is stuck. Don’t blow 2CP on Only in Death / Counter-offensive until games 3+.
 
 ---
 
 ## Related
 
 - [`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md)  
-- [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md)  
+- [`Gladius_Task_Force.md`](Gladius_Task_Force.md) · [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md)  
 - [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md)  
 - [`../necrons/Cryptek_Conclave_Primary_Missions.md`](../necrons/Cryptek_Conclave_Primary_Missions.md) (same Priority Assets Primary set)  
 - [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) · [`../../rules/Keyword_Glossary.md`](../../rules/Keyword_Glossary.md)  
@@ -242,6 +292,7 @@ Terminators have **Deep Strike**. That changes *where* they can arrive, not *whe
 
 ## Change Log
 
+- v1.2 (2026-09-19): Added page 5 — all CP spends (Gladius + Core) split On Space Marine Turn / On Opponent Turn / Other for paper play without the app.
 - v1.1 (2026-09-18): Added all five Priority Assets Primaries (Secure Asset / Vital Link / Sabotage / Extract Relic / Vanguard Operation) with Gladius 500 keys; FORCE DISPOSITION banner in all caps; expanded to 4 pages.
 - v1.0 (2026-09-18): Initial 2-pager for son 500 Gladius pack (roles, Oath, Terminator reserves toolkit).
 

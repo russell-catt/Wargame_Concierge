@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Son_Play_Pack_500.md
-VERSION: v1.1 (2026-09-18)
+VERSION: v1.2 (2026-09-19)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (cloud agent)
 
@@ -21,7 +21,7 @@ Print these three Letter aids (HTML → PDF outside the repo). All are **UNOFFIC
 | Aid | Markdown | Print HTML | Pages |
 |-----|----------|------------|-------|
 | **Army list (all stats)** | [`Army_List_500_Matched_Statted.md`](Army_List_500_Matched_Statted.md) | [`print/40k_sm_army_list_500.html`](print/40k_sm_army_list_500.html) | 2 |
-| **How your army works** (roles, Oath, Terminator reserves, **all five Priority Assets Primaries**) | [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) | [`print/40k_sm_how_army_works_500.html`](print/40k_sm_how_army_works_500.html) | 4 |
+| **How your army works** (roles, Oath, Terminator reserves, **all five Priority Assets Primaries**, **CP spends / ploys**) | [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) | [`print/40k_sm_how_army_works_500.html`](print/40k_sm_how_army_works_500.html) | 5 |
 | **11e cheat sheet + wound matrix** | (system spine; pack copy) | [`print/40k_11e_cheat_sheet_wounds.html`](print/40k_11e_cheat_sheet_wounds.html) | 2 |
 
 **List:** Captain — Indomitus Primaris, HBP + power sword + Relic Shield (**80**, W6) + Tacticals (**140**) + Devastators (**120**) + Terminators (**160**) = **500**. Detachment: Gladius. **FORCE DISPOSITION: PRIORITY ASSETS**.
@@ -38,5 +38,6 @@ Print these three Letter aids (HTML → PDF outside the repo). All are **UNOFFIC
 
 ## Change Log
 
+- v1.2 (2026-09-19): How-army-works page 5 — all CP spends (On Space Marine Turn / On Opponent Turn / Other) for paper play without the app.
 - v1.1 (2026-09-18): How-army-works now includes all five Priority Assets Primaries (4 pages); army list Force Disposition banner in all caps.
 - v1.0 (2026-09-18): Initial son play pack index.
