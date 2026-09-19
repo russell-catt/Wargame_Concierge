@@ -31,8 +31,8 @@ UPDATE_TRIGGER:
 
 # CRYPTEK CONCLAVE — PRIORITY ASSETS PRIMARIES | Page 1 of 2
 
-> **FORCE DISPOSITION:** **Priority Assets**  
-> MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`  
+> **FORCE DISPOSITION: PRIORITY ASSETS**  
+> MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS` — write on the list before you deploy  
 > How matching works: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38: [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound: [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 You always play **your** Priority Assets Primary. Opponent’s Disposition picks **which** of the five below. Caps: **15VP**/round · **45VP**/game. Round 5 objective scoring often moves to **end of turn** if you go second — check the card.
