@@ -34,7 +34,7 @@ UPDATE_TRIGGER:
 |-------|-------|
 | **Points** | **995 / 1,000** *(or **955** if Incursion allows only one enhancement — see below)* |
 | **Buy** | **$0** — Hierotek proxies OK (opponent OK). Optional later: real Plasmancer / Warden for events |
-| **Bench** | Paint primed Warriors / Scarabs / Immortals; **prime + paint Doomstalker** |
+| **Bench** | Hobby only — prime/paint when you want. **Newbie-friendly events: grey plastic / primed OK to field** |
 | **vs old V2** | Replaces **Illuminor Szeras + Lychguard** shopping with owned **Doomstalker** |
 
 ---
@@ -48,7 +48,7 @@ UPDATE_TRIGGER:
 | 3 | Plasmancer *(Apprentek proxy)* | 1 | 60 | OWNED proxy — Hierotek |
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 | OWNED proxy — Hierotek |
 | 5 | Necron Warriors | 20 | 190 | OWNED (10 painted + 10 primed) |
-| 6 | Immortals | 10 | 140 | OWNED (Hierotek Guardians + both primed boxes — paint before play) |
+| 6 | Immortals | 10 | 140 | OWNED (Hierotek Guardians + both primed boxes — hobby paint later) |
 | 7 | Canoptek Scarab Swarms | 6 | 80 | OWNED (3 painted + 3 primed) |
 | 8 | Canoptek Tomb Crawlers | 2 | 50 | OWNED — Tomb World |
 | 9 | Canoptek Macrocytes | 5 | 70 | OWNED — Tomb World |
@@ -114,7 +114,7 @@ Other unit cards: [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md)
 ## Pre-game checklist
 
 - [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; **FORCE DISPOSITION: PRIORITY ASSETS**
-- [ ] Doomstalker primed + painted enough to field (or opponent OK with grey plastic)
+- [ ] Models assembled enough to tell units apart (grey plastic / primed fine at newbie-friendly events)
 - [ ] Warriors merged to 20 / Immortals to 10 painted enough to field
 - [ ] Attachments written: Warriors ← Warden + Geomancer; Immortals ← Techno or Plasmancer proxy
 - [ ] Opponent agrees Apprentek→Plasmancer and Despotek→Warden proxies
@@ -139,6 +139,7 @@ Other unit cards: [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md)
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · Doomstalker pts **140** (v1.2 / Wahapedia 2026-09-24) · verify owned PDFs.
 
 ## Change Log
+- v1.1 (2026-09-24): Owner note — newbie-friendly events; grey plastic / primed OK (paint not required to field).
 - v1.0 (2026-09-24): Initial Doomstalker + Hierotek Conclave 1000 path after owner assembled Doomstalker.
 
 ## Attribution

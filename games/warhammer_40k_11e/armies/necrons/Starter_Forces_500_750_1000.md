@@ -199,7 +199,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 |----------------|-----|
 | Geomancer + Technomancer + Plasmancer proxy + Warden proxy | 75+80+**60**+50 = **265** |
 | Warriors (20) | **190** |
-| Immortals (10) | **140** *(both primed boxes + Hierotek Guardians — paint before play)* |
+| Immortals (10) | **140** *(both primed boxes + Hierotek Guardians — hobby paint later; OK grey/primed at newbie events)* |
 | Scarabs (6) + Tomb Crawlers + Macrocytes | 80+50+70 = **200** |
 | **Canoptek Doomstalker** | **140** *(OWNED — prime/paint)* |
 | **Body total** | **935** |
@@ -213,7 +213,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 
 **Attachments:** Warden + Geomancer on 20 Warriors; Technomancer *or* Plasmancer proxy on Immortals; Doomstalker as backline anti-tank (no Conclave menu).
 
-**Bench:** paint primed infantry/Scarabs; **prime + paint Doomstalker**.
+**Bench (hobby only):** prime Doomstalker when convenient; paint whenever. Newbie-friendly events — field grey plastic / primed.
 
 ### V2 - finished with purchases - 1,000 / 1,000
 
@@ -266,7 +266,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 2. 2nd Scarab set  
 3. 2nd Warrior squad (needed for 750+ / 1,000)  
 4. Buy Plasmancer (unlocks V2 at every size)  
-5. For 1,000 V1: prime/paint Doomstalker + Immortals to 10 (no Szeras/Lychguard required)  
+5. For 1,000 V1: field Doomstalker + Immortals to 10 (no Szeras/Lychguard; paint optional at newbie events)  
 6. Optional V2 still: Szeras + Lychguard if you want that cast instead of / as well as Doomstalker  
 7. Base rings / real Warden when you care about matched play  
 
@@ -290,6 +290,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v1.6 (2026-09-24): Newbie-friendly events — grey plastic / primed OK; paint not required to field 1000 V1.
 - v1.5 (2026-09-24): 1,000 V1 rewritten around owned **Canoptek Doomstalker** + Hierotek proxies + Immortals to 10 (**995** kitchen / **955** single-enhancement). Linked [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md). V2 Szeras/Lychguard path retained as alternate.
 - v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**. 500 V1/V2 drop the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500. 750 V1/V2 swap Quantum Abacus → Atomic Disintegrators in the enhancement stack (also fixes a pre-existing v1.2 addition error) to land exactly on 750. 1,000 V1 ceiling 720→**725**, shortfall 280→**275**. 1,000 V2 drops Atomic Disintegrators + Gravitic Bolas (owner-safe cut, keeps Gauntlet of Compression only; also fixes a pre-existing v1.2 addition error) to land exactly on 1,000.
 - v1.3 (2026-08-19): MFM v1.2 re-read — Tomb Crawlers **50**, Macrocytes **70**. Linked Army_List_750/1000 play sheets; 750/1000 rebalance; V1 ceiling 720 without purchases.
