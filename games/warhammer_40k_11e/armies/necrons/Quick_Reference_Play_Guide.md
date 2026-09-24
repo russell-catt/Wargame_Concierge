@@ -145,7 +145,7 @@ Spend each reanimated wound in this order:
 | Necron Warriors | 10 | **85** | **OWNED** - Tomb World (MFM Necrons **v1.3**, owner paste 2026-08-27, draft) |
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World (MFM v1.2) |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** (MFM v1.2) |
-| Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (build 2nd 3 before play) |
+| Canoptek Scarab Swarms | 3 / 6 | **40 / 80** | **OWNED** (2nd 3 primed — paint before play). Sheet: Self-destruction + Chittering swarm — see research note |
 | Immortals / Technomancer | 5 / 1 | **70 / 80** | Immortals sprue; Technomancer Hierotek **OWNED** |
 | Plasmancer (Support) | 1 | **60** | Not owned — buy / Apprentek proxy (MFM v1.3, was 55) |
 
