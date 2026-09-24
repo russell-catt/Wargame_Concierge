@@ -48,15 +48,15 @@ WD527 commentary provenance (system README): owned digital backup purchased Trin
 
 ---
 
-## Current collection status (2026-09-17)
+## Current collection status (2026-09-24)
 
 | Category | Detail |
 |----------|--------|
 | **Game-ready now (preferred learning baseline)** | **Kill Team: Tomb World** - Cryptek Geomancer (1), Canoptek Tomb Crawlers (2), Canoptek Macrocytes (5), Necron Warriors (10 — **5 reaper / 5 flayer**), Canoptek Scarab Swarms (3). All assembled and painted. |
 | **Also game-ready** | Hierotek Circle (photo ID 2026-08-17): Technomancer, 3 Immortal Guardians, Despotek, Apprentek, 2 Plasmacytes. See inventory for legal vs proxy. |
-| **Owned — base & paint before play** | 2nd Warriors (10 — **5 reaper / 5 flayer**), 2nd Scarab Swarms (3) — assembled off-base, unpainted; **2nd Immortals (5 — all tesla carbines)** — assembled, based, primed (2026-09-17) |
-| **Owned — build before play** | 5 Immortals (1st box) — still unassembled |
-| **Ownership totals** | 20 Warriors, 6 Scarab Swarms, Geomancer, Tomb Crawlers, Macrocytes, Technomancer, Immortals (Hierotek + sprue + tesla squad), Apprentek/Plasmacytes (see dual-legality) |
+| **Owned — paint before play** | 2nd Warriors (10 — **5 reaper / 5 flayer**), 2nd Scarab Swarms (3), **1st Immortals (5 — all gauss blasters)** — based + primed 2026-09-24; **2nd Immortals (5 — all tesla carbines)** — primed 2026-09-17; **Canoptek Doomstalker** — assembled, unprimed 2026-09-24 |
+| **Owned — build before play** | *(none for Warriors / Scarabs / Immortals boxes)* |
+| **Ownership totals** | 20 Warriors, 6 Scarab Swarms, Geomancer, Tomb Crawlers, Macrocytes, Technomancer, Immortals (Hierotek + gauss squad + tesla squad), Apprentek/Plasmacytes (see dual-legality) |
 
 See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
@@ -124,6 +124,8 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.10 (2026-09-24): Canoptek Doomstalker assembled (unprimed); Conclave 1000 Doomstalker path added.
+- v0.5.9 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed.
 - v0.5.8 (2026-09-17): 2nd Immortals (5) purchased — **tesla carbines**, primed; 1st Immortals box still on sprue.
 - v0.5.7 (2026-09-17): Collection status — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.6 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: the two v1.2 items relevant to this collection (Cryptek Support-not-Leader, Canoptek Court's 9"→8" stratagem range) were already correctly taught on [`Cryptek_Conclave.md`](Cryptek_Conclave.md) / [`Canoptek_Court.md`](Canoptek_Court.md) from the v1.1 errata pass. Cursed Legion (Unnatural Aggression) and Night Scythe FRAME/stat notes are not taught on any page in this collection — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`.

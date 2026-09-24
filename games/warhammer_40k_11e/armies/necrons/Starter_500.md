@@ -72,7 +72,7 @@ The detachment the Tomb World box already leans toward - Geomancer, Tomb Crawler
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
-| Canoptek Scarab Swarms (2nd set) | 3 | **40** | **OWNED** - sprue, build before play |
+| Canoptek Scarab Swarms (2nd set) | 3 | **40** | **OWNED** - based + primed, paint before play |
 | | | **360** | Zero purchases, one bench evening — MFM v1.3 (was 355 under v1.2) |
 
 **How it is meant to be arranged:**
@@ -97,7 +97,7 @@ The detachment the Immortals and Hierotek proxies feed. See [`Cryptek_Conclave.m
 | Canoptek Tomb Crawlers | 2 | **50** | **OWNED** - Tomb World |
 | Canoptek Macrocytes | 5 | **70** | **OWNED** - Tomb World |
 | Canoptek Scarab Swarms | 3 | **40** | **OWNED** - Tomb World |
-| Immortals | 5 | **70** | **OWNED** - sprue + Hierotek Guardians |
+| Immortals | 5 | **70** | **OWNED** - 1st box primed (**gauss blasters**) + Hierotek Guardians |
 | Plasmancer *(Apprentek proxy)* | 1 | **60** | **OWNED** proxy - Hierotek |
 | | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; **Atomic Disintegrators enhancement dropped** (owner-safe cut, -10) to absorb the +10 delta and stay exactly on 500 |
 
@@ -122,8 +122,8 @@ Optional extras (swap in if rebalancing): **Technomancer** (Hierotek, **80** pts
 | Canoptek Tomb Crawlers (2) | 50 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Macrocytes (5) | 70 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
 | Canoptek Scarab Swarms (3) | 40 | **OWNED** (Tomb World) | **OWNED** (Tomb World) |
-| Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - sprue | - |
-| Immortals (5) | 70 | - | **OWNED** - sprue |
+| Canoptek Scarab Swarms (2nd set, 3) | 40 | **OWNED** - primed | - |
+| Immortals (5) | 70 | - | **OWNED** - primed (gauss blasters) |
 | Canoptek Wraiths (3) | 95 | Optional (full 500) | - |
 | Plasmancer | **60** | - | Buy for events (Apprentek proxy kitchen-table only) |
 | Technomancer | 80 | Optional extra Cryptek | **OWNED** (Hierotek) |
@@ -148,7 +148,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 
 ## Before you play this size
 
-- [ ] Everything in the chosen list is built. Unassembled models are not units - build the sprue extras (2nd Scarabs for Path A, or Immortals for Path B) first.
+- [ ] Everything in the chosen list is painted enough to field. Primed extras (2nd Scarabs for Path A, or Immortals for Path B) still need paint before play.
 - [ ] Re-check every cost against the current Munitorum Field Manual - patches happen.
 - [ ] Write your detachment, characters, and attachments down **before** deployment. **Attached units** (`19.01`) are declared pre-game and cannot be changed mid-battle.
 - [ ] Print the two-page [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md).
@@ -174,6 +174,7 @@ Retail and second-hand price tracking for genuinely-unowned models lives in [`Ne
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v0.5.5 (2026-09-24): Ownership note — 2nd Warriors + Scarabs + 1st Immortals (**gauss blasters**) based + primed; paint remaining.
 - v0.5.4 (2026-09-17): Ownership note — 2nd Warriors + Scarabs are assembled (base/paint remaining); Immortals still on sprue.
 - v0.5.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Warriors 80→**85**, Plasmancer 55→**60**. Foundation 315→**320**; Path A 355→**360**; full-500 Wraiths variant re-solved (dropped Quantum Abacus, a pre-existing v1.2 arithmetic error, to land exactly on 500); Path B drops the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500; cheaper no-proxy variant 315/385→**320/390**.
 - v0.5.1 (2026-08-19): Linked dual-path [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md) (Hierotek proxies in V1).

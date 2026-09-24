@@ -67,9 +67,10 @@ These are **assemble-to-expand** kits - they grow the Tomb World force at 500 po
 | What you own | State | Consequence |
 |--------------|-------|-------------|
 | Canoptek Macrocytes (5) | Kill Team: Tomb World - **game-ready**, just not needed at 250 pts | Slot in any time; see Starter_500 |
-| Necron Warriors (10, 2nd squad) | Assembled (off-base), **unpainted** | Base & paint before play — **5 reaper / 5 flayer**; merges into a 20-model block later |
-| Canoptek Scarab Swarms (3, 2nd set) | Assembled (off-base), **unpainted** | Base & paint before play — merges into a 6-model block later |
-| Immortals (5) | Purchased, **unassembled** | Build before play |
+| Necron Warriors (10, 2nd squad) | Assembled (based), **primed** | Paint before play — **5 reaper / 5 flayer**; merges into a 20-model block later |
+| Canoptek Scarab Swarms (3, 2nd set) | Assembled (based), **primed** | Paint before play — merges into a 6-model block later |
+| Immortals (5, 1st box) | Assembled (based), **primed** | Paint before play — **gauss blasters** |
+| Immortals (5, 2nd box) | Assembled (based), **primed** | Paint before play — **tesla carbines** |
 | Hierotek Circle Kill Team set | Assembled and painted - **game-ready** | Photo ID done — Technomancer, Immortals, Despotek, Apprentek, Plasmacytes. See inventory. |
 
 ---
@@ -108,7 +109,7 @@ Three units is enough to practise everything that matters and few enough to fini
 ## Before the first game
 
 - [x] Nothing to build - the Tomb World list above is ready tonight.
-- [ ] (Optional) Base & paint the 2nd Warriors + Scarabs, and build the Immortals sprue, when you have bench time — unlocks Starter_500.
+- [ ] (Optional) Paint the primed 2nd Warriors + Scarabs + Immortals when you have bench time — unlocks fuller Starter_500 options.
 - [ ] **Purchase 25–28mm base rings** for Hierotek Plasmacytes (two) — 40K footprint without rebasing.
 - [x] Hierotek Circle photo ID is done — see inventory for proxies vs legal datasheets.
 - [x] Update [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) with any results.
@@ -139,6 +140,7 @@ Three units is enough to practise everything that matters and few enough to fini
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v0.5.5 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed.
 - v0.5.4 (2026-09-17): 2nd Warriors + Scarabs moved to assembled / off-base / unpainted (**5 reaper / 5 flayer**); Immortals remain on sprue.
 - v0.5.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**. Tomb World list now lands exactly on **250** (was 245/250 under v1.2); minimal three-unit variant 205→**210**.
 - v0.5.1 (2026-08-19): Linked [`Starter_Forces_500_750_1000.md`](Starter_Forces_500_750_1000.md).

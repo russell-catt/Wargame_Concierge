@@ -82,7 +82,7 @@ Five habits to build:
 - **Move for the Matrix, not just for the objective.** Taking one more midfield objective can be worth more than the objective itself, because it upgrades every Cryptek and Canoptek unit for the phase.
 - **Keep units wholly inside.** Measure the trailing model. A unit half in and half out of No Man's Land gets the weaker benefit for no reason.
 - **Your deployment zone is a safe firebase.** A Doomstalker parked at home is always in the Matrix. That is a genuinely good beginner default: reliable re-rolls with zero decision-making.
-- **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win — like sacrificing a pawn to control the center of the board.
+- **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win — like sacrificing a pawn to control the center of the board. New sheet trick (Wahapedia 11e, 2026-09-24, `draft`): **Self-destruction** lets you blow **one** base at the start of Fight for mortal wounds (+1 to the roll vs Vehicles), and **Chittering swarm** drains enemy OC in Engagement Range while giving the Scarabs OC 1 near a Cryptek — see [`units/research/Canoptek-Scarab-Swarms.md`](units/research/Canoptek-Scarab-Swarms.md).
 
 **The trap:** pushing a fragile construct forward *hoping* to control No Man's Land, and losing both the model and the region. Take the ground with cheap bodies first, then benefit with the expensive shooting.
 
@@ -134,26 +134,23 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Apprentek | — | KT-only; casual Plasmancer proxy | If proxied as Plasmancer: Cryptek |
 | Hierotek Plasmacytes (2) | — | KT-legal; 40K likely not until **25–28mm base rings** | Do not count |
 
-**Owned but assembled — base & paint before play.**
+**Owned but assembled — paint before play.**
 
 | Unit | MFM v1.2 | Owned? | Matrix benefit? |
 |------|----------|--------|-----------------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — assembled off-base / unpainted (2026-09-17); **5 reaper / 5 flayer** | No |
-| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — assembled off-base / unpainted (2026-09-17) | **Yes** - merging to 6 is legal and cheap |
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — based + primed (2026-09-24); **5 reaper / 5 flayer** | No |
+| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — based + primed (2026-09-24) | **Yes** - merging to 6 is legal and cheap |
+| Immortals (1st box, merging toward 10) | **70** for 5 / **140** for 10 | Yes — based + primed (2026-09-24); **gauss blasters** | No - good unit, no detachment benefit |
 | Immortals (second box, merging to 10) | **140** for 10 | Yes — **OWNED** 2026-09-17; **tesla carbines**, primed | No - good unit, no detachment benefit |
 
-**Owned but on sprue - build before play.**
-
-| Unit | MFM v1.2 | Owned? | Matrix benefit? |
-|------|----------|--------|-----------------|
-| Immortals (5, 1st box) | **70** | Yes - on sprue | No - good unit, no detachment benefit |
+**Owned but on sprue - build before play.** None remaining for Immortals / Warriors / Scarabs.
 
 **Not owned.**
 
 | Unit | MFM v1.2 | Note |
 |------|----------|------|
 | Canoptek Wraiths (3) | **95** first unit / **115** second | Melee construct that takes midfield |
-| Canoptek Doomstalker | **140** | The backline gun this detachment is named for |
+| Canoptek Doomstalker | **140** | **OWNED** assembled / unprimed 2026-09-24 — the backline gun this detachment is named for; prime & paint before play |
 | Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
 
 > **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list. Everything else on this page was read from MFM v1.2 on 2026-08-16.
@@ -168,7 +165,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 **Yes - this is playable tonight.** Kill Team: Tomb World is Canoptek-heavy by construction: the Tomb Crawlers, Macrocytes and Scarab Swarms are exactly the construct bodies the rule rewards, the Geomancer is a Cryptek, and all of them are assembled, painted, and identified. Four of the five game-ready units benefit from Power Matrix. A Geomancer leading ten Warriors with two Tomb Crawlers screening is a real Phase 1 list, costed at roughly 260 points in the owner's notes and needing no purchase.
 
-**What you are still missing is the top end**, not the floor. Wraiths and Doomstalkers are what make Power Matrix sing at 750 points and up, and neither is owned - roughly $260 CAD retail, or $130-180 second-hand, to complete the path.
+**What you are still missing is the Wraith top end**, not the floor. The **Doomstalker is now owned** (assembled, unprimed 2026-09-24). Wraiths are what finish Power Matrix at 750+ — still unowned (~$140 CAD retail / box of 3, or second-hand).
 
 > **This section said the opposite in v1.0.** It read "not first, on this collection - the models that are owned get nothing from the rule", which was drawn straight from the erroneous belief that Tomb World was not owned. If you are reading an older printout, distrust it.
 
@@ -196,6 +193,8 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.9 (2026-09-24): Canoptek Doomstalker marked **owned** (assembled, unprimed).
+- v0.5.8 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed. Sprue bucket empty for these kits.
 - v0.5.7 (2026-09-17): 2nd Immortals purchased — **tesla carbines**, primed; added to assembled ownership fit.
 - v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: v1.2 confirms the Reactive Subroutines stratagem stays at the **8" range** this page already taught from the v1.1 errata pass ("a 9" range dropped to 8""). Source citation updated; teaching text unchanged.
