@@ -179,13 +179,21 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
-| Canoptek Scarab Swarm | 10" | 2 | 6+ | 4 | 8+ | 0 |
+| Canoptek Scarab Swarm | 10" | 2 | 6+ | 4 | 8+ | 0* |
+
+\*OC **1** while within 6" of a friendly **CRYPTEK** (Chittering swarm). Keywords include **FLY**.
 
 | Weapon | Range | A | WS | S | AP | D | Keywords |
 |--------|-------|---|----|---|----|---|----------|
-| Feeder mandibles | Melee | 6 | 5+ | 2 | 0 | 1 | — |
+| Feeder mandibles | Melee | 6 | 5+ | 2 | 0 | 1 | Lethal Hits |
 
-**Abilities:** Reanimation Protocols. **No Conclave gun buff.** Job: screen, sticky midfield, die cheaply.
+**Abilities** (Wahapedia 11e, retrieved 2026-09-24, `draft` until owned pack check):
+- **Reanimation Protocols**
+- **Self-destruction:** Start of Fight phase, if in Engagement Range — may destroy **one** Scarab in this unit, then roll D6 vs one enemy in ER of that model (**+1** if **VEHICLE**): **2–5** → D3 mortal wounds; **6+** → 3 mortal wounds. One base per unit per Fight phase.
+- **Chittering swarm:** Enemy units in Engagement Range of this unit get **−1 OC** (min 1). Within 6" of a friendly Cryptek, Scarabs have **OC 1**.
+- **No Conclave gun buff.** Job: screen, Actions, OC drain, and optional kamikaze mortals into Vehicles.
+
+Detail: [`units/research/Canoptek-Scarab-Swarms.md`](units/research/Canoptek-Scarab-Swarms.md).
 
 ---
 
@@ -195,7 +203,7 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 
 1. **Warriors + Warden + Geomancer:** Hold the home objective (`14.02`). Reanimate at end of **Command** (`08.05`). Default shoot pick: `[IGNORES COVER]` (`13.08`) in terrain.
 2. **Immortals + Technomancer or Plasmancer proxy:** Hold mid or support Warriors. Stronger guns — same Conclave menu rules.
-3. **Scarabs:** Run wide, grab flags, die cheaply. They reanimate too but do not get Conclave gun buffs.
+3. **Scarabs:** Run wide, grab flags, die cheaply. Keep them near a Cryptek when you need OC. If they tag a Vehicle (or anything you need to chip), blow **one** base at Fight start for mortal wounds — do **not** pop the whole unit in one phase.
 4. **Spend 1CP** (`15.01`) on **Potentiality Syphon** when a Cryptek brick is on an objective during the opponent's **Command phase** (`08.01`) — extra reanimation mid-round.
 
 ---

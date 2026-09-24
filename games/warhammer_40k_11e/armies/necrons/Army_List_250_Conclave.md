@@ -127,15 +127,19 @@ UPDATE_TRIGGER:
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
-| Canoptek Scarab Swarm | 10" | 2 | 6+ | 4 | 8+ | 0 |
+| Canoptek Scarab Swarm | 10" | 2 | 6+ | 4 | 8+ | 0* |
+
+\*OC **1** while within 6" of a friendly **CRYPTEK**. Keywords include **FLY**.
 
 | Weapon | Range | A | WS | S | AP | D | Keywords |
 |--------|-------|---|----|---|----|---|----------|
-| Feeder mandibles | Melee | 6 | 5+ | 2 | 0 | 1 | — |
+| Feeder mandibles | Melee | 6 | 5+ | 2 | 0 | 1 | Lethal Hits |
 
-**Abilities:** Reanimation Protocols. Fast screen; no Conclave synergy.
+**Abilities** (Wahapedia 11e, retrieved 2026-09-24, `draft`): Reanimation Protocols; **Self-destruction** (start of Fight — destroy **one** base for D3/3 mortal wounds, +1 vs VEHICLE); **Chittering swarm** (−1 OC to enemies in ER; OC 1 near Cryptek). Fast screen; no Conclave gun menu.
 
-*Sources: local research; MFM v1.2 40 pts / 3.*
+Detail: [`units/research/Canoptek-Scarab-Swarms.md`](units/research/Canoptek-Scarab-Swarms.md).
+
+*Sources: Wahapedia Canoptek Scarab Swarms 2026-09-24; MFM v1.2 40 pts / 3.*
 
 ---
 
@@ -145,7 +149,7 @@ UPDATE_TRIGGER:
 2. **Every your turn:** At the **end of Command** (`08.05`), roll D3 reanimation for each unit. Do not forget — put a token on the table.
 3. **Warriors:** Sit on an objective (`14.02`) like holding a flag. In **Shooting** (`10.02`), say your Conclave menu pick out loud — `[IGNORES COVER]` (`13.08`) is the usual beginner choice in terrain.
 4. **Crawlers:** Walk to the middle. They shoot without the Conclave menu but still reanimate.
-5. **Scarabs:** Run wide and annoy — they grab objectives cheaply but die if ignored.
+5. **Scarabs:** Run wide and annoy. Stay near the Geomancer when you need them to help hold a flag (OC 1). If they lock something big in melee, you may blow **one** base at Fight start for mortal wounds.
 
 ---
 

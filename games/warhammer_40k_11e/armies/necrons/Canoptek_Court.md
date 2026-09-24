@@ -82,7 +82,7 @@ Five habits to build:
 - **Move for the Matrix, not just for the objective.** Taking one more midfield objective can be worth more than the objective itself, because it upgrades every Cryptek and Canoptek unit for the phase.
 - **Keep units wholly inside.** Measure the trailing model. A unit half in and half out of No Man's Land gets the weaker benefit for no reason.
 - **Your deployment zone is a safe firebase.** A Doomstalker parked at home is always in the Matrix. That is a genuinely good beginner default: reliable re-rolls with zero decision-making.
-- **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win — like sacrificing a pawn to control the center of the board.
+- **Scarabs are cheap Matrix tools.** They are Canoptek, they are fast, and their job is to sit on a midfield objective and be annoying so the region flips to you. Losing them having done that is a win — like sacrificing a pawn to control the center of the board. New sheet trick (Wahapedia 11e, 2026-09-24, `draft`): **Self-destruction** lets you blow **one** base at the start of Fight for mortal wounds (+1 to the roll vs Vehicles), and **Chittering swarm** drains enemy OC in Engagement Range while giving the Scarabs OC 1 near a Cryptek — see [`units/research/Canoptek-Scarab-Swarms.md`](units/research/Canoptek-Scarab-Swarms.md).
 
 **The trap:** pushing a fragile construct forward *hoping* to control No Man's Land, and losing both the model and the region. Take the ground with cheap bodies first, then benefit with the expensive shooting.
 

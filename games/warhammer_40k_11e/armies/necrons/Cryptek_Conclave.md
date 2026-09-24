@@ -143,7 +143,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Necron Warriors (10) | **85** | **Yes - game ready** | Bodyguard unit — MFM Necrons **v1.3** ▲+5 (owner paste 2026-08-27, draft; was 80 under v1.2) |
 | Canoptek Tomb Crawlers (2) | **50** | **Yes - game ready** | Screening — MFM v1.2 verified 2026-08-19 |
 | Canoptek Macrocytes (5) | **70** | **Yes - game ready** | Phase 2 bodies — MFM v1.2 verified 2026-08-19 |
-| Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | Objective-grabbers; no Cryptek synergy |
+| Canoptek Scarab Swarms (3) | **40** | **Yes - game ready** | Objective-grabbers; no Conclave gun menu — but OC 1 within 6" of a Cryptek, plus Self-destruction chip |
 
 **Game-ready today - Hierotek Circle (photo ID 2026-08-17).**
 

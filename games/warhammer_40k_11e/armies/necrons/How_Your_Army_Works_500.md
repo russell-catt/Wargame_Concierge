@@ -51,7 +51,7 @@ You always play **your** Priority Assets Primary. Opponent’s Disposition picks
 |------|-----|---------|---------------|
 | **Warriors + Warden + Geomancer** | Home / Expansion **OC** brick | Park on a non-home flag. Reanimate. Default shoot pick **[IGNORES COVER]**. Geomancer pins a threat | Chase the whole board; wipe yourself by overextending |
 | **Immortals + Techno or Plasmancer proxy** | Midboard gun brick | Same Conclave menu rules; stronger guns. Hold / support Warriors | Leave the Cryptek unattached |
-| **Scarabs (6)** | Screen / Action chips | Advance wide, start Actions, die cheaply | Expect Conclave gun buffs — they don’t get them |
+| **Scarabs (6)** | Screen / Action / kamikaze chip | Advance wide, start Actions, stay near a Cryptek for OC 1; optional **Self-destruction** (one base) at Fight start | Expect Conclave gun buffs — they don’t get them; do not chain-detonate the whole unit in one Fight phase |
 | **Spare Cryptek note** | Support slot | Crypteks are **Support**, not Leader — Warden is the Leader on Warriors | Forget Battle Formations before deploy |
 
 **Attachments (declare before deploy):** Warriors ← Warden (Leader) + Geomancer (Support). Immortals ← Technomancer **or** Plasmancer proxy.
@@ -161,7 +161,7 @@ Two bricks = **two picks** per Shooting phase (can differ). Say each pick out lo
 | Tool | Use it when |
 |------|-------------|
 | **Warriors + Cryptek** | Vital Link tarpit · Expansion hold · Syphon target |
-| **Scarabs** | Sabotage / Secure Asset / Vanguard Actions · wide OC |
+| **Scarabs** | Sabotage / Secure Asset / Vanguard Actions · OC 1 near Cryptek · Self-destruction (1 base / Fight) into Vehicles |
 | **Immortals + Cryptek** | Midboard shoot · kill-on-Central |
 | **Potentiality Syphon** | Brick already on objective, opponent’s Command |
 | **Conclave menu** | Every Shooting phase — two bricks, two picks |
