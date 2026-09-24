@@ -150,7 +150,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Unit | MFM v1.2 | Note |
 |------|----------|------|
 | Canoptek Wraiths (3) | **95** first unit / **115** second | Melee construct that takes midfield |
-| Canoptek Doomstalker | **140** | The backline gun this detachment is named for |
+| Canoptek Doomstalker | **140** | **OWNED** assembled / unprimed 2026-09-24 — the backline gun this detachment is named for; prime & paint before play |
 | Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cryptek. **Not in Hierotek** — buy or Apprentek proxy |
 
 > **Three points figures are missing on purpose.** The Geomancer, Tomb Crawlers and Macrocytes were not costed from Munitorum Field Manual v1.2, because the slice that read the MFM did so believing those models were not owned. Cost them from your own MFM before your first list. Everything else on this page was read from MFM v1.2 on 2026-08-16.
@@ -165,7 +165,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 **Yes - this is playable tonight.** Kill Team: Tomb World is Canoptek-heavy by construction: the Tomb Crawlers, Macrocytes and Scarab Swarms are exactly the construct bodies the rule rewards, the Geomancer is a Cryptek, and all of them are assembled, painted, and identified. Four of the five game-ready units benefit from Power Matrix. A Geomancer leading ten Warriors with two Tomb Crawlers screening is a real Phase 1 list, costed at roughly 260 points in the owner's notes and needing no purchase.
 
-**What you are still missing is the top end**, not the floor. Wraiths and Doomstalkers are what make Power Matrix sing at 750 points and up, and neither is owned - roughly $260 CAD retail, or $130-180 second-hand, to complete the path.
+**What you are still missing is the Wraith top end**, not the floor. The **Doomstalker is now owned** (assembled, unprimed 2026-09-24). Wraiths are what finish Power Matrix at 750+ — still unowned (~$140 CAD retail / box of 3, or second-hand).
 
 > **This section said the opposite in v1.0.** It read "not first, on this collection - the models that are owned get nothing from the rule", which was drawn straight from the erroneous belief that Tomb World was not owned. If you are reading an older printout, distrust it.
 
@@ -193,6 +193,7 @@ Between the two paths, see [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - both a
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.9 (2026-09-24): Canoptek Doomstalker marked **owned** (assembled, unprimed).
 - v0.5.8 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed. Sprue bucket empty for these kits.
 - v0.5.7 (2026-09-17): 2nd Immortals purchased — **tesla carbines**, primed; added to assembled ownership fit.
 - v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.

@@ -189,24 +189,31 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 
 ## 1,000 points - Cryptek Conclave
 
-### V1 - no purchases (Hierotek proxies OK) - 725 / 1,000 *(cannot fill)*
+### V1 - no purchases (Hierotek proxies OK) + owned Doomstalker - **995 / 1,000**
 
-Maximum owned + proxy Conclave cast without new kits:
+**Play sheet:** [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md)
+
+Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 without Szeras/Lychguard” gap.
 
 | Unit / upgrade | Pts |
 |----------------|-----|
 | Geomancer + Technomancer + Plasmancer proxy + Warden proxy | 75+80+**60**+50 = **265** |
-| Warriors (20) | **190** *(20-model band unchanged by v1.3)* |
-| Immortals (5) | **70** |
-| Tomb Crawlers + Macrocytes + Scarabs (6) | 50+70+80 = **200** |
-| **Ceiling** | **725** |
+| Warriors (20) | **190** |
+| Immortals (10) | **140** *(both primed boxes + Hierotek Guardians — paint before play)* |
+| Scarabs (6) + Tomb Crawlers + Macrocytes | 80+50+70 = **200** |
+| **Canoptek Doomstalker** | **140** *(OWNED — prime/paint)* |
+| **Body total** | **935** |
+| Gauntlet of Compression + kitchen enhancement pad | up to **+60** → **995** |
 
 | | |
 |--|--|
-| Shortfall to 1,000 | **275** |
-| Enhancement pad alone | At most ~60 pts if you stack several — **still short** |
+| Kitchen / agreed multi-enhancement | **995 / 1,000** (5 pts under — fine) |
+| Matched Incursion (often **1** enhancement only) | **955** with Gauntlet alone |
+| If owned MFM lists Doomstalker at **145** | full kitchen pad lands **1,000** exactly |
 
-Play at **750** V1, or move to V2.
+**Attachments:** Warden + Geomancer on 20 Warriors; Technomancer *or* Plasmancer proxy on Immortals; Doomstalker as backline anti-tank (no Conclave menu).
+
+**Bench:** paint primed infantry/Scarabs; **prime + paint Doomstalker**.
 
 ### V2 - finished with purchases - 1,000 / 1,000
 
@@ -259,8 +266,9 @@ Play at **750** V1, or move to V2.
 2. 2nd Scarab set  
 3. 2nd Warrior squad (needed for 750+ / 1,000)  
 4. Buy Plasmancer (unlocks V2 at every size)  
-5. For 1,000: Szeras + Lychguard  
-6. Base rings / real Warden when you care about matched play  
+5. For 1,000 V1: prime/paint Doomstalker + Immortals to 10 (no Szeras/Lychguard required)  
+6. Optional V2 still: Szeras + Lychguard if you want that cast instead of / as well as Doomstalker  
+7. Base rings / real Warden when you care about matched play  
 
 ---
 
@@ -282,6 +290,7 @@ Play at **750** V1, or move to V2.
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v1.5 (2026-09-24): 1,000 V1 rewritten around owned **Canoptek Doomstalker** + Hierotek proxies + Immortals to 10 (**995** kitchen / **955** single-enhancement). Linked [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md). V2 Szeras/Lychguard path retained as alternate.
 - v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**. 500 V1/V2 drop the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500. 750 V1/V2 swap Quantum Abacus → Atomic Disintegrators in the enhancement stack (also fixes a pre-existing v1.2 addition error) to land exactly on 750. 1,000 V1 ceiling 720→**725**, shortfall 280→**275**. 1,000 V2 drops Atomic Disintegrators + Gravitic Bolas (owner-safe cut, keeps Gauntlet of Compression only; also fixes a pre-existing v1.2 addition error) to land exactly on 1,000.
 - v1.3 (2026-08-19): MFM v1.2 re-read — Tomb Crawlers **50**, Macrocytes **70**. Linked Army_List_750/1000 play sheets; 750/1000 rebalance; V1 ceiling 720 without purchases.
 - v1.2 (2026-08-19): Primary detachment switched to **Cryptek Conclave**. V1/V2 lists rewritten per size with Conclave enhancements as point-padding. Court demoted to alternate. V1 500 and 750 land exact; V2 500/750 buy Plasmancer only; V2 1,000 adds Szeras + Lychguard + enhancements to 1,000.

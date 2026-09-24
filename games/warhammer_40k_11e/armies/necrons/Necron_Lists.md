@@ -2,7 +2,7 @@
 
 > **Working copy.** If this file and `C:\Personal\40K\Necron_Lists.md` diverge, **the Personal path wins.** Do not overwrite the Personal file from this copy. Ownership facts for play live in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md).
 
-> **MFM Necrons v1.3 pass (2026-08-27, owner paste, draft):** Tomb World subtotal **320** (was 315 @ v1.2, 385 pre-v1.2). Tomb Crawlers **50**, Macrocytes **70**, Warriors **85** (▲+5 vs v1.2) per [`docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md) — PDF path pending confirmation under [`C:\Personal\40K\rules\`](file:///C:/Personal/40K/rules/). Fully statted play sheets: [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md), [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md), [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md), [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md).
+> **MFM Necrons v1.3 pass (2026-08-27, owner paste, draft):** Tomb World subtotal **320** (was 315 @ v1.2, 385 pre-v1.2). Tomb Crawlers **50**, Macrocytes **70**, Warriors **85** (▲+5 vs v1.2) per [`docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md`](../../../../docs/handoffs/dataslate_0826/research/necron_mfm_v1_3.md) — PDF path pending confirmation under [`C:\Personal\40K\rules\`](file:///C:/Personal/40K/rules/). Fully statted play sheets: [`Army_List_250_Conclave.md`](Army_List_250_Conclave.md), [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md), [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md), [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md) (owned Doomstalker path), [`Army_List_1000_V2_Conclave.md`](Army_List_1000_V2_Conclave.md) (Szeras/Lychguard buy path).
 
 > **System spine (WD527 shipping):** Force Dispositions [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Mission 38 [`../../setup/WD527_Monthly_Mission.md`](../../setup/WD527_Monthly_Mission.md) · Wound [`../../rules/Wound_Roll_Reference.md`](../../rules/Wound_Roll_Reference.md) · system QR [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html). Write **Priority Assets** (Conclave) or **Take and Hold** (Court) on every list.
 
@@ -47,8 +47,9 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 | **Canoptek Scarab Swarms** | 3 (2nd set) | Assembled (based), primed | Expand beyond Tomb World swarms. Primed 2026-09-24 (same tray as 2nd Warriors) |
 | **Immortals** | 5 (1st squad / box) | Assembled (based), primed | **All gauss blasters** (not tesla). Assembled + primed 2026-09-24 |
 | **Immortals** | 5 (2nd squad) | Assembled (based), primed | **All tesla carbines** (not gauss blasters). Purchased 2026-09-17 |
+| **Canoptek Doomstalker** | 1 | Assembled (based), **unprimed** | Doomsday blaster + twin gauss flayer. Assembled 2026-09-24 — prime/paint before play. **140 pts** (MFM v1.2 / Wahapedia; verify owned MFM) |
 
-**Nothing left on sprue** for these Warriors / Scarabs / Immortals boxes.
+**Nothing left on sprue** for Warriors / Scarabs / Immortals boxes. Doomstalker is off the sprue (unprimed).
 
 **Ownership totals:** 20 Warriors (10 game-ready + 10 assembled/primed), 6 Scarab Swarms (3 game-ready + 3 assembled/primed), Geomancer, Tomb Crawlers, Macrocytes, Technomancer (Hierotek), Immortals (Hierotek assembled + 5 gauss primed + 5 tesla primed), Apprentek (proxy-only), Hierotek Plasmacytes (KT-legal, 40K likely not).
 
@@ -85,7 +86,7 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 * **3x Canoptek Scarab Swarms** (40 pts) — *2nd set owned, based + primed 2026-09-24 — paint before play*
 
 **Still to acquire:**
-* **1x Canoptek Doomstalker** (140 pts) — *purchased (future)* — MFM v1.2
+* **1x Canoptek Doomstalker** (140 pts) — ***OWNED*** assembled / unprimed 2026-09-24 — MFM v1.2 / Wahapedia; prime & paint before play
 
 ### Phase 3: 750-Point Expansion
 * **Additions:**
@@ -110,7 +111,7 @@ Photos (outside git): [`../../../../raw/pointers/kill_team_necron_photos.md`](..
 
 Use these Games Workshop standard Canadian retail prices to hunt for Facebook Marketplace deals:
 
-* **Canoptek Doomstalker** (Need 2) | Retail: $60.00 CAD each | *Total: $120.00 CAD*
+* ~~**Canoptek Doomstalker** (1st)~~ — owned 2026-09-24 (assembled, unprimed). **Need 1 more** if Court wants a pair | Retail: $60.00 CAD | *Remaining: $60.00 CAD*
 * **Canoptek Wraiths** (Need 2 boxes of 3) | Retail: $70.00 CAD per box | *Total: $140.00 CAD*
 * **Total Retail Value (remaining):** $260.00 CAD
 * 🎯 **Marketplace Target Price (Aim for 30%–50% off):** **$130.00 – $180.00 CAD**
@@ -213,3 +214,4 @@ If a seller lists a sealed or partially built bundle box, it is almost always si
 
 **Change log (dataslate_0826 S2c, 2026-08-27):** MFM Necrons v1.3 recost — Tomb World Warriors 80→**85** (Tomb World subtotal 315→**320**); Plasmancer 55→**60**; Phase 1 preferred-start math 205→**210** (both detachment options).
 
+**Change log (2026-09-24):** Canoptek Doomstalker assembled (unprimed). Conclave 1000 owned path → [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md).

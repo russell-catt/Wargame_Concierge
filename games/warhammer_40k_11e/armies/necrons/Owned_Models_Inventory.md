@@ -1,8 +1,8 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
-VERSION: v1.8 (2026-09-24)
+VERSION: v1.9 (2026-09-24)
 OWNER: Russell Catt
-AUTHOR_OF_NOTES: Cursor (Implementer — 2nd Warriors + 1st Immortals + Scarabs primed 2026-09-24; prior assembly 2026-09-17 / tomb_world_ownership)
+AUTHOR_OF_NOTES: Cursor (Implementer — Doomstalker assembled 2026-09-24; prior prime batch 2026-09-24 / tomb_world_ownership)
 
 DOCUMENT_TYPE: Inventory / Checklist
 PROJECT_NAME: Wargame_Concierge
@@ -28,7 +28,7 @@ UPDATE_TRIGGER:
 
 # Necron Owned Models Inventory
 
-**Confirmed ownership as of 2026-09-24.** Mirrors the FOUNDATION section of [`Necron_Lists.md`](Necron_Lists.md). Tomb World / Hierotek photo ID 2026-08-17; 2nd Warriors + Scarabs assembly 2026-09-17; **prime photo 2026-09-24** (2nd Warriors, 2nd Scarabs, 1st Immortals — gauss blasters). Photos: [`raw/pointers/kill_team_necron_photos.md`](../../../../raw/pointers/kill_team_necron_photos.md).
+**Confirmed ownership as of 2026-09-24.** Mirrors the FOUNDATION section of [`Necron_Lists.md`](Necron_Lists.md). Tomb World / Hierotek photo ID 2026-08-17; 2nd Warriors + Scarabs assembly 2026-09-17; prime photo 2026-09-24 (2nd Warriors, 2nd Scarabs, 1st Immortals — gauss blasters); **Canoptek Doomstalker assembled (unprimed) 2026-09-24**. Photos: [`raw/pointers/kill_team_necron_photos.md`](../../../../raw/pointers/kill_team_necron_photos.md).
 
 > **Cross-game note (slice S4):** the Kill Team: Tomb World models below are the same physical minis used by the **Kill Team 2024 Canoptek Circle** team. KT rules and 40K rules stay separate — see [`games/kill_team_2024/teams/canoptek_circle/README.md`](../../../kill_team_2024/teams/canoptek_circle/README.md). Owning the models for both games does not make them dual-legal in both; see the **KT provenance / dual-legality** column below.
 
@@ -67,7 +67,7 @@ This set does **not** contain a Plasmancer, Psychomancer, Chronomancer, or Death
 
 ## Owned — assembled, paint before play
 
-Expansion battleline and Immortals — **based and primed** (metallic silver, owner photo **2026-09-24**). Not table-ready until painted. These **expand** the Tomb World force; they do not gate the painted learning list.
+Expansion battleline and Immortals — **based and primed** (metallic silver, owner photo **2026-09-24**). Doomstalker — **assembled, unprimed** (owner photo **2026-09-24**; prime planned same day). Not table-ready until painted. These **expand** the Tomb World force; they do not gate the painted learning list.
 
 | Item | Qty | Assembly | Paint | Notes |
 |------|-----|----------|-------|-------|
@@ -75,8 +75,9 @@ Expansion battleline and Immortals — **based and primed** (metallic silver, ow
 | Canoptek Scarab Swarms | 3 (2nd set) | Assembled (based) | Primed (metallic) | From Warriors kit / expand set. Merges into a 6-swarm block once painted. Primed 2026-09-24 (same tray as 2nd Warriors) |
 | Immortals | 5 (1st squad / box) | Assembled (based) | Primed (metallic) | **All 5 gauss blasters** (longer twin-barrel guns — **not** tesla). Was on sprue; assembled + primed 2026-09-24. Merges with 2nd (tesla) box + Hierotek bodies toward a 10-model brick once painted |
 | Immortals | 5 (2nd squad) | Assembled (based) | Primed / metallic drybrush | **All 5 tesla carbines** (short guns with the circular “turbine” muzzle — not gauss blasters). Purchased 2026-09-17 |
+| Canoptek Doomstalker | 1 | Assembled (based) | Unprimed (grey plastic) | Doomsday blaster + twin gauss flayer. Assembled 2026-09-24 — prime then paint before play. **140 pts** (project MFM v1.2 stamp; verify owned MFM — some online mirrors show 145) |
 
-**Nothing left on sprue** for Warriors / Scarabs / Immortals boxes above.
+**Nothing left on sprue** for Warriors / Scarabs / Immortals boxes above. Doomstalker is assembled off the sprue.
 
 ---
 
@@ -89,6 +90,7 @@ Expansion battleline and Immortals — **based and primed** (metallic silver, ow
 | Cryptek Geomancer | 1 (Tomb World) | - | - | 1 |
 | Canoptek Tomb Crawlers | 2 (Tomb World) | - | - | 2 |
 | Canoptek Macrocytes | 5 (Tomb World) | - | - | 5 |
+| Canoptek Doomstalker | - | 1 (assembled, unprimed) | - | 1 |
 | Immortals | 3 Guardians + Despotek if counted as Immortal (Hierotek) | 5 (1st, **gauss blasters**, primed) + 5 (2nd, **tesla carbines**, primed) | - | **13 or 14** depending on Despotek use (enough for a legal 10) |
 | Technomancer | 1 (Hierotek) | - | - | 1 |
 | Apprentek | 1 (KT-only / Plasmancer proxy) | - | - | 1 model, not a 40K datasheet |
@@ -109,6 +111,7 @@ Expansion battleline and Immortals — **based and primed** (metallic silver, ow
 6. Do not re-shop any kit already listed as owned in this document, whether game-ready, assembled-unpainted, or still on sprue.
 7. **To-do — Plasmacytes:** [ ] purchase **25–28mm base rings** (two) for 40K footprint without rebasing the KT 25mm bases.
 8. **To-do — primed expansion:** [ ] paint 2nd Warriors + 2nd Scarabs + both Immortal squads (then merge with Tomb World blocks for 20 Warriors / 6 Scarabs / Immortal brick).
+9. **To-do — Doomstalker:** [ ] prime (planned 2026-09-24) → paint before play.
 
 ---
 
@@ -128,6 +131,7 @@ Expansion battleline and Immortals — **based and primed** (metallic silver, ow
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
 ## Change Log
+- v1.9 (2026-09-24): **Canoptek Doomstalker** assembled (based), unprimed — owner photo. Prime planned same day; paint before play. Unlocks Conclave 1000 Doomstalker path (no Szeras/Lychguard required).
 - v1.8 (2026-09-24): 2nd Warriors + 2nd Scarabs **based and primed**; 1st Immortals box **assembled, based, primed** — **all gauss blasters** (not tesla). Sprue bucket empty for these kits. Paint remaining before play.
 - v1.7 (2026-09-17): 2nd Immortals squad (5) purchased — assembled, based, primed; **all tesla carbines**. 1st Immortals box remains on sprue. Totals 13–14 Immortal bodies with Hierotek.
 - v1.6 (2026-09-17): 2nd Necron Warriors (10) + Scarab Swarms (3) **assembled** (off-base, unpainted). Loadout **5 gauss reaper + 5 gauss flayer** — matches 1st squad. Immortals remain on sprue. New base/paint-before-play bucket.

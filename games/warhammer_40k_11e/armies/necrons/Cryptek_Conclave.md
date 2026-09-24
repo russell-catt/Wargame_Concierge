@@ -172,6 +172,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 |------|----------|------|
 | Plasmancer | **60** *(MFM v1.3 ▲+5, owner paste 2026-08-27, draft; was 55)* | Cheapest Cryptek; attaches to Immortals or Warriors. **Not in Hierotek** — Apprentek is a kitchen-table proxy only. Buy for events. |
 | Royal Warden | **50** | Cheap **Leader**, so it stacks with a Cryptek Support. **Not owned** — Despotek is a casual proxy (32mm). |
+| Canoptek Doomstalker | **140** | **OWNED** assembled / unprimed 2026-09-24 — Conclave fire support (no menu buff). See [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md). |
 | Lychguard (5) | **80** | Bodyguard wall. The old note's 170 for five was badly wrong |
 | Illuminor Szeras | **175** | Expensive; leave until well past 500 points |
 
@@ -211,6 +212,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.9 (2026-09-24): Canoptek Doomstalker owned (assembled, unprimed); linked 1000 Doomstalker Conclave list.
 - v0.5.8 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed.
 - v0.5.7 (2026-09-17): 2nd Immortals purchased — **tesla carbines**, primed; shopping row marked owned.
 - v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
