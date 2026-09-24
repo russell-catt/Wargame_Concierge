@@ -4,9 +4,9 @@ type: glossary
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-27
-version: 0.5.5
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview]
+updated: 2026-09-24
+version: 0.9.1
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, docs/Game_System_Scaffold.md, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, legends_field_manual_sm_2026_08, warcode_rulebook_v087f, warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, warcode_gamefound_campaign_2026_09, warcode_kickstarter_relaunch_2026_09, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview]
 confidence: draft
 tags: [terminology, glossary, keywords, warhammer_40k, necrons, space_marines, kill_team_2024, the_warcode]
 ---
@@ -337,11 +337,11 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 - Faction / scope: outside 40K's scope; own system below
 - See also: the **Kill Team 2024** section below, [[kill_team_2024_core_rules]]
 
-**The Warcode** - `draft` · **third system, see below (2026-08-23)**
-: A **separate game** from RedMakers (not Games Workshop): two squads of eight, alternating unit activation, AP economy, beta v0.8.7-F. **Not** 39.9 (Rawmallet) and **not** That other game — own `system: the_warcode` pages and shipping under `games/the_warcode/`.
-: When comparing to That other game's Murder Platoon mode, use the moniker **That other game** in Warcode KB collision flags — do not paste GW product names into Warcode shipping paths. See [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]] for the full obfuscation table (Rawmallet / 39.9 / 39.876).
+**The Warcode** - `draft` · **third system, current baseline 2026-09-24**
+: A **separate game** from RedMakers (not Games Workshop): two squads of eight, alternating unit activation, AP economy, beta v0.8.9-F. **Not** 39.9 (Rawmallet) and **not** That other game — own `system: the_warcode` pages and shipping under `games/the_warcode/`.
+: When comparing to That other game's Murder Platoon mode, use the moniker **That other game** in Warcode KB collision flags — do not paste GW product names into Warcode shipping paths. See [[warcode_rulebook_v089f]] and AGENTS.md Sec 10 for the obfuscation table (Rawmallet / 39.9 / 39.876).
 - Faction / scope: `the_warcode`; own section below
-- See also: [[warcode_rulebook_v087f]], **The Warcode** section below
+- See also: [[warcode_rulebook_v089f]], [[warcode_tactical_doctrine_field_edition]], **The Warcode** section below
 
 ---
 
@@ -496,13 +496,22 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Third game system, added 2026-08-23 (`warcode_tactical_doctrine` Librarian ingest).** Everything in this section carries `system: the_warcode` on its source and concept pages. **These are not Rawmallet 39.876 or That other game terms.** Shared words carry **collision flags** — for Warcode↔That other game, use the moniker **That other game**; for Warcode↔39.9 (Rawmallet), use **39.9** / **Rawmallet** in collision prose (not GW product names). Full policy: [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]].
 
-**Status:** All entries **`draft`** — paraphrased from beta v0.8.7-F extract, read **2026-08-23**. See [[warcode_rulebook_v087f]]; shipping [`games/the_warcode/rules/Keyword_Glossary.md`](../games/the_warcode/rules/Keyword_Glossary.md).
+**Status:** All entries **`draft`** — paraphrased from current beta v0.8.9-F and shipping, checked **2026-09-24**. See [[warcode_rulebook_v089f]]; shipping [`games/the_warcode/rules/Keyword_Glossary.md`](../games/the_warcode/rules/Keyword_Glossary.md).
 
 **Action Point (AP)** (Warcode) - `draft` · **collision flag** · **see [[warcode_action_points]]**
 : Currency for actions during one unit activation; **2 AP** by default. Pass skips remainder without triggering Overwatch.
 : **Collision flag.** Not That other game's **APL** (per-operative budget and marker-control total). Not 39.9 Command Points. See [[activations_apl]] and [[warcode_action_points]].
 - Faction / scope: The Warcode, core rules
-- Verify against: [[warcode_rulebook_v087f]]
+- Verify against: [[warcode_rulebook_v089f]]
+
+**Order** (Warcode) - `draft` · **ambiguity flag**
+: MDR support ability that spends AP now to give one not-yet-activated ally extra AP for its normal activation later in the round. Comms can relay its reach.
+: **Collision flag.** Not a That other game Engage/Conceal order; Warcode Order is an AP-granting ability, not a model state.
+- See also: [[warcode_action_points]], [[warcode_mdr]]
+
+**Inspiration** (Warcode) - `draft` · **ambiguity flag**
+: Custodia support ability that marks an already-activated ally for a delayed one-AP activation after ordinary activations. Ordering between players, ordering among targets, and repeated targeting are unresolved.
+- See also: [[warcode_action_points]], [[warcode_dominium]]
 
 **Activation** (Warcode) - `draft`
 : One **unit's** turn in the Tactical Phase: spend AP until Pass or empty. Players alternate single-unit activations. Flip activation token when done.
@@ -516,6 +525,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Ammunition** (Warcode) - `draft` · **see [[warcode_ammo]]**
 : Shots remaining on a ranged weapon; need ≥1 to shoot or Overwatch; −1 after each shot; Reload restores maximum.
+: **Ambiguity flag.** Hand Flamethrower prints finite ammo and no reload cost while also saying it never needs reloading; [[warcode_rulebook_v089f]] does not resolve the interaction.
 - See also: [[warcode_ammo]], [[warcode_overwatch]]
 
 **Overwatch** (Warcode) - `draft` · **collision flag** · **see [[warcode_overwatch]]**
@@ -525,6 +535,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Melee Lock** (Warcode) - `draft` · **collision flag** · **see [[warcode_melee_lock]]**
 : **Bases touch** an enemy — cannot leave without Disengage (1 AP) or Escape (2 AP). Stronger than merely being in melee range.
+: **Exception:** Smasher and Lancer lock enemies within 1" without base contact; multi-lock escape geometry remains incomplete.
 : **Collision flag.** Not That other game's **1" control range** (visibility-gated, APL marker control). Not 39.9 **Engagement Range** (2"/5", phase order). See [[control_range_kill_team]] and Engagement Range in core-rules section above.
 - Faction / scope: The Warcode, core rules
 
@@ -545,6 +556,7 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 
 **Contract** (Warcode) - `draft` · **see [[warcode_contracts]]**
 : Secret elimination bounty drawn when trailing by ≥1 VP at end of round; names one enemy unit for bonus VP if killed.
+: **Name ambiguity:** contract 4186 uses **Justicar Julius** while the current Custodia roster uses **Justiciar Julius**; treat as one character without rewriting either source.
 : **Collision flag.** Not That other game tac/crit op cards or Turning Point scoring steps.
 - See also: [[warcode_contracts]]
 
@@ -559,6 +571,26 @@ Keywords do **not** get their own pages - see [`AGENTS.md`](../AGENTS.md) Sec 5 
 **Pass** (Warcode) - `draft`
 : End activation with AP unspent. **Does not** trigger enemy Overwatch.
 - Faction / scope: The Warcode, core rules
+
+**Burning** (Warcode) - `draft` · **ambiguity flag**
+: Temporary round-end damage from the Hand Flamethrower, then removed; a medkit can remove it. The source does not settle medkit immunity, combined healing/removal, or ordering with other unit effects.
+- See also: [[warcode_dominium]], [[warcode_protocol_cards]]
+
+**Choke** (Warcode) - `draft` · **ambiguity flag**
+: Persistent Tormentor effect that damages a marked enemy at round end until the Tormentor is destroyed. “Can receive once” is not fully scoped.
+- See also: [[warcode_dominium]]
+
+**Influence** (Warcode) - `draft` · **ambiguity flag**
+: Shared label for different Custodia auras: Justiciar lowers visible nearby enemies' Agility, while Tormentor damages nearby enemies at round end. Always name the source unit.
+- See also: [[warcode_dominium]]
+
+**Blackout / Blackout War / Silence War** (Warcode) - `draft` · **terminology warning**
+: Related but non-interchangeable lore terms. Blackout is a policy, initiating event, and epoch; Blackout War is a historical-source label; Silence War is factional usage.
+- See also: [[warcode_tactical_doctrine_field_edition]]
+
+**Huoxing / Mars** (Warcode) - `draft` · **geography warning**
+: Huoxing is an MDR-controlled planet. Mars is a distinct Kirkwood Belt settlement associated with MDR's founding congress.
+- See also: [[warcode_mdr]], [[warcode_tactical_doctrine_field_edition]]
 
 ---
 
@@ -694,7 +726,8 @@ How this KB writes about the game.
 - [[40k_aug_2026_balance_package]] · [[kt_aug_2026_balance_package]] · [[sm_codex_oct_2026_preview]] - Aug 2026 balance package sources (disembark move types, Legendary Proxies)
 - [[kill_team_terrain]] · [[killzones_volkus_tomb_world]] - KT24 setup
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
-- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources
+- [[warcode_rulebook_v089f]] · [[warcode_tactical_doctrine_field_edition]] · [[warcode_gamefound_campaign_2026_09]] · [[warcode_kickstarter_relaunch_2026_09]] - current Warcode sources
+- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - historical Warcode sources
 - [`AGENTS.md`](../AGENTS.md) - Sec 5 Keyword rule, Sec 9 terminology discipline
 
 ## L1 note - `kill_team_2024_scaffold` (2026-08-17)
@@ -733,4 +766,3 @@ How this KB writes about the game.
 | Adversary Ops | PvP-with-NPO-assist style missions (WarCom / packs) | draft | Naming overlaps **Nemesis Ops** in dossier |
 | Nemesis Ops | Dossier mode wording alongside Joint Ops | draft | See Modes_And_Cards open naming note |
 | NPO | Non-player operative | draft | Core + expansion packs |
-

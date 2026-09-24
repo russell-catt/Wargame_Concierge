@@ -22,6 +22,7 @@ Multi-agent track artifacts (briefs, implementer reports, QA, Librarian reports,
 | SM Matched vs Casual (Legends) starters + Librarian KB pass | [`sm_matched_vs_casual/`](sm_matched_vs_casual/) | Closed — merged PR #7 |
 | GW community-content footer + games/ compliance | [`gw_community_content/`](gw_community_content/) | Closed — Complete (commits pending) |
 | The Warcode: Tactical Doctrine (system #3 + VIP review) | [`warcode_tactical_doctrine/`](warcode_tactical_doctrine/) | Closed — merged PR #16 |
+| The Warcode: v0.8.9-F, lore, and Kickstarter refresh | [`warcode_kickstarter_refresh/`](warcode_kickstarter_refresh/) | Resolved — Complete; squash-merge gate |
 | WD527 research (40K ref card, Mission 38, wound laminate) | [`wd527_research/`](wd527_research/) | Closed - Complete (commit pending) |
 
 **Review queue:** Post-ship owner pass — [warcode_tactical_doctrine/to_review.md](warcode_tactical_doctrine/to_review.md).

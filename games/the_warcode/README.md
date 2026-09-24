@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/README.md
-VERSION: v0.4 (2026-08-27)
+VERSION: v0.7 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S5; warcode_tactical_doctrine S0 provenance)
 
@@ -10,30 +10,37 @@ GAME_SYSTEM: The Warcode
 REFERENCE_STATUS: Active
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf
+  - raw/the_warcode/The-Warcode-Lorebook-Tactical-Doctrine-Field-Edition.pdf
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf
   - https://pre-launch.thewarcode.com/ (retrieved 2026-08-23)
+  - https://gamefound.com/en/projects/redmakers/the-warcode (retrieved 2026-09-24)
+  - https://www.kickstarter.com/projects/redmakers/the-warcode-stl-campaign (retrieved 2026-09-24)
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=3776386741 (retrieved 2026-09-24)
   - docs/Game_System_Scaffold.md
   - docs/handoffs/warcode_tactical_doctrine/track_in.md
+  - docs/handoffs/warcode_kickstarter_refresh/research/R3_campaign_transition.md
+  - docs/handoffs/warcode_kickstarter_refresh/research/R4_community_coverage.md
 
 PURPOSE:
   Entry point for The Warcode teaching content. Vocabulary mapping, read order,
   and subtree map. Unofficial and unauthorized learning notes.
 
 UPDATE_TRIGGER:
-  New free beta supersedes v0.8.7-F; Gamefound launch changes tiers or rules.
+  New free beta supersedes v0.8.9-F; campaign status changes.
 -->
 
 # The Warcode
 
-Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V.0.8.7-F** (RedMakers).
+Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V.0.8.9-F** (RedMakers), checked **2026-09-24**.
 
-**This subtree is unofficial and unauthorized.** Personal learning only — not endorsed by RedMakers or Gamefound. See the [Gamefound project](https://gamefound.com/en/projects/redmakers/the-warcode).
+**This subtree is unofficial and unauthorized.** Personal learning only — not endorsed by RedMakers, Gamefound, Kickstarter, or Steam.
 
-**Rules quoting:** Under `rules/`, `setup/`, and `factions/` you may quote the free beta PDF verbatim (filename + page). Card references: [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md), [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md).
+**Source quoting:** Under `rules/`, `setup/`, `factions/`, and `lore/` you may quote the free publications verbatim with filename, PDF page, and section. The lorebook is narrative context only; mechanics defer to rulebook v0.8.9-F. Card references: [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md), [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md).
 
 **Naming safety:** No GW comparator proper nouns in this subtree. Use **That other game** / **Murder Platoon**, **Rawmallet**, **39.876**, and **39.9** only — full ban table in `AGENTS.md` Sec 10 and [`.cursor/rules/warcode-quotes.mdc`](../../.cursor/rules/warcode-quotes.mdc).
 
-**Last reviewed: 2026-08-27 · not affected by Games Workshop balance packages.** This subtree ships from the RedMakers free beta rulebook, not a Games Workshop product — the Aug 2026 balance-package currency pass running elsewhere in this repo ([`docs/handoffs/dataslate_0826/track_in.md`](../../docs/handoffs/dataslate_0826/track_in.md)) has no bearing on any page here.
+**Last reviewed: 2026-09-24 · not affected by unrelated balance packages.** This subtree ships from RedMakers' free publications; balance-package work elsewhere in the repository has no bearing on these pages.
 
 ---
 
@@ -41,7 +48,7 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 
 | Scaffold term | The Warcode |
 |---------------|-------------|
-| Force | Squad (8 units) |
+| Force | One of four fixed squads (8 units) |
 | Force organisation | Faction pick + equipment distribution |
 | Force-wide rule | Faction / leader abilities, Protocol cards |
 | Round structure | 4 fixed rounds; Initiative Phase → Tactical Phase (alternating unit activation) |
@@ -58,9 +65,20 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 3. **Deep-dives** — Activation, Combat, Equipment, Contracts, Scenarios
 4. **Setup** — `setup/Board_Setup.md`, `Terrain_Basics.md`
 5. **Guides** — vs That other game, proxy play, TTS, STL
-6. **Factions** — Protagen Marines + Ulfari first; MDR / Dominium stubs
-7. **Comparative glossary** — end-of-doc bridges to That other game
-8. **VIP review** — `reviews/Agentic_Rules_and_Marketing_Review.md` (after GATE)
+6. **Factions** — Protagen Marines, Ulfari, MDR Executive Unit, and Dominium’s Custodia Silens
+7. **Lore** — [`lore/`](lore/) for theatre, timeline, and source methodology
+8. **Comparative glossary** — [`rules/Comparative_Glossary.md`](rules/Comparative_Glossary.md) bridges Warcode terms to That other game
+9. **Campaign reviews** — [`reviews/Gamefound_Postmortem_2026-09-18.md`](reviews/Gamefound_Postmortem_2026-09-18.md) and [`reviews/Kickstarter_and_Community_2026-09-24.md`](reviews/Kickstarter_and_Community_2026-09-24.md)
+
+---
+
+## Campaign status — checked 2026-09-24
+
+- The mixed-format Gamefound campaign launched **2026-09-15**; RedMakers posted its cancellation statement **2026-09-17**; Gamefound records the platform end on **2026-09-18** with no funds collected.
+- The current Kickstarter launched **2026-09-23** and is scheduled through **2026-10-23**. It offers digital STL and Print & Play rewards only.
+- Physical boxes are deferred publisher intent, not Kickstarter rewards; no date or guarantee is established.
+- Live Kickstarter totals are volatile and remain in timestamped research rather than durable shipping pages.
+- A public [Steam Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=3776386741) is available, but its listing visibly says rules **v0.8.7**. Verify play against the current **v0.8.9-F** PDF.
 
 ---
 
@@ -70,10 +88,11 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 |------|--------|---------|
 | [`rules/`](rules/) | Active | Teaching + quotes + comparative glossary + **card references** |
 | [`setup/`](setup/) | Scaffold | Board and terrain |
-| [`factions/`](factions/) | Scaffold | Squad packages |
+| [`factions/`](factions/) | Active | Four verified squad packages |
+| [`lore/`](lore/) | Active | Shared setting, chronology, and evidence method |
 | [`guides/`](guides/) | Scaffold | Cross-game and play aids |
 | [`research/`](research/) | Scaffold | STL / printer notes |
-| [`reviews/`](reviews/) | Scaffold | Agentic marketing review |
+| [`reviews/`](reviews/) | Active | Closed Gamefound postmortem + current Kickstarter/community analysis |
 
 | [`rules/Contract_Cards_Reference.md`](rules/Contract_Cards_Reference.md) | Active | Eight-card contract deck lookup |
 | [`rules/Protocol_Cards_Reference.md`](rules/Protocol_Cards_Reference.md) | Active | Twenty-row protocol deck (*Core of the Machine*) |
@@ -82,6 +101,9 @@ Third game system in Wargame_Concierge. **Edition in scope: free beta rulebook V
 
 ## Change Log
 
+- v0.7 (2026-09-24): Added exact campaign-transition status, current digital-only Kickstarter scope, TTS v0.8.7 drift warning, and two tracked campaign review pages (S4).
+- v0.6 (2026-09-24): Added Stage 3 lore navigation, source scope, and mechanics firewall.
+- v0.5 (2026-09-24): Current rules baseline v0.8.9-F; four playable factions and new MDR/Custodia roster links (S2).
 - v0.4 (2026-08-27): Added the locked "Last reviewed — not affected by Games Workshop balance packages" currency stamp; no GW proper nouns introduced (track `dataslate_0826` slice S5).
 - v0.3 (2026-08-25): Read order + subtree — Contract_Cards_Reference, Protocol_Cards_Reference (S8).
 - v0.2 (2026-08-24): Naming safety — full GW obfuscation table (Rawmallet / 39.9 / 39.876 + That other game).

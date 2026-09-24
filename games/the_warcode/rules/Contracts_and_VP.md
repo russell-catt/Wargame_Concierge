@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Contracts_and_VP.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Deep Dive / Teaching Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — verified equivalent, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (current; retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/contract_cards_transcription.txt (via typed transcription, 2026-08-25)
 
@@ -37,7 +38,7 @@ UPDATE_TRIGGER:
 
 # Contracts and VP — how you actually win
 
-Killing models is not the win condition. Holding ground at the right moment is. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+Killing models is not the win condition. Holding ground at the right moment is. **`confidence: verified`**, beta **v0.8.9-F**, checked **2026-09-24**. Contracts and scoring are equivalent to v0.8.7-F. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 ---
 
@@ -162,7 +163,7 @@ Lookup copy: [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md).
 
 The p.22 worked example is the same pattern: Player A trails, Player B plays Ulfari → Target **Shade** on card **6037**.
 
-MDR and Dominium (Custodia Silens) columns are on every card for future rosters — see [`../factions/mdr/README.md`](../factions/mdr/README.md) and [`../factions/dominium/README.md`](../factions/dominium/README.md).
+All four columns now have playable current-rulebook rosters: Protagen Marines, Ulfari, MDR Executive Unit, and Custodia Silens. Card 4186’s **Justicar Julius** is the same Custodia character printed **Justiciar Julius** on p.39; preserve the spelling tied to each source.
 
 ### Playing around contracts
 
@@ -237,6 +238,7 @@ In the final round, a tie is the worst outcome for both players, which makes con
 
 ## Change Log
 
+- v0.3 (2026-09-24): Updated to v0.8.9-F, removed future-roster wording, and added the Justicar/Justiciar note (S2).
 - v0.2 (2026-08-25): Full eight-card deck table, draw/redraw steps, Protagen vs Ulfari Target examples; contract VP confirmed 1 each (S8).
 - v0.1 (2026-08-23): Initial VP, contracts and re-roll deep-dive from beta v0.8.7-F extract.
 

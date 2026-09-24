@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Turn_Structure.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Teaching Guide / Play Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — verified delta, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (read 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -30,13 +31,13 @@ KEY_SECTIONS_EXPECTED:
   - Common mistakes
 
 UPDATE_TRIGGER:
-  Update when beta supersedes v0.8.7-F on phase order, activation rules, or
+  Update when beta supersedes v0.8.9-F on phase order, activation rules, or
   end-of-round sequencing.
 -->
 
 # Turn Structure — the checklist for a round
 
-Read top to bottom. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Page cites point at [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+Read top to bottom. **`confidence: verified`**, beta **v0.8.9-F**, read **2026-09-24**. Page cites point at [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 Pre-game board work is in [`../setup/Board_Setup.md`](../setup/Board_Setup.md).
 
@@ -52,7 +53,7 @@ Complete these steps **once**, before the Initiative Phase of round 1:
 - [ ] **Deploy units** — players alternate placing **one unit each** until all squads are on the board.
 - [ ] **Distribute equipment** — each player has **4 equipment points** to buy grenades (2 pts) and/or medkits (2 pts) for units, unless unit rules forbid other gear.
 
-> Source: The Warcode Rulebook V.0.8.7-F.pdf — p.2 — "SETUP"  
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — p.2 — "SETUP"
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.3 — "INITIATIVE PHASE"
 
 ---
@@ -113,6 +114,9 @@ Players **alternate activating exactly one unit** until every unit has activated
 
 - [ ] First player activates one unit → second player activates one unit → repeat.
 - [ ] Continue until **both** players have activated every unit (or passed with all units).
+- [ ] After ordinary activations, resolve any **Inspired** units’ delayed 1-AP activations before entering the End of Round.
+
+**Inspiration gap:** the Confessor rule does not say which side resolves first when both have Inspired units, how multiple Inspired units are ordered, whether one unit can be Inspired repeatedly, or what happens if it dies before the delayed window.
 
 ---
 
@@ -131,6 +135,8 @@ Resolve in this order:
 
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.3 — "END OF THE ROUND"
 
+The global order is firm, but simultaneous **unit effects are not internally ordered**. Combat Medic healing, Burning damage/removal, Tormentor’s Influence, and Choke can change one another’s outcomes. Resolve by table agreement and record it; do not treat this checklist as a publisher ruling. Protocol/scenario effects follow all unit effects, then VP.
+
 ### Final round
 
 - [ ] If the scenario says this was the **last round**, determine the winner from scenario victory conditions (VP total, elimination, tie rules).
@@ -145,7 +151,7 @@ Resolve in this order:
 | Activating the same unit twice in one round | One activation per unit per round — token flip is the reminder |
 | Shooting with 0 ammo | Reload first, or pick a different action |
 | Forgetting Overwatch ends your activation | Overwatch costs 1 AP and **locks out** all other actions that round |
-| Passing to bait Overwatch | **Pass does not trigger Overwatch** — only the listed enemy actions do |
+| Passing to bait Overwatch | **Pass does not trigger Overwatch.** Page 11 lists other triggers, but ability use and map interaction are not resolved by the source |
 | Scoring VP mid-round | VP tokens pay out at **end of round** only |
 | Opening a door blocked by an enemy within 1 inch | Door is **blocked** — see [`../setup/Terrain_Basics.md`](../setup/Terrain_Basics.md) |
 
@@ -163,13 +169,15 @@ Resolve in this order:
 
 ## Open questions
 
-- Exact ordering when multiple end-of-round triggers conflict — confirm in full rulebook if scenarios stack effects.
+- Exact ordering among Combat Medic, Burning, Tormentor’s Influence, and Choke.
+- Inspiration ordering and repeat-target questions.
 - Default round count when a scenario omits it — not stated in the current extract.
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-09-24): Added Inspiration window and preserved unresolved unit-effect ordering before scenario effects and VP (S2).
 - v0.1 (2026-08-23): Initial turn-structure checklist from beta v0.8.7-F extract.
 
 ## Attribution

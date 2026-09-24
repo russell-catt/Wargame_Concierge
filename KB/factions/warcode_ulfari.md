@@ -4,16 +4,16 @@ type: faction
 system: the_warcode
 faction: Ulfari
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
-sources: [warcode_rulebook_v087f, warcode_web_prelaunch_2026_08, docs/handoffs/warcode_tactical_doctrine/review_manifests/05_factions.md, docs/handoffs/warcode_tactical_doctrine/review_manifests/06_faction_concepts.md]
+updated: 2026-09-24
+version: 0.9.1
+sources: [warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, games/the_warcode/factions/ulfari/README.md, games/the_warcode/factions/ulfari/Squad_Datasheet.md]
 confidence: draft
 tags: [faction, the_warcode, ulfari, beta_roster, beginner]
 ---
 
 # Ulfari (The Warcode)
 
-Outside-system aliens built to **close fast and strike first** — lighter armour, higher **Agility**, two units above baseline speed. Beta v0.8.7-F ships **eight fixed units**. Marketing tags: Aggressive, Fast, Melee-focused, Beginner-friendly. Teaching paraphrase only.
+Outside-system aliens built to close fast and strike first — lighter armour, higher Agility, and an eight-model roster unchanged in v0.8.9-F.
 
 ---
 
@@ -42,16 +42,24 @@ Outside-system aliens built to **close fast and strike first** — lighter armou
 
 ---
 
+## Lore and evidence limits
+
+The lorebook marks Ulfari contact as the start of Arrival but contains no clearly Ulfari-authored source. Their own name, aims, reason for entering the system, and account of first contact remain unknown.
+
+An older pre-launch publisher claim described sudden station destruction. A later Dominium internal file instead records a non-hostile encounter aboard the Erebus-7 carrier followed by suppression and escalation orders. The evidence does not prove those orders were completed, who began every later clash, or that all later Ulfari violence was fabricated.
+
+A later Dominium briefing describes aggressive and mobile Ulfari combat behaviour. Treat it as hostile-source observation, not timeless species psychology.
+
 ## Chassis shared with all factions
 
-2 AP per activation, 4 equipment points, Leader re-rolls, [[warcode_contracts]], same cover and overwatch rules — see [[warcode_rulebook_v087f]].
+2 AP per activation, 4 equipment points, Leader re-rolls, [[warcode_contracts]], and the shared cover and overwatch rules — see [[warcode_rulebook_v089f]].
 
 ---
 
 ## Open questions
 
-- Shade sniper rule exact wording and whether it stacks with cover Agility modifiers.
-- Protocol Cards faction-specific content — OCR pending.
+- No lower Agility floor or stacking order is stated for Shade and other reductions.
+- Ulfari intent and responsibility for the wider conflict remain unknown.
 
 ---
 
@@ -59,4 +67,4 @@ Outside-system aliens built to **close fast and strike first** — lighter armou
 
 - [[warcode_protagen_marines]] · [[warcode_mdr]] · [[warcode_dominium]]
 - [[warcode_ammo]] · [[warcode_overwatch]] · [[warcode_melee_lock]]
-- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]]
+- [[warcode_rulebook_v089f]] · [[warcode_tactical_doctrine_field_edition]] · [[warcode_web_prelaunch_2026_08]]

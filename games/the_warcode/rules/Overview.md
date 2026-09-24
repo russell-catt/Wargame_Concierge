@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Overview.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Teaching Guide / Beginner Overview
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
   - games/the_warcode/README.md
@@ -32,13 +33,13 @@ KEY_SECTIONS_EXPECTED:
   - Your realistic first game
 
 UPDATE_TRIGGER:
-  Update when a newer free beta supersedes v0.8.7-F on the same topics, or when
+  Update when a newer free beta supersedes v0.8.9-F on the same topics, or when
   round count / force size is confirmed elsewhere in the rulebook.
 -->
 
 # Overview — what a game of The Warcode is
 
-Everything below is teaching paraphrase from the free beta rulebook **V.0.8.7-F**, read **2026-08-23**. **`confidence: draft`** — usable for learning, but confirm scenario-specific details before a competitive table. Verbatim rule text lives in [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+Everything below is teaching paraphrase from the free beta rulebook **V.0.8.9-F**, read **2026-09-24**. **`confidence: verified`** for the current rules delta. Verbatim rule text lives in [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 **This subtree is unofficial and unauthorized.** Personal learning only — not endorsed by RedMakers or Gamefound.
 
@@ -92,6 +93,15 @@ Each player fields a **fixed squad** from a faction roster — **eight units** i
 
 Every unit has core stats — **Health (HP)**, **Agility (A)**, **Armor**, and **Movement Range (M)** — plus ranged and/or melee weapon profiles. Each unit receives **2 AP per round** when activated.
 
+### Four current squads
+
+- **Protagen Marines:** durable, shotgun-heavy positional force.
+- **Ulfari:** agile, fast, melee-forward force.
+- **MDR Executive Unit:** coordinated Order/Comms network with round-end healing.
+- **Custodia Silens:** control and combination roster with debuffs, delayed activations, persistent damage, and Burning.
+
+Profiles: [`../factions/protagen_marines/Squad_Datasheet.md`](../factions/protagen_marines/Squad_Datasheet.md), [`../factions/ulfari/Squad_Datasheet.md`](../factions/ulfari/Squad_Datasheet.md), [`../factions/mdr/Squad_Datasheet.md`](../factions/mdr/Squad_Datasheet.md), [`../factions/dominium/Squad_Datasheet.md`](../factions/dominium/Squad_Datasheet.md).
+
 ---
 
 ## What you need to play
@@ -143,6 +153,8 @@ If you know **Murder Platoon** (That other game's skirmish mode): think smaller 
 
 ## Change Log
 
+- v0.3.1 (2026-09-24): Recorded digital Kickstarter/TTS version context and aligned the active baseline header (S4/QA).
+- v0.3 (2026-09-24): Updated to v0.8.9-F and four playable squads (S2).
 - v0.2 (2026-08-25): Cross-links to card reference pages; protocol corpus note (S8).
 - v0.1 (2026-08-23): Initial teaching overview from beta v0.8.7-F extract (warcode_tactical_doctrine).
 
@@ -155,4 +167,4 @@ If you know **Murder Platoon** (That other game's skirmish mode): think smaller 
 ## Rising Tide Notes
 
 - This document follows Rising Tide documentation standards.
-- **Verify before you play.** Cross-check against the current free beta PDF — rules may change before Gamefound release.
+- **Verify before you play.** Cross-check against the current free beta PDF — the public Workshop listing still labels rules v0.8.7, and rules may change during or after the digital Kickstarter.

@@ -1,15 +1,17 @@
 <!--
 FILE: games/the_warcode/rules/Rulebook_Quotes.md
-VERSION: v0.1.1 (2026-08-25)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Quote Appendix / Verbatim Rules Reference
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — verified delta, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (current free public beta, RedMakers; retrieved 2026-09-24)
+  - raw/the_warcode/rulebook_v089f_extract.txt (native text extract)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt (native text extract)
   - raw/the_warcode/protocol_cards.ocr.txt (Protocol Cards, via OCR)
@@ -39,13 +41,15 @@ KEY_SECTIONS_EXPECTED:
   - Team lists (Protagen Marines, Ulfari)
 
 UPDATE_TRIGGER:
-  A newer free beta supersedes v0.8.7-F on any quoted topic, or a cleaner OCR
+  A newer free beta supersedes v0.8.9-F on any quoted topic, or a cleaner OCR
   pass replaces the Protocol Card / team list reconstructions.
 -->
 
-# Rulebook Quotes — The Warcode beta v0.8.7-F
+# Rulebook Quotes — The Warcode beta v0.8.9-F
 
-Verbatim reference for the free public beta. **`confidence: draft`**, read **2026-08-23**.
+Verbatim reference for the free public beta. **`confidence: verified`**, current baseline read **2026-09-24**.
+
+**Provenance lock:** `The-Warcode-Rulebook-V.0.8.9-F.pdf` is current. A page-by-page comparison verified that PDF pp.2–36 are mechanically equivalent to v0.8.7-F; contracts, protocols, map, Protagen Marines, and Ulfari are unchanged. Existing page anchors and quote blocks below remain stable evidence. New material appears only on pp.37–40. Omission is not a patch.
 
 Quoting is permitted here under `AGENTS.md` Sec 10 — The Warcode beta is a **free public distribution from RedMakers**, not a paid or protected pack. This subtree is **unofficial and unauthorized**. Teaching paraphrase lives in [`Key_Concepts.md`](Key_Concepts.md) and the deep-dive pages; this file is the wording those pages point at.
 
@@ -55,7 +59,7 @@ Quoting is permitted here under `AGENTS.md` Sec 10 — The Warcode beta is a **f
 
 Every block ends with:
 
-`Source: The Warcode Rulebook V.0.8.7-F.pdf — p.{N} — "{SECTION}"`
+Current citations use `Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.{N} — "{SECTION}"`. Preserved v0.8.7-F citations below remain valid for unchanged pp.2–36 under the equivalence lock above.
 
 **`p.{N}` is the PDF file page** (the `===== PAGE N =====` marker in the extract), not the printed page number stamped in the page corner. The printed number runs one lower — PDF p.4 carries the printed "3". This matches the citation style already used in [`Turn_Structure.md`](Turn_Structure.md) and [`Key_Concepts.md`](Key_Concepts.md).
 
@@ -756,9 +760,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Commander Rickman  
-> Ulfari — Soul Eater  
-> MDR Executive Unit — Sergeant 139  
+> Protagen Marines — Commander Rickman
+> Ulfari — Soul Eater
+> MDR Executive Unit — Sergeant 139
 > Custodia Silens — Justicar Julius
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -769,9 +773,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Shellshocker  
-> Ulfari — Phantom  
-> MDR Executive Unit — Combat Medic  
+> Protagen Marines — Shellshocker
+> Ulfari — Phantom
+> MDR Executive Unit — Combat Medic
 > Custodia Silens — Cremator
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -782,9 +786,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Bastion  
-> Ulfari — Reaper  
-> MDR Executive Unit — Machine Gunner  
+> Protagen Marines — Bastion
+> Ulfari — Reaper
+> MDR Executive Unit — Machine Gunner
 > Custodia Silens — Confessor
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -795,9 +799,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Blade  
-> Ulfari — Shade  
-> MDR Executive Unit — Grenadier  
+> Protagen Marines — Blade
+> Ulfari — Shade
+> MDR Executive Unit — Grenadier
 > Custodia Silens — Punisher
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -808,9 +812,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Blast  
-> Ulfari — Stalker  
-> MDR Executive Unit — Comms Operator  
+> Protagen Marines — Blast
+> Ulfari — Stalker
+> MDR Executive Unit — Comms Operator
 > Custodia Silens — Tormentor
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -821,9 +825,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Anvil  
-> Ulfari — Doom  
-> MDR Executive Unit — Corporal  
+> Protagen Marines — Anvil
+> Ulfari — Doom
+> MDR Executive Unit — Corporal
 > Custodia Silens — Lancer
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -834,9 +838,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Smasher  
-> Ulfari — Ravener  
-> MDR Executive Unit — Marksman  
+> Protagen Marines — Smasher
+> Ulfari — Ravener
+> MDR Executive Unit — Marksman
 > Custodia Silens — Assassin
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -847,9 +851,9 @@ Every card shares the same header and awards **1 VP** on fulfilment.
 >
 > **1 VP**
 >
-> Protagen Marines — Hammer  
-> Ulfari — Wraith  
-> MDR Executive Unit — Private  
+> Protagen Marines — Hammer
+> Ulfari — Wraith
+> MDR Executive Unit — Private
 > Custodia Silens — Executor
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — pp.24–25 — "CONTRACTS" — via typed transcription (raw/the_warcode/contract_cards_transcription.txt)
@@ -1143,6 +1147,95 @@ Printed unit abilities:
 
 ---
 
+## 33. Team list — MDR Executive Unit
+
+**Reconstructed profiles** from current PDF pp.37–38. Complete table and teaching notes: [`../factions/mdr/Squad_Datasheet.md`](../factions/mdr/Squad_Datasheet.md).
+
+| Unit | HP | A | M | Armour | Ranged | Melee |
+|---|---:|---:|---:|---:|---|---|
+| Sergeant 139 | 9 | 3 | 6" | 3 | Large-Caliber Pistol | Volt Sword |
+| Grenadier | 8 | 3 | 6" | 3 | Rifle | Bayonet |
+| Combat Medic | 8 | 3 | 6" | 3 | Rifle | Bayonet |
+| Machine Gunner | 8 | 3 | 6" | 3 | Large-Caliber Machine Gun | Combat Knife |
+| Corporal | 8 | 3 | 6" | 3 | Rifle | Bayonet |
+| Private | 8 | 3 | 6" | 3 | Rifle | Bayonet |
+| Marksman | 8 | 3 | 6" | 3 | Rifle | Bayonet |
+| Comms Operator | 8 | 3 | 6" | 3 | Rifle | Bayonet |
+
+> ORDER: Once per round, for 1 AP, the Sergeant can issue an order to one unit within 7 inches that has not been activated this round. The Sergeant cannot do this while in melee combat. The chosen unit gains +1 AP until the end of the round. Place an order token next to it. The range of this ability can be extended by the Comms Operator.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.37 — "MDR EXECUTIVE UNIT — TEAM LIST" (Sergeant 139)
+
+> SPECIAL ABILITY: Friendly units within 7 inches of the Sergeant improve their Armor Penetration to -1 on melee attacks. The range of this ability can be extended by the Comms Operator.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.37 — "MDR EXECUTIVE UNIT — TEAM LIST" (Sergeant 139)
+
+> SPECIAL ABILITY: At the end of each round, the Medic restores 1 HP to all friendly units within 6 inches. The Medic does not heal himself, and the ability does not work while the Medic is in melee combat.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.37 — "MDR EXECUTIVE UNIT — TEAM LIST" (Combat Medic)
+
+> SPECIAL ABILITY: Sniper — When this unit shoots, the Target's agility is reduced by 1.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.38 — "MDR EXECUTIVE UNIT — TEAM LIST" (Marksman)
+
+> SPECIAL ABILITY: When the Comms Operator is within 7 inches of the Sergeant, the Sergeant’s Special Ability and Order can also affect eligible friendly units within 7 inches of the Comms Operator.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.38 — "MDR EXECUTIVE UNIT — TEAM LIST" (Comms Operator)
+
+---
+
+## 34. Team list — Custodia Silens
+
+**Reconstructed profiles** from current PDF pp.39–40. Complete table and teaching notes: [`../factions/dominium/Squad_Datasheet.md`](../factions/dominium/Squad_Datasheet.md).
+
+| Unit | HP | A | M | Armour | Ranged | Melee |
+|---|---:|---:|---:|---:|---|---|
+| Justiciar Julius | 9 | 3 | 6" | 3 | Large-Caliber Pistol | Combat Knife |
+| Assassin | 8 | 3 | 7" | 3 | Large-Caliber Pistol | Combat Knife |
+| Punisher | 10 | 2 | 5" | 4 | Heavy Weapon | Combat Maul |
+| Cremator | 8 | 3 | 6" | 3 | Hand Flamethrower | Volt Sword |
+| Confessor | 7 | 2 | 6" | 3 | — | Fist |
+| Tormentor | 7 | 3 | 6" | 2 | Directed Energy | Fist |
+| Executor | 8 | 3 | 6" | 3 | Shotgun | Combat Knife |
+| Lancer | 8 | 3 | 6" | 3 | — | Combat Spear |
+
+> SPECIAL ABILITY: Justiciar's Influence — Enemy units within 6 inches of the Justiciar and in line of sight have their agility reduced by 1.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.39 — "CUSTODIA SILENS — TEAM LIST" (Justiciar Julius)
+
+> WEAPON ABILITY: Never needs reloading. Ignores agility and partial cover. Sets the Target and all units within 2 inches on fire. A burning unit takes 1 damage at the end of the round, after which the effect is removed. A medkit removes the burning effect. Only one burning effect can be applied to a unit at a time.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.39 — "CUSTODIA SILENS — TEAM LIST" (Cremator, Hand Flamethrower)
+
+> INSPIRATION: For 1 AP, apply Inspiration to a friendly unit within 8 inches and in line of sight that has already been activated this round. The unit gains +1 AP. Spending 2 AP gives +1 AP to two different units. A unit with Inspiration is activated with that 1 AP before the end of the round, once all other units on both sides have been activated. Cannot be used while in melee combat.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.40 — "CUSTODIA SILENS — TEAM LIST" (Confessor)
+
+> WEAPON ABILITY: Ignores armor. Counts as a ranged weapon and can be used once per round. Cannot be used for Overwatch. For each critical hit, the unit using Focused Energy takes 1 damage.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.40 — "CUSTODIA SILENS — TEAM LIST" (Tormentor, Directed Energy)
+
+> CHOKE: For 1 AP, apply Choke to an enemy unit within 8 inches and in line of sight. At the end of each round, a unit with Choke takes 1 damage. Once applied, the effect stays on the unit at any distance and without line of sight, and ends only if the Tormentor is destroyed. A unit can only receive Choke once, and only two units can be under Choke at the same time. If a unit with Choke dies, the Tormentor can apply it to another unit. Cannot be used while in melee combat.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.40 — "CUSTODIA SILENS — TEAM LIST" (Tormentor)
+
+> WEAPON ABILITY: Enemy units within 1 inch are in Melee Lock with this unit, even if their bases do not touch.
+>
+> Source: The-Warcode-Rulebook-V.0.8.9-F.pdf — p.40 — "CUSTODIA SILENS — TEAM LIST" (Lancer, Combat Spear)
+
+### Current-source ambiguity register
+
+- Contract 4186 prints **Justicar Julius**; p.39 prints **Justiciar Julius**.
+- The p.40 profile heading is **Directed Energy**; its backlash sentence says **Focused Energy**.
+- Hand Flamethrower prints ammo 3 and reload AP “—” while saying it never needs reloading.
+- Inspiration ordering and repeat targeting are undefined.
+- Ability use is absent from the p.11 Overwatch list despite the broader p.10 wording.
+- No lower Agility floor or stacking order is stated.
+- Unit-effect ordering among Medic healing, Burning, Influence, and Choke is undefined; scenario effects follow unit effects, then VP.
+- Equipment pickup, multi-item drops, medkit immunity, and Burning removal interactions are unresolved.
+
+---
+
 ## Gaps in the extract
 
 Things the beta PDF contains that this file cannot quote, because the pages carry no extractable text layer:
@@ -1154,7 +1247,9 @@ Things the beta PDF contains that this file cannot quote, because the pages carr
 | pp.28–32 | **Protocol Cards** | Transcribed **via OCR** (Sec 29) plus **Left / Centre / Right / Total** map sections via typed transcription — see [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md). |
 | p.27 | Six random VP layout diagrams | Positions documented in [`../setup/Board_Setup.md`](../setup/Board_Setup.md); dimension callouts in Sec 28. |
 | pp.5, 33–36 | Unit and weapon stat cards | Reconstructed as tables in Sec 30–32, not quoted. |
-| p.37 | Trailing page | Empty in extract |
+| pp.37–38 | MDR Executive Unit | **Closed** — Sec 33 and faction datasheet. |
+| pp.39–40 | Custodia Silens | **Closed** — Sec 34 and faction datasheet. |
+| p.41 | Trailing page | Empty in extract |
 
 Other open items:
 
@@ -1184,6 +1279,7 @@ Other open items:
 
 ## Change Log
 
+- v0.2 (2026-09-24): Set v0.8.9-F current provenance; recorded pp.2–36 equivalence; added MDR pp.37–38 and Custodia pp.39–40 with ambiguity register (S2).
 - v0.1.1 (2026-08-25): Sec 25 — eight contract cards via typed transcription (pp.24–25 gap closed). Sec 29 — Left/Centre/Right/Total room variants; Hunt OCR vs transcription footnote. Gaps table updated; links to Contract and Protocol reference pages.
 - v0.1 (2026-08-23): Initial verbatim appendix from beta v0.8.7-F native extract plus Protocol Cards OCR. Reconstructed weapon and team-list tables with flags on Smasher's pistol and Reaper's missing ranged profile.
 

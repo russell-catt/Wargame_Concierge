@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/guides/Warcode_vs_That_Other_Game.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -10,6 +10,7 @@ GAME_SYSTEM: The Warcode
 REFERENCE_STATUS: Active — draft (2026-08-23)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - games/the_warcode/rules/Overview.md
   - games/the_warcode/rules/Turn_Structure.md
@@ -33,9 +34,9 @@ If you already play **Murder Platoon** (That other game's squad skirmish mode) o
 
 ## Comparison at a glance
 
-| Axis | The Warcode (beta v0.8.7-F) | That other game (Murder Platoon mental model) |
+| Axis | The Warcode (beta v0.8.9-F) | That other game (Murder Platoon mental model) |
 |------|----------------------------|-----------------------------------------------|
-| **Scale** | Fixed **8 models** per player; **33" × 24"** board | Typically **6–10 operatives**; killzone-sized board (~22" × 30" or similar) |
+| **Scale** | Four fixed **8-model** rosters; **33" × 24"** board | Typically **6–10 operatives**; killzone-sized board (~22" × 30" or similar) |
 | **Length** | **Four rounds** in bundled scenarios; tight clock | Mission-driven; often **3–4 turning points** with longer clock on some ops |
 | **Activation** | **Alternating single-unit** activation each Tactical Phase | **Alternating activation** of individual operatives (similar rhythm, different action economy) |
 | **Action economy** | **2 AP per unit per round** — move, shoot, reload, overwatch, melee, equipment | **Action / energy / AP pools** vary by operative and turning point; generally more actions spread across the squad |
@@ -106,7 +107,7 @@ Murder Platoon comeback often lives in **mission design** and **score swings on 
 | Topic | Warcode | Murder Platoon |
 |-------|---------|----------------|
 | List building | **Fixed roster** — eight named units per faction | Roster construction within points / limits |
-| Factions in beta | **Protagen Marines** + **Ulfari** only | Many teams in current edition |
+| Factions in beta | **Protagen Marines, Ulfari, MDR Executive Unit, Custodia Silens** | Many teams in current edition |
 | Proxy friendliness | **Excellent** — see [`Proxy_Play_at_Home.md`](Proxy_Play_at_Home.md) | Already proxy-friendly at skirmish scale |
 
 ---
@@ -129,6 +130,7 @@ Murder Platoon comeback often lives in **mission design** and **score swings on 
 
 ## Change Log
 
+- v0.2 (2026-09-24): Updated v0.8.9-F baseline and four-faction roster count (S2).
 - v0.1 (2026-08-23): Initial comparative axes (warcode_tactical_doctrine).
 
 ## Attribution

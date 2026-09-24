@@ -3,25 +3,26 @@ title: Warcode Action Points
 type: concept
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-24
-version: 0.5.4
-sources: [warcode_rulebook_v087f, games/the_warcode/rules/Key_Concepts.md, games/the_warcode/rules/Turn_Structure.md]
+updated: 2026-09-24
+version: 0.9.1
+sources: [warcode_rulebook_v089f, games/the_warcode/rules/Key_Concepts.md, games/the_warcode/rules/Turn_Structure.md, games/the_warcode/rules/Activation_and_AP.md]
 confidence: draft
 tags: [concept, the_warcode, action_points, activation, core_rules]
 ---
 
 # Warcode Action Points
 
-Each activated unit receives **2 Action Points (AP)** per round and spends them on moves, shots, reloads, melee, overwatch, equipment, and special actions until it **Pass**es or runs out. Teaching paraphrase of shipping [`Key_Concepts.md`](../../games/the_warcode/rules/Key_Concepts.md) (beta v0.8.7-F, read **2026-08-23**).
+Each activated unit normally receives 2 Action Points, while MDR Order enlarges a future normal activation and Custodia Inspiration creates a delayed one-AP activation.
 
 ---
 
 ## The mechanic
 
-- **Budget:** 2 AP when a unit activates in the Tactical Phase (unless an ability modifies it — rare in published rosters).
+- **Budget:** 2 AP when a unit activates in the Tactical Phase.
 - **Costs:** Most actions pay AP from the unit or weapon profile. **Exceptions at 0 AP:** pick up ground equipment within 1 inch, open/close doors within 1 inch of the doorway, use a medkit.
 - **Pass:** End activation with AP unspent. **Does not** trigger enemy [[warcode_overwatch]].
-- **Extra AP:** Core rules reserve abilities that grant AP to another friendly unit — spend in the same round. Neither beta roster ships such a unit; likely reserved for MDR — see [[warcode_mdr]].
+- **Order:** Sergeant 139 spends AP to give one unactivated ally +1 AP through round end; Comms can relay its reach.
+- **Inspiration:** Confessor targets allies that already activated, giving each a later one-AP activation after ordinary activations.
 
 Players **alternate activating one unit at a time** until every unit has activated or passed.
 
@@ -55,12 +56,15 @@ See also [[activations_apl]] (That other game concept page).
 
 ## Open questions
 
-- Exact wording when multiple abilities modify AP on the same activation.
+- Ordering among Inspired units and between players.
+- Whether one unit can be Inspired repeatedly.
+- What happens if an Inspired unit dies before the delayed window.
+- Whether AP-costed abilities trigger [[warcode_overwatch]].
 
 ---
 
 ## Related pages
 
 - [[warcode_overwatch]] · [[warcode_ammo]] · [[warcode_melee_lock]]
-- [[warcode_rulebook_v087f]]
+- [[warcode_rulebook_v089f]] · [[warcode_mdr]] · [[warcode_dominium]]
 - [`games/the_warcode/rules/Turn_Structure.md`](../../games/the_warcode/rules/Turn_Structure.md)

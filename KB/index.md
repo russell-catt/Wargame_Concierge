@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-27
-version: 0.5.9
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, white_dwarf_527, 40k_aug_2026_balance_package, kt_aug_2026_balance_package, sm_codex_oct_2026_preview]
+updated: 2026-09-24
+version: 0.9.1
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, warcode_gamefound_campaign_2026_09, warcode_kickstarter_relaunch_2026_09, warcode_campaign_transition_2026_09, white_dwarf_527, 40k_aug_2026_balance_package, kt_aug_2026_balance_package, sm_codex_oct_2026_preview]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024, the_warcode]
 ---
@@ -212,34 +212,44 @@ Second game system, added **2026-08-17** (`kill_team_2024_scaffold`, slice L1). 
 
 ## The Warcode (the_warcode)
 
-Third game system, scaffolded **2026-08-23** (`warcode_tactical_doctrine`, Librarian ingest). Every page below carries `system: the_warcode`. Rules stay separate from **39.9 (Rawmallet)** and **That other game** at every layer. Shipping under `games/the_warcode/` — **all GW proper nouns obfuscated** (Rawmallet / 39.9 / 39.876 / That other game); see [[warcode_rulebook_v087f#GW proper noun obfuscation (Warcode shipping)]].
+Third game system, scaffolded **2026-08-23** and refreshed **2026-09-24**. Current mechanics baseline is v0.8.9-F; the lorebook is narrative context only. Rules stay separate from **39.9 (Rawmallet)** and **That other game** at every layer.
 
 ### Sources (Warcode)
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[warcode_rulebook_v087f]] | Free public beta V.0.8.7-F from RedMakers — primary rules truth; contract/protocol transcriptions + map PNGs 2026-08-25 | draft | 2026-08-25 |
-| [[warcode_web_prelaunch_2026_08]] | Pre-launch site, Gamefound campaign, and VIP Facebook — marketing and faction blurbs; secondary to the beta PDF | draft | 2026-08-23 |
+| [[warcode_rulebook_v089f]] | Current free mechanics baseline for The Warcode: unchanged core, cards, maps, Protagen, and Ulfari material plus playable MDR Executive Unit and Custodia Silens rosters. | draft | 2026-09-24 |
+| [[warcode_tactical_doctrine_field_edition]] | Narrative dossier for The Warcode theatre, chronology, and factions; useful for source-aware setting context but never a mechanics authority. | draft | 2026-09-24 |
+| [[warcode_gamefound_campaign_2026_09]] | Historical record of the mixed digital-and-physical Gamefound campaign: launched 2026-09-15, publicly cancelled 2026-09-17, and recorded ended 2026-09-18 with no funds collected. | draft | 2026-09-24 |
+| [[warcode_kickstarter_relaunch_2026_09]] | Retrieval-dated source record for the digital-only STL and Print & Play Kickstarter launched 2026-09-23 and scheduled to end 2026-10-23. | draft | 2026-09-24 |
+| [[warcode_rulebook_v087f]] | Historical free beta from RedMakers — superseded by [[warcode_rulebook_v089f]] on the same topic, but retained as provenance for unchanged pages and earlier shipping citations. | draft | 2026-09-24 |
+| [[warcode_web_prelaunch_2026_08]] | Historical pre-launch marketing snapshot for The Warcode — useful for dated publisher claims, but superseded for current mechanics, faction playability, and campaign offer. | draft | 2026-09-24 |
 
 ### Concepts (Warcode)
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[warcode_action_points]] | Each activated unit gets 2 AP per round to pay for moves, shots, melee, overwatch, and equipment — Pass ends activation without triggering Overwatch | draft | 2026-08-23 |
-| [[warcode_ammo]] | Ranged weapons track ammunition; need ≥1 to shoot, lose 1 after each shot; Reload restores max and can trigger enemy Overwatch | draft | 2026-08-23 |
-| [[warcode_overwatch]] | 1 AP reaction stance — shoots first when a qualifying enemy acts in range; ends the unit's activation for the round | draft | 2026-08-23 |
-| [[warcode_contracts]] | Secret elimination bounty when trailing ≥1 VP — eight-card deck transcribed, 1 VP each, four faction target columns | draft | 2026-08-25 |
-| [[warcode_protocol_cards]] | Scenario protocol deck — Magnet/Hunt/Electricity/Silence/Poison by Left/Centre/Right/Total room | draft | 2026-08-25 |
-| [[warcode_melee_lock]] | Bases touching an enemy — cannot walk away without Disengage (1 AP) or Escape (2 AP); distinct from melee range alone | draft | 2026-08-23 |
+| [[warcode_action_points]] | Each activated unit normally receives 2 Action Points, while MDR Order enlarges a future normal activation and Custodia Inspiration creates a delayed one-AP activation. | draft | 2026-09-24 |
+| [[warcode_ammo]] | Ranged weapons normally spend one ammunition per shooting action and reload to their printed maximum, but Custodia's Hand Flamethrower creates an unresolved exception. | draft | 2026-09-24 |
+| [[warcode_overwatch]] | Overwatch commits a ranged unit to reaction fire, but the current rulebook leaves a gap between its broad action trigger and its narrower named-action list. | draft | 2026-09-24 |
+| [[warcode_contracts]] | When trailing after round scoring, draw a secret Contract that names one enemy from the opponent's faction; all four target columns now map to playable rosters. | draft | 2026-09-24 |
+| [[warcode_protocol_cards]] | The twenty-card Core of the Machine protocol deck is unchanged in v0.8.9-F: five hazard families across Left, Centre, Right, and Total map scopes. | draft | 2026-09-24 |
+| [[warcode_melee_lock]] | Melee Lock normally begins at base contact and forces a risky Disengage or full-activation Escape, while Smasher and Lancer extend Lock to enemies within one inch. | draft | 2026-09-24 |
 
 ### Factions (Warcode)
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[warcode_protagen_marines]] | Heavy-suited hold-ground squad — eight beta units; shotgun-heavy, higher armour, Smasher forces Melee Lock at 1 inch | draft | 2026-08-23 |
-| [[warcode_ulfari]] | Fast alien skirmishers — eight beta units; lighter armour, higher agility, Reaper is melee-only with no Overwatch | draft | 2026-08-23 |
-| [[warcode_mdr]] | Clone-commander faction (marketing only) — synchronised bodies, AP-sharing hinted in core rules; no beta roster yet | stub | 2026-08-23 |
-| [[warcode_dominium]] | Elite enforcement faction (marketing only) — morale/support concept; no beta roster; no morale system in v0.8.7-F | stub | 2026-08-23 |
+| [[warcode_protagen_marines]] | Engineering faction in heavy suits — hold ground and trade mobility for resilience; its eight-model roster is unchanged in v0.8.9-F. | draft | 2026-09-24 |
+| [[warcode_ulfari]] | Outside-system aliens built to close fast and strike first — lighter armour, higher Agility, and an eight-model roster unchanged in v0.8.9-F. | draft | 2026-09-24 |
+| [[warcode_mdr]] | Coordinated support faction whose playable MDR Executive Unit relays extra AP and melee pressure through a Sergeant–Comms network while a Combat Medic rewards compact positioning. | draft | 2026-09-24 |
+| [[warcode_dominium]] | Dominium's playable Custodia Silens formation is a control-and-combination roster using Agility pressure, delayed activations, persistent damage, area fire, and extended Melee Lock. | draft | 2026-09-24 |
+
+### Analyses (Warcode)
+
+| Page | Summary | Confidence | Updated |
+|------|---------|------------|---------|
+| [[warcode_campaign_transition_2026_09]] | The Warcode moved from a cancelled mixed-format Gamefound campaign to a digital-only Kickstarter; the chronology is verified, while explanations for the change remain attributed claims rather than proven causes. | draft | 2026-09-24 |
 
 *(Shipping teaching spine lives under `games/the_warcode/rules/` — KB paraphrase only; quotes scoped to shipping per warcode-quotes rule.)*
 
@@ -278,7 +288,9 @@ Short per-directory README stubs restate the page contract for each entity type.
 - [[glossary]] - terminology lookup
 - [[uml_diagrams_org]] · [[flowcharting_uml_activity]] - project flowchart notation (not game rules)
 - [[ingest_procedure]] - how to add to this catalog
-- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources (system #3)
+- [[warcode_rulebook_v089f]] · [[warcode_tactical_doctrine_field_edition]] · [[warcode_gamefound_campaign_2026_09]] · [[warcode_kickstarter_relaunch_2026_09]] - current Warcode sources
+- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - historical Warcode sources
+- [[warcode_campaign_transition_2026_09]] - Warcode campaign transition analysis
 - [[40k_aug_2026_balance_package]] · [[kt_aug_2026_balance_package]] · [[sm_codex_oct_2026_preview]] - Aug 2026 balance package + Oct Codex preview (`dataslate_0826`, 2026-08-27)
 - [`AGENTS.md`](../AGENTS.md) - schema source of truth
 

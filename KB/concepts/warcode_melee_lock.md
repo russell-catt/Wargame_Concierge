@@ -3,16 +3,16 @@ title: Warcode Melee Lock
 type: concept
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-24
-version: 0.5.4
-sources: [warcode_rulebook_v087f, games/the_warcode/rules/Key_Concepts.md, docs/handoffs/warcode_tactical_doctrine/review_manifests/05_factions.md]
+updated: 2026-09-24
+version: 0.9.1
+sources: [warcode_rulebook_v089f, games/the_warcode/rules/Key_Concepts.md, games/the_warcode/rules/Combat_Ranged_and_Melee.md]
 confidence: draft
 tags: [concept, the_warcode, melee_lock, melee, disengage, escape, core_rules]
 ---
 
 # Warcode Melee Lock
 
-**Melee Lock** occurs when unit **bases touch** an enemy. Locked units cannot simply walk away — they must **Disengage** (1 AP) or **Escape** (2 AP). Distinct from **melee range** (usually 1 inch radius) where enemies restrict actions but may not yet be locked. Teaching paraphrase of shipping [`Key_Concepts.md`](../../games/the_warcode/rules/Key_Concepts.md) (beta v0.8.7-F, read **2026-08-23**).
+Melee Lock normally begins at base contact and forces a risky Disengage or full-activation Escape, while Smasher and Lancer extend Lock to enemies within one inch.
 
 ---
 
@@ -28,7 +28,7 @@ tags: [concept, the_warcode, melee_lock, melee, disengage, escape, core_rules]
 | **Escape** | 2 | Same roll, but you **always** move full Movement Range afterward (enemy still counter-attacks on failure). |
 | **Engage** | 2 | Move up to M+2" toward target; enter melee on base contact. |
 
-**Protagen Smasher** special rule: drags enemies within 1 inch into Melee Lock **without** requiring base contact first — strongest single roster rider in beta.
+**Printed exceptions:** Protagen Smasher and Custodia Lancer treat enemies within one inch as locked without base contact. The general multi-lock escape procedure still assumes touching bases, so the source does not fully define movement geometry for these exceptions.
 
 ---
 
@@ -48,12 +48,12 @@ That other game uses **1" control range** for Fight legality and marker contests
 
 ## Open questions
 
-- Whether multiple simultaneous locks stack disengage rolls per enemy.
+- How multi-lock escape geometry works when Smasher or Lancer creates Lock without contact.
 
 ---
 
 ## Related pages
 
 - [[warcode_action_points]] · [[warcode_overwatch]]
-- [[warcode_protagen_marines]] — Smasher forced Lock rider
-- [[warcode_rulebook_v087f]]
+- [[warcode_protagen_marines]] · [[warcode_dominium]]
+- [[warcode_rulebook_v089f]]

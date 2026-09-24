@@ -48,9 +48,9 @@ Catalog of **local path pointers** and **living web references** for this projec
 | Rule | Detail |
 |------|--------|
 | **Never commit GW binaries** | No PDFs, webp, png, or official images in this repository |
-| **Warcode free beta exception** | `raw/the_warcode/*.pdf` may be committed (RedMakers free beta only — not GW). See `AGENTS.md` Sec 10 |
+| **Warcode free-publication exception** | The freely distributed rulebook and lorebook under `raw/the_warcode/*.pdf` may be committed (RedMakers publications only — not GW). See `AGENTS.md` Sec 10 |
 | **Path pointers only** | Local GW files stay under `C:\Personal\40K` or `C:\Personal\Kill Team`; the repo records paths |
-| **Teaching paraphrase** | `KB/` and `docs/` explain rules in our own words. Scoped verbatim quotes: KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Warcode free beta under `games/the_warcode/{rules,setup,factions}/`. Codex / Faction Pack / MFM points are not dumped |
+| **Teaching paraphrase** | `KB/` and `docs/` explain rules in our own words. Scoped verbatim quotes: KT24 under `games/kill_team_2024/`; 40K WarCom-free Core under `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID); Warcode free publications under `games/the_warcode/{rules,setup,factions,lore}/`. Codex / Faction Pack / MFM points are not dumped |
 | **Cross-check before play** | Verify claims against owned PDFs and living web sources with a retrieval date |
 | **White Dwarf screen captures** | Secondary trust (e.g. KT WD517 Reddit captures) — never override official PDFs |
 | **Owned White Dwarf magazine** | **Tier 1.5** for commentary/missions in that issue — tier-1 Core still wins on mechanics (see `raw/pointers/white_dwarf_527.md`) |
@@ -132,7 +132,7 @@ Teaching (paraphrase only): [`games/warhammer_40k_11e/setup/WD527_Monthly_Missio
 
 ## Local library — `C:\Personal\Kill Team`
 
-All paths below are on the owner's machine. **Do not copy these files into git.**  
+All paths below are on the owner's machine. **Do not copy these files into git.**
 Obsolete: former flat `C:\Personal\Kill Team\rules\` — use `kill_team_2024\` / `kill_team_2021\` only.
 
 **Mirror stubs:** `raw/pointers/kill_team_*.md`
@@ -247,22 +247,29 @@ Confirmed in the FOUNDATION section of `Necron_Lists.md`. **Kill Team: Tomb Worl
 
 ## The Warcode (system #3)
 
-Free public beta — **binary may live in git** under `raw/the_warcode/` (not GW).
+Freely distributed publications — **binaries may live in git** under
+`raw/the_warcode/` (not GW).
 
 | Source | Path / URL | Use | Retrieved |
 |--------|------------|-----|-----------|
-| Rulebook V.0.8.7-F | [`raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf`](../raw/the_warcode/The%20Warcode%20Rulebook%20V.0.8.7-F.pdf) | Primary rules truth | **2026-08-23** |
+| Rulebook V.0.8.9-F | [`raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf`](../raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf) | **Current primary rules truth**; supersedes v0.8.7-F on the same topic | **2026-09-24** |
+| Tactical Doctrine Field Edition | [`raw/the_warcode/The-Warcode-Lorebook-Tactical-Doctrine-Field-Edition.pdf`](../raw/the_warcode/The-Warcode-Lorebook-Tactical-Doctrine-Field-Edition.pdf) | Current narrative source; not mechanics authority | **2026-09-24** |
+| Rulebook V.0.8.7-F | [`raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf`](../raw/the_warcode/The%20Warcode%20Rulebook%20V.0.8.7-F.pdf) | Historical rules baseline; retained for provenance | **2026-08-23** |
 | Pre-launch site | https://pre-launch.thewarcode.com/ | Marketing, factions, VIP | **2026-08-23** |
-| Gamefound | https://gamefound.com/en/projects/redmakers/the-warcode | Campaign Sep 2026 | **2026-08-23** |
+| Gamefound | https://gamefound.com/en/projects/redmakers/the-warcode | Cancelled campaign history | **2026-09-24** |
+| Kickstarter | https://www.kickstarter.com/projects/redmakers/the-warcode-stl-campaign | Current digital-only STL/PnP campaign | **2026-09-24** |
 | VIP Facebook | https://www.facebook.com/groups/1548626022918599 | Community | **2026-08-23** |
 | Pointers | [`raw/pointers/warcode_*.md`](../raw/pointers/) | Ingest stubs | **2026-08-23** |
 | Plan archive | [`reference/Warcode_Tactical_Doctrine_Plan.md`](Warcode_Tactical_Doctrine_Plan.md) | Track plan snapshot | **2026-08-23** |
 
-Quote appendix: `games/the_warcode/rules/Rulebook_Quotes.md`. Shipping naming: never Kill Team — **That other game** / **Murder Platoon**.
+Quote appendix: `games/the_warcode/rules/Rulebook_Quotes.md`. Lore spine:
+`games/the_warcode/lore/`. Shipping naming uses the approved obfuscated
+comparators in `AGENTS.md` Sec 10.
 
 ---
 
 ## Change Log
+- v0.5.6 (2026-09-24): The Warcode v0.8.9-F and Tactical Doctrine Field Edition added; v0.8.7-F retained as historical provenance; Kickstarter relaunch added.
 - v0.5.5 (2026-08-27): `dataslate_0826` S1 — 40K Aug 2026 package rows (Universal Rules v1.1, Faction Pack v1.2 Necrons+SM, MFM v1.3) and KT Aug 2026 quarterly balance rows (Tomb World/Mission packs update logs, priority team online-rules updates); all `draft`, pointer-only, no PDFs committed. No singular Balance Dataslate for either system (owner lock).
 - v0.5.4 (2026-08-25): WD527 section — teaching links (Mission 38, wound, trust ladder, system QR path) (wd527_shipping S3).
 - v0.5.3 (2026-08-23): The Warcode free beta — `raw/the_warcode/` PDF allowed; living web + VIP pointers (track `warcode_tactical_doctrine` S0).

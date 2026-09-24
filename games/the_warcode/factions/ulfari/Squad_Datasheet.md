@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/factions/ulfari/Squad_Datasheet.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Squad Datasheet / Quoted Profiles
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (pp.35–36; equivalence checked 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -24,6 +25,8 @@ UPDATE_TRIGGER:
 # Ulfari — squad datasheet
 
 **`confidence: draft`** — verbatim quotes from **The Warcode Rulebook V.0.8.7-F.pdf**, pages **35–36** (**via OCR**). Confirm icons against your PDF.
+
+**Current-baseline check:** **The-Warcode-Rulebook-V.0.8.9-F.pdf**, pp.35–36, is mechanically and substantively equivalent. The preserved citations below remain stable.
 
 ---
 
@@ -149,6 +152,7 @@ Contract worked example on p.22 names **Shade** as a valid elimination target wh
 
 ## Change Log
 
+- v0.2 (2026-09-24): Recorded v0.8.9-F equivalence; no profile rebuild required (S2).
 - v0.1 (2026-08-23): Quoted roster from beta pp.35–36 OCR extract (warcode_tactical_doctrine).
 
 ## Attribution

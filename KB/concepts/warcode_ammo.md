@@ -3,16 +3,16 @@ title: Warcode Ammunition
 type: concept
 system: the_warcode
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
-sources: [warcode_rulebook_v087f, games/the_warcode/rules/Key_Concepts.md]
+updated: 2026-09-24
+version: 0.9.1
+sources: [warcode_rulebook_v089f, games/the_warcode/rules/Key_Concepts.md, games/the_warcode/rules/Combat_Ranged_and_Melee.md]
 confidence: draft
 tags: [concept, the_warcode, ammunition, shooting, reload, core_rules]
 ---
 
 # Warcode Ammunition
 
-Ranged weapons track **ammunition** — you need at least **1** remaining to shoot or set [[warcode_overwatch]], lose **1** after each shot, and **Reload** restores the profile maximum at an AP cost. Teaching paraphrase of shipping [`Key_Concepts.md`](../../games/the_warcode/rules/Key_Concepts.md) (beta v0.8.7-F, read **2026-08-23**).
+Ranged weapons normally spend one ammunition per shooting action and reload to their printed maximum, but Custodia's Hand Flamethrower creates an unresolved exception.
 
 ---
 
@@ -29,6 +29,8 @@ Ranged weapons track **ammunition** — you need at least **1** remaining to sho
 
 Ammo forces reload turns and overwatch planning. A unit on 0 ammo can still move, melee, or Pass — but cannot shoot until it Reloads. [[warcode_ulfari]] **Reaper** carries no gun, so never Overwatches.
 
+The Hand Flamethrower prints a finite ammunition value and no reload cost while also saying it never needs reloading. The source does not explain whether this means unlimited shots, automatic replenishment, or a finite non-reloadable supply. Agree at the table; do not silently choose.
+
 ---
 
 ## Warcode vs That other game — do not conflate
@@ -39,7 +41,7 @@ That other game's Murder Platoon tracks weapon rules per datacard but uses a dif
 
 ## Open questions
 
-- Whether weapon abilities beyond penetration re-rolls interact with ammo on special weapons not in the extract examples.
+- Intended Hand Flamethrower ammunition behaviour.
 
 ---
 
@@ -47,4 +49,5 @@ That other game's Murder Platoon tracks weapon rules per datacard but uses a dif
 
 - [[warcode_overwatch]] · [[warcode_action_points]]
 - [[warcode_ulfari]] — Reaper has no ammo / no Overwatch
-- [[warcode_rulebook_v087f]]
+- [[warcode_dominium]] — Hand Flamethrower ambiguity
+- [[warcode_rulebook_v089f]]

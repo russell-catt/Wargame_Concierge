@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Protocol_Cards_Reference.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine S1b)
 
 DOCUMENT_TYPE: Reference / Card Lookup
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-25)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (pp.28–32; card-image equivalence checked 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/protocol_cards.ocr.txt (via OCR)
   - raw/the_warcode/protocol_cards_transcription.txt (via typed transcription)
@@ -36,6 +37,8 @@ UPDATE_TRIGGER:
 # Protocol Cards — reference table
 
 Twenty activation cards for *Core of the Machine* (PDF pp.28–32). **`confidence: draft`**, OCR read **2026-08-23**, room variants transcribed **2026-08-25**. Verbatim OCR quotes: [`Rulebook_Quotes.md`](Rulebook_Quotes.md) Sec 29. Scenario context: [`Scenarios_and_Events.md`](Scenarios_and_Events.md).
+
+**Current-baseline check:** all 20 card-art resources are equivalent in **The-Warcode-Rulebook-V.0.8.9-F.pdf**. Existing OCR cautions remain in force.
 
 Draw one at the **start of each round**. Each card prints a **mini map** of the board: **Left**, **Centre**, or **Right** is **highlighted** on single-room cards; **Total** cards highlight **all three** protocol wings. **Deployment bands** (top and bottom) are **never** highlighted and are **not** protocol-affected — only the left wing, central hex, and right wing count as protocol rooms.
 
@@ -70,7 +73,7 @@ Flavour for **Hunt** / **Total Hunt** rows marked *OCR* — the owner spreadshee
 | 19 | Poison | Centre | Caustic gas begins to seep throughout the room | At the end of the round, all units take 2 damage. |
 | 20 | Poison | Right | Caustic gas begins to seep throughout the room | At the end of the round, all units take 2 damage. |
 
-> Map sections and rule text: via typed transcription (raw/the_warcode/protocol_cards_transcription.txt)  
+> Map sections and rule text: via typed transcription (raw/the_warcode/protocol_cards_transcription.txt)
 > Hunt / Total Hunt flavour (rows 6–8): via OCR (raw/the_warcode/protocol_cards.ocr.txt) — xlsx transcription error
 
 ---
@@ -118,6 +121,7 @@ Total Hunt's OCR rule line still reads **"the room"** (singular) while the flavo
 
 ## Change Log
 
+- v0.3 (2026-09-24): Recorded v0.8.9-F protocol-card equivalence; preserved OCR caveats (S2).
 - v0.2 (2026-08-25): Hunt rule confirmed FULL HEALTH via PDF/OCR; card map highlighting documents Left/Centre/Right/Total scope; deployment zones excluded.
 - v0.1 (2026-08-25): Initial 20-row table; Hunt OCR vs transcription footnote; Total Hunt flavour from OCR (S1b).
 

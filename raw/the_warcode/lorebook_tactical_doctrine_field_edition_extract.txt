@@ -1,0 +1,1168 @@
+===== PDF PAGE 1 =====
+
+
+===== PDF PAGE 2 =====
+CONTENTS
+SECTION 1: INTRODUCTION
+SECTION 2: THEATRE OF OPERATIONS
+SECTION 3: HISTORY
+3-1. CHRONOLOGICAL FRAMEWORK
+3-2. THE INDUSTRIAL ERA
+3-3. FOUNDATION
+3-4. THE BURNING
+3-5. THE GOLDEN AGE
+3-6. BLACKOUT
+SECTION 4: DOMINIUM
+SECTION 5: PROTAGEN
+SECTION 6: MDR
+SECTION 7: ULFARI
+SECTION 8: TACTICAL APPLICATION
+2
+2
+4
+4
+5
+6
+7
+16
+19
+21
+24
+28
+34
+39
+
+1
+
+===== PDF PAGE 3 =====
+UNAFFILIATED
+PROTAGEN
+DOMINIUM
+MDR
+SECTION 1: INTRODUCTION
+   The strategic layout of the star system, in Section 2
+   The history that shaped the star system, in Section 3
+   The factions active within the star system, in Sections 4 through 7
+   Practical instruction for commanding a squad within that theatre, in the appendix to this publication,
+THE WARCODE TACTICAL DOCTRINE: RULEBOOK
+THE WARCODE, MILITARY ACADEMY OF STRATEGIC AND TACTICAL
+DOCTRINE. The Warcode has an extensive operational history of producing combat
+ofﬁcers. Its sole purpose is to train ofﬁcers capable of acting decisively across a wide
+range of conditions and delivering high combat effectiveness regardless of the theatre they are
+placed in.
+TACTICAL DOCTRINE: FIELD EDITION. This is the operational instructional
+publication issued to every ofﬁcer candidate. It contains everything you need before
+taking command of a squad:
+INFORMATION ENVIRONMENT. The information environment of this star system
+has been deliberately degraded over centuries of conﬂict. No single source provides
+a complete or reliable account of political history, factional motivation, or ideological position. An
+ofﬁcer who relies on any one source, including a friendly one, will form an incomplete operational
+picture.
+SOURCE METHODOLOGY. Political, historical, and ideological material is not
+presented as Warcode assessment. The Warcode does not tell you what to believe
+about the factions. In these sections, Tactical Doctrine provides primary source documents
+originating from the factions themselves. The ability to extract usable intelligence from unreliable
+sources and maintain clarity in a contested information environment is a core ofﬁcer skill.
+SECTION 2: THEATRE OF OPERATIONS
+SOURCE AFFILIATION:
+STAR SYSTEM STRUCTURE. The operational theatre is a single-star system.
+All known economic infrastructure, population centers, and military assets are
+distributed across its inner and outer regions. Ofﬁcers must understand this theatre as a whole
+before engaging any part of it.
+INNER ORBITS. Four planets occupy the inner system between 1.00 and 1.91 AU.
+Of these, only Erda at 1.00 AU supports unassisted human habitation.
+Kepler, Hydron, and Huoxing each present distinct operational constraints.
+1-1.
+1-2.
+1-3.
+1-4.
+2-1.
+2-2. 2
+
+===== PDF PAGE 4 =====
+ERDA. Dominium controls Erda. Population approximately 50 billion. Sole naturally
+habitable planet. Dominium maintains orbital superiority and monopolizes space access
+from this position. All strategic assessments begin here.
+2-3.
+THE WARCODE, MILITARY ACADEMY OF STRATEGIC AND TACTICAL
+DOCTRINE. The Warcode has an extensive operational history of producing combat
+ofﬁcers. Its sole purpose is to train ofﬁcers capable of acting decisively across a wide
+range of conditions and delivering high combat effectiveness regardless of the theatre they are
+placed in.
+TACTICAL DOCTRINE: FIELD EDITION. This is the operational instructional
+publication issued to every ofﬁcer candidate. It contains everything you need before
+taking command of a squad:
+3
+
+===== PDF PAGE 5 =====
+HUOXING. MDR controls Huoxing at 1.91 AU. Colonized under sealed
+infrastructure. The atmosphere is carbon dioxide at 0.8 bar. MDR operational control
+extends outward through near space to the Cassini gas giant at 6.2 AU, with partial control over
+Cassini's moon system.
+KIRKWOOD BELT. Primary asteroid belt, 2.5 to 3.8 AU. Industrial extraction zone.
+Contested by multiple factions; no single authority maintains continuous control.
+ABYRON BELT. Outer debris belt, 18 to 40 AU, peak density at 22 to 30 AU.
+Protagen controls this region. Stations are dispersed across extreme distances,
+including positions outside the ecliptic plane. This complicates targeting, surveillance, and force
+projection.
+SUMMARY. No single faction commands sufﬁcient force to control the full theatre.
+This condition deﬁnes all operations.
+SECTION 3: HISTORY
+CHRONOLOGICAL FRAMEWORK
+Before you study history, you need to know how it's measured. All dates in this document use
+the standard calendar anchored to Erda:
+28-hour day, 39-day month, 12-month year, 468 days per year
+Year Zero is the appearance of the city of Dominium on Erda's surface. Everything before that is
+counted in negative years. Everything after — in the ﬁve epochs listed below. Learn them now.
+Every section that follows assumes you know this structure.
+EPOCH 0. THE INDUSTRIAL ERA (PRE-ZERO). Erda's indigenous industrial civilization.
+Multiple nation-states, analog-mechanical technology, no digital systems. Duration unconﬁrmed.
+Records fragmentary.
+EPOCH 1. FOUNDATION (YEAR 0–238). Appearance of Dominium. A single city-state of
+unknown origin, technologically superior, willing to trade but refusing external interference.
+The rest of Erda remains industrial.
+EPOCH 2. THE BURNING (YEAR 238–380). Global nuclear war among Erda's
+nation-states. Dominium intervenes militarily, destroys nuclear production capability, consolidates
+planetary control. 142 years, extraordinarily bloody.
+EPOCH 3. THE GOLDEN AGE (YEAR 380–1648). Post-war reconstruction
+and expansion. Dominium leads humanity into space. Colonization of planets, orbital cities,
+deep-space stations out to the Abyron Belt. 1,268 years of stability and growth.
+Longest peaceful period in recorded history.
+EPOCH 4. THE BLACKOUT (YEAR 1648–2026). Dominium enforces system-wide
+communications isolation. Civil war follows. Emergence of independent factions. 378 years
+of conﬂict gradually stabilizing into an armed standoff.
+EPOCH 5. THE ARRIVAL (YEAR 2026, PRESENT DAY). First conﬁrmed contact
+with an external intelligence — the Ulfari. Current epoch. Consequences unfolding.
+2-4.
+2-5.
+2-6.
+2-7.
+3-1.
+4
+
+===== PDF PAGE 6 =====
+I'll never forget the ﬁrst time I saw a real battleﬁeld. I grew up in a small town.
+Sure, I'd seen machines, trucks, factory equipment, but nothing like this.
+I was called up to defend what they told us was social justice, and I believed it,
+and maybe it was.
+When the order came to advance, I climbed out with everyone else. And then I saw
+it. Thousands of our heavy tanks rolling forward in a line that didn't end… Just steel,
+moving steel, all the way to both horizons. They hit the enemy trenches and just
+kept going, grinding over wire and earth like it was nothing. I forgot to be afraid.
+I actually forgot. Because above us, the whole sky was gone. Airships, dozens of
+them, maybe hundreds, drifting toward the enemy positions, dropping their loads,
+and the ground ahead just erupted. And around those giants, ﬁghters swarmed like
+insects, spinning and burning and falling.
+I stood there with my mouth open like a child.
+["LETTERS FROM THE KURSHAN FRONT,"
+AUTHOR UNKNOWN. ANTECHAMBER ARCHIVE.]
+5
+THE INDUSTRIAL ERA
+At the time of Dominium's founding, humanity on Erda had reached an analog-mechanical
+industrial stage: heavy combustion-driven industry, electromechanical infrastructure,
+no digital systems. This is the baseline from which the entire theatre developed.
+It was the age of molten steel and crackling radio static, of chemical plants stretching
+across river deltas and mines bored so deep they touched the planet's heat.
+Extraction and factory production had been scaled to staggering proportions — entire
+regions existed solely to feed the furnaces of nations. And there were hundreds of
+nations, each convinced its particular arrangement of power and labor was
+the answer to the human condition.
+They competed in ideology as ﬁercely as in industry — monarchies against republics,
+collectivists against mercantilists, theocracies against secular unions — forging
+alliances, breaking them, warring, trading, prospering, and warring again. But what
+makes this period so remarkable is something that never happened: no information
+revolution, no microelectronics, no digital shortcut. The analog ceiling was never
+broken. And so, century after century of that boiling competition, hundreds of rival
+states, each engineering its way through the same fundamental constraints, produced
+a mechanical ingenuity almost impossible to catalogue.
+The sheer variety of solutions they invented for the same problems remains,
+even now, difﬁcult to fully comprehend.
+["THE LONG FURNACE," DR. EMMERICH VAEL. KOVARA
+UNIVERSITY PRESS.]
+3-2.
+
+===== PDF PAGE 7 =====
+But what Dominium built around itself was never a simple buffer — it was a fully
+functioning system. Three states were bound to it through formal alliance treaties,
+two located directly on its borders and a third positioned at a short remove.
+Calling them satellites would misread the arrangement, since each received
+something valuable in exchange for its loyalty.
+Dominium sold them military technology, though rarely anything that could be called
+revolutionary. These were established engineering principles reﬁned past what any
+rival state could manage on its own. Engines and mechanisms ran longer and more
+efﬁciently while weighing considerably less than comparable hardware elsewhere,
+and armor plating held up marginally better under ﬁre. Fuel and electricity were
+included on the same terms, with everything priced low enough that no ally had
+reason to look elsewhere.
+In exchange, Dominium secured what its own territory could never supply in sufﬁcient
+volume: raw mineral resources, drawn in enormous quantities from every corner of
+Erda. Meeting that demand required sources beyond what a single state could offer,
+and that is where the allies proved their worth: serving as intermediaries with the
+outside world, building trade chains and proﬁting at every link. It made them wealthy,
+powerful, and bound the allies to Dominium more tightly than any treaty ever could.
+The conditions Dominium imposed in return were deceptively simple. Allies were
+expected to maintain good relations, both with Dominium and with one another,
+and to keep their own territories defended. Expansion beyond their own borders was
+expressly prohibited. The moment a state showed the faintest interest in imperialism,
+Dominium intervened directly in its internal politics without bothering with diplomatic
+formalities.
+The result was exactly what the whole arrangement had been designed
+to achieve: the city was securely protected on the ground. As for the airspace,
+even if the occasional aircraft slipped past the allies' perimeters, it made
+no difference. No aircraft that entered Dominium's airspace ever came back out.
+["THE THREE-BUFFER MODEL: DOMINIUM'S SURFACE
+SECURITY NETWORK IN THE LATE FOUNDATION ERA,"
+DR. TOMEK ROSETTI, LUMEN INSTITUTE
+OF POLITICAL HISTORY. EXCERPT, PP. 67–89.]
+6
+EPOCH 1. FOUNDATION (YEAR 0–238)
+Dominium's ﬁrst conﬁrmed appearance on Erda is dated to year 0. A single city-state, origin
+undetermined. Surviving records show a technological differential relative to the rest of Erda that
+widened, not narrowed, across this epoch. Dominium's early expansion was not conquest.
+It secured itself through trade and defensive alliance with its immediate neighbors, making
+Dominium indispensable to the states closest to it while restricting all deeper contact with
+the wider world. To states outside those alliances, Dominium registered as unremarkable:
+stable, defended, non-expansionist. Surviving records from the period show no meaningful threat
+assessment directed at Dominium. Attention was ﬁxed on conﬂicts among other nation-states.
+This is operationally relevant. Sources from this epoch consistently underestimate the scale of
+the technological gap Dominium already held. Read every non-Dominium account of this period
+with that limitation in mind.
+3-3.
+
+===== PDF PAGE 8 =====
+Yeah, I drove that route for years. Same delivery, more or less, week after week.
+Still never really got used to it, if I'm honest. Where I'm from, everything's got a job,
+you know? The roads, the bridges, the plant where I used to work before I got the
+truck, the rail line running through the middle of it. Everybody doing their part.
+It's loud, it's busy, there's ads plastered on half the buildings and trucks lined up
+wherever you look. I didn't mind it. It's home.
+But then you cross into the City, and it's — everything's turned around. Like the whole
+point of it got hidden away somewhere. Nature ﬁrst. Trees, gardens, that kind of thing,
+before anything else. The regular stuff, pipes, wires, whatever keeps a place running
+— it's still there, I'm sure, has to be — but it feels like it's built for you instead of
+the other way around. Like you're not serving the city, the city's serving you.
+And there are these temples, huge, go up so high you can't see the top. No idea what
+they're even for. Might've made more sense up close, I don't know, they never let us
+drive far enough in to see.
+Locals, there wasn't much to it with them. You'd trade a few words unloading,
+sometimes one'd wander over to our side too. But it never went past small talk,
+they kept it at that. Polite. Pleasant, even. But there was this way they'd look at you
+— from above, sort of, with this little smirk. Strange feeling. And every so often,
+if a conversation ran a bit longer, they'd bring up their teachers or the main goal,
+whatever that meant to them. Like, everything they did was pointed at one thing.
+Us — we just lived to live. Earned, got by, pushed through.
+Kind of reminded me of those ideological types, up north, the fanatical ones.
+["COLLECTED TESTIMONIES, WORKING PERSONNEL,"
+MDR CENTRAL HISTORICAL ARCHIVE, SERIES 4.]
+THE BURNING (YEAR 238–380)
+The conﬂict began with the ﬁrst use of nuclear weapons on Erda and became the bloodiest war in
+human history. It engulfed every continent and nearly every nation-state on the planet. In total,
+the war lasted 142 years, claimed more than one billion lives, and inﬂicted catastrophic ecological
+damage from which entire regions never recovered.
+You will study three distinct phases:
+1. The nuclear phase (9 years), during which warheads were produced and
+employed at escalating rates.
+2. The continental phase (56 years) of sustained large-scale conventional and
+asymmetric warfare across all major landmasses.
+3. The attrition phase (86 years), marked by recurring regional conﬂicts that ignited,
+subsided, and reignited across devastated territories. Each phase produced different tactical
+conditions.
+3-4.
+7
+
+===== PDF PAGE 9 =====
+NUCLEAR CONFLICT (YEAR 238–247)
+YEAR 234
+"Kalden University Physicists Split Heavy Nucleus For The First Time"
+"Fission Releases Energy Far Beyond Chemical Reactions, Scientists Conﬁrm"
+YEAR 235
+"Moran Group's Classiﬁed Report Points To Self-Sustaining Chain Reaction"
+"Telvara War Ministry Bans Publication On Nuclear Fission Research"
+YEAR 236
+"Four States Rumored To Be Racing Toward Controlled Chain Reaction"
+"Industrial Capacity Shifts Nationwide Toward Uranium Enrichment"
+"First Experimental Reactor Reaches Self-Sustaining Reaction — Details Withheld"
+YEAR 237
+"Leaked Academy Documents Warn Of Bomb With Unprecedented Destructive Power"
+YEAR 238
+"Navy Cordons Off Rukht Island After Night Flash Seen 300 Kilometers Away"
+"VELMAR DESTROYED BY SINGLE BOMB — CASUALTIES BEYOND COUNT"
+[HEADLINES COMPILED FROM THE KALDEN EVENING
+STANDARD, YEARS 234–238. ARCHIVED IN DOMINIUM
+CENTRAL PRESS REGISTRY.]
+3-4-1.
+The ﬁrst strike was answered within a week, when the second one hit the side that
+launched it. Escalation followed like a snowball: nuclear activity built up slowly across
+the planet, and nothing could stop it. Within two years of that ﬁrst strike, nearly every
+major power had built its own nuclear device and started using it right away.
+Each side aimed for the same target — the enemy's ability to keep producing bombs,
+hoping to strike ﬁrst and gain the advantage.
+Nobody held back or planned ahead, and that recklessness spared the planet a full
+nuclear winter. Every power moved so fast and hit so hard with the weapon that
+no one built up a stockpile large enough to cause that kind of damage. Production
+sites came under regular attack, which occasionally slowed the pace of new strikes
+for a stretch. But nothing stopped it, and strikes kept increasing every year.
+["THE BURNING BEGINS: NUCLEAR ESCALATION ON ERDA,"
+DR. ELARA SUWAN, MERIDIAN INSTITUTE
+FOR INDEPENDENT ANALYSIS. LECTURE TRANSCRIPT.]
+8
+
+===== PDF PAGE 10 =====
+I was used to missile raids long before the nuclear crisis. Made sense since our city
+had a big bearing plant and some steel mills. After decades of bombing,
+the explosions became a part of our normal life. The air raid alarms never stopped,
+and shelters were everywhere, though we hardly used them. You can't just put your
+whole life on hold, you know? If you sat in a shelter all the time, you'd end up down
+there ten, twenty hours straight. And honestly, the missiles were pretty inaccurate
+anyway — they hit wherever they hit. Their job was either to wreck something (a
+plant, ideally) or just wear you down with constant alarms. During the worst spells,
+the big raids, sure, we'd take cover. But most of the time, we just took the risk.
+That became normal.
+Still, you could never shake that feeling of dread. And the strange part was that the
+dread would actually build up during the quiet. The longer the silence went on, the
+closer the next raid felt. And if the silence dragged out long enough, the raid would hit
+harder, because they'd have built up more strength by then. And that wasn't even the
+worst part. The real fear was the silence during a raid itself. We called the missiles
+"buzz bombs" because of the sound they made. Right before it hit its target, the
+engine would cut out, and everything would go quiet. So if you could hear it, you were
+ﬁne. But if you heard it go quiet...
+All of that turned out to be nothing, though, once the nuclear bombs showed up. We
+got lucky at ﬁrst — our city wasn't important enough, and for a long time it just passed
+us by. But then our turn came too. This missile made a different sound — it whistled,
+and it was bigger. The ﬁrst one ﬂew right over our heads and hit the far side
+of the city. We survived, but every window on that side blew out. The next day, one hit
+from the side of the city — we all saw the ﬂash, and there was barely a whole pane of
+glass left anywhere. The day before, there'd still been some hope. But right then, we
+knew for sure — we were all done for.
+The Ultimatum saved us.
+[MEMOIR OF SEREN DAHL. RECOVERED BY
+THE ANTECHAMBER ARCHIVE. ESTIMATED DATE OF EVENTS:
+EARLY BURNING. ORIGIN: ERDA, INDUSTRIAL CITY.]
+9
+
+===== PDF PAGE 11 =====
+Continued use of nuclear weapons will inevitably lead to the destruction of civilization
+on this planet.
+Dominium prohibits any further use and production of weapons of mass destruction.
+Dominium grants three hours from this notice for the cessation of nuclear
+weapons use.
+Dominium grants six hours from this notice for a public declaration accepting
+this ultimatum.
+Failure to comply with these terms will result in immediate attack from Dominium.
+[OFFICIAL ULTIMATUM FROM DOMINIUM TO ALL NATIONS
+AND OTHER ENTITIES IN POSSESSION OF WEAPONS OF
+MASS DESTRUCTION. DATE AND TIME: 34.03.247, 12:00]
+1O
+
+===== PDF PAGE 12 =====
+No one responded to the ultimatum. Not a single nation. Which was predictable, I
+guess, since Dominium was this small, strange, beautiful little city with all sorts of
+myths surrounding it. No one really saw it as a threat. But the ultimatum was carried
+out to the minute. Exactly six hours after Dominium issued it, nuclear facilities came
+under attack across the parts of the planet where night had fallen. Precise, massive,
+and they just kept moving through the dark as the planet turned under them. Almost
+none of the witnesses knew where the strike came from or how. Within a day, the
+nuclear war was over. And oddly enough, the conventional war stopped too.
+Everything went quiet. Then something happened that was genuinely extraordinary,
+something you wouldn't expect from us as a species — humanity actually came
+together. United against Dominium and its allies.
+Now, you can't really say every nation turned against Dominium — that's not quite
+true. Plenty of states just sat on the fence, but they didn't push back either. Looking
+back at it now, you can basically write them out of the picture.
+Dominium and its three allies came under massive pressure, on the ground and in the
+air. A planet hardened by centuries of war, with all its industrial muscle and logistics,
+moved slowly but steadily to grind down the side that had started this war against it.
+And then nuclear weapons showed up again — not many, but enough, now aimed at
+one small patch of land.
+And yet, with everything being thrown at Dominium, it still managed to intercept every
+attack. But once missiles started launching from the front line straight at the City, they
+had to be shot down over allied land, ﬂying low. This is roughly the point, by the way,
+where Dominium's own weapons started appearing. First, their missiles
+— small, incredibly fast, and, above all, they could maneuver. In an age with
+no microelectronics at all, witnesses just couldn't wrap their heads around a missile
+"thinking" for itself and chasing a target. Second, the aircraft — a totally different
+shape, ﬂying at incredible speed and height, launching those "thinking" missiles.
+Eventually, the opposition ﬁgured out how to launch nuclear missiles from their own
+trenches, timed to go off in twenty, thirty seconds. It was basically a suicide move.
+The warhead would detonate close to their own lines, taking out both sides — their
+own positions and the enemy's, though mostly the enemy's. And that's how this new
+phase of the war kicked off.
+["THE DOMINIUM EMERGENCE: MILITARY ESCALATION
+AND PLANETARY RESPONSE," DR. HENRIK ALDER, STATION
+LUMEN. LECTURE SERIES, OPEN ACCESS RECORDING.]
+11
+
+===== PDF PAGE 13 =====
+[THE MANIFEST OF DOMINIUM]
+By the will of Life itself, which moves through all things and shelters the children of
+Erda from the endless dark and the chaos beyond —
+We, Guardians of Humanity, Rulers of Dominium, Protectors of Erda and all who draw
+breath upon her soil —
+— seeing the civilization of Erda stand at the threshold of darkness, its nations
+consumed by the ﬁres they themselves have lit, the works of generations turned to ash
+in the hands of those who built them, and knowing that no power among its peoples
+has proven equal to halting the fall —
+we act. Not to conquer, but to save. Not for ambition, but for duty. What we claim here,
+we claim only to shield Life from the shadow, and to lead it back toward the light.
+Let it be known and let it be obeyed:
+FIRST. From this moment forward, all inhabitants of Erda are recognized as subjects
+of the Rulers of Dominium and shall live under their protection and their authority.
+SECOND. All nations shall remain within their present borders as they stand on this
+day. No boundary shall be altered, no territory claimed, no expansion undertaken.
+THIRD. All nations and all military formations of any kind shall lay down their arms
+immediately and without condition.
+FOURTH. A representative of every sovereign state shall journey to the Great
+Temple, and there bear witness to their allegiance to the Father and the Mother of
+Dominium.
+No punishment shall be rendered for any act committed before the proclamation of this
+Manifest. The past is sealed. What was done in darkness and desperation shall not be
+revisited upon those who now choose the light.
+But let none mistake mercy for weakness. Those who refuse this Manifest, those who
+cling to war when peace is offered, those who defy the outstretched hand shall be met
+with force absolute and without reprieve.
+THE FATHER AND THE MOTHER OF DOMINIUM
+05.11.248 — 12:00
+12
+
+===== PDF PAGE 14 =====
+SUBJUGATION (YEAR 247–303)
+Dominium made a major strategic error, feeding technology to their allies drop by drop.
+They should have committed everything at once and handed the allies weapons that
+outclassed the enemy completely from day one. Feeding out technology in small doses
+never got Dominium a fast, decisive result. It only nudged the allies' position forward,
+a little at a time, while the enemy adapted around it.
+Most importantly, handing out the technology that exceeds what the allies could
+develop on their own would practically be magic to them — unreachable and
+impossible to copy. Instead, by releasing low-level technology that ended up in the
+hands of both allies and enemies, Dominium gave the opposition a reason to study it.
+The enemy took the technology apart, trying to copy it. Some of it worked. Some of it
+didn't. But even where they failed, they learned one thing: it was, in fact, possible.
+Dominium should never have underestimated the enemy’s ability to learn.
+This opposition was resourceful and motivated. Yes, they were always a step behind in
+equipment, but they excelled in numbers, fought for their own survival, and drew hope
+from every piece of technology they managed to reverse-engineer.
+That hope kept them adapting. And that is why this war lasted as long as it did.
+["DOMINIUM'S DRIP-FEED: WHY THE BURNING LASTED,
+" KAYL VOSS, MDR INDEPENDENT ANALYST.
+BLOG POST, HUOXING OPEN NETWORK.]
+3-4-2.
+13
+
+===== PDF PAGE 15 =====
+From what we can tell, Dominium's own resources were fairly limited, even with its
+technological lead. That's most likely why it fought through allies instead of producing
+everything itself. Giving those allies the tools to build higher-tier weapons meant giving
+away the technology behind them. Producing at that scale in-house wasn't safer either
+— a workforce that large leaks information no matter how tightly it's controlled.
+That left one option: release the technology slowly, knowing some of it would reach
+the opposition anyway. But Dominium was also conﬁdent it would always stay a step
+ahead, and that this edge alone would eventually win the war for them. Plus, judging
+by what came later, they were already planning to develop science and society across
+the entire planet, so losing some technology along the way didn't concern them,
+as long as they still expected to come out on top in the end.
+["DOMINIUM RESOURCE CONSTRAINTS AND ALLIANCE
+DEPENDENCY," YAN KHARA, PROTAGEN DEFENSE ANALYST.
+THE SIGNAL, STRATEGIC COMMENTARY SERIES.]
+The era of Dominium's conquest of the whole planet was, without question,
+the strangest period in the entire history of combat technology. Try picturing it:
+industrial-age weapons bolted onto systems from a completely different technological
+world, mashed together into things that shouldn't have worked at all.
+Massive diesel tanks, absurdly oversized, guided by AI targeting systems.
+Commanders working off paper maps standing next to soldiers running battle tablets.
+Flamethrowers next to thermal assault visors. Infantry in wool greatcoats, sighting
+through neural-network scopes. Bayonet ﬁghting in the trenches, while delivery robots
+ran ammunition up the line. Artillery that was practically primitive, aimed using satellite
+targeting data.
+It was a wild time, honestly. Nothing in the manuals applied anymore. You had to read
+the situation on the spot, based on whatever gear each side was using.
+[JOREN HALE, MILITARY TECHNOLOGY RESEARCHER.
+PERSONAL BLOG, STATION KORRIN-7.]
+14
+
+===== PDF PAGE 16 =====
+THE PACIFICATION (YEAR 303–380)
+It was ofﬁcially announced that every state without exception had sworn loyalty
+to Dominium by year 303, ﬁfty-six years after the Manifest was issued.
+This should have marked the start of peace, but it didn't. No state openly opposed
+Dominium's authority any longer — compliance, in fact, was widespread and largely
+willing. Yet conﬂicts between states continued to ﬂare up regularly, each side insisting
+it was in the right, and every intervention carried out in the name of the Supreme
+Authority produced still greater casualties and destruction.
+Historians generally date the onset of peace and order to the year 380, when
+the last regional conﬂict ended, and no further conﬂict of that kind occurred again.
+["THE LONG SURRENDER: ERDA'S PATH FROM MANIFEST TO
+STABILITY," DR. LORCAN NOWAK. MERIDIAN INSTITUTE FOR
+INDEPENDENT ANALYSIS, HISTORICAL MONOGRAPH SERIES.]
+3-4-3.
+I think the era of regional wars after Dominium locked down control says everything
+you need to know about how inhuman their rule really was. They had more than
+enough power and resources to shut every single one of these conﬂicts down before
+it started. They could have leaned on political pressure and inﬂuence at the earliest
+stage.
+They could have hit warring factions with preemptive strikes before those factions
+even ﬁnished mobilizing their forces. They could have saved millions of lives.
+They just didn't. They let people slaughter each other, and only stepped in with a third
+party to "clean up" once the conﬂict had already run its course, killing thousands
+more in the process. That blood is on their hands.
+["WHY DOMINIUM LET THEM BURN," DR. MAREN REIS,
+MDR HISTORIAN. INDEPENDENT COMMENTARY, HUOXING.]
+At that time, humanity was not yet ready for peace and prosperity. They had to ripen
+ﬁrst. They had to pass through the bottleneck on the way to harmony, and everyone
+who hungered endlessly for war received it in full. Creation cannot be given to people
+— it must be reached. We extended our hand to every nation, but those who chose
+to walk toward chaos had to walk that path to its end. It took almost a century
+for a new generation to rise, one that thought otherwise.
+[PREFECT-CLERIC DAMIAN SAEL, DOMINIUM.
+PUBLIC SERMON.]
+15
+
+===== PDF PAGE 17 =====
+3-5.THE GOLDEN AGE (YEAR 380–1648)
+After Dominium won the war for full control of Erda, centuries of growth and stability followed. The
+Father and the Mother of Dominium became the planet's supreme authority, acting as guarantor of
+planetary order. They functioned as a structure above any single nation, serving other states at
+once as teacher, arbiter, and enforcer.
+This epoch is the longest in recorded history. It was during this period that humanity made the leap
+in technological development from the industrial era to the full settlement and colonization of the
+entire star system.
+The Father and the Mother forbade nations from waging war during this period,
+which really meant they'd lost their usual way of competing with each other.
+But there was a second rule that mattered just as much, even though it sounds minor
+on the surface: no country was allowed to stop its people from leaving. So a country
+could still run itself badly: poor living standards, corrupt or incompetent leadership, no
+real justice system, take your pick. What it couldn't do was trap its own people inside.
+Give that a few centuries, and most nations stopped being players on the planetary
+stage at all. They just became places — somewhere worth living and working,
+or somewhere people left.
+If you ask me, that's the best thing that ever happened to humanity.
+Once governments couldn't wage war or hold people hostage anymore, they were
+ﬁnally forced to do the one job they were supposed to do all along: make life livable
+for the people in their care. It's like someone reached in and pulled their teeth out.
+Some governments were better at it than others, obviously. But over enough time,
+the ones that couldn't get it together just faded out of relevance.
+["FREEDOM TO LEAVE: THE LAW THAT CHANGED EVERYTHING,"
+WINNING ENTRY, ERDA PUBLIC ESSAY CONTEST,
+YEAR 2001. AMATEUR HISTORIAN.]
+The real players shaping politics and economics weren't nations anymore — they
+were corporations, operating without borders. Sure, some countries stayed closed off,
+self-sufﬁcient, running strong closed economies or, just as often, weak ones.
+But across the board, in a world built on globalization and open markets, corporations
+were the sharks. This was an era of corporate wars, lobbying, backroom deals.
+An era where people, more often than not, became nothing more than cogs in some
+massive corporate machine, left with no one to appeal to when things went wrong.
+[MOST UPVOTED REBUTTAL UNDER "FREEDOM TO LEAVE:
+THE LAW THAT CHANGED EVERYTHING," YEAR 2001.
+USER: YOUR_FRIENDLY_CORPORATION.]
+16
+
+===== PDF PAGE 18 =====
+I guess most people dream of seeing the capital at least once. I got lucky, though
+— I made it to the Sed Festival, which only happens once every ﬁfty years.
+There's nothing else like it.
+The whole city ﬁlled up with ﬂags, with languages from everywhere, with people who
+don't look anything alike. It's the happiest I've ever been. I've never felt that kind of
+unity before or since, with myself, with every person in Dominium, with the whole
+planet at once. That feeling never really left me.
+The Sed Festival opened with the ceremony of the Father and the Mother waking
+from cryosleep. An aging man and woman opened the sarcophagi and carried out
+the awakening. Formally, these were just the representatives who'd embodied the
+Father and the Mother for the past 50 years, but not to me. My whole life, these were
+the faces I prayed to, the image that carried me through the darkest times. And now,
+right in front of me, two pairs of the Father and the Mother stood at once. I was happy.
+I cried from happiness.
+A few days later, the awakened Father and Mother held a ceremony to appoint their
+future representatives — a young couple who would rule for the next 50 years.
+I stood with everyone else in the square before the main temple when all three pairs
+appeared before us at once: the Dusk Father and Mother, the Father and Mother,
+and the Dawn Father and Mother. The crowd roared, cried, and laughed. We were
+one, and I felt the kind of care and safety that parents give their children.
+After that came the ceremonies: representatives from every nation renewed their oath
+of loyalty to the Father and the Mother, an Executive Council was appointed to help
+the Dawn Father and Mother carry the burden of ruling humanity,
+and the Dusk Father and Mother were escorted to rest, with full honors.
+The festival ended when the Father and the Mother went into cryosleep. The moment
+the sarcophagi closed again, the Dawn Father and Mother started being called simply
+the Father and the Mother. For the next 50 years, it would be them looking after
+and guiding us.
+[RECOLLECTION OF THE SED FESTIVAL. JORIN HALTE,
+BRIDGE ENGINEER, ERDA. FAMILY ARCHIVE VIDEO,
+TRANSCRIPTION.]
+Dominium was ruled directly by the Father and the Mother for the ﬁrst 117 years
+of this period — the same two who'd taken the oath of loyalty from every nation's
+representatives. After that, they started going into cryosleep to make their reign last
+longer, following a ﬁxed 50-year cycle each time. While they slept, they left behind
+stand-ins, a young man and woman treated as living images of the Father
+and the Mother, ruling by their will in their absence.
+["DOMINIUM'S CRYOGENIC MONARCHY," DR. GIANNA
+MONTOYA, PROTAGEN HISTORIAN.
+LECTURE TRANSCRIPT.]
+17
+
+===== PDF PAGE 19 =====
+The available testimony on the ceremony shows an unusually uniform emotional
+response. Subjects report the full spectrum, from grief to elation, and the standard
+explanation is situational: the weight of the event, the setting, festival atmosphere.
+That explanation doesn't hold up under closer review.
+First, negative affect is essentially absent from the record. Censorship could account
+for some of that, along with a natural survivorship bias toward sources that describe
+the festival favorably. I reviewed all 23 documented occurrences and every source
+I could access. Not one mentions so much as physical fatigue, despite days
+of ceremony that, by any normal measure, should have produced it.
+Second, the emotional proﬁle itself is nearly identical across subjects, regardless
+of background, origin, or prior disposition toward Dominium.
+Third, the duration is what should concern us. Every documented attendee carried
+the same sense of awe and unity for the rest of their life, with no measurable decline
+over time. That is not how memory or emotion normally behaves.
+Any one of these ﬁndings could be explained away individually. A sample this size,
+with this little variance and zero exceptions, cannot. Draw your own conclusions.
+["EMOTIONAL UNIFORMITY IN SED FESTIVAL TESTIMONY,"
+DR. MEERA KVITKA, MDR PSYCHOLOGIST.
+REPUBLIC INSTITUTE OF HUMAN SCIENCES.]
+Dominium's governance structure during this period functioned as a clan-oligarchic
+system, archaic by any reasonable classiﬁcation. Outside entry was structurally
+excluded, and the existing power base reinforced itself by design. Beneath the
+ceremonial display of the Sed Festival, the actual function was elite consolidation:
+family lines presenting their heirs to the Father and the Mother, and to each other.
+Spheres of inﬂuence and interest were redistributed or reafﬁrmed in the process.
+["DOMINIUM CLAN-OLIGARCHIC MODEL DURING
+THE GOLDEN AGE," PROTAGEN SCIENCE DIRECTORATE.
+RESEARCH FRAMEWORK DOCUMENT.]
+Humanity has never lived through a ﬁner age. People today can only dream of
+anything like it. The Father and the Mother gave us more than a thousand years of
+peace and prosperity. Every generation lived with a constant sense of improvement.
+Science, medicine, culture, the standard of living — progress showed up everywhere,
+in everything. Humanity claimed new worlds, reached the farthest edges of the star
+system, and started dreaming of the stars themselves.
+["LEGACY TALKS," SERA KORR, KORR ORBITAL
+INDUSTRIES, DOMINIUM. EPN.]
+18
+
+===== PDF PAGE 20 =====
+[MANIFEST OF THE EXECUTIVE COUNCIL,
+DOMINIUM, YEAR 1647.]
+3-6.BLACKOUT (YEAR 1648–2026)
+In year 1648, the Father and the Mother of Dominium announced the Blackout for the good of all
+humanity. Civil war followed. That war produced the balance of power in the system today.
+The Father and the Mother had decided to extend their time in cryosleep. From that
+point on, the Dawn Father and Mother would be chosen and guided by enlightened
+monks, who, through new technology, could sense the will of the Father
+and the Mother from within cryosleep.
+From the opening days of the Blackout War, organized resistance emerged in
+the Abyron Belt under the leadership of Protagen. Although headquartered on Erda,
+the corporation's principal assets were concentrated throughout the outer belt.
+During the early stage of the conﬂict, the ﬁghting remained almost entirely conﬁned to
+Dominium and Protagen. To outside observers, it resembled a military policing
+operation against an isolated insurgent movement. Contemporary assessments
+widely predicted a rapid victory, since few believed any force could sustain prolonged
+resistance against Dominium's military.
+However, the war continued. Protagen suffered severe losses but continued ﬁghting.
+The conﬂict revealed that space was far larger than either side had previously
+understood. Dominium expended enormous resources and time locating
+and destroying small but heavily armed stations and ships.
+["THE BLACKOUT WAR: FROM INSURRECTION
+TO EQUILIBRIUM," DR. STEFAN NAKAMURA. MERIDIAN
+INSTITUTE FOR INDEPENDENT ANALYSIS,
+HISTORICAL MONOGRAPH SERIES.]
+https://youtu.be/JnNVvUknW2gYouTube Link:
+19
+
+===== PDF PAGE 21 =====
+Protagen, meanwhile, identiﬁed a strategic vulnerability. Despite Erda's population,
+industrial capacity, and economic resources, the planet remained exposed to one of
+the simplest weapons available in space. The outer system contained an effectively
+limitless supply of asteroids. Redirecting even a relatively small body onto an impact
+trajectory required far fewer resources than defending against it.
+Dominium devoted immense effort to detecting and intercepting thousands of these
+objects before they reached Erda. Even so, the occasional impact inﬂicted irreversible
+damage.
+As the war dragged on, conﬁdence in Dominium's central authority steadily
+weakened. The ﬁrst sign appeared as quiet sabotage among the governments of
+stations and settlements located between Erda and the Abyron Belt. They did not
+want to become active participants in the conﬂict. Their priority was stability.
+Space-based infrastructure, particularly food distribution networks, was exceptionally
+fragile, and local administrations understood that even limited damage could have
+devastating consequences. Many, therefore, chose to remain on the sidelines.
+Soon afterward, the ﬁrst armed conﬂict between states on Erda in more than
+a thousand years followed. Once ﬁghting resumed, it spread across the planet in
+a succession of regional wars, as humanity rediscovered interstate conﬂict after
+generations without it. Political movements also emerged that openly opposed both
+the Blackout policy and Dominium's central authority. Dominium's control deteriorated
+rapidly, both across the star system and on Erda itself.
+To restore order, especially on Erda, Dominium returned to a strategy reminiscent of
+its earliest history by unveiling technologies that had remained hidden from
+the outside world. These included energy shielding and human cloning. Built upon
+those capabilities, Dominium raised a new military force and reestablished complete
+control over the planet.
+Large armies of human clones did not carry the same military signiﬁcance aboard
+orbital stations. Huoxing was the only exception, as it had an atmosphere, though
+not one humans could breathe.
+By that point, the governments of many stations had already operated independently
+for some time. Fearing they would meet the same fate as the governments on Erda,
+they united in an alliance and established the Martian Democratic Republic,
+which became the strongest power in the star system outside Erda.
+The war that began with the Blackout never formally ended. Its intensity declined over
+time as the balance of power between the major factions became increasingly stable.
+By the year 2026, the conﬂict had been reduced to small-scale local engagements
+between the factions.
+2O
+
+===== PDF PAGE 22 =====
+SECTION 4: DOMINIUM
+Dominium is a theocratic empire that controls the only naturally habitable planet in the star system.
+Erda's population is approximately 50 billion, distributed across
+more than one hundred subordinate states.
+Since year 1648, Dominium has enforced the Blackout policy — a system-wide prohibition on all
+communication and travel beyond the boundaries of the star system. External signals are actively
+suppressed, long-range detection technologies have been destroyed or placed under strict control,
+and any attempt to leave the system is treated as a fundamental violation of Dominium doctrine.
+This event shaped the modern balance of power throughout the star system.
+The Blackout marked the beginning of the conﬂict and the emergence of the factions.
+[ADDRESS TO THE HOLY SYNOD REGARDING BLACKOUT
+POLICY. CASSIUS VALERIAN, MEMBER OF THE DOMINIUM
+EXECUTIVE COUNCIL.]
+The Father and the Mother led our civilization to prosperity. They brought the endless
+bloodshed to a halt and taught us to live through creation. Under their guidance,
+we reached space, lived longer and happier lives, and achieved heights in science
+and art that had never before been imagined.
+And what was on the other side of the scales? Without their ﬁrm and decisive
+intervention, humanity—and all life on our planet—would have perished in a nuclear
+war. Think about that. There would have been nothing left at all.
+Back then, many refused to place their faith in the Father and the Mother. They went
+to war against them, just as many do today. Yet our saviors protected us then,
+and they are saving us now. The foolish do not understand that our star system is an
+island of life in a galaxy ﬁlled with death and horrors.
+21
+
+===== PDF PAGE 23 =====
+22
+
+===== PDF PAGE 24 =====
+The idea that space is full of "little green men" bent on conquering or exterminating
+humanity is nothing more than propaganda. It's an old method of holding onto power:
+invent an external enemy, portray it as a monstrous threat, and keep a fearful
+population under control.
+Any civilization that reaches the level of technological development required to
+explore even its own nearby space must ﬁrst pass through a bottleneck: the risk of
+self-destruction. A civilization that remains too aggressive after developing weapons
+of mass destruction will destroy itself in a nuclear war or some comparable conﬂict.
+Only those that are sufﬁciently rational and willing to coexist will survive.
+That is natural selection.
+Besides, the galaxy is unimaginably vast, with countless planets capable of
+supporting life. If we ever encounter another intelligent species, it will be the most
+extraordinary event in the history of our civilization.
+23
+Throughout its history, Dominium has sought complete and unquestioned control over
+the entire human race. For more than a thousand years, it succeeded. But no one can
+keep people locked in a gilded cage forever. When people began to realize that the
+stories of the Father and the Mother were nothing more than a tool for manipulation
+and control, Dominium devised another one: the Blackout policy.
+Its purpose is simple: seize complete control of all communications and manipulate
+the population from a single center. Dominium introduced it at the very moment when
+its stories about the divine Father and Mother no longer inspired the obedience
+needed to preserve its rule.
+Now that Dominium controls all satellite communications around Erda, it is able
+to shape the minds of the planet's ﬁfty billion inhabitants. We fought for our freedom.
+Now we must free the people of Erda.
+[STATEMENT ON DOMINIUM INFORMATION CONTROL.
+DEPUTY DIRECTOR, MDR REPUBLIC INFORMATION
+DIRECTORATE, HUOXING.]
+["THE BOTTLENECK ARGUMENT: WHY FEAR OF THE GALAXY
+IS UNFOUNDED," YENN LAO, BOARD MEMBER,PROTAGEN
+CONFEDERAL COUNCIL.]
+
+===== PDF PAGE 25 =====
+[PRE-DEPLOYMENT LITANY, CUSTODIA SILENS.
+PUBLISHED BY SACRED HERALD.]
+SECTION 5: PROTAGEN
+Protagen is a corporation of Erdan origin that has resisted Dominium since the ﬁrst days
+of the Blackout. It survived the war by exploiting the vast distances of the outer belt and relying on
+guerrilla warfare.
+During the war, Protagen became a state by uniting the stations of the Abyron Belt. It also
+maintains a network of off-ecliptic stations and bases on the moons of Cassini.
+Protagen’s resources and population are limited, but it possesses a high level of technological
+development, particularly in military technology.
+O Father, whose strength is our shield and whose
+resolve is our law. O Mother, whose love gives form
+and whose light gives life.
+In the Dark Forest of the endless cosmos, You are
+the victory of life over death, of light over darkness,
+of love over hatred.
+We thank You for the life and prosperity of billions —
+Your children, born under the light of Dominium.
+Forgive us, for we have failed to bring all Your children
+into the light. Some among us still wander. Some
+mistake the void for freedom. Some hear the whisper of
+the Dark and call it knowledge. Some reach beyond
+Your embrace and offer their souls to the abominations
+that hunger in the outer dark.
+Grant strength and courage to the best among us to
+stand against the apostates and to fulﬁll Your will.
+Let prosperity and light be with all children of Erda who
+know the truth.
+And may those who seek the darkness receive no
+mercy.
+We are Dominium. We are the light.
+Strength of the Father. Love of the Mother.
+Until the stars fall silent.
+24
+
+===== PDF PAGE 26 =====
+Compared to us, Protagen is difﬁcult to describe as a state. It is better understood as
+a confederation of stations and spacecraft operating under a common set of rules.
+Each station functions as its own microstate, with its own laws, social structure, and
+economic model. The central government is responsible for military and economic
+security. That creates an interesting contradiction: each station is free to govern itself
+until Protagen decides something has become a matter of collective security.
+Once that happens, the authority of the central government is absolute. There are two
+reasons for this. First, the culture is built around the understanding that no one
+survives in this part of the star system without coordination. Second, refusing to
+comply brings immediate consequences. Imagine what happens to a station if its
+water deliveries are cut off, let alone if military force is used.
+You might ask why Protagen grants its stations so much autonomy if it has the means
+to enforce its authority so completely. A centralized system would seem more logical.
+But freedom has another side of the coin: you are responsible for yourself.
+Protagen operates on a simple principle: those who can survive, do; those who
+cannot, perish. The central government intervenes when supply chains are disrupted
+by accidents or other extraordinary events. But if a station runs short of oxygen
+because it cannot afford to buy more, Protagen does nothing.
+That would be unthinkable in the MDR. Our government guarantees your basic rights
+and your security. It will do everything in its power to ensure you are never left
+to suffocate in the dark.
+["NO ONE COMES IF YOU CAN'T PAY," CAPTAIN TOMAS NG,
+MDR ICE HAULER. PERSONAL BLOG.]
+We are the only truly rational society in the star system. We believe in scientiﬁc
+progress, the power of engineering, and the freedom of the individual. We alone stand
+against the ignorance spread by authoritarian regimes that keep people obedient
+through propaganda.
+We defended our independence and our right to free speech during the Silence War,
+when Dominium sought to seize control of every means of communication
+and establish itself as the sole source of truth.
+Humanity has already proven that science and ingenuity can overcome the harsh
+conditions of deep space. The galaxy holds countless worlds where we can live and
+prosper. The stars are within our reach, along with the opportunity to encounter other
+civilizations and learn even more. We can become an interstellar civilization.
+This is no dream. We know for certain that our current level of technology already
+makes it possible. What we lack are the resources held in abundance by the archaic
+governments of the inner planets.
+["OUR RIGHT TO THE GALAXY," KYUNG MORALES, CEO,
+HELION GENETICS, PROTAGEN. PRESS SERVICE INTERVIEW.]
+25
+
+===== PDF PAGE 27 =====
+26
+
+===== PDF PAGE 28 =====
+I've spent eighty years studying human adaptation to deep space. Eighty years,
+and I still remember the ﬁrst time I reviewed a Marine's full biometric proﬁle. I stopped
+halfway through. Not because something was wrong. Because nothing was. I just sat
+there. I don't think I'd ever seen anything like it.
+Every Protagen Marine begins as a genetic architecture. Skeletal density, muscle
+composition, oxygen efﬁciency — all of it rewritten at the embryonic stage, before
+the child even takes its ﬁrst breath.
+That's only the blueprint, though. What comes after is decades of medical protocols,
+nutrition programs, developmental support. Year after year, making sure what was
+written into the genome actually shows up the way it was designed to. And the suit
+completes the body: life support, pressure containment, neural interface, built for this
+one body and no other.
+(pause)
+It is the most sophisticated convergence of biology and technology our civilization has
+produced. I do believe that.
+(long pause)
+But we should be honest about what it costs. You know this already — on stations
+across the Abyron Belt, children don't get the basic nutrients for normal skeletal
+formation. There are documented cases of irreversible cognitive damage in infants
+because the air on their station didn't carry enough oxygen. What goes into producing
+a single Marine could improve the lives of thousands instead.
+And yet. Here it stands. A masterwork of science and engineering.
+A Protagen Marine.
+Programs like this are essential for our survival — and I want to be honest with you
+about why. The Blackout was never about protection. It was about control: who
+speaks, who listens, who's allowed to remember. Dominium turned silence into
+scripture, punishing anyone who questions it. We chose to question it anyway.
+That choice comes with consequences. Every Marine you see is one of them.
+(voice steadies)
+This is how we've always moved forward.
+You're here to learn how to build what matters. Remember that every seat in this
+room was paid for with someone else's health.
+[LECTURE EXCERPT, DR. WEI DELACROIX, INSTITUTE OF
+CONVERGENT BIOLOGY, STATION MERIDIAN. PROTAGEN.]
+27
+
+===== PDF PAGE 29 =====
+SECTION 6: MDR
+The Martian Democratic Republic (MDR) is the largest state beyond Erda in both population and
+economic output. It was formed through the uniﬁcation of most stations on Huoxing, the Kirkwood
+Belt, and the moons of Cassini.
+MDR’s political system is authoritarian. Martin rules the republic alongside a small elite composed
+of his own clones. The entire military establishment, from enlisted soldiers to senior generals, is
+made up entirely of clones. Each is the same individual inhabiting a different body, distinguished
+only by the life experience accumulated since the moment  of cloning.
+28
+
+===== PDF PAGE 30 =====
+The union was established in 1689 at a congress of station governments held aboard
+Mars (the largest settlement in the Kirkwood Belt at the time) to coordinate a common
+defense against Dominium after it had reestablished full control over Erda by crushing
+the resistance with extreme brutality.
+Although the stations had remained largely neutral during the war between Dominium
+and Protagen, they had every reason to believe Dominium would see that neutrality
+as betrayal and respond with reprisals. The congress established a governing council
+and granted Martin exclusive military authority for a one-year term.
+["FOUNDING OF THE MDR," FREE SYSTEMS
+ENCYCLOPEDIA, STATION KEPLER-FAR.]
+MARTIN
+To understand who Martin is, you ﬁrst need to understand how exactly Dominium won
+the war for Erda during the Silence War after declaring the Blackout.
+Imagine you're trying to put down an uprising. Not just any uprising, but one led by
+people who sincerely believe they're ﬁghting for their freedom, their right to choose,
+and, before long, for their own lives and the lives of those they love.
+["A WEAPON THAT WALKED AWAY," COLONEL ORIN DEY,
+PROTAGEN MARINES. OFFICERS' ASSEMBLY ADDRESS,
+STATION FERRIS-3.]
+29
+
+===== PDF PAGE 31 =====
+To crush a resistance like that, you need people who believe just as deeply in your
+cause — deeply enough to kill. Not just soldiers, but civilians who offer any form of
+resistance. And they have to do it effectively.
+That's possible, of course. But ﬁrst you have to ﬁnd, train, convince, and prepare
+hundreds of thousands of people like that. Dominium already had such forces, but
+restoring order on a planet with a population of tens of billions required a rapid
+expansion of their ranks.
+Now imagine you have cloning technology. Instead of ﬁnding hundreds of thousands
+of people willing to do it, you only need a few dozen of the most committed and
+capable ones. You don't even have to guess who will prove effective — just take
+those who have already demonstrated their loyalty, ruthlessness, and fanaticism
+across hundreds of battles, clone them, and build an army capable of pacifying entire
+continents. You never run out of them. Better still, the selection never stops: you keep
+choosing the "best" from among the "best."
+Martin is one of them.
+Our leader has every reason to hate Dominium and everything it stands for. During
+the Silence War, Martin was a loyal soldier—one of its most renowned and successful
+commanders. A hero of the war. By its ﬁnal stages, nearly a third of all Silencer
+Brigades were made up of his clones.
+Then came the betrayal. The very people Martin had believed were the light of
+humanity, the people he had fought and died for, turned on their own soldiers with
+cold, ruthless calculation. Once the war on Erda was won, the decision was made to
+eliminate them. Martin was among the few who survived. He watched those closest
+to him executed, along with countless copies of himself. No one understands
+the cruelty of Dominium's tyranny better than the man who lived through it.
+["THE HERO THEY TRIED TO ERASE," MARICHKA ZHAO,
+GOVERNING ADMINISTRATOR OF STATION MARS,
+MDR. PUBLIC ADDRESS.]
+3O
+
+===== PDF PAGE 32 =====
+31
+
+===== PDF PAGE 33 =====
+I remember everything.
+I remember the war they built me for, the shield generators fused into my body,
+cooking me alive from the inside while I fought their enemies. I remember my
+brothers' skin burning black, and Dominium’s command writing each death off as an
+acceptable loss.
+I remember being copied without permission, simply because my body refused to die
+the way everyone else's did. I remember winning their war for them.
+And I remember what came after — The Puriﬁcation. Every daughter, every copy of
+my daughter, hunted down, burned, erased, deliberately, by policy. We remember it
+like it was yesterday. Because it is yesterday for every single one of us.
+They thought the ashes of a discarded clone would just blow away in the dark, but
+they were wrong. On Huoxing, I found millions who knew they were next in line, so I
+gave them a wall to stand behind. They gave me a world in return.
+Now I hold that world. I hold a ﬂeet. I hold the memory of every daughter they burned
+and called it “peace.”
+This is not a threat. Threats are for men who haven't decided yet. This is a schedule.
+— We are Martin.
+[UNENCRYPTED MDR TRANSMISSION, ORIGIN: HUOXING.
+INTERCEPTED BY CUSTODIA SILENS. REDISTRIBUTION
+CARRIES CAPITAL SENTENCE.]
+32
+
+===== PDF PAGE 34 =====
+The soldiers of the MDR Executive Unit use energy shields that allow them to ﬁght
+without heavy armor while still having very effective protection against enemy ﬁre.
+Every soldier is a clone of one version of Martin or another and carries the combat
+experience of that entire lineage, all the way back to its ﬁrst battles during the Silence
+War. That means every Martin in the unit has a level of combat experience
+unmatched by anyone else in the system.
+But their real advantage does not come from any individual soldier. It comes from the
+way they ﬁght together. Each Martin knows the others... I would like to say as well as
+he knows himself. But that would not be accurate. Each of them is Martin. It is a team
+whose tactics and countless variations are carried out with exceptional precision.
+The team's closeness is one factor. The other is selective breeding through cloning.
+When one unit proves more effective than the rest, it becomes the template for the
+next generation. From those copies, the best-performing unit is selected, and the
+process begins again. Each cycle produces a more capable lineage. They also
+maintain separate lineages for different combat conditions, selecting each one
+independently for its intended role.
+This artiﬁcially guided natural selection has turned the MDR Executive Unit into an
+exceptionally effective and deadly weapon. As military professionals, we should treat
+such an opponent with the utmost seriousness.
+["THE CLONE WEAPON," GENERAL DORIAN STEPANENKO,
+PRAEFECTURA MILITARIS DOMINIUM.
+ADDRESS TO SENIOR OFFICERS.]
+33
+
+===== PDF PAGE 35 =====
+SECTION 7: ULFARI
+DOMINIUM SECURITY CHANCELLERY
+INTERNAL ANALYSIS — FIRST CONTACT EVENT
+Classiﬁcation: ABSOLUTE/Eyes Only
+I. [VIGILIA EXTERIOR – SUBSECTION ABYSS]
+Single visual capture obtained from conﬁrmed asset within Protagen logistics network.
+Source vessel: Erebus-7, decommissioned deep-range carrier, far-orbit position
+outside ecliptic.
+Image depicts four (4) Protagen crew in direct proximity to a single unidentiﬁed
+biological entity. Non-hostile posture on both sides. No weapons raised.
+Image authenticated through four independent protocols.
+Synthetic generation ruled out.
+34
+
+===== PDF PAGE 36 =====
+II. [COLLEGIUM OF BIOLOGICAL SCIENCES
+- MILITARY ANALYSIS DIVISION]
+Entity is broadly humanoid. Bipedal, bilaterally symmetrical.
+Critical divergences from human baseline:
+Cranial structure and facial geometry deviate signiﬁcantly from human morphological
+range. Skull proportions do not correspond to any known human phenotype
+or documented developmental variation.
+Multiple functional tentacle-like appendages originating from upper back and cervical
+region. Structures appear muscularized, prehensile, and independently mobile.
+No analog in human anatomy, not consistent with any documented gene modiﬁcation
+pathway, including Protagen advanced programs.
+Suit and equipment design conform to no known system manufacturer.
+Material composition, surface structure, and integration principles
+are unidentiﬁable from visual analysis.
+Conclusion: Degree of biological divergence rules out modiﬁed human origin.
+High-conﬁdence assessment: extra-system organisms.
+III. [DR. ALDRIC SORENTUS - OFFICE OF DOCTRINAL STRATEGY
+- SENIOR ADVISORY MEMORANDUM]
+The entire architecture of Blackout rests on a single foundational claim: that the space
+beyond our system boundary is hostile, contact means annihilation, and isolation
+is the price of survival. Every institution we have built, every doctrine we have
+enforced, every judgment we have carried out in the name of sacred silence derive
+their legitimacy from that premise.
+If this information becomes public, the following consequences are immediate
+and irreversible:
+Protagen is retroactively vindicated.
+Their position stops being an ideology and becomes a documented fact.
+MDR gains moral leverage to claim Blackout was always an instrument of control.
+The internal doctrinal framework — ﬁfty billion people raised on the premise that
+the cosmos is hostile — suffers irreversible collapse.
+I want to be precise: this is not a military or economic threat. This is an existential
+threat to the ideological foundation of Dominium itself. If Blackout falls, everything
+built on top of it falls with it.
+IV. [OFFICIUM QUIETIS - OPERATIONAL PLANNING CELL]
+Proposed immediate countermeasures. Combined effect: Multi-layered noise
+environment.
+1. Release fabricated alien contact materials, leaked classiﬁed documents, secret
+weapons program exposés, and other unveriﬁable claims through 30+ proxy channels.
+Vary quality. Simultaneously activate controlled independent assets to publicly debunk
+them. Objective: Condition the public to associate any contact claim with fraud before
+authentic material surfaces.
+34 35
+
+===== PDF PAGE 37 =====
+2. Initiate food security concern narratives through Prefectorial channels
+in 4+ agricultural districts. Sufﬁcient alarm to dominate public discourse
+for 2-3 weeks minimum.
+3. Activate dormant provocation assets in at least two geographically separated
+regions. Escalate existing social or ethnic tensions to a visible conﬂict level.
+Must appear organic.
+V. [TRIBUNAL OF SACRED ORDER - EMERGENCY OPERATIONAL
+DIRECTIVE]
+Nearest Custodia Silens detachment: Deploy immediately to coordinates of Erebus-7.
+Primary: Eliminate all witnesses, human and non-human.
+Destroy all data, logs, recordings. The event never occurred.
+Contingency: If non-human entity cannot be neutralized, engage with maximum
+hostility. Ensure that any subsequent contact between extra-system forces
+and system populations begins as active conﬂict.
+I admire them. The more I study their technology, the more amazed I become.
+We are still trying to solve problems with mechanical engineering, building machines
+from non-living materials that eventually wear out and have to be repaired. They
+engineer living matter itself. While we measure our factories in square kilometers,
+they build theirs inside living cells. Their technology grows, reproduces, and repairs
+itself.
+I dare to suggest that this is the minimum level of technology any civilization needs
+before it can operate on a galactic scale. Anything built on pure mechanics alone is
+too primitive to carry a species into space.
+["BEYOND MECHANICS," DR. SLAWA ERIKSON, BIOMECHANICAL
+RESEARCH LEAD, PROTAGEN SCIENCE DIRECTORATE.
+PERSONAL RESEARCH BLOG.]
+36
+
+===== PDF PAGE 38 =====
+We still don't know how life ﬁrst appeared in our star system, whether it emerged
+naturally during the early history of one of our planets, or arrived from elsewhere in
+the galaxy. We do know, however, that microorganisms can travel naturally from one
+planet to another within a single star system. But for those organisms to drift across
+hundreds or thousands of light-years by chance, surviving the journey intact—that is
+either impossible or extraordinarily unlikely.
+Now imagine a civilization with the technology—and the ambition—to send tiny
+self-replicating machines across interstellar distances. Machines capable of
+reproducing themselves and constructing whatever is needed once they arrive.
+Looking at the Ulfari, I can't help thinking that only a civilization with this level of
+bioengineering could accomplish something like that. Such machines would have to
+be built on the principles of living biology, not conventional mechanical engineering.
+If I possessed technology like that, together with enough altruism and a desire to see
+intelligent life emerge in distant corners of the universe, I would send self-replicating
+organisms in every direction. I don't know if the Ulfari are altruists with dreams like
+that. But I do believe their technology makes it possible.
+["IF I HAD THEIR TECHNOLOGY," MIRA TANAKA,
+POPULAR SCIENCE WRITER, PROTAGEN.
+PERSONAL JOURNAL.]
+Based on the information currently available to us, Ulfari appear to rely primarily on
+the skill of each individual warrior. Every individual displays a distinct ﬁghting style.
+Personal initiative seems to take priority over coordinated teamwork, although they
+cooperate effectively when required. At times, they appear to be competing with one
+another for dominance within the group.
+Their combat style is aggressive and highly offensive. They move quickly and close
+to melee range whenever the opportunity presents itself. In low gravity or zero gravity,
+they make full use of three-dimensional space, unconstrained by the conventional
+concepts of up and down. They leap, push off, and maneuver from every available
+surface. They also display extreme brutality toward defeated opponents.
+["ULFARI COMBAT PROFILE," GENERAL MIKHAL WOLFF,
+PRAEFECTURA MILITARIS DOMINIUM. CLASSIFIED
+BRIEFING TO SENIOR OFFICERS.]
+37
+
+===== PDF PAGE 39 =====
+They are predatory creatures from the Dark Forest of space. We built our civilization
+to protect humanity—and life itself—from evils like these. If you think they are the
+worst humanity could ever face, have faith: these Ulfari may one day seem almost
+gentle by comparison. At least they are humanoid beings, driven to savagery
+by the brutal conditions of the Dark Forest. Imagine what else may be hiding there.
+For thousands of years, the Father and the Mother have guided humanity toward
+prosperity while shielding us from the horrors beyond the darkness. Now is the time
+for all humanity to unite under the protection of Dominium, destroy the vile creatures
+that have entered our home, and continue to keep the Silence.
+["UNITE OR PERISH," CASSIUS VALERIAN, MEMBER OF
+THE DOMINIUM EXECUTIVE COUNCIL. EMERGENCY
+ADDRESS, ALL FREQUENCIES.]
+The Ulfari's predatory psychology may be the result of the intensely competitive
+environment in which they evolved, survived, and, by all appearances, ﬂourished.
+We have no experience interacting with civilizations beyond our own star system. I
+t's entirely possible that, from another civilization's perspective, human culture would
+also appear exceptionally warlike.
+We don't know what made the Ulfari what they are. But I believe every culture is
+shaped by its circumstances, by the environment in which it develops. Their
+aggressiveness, combined with their level of technological advancement, suggests
+the Ulfari responded successfully to those conditions. That suggests there are places
+beyond our star system that would seem unimaginably harsh by our standards.
+["WHAT MADE THEM THIS WAY," PRIYA CHEN, MDR
+ANTHROPOLOGIST. PUBLISHED IN REPUBLIC
+ACADEMIC REVIEW.]
+38
+
+===== PDF PAGE 40 =====
+SECTION 8: TACTICAL APPLICATION
+Tactical proﬁciency is not developed through study alone. Everything you have
+absorbed in Sections 2 through 7 gives you the context to understand the theatre.
+All practical instruction required for ﬁeld execution and squad-level command is issued as a direct
+supplement to this publication, in the accompanying volume:
+THE WARCODE TACTICAL DOCTRINE: RULEBOOK.
+8-1.
+THE WARCODE. TACTICAL DOCTRINE: FIELD EDITION “LOREBOOK”
+©2026 REDMAKERS - ALL RIGHTS RESERVED
+WWW.RED-MAKERS.COM
+39

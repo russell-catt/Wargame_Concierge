@@ -4,9 +4,9 @@ type: overview
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-23
-version: 0.5.4
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols, legends_field_manual_sm_2026_08, sm_matched_vs_casual_starters, warcode_rulebook_v087f, warcode_web_prelaunch_2026_08]
+updated: 2026-09-24
+version: 0.9.1
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, wahapedia, warhammer_community, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, their_number_is_legion_potentiality_syphon_250, reanimation_protocols, legends_field_manual_sm_2026_08, sm_matched_vs_casual_starters, warcode_rulebook_v087f, warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, warcode_gamefound_campaign_2026_09, warcode_kickstarter_relaunch_2026_09, warcode_campaign_transition_2026_09]
 confidence: draft
 tags: [overview, synthesis, warhammer_40k, necrons, space_marines, kill_team_2024, the_warcode]
 ---
@@ -65,18 +65,20 @@ The edition is **new**, which shapes how this KB is written:
 
 ## Third system: The Warcode (`the_warcode`)
 
-**Added 2026-08-23, track `warcode_tactical_doctrine`, Librarian ingest.** RedMakers skirmish game — free public beta **V.0.8.7-F**. Everything under this heading carries `system: the_warcode`.
+**Added 2026-08-23; refreshed 2026-09-24.** RedMakers skirmish game — current free mechanics baseline **V.0.8.9-F**, with the Tactical Doctrine Field Edition as narrative context only.
 
 **The Warcode is not 39.9 (Rawmallet) and not That other game:**
 
 - **Rules stay split.** Collision flags in [[glossary]] use **That other game** for Warcode↔Murder Platoon comparisons and **39.9 / Rawmallet** for Rawmallet comparisons — never paste GW product names into `games/the_warcode/` paths.
 - **GW obfuscation policy:** All GW proper nouns banned in Warcode shipping — Warhammer→Rawmallet, 40K→39.9, 40,000→39.876, Kill Team→That other game. Documented on [[warcode_rulebook_v087f]].
-- **Quote exception** is scoped to `games/the_warcode/rules/`, `setup/`, and `factions/` from the committed beta PDF in `raw/the_warcode/`. **KB stays paraphrase.**
-- **Beta truth:** V.0.8.7-F baseline; newer free beta supersedes; omission is not a patch.
+- **Quote exception** is scoped to `games/the_warcode/rules/`, `setup/`, `factions/`, and `lore/` from the committed free publications. **KB stays paraphrase.**
+- **Beta truth:** V.0.8.9-F supersedes V.0.8.7-F on the same topic; omission is not a patch. Core, cards, maps, Protagen, and Ulfari were cross-checked unchanged.
 
-**What this Librarian pass did.** Two source pages ([[warcode_rulebook_v087f]], [[warcode_web_prelaunch_2026_08]]), five concept pages (AP, ammo, overwatch, contracts, melee lock), four faction pages (Protagen + Ulfari `draft`; MDR + Dominium `stub`). Shipping teaching spine already exists under `games/the_warcode/rules/` from Implementer S0.
+**Current faction state.** Four playable fixed rosters: Protagen Marines, Ulfari, MDR Executive Unit, and Dominium's Custodia Silens formation. All four faction pages are sourced drafts; exact profiles remain in shipping.
 
-**What is still open.** Contract deck and Protocol Cards (OCR blocked); MDR/Dominium rosters; faction datacard promotion to shipping; unit-level KB pages.
+**Lore and campaign state.** The lorebook adds a source-aware theatre and chronology, including contested first contact and unknown Ulfari intent. The mixed Gamefound campaign ended without funds collected; the 2026-09-23 Kickstarter relaunch is digital-only. See [[warcode_campaign_transition_2026_09]].
+
+**What is still open.** Current-rule ambiguities around Inspiration, Overwatch ability triggers, Agility reductions, Hand Flamethrower ammo, end-of-round ordering, and restricted equipment; Kickstarter close and fulfilment; public TTS version drift.
 
 ---
 
@@ -126,11 +128,11 @@ The comparison and opponent army, played by the owner's son. Used to teach contr
 | Metric | Value |
 |--------|-------|
 | Systems in scope | 3 — `warhammer_40k_11e` (primary), `kill_team_2024` (second), `the_warcode` (third, scaffolded 2026-08-23) |
-| Sources ingested | 40K set + KT24 core (targeting **verified** 2026-08-18) + Warcode beta PDF extract + pre-launch web |
-| KB entity pages | 40K set + KT24 (1 source, 7 concepts, 2 setup) + Warcode (2 sources, 5 concepts, 4 factions) |
+| Sources ingested | 40K set + KT24 core + Warcode v0.8.9-F, lorebook, historical Gamefound, current Kickstarter |
+| KB entity pages | 40K set + KT24 set + Warcode sources, 6 concepts, 4 factions, and campaign-transition analysis |
 | KB core pages | 6 (index, log, overview, glossary, changelog, ingest_procedure) |
 | Glossary terms | 40K verified set + KT24 section + Warcode section (2026-08-23) |
-| Last ingest | **2026-08-23** — The Warcode Librarian scaffold (system #3) |
+| Last ingest | **2026-09-24** — Warcode Kickstarter refresh Librarian sync |
 | Last lint | 2026-08-16 (L2, `tomb_world_ownership` - **40K only**) |
 | Schema / project version | AGENTS.md **v0.5.3** GW footer note (2026-08-23) |
 
@@ -211,7 +213,9 @@ Areas with no real coverage. All but the last are blocked on **reading material 
 - [[index]] - full catalog of KB pages
 - [[glossary]] - terminology and Keyword entries, now multi-system
 - [[kill_team_2024_core_rules]] - the KT24 core-rules source page
-- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - Warcode sources
+- [[warcode_rulebook_v089f]] · [[warcode_tactical_doctrine_field_edition]] · [[warcode_gamefound_campaign_2026_09]] · [[warcode_kickstarter_relaunch_2026_09]] - current Warcode sources
+- [[warcode_rulebook_v087f]] · [[warcode_web_prelaunch_2026_08]] - historical Warcode sources
+- [[warcode_campaign_transition_2026_09]] - evidence-separated campaign transition
 - [[warcode_action_points]] · [[warcode_ammo]] · [[warcode_overwatch]] · [[warcode_contracts]] · [[warcode_melee_lock]]
 - [[warcode_protagen_marines]] · [[warcode_ulfari]] · [[warcode_mdr]] · [[warcode_dominium]]
 - [[turning_points]] · [[activations_apl]] · [[orders_conceal_engage]] · [[cover_kill_team]] · [[control_range_kill_team]] · [[injured_operatives]] · [[valid_target]]
