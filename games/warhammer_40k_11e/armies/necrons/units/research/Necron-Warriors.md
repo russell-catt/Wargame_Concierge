@@ -40,7 +40,7 @@ INFANTRY, BATTLELINE, NECRON WARRIORS / FACTION: NECRONS
 10 models **85** (▲+5); 20 models 190 — unchanged (MFM v1.3, owner paste 2026-08-27; supersedes 10-model 80 spot-checked 2026-08-16 against v1.2)
 
 ## List-building notes
-Owned x10 unassembled — build before play.
+Owned 20: 10 Tomb World game-ready + 10 (2nd squad) based + primed (**5 reaper / 5 flayer**) — paint before play.
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Necron-Warriors

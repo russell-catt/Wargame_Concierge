@@ -37,7 +37,7 @@ SWARM, CANOPTEK / FACTION: NECRONS
 40 pts / 3; 80 pts / 6 (MFM v1.2, read 2026-08-19)
 
 ## List-building notes
-Owned x3 unassembled — build before play.
+Owned 6: 3 Tomb World game-ready + 3 (2nd set) based + primed — paint before play.
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Canoptek-Scarab-Swarms

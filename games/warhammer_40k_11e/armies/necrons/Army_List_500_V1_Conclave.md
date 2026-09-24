@@ -26,7 +26,7 @@ PRIMARY_AUDIENCE:
   - Table play with Reference_Guide_500_V1_Conclave.md
 
 UPDATE_TRIGGER:
-  Update when proxies are replaced, sprue is built, or datasheets/points change.
+  Update when proxies are replaced, primed kits are painted, or datasheets/points change.
 -->
 
 # Army list - 500 pts V1 - Cryptek Conclave (no purchases)
@@ -42,7 +42,7 @@ UPDATE_TRIGGER:
 | **Points** | **500 / 500** |
 | **Warlord** | Cryptek Geomancer |
 | **Purchases** | **$0** - Hierotek proxies allowed (opponent OK) |
-| **Bench first** | 2nd Scarab set; Immortals sprue to finish a 5 with Hierotek Guardians |
+| **Bench first** | Paint primed 2nd Scarabs; paint primed Immortals (gauss or tesla) to finish a 5 with Hierotek Guardians |
 | **Companion guide** | [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) |
 | **confidence** | draft — MFM v1.2 + Wahapedia 2026-08-19; Warriors/Plasmancer MFM v1.3 owner paste 2026-08-27 |
 
@@ -57,7 +57,7 @@ UPDATE_TRIGGER:
 | 3 | **Plasmancer** *(Apprentek proxy)* | 1 | 60 | OWNED proxy — Hierotek |
 | 4 | **Royal Warden** *(Despotek proxy)* | 1 | 50 | OWNED proxy — Hierotek |
 | 5 | **Necron Warriors** | 10 | 85 | OWNED — Tomb World |
-| 6 | **Immortals** | 5 | 70 | 3 Guardians + 2 sprue |
+| 6 | **Immortals** | 5 | 70 | 3 Guardians + 2 from primed 1st box (gauss blasters) |
 | 7 | **Canoptek Scarab Swarms** | 6 | 80 | OWNED — both sets merged |
 | | | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; **Atomic Disintegrators enhancement dropped** (owner-safe cut, -10) to absorb the delta and stay exactly on 500 |
 
@@ -171,7 +171,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 | Tesla carbine | 18" | 3 | 3+ | 5 | 0 | 1 | Sustained Hits 2 |
 | Close combat weapon | Melee | 2 | 3+ | 5 | 0 | 1 | — |
 
-**Owned loadout:** Hierotek Guardians carry gauss blasters — use blasters unless you build tesla on sprue models. With Technomancer or Plasmancer proxy attached → Cryptek unit.
+**Owned loadout:** Hierotek Guardians + 1st Immortals box carry **gauss blasters**; 2nd Immortals box is **tesla carbines** (primed). With Technomancer or Plasmancer proxy attached → Cryptek unit.
 
 ---
 

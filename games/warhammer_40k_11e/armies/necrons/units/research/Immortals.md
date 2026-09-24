@@ -40,7 +40,8 @@ INFANTRY, BATTLELINE, IMMORTALS / FACTION: NECRONS
 70 pts / 5; 140 pts / 10 (MFM v1.2, read 2026-08-19)
 
 ## List-building notes
-Owned: 5 unassembled (sprue) plus Hierotek 3 Guardians + Despotek (counts as Immortal by default).
+Owned: 5 primed (**gauss blasters**, 1st box) + 5 primed (**tesla carbines**, 2nd box) + Hierotek 3 Guardians + Despotek (counts as Immortal by default). Paint before play on both boxed squads.
+
 
 ## Sources
 - Wahapedia: https://wahapedia.ru/wh40k11ed/factions/necrons/Immortals

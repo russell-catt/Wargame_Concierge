@@ -150,23 +150,21 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
 | Technomancer | **80** first / **90** second | **Yes - game ready** | Second Cryptek (Canoptek Cloak). Attaches to Wraiths, Immortals or Warriors |
-| Immortal Guardians (3) + Despotek | *see Immortals 70 for 5* | Assembled; add to sprue Immortals. Despotek defaults to Immortal; Warden is proxy-only | |
+| Immortal Guardians (3) + Despotek | *see Immortals 70 for 5* | Assembled; add to primed 1st-box Immortals (gauss). Despotek defaults to Immortal; Warden is proxy-only | |
 | Apprentek | — | KT-only; casual Plasmancer proxy. Not a purchased Plasmancer | |
 | Hierotek Plasmacytes (2) | — | KT-legal; 40K likely not until **25–28mm base rings** | |
 
-**Owned but assembled — base & paint before play.**
+**Owned but assembled — paint before play.**
 
 | Unit | MFM v1.2 | Owned? | Note |
 |------|----------|--------|------|
-| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — assembled off-base / unpainted (2026-09-17); **5 reaper / 5 flayer** | Merging to 20 is legal, and a 20-body block is what the rule wants |
-| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — assembled off-base / unpainted (2026-09-17) | Merging to 6 is legal |
-| Immortals (second box, merging to 10) | **140** for 10 | Yes — **OWNED** 2026-09-17; **tesla carbines**, primed | Merging to 10 is legal once 1st box is built |
+| Necron Warriors (second 10, merging to 20) | **190** for 20 *(20-model band unchanged by v1.3)* | Yes — based + primed (2026-09-24); **5 reaper / 5 flayer** | Merging to 20 is legal, and a 20-body block is what the rule wants |
+| Canoptek Scarab Swarms (second 3, merging to 6) | **80** for 6 | Yes — based + primed (2026-09-24) | Merging to 6 is legal |
+| Immortals (1st box, merging toward 10) | **70** for 5 | Yes — based + primed (2026-09-24); **gauss blasters** | Better guns, fewer bodies |
+| Immortals (1st box, merging toward 10) | **70** for 5 | Yes — based + primed (2026-09-24); **gauss blasters** | Better guns, fewer bodies |
+| Immortals (second box, merging to 10) | **140** for 10 | Yes — **OWNED** 2026-09-17; **tesla carbines**, primed | Merging to 10 is legal with 1st box (gauss, primed) |
 
-**Owned but on sprue - build before play.**
-
-| Unit | MFM v1.2 | Owned? | Note |
-|------|----------|--------|------|
-| Immortals (5, 1st box) | **70** | Yes - on sprue | Better guns, fewer bodies |
+**Owned but on sprue - build before play.** None remaining for Immortals / Warriors / Scarabs.
 
 **Not owned.**
 
@@ -185,7 +183,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 
 ## Should a beginner pick this detachment?
 
-**Yes, on this collection.** The Warriors and Scarabs are painted and on a shelf, the Immortals are a box away, it forgives standing still, and it needs one cheap character rather than two expensive constructs. The owner's older notes rate it the weaker of the two detachments; over a first ten games that difference is invisible, and being able to field the list at all is not.
+**Yes, on this collection.** The Warriors and Scarabs are painted and on a shelf, the Immortals are primed and waiting on paint, it forgives standing still, and it needs one cheap character rather than two expensive constructs. The owner's older notes rate it the weaker of the two detachments; over a first ten games that difference is invisible, and being able to field the list at all is not.
 
 **And the character question is already answered.** The Tomb World **Cryptek Geomancer** is owned, painted, and identified - a real Cryptek to attach to a real squad of ten painted Warriors. Nothing here waits on anything.
 
@@ -213,6 +211,7 @@ Points from **Munitorum Field Manual v1.2**; ownership from [`Owned_Models_Inven
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.8 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed.
 - v0.5.7 (2026-09-17): 2nd Immortals purchased — **tesla carbines**, primed; shopping row marked owned.
 - v0.5.6 (2026-09-17): Ownership fit — 2nd Warriors (5 reaper / 5 flayer) + Scarabs assembled off-base / unpainted; Immortals remain on sprue.
 - v0.5.5 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026). No rules-fact change: v1.2 confirms Crypteks remain **Support**, not Leader — this page already taught that correctly from the v1.1 pass (line: "The owned faction pack v1.1 moved Crypteks from Leader to Support"). Source citation updated; teaching text unchanged.
