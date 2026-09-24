@@ -189,7 +189,7 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 
 ## 1,000 points - Cryptek Conclave
 
-### V1 - no purchases (Hierotek proxies OK) + owned Doomstalker - **995 / 1,000**
+### V1 - no purchases (Hierotek proxies OK) + owned Doomstalker - **975 / 1,000**
 
 **Play sheet:** [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md)
 
@@ -198,20 +198,20 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 | Unit / upgrade | Pts |
 |----------------|-----|
 | Geomancer + Technomancer + Plasmancer proxy + Warden proxy | 75+80+**60**+50 = **265** |
-| Warriors (20) | **190** |
+| Warriors (10) + Warriors (10) | **85+85 = 170** *(two units — seats all Crypteks)* |
 | Immortals (10) | **140** *(both primed boxes + Hierotek Guardians — hobby paint later; OK grey/primed at newbie events)* |
 | Scarabs (6) + Tomb Crawlers + Macrocytes | 80+50+70 = **200** |
 | **Canoptek Doomstalker** | **140** *(OWNED — prime/paint)* |
-| **Body total** | **935** |
-| Gauntlet of Compression + kitchen enhancement pad | up to **+60** → **995** |
+| **Body total** | **915** |
+| Gauntlet of Compression + kitchen enhancement pad | up to **+60** → **975** |
 
 | | |
 |--|--|
-| Kitchen / agreed multi-enhancement | **995 / 1,000** (5 pts under — fine) |
-| Matched Incursion (often **1** enhancement only) | **955** with Gauntlet alone |
-| If owned MFM lists Doomstalker at **145** | full kitchen pad lands **1,000** exactly |
+| Kitchen / agreed multi-enhancement | **975 / 1,000** (25 pts under — fine) |
+| Matched Incursion (often **1** enhancement only) | **935** with Gauntlet alone |
+| If owned MFM lists Doomstalker at **145** | full kitchen pad lands **980** |
 
-**Attachments:** Warden + Geomancer on 20 Warriors; Technomancer *or* Plasmancer proxy on Immortals; Doomstalker as backline anti-tank (no Conclave menu).
+**Attachments:** Warriors A ← Warden + Geomancer; Warriors B ← Technomancer; Immortals ← Plasmancer proxy; Doomstalker backline anti-tank (no Conclave menu).
 
 **Bench (hobby only):** prime Doomstalker when convenient; paint whenever. Newbie-friendly events — field grey plastic / primed.
 
@@ -290,6 +290,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v1.7 (2026-09-24): 1000 V1 attachment fix — two Warrior 10s (body **915** / kitchen **975**) so Geomancer, Technomancer, and Plasmancer proxy all attach legally.
 - v1.6 (2026-09-24): Newbie-friendly events — grey plastic / primed OK; paint not required to field 1000 V1.
 - v1.5 (2026-09-24): 1,000 V1 rewritten around owned **Canoptek Doomstalker** + Hierotek proxies + Immortals to 10 (**995** kitchen / **955** single-enhancement). Linked [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md). V2 Szeras/Lychguard path retained as alternate.
 - v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**. 500 V1/V2 drop the Atomic Disintegrators enhancement (owner-safe cut) to stay exactly on 500. 750 V1/V2 swap Quantum Abacus → Atomic Disintegrators in the enhancement stack (also fixes a pre-existing v1.2 addition error) to land exactly on 750. 1,000 V1 ceiling 720→**725**, shortfall 280→**275**. 1,000 V2 drops Atomic Disintegrators + Gravitic Bolas (owner-safe cut, keeps Gauntlet of Compression only; also fixes a pre-existing v1.2 addition error) to land exactly on 1,000.
