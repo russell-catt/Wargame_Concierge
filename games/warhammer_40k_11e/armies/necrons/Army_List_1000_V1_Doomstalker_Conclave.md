@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_1000_V1_Doomstalker_Conclave.md
-VERSION: v1.0 (2026-09-24)
+VERSION: v1.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — Doomstalker ownership + Conclave 1000 rethink)
 
@@ -9,7 +9,7 @@ PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 1000 V1 Doomstalker path (no Szeras/Lychguard buy). Owned + Hierotek proxies. Points: Warriors/Plasmancer MFM Necrons v1.3 owner paste 2026-08-27 draft; Doomstalker 140 MFM v1.2 / Wahapedia 2026-09-24 (verify owned MFM — some mirrors 145). confidence: draft.
+REFERENCE_STATUS: Active - 1000 V1 Doomstalker path (no Szeras/Lychguard buy). Owned + Hierotek proxies. Two Warrior 10s so Geomancer, Technomancer, and Plasmancer proxy each have a legal bodyguard. Points: Warriors/Plasmancer MFM Necrons v1.3 owner paste 2026-08-27 draft; Doomstalker 140 MFM v1.2 / Wahapedia 2026-09-24 (verify owned MFM — some mirrors 145). confidence: draft.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
@@ -32,7 +32,7 @@ UPDATE_TRIGGER:
 
 | Field | Value |
 |-------|-------|
-| **Points** | **995 / 1,000** *(or **955** if Incursion allows only one enhancement — see below)* |
+| **Points** | **975 / 1,000** kitchen pad *(or **935** with Gauntlet only — see below)* |
 | **Buy** | **$0** — Hierotek proxies OK (opponent OK). Optional later: real Plasmancer / Warden for events |
 | **Bench** | Hobby only — prime/paint when you want. **Newbie-friendly events: grey plastic / primed OK to field** |
 | **vs old V2** | Replaces **Illuminor Szeras + Lychguard** shopping with owned **Doomstalker** |
@@ -47,22 +47,25 @@ UPDATE_TRIGGER:
 | 2 | Technomancer (Canoptek Cloak) | 1 | 80 | OWNED — Hierotek |
 | 3 | Plasmancer *(Apprentek proxy)* | 1 | 60 | OWNED proxy — Hierotek |
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 | OWNED proxy — Hierotek |
-| 5 | Necron Warriors | 20 | 190 | OWNED (10 painted + 10 primed) |
-| 6 | Immortals | 10 | 140 | OWNED (Hierotek Guardians + both primed boxes — hobby paint later) |
-| 7 | Canoptek Scarab Swarms | 6 | 80 | OWNED (3 painted + 3 primed) |
-| 8 | Canoptek Tomb Crawlers | 2 | 50 | OWNED — Tomb World |
-| 9 | Canoptek Macrocytes | 5 | 70 | OWNED — Tomb World |
-| 10 | **Canoptek Doomstalker** | 1 | **140** | **OWNED — assembled, unprimed** |
-| | **Body total** | | **935** | |
-| 11 | Gauntlet of Compression | — | 20 | Enhancement (Geomancer or Technomancer) |
-| 12 | Gravitic Bolas *(kitchen pad)* | — | 15 | Enhancement |
-| 13 | Quantum Abacus *(kitchen pad)* | — | 15 | Enhancement |
-| 14 | Atomic Disintegrators *(kitchen pad)* | — | 10 | Enhancement |
-| | | | **995** | 5 pts under — fine for learning |
+| 5 | Necron Warriors *(brick A)* | 10 | 85 | OWNED — Tomb World painted |
+| 6 | Necron Warriors *(brick B)* | 10 | 85 | OWNED — 2nd squad primed |
+| 7 | Immortals | 10 | 140 | OWNED — Hierotek Guardians + primed boxes (prefer one gun type per unit) |
+| 8 | Canoptek Scarab Swarms | 6 | 80 | OWNED (3 painted + 3 primed) |
+| 9 | Canoptek Tomb Crawlers | 2 | 50 | OWNED — Tomb World |
+| 10 | Canoptek Macrocytes | 5 | 70 | OWNED — Tomb World |
+| 11 | **Canoptek Doomstalker** | 1 | **140** | **OWNED — assembled, unprimed** |
+| | **Body total** | | **915** | Two Warrior *units* of 10 = 85+85 (**not** the 190 twenty-model band) |
+| 12 | Gauntlet of Compression | — | 20 | Enhancement (Geomancer or Technomancer) |
+| 13 | Gravitic Bolas *(kitchen pad)* | — | 15 | Enhancement |
+| 14 | Quantum Abacus *(kitchen pad)* | — | 15 | Enhancement |
+| 15 | Atomic Disintegrators *(kitchen pad)* | — | 10 | Enhancement |
+| | | | **975** | 25 pts under — fine for newbie / learning |
 
-**Matched Incursion note:** if your event only allows **one** enhancement at 1,000 pts, take **Gauntlet of Compression** only → **955 / 1,000**. Agree enhancement count with your opponent for kitchen games.
+**Why two Warrior 10s (not one 20):** you own **three** Cryptek Supports (Geomancer, Technomancer, Plasmancer proxy) plus a Warden. Each Support needs a bodyguard. Two Warrior squads + Immortals = three legal seats. A single 20-Warrior brick can only take Warden + one Cryptek, which leaves a Cryptek with nowhere legal to attach.
 
-**If owned MFM lists Doomstalker at 145:** body total becomes **940**; with Gauntlet only → **960**; with full kitchen pad → **1,000 exactly**.
+**Matched Incursion note:** if the event allows only **one** enhancement, take **Gauntlet of Compression** only → **935 / 1,000**. Agree enhancement count for kitchen games.
+
+**If owned MFM lists Doomstalker at 145:** body **920**; Gauntlet only → **940**; full kitchen pad → **980**.
 
 ---
 
@@ -70,23 +73,26 @@ UPDATE_TRIGGER:
 
 | Bodyguard | Leader | Support |
 |-----------|--------|---------|
-| Necron Warriors (20) | Royal Warden (Despotek proxy) | Cryptek Geomancer |
-| Immortals (10) | — | Technomancer **or** Plasmancer (Apprentek proxy) |
+| Necron Warriors (10) brick A | Royal Warden (Despotek proxy) | Cryptek Geomancer *(Warlord)* |
+| Necron Warriors (10) brick B | — | Technomancer |
+| Immortals (10) | — | Plasmancer (Apprentek proxy) |
 
 - **Doomstalker, Macrocytes, Tomb Crawlers, Scarabs:** no Cryptek attached — they do **not** get the Conclave shooting menu.
-- Prefer **Technomancer on Immortals** for Feel No Pain-style durability while learning; swap Plasmancer proxy onto Immortals when you want more punch and put Technomancer… you only have one Support slot per brick — pick one Cryptek for Immortals.
+- **Immortals loadout:** field as one unit of 10 — pick **gauss blasters** or **tesla carbines** for the whole unit (you own both kits; Hierotek Guardians fill gauss). Don't mix guns in one unit for teaching clarity.
+- **Swap option:** Technomancer ↔ Plasmancer proxy between brick B and Immortals if you want FNP on Immortals instead.
 
 ---
 
 ## How this list plays (plain language)
 
-**One-sentence plan:** Two Conclave gun bricks (20 Warriors + 10 Immortals) hold Expansion / Central, Scarabs Action and screen, Macrocytes/Crawlers contest, and the **Doomstalker** deletes vehicles from your backline.
+**One-sentence plan:** Three Conclave gun bricks (two Warrior 10s + Immortals) hold Expansion / Central, Scarabs Action and screen, Macrocytes/Crawlers contest, and the **Doomstalker** deletes vehicles from your backline.
 
-1. **Warriors + Warden + Geomancer** — sit on a flag; every Shooting phase say your Conclave menu pick out loud (`[IGNORES COVER]` is the beginner default in terrain).
-2. **Immortals + Technomancer (or Plasmancer proxy)** — second brick; stronger guns; same menu rules.
-3. **Doomstalker** — Remain Stationary when you can (Heavy doomsday blaster). Shoot the scariest VEHICLE / MONSTER. Overwatch hits on **5+** (Sentinel Construct) — budget 1CP.
-4. **Scarabs** — Actions / screens; OC 1 near a Cryptek; optional **Self-destruction** one base at Fight start (see Scarab research).
-5. **Macrocytes + Tomb Crawlers** — midboard Canoptek bodies; no Conclave gun buff.
+1. **Warriors A + Warden + Geomancer** — home / Expansion flag; every Shooting phase say your Conclave menu pick out loud (`[IGNORES COVER]` is the beginner default in terrain).
+2. **Warriors B + Technomancer** — second Warrior brick; same menu; Technomancer keeps them sticky.
+3. **Immortals + Plasmancer proxy** — third brick; stronger guns; same menu rules.
+4. **Doomstalker** — Remain Stationary when you can (Heavy doomsday blaster). Shoot the scariest VEHICLE / MONSTER. Overwatch hits on **5+** (Sentinel Construct) — budget 1CP.
+5. **Scarabs** — Actions / screens; OC 1 near a Cryptek; optional **Self-destruction** one base at Fight start (see Scarab research).
+6. **Macrocytes + Tomb Crawlers** — midboard Canoptek bodies; no Conclave gun buff.
 
 **Reanimation:** every unit at end of your Command phase (`08.05`). **Potentiality Syphon (1CP)** when a Cryptek brick sits on an objective in the opponent's Command phase.
 
@@ -115,8 +121,8 @@ Other unit cards: [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md)
 
 - [ ] Detachment: Cryptek Conclave; Warlord: Geomancer; **FORCE DISPOSITION: PRIORITY ASSETS**
 - [ ] Models assembled enough to tell units apart (grey plastic / primed fine at newbie-friendly events)
-- [ ] Warriors merged to 20 / Immortals to 10 painted enough to field
-- [ ] Attachments written: Warriors ← Warden + Geomancer; Immortals ← Techno or Plasmancer proxy
+- [ ] Two Warrior units of 10 + Immortals 10 assembled enough to tell apart
+- [ ] Attachments written: Warriors A ← Warden + Geomancer; Warriors B ← Technomancer; Immortals ← Plasmancer proxy
 - [ ] Opponent agrees Apprentek→Plasmancer and Despotek→Warden proxies
 - [ ] Enhancement count agreed (kitchen stack vs Incursion one-enhancement)
 - [ ] Token: **end of Command → REANIMATE**
@@ -139,6 +145,7 @@ Other unit cards: [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md)
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · Doomstalker pts **140** (v1.2 / Wahapedia 2026-09-24) · verify owned PDFs.
 
 ## Change Log
+- v1.2 (2026-09-24): Attachment fix — split Warriors into two 10s so all three Crypteks + Warden have legal seats; body **915** → kitchen **975**.
 - v1.1 (2026-09-24): Owner note — newbie-friendly events; grey plastic / primed OK (paint not required to field).
 - v1.0 (2026-09-24): Initial Doomstalker + Hierotek Conclave 1000 path after owner assembled Doomstalker.
 
