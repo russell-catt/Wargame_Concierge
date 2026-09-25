@@ -4,36 +4,52 @@ type: faction
 system: the_warcode
 faction: MDR
 created: 2026-08-23
-updated: 2026-08-23
-version: 0.5.3
-sources: [warcode_web_prelaunch_2026_08, warcode_rulebook_v087f, docs/handoffs/warcode_tactical_doctrine/review_manifests/06_faction_concepts.md]
-confidence: stub
-tags: [faction, the_warcode, mdr, stub, marketing_only]
+updated: 2026-09-24
+version: 0.9.1
+sources: [warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, games/the_warcode/factions/mdr/README.md, games/the_warcode/factions/mdr/Squad_Datasheet.md]
+confidence: draft
+tags: [faction, the_warcode, mdr, executive_unit, playable]
 ---
 
 # MDR (The Warcode)
 
-**Stub — marketing and rules hints only.** Clones of a single commander: "one strategic mind distributed across eight bodies." Marketing tags: Coordinated, Precise, Adaptable; stated difficulty **Mid**. **No unit roster in beta v0.8.7-F.**
+Coordinated support faction whose playable MDR Executive Unit relays extra AP and melee pressure through a Sergeant–Comms network while a Combat Medic rewards compact positioning.
 
 ---
 
-## What sources say
+## Play identity
 
-- Pre-launch blurb emphasises **synchronisation** and **positional dependency** — unit placement drives what the squad can do next.
-- Core rules reserve abilities that **grant extra AP to another friendly unit** — neither published roster (Protagen, Ulfari) includes one. Strong inference MDR was written for this hook — unverified until a roster lands.
+- Eight models share a consistent baseline; abilities and positioning create differentiation.
+- Sergeant 139 can spend AP to improve one unactivated ally's budget for the round.
+- The Comms Operator relays the Sergeant's Order and nearby melee-penetration support.
+- Combat Medic restores nearby allies at round end but not itself and not while in melee.
+- Marksman reduces a shooting target's Agility; the rules give no universal minimum or stacking order.
 
----
+Exact profiles stay in shipping [`Squad_Datasheet.md`](../../games/the_warcode/factions/mdr/Squad_Datasheet.md), not in KB.
 
-## What is not known
+## Lore and doctrine
 
-- Unit names, statlines, weapon profiles, or special rules.
-- Whether MDR introduces mechanics beyond the shared chassis (2 AP, contracts, overwatch, etc.).
+MDR is an authoritarian clone republic centred on Huoxing. Its year-1689 founding congress met aboard Mars, a distinct settlement in the Kirkwood Belt. The lorebook describes broad middle-system reach but only partial Cassini control, compatible with Protagen bases on some moons.
+
+Faction and hostile-source accounts connect the Executive Unit's coordination to shared Martin lineages and specialized cloning. That is narrative context; playable effects come from [[warcode_rulebook_v089f]].
+
+## Rules cautions
+
+- Order and Inspiration are different AP mechanics; see [[warcode_action_points]].
+- The Sergeant's melee effect and Comms relay leave edge cases unresolved.
+- Restricted starting equipment creates pickup and drop questions.
+- Combat Medic healing participates in the unresolved round-end ordering.
+
+## Open questions
+
+- Whether the Sergeant benefits from its own nearby-friendly effect.
+- How the relay behaves after the Sergeant is destroyed.
+- How restricted loadouts interact with pickup and drops.
 
 ---
 
 ## Related pages
 
-- [[warcode_web_prelaunch_2026_08]] — marketing source
-- [[warcode_rulebook_v087f]] — AP-grant rule exists; MDR does not
-- [[warcode_protagen_marines]] · [[warcode_ulfari]] — playable beta factions
-- [[warcode_action_points]] — extra-AP ability slot
+- [[warcode_rulebook_v089f]] · [[warcode_tactical_doctrine_field_edition]]
+- [[warcode_action_points]] · [[warcode_overwatch]] · [[warcode_contracts]]
+- [[warcode_protagen_marines]] · [[warcode_ulfari]] · [[warcode_dominium]]

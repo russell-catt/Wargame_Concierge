@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Keyword_Glossary.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Reference / Term Glossary
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
   - games/the_warcode/README.md
@@ -32,10 +33,10 @@ KEY_SECTIONS_EXPECTED:
   - Comparative bridges (Murder Platoon)
 
 UPDATE_TRIGGER:
-  Update when beta supersedes v0.8.7-F or comparative glossary expands in S8.
+  Update when beta supersedes v0.8.9-F or comparative glossary expands in S8.
 -->
 
-# Keyword Glossary — The Warcode (beta v0.8.7-F)
+# Keyword Glossary — The Warcode (beta v0.8.9-F)
 
 One line per term. **`confidence: draft`**, read **2026-08-23**. Deep dives: [`Key_Concepts.md`](Key_Concepts.md). Verbatim text: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
@@ -45,7 +46,7 @@ One line per term. **`confidence: draft`**, read **2026-08-23**. Deep dives: [`K
 
 | Status | Meaning |
 |--------|---------|
-| `draft` | Paraphrased from the v0.8.7-F extract; confirm against owned PDF before tournaments |
+| `draft` | Paraphrased from the v0.8.9-F baseline; confirm against the current PDF before tournaments |
 
 All entries below are **`draft`** unless a future pass marks them verified. Card lookups: [`Contract_Cards_Reference.md`](Contract_Cards_Reference.md), [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md).
 
@@ -91,7 +92,7 @@ All entries below are **`draft`** unless a future pass marks them verified. Card
 | **Line of sight** | Shooter must see target base; blocked by full cover unless **≥50%** of target base is visible (e.g. 14 mm on a 28 mm base) | Declare before shooting; friendlies use same 50% rule |
 | **Hit check** | Each shot/melee attack die must roll **≥ target Agility** (after modifiers) | Cover and Sniper change the threshold |
 | **Penetration check** | Each hit die rolls **≥ effective Armour** (weapon pen modifies Armour) | + pen raises effective Armour; − pen lowers it |
-| **Overwatch** | 1 AP reaction fire stance | Ends activation; see trigger list in Key_Concepts |
+| **Overwatch** | 1 AP reaction fire stance | Ends activation; ability-use trigger is unresolved |
 
 ---
 
@@ -131,6 +132,11 @@ All entries below are **`draft`** unless a future pass marks them verified. Card
 | **Grenade** | 2 pts; throw 1 AP; 5" range; 2" blast | Friendly fire in blast |
 | **Medkit** | 2 pts; heal 2 HP at 0 AP once | Self or friend within 1 inch |
 | **Item pickup** | 0 AP within 1 inch of dropped gear | Loot dead carriers |
+| **Burning** | 1 round-end damage, then clears; medkit removes it | Applied by Hand Flamethrower to target and units within 2" |
+| **Order** | Sergeant 139 spends 1 AP to give an unactivated ally +1 AP | Once per round; Comms can relay range |
+| **Inspiration** | Delayed 1-AP activation for an ally that already activated | After ordinary activations; ordering unresolved |
+| **Choke** | Persistent 1 round-end damage tied to Tormentor | Ends only when Tormentor is destroyed |
+| **Influence** | Named aura on Justiciar or Tormentor | Agility reduction or round-end damage, depending on unit |
 
 ---
 
@@ -205,6 +211,7 @@ Use bridges for **memory**, not rules substitution.
 
 ## Change Log
 
+- v0.3 (2026-09-24): Updated to v0.8.9-F; added Order, Inspiration, Burning, Choke, Influence, and Overwatch caveat (S2).
 - v0.2 (2026-08-25): S8 corpus pass — protocol names, contract IDs, cover subtypes, map/setup terms; removed OCR-pending stubs; card reference cross-links.
 - v0.1 (2026-08-23): Initial glossary from beta v0.8.7-F extract; comparative stubs for S8 expansion.
 

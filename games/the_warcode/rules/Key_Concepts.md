@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Key_Concepts.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Teaching Guide / Core Mechanics
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -33,12 +34,12 @@ KEY_SECTIONS_EXPECTED:
   - Contracts and re-rolls
 
 UPDATE_TRIGGER:
-  Update when beta supersedes v0.8.7-F on combat resolution, cover, or scoring.
+  Update when beta supersedes v0.8.9-F on combat resolution, cover, or scoring.
 -->
 
 # Key Concepts — the mechanics everything else sits on
 
-Learn these and weapon profiles become readable. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Verbatim passages: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+Learn these and weapon profiles become readable. **`confidence: verified`**, beta **v0.8.9-F**, read **2026-09-24**. Verbatim passages: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 ---
 
@@ -68,7 +69,7 @@ Each **weapon profile** lists range, shots or melee strength, shoot/reload or me
   - Picking up ground equipment (must be within 1 inch)
   - Opening/closing doors (must be within 1 inch of the doorway)
   - Using a medkit (0 AP)
-- Some friendly abilities grant **extra AP** to another unit — spend it in the same round.
+- **Order** grants +1 AP to a not-yet-activated ally for its normal activation; **Inspiration** grants a delayed 1-AP activation to an ally that already activated.
 - **Pass** ends the activation without spending remaining AP and **does not** trigger Overwatch.
 
 ---
@@ -126,9 +127,11 @@ Pay the weapon's **reload AP cost**. Ammo resets to the profile maximum. Can tri
 - **Cost:** 1 AP, at least 1 ammo, **not in melee range** of an enemy.
 - Place an **Overwatch token** — the unit takes **no other actions** this round.
 - If an enemy in range performs a qualifying action, the overwatching unit **shoots first** (normal shooting rules), then removes its token.
-- Qualifying enemy actions: **Shoot, Move, Melee combat, Disengage, Escape, Use equipment, Reload** — and **Engage** (overwatch fires, then melee proceeds).
+- The p.11 list names **Shoot, Move, Melee combat, Disengage, Escape, Use equipment, Reload**; Engage has a worked trigger example.
 - Overwatch **does not** trigger if the enemy moves behind full cover out of line of sight, or on **Pass**.
 - Overwatch ends when the unit **fires**, **takes damage**, or the **round ends**.
+
+**Gap:** p.10 broadly says an enemy action in range triggers, while p.11 omits ability use and map interaction. Do not assume Order, Inspiration, or Choke either does or does not trigger without a table agreement.
 
 ---
 
@@ -166,6 +169,20 @@ Before the game, each player spends **4 equipment points**:
 | **Medkit** | 2 pts | Restore **2 HP** (not above max) on self or friendly within 1"; **0 AP**; one use |
 
 Default: **one** equipment piece per unit unless special rules say otherwise (some units start with two grenades and take no other gear).
+
+New roster exceptions also include a fixed medkit, units unable to carry equipment or receive medkit healing, and Burning removable by a medkit. Pickup/drop and Burning-removal interactions are not fully defined.
+
+---
+
+## Four-faction exceptions to remember
+
+- MDR Order and Comms alter AP reach; Combat Medic heals nearby allies at round end.
+- Marksman and Justiciar reduce Agility; no lower floor or stacking order is stated.
+- Confessor’s Inspired activations occur after ordinary activations, but their internal order is undefined.
+- Cremator spreads Burning; its ammo profile conflicts with “never needs reloading.”
+- Tormentor’s Directed Energy is called Focused Energy once and lacks a defined critical source after ignoring armour.
+- Lancer and Smasher impose Melee Lock within 1" without base contact.
+- End-of-round unit effects are not ordered among healing, Burning, Influence, and Choke.
 
 Dropped gear stays where the carrier died; any unequipped unit within 1 inch can pick it up for **0 AP**.
 
@@ -208,6 +225,7 @@ Dropped gear stays where the carrier died; any unequipped unit within 1 inch can
 
 ## Change Log
 
+- v0.3 (2026-09-24): Updated to v0.8.9-F; added four-faction AP, Overwatch, equipment, combat, and timing exceptions (S2).
 - v0.2 (2026-08-25): Cross-links to card reference pages (S8).
 - v0.1 (2026-08-23): Initial key concepts from beta v0.8.7-F extract.
 

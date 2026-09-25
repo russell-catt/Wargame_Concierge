@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Activation_and_AP.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Deep Dive / Teaching Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — verified delta, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (current; retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -35,7 +36,7 @@ UPDATE_TRIGGER:
 
 # Activation and AP — the two-point economy
 
-Everything in The Warcode is rationed through **2 Action Points per unit per round**. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+Everything in The Warcode starts from **2 Action Points per unit per round**, with two printed roster exceptions that grant extra AP. **`confidence: verified`**, beta **v0.8.9-F**, read **2026-09-24**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 ---
 
@@ -141,7 +142,21 @@ The compensation is that Overwatch fires **before** the enemy's declared action 
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.4 — "UNIT ACTIVATION"
 
-Pass is the only listed activation option that does **not** appear on the Overwatch trigger list (Shooting, Movement, Melee combat, Disengaging, Escaping, Using equipment, Reloading). A unit sitting inside an enemy's covered lane can burn its activation safely rather than eat an overwatch shot for a marginal reposition. It also lets you dump a low-value activation early to force your opponent to commit a real one, which matters in an alternating system.
+Pass is expressly safe from Overwatch. The p.11 trigger list names Shooting, Movement, Melee combat, Disengaging, Escaping, Using equipment, and Reloading, but the broader p.10 rule says an enemy “takes action” in range. Ability use and map interaction are not listed, so do **not** treat p.11 as proven exhaustive.
+
+---
+
+## Printed extra-AP abilities
+
+**MDR Order:** Sergeant 139 can spend 1 AP once per round to give a not-yet-activated friendly unit within 7" **+1 AP until round end**. It cannot be used in melee, and Comms can relay its reach. This is a normal future activation with an enlarged budget, not a second activation.
+
+Source: **The-Warcode-Rulebook-V.0.8.9-F.pdf — p.37 — “MDR EXECUTIVE UNIT — TEAM LIST” (Sergeant 139, Order; Comms Operator).**
+
+**Custodia Inspiration:** Confessor spends 1 AP on an already-activated friendly within 8" and line of sight; spending both AP selects two different units. Each later activates with 1 AP after all ordinary activations.
+
+Source: **The-Warcode-Rulebook-V.0.8.9-F.pdf — p.40 — “CUSTODIA SILENS — TEAM LIST” (Confessor, Inspiration).**
+
+The Inspiration window is not fully ordered. The book does not say which player’s Inspired unit goes first, how several Inspired units are ordered, whether one unit can be Inspired more than once, or what happens if it dies before that delayed activation.
 
 ---
 
@@ -151,7 +166,7 @@ Pass is the only listed activation option that does **not** appear on the Overwa
 |------|---------------------|
 | Moving into range with 0 AP left to shoot | Count the second AP **before** the first move |
 | Activating a heavy-weapon unit that must move | Position heavies on the round they can afford to; they shoot for 2 AP |
-| Buying Overwatch with a unit that has better options | Overwatch costs the activation, not 1 AP |
+| Buying Overwatch with a unit that has better options | Overwatch costs 1 AP and locks the rest of that unit's activation |
 | Walking through your own models | −2" is the worst penalty in the game; go around |
 | Forgetting free interactions | Doors, pickups, and medkits are 0 AP once you are within 1" |
 | Spending 2 AP on Escape when Disengage would do | Escape's extra AP only buys "you move even on a failed roll" |
@@ -171,14 +186,15 @@ Pass is the only listed activation option that does **not** appear on the Overwa
 
 ## Open questions
 
-- How many units grant **extra AP** to a friendly unit, and at what cost — the p.4 text promises the ability exists, but neither printed team list in the extract shows one.
-- Whether granted AP can push a unit above 2 AP in a single activation, or only replaces spent points.
 - Whether Pass can be declared after spending 1 AP, or only as the whole activation.
+- Whether AP-costed Order, Inspiration, or Choke triggers enemy Overwatch: p.10 is broad, but p.11 omits ability use.
+- The unresolved Inspiration ordering and repeat-target questions above.
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-09-24): Added Order and Inspiration; preserved delayed-activation and Overwatch gaps; moved provenance to v0.8.9-F (S2).
 - v0.1 (2026-08-23): Initial deep-dive on activation and AP from beta v0.8.7-F extract.
 
 ## Attribution

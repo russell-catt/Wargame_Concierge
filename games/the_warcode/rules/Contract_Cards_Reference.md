@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Contract_Cards_Reference.md
-VERSION: v0.1 (2026-08-25)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine S1b)
 
 DOCUMENT_TYPE: Reference / Card Lookup
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-25)
+REFERENCE_STATUS: Active — verified equivalent, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (current; pp.24–25; verified equivalent 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/contract_cards_transcription.txt (via typed transcription)
   - raw/the_warcode/spreadsheets/Warcode_Contract_Protocol_list.xlsx (Contracts sheet)
@@ -35,7 +36,7 @@ UPDATE_TRIGGER:
 
 # Contract Cards — reference table
 
-All eight contract cards from PDF pp.24–25. **`confidence: draft`**, transcribed **2026-08-25** from owner spreadsheet and printed cards. Verbatim quotes: [`Rulebook_Quotes.md`](Rulebook_Quotes.md) Sec 25. Mechanics: [`Contracts_and_VP.md`](Contracts_and_VP.md).
+All eight contract cards from current PDF pp.24–25. **`confidence: verified`**: card-image resources are equivalent between v0.8.7-F and v0.8.9-F. Verbatim quotes: [`Rulebook_Quotes.md`](Rulebook_Quotes.md) Sec 25. Mechanics: [`Contracts_and_VP.md`](Contracts_and_VP.md).
 
 ---
 
@@ -68,6 +69,8 @@ Each card awards **1 VP** on fulfilment.
 
 **Confirmed:** all eight cards are worth **1 VP** — the p.22 worked example (Shade on card 6037) matches the table.
 
+**Spelling note:** card 4186 prints **Justicar Julius**. The playable Custodia roster on PDF p.39 prints **Justiciar Julius**. These are treated as the same character while preserving each source spelling.
+
 ---
 
 ## At the table
@@ -89,13 +92,13 @@ Each card awards **1 VP** on fulfilment.
 
 ## Open questions
 
-- Whether MDR Executive Unit and Custodia Silens targets are playable in the beta print or reserved for unreleased factions.
 - Whether duplicate Target names can appear on different card IDs in a future expansion.
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-09-24): Updated current provenance, recorded card equivalence, and added Justicar/Justiciar source note (S2).
 - v0.1 (2026-08-25): Initial eight-card table from typed transcription (S1b).
 
 ## Attribution

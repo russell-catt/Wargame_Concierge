@@ -1,6 +1,6 @@
 <!--
 FILE: docs/Project_Planning.md
-VERSION: v0.9.1 (2026-08-27)
+VERSION: v0.9.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
@@ -17,6 +17,7 @@ SOURCES:
   - docs/handoffs/v1_scaffold/track_in.md (constraints, model matrix, Preflight notes)
   - docs/handoffs/tomb_world_ownership/track_in.md (locked ownership decision, 2026-08-16)
   - docs/handoffs/warcode_tactical_doctrine/ (system #3 closed)
+  - docs/handoffs/warcode_kickstarter_refresh/ (v0.8.9-F, lore, and campaign refresh)
   - games/warhammer_40k_11e/armies/necrons/Necron_Lists.md (FOUNDATION - authoritative ownership)
   - reference/Initial_Prompt.md (owner intent)
 
@@ -54,9 +55,9 @@ Decisions of record for Wargame_Concierge. If a question here is marked resolved
 |-------|-------|
 | Phase | **Pre-external-review** — three systems onboarded |
 | Snapshot | **v0.9.0** (2026-08-25) |
-| Systems | 40K 11e · Kill Team 2024 · **The Warcode** (free beta v0.8.7-F) — [`../games/README.md`](../games/README.md) |
-| Closed tracks | Indexed in [`handoffs/README.md`](handoffs/README.md) — includes `warcode_tactical_doctrine`, WD527 research/shipping, KT scaffold / quotes / Nemesis, `v1_scaffold`, Tomb World ownership |
-| Next milestone | **External user review and critique** of shipping teaching content (and VIP review PDF for Warcode, emailed separately) |
+| Systems | 40K 11e · Kill Team 2024 · **The Warcode** (free beta v0.8.9-F) — [`../games/README.md`](../games/README.md) |
+| Tracks | Indexed in [`handoffs/README.md`](handoffs/README.md) — `warcode_tactical_doctrine` is closed; `warcode_kickstarter_refresh` updates rules, lore, and campaign/community coverage |
+| Next milestone | Complete the Warcode refresh, Librarian synchronization, and independent QA; then continue external user review and critique |
 | KB | Living; Librarian enhance passes after shipping tracks |
 | Git | Coordinator sole git owner except explicit user-gated commit+push |
 | Live rollup | [`handoffs/README.md`](handoffs/README.md) |
@@ -85,7 +86,7 @@ Private is a deliberate choice, not a default. The unit research corpus is perso
 | **System #2** | **Kill Team 2024** — onboarded under `games/kill_team_2024/` |
 | **System #3** | **The Warcode** — onboarded under `games/the_warcode/` (RedMakers free beta; GW proper-noun ban in shipping) |
 | Game-agnostic by design | `games/` holds one subtree per system; scaffold for the **next** system |
-| Out of scope for v0.9 | Web app / army builder; automated list validation; selling the project; MDR/Dominium datasheets until RedMakers publish |
+| Out of scope for v0.9 | Web app / army builder; automated list validation; selling the project |
 
 ### Copyright and sourcing
 
@@ -95,7 +96,7 @@ Private is a deliberate choice, not a default. The unit research corpus is perso
 | **Warcode free-beta exception** | PDF + OCR/xlsx/map sidecars may live under `raw/the_warcode/` (not GW) |
 | External libraries | `C:\Personal\40K`, `C:\Personal\Kill Team` stay **outside** the repo — path pointers only |
 | Writing style | **Teaching paraphrase** in `KB/` and `docs/` |
-| **Scoped verbatim quotes** | KT24 → `games/kill_team_2024/`; 40K WarCom-free Core → `games/warhammer_40k_11e/rules|setup/`; Warcode beta → `games/the_warcode/rules|setup|factions/` |
+| **Scoped verbatim quotes** | KT24 → `games/kill_team_2024/`; 40K WarCom-free Core → `games/warhammer_40k_11e/rules|setup/`; Warcode free publications → `games/the_warcode/rules|setup|factions|lore/` |
 | **Warcode shipping naming** | Never GW proper nouns in `games/the_warcode/**` — That other game / Rawmallet / 39.9 / 39.876 |
 | **GW unofficial footers** | Required on 40K / KT print HTML and player-facing army shipping — see `templates/Footer_Template_Gw_Print.md` |
 | Citation | Every rules claim names where it can be checked, **with a retrieval date** |
@@ -108,7 +109,9 @@ Private is a deliberate choice, not a default. The unit research corpus is perso
 |-----------|-----|-----|
 | Warhammer Community | <https://www.warhammer-community.com/en-gb/> | Official rules updates, FAQs, errata, balance dataslates |
 | Wahapedia | <https://wahapedia.ru/> | Consolidated rules and datasheet lookup when WarCom does not publish profiles |
-| The Warcode pre-launch | <https://pre-launch.thewarcode.com/> | Marketing / VIP context (secondary to free beta PDF) |
+| The Warcode pre-launch | <https://pre-launch.thewarcode.com/> | Historical marketing / VIP context (secondary to free beta PDF) |
+| The Warcode Gamefound | <https://gamefound.com/en/projects/redmakers/the-warcode> | Cancelled campaign history; ended 2026-09-18 |
+| The Warcode Kickstarter | <https://www.kickstarter.com/projects/redmakers/the-warcode-stl-campaign> | Current digital-only STL/PnP campaign, 2026-09-23 through 2026-10-23 |
 
 **Patches happen.** Cross-check owned PDFs before a real game. Wahapedia is convenience and can lag.
 
@@ -260,7 +263,7 @@ Still worth closing, but no longer critical path. It dropped from blocker to nic
 |---|--------|-------|
 | 1 | External review pass on teaching content (40K / KT24 / Warcode) | Owner + reviewers |
 | 2 | First table tests: KT24 Volkus/3e Starter; Warcode First Game Walkthrough; 40K Conclave | Owner |
-| 3 | Optional: L1 Warcode unit KB pages; MDR/Dominium when beta publishes | Later track |
+| 3 | Table-test all four Warcode squads and record publisher clarifications for the open interaction register | Owner + later track |
 | 4 | Optional: ingest remaining Core chapters / team trees into KB when needed | Librarian |
 | 5 | Playbook 26 dead links remain a known issue — do not rewrite Sec 17–18 | Later cleanup |
 
@@ -276,6 +279,7 @@ Still worth closing, but no longer critical path. It dropped from blocker to nic
 
 ## Change Log
 
+- v0.9.2 (2026-09-24): Updated The Warcode to v0.8.9-F, recorded the active Kickstarter refresh track, and separated cancelled Gamefound history from the current digital-only campaign.
 - v0.9.1 (2026-08-27): Current status — added the `dataslate_0826` track row (Aug 2026 GW balance packages: 40K Universal Rules v1.1 + Faction Pack v1.2 + MFM v1.3; KT Core/update-log + team package; no singular dataslate file for either system; Warcode unaffected). Currency stamps live on system READMEs, not restated here (slice S4).
 - v0.9.0 (2026-08-25): Three systems onboarded (Warcode); copyright/sourcing refreshed; phase **pre-external-review**; next milestone external critique.
 - v0.5.0 (2026-08-18): Project-wide semver snapshot (x.y.z). Status: KT24 rules/reference landed; tags `v0.1.0` / `v0.5.0`; Coordinator git owner except this user-gated commit+push.

@@ -2,13 +2,13 @@
 title: Log
 type: log
 system: multi_system
-systems: [warhammer_40k_11e, kill_team_2024]
+systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-08-27
-version: 0.5.7
+updated: 2026-09-24
+version: 0.9.1
 sources: []
 confidence: verified
-tags: [log, activity, append-only, kill_team_2024]
+tags: [log, activity, append-only, kill_team_2024, the_warcode]
 ---
 
 # KB Log
@@ -659,3 +659,11 @@ Pages updated: KB/units/necron_warriors.md (MFM v1.3: 10-model band 80→85); KB
 Pages created: none (enhance sync per `.cursor/skills/librarian-enhance/SKILL.md`; new sources were L0's job)
 
 Key additions: **Necron Warriors** MFM v1.3 recost (80→85, ▲+5) synced from shipping slice S2c; **Space Marines** confirmed no owned-cost change from MFM v1.3 (slice S2d) plus a preview-readiness pointer to the October Codex (slice S2b). **Glossary:** Assault disembark move (`18.06`) / Shock disembark move (`18.07`) / Disembark move (context) from Universal Rules Updates v1.1; **Legendary Proxies** distinguished explicitly from Warhammer Legends (different mechanism — borrows a datasheet vs keeps its own). No contradictions found between shipping and prior KB claims; no glossary term conflict. Librarian did not write `raw/`; did not git.
+
+## [2026-09-24] enhance | warcode_kickstarter_refresh L1 — Stage 5 Librarian sync
+
+Pages created: KB/sources/warcode_rulebook_v089f.md, warcode_tactical_doctrine_field_edition.md, warcode_gamefound_campaign_2026_09.md, warcode_kickstarter_relaunch_2026_09.md; KB/analyses/warcode_campaign_transition_2026_09.md
+
+Pages updated: KB/sources/warcode_rulebook_v087f.md, warcode_web_prelaunch_2026_08.md; KB/factions/warcode_protagen_marines.md, warcode_ulfari.md, warcode_mdr.md, warcode_dominium.md; KB/concepts/warcode_action_points.md, warcode_ammo.md, warcode_overwatch.md, warcode_contracts.md, warcode_protocol_cards.md, warcode_melee_lock.md; KB/glossary.md, overview.md, index.md, log.md
+
+Key additions: v0.8.9-F set as current mechanics baseline with v0.8.7-F retained as historical; Tactical Doctrine filed as narrative-only context; MDR Executive Unit and Dominium/Custodia Silens promoted from stubs to sourced drafts; Protagen and Ulfari refreshed from equivalence and lore evidence; Gamefound and Kickstarter split into dated source pages; campaign-transition analysis separates platform chronology, publisher claims, owner testimony, independent coverage, and open questions. Rules and lore ambiguities remain explicit. KB remains teaching paraphrase only. Librarian did not write `raw/` or `games/`; did not run git.

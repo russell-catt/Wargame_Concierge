@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/setup/Board_Setup.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Teaching Guide / Pre-game Checklist
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (setup and pp.26–27 map equivalence checked 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
   - raw/the_warcode/images/Core_Machine_placement.png (map topology, 2026-08-25)
@@ -33,12 +34,12 @@ KEY_SECTIONS_EXPECTED:
   - Pre-game checklist
 
 UPDATE_TRIGGER:
-  Update when beta supersedes v0.8.7-F on board dimensions, setup order, or VP tables.
+  Update when beta supersedes v0.8.9-F on board dimensions, setup order, or VP tables.
 -->
 
 # Board Setup — from empty table to round 1
 
-The Warcode plays on a **fixed-size board** with **scenario-driven** objectives and deployment zones. This page teaches the **standard setup sequence** from the beta rulebook. **`confidence: draft`**, **v0.8.7-F**, read **2026-08-23**. Quotes: [`../rules/Rulebook_Quotes.md`](../rules/Rulebook_Quotes.md).
+The Warcode plays on a **fixed-size board** with **scenario-driven** objectives and deployment zones. This page teaches the **standard setup sequence** from the beta rulebook. **`confidence: verified`**, **v0.8.9-F**, checked **2026-09-24**; setup and map content are equivalent to v0.8.7-F. Quotes: [`../rules/Rulebook_Quotes.md`](../rules/Rulebook_Quotes.md).
 
 Terrain behaviour is in [`Terrain_Basics.md`](Terrain_Basics.md). Round flow after setup is in [`../rules/Turn_Structure.md`](../rules/Turn_Structure.md).
 
@@ -95,7 +96,7 @@ The rulebook lists three setup steps before play begins:
 - **Round 1 initiative roll first** — highest D6 chooses who deploys first **and** who takes the first activation that round. Re-roll ties.
 - Players then **alternate placing one unit at a time** until all models are deployed inside their deployment zones.
 
-> Source: The Warcode Rulebook V.0.8.7-F.pdf — p.2 — "DEPLOY UNITS"  
+> Source: The Warcode Rulebook V.0.8.7-F.pdf — p.2 — "DEPLOY UNITS"
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.3 — "INITIATIVE PHASE"
 
 ### 3. Distribute equipment
@@ -251,6 +252,7 @@ Full scenario quotes when [`Rulebook_Quotes.md`](../rules/Rulebook_Quotes.md) sc
 
 ## Change Log
 
+- v0.3 (2026-09-24): Recorded v0.8.9-F setup and map equivalence; coordinates unchanged (S2).
 - v0.2 (2026-08-25): Full D6 → VP count and inch-coordinate tables for *Core of the Machine* from `Core_Machine_obj_placement.png`; map image pointers; D6 mapping open question closed.
 - v0.1 (2026-08-23): Initial board setup from beta v0.8.7-F extract.
 

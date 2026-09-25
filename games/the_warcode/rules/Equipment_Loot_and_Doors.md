@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Equipment_Loot_and_Doors.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Deep Dive / Teaching Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — verified delta, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (current; retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -37,7 +38,7 @@ UPDATE_TRIGGER:
 
 # Equipment, loot, and doors
 
-The small-item layer: four points of gear, tokens that outlive their carriers, and doors that rewrite the board. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+The small-item layer: four points of gear, roster exceptions, tokens that outlive carriers, and doors that rewrite the board. **`confidence: verified`**, beta **v0.8.9-F**, read **2026-09-24**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 ---
 
@@ -61,13 +62,15 @@ Four points at two points each means **exactly two items**, spread across an eig
 
 The rough guidance: grenades are proactive and medkits are reactive. Two grenades pressure clustered enemies and units hiding behind partial cover, which the blast ignores. Two medkits give 4 HP of staying power spread across a squad where most models have 8 HP. One of each hedges. On the tight 33" × 24" board with three rooms in the printed scenario, models cluster more than you expect, which pushes toward grenades.
 
-Two units come with gear already:
+Four units come with restricted gear already:
 
 > SPECIAL ABILITY: Starts the game with 2 grenades and cannot take other equipment.
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.33 — "PROTAGEN MARINES TEAM LIST" (Blast)
 
-Protagen **Blast** and Ulfari **Phantom** each arrive with two grenades free, outside the four-point budget and outside the one-item limit. That effectively means every squad fields at least two grenades before spending a point — worth remembering when you weigh a third.
+Protagen **Blast**, Ulfari **Phantom**, MDR **Grenadier**, and Custodia **Assassin** each start with two grenades and cannot take other equipment. MDR **Combat Medic** starts with one medkit and cannot take other equipment. Custodia **Punisher** and **Confessor** cannot carry equipment and cannot be healed by medkits.
+
+Source: **The-Warcode-Rulebook-V.0.8.9-F.pdf — pp.33, 35, 37, 39–40 — faction team lists.**
 
 ---
 
@@ -83,7 +86,7 @@ Protagen **Blast** and Ulfari **Phantom** each arrive with two grenades free, ou
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.16 — "GRENADE"
 
-A 5 inch throw plus a 2 inch blast gives a **7 inch threat bubble** for 1 AP, and you place the token freely rather than rolling for scatter. That is a precision weapon, not a random one. The reach compares well with most guns in the game — only the rifle (7") and heavy weapon (8") beat it — and unlike them it needs no ammunition and no hit roll.
+A 5 inch throw plus a 2 inch blast gives a **7 inch threat bubble** for 1 AP, and you place the token freely rather than rolling for scatter. That is a precision weapon, not a random one. The reach compares well with most guns in the game — the rifle reaches 7", while the heavy weapon and Directed Energy reach 8" — and unlike them it needs no ammunition and no hit roll.
 
 Blocked throws are placed rather than lost:
 
@@ -167,6 +170,22 @@ The example spells out the tempo, and it is better than it looks: **move (1 AP) 
 
 The one gate is the carry limit — only a unit **without** equipment can pick something up. Your grenade-thrower cannot restock after throwing unless the throw emptied it. Practically, plan a second, empty-handed model to trail behind and collect.
 
+The new roster exceptions expose unresolved cases: whether “cannot take other equipment” remains a pickup ban after starting items are consumed; whether both grenades drop as separate tokens; and whether a partly spent two-grenade load still counts as carrying equipment. The core text discusses one carried token and does not answer these.
+
+---
+
+## Burning and medkits
+
+Cremator’s Hand Flamethrower applies Burning; Burning deals 1 damage at round end and then clears, while a medkit removes it.
+
+Source: **The-Warcode-Rulebook-V.0.8.9-F.pdf — p.39 — “CUSTODIA SILENS — TEAM LIST” (Cremator).**
+
+Do not invent answers for these gaps:
+
+- whether a medkit can remove Burning from Punisher or Confessor despite their medkit-healing immunity;
+- whether one medkit use both restores HP and removes Burning, or chooses one effect;
+- whether loadout restrictions end after starting items are consumed.
+
 ---
 
 ## Doors
@@ -228,11 +247,14 @@ The contested case is the interesting one. Once models from both teams are withi
 - Whether a medkit can be used on a model in melee combat, given melee blocks "equipment" use — the medkit is free and the restriction is written against actions.
 - Whether a grenade token remains on the board after detonating, or is removed immediately.
 - Whether doors have HP or can be destroyed — nothing in the extract suggests so.
+- Whether two-grenade carriers drop one or two tokens, and when they become eligible to pick up other gear.
+- Whether medkit immunity also blocks Burning removal, and whether healing plus removal is one use.
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-09-24): Added MDR/Custodia loadout restrictions, Burning removal, and unresolved pickup/medkit interactions from v0.8.9-F (S2).
 - v0.1 (2026-08-23): Initial equipment, loot and doors deep-dive from beta v0.8.7-F extract.
 
 ## Attribution

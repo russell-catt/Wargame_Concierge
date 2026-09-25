@@ -3,16 +3,16 @@ title: Warcode Protocol Cards
 type: concept
 system: the_warcode
 created: 2026-08-25
-updated: 2026-08-25
-version: 0.5.5
-sources: [warcode_rulebook_v087f, raw/the_warcode/protocol_cards_transcription.txt, raw/the_warcode/protocol_cards.ocr.txt, games/the_warcode/rules/Scenarios_and_Events.md, games/the_warcode/rules/Protocol_Cards_Reference.md]
+updated: 2026-09-24
+version: 0.9.1
+sources: [warcode_rulebook_v089f, raw/the_warcode/protocol_cards_transcription.txt, raw/the_warcode/protocol_cards.ocr.txt, games/the_warcode/rules/Scenarios_and_Events.md, games/the_warcode/rules/Protocol_Cards_Reference.md]
 confidence: draft
 tags: [concept, the_warcode, protocol_cards, scenarios, events, rooms]
 ---
 
 # Warcode Protocol Cards
 
-Scenario **event cards** drawn at the **start** of each round on indoor maps like *Core of the Machine*. Each card names an effect (Magnet, Hunt, Electricity, Silence, Poison) and a **map section** — **Left**, **Centre**, **Right**, or **Total** (all three rooms). Most resolve at **end of round** before VP scoring. Teaching paraphrase; verbatim tables in shipping [`Protocol_Cards_Reference.md`](../../games/the_warcode/rules/Protocol_Cards_Reference.md).
+The twenty-card Core of the Machine protocol deck is unchanged in v0.8.9-F: five hazard families across Left, Centre, Right, and Total map scopes.
 
 ---
 
@@ -22,6 +22,7 @@ Scenario **event cards** drawn at the **start** of each round on indoor maps lik
 - **When resolved:** End of round (scenario-effects slot), before VP calculation — except teaching notes on Silence affecting ranged fire during the round.
 - **Scope:** Each card prints a **map diagram** — **Left**, **Centre**, or **Right** **highlighted** on single-room cards; **Total** cards highlight **all three** protocol wings. **Deployment bands** (top/bottom) are **never** highlighted and are **not** protocol-affected. No separate room roll.
 - **Hunt:** End-of-round **3 damage** to units **at full health** in affected room(s) — confirmed via PDF/OCR; owner xlsx mis-transcribed "all units".
+- **Timing:** Unit effects, including healing, Burning, Influence, and Choke, resolve before protocol/scenario effects, then VP. The source does not order the unit effects among themselves.
 
 ---
 
@@ -41,6 +42,6 @@ Not That other game's tac-op or ploy cards. Warcode Protocols are **map-room haz
 
 ## Related pages
 
-- [[warcode_rulebook_v087f]] · [[warcode_contracts]]
+- [[warcode_rulebook_v089f]] · [[warcode_contracts]]
 - [`games/the_warcode/rules/Scenarios_and_Events.md`](../../games/the_warcode/rules/Scenarios_and_Events.md)
 - [`games/the_warcode/setup/Board_Setup.md`](../../games/the_warcode/setup/Board_Setup.md)

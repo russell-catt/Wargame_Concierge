@@ -1,6 +1,6 @@
 <!--
 FILE: README.md
-VERSION: v0.9.1 (2026-08-27)
+VERSION: v0.9.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, track dataslate_0826 S4)
 
@@ -53,7 +53,7 @@ That "file it once, answer forever" behaviour is the Karpathy **LLM Wiki** patte
 |---|--------|------|--------|
 | 1 | **Warhammer 40,000, 11th Edition** (Necrons + Space Marines) | [`games/warhammer_40k_11e/`](games/warhammer_40k_11e/) | Active — beginner spine + WD527 enhance |
 | 2 | **Kill Team 2024** (KT24 / 3e) | [`games/kill_team_2024/`](games/kill_team_2024/) | Active — rules/reference shipped |
-| 3 | **The Warcode** (RedMakers free beta v0.8.7-F) | [`games/the_warcode/`](games/the_warcode/) | Active — scaffold + card/map corpus |
+| 3 | **The Warcode** (RedMakers free beta v0.8.9-F) | [`games/the_warcode/`](games/the_warcode/) | Active — rules, four factions, lore, and campaign reviews |
 
 **Personal use only — this project must never be sold.**
 
@@ -177,7 +177,7 @@ This is a personal learning knowledge base, **not** a redistribution channel. **
 
 **Games Workshop IP (40K / Kill Team shipping):** Kill Team is Copyright Games Workshop Limited 2024. Warhammer 40,000 is Copyright Games Workshop Limited. Player-facing `games/warhammer_40k_11e/**` and `games/kill_team_2024/**` (especially print HTML) must carry an **UNOFFICIAL** banner and non-endorsement footer — see [`templates/Footer_Template_Gw_Print.md`](templates/Footer_Template_Gw_Print.md) and [`AGENTS.md`](AGENTS.md) Sec 10.
 
-**The Warcode (RedMakers):** Free public beta may be quoted under `games/the_warcode/rules|setup|factions/` only. The beta PDF may live in [`raw/the_warcode/`](raw/the_warcode/) (gitignore exemption). In `games/the_warcode/**` shipping, **never** use GW proper nouns — use **That other game** / **Murder Platoon** / **Rawmallet** / **39.876** / **39.9** instead.
+**The Warcode (RedMakers):** Freely distributed rulebook and lorebook material may be quoted only under `games/the_warcode/rules|setup|factions|lore/`. Those free PDFs may live in [`raw/the_warcode/`](raw/the_warcode/) (gitignore exemption). In `games/the_warcode/**` shipping, **never** use GW proper nouns — use **That other game** / **Murder Platoon** / **Rawmallet** / **39.876** / **39.9** instead.
 
 Hard rules:
 
@@ -187,7 +187,7 @@ Hard rules:
 - **Scoped verbatim quotes (shipping only):**
   - KT24 → `games/kill_team_2024/` (owned local PDFs; Full-Scan baseline; dated `eng_*` supersede)
   - 40K WarCom-free Core → `games/warhammer_40k_11e/rules/` and `setup/` (filename + page + rule ID; **Codex wall** on army folders)
-  - Warcode free beta → `games/the_warcode/rules|setup|factions/` (filename + page; OCR when needed)
+  - Warcode free publications → `games/the_warcode/rules|setup|factions|lore/` (filename + page + section; OCR when needed)
 - Cite where every claim can be checked, with a **retrieval date** on living refs
 
 ### Living references
@@ -197,7 +197,9 @@ Hard rules:
 | [Warhammer Community](https://www.warhammer-community.com/en-gb/) | Official rules updates, FAQs, errata, balance dataslates |
 | [Wahapedia](https://wahapedia.ru/) | Consolidated rules and datasheet lookup when WarCom does not publish profiles |
 | `C:\Personal\40K` / `C:\Personal\Kill Team` | Owned PDFs — **pointers only** |
-| [The Warcode pre-launch](https://pre-launch.thewarcode.com/) | Warcode marketing / VIP context (secondary to the free beta PDF) |
+| [The Warcode pre-launch](https://pre-launch.thewarcode.com/) | Historical marketing / VIP context (secondary to the free beta PDF) |
+| [Gamefound campaign](https://gamefound.com/en/projects/redmakers/the-warcode) | Cancelled campaign history; ended 2026-09-18 |
+| [Kickstarter campaign](https://www.kickstarter.com/projects/redmakers/the-warcode-stl-campaign) | Current digital-only STL/PnP campaign, 2026-09-23 through 2026-10-23 |
 
 Patches happen. Re-check before a real game.
 
@@ -231,6 +233,7 @@ Patches happen. Re-check before a real game.
 
 ## Change Log
 
+- v0.9.2 (2026-09-24): Updated The Warcode to v0.8.9-F and linked the cancelled Gamefound history and current digital-only Kickstarter campaign.
 - v0.9.1 (2026-08-27): Project status — added a "Rules currency" pointer line to `games/README.md`'s per-system stamp table, so a reader lands on the current package/quarterly currency without this file duplicating it (track `dataslate_0826` slice S4).
 - v0.9.0 (2026-08-25): Project snapshot v0.9.0; next milestone external user review and critique.
 - v0.5.6 (2026-08-25): Three-system overview (Warcode); copyright/sourcing aligned with AGENTS Sec 10; structure map and status refreshed.

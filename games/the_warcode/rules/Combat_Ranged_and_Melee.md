@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Combat_Ranged_and_Melee.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Deep Dive / Teaching Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active — verified delta, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (current; retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -41,7 +42,7 @@ UPDATE_TRIGGER:
 
 # Combat — ranged and melee
 
-Two checks, one shared damage rule, and two very different flows around them. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+Two checks, one shared damage rule, and two very different flows around them. **`confidence: verified`**, beta **v0.8.9-F**, read **2026-09-24**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 ---
 
@@ -171,7 +172,7 @@ Friendly models behave like a piece of partial cover for the enemy: +1 Agility, 
 >
 > Source: The Warcode Rulebook V.0.8.7-F.pdf — p.11 — "OVERWATCH"
 
-Overwatch is an **interrupt**: the enemy declares, you shoot, then their declared action resolves. It does not cancel what they were doing. The list above is exhaustive, and **Pass is absent** — a unit caught in a covered lane can simply do nothing safely.
+Overwatch is an **interrupt**: the enemy declares, you shoot, then their declared action resolves. It does not cancel what they were doing. **Pass is expressly safe.** Do not call the p.11 list exhaustive: p.10 broadly says an enemy “takes action,” while p.11 omits ability use and map interaction. The book does not resolve which wording controls for Order, Inspiration, Choke, or other abilities.
 
 Two exits from Overwatch, both immediate: **firing** and **taking damage**. The rulebook's sharpest example shows the second being exploited deliberately — an enemy moves out of line of sight behind full cover (no trigger, because normal shooting rules apply and there is no shot), then lobs a grenade, and the damage strips Overwatch without ever entering the firing lane. If you are holding a lane, expect the grenade.
 
@@ -227,6 +228,19 @@ There are **two tiers of engagement**, and the difference is base contact:
 This is the shutdown mechanic. Getting a melee model into an enemy shooter's radius switches that shooter off entirely — it cannot fire, cannot use its grenade, cannot do anything but fight back or walk away. Against a heavy-weapon unit that costs 2 AP per shot, tying it up for a round is worth more than damage.
 
 Note the interaction with **melee range as a stat**: it is a radius, so a weapon with longer melee range projects a bigger shutdown bubble. The Protagen **Smasher** takes this further, printing an ability that locks enemies within 1 inch *without* base contact — turning ordinary melee combat into full Melee Lock and denying the cheap 1 AP walk-out.
+
+Custodia **Lancer** uses the same one-inch lock exception. The general multi-lock escape text assumes touching bases, so apply the printed exception without inventing extra movement geometry.
+
+---
+
+## New ranged exceptions
+
+- **Marksman** and **Justiciar’s Influence** reduce Agility. Core rules cap bonuses at 5 but provide no minimum, stacking rule, or modifier order.
+- **Hand Flamethrower** ignores Agility and partial cover, applies Burning to the target and all units within 2", and says it never reloads. Its printed ammo 3 / reload “—” profile conflicts with that sentence.
+- **Directed Energy** ignores armour, is usable once per round, and cannot be used for Overwatch. Its backlash sentence calls it **Focused Energy**. Because armour is skipped, the source does not say which die establishes a critical hit for backlash.
+- **Burning** deals 1 round-end damage and clears; medkits remove it. Allies and the Cremator are not exempt from the two-inch application.
+
+Sources: **The-Warcode-Rulebook-V.0.8.9-F.pdf — pp.38–40 — “MDR EXECUTIVE UNIT — TEAM LIST” and “CUSTODIA SILENS — TEAM LIST.”**
 
 ---
 
@@ -331,11 +345,15 @@ That one is per-die and free, which makes it strictly better than a re-roll poin
 - Whether Overwatch triggers once per enemy action or once per enemy unit within a round — one firing removes the token, so in practice once.
 - Whether melee range longer than 1" changes the base-contact definition of Melee Lock, or only the radius.
 - Whether the Smasher's 1" lock ability also blocks the cheap 1 AP walk-out for enemies not in base contact — the wording implies yes.
+- Whether ability use triggers Overwatch under the broad p.10 wording.
+- No stated lower floor or stacking order for Agility reductions.
+- Directed/Focused Energy critical source and Hand Flamethrower ammunition remain unresolved.
 
 ---
 
 ## Change Log
 
+- v0.2 (2026-09-24): Corrected Overwatch trigger certainty; added new ranged, Agility, Burning, and Lancer exceptions from v0.8.9-F (S2).
 - v0.1 (2026-08-23): Initial combat deep-dive from beta v0.8.7-F extract, including both worked examples and the full cover modifier set.
 
 ## Attribution

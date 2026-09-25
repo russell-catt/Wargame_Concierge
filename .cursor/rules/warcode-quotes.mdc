@@ -12,14 +12,19 @@ Cite [`AGENTS.md`](../../AGENTS.md) Sec 10. **AGENTS.md wins.**
 
 ## Allowed
 
-Under `games/the_warcode/rules/`, `setup/`, and `factions/` only: verbatim quotes from the free public beta PDF in [`raw/the_warcode/`](../../raw/the_warcode/).
+Under `games/the_warcode/rules/`, `setup/`, `factions/`, and `lore/` only:
+verbatim quotes from the freely distributed rulebook and lorebook in
+[`raw/the_warcode/`](../../raw/the_warcode/).
 
 Every quote block: **filename + page** (+ section heading). OCR flattened pages: add **via OCR**.
 
+The lorebook provides narrative context only. It never establishes or
+overrides game mechanics; use the current rulebook for mechanics.
+
 ## Hierarchy
 
-- `The Warcode Rulebook V.0.8.7-F.pdf` = baseline.
-- Newer free beta on the same topic **supersedes**.
+- `The-Warcode-Rulebook-V.0.8.9-F.pdf` = current rules baseline.
+- v0.8.9-F **supersedes** v0.8.7-F on the same topic.
 - **Omission is not a patch.**
 
 ## Naming safety (GW proper-noun ban)
@@ -45,4 +50,6 @@ Source of truth: [`AGENTS.md`](../../AGENTS.md) Sec 10 (v0.5.5+).
 
 ## Binary
 
-Beta PDF under `raw/the_warcode/` may be committed (gitignore negation). No STL binaries. `KB/` stays paraphrase.
+The free rulebook and lorebook under `raw/the_warcode/` may be committed
+(gitignore negation), along with extraction/OCR sidecars. No STL binaries.
+`KB/` and `docs/` stay paraphrase.

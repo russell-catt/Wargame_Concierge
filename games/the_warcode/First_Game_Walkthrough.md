@@ -1,6 +1,6 @@
 <!--
 FILE: games/the_warcode/First_Game_Walkthrough.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.3 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
@@ -10,6 +10,7 @@ GAME_SYSTEM: The Warcode
 REFERENCE_STATUS: Active — draft (2026-08-23)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - games/the_warcode/setup/Board_Setup.md
   - games/the_warcode/rules/Turn_Structure.md
@@ -27,6 +28,8 @@ UPDATE_TRIGGER:
 **`confidence: draft`** — one-table script for a first session. **Unofficial; not endorsed by RedMakers.**
 
 **Setup:** Father/experienced player → **Protagen Marines**. Junior/first timer → **Ulfari**. **Eight proxy models each.** Board **33" × 24"**. Scenario: **Core of the Machine**.
+
+This pairing remains the recommended teaching script, but v0.8.9-F also includes complete MDR Executive Unit and Custodia Silens rosters for later games.
 
 Keep [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md) between you.
 
@@ -102,7 +105,7 @@ Each turn: pick **one** unit that has not activated this round.
 | Move | 1 | Through partial cover: −1" from M |
 | Shoot | 1 + reload costs | Roll ≥ target **Agility** to hit |
 | Reload | 1 | Refill ammo |
-| Overwatch | 1 | Set token; triggers on enemy move in LoS |
+| Overwatch | 1 | Set token; page 11 lists common triggers, but ability/map-interaction triggers remain unresolved |
 | Melee | 1 | In melee range |
 | Engage | 2 | Charge into melee |
 | Pass | — | Does **not** trigger Overwatch |
@@ -174,6 +177,7 @@ Walk through the rulebook **Shooting Example** (p.20) or **Melee Example** (p.21
 
 ## Change Log
 
+- v0.3 (2026-09-24): Updated current baseline and noted the two additional playable rosters without changing the first-game pairing (S2).
 - v0.2 (2026-08-25): D6 VP placement summary; protocol Map section note; official contract deck reference (S8).
 - v0.1 (2026-08-23): Protagen vs Ulfari first-session script (warcode_tactical_doctrine).
 

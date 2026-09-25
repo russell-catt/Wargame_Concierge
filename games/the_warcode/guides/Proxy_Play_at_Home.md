@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/guides/Proxy_Play_at_Home.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Teaching Guide / Proxy Setup
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft (2026-08-23)
+REFERENCE_STATUS: Active — draft (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (retrieved 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - games/the_warcode/setup/Board_Setup.md
   - games/the_warcode/factions/protagen_marines/Squad_Datasheet.md
@@ -38,7 +39,7 @@ Goal: one evening, **eight models per side**, **Protagen Marines vs Ulfari**, on
 | Parent / experienced skirmish player | **Protagen Marines** | Hold ground, armour advantage, forgiving if you forget a trick |
 | Junior / first Warcode game | **Ulfari** | Faster movement on key units, higher agility — simpler plan: close, shoot, stab |
 
-Both rosters are **eight fixed units** in the beta rulebook — no list-building. Full statlines: [`../factions/protagen_marines/Squad_Datasheet.md`](../factions/protagen_marines/Squad_Datasheet.md), [`../factions/ulfari/Squad_Datasheet.md`](../factions/ulfari/Squad_Datasheet.md).
+All four current rosters are **eight fixed units** — no list-building. Protagen vs Ulfari remains the simplest first matchup. MDR and Custodia Silens are also playable; use [`../factions/mdr/Squad_Datasheet.md`](../factions/mdr/Squad_Datasheet.md) and [`../factions/dominium/Squad_Datasheet.md`](../factions/dominium/Squad_Datasheet.md).
 
 ---
 
@@ -134,7 +135,7 @@ Dice: handful of D6.
 
 ## After the session
 
-Note which proxies felt confusing on the table; update mappings in a personal note (not required in-repo). When Gamefound STLs arrive, see [`../research/STL_Sources.md`](../research/STL_Sources.md).
+Note which proxies felt confusing on the table; update mappings in a personal note (not required in-repo). For the current digital-only Kickstarter STL path, see [`../research/STL_Sources.md`](../research/STL_Sources.md).
 
 ---
 
@@ -148,6 +149,8 @@ Note which proxies felt confusing on the table; update mappings in a personal no
 
 ## Change Log
 
+- v0.2.1 (2026-09-24): Added the current digital-only Kickstarter STL route and deferred physical-model context (S4).
+- v0.2 (2026-09-24): Added MDR and Custodia Silens as current proxy-play options under v0.8.9-F (S2).
 - v0.1 (2026-08-23): Initial father–son proxy checklist (warcode_tactical_doctrine).
 
 ## Attribution

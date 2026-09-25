@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/rules/Scenarios_and_Events.md
-VERSION: v0.2 (2026-08-25)
+VERSION: v0.4 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Deep Dive / Teaching Guide
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (pp.26–32; equivalence checked 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (free public beta, RedMakers; retrieved 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
   - raw/the_warcode/protocol_cards.ocr.txt (via OCR)
@@ -40,7 +41,7 @@ UPDATE_TRIGGER:
 
 # Scenarios and events
 
-The scenario is not flavour text — it sets the victory conditions, and on the printed map it also tries to kill you. **`confidence: draft`**, beta **v0.8.7-F**, read **2026-08-23**. Protocol Card text is **via OCR**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
+The scenario is not flavour text — it sets the victory conditions, and on the printed map it also tries to kill you. **`confidence: verified`**, beta **v0.8.9-F**, checked **2026-09-24**. Scenario, map, and Protocol Cards are equivalent to v0.8.7-F; card text remains **via OCR**. Full wording: [`Rulebook_Quotes.md`](Rulebook_Quotes.md).
 
 ---
 
@@ -163,7 +164,7 @@ Each printed card shows a **mini map** of the *Core of the Machine* layout:
 
 The **Map section** column in [`Protocol_Cards_Reference.md`](Protocol_Cards_Reference.md) matches the highlighted zone(s). **No second roll** picks the room — read the graphic on the card you drew.
 
-| Question | Answer in v0.8.7-F |
+| Question | Answer in v0.8.9-F |
 |----------|-------------------|
 | **Which room is hit?** | **Whichever zone(s) are lit** on the card — Left, Centre, Right, or all three (Total). |
 | **Are deployment zones affected?** | **No** — top/bottom deployment bands are outside protocol scope. |
@@ -314,6 +315,7 @@ Because the card is drawn at the **start** of the round, every protocol is a pla
 
 ## Change Log
 
+- v0.4 (2026-09-24): Recorded v0.8.9-F scenario, map, and protocol equivalence; mechanics unchanged (S2).
 - v0.3 (2026-08-25): Protocol scope — card map highlights Left/Centre/Right or Total; deployment zones excluded; Hunt FULL HEALTH confirmed (xlsx error).
 - v0.2 (2026-08-25): *Core of the Machine* map topology from `Core_Machine_placement.png`; protocol room targeting (Left/Centre/Right/Total on card; draw procedure silent); D6 VP gap closed — coordinates live in Board_Setup.
 - v0.1 (2026-08-23): Initial scenario and Protocol Card deep-dive from beta v0.8.7-F extract plus OCR sidecar. Flagged the Total-card rule-text scope bug.

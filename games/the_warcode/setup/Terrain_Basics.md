@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/setup/Terrain_Basics.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Teaching Guide / Terrain Reference
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (terrain rules equivalence checked 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -30,12 +31,12 @@ KEY_SECTIONS_EXPECTED:
   - Layout habits
 
 UPDATE_TRIGGER:
-  Update when beta supersedes v0.8.7-F on cover, doors, or impassable terrain.
+  Update when beta supersedes v0.8.9-F on cover, doors, or impassable terrain.
 -->
 
 # Terrain Basics — what the scenery actually does
 
-In The Warcode, terrain controls **movement inches**, **Agility bonuses**, and **line of sight**. This page paraphrases the beta v0.8.7-F rules. **`confidence: draft`**, read **2026-08-23**. Verbatim text: [`../rules/Rulebook_Quotes.md`](../rules/Rulebook_Quotes.md).
+In The Warcode, terrain controls **movement inches**, **Agility bonuses**, and **line of sight**. This page paraphrases beta v0.8.9-F. **`confidence: verified`**, checked **2026-09-24**; terrain rules are equivalent to v0.8.7-F. Verbatim text: [`../rules/Rulebook_Quotes.md`](../rules/Rulebook_Quotes.md).
 
 Board dimensions and setup order: [`Board_Setup.md`](Board_Setup.md). Combat detail: [`../rules/Key_Concepts.md`](../rules/Key_Concepts.md).
 
@@ -165,6 +166,7 @@ Throw placement follows movement-like rules: if the throw would end on a model o
 
 ## Change Log
 
+- v0.2 (2026-09-24): Recorded v0.8.9-F terrain-rule equivalence; mechanics unchanged (S2).
 - v0.1 (2026-08-23): Initial terrain basics from beta v0.8.7-F extract.
 
 ## Attribution

@@ -1,15 +1,16 @@
 <!--
 FILE: games/the_warcode/factions/protagen_marines/Squad_Datasheet.md
-VERSION: v0.1 (2026-08-23)
+VERSION: v0.2 (2026-09-24)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, warcode_tactical_doctrine)
 
 DOCUMENT_TYPE: Squad Datasheet / Quoted Profiles
 PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: The Warcode
-REFERENCE_STATUS: Active — draft, beta v0.8.7-F (2026-08-23)
+REFERENCE_STATUS: Active - draft, beta v0.8.9-F (2026-09-24)
 
 SOURCES:
+  - raw/the_warcode/The-Warcode-Rulebook-V.0.8.9-F.pdf (pp.33–34; equivalence checked 2026-09-24)
   - raw/the_warcode/The Warcode Rulebook V.0.8.7-F.pdf (read via extract 2026-08-23)
   - raw/the_warcode/rulebook_v087f_extract.txt
 
@@ -24,6 +25,8 @@ UPDATE_TRIGGER:
 # Protagen Marines — squad datasheet
 
 **`confidence: draft`** — verbatim quotes from **The Warcode Rulebook V.0.8.7-F.pdf**, pages **33–34** (**via OCR**). Confirm icons and line breaks against your PDF.
+
+**Current-baseline check:** **The-Warcode-Rulebook-V.0.8.9-F.pdf**, pp.33–34, is mechanically and substantively equivalent. The preserved citations below remain stable.
 
 **Stat key:** HP = Health · A = Agility · M = Movement Range · final digit = Armour (card order per p.5).
 
@@ -158,6 +161,7 @@ Per setup rules: **4 equipment points** per player on grenades and/or medkits un
 
 ## Change Log
 
+- v0.2 (2026-09-24): Recorded v0.8.9-F equivalence; no profile rebuild required (S2).
 - v0.1 (2026-08-23): Quoted roster from beta pp.33–34 OCR extract (warcode_tactical_doctrine).
 
 ## Attribution
