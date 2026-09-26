@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_Forces_500_750_1000.md
-VERSION: v1.7 (2026-09-24)
+VERSION: v1.8 (2026-09-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
@@ -189,9 +189,9 @@ Same attachments as V1; Plasmancer is now a real kit on the Immortals.
 
 ## 1,000 points - Cryptek Conclave
 
-### V1 - no purchases (Hierotek proxies OK) + owned Doomstalker - **975 / 1,000**
+### V1 - no purchases (Hierotek proxies OK) + owned Doomstalker - **945 / 1,000**
 
-**Play sheet:** [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md)
+**Play sheet:** [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md) (fully statted) · **Guide:** [`How_Your_Army_Works_1000.md`](How_Your_Army_Works_1000.md) · **Print bag:** [`Cryptek_Play_Pack_1000.md`](Cryptek_Play_Pack_1000.md)
 
 Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 without Szeras/Lychguard” gap.
 
@@ -203,13 +203,12 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 | Scarabs (6) + Tomb Crawlers + Macrocytes | 80+50+70 = **200** |
 | **Canoptek Doomstalker** | **140** *(OWNED — prime/paint)* |
 | **Body total** | **915** |
-| Gauntlet of Compression + kitchen enhancement pad | up to **+60** → **975** |
+| Gauntlet of Compression + Atomic Disintegrators | **+30** → **945** |
 
 | | |
 |--|--|
-| Kitchen / agreed multi-enhancement | **975 / 1,000** (25 pts under — fine) |
-| Matched Incursion (often **1** enhancement only) | **935** with Gauntlet alone |
-| If owned MFM lists Doomstalker at **145** | full kitchen pad lands **980** |
+| Official app (two enhancements) | **945 / 1,000** — Gauntlet → Geomancer, Atomic Disintegrators → Plasmancer. Bolas and Abacus off. |
+| If owned MFM lists Doomstalker at **145** | **950** |
 
 **Attachments:** Warriors A ← Warden + Geomancer; Warriors B ← Technomancer; Immortals ← Plasmancer proxy; Doomstalker backline anti-tank (no Conclave menu).
 
@@ -290,6 +289,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v1.8 (2026-09-25): 1000 V1 locked at **945** — official app allows two enhancements (Gauntlet of Compression + Atomic Disintegrators). Bolas and Abacus dropped.
 - v1.7 (2026-09-24): 1000 V1 attachment fix — two Warrior 10s (body **915** / kitchen **975**) so Geomancer, Technomancer, and Plasmancer proxy all attach legally.
 - v1.6 (2026-09-24): Newbie-friendly events — grey plastic / primed OK; paint not required to field 1000 V1.
 - v1.5 (2026-09-24): 1,000 V1 rewritten around owned **Canoptek Doomstalker** + Hierotek proxies + Immortals to 10 (**995** kitchen / **955** single-enhancement). Linked [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md). V2 Szeras/Lychguard path retained as alternate.

@@ -22,8 +22,11 @@ from pathlib import Path
 
 HTML_DIR = Path(__file__).resolve().parent
 
-# Cryptek 500 play pack first; then legacy 250 / event bag aids
+# Cryptek 1000 play pack first; then 500 pack; then legacy 250 / event bag aids
 AIDS = [
+    "40k_roster_1000_v1_doomstalker_conclave",
+    "40k_how_army_works_1000_conclave",
+    "40k_roster_500_v2_conclave",
     "40k_roster_500_conclave",
     "40k_how_army_works_500_conclave",
     "40k_conclave_primary_missions",
@@ -69,11 +72,30 @@ def chrome_bin() -> str | None:
         path = shutil.which(name)
         if path:
             return path
+    if os.name == "nt":
+        candidates = [
+            Path(os.environ.get("PROGRAMFILES", "")) / "Google/Chrome/Application/chrome.exe",
+            Path(os.environ.get("PROGRAMFILES(X86)", "")) / "Google/Chrome/Application/chrome.exe",
+            Path(os.environ.get("LOCALAPPDATA", "")) / "Google/Chrome/Application/chrome.exe",
+            Path(os.environ.get("PROGRAMFILES", "")) / "Microsoft/Edge/Application/msedge.exe",
+            Path(os.environ.get("PROGRAMFILES(X86)", "")) / "Microsoft/Edge/Application/msedge.exe",
+        ]
+        for cand in candidates:
+            if cand.is_file():
+                return str(cand)
     return None
 
 
 def render_chrome(html_path: Path, pdf_path: Path, chrome: str) -> None:
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
+    # Remove any stale PDF first so a Chrome timeout cannot masquerade as success.
+    if pdf_path.is_file():
+        try:
+            pdf_path.unlink()
+        except PermissionError:
+            raise RuntimeError(
+                f"LOCKED (close it in your PDF viewer and re-run): {pdf_path}"
+            ) from None
     with tempfile.TemporaryDirectory(prefix="chrome-pdf-") as prof:
         cmd = [
             chrome,
@@ -87,7 +109,7 @@ def render_chrome(html_path: Path, pdf_path: Path, chrome: str) -> None:
             html_path.as_uri(),
         ]
         try:
-            subprocess.run(cmd, check=False, capture_output=True, timeout=45)
+            subprocess.run(cmd, check=False, capture_output=True, timeout=90)
         except subprocess.TimeoutExpired:
             pass
         for _ in range(20):
@@ -132,6 +154,7 @@ async def main() -> int:
         print("Need playwright or google-chrome.", file=sys.stderr)
         return 1
 
+    failures = 0
     for name in AIDS:
         html_path = HTML_DIR / f"{name}.html"
         if not html_path.is_file():
@@ -142,15 +165,20 @@ async def main() -> int:
             await render_playwright(html_path, pdf_path)
         else:
             assert chrome is not None
-            render_chrome(html_path, pdf_path, chrome)
+            try:
+                render_chrome(html_path, pdf_path, chrome)
+            except RuntimeError as exc:
+                print(f"FAIL {exc}", file=sys.stderr)
+                failures += 1
+                continue
         print(f"OK {pdf_path} ({pdf_path.stat().st_size} bytes)")
         for extra in pdf_dirs[1:]:
             if extra.resolve() == primary.resolve():
                 continue
             extra.mkdir(parents=True, exist_ok=True)
             shutil.copy2(pdf_path, extra / f"{name}.pdf")
-            print(f"   copy → {extra / (name + '.pdf')}")
-    return 0
+            print(f"   copy -> {extra / (name + '.pdf')}")
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":

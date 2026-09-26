@@ -18,6 +18,18 @@ Filename prefix: `40k_`.
 
 Index: [`../Son_Play_Pack_500.md`](../Son_Play_Pack_500.md).
 
+## Son 1000 play pack
+
+| HTML | Source | Pages |
+|------|--------|-------|
+| `40k_sm_army_list_1000.html` | [`../Army_List_1000_Matched_Statted.md`](../Army_List_1000_Matched_Statted.md) | 4 |
+| `40k_sm_how_army_works_1000.html` | [`../How_Your_Army_Works_1000.md`](../How_Your_Army_Works_1000.md) | 4 |
+| `40k_11e_cheat_sheet_wounds.html` | Shared system cheat + full Core 05.02 wound matrix | 2 full pages |
+
+Index: [`../Son_Play_Pack_1000.md`](../Son_Play_Pack_1000.md).
+
+The army guide flows continuously (4 pages, no forced page breaks, GW notice on every page). The list keeps its planned pages; the shared two-page system aid devotes one full page to core flow and one full page to the wound matrix.
+
 **Key distances:** coherency **2″/9″** · Ingress **6″** edge · Deep Strike **>8″**.
 
 ## Regenerate PDFs (US Letter)

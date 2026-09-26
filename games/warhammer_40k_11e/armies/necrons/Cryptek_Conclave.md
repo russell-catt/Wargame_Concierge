@@ -125,7 +125,7 @@ The stratagems (all **1CP**; teaching paraphrase — verify owned Faction Pack):
 | **Untapped Power** | Your Shooting (before that Cryptek unit shoots) | That Cryptek unit picks **two** menu abilities this phase |
 | **Potentiality Syphon** | Opponent’s Command | One Necron unit on an objective activates Reanimation Protocols; Cryptek units +1 wound |
 
-Paper CP sheet for the 500 list: [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md). Names beyond Syphon are `draft` (community/Wahapedia shape retrieved 2026-09-19) until a fresh pack line-check.
+Paper CP sheets: 500 list [`How_Your_Army_Works_500.md`](How_Your_Army_Works_500.md) · 1000 list [`How_Your_Army_Works_1000.md`](How_Your_Army_Works_1000.md) (adds Doomstalker Overwatch, Battle-shock per unit, weapon keywords, CP timing). Names beyond Syphon are `draft` (community/Wahapedia shape retrieved 2026-09-19) until a fresh pack line-check.
 
 ---
 

@@ -57,7 +57,7 @@ Each player’s Force Disposition sets that player’s Primary — two Gladius P
 | Distances / OC / attach | [`../../rules/Key_Concepts.md`](../../rules/Key_Concepts.md) · [`../../rules/Turn_Structure.md`](../../rules/Turn_Structure.md) — triad **6"** Ingress / **>8"** enemy gap / **9"** coherency span; OC = terrain **footprint** |
 | Shipping track | [`../../../../docs/handoffs/wd527_research/track_shipping_in.md`](../../../../docs/handoffs/wd527_research/track_shipping_in.md) |
 
-Army laminate: [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md). **Son 500 print pack:** [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) (statted list + how-it-works + cheat sheet w/ wound matrix).
+Army laminate: [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md). **Son print packs:** [`Son_Play_Pack_500.md`](Son_Play_Pack_500.md) · [`Son_Play_Pack_1000.md`](Son_Play_Pack_1000.md) (statted list + how-it-works + shared cheat sheet / wound matrix).
 
 ---
 

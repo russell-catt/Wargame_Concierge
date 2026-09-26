@@ -4,7 +4,7 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-09-24
+updated: 2026-09-25
 version: 0.9.1
 sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, warcode_gamefound_campaign_2026_09, warcode_kickstarter_relaunch_2026_09, warcode_campaign_transition_2026_09, white_dwarf_527, 40k_aug_2026_balance_package, kt_aug_2026_balance_package, sm_codex_oct_2026_preview]
 confidence: verified
@@ -46,7 +46,7 @@ Treat `unverified` and `stub` rows as "do not take to the table without checking
 |------|---------|------------|---------|
 | [[overview]] | High-level synthesis of the whole knowledge base and where the project stands | draft | 2026-08-19 |
 | [[glossary]] | Living terminology; the single home for all Keyword entries | draft | 2026-08-19 |
-| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-08-27 |
+| [[log]] | Append-only chronological record of ingests, queries, and lint passes | verified | 2026-09-25 |
 | [[changelog]] | Promotion log: KB pages that shipped into `docs/` or `games/` | verified | 2026-08-18 |
 | [[ingest_procedure]] | How a source in `raw/` becomes KB pages in this project | verified | 2026-08-16 |
 
@@ -59,6 +59,7 @@ One page per ingested source. Location: `KB/sources/`.
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[warcom_free_core_rules_11e]] | WarCom-free 11e Core PDF + July universal updates (v1.0, **superseded** by Aug v1.1); numbered-ID quote appendix in shipping; KB paraphrase only | draft | 2026-08-27 |
+| [[megabattle_prep_notes_2026_09]] | Owner's Google-chat megabattle notes: three-sector joint war plan for the 945 Conclave + 1000 Gladius team and a packing / etiquette checklist; rules-checked into the megabattle section of both 1000 guides (Necron print 5 pp, Space Marine print 4 pp) | draft | 2026-09-25 |
 | [[necron_lists_owner_notes]] | The owner's own Necron expansion blueprint: what is actually owned as of 2026-08-16, and two costed paths from that collection up to a 1,000-point army | draft | 2026-08-17 |
 | [[source_library]] | The project's map of where the answers are: owned PDFs, living web references, and the copyright rule that keeps all of it outside git | verified | 2026-08-17 |
 | [[local_library_pointers]] | Eight stub files standing in for owned PDFs the repo is not allowed to contain - and all still unread | verified | 2026-08-16 |
@@ -109,8 +110,8 @@ One page per army. Location: `KB/factions/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necrons]] | Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 250 pts (MFM v1.3, Aug 2026 package) | draft | 2026-08-27 |
-| [[space_marines]] | Blood Ravens Codex SM Gladius force; Matched vs Casual starter split; MFM v1.3 unchanged; Codex Oct preview readiness only | draft | 2026-08-27 |
+| [[necrons]] | Primary army: attrition + Reanimation Protocols; Conclave lists from 250 up to the active 1000-point Doomstalker + Hierotek teaching pack (MFM v1.3, Aug 2026 package) | draft | 2026-09-25 |
+| [[space_marines]] | Blood Ravens Codex SM Gladius force; exact 1000 pack splits turn-one shooters from the Chaplain-led Assault Terminator reserve | draft | 2026-09-25 |
 
 ---
 
@@ -121,8 +122,8 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[canoptek_court]] | Canoptek constructs + Power Matrix (two-tier from shipping); Phase 1 shared 245-pt Tomb World force | draft | 2026-08-20 |
-| [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 245 Conclave list | draft | 2026-08-19 |
-| [[gladius_task_force]] | The generalist Space Marine detachment named as the son's learning target. **Stub - no source read** | stub | 2026-08-16 |
+| [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 250 list through the 1000 three-brick + Doomstalker teaching list | draft | 2026-09-25 |
+| [[gladius_task_force]] | The generalist Space Marine teaching detachment: three once-per-battle movement permissions, flexible stratagems, and a Priority Assets mission identity | draft | 2026-09-25 |
 | [[first_company_task_force]] | Elite Terminator / veteran detachment; best owned-shelf alternate to Gladius | draft | 2026-08-22 |
 | [[anvil_siege_force]] | Gunline Remain-Stationary detachment; second owned-shelf alternate (Devs + Whirlwind) | draft | 2026-08-22 |
 
@@ -135,7 +136,7 @@ One page per datasheet, written in play terms. Location: `KB/units/`.
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[necron_warriors]] | Battleline brick; Their Number is Legion re-rolls RP D3; owned 10+10; MFM v1.3 10-model band 85 (▲+5) | draft | 2026-08-27 |
-| [[techmarine]] | Owned Firstborn Techmarine; matched-legal alone; unlocks Servitors on Casual lists | draft | 2026-08-22 |
+| [[techmarine]] | Owned Firstborn Techmarine: the exact Matched 1000 pack keeps him independent with Artificer Armour beside the Whirlwind for repair, accuracy and vehicle-side protection | draft | 2026-09-25 |
 | [[astartes_servitors]] | Legends infantry ×4 with Techmarine; Casual Gladius only; Mindlock / Servitor Retinue | draft | 2026-08-22 |
 
 Pointer to the full research corpus: [[necrons_unit_index]].
@@ -163,7 +164,7 @@ Synthesized outputs: matchups, list comparisons, and query answers worth keeping
 | [[40k_core_docs_kb_consistency_2026_08_19]] | Filed query/lint 2026-08-19: shipping Core OK; KB OC/Matrix gaps **closed 2026-08-20** from shipping (`kb_shipping_backfill`) | draft | 2026-08-20 |
 | [[their_number_is_legion_potentiality_syphon_250]] | Legion + Syphon teaching; heal-first explained; OQs closed 2026-08-20 (WarCom primary) | draft | 2026-08-21 |
 | [[inherited_docs_for_S3]] | What L1 hands to S3: the facts stable enough to teach from, the claims that are not, and which unread pointer answers which question | verified | 2026-08-17 |
-| [[sm_matched_vs_casual_starters]] | Blood Ravens Gladius Matched vs Casual split; when to use which; Legends fit compromises by points level | draft | 2026-08-22 |
+| [[sm_matched_vs_casual_starters]] | Blood Ravens Gladius Matched vs Casual split; exact Matched 1000 now fields shooters on table and Chaplain-led Assault Terminators in Deep Strike | draft | 2026-09-25 |
 | [[sm_owned_detachment_fit]] | Beyond Gladius: 1st Company then Anvil fit the owned Terminator / gun shelves; others thin | draft | 2026-08-22 |
 | [[wd527_orks_vs_blood_angels_walkthrough]] | WD527 First Contact battle report — setup through VP finish (BA 46–42) | verified | 2026-08-24 |
 

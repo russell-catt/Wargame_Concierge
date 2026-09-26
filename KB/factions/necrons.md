@@ -4,16 +4,16 @@ type: faction
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-27
-version: 0.5.3
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, reanimation_protocols, 40k_aug_2026_balance_package]
+updated: 2026-09-25
+version: 0.9.1
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_1000_V1_Doomstalker_Conclave.md, games/warhammer_40k_11e/armies/necrons/How_Your_Army_Works_1000.md, reanimation_protocols, 40k_aug_2026_balance_package]
 confidence: draft
 tags: [faction, necrons, primary, ownership, learning_army]
 ---
 
 # Necrons
 
-Primary army: attrition + Reanimation Protocols; Phase 1 Conclave list 250 pts (MFM v1.3, Aug 2026 package).
+Primary army: attrition + Reanimation Protocols; Conclave lists from 250 up to the active 1000-point Doomstalker + Hierotek teaching pack (MFM v1.3, Aug 2026 package).
 
 The owner's primary army: an ancient robotic civilisation that plays as the game's attrition faction, recovering models as fast as most opponents can remove them.
 
@@ -89,7 +89,7 @@ Two paths are costed from this collection. Neither is committed to.
 
 | Detachment | Wants | Fit with what is owned |
 |------------|-------|------------------------|
-| [[canoptek_court]] | Canoptek constructs - Wraiths, Doomstalkers | Owned Macrocytes, Tomb Crawlers, and Scarabs are all Canoptek and all game-ready; the Wraiths and Doomstalkers it is named for are still unowned |
+| [[canoptek_court]] | Canoptek constructs - Wraiths, Doomstalkers | Owned Macrocytes, Tomb Crawlers, and Scarabs are all Canoptek and all game-ready; one Doomstalker is owned (assembled 2026-09-24) — Wraiths still unowned |
 | [[cryptek_conclave]] | Cryptek characters leading infantry | Owned Warriors are exactly its battleline, and the game-ready **Cryptek Geomancer** supplies the character type the detachment is built on; Immortals join once built |
 
 **Both paths now start from a playable list.** Shipping Cryptek Conclave Phase 1 was **245 pts** under MFM v1.2 (Geomancer 75 + 10 Warriors 80 + 2 Tomb Crawlers **50** + 3 Scarabs 40) — see `Army_List_250_Conclave.md`. **As of the Aug 2026 balance package (MFM v1.3, owner paste 2026-08-27, `draft`), Necron Warriors 10-model band rose 80 → 85 (▲+5), so the same list is now 250/250 pts exactly** — recosted in shipping slice S2c, 2026-08-27. See [[40k_aug_2026_balance_package]] and [[necron_warriors]]. Older owner notes said 260 without Scarabs / with wrong Crawler points. Detachment choice is no longer gated on buying or identifying anything.
@@ -97,6 +97,19 @@ Two paths are costed from this collection. Neither is committed to.
 Cryptek Conclave remains the cheaper route to a *complete* path, and it no longer depends on a guess: the Geomancer is a real, owned, painted Cryptek, where before this rested on an assumption about the Hierotek Circle box. Canoptek Court is rated the stronger detachment by the owner's notes and now has real Canoptek bodies behind it, but still asks for roughly two Doomstalkers and six Wraiths.
 
 The recommendation is still **provisional** on the rules themselves - the detachment wording matters more than the model count, and points values need re-checking against the Munitorum Field Manual.
+
+---
+
+## Active 1000-point teaching pack (2026-09-25)
+
+The parent's megabattle force is the shipping **Cryptek Conclave 1000 V1** — no purchases, owned Canoptek Doomstalker plus Hierotek proxies (`draft`; see [[cryptek_conclave]]). Shape, in play terms:
+
+- **Three Cryptek bricks, not one 20-Warrior block.** Warriors A (Royal Warden Leader + Geomancer Support, Gauntlet of Compression), Warriors B (Technomancer), Immortals ×10 (Plasmancer). Each Support needs its own bodyguard, which buys three menu picks, three Syphon targets, and three Battle-shock tests taken on the character's Ld 6+ rather than the Warriors' 8+ (Core `01.06`: a leadership roll passes against *any* Ld in the unit).
+- **Canoptek Doomstalker** is the anti-tank piece: direct-fire, `[HEAVY]` (3+ when stationary), `[BLAST]`, Sentinel Construct (Fire Overwatch hits on 5+), Reanimation Protocols on a 12-wound Vehicle. It gets **no** Conclave menu and cannot be given CRYPTEK. Warriors B deploy within 6" so the Technomancer's end-of-Movement D3 heal reaches it.
+- **Battle-shock in this army** costs objective control and Actions (Scarabs' whole job) and blocks Syphon / Microscarab Swarm / Fire Overwatch on the shocked unit; Reanimation, the Legion re-roll, the Conclave menu and heals keep working. The test lands *before* end-of-Command Reanimation (`08.03` → `08.05`). Fixes: Insane Bravery, then the Warden's once-per-battle Engrammatic Logic.
+- **Points:** body 915; **945** in the official app with the two enhancements the list is allowed (Gauntlet of Compression on the Geomancer, Atomic Disintegrators on the Plasmancer). Gravitic Bolas and Quantum Abacus are off. Doomstalker 140 vs 145 unresolved against the owned MFM (145 would make the list 950).
+
+Shipping: `games/warhammer_40k_11e/armies/necrons/Cryptek_Play_Pack_1000.md` (index), `Army_List_1000_V1_Doomstalker_Conclave.md` (statted), `How_Your_Army_Works_1000.md` (six-page guide sharing headings with the [[space_marines]] 1000 sheet). Conclave stratagem names other than Potentiality Syphon remain `draft` pending a Faction Pack line-check.
 
 ---
 

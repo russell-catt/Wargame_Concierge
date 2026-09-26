@@ -4,16 +4,16 @@ type: faction
 system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
-updated: 2026-08-27
-version: 0.6.2
-sources: [source_library, local_library_pointers, games/warhammer_40k_11e/armies/space_marines/README.md, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md, legends_field_manual_sm_2026_08, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview]
+updated: 2026-09-25
+version: 0.9.1
+sources: [source_library, local_library_pointers, games/warhammer_40k_11e/armies/space_marines/README.md, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md, games/warhammer_40k_11e/armies/space_marines/Son_Play_Pack_1000.md, legends_field_manual_sm_2026_08, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview]
 confidence: draft
 tags: [faction, space_marines, blood_ravens, gladius, secondary, opposing_force]
 ---
 
 # Space Marines
 
-Blood Ravens Codex SM Gladius force; Matched vs Casual starter split; MFM v1.3 unchanged; Codex Oct preview readiness only.
+Blood Ravens Codex SM Gladius force; exact 1000 pack splits turn-one shooters from the Chaplain-led Assault Terminator reserve.
 
 Blood Ravens–painted Codex Space Marines force for the owner's son: Gladius Task Force teaching lists split into **Matched** (no Legends) and **Casual** (Legends allowed) paths.
 
@@ -58,6 +58,10 @@ Shipping split (track `sm_matched_vs_casual`, 2026-08-22):
 | **Casual** | Opponent agreement; Legends costed from Legends Field Manual | `Starter_*_Casual.md` |
 
 Analysis: [[sm_matched_vs_casual_starters]]. Shims at old `Starter_{N}.md` paths default readers to Matched.
+
+### Active 1000-point teaching pack
+
+The exact Matched pack is **1000 / 1000**: the 500-point Captain/Tactical/Devastator/shooting-Terminator core adds a Terminator Chaplain, Assault Terminators with one paid hammer, an independent Artificer-armoured [[techmarine]], and a Whirlwind. The shooting Terminators deploy on the battlefield; the Chaplain leads the Assault Terminators in Deep Strike. The Chaplain's modeled claw is a shield proxy using the current relic-shield rules. Shipping index: `games/warhammer_40k_11e/armies/space_marines/Son_Play_Pack_1000.md`.
 
 ---
 

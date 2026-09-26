@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_1000_Matched.md
-VERSION: v0.7.2 (2026-08-27)
+VERSION: v0.8.0 (2026-09-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
 
@@ -44,23 +44,23 @@ UPDATE_TRIGGER:
 
 ---
 
-## Owned path BR — artillery + armour: 980 / 1000
+## Owned path BR — exact megabattle pack: 1000 / 1000
 
-Continues [`Starter_750_Matched.md`](Starter_750_Matched.md): keep the 750 core, drop Honour Vehement if you need room (this build keeps it off and spends the points on Techmarine + Whirlwind), or keep enhancement and trim — this table is the clean owned fit.
+This is the active son 1000 pack: shooting Terminators deploy on the battlefield; Chaplain + Assault Terminators Deep Strike. Full profiles and proxy map: [`Army_List_1000_Matched_Statted.md`](Army_List_1000_Matched_Statted.md).
 
 | Unit | Models | MFM Marines v1.3 | Ownership | Notes |
 |------|--------|------------------|-----------|-------|
-| **Captain** (Leader) | 1 | **80** | **Owned** | → Tactical Squad |
-| **Chaplain in Terminator Armour** (Leader) | 1 | **75** | **Owned** | → Terminator Squad; claw = **Storm Shield** in game |
-| **Techmarine** (Leader) | 1 | **55** | **Owned** | → Devastator Squad (or babysit Whirlwind locally) |
+| **Captain** + **The Honour Vehement** | 1 | **80 + 15** | **Owned** | → Tactical Squad; on table |
 | **Tactical Squad** | 10 | **140** | **Owned** | |
 | **Devastator Squad** | 5 | **120** | **Owned** | |
-| **Terminator Squad** | 5 | **160** | **Owned** | Chaplain attaches |
-| **Terminator Squad** | 5 | **160** | **Owned** | Second brick |
-| **Whirlwind** | 1 | **175** | **Owned** | 1st Whirlwind cost; hatch figure unfinished on model |
-| | | **965** | | |
+| **Terminator Squad** | 5 | **160** | **Owned** | Shooting brick; **on table turn 1** |
+| **Chaplain in Terminator Armour** | 1 | **75** | **Owned** | → Assault Terminators; Deep Strike; claw = shield proxy / relic-shield rules |
+| **Terminator Assault Squad** | 5 | **155 + 5** | **Owned** | 1 hammer/shield + 4 twin-claw profiles; Deep Strike |
+| **Techmarine** + **Artificer Armour** | 1 | **55 + 20** | **Owned** | Independent within 3" of Whirlwind |
+| **Whirlwind** | 1 | **175** | **Owned** | 1st copy; hatch figure unfinished |
+| | | **1000** | | |
 
-Add **The Honour Vehement (15)** on the Captain → **980 / 1000**. Twenty points spare.
+**Count-as lock:** the Chaplain's modeled lightning claw represents the current relic-shield option (owner shorthand: Storm Shield), so he has W6 and no storm-bolter shots. The mixed Assault Terminators use exactly one paid hammer/shield and four twin-claw profiles; agree the physical mapping before deployment.
 
 ### Servitors datasheet check (resolved 2026-08-22)
 
@@ -101,7 +101,7 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 
 | Item | Why not listed |
 |------|----------------|
-| Terminator Assault Squad | Optional variant at 750/1000; mixed loadouts |
+| Second Terminator Squad | The primary 1000 uses Assault Terminators instead; shooting squad from the 500 stays on table |
 | Lieutenant with Combi-weapon | Expensive Support (95); optional swap |
 | AoD Primaris specialists | Incomplete squads (1 Heavy Intercessor, 1 Eliminator, etc.) |
 | Deathwatch veterans | Separate rules identity |
@@ -123,11 +123,12 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 ## Before you play at 1000
 
 - [x] Servitors datasheet check — **Legends**; not in this matched-play 1000
-- [ ] Confirm Whirlwind + Techmarine + both Terminator Squads in [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md)
-- [ ] Chaplain claw = Storm Shield note on the list
-- [ ] Decide Honour Vehement on/off (980 vs 965)
+- [x] Roster and models checked against [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md)
+- [ ] Declare Chaplain claw = shield proxy / relic-shield rules
+- [ ] Declare Assault Terminators = 1 hammer/shield + 4 twin-claw profiles
+- [ ] Put shooting Terminators on the battlefield; Deep Strike the Chaplain brick
 - [ ] Re-check MFM — Whirlwind **2nd** copy is 195 if you ever own two
-- [ ] Print [`Quick_Reference_Play_Guide.md`](Quick_Reference_Play_Guide.md)
+- [ ] Print [`Son_Play_Pack_1000.md`](Son_Play_Pack_1000.md)
 
 ---
 
@@ -156,6 +157,7 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v0.8.0 (2026-09-25): Active exact-1000 megabattle path — one shooting Terminator unit on table; Chaplain + one-hammer/four-claw Assault Terminators in Deep Strike; Techmarine + Artificer Armour; full statted print pack.
 - v0.7.2 (2026-08-27): dataslate_0826 S2b — SM Codex October preview callout (Tac/Dev → future Legendary Proxies; Whirlwind → future Legends); preview footer line; no early points/stat swap.
 - v0.7.1 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste); Captain/Chaplain/Techmarine/Tactical/Devastator/Terminator/Whirlwind/Honour Vehement core costs re-verified **unchanged** vs v1.2; totals arithmetic re-checked (965/980/945/985).
 - v0.7.0 (2026-08-25): wd527_shipping S6 — system spine links (wound / Mission 38 / Disposition / system QR).

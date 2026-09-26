@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HTML -> Letter PDF for the son 500 Gladius play pack.
+"""HTML -> Letter PDF for the son 500 and 1000 Gladius play packs.
 
 PDFs are gitignored. Prefer (in order):
   1. C:\\Personal\\print_aids\\40k_11e  (owner Windows path)
@@ -22,6 +22,8 @@ HTML_DIR = Path(__file__).resolve().parent
 AIDS = [
     "40k_sm_army_list_500",
     "40k_sm_how_army_works_500",
+    "40k_sm_army_list_1000",
+    "40k_sm_how_army_works_1000",
     "40k_11e_cheat_sheet_wounds",
 ]
 
@@ -51,6 +53,17 @@ def chrome_bin() -> str | None:
         path = shutil.which(name)
         if path:
             return path
+    if os.name == "nt":
+        candidates = [
+            Path(os.environ.get("PROGRAMFILES", "")) / "Google/Chrome/Application/chrome.exe",
+            Path(os.environ.get("PROGRAMFILES(X86)", "")) / "Google/Chrome/Application/chrome.exe",
+            Path(os.environ.get("LOCALAPPDATA", "")) / "Google/Chrome/Application/chrome.exe",
+            Path(os.environ.get("PROGRAMFILES", "")) / "Microsoft/Edge/Application/msedge.exe",
+            Path(os.environ.get("PROGRAMFILES(X86)", "")) / "Microsoft/Edge/Application/msedge.exe",
+        ]
+        for candidate in candidates:
+            if candidate.is_file():
+                return str(candidate)
     return None
 
 
@@ -58,9 +71,17 @@ def render_chrome(html_path: Path, pdf_path: Path, chrome: str) -> None:
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
     # Unique profile avoids SingletonLock races; timeout because headless
     # Chrome often hangs after writing the PDF in this environment.
+    # Delete a stale PDF first so a timeout cannot report the old file as success.
     import tempfile
     import time
 
+    if pdf_path.is_file():
+        try:
+            pdf_path.unlink()
+        except PermissionError:
+            raise RuntimeError(
+                f"LOCKED (close it in your PDF viewer and re-run): {pdf_path}"
+            ) from None
     with tempfile.TemporaryDirectory(prefix="chrome-pdf-") as prof:
         cmd = [
             chrome,
@@ -74,7 +95,7 @@ def render_chrome(html_path: Path, pdf_path: Path, chrome: str) -> None:
             html_path.as_uri(),
         ]
         try:
-            subprocess.run(cmd, check=False, capture_output=True, timeout=45)
+            subprocess.run(cmd, check=False, capture_output=True, timeout=90)
         except subprocess.TimeoutExpired:
             # PDF is usually already on disk when Chrome stalls after write.
             pass
@@ -128,6 +149,7 @@ async def main() -> int:
         )
         return 1
 
+    failures = 0
     for name in AIDS:
         html_path = HTML_DIR / f"{name}.html"
         if not html_path.is_file():
@@ -138,7 +160,12 @@ async def main() -> int:
             await render_playwright(html_path, pdf_path)
         else:
             assert chrome is not None
-            render_chrome(html_path, pdf_path, chrome)
+            try:
+                render_chrome(html_path, pdf_path, chrome)
+            except RuntimeError as exc:
+                print(f"FAIL {exc}", file=sys.stderr)
+                failures += 1
+                continue
         print(f"OK {pdf_path} ({pdf_path.stat().st_size} bytes)")
 
         # Mirror into other output dirs (cloud artifacts, etc.)
@@ -148,9 +175,9 @@ async def main() -> int:
             extra.mkdir(parents=True, exist_ok=True)
             dest = extra / f"{name}.pdf"
             shutil.copy2(pdf_path, dest)
-            print(f"   copy → {dest}")
+            print(f"   copy -> {dest}")
 
-    return 0
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":

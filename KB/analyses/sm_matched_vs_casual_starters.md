@@ -4,15 +4,16 @@ type: analysis
 system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-22
-updated: 2026-08-22
-sources: [games/warhammer_40k_11e/armies/space_marines/README.md, legends_field_manual_sm_2026_08, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md]
+updated: 2026-09-25
+version: 0.9.1
+sources: [games/warhammer_40k_11e/armies/space_marines/README.md, games/warhammer_40k_11e/armies/space_marines/Son_Play_Pack_1000.md, games/warhammer_40k_11e/armies/space_marines/Army_List_1000_Matched_Statted.md, legends_field_manual_sm_2026_08, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md]
 confidence: draft
 tags: [analysis, space_marines, matched, casual, legends, gladius]
 ---
 
 # SM Matched vs Casual starters
 
-Blood Ravens Gladius learning lists are duplicated so tournament legality and Legends shelf toys never share one ambiguous table.
+Blood Ravens Gladius Matched vs Casual split; exact Matched 1000 now fields shooters on table and Chaplain-led Assault Terminators in Deep Strike.
 
 ---
 
@@ -39,7 +40,7 @@ Casual lists use **one combined points table** (not a Matched core plus a side a
 | 750 | Tech + Servitors + bikes + one Term brick (Chaplain/second Term optional variant) |
 | 1000 | All three Legends + double Terms; Whirlwind dropped on primary (artillery variant exists) |
 
-Matched 1000 keeps Whirlwind + Techmarine alone — see shipping Matched file.
+Matched 1000 now has an exact active teaching pack: Captain + Tacticals, Devastators, and shooting Terminators start on the table; the Chaplain leads one-hammer/four-claw Assault Terminators in Deep Strike; an independent Techmarine with Artificer Armour supports the Whirlwind. The Chaplain's modeled claw is a shield proxy using current relic-shield rules. See `Son_Play_Pack_1000.md`.
 
 ---
 

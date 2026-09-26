@@ -4,7 +4,7 @@ type: log
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-09-24
+updated: 2026-09-25
 version: 0.9.1
 sources: []
 confidence: verified
@@ -667,3 +667,51 @@ Pages created: KB/sources/warcode_rulebook_v089f.md, warcode_tactical_doctrine_f
 Pages updated: KB/sources/warcode_rulebook_v087f.md, warcode_web_prelaunch_2026_08.md; KB/factions/warcode_protagen_marines.md, warcode_ulfari.md, warcode_mdr.md, warcode_dominium.md; KB/concepts/warcode_action_points.md, warcode_ammo.md, warcode_overwatch.md, warcode_contracts.md, warcode_protocol_cards.md, warcode_melee_lock.md; KB/glossary.md, overview.md, index.md, log.md
 
 Key additions: v0.8.9-F set as current mechanics baseline with v0.8.7-F retained as historical; Tactical Doctrine filed as narrative-only context; MDR Executive Unit and Dominium/Custodia Silens promoted from stubs to sourced drafts; Protagen and Ulfari refreshed from equivalence and lore evidence; Gamefound and Kickstarter split into dated source pages; campaign-transition analysis separates platform chronology, publisher claims, owner testimony, independent coverage, and open questions. Rules and lore ambiguities remain explicit. KB remains teaching paraphrase only. Librarian did not write `raw/` or `games/`; did not run git.
+
+## [2026-09-25] enhance | Space Marines exact 1000 play pack
+
+Pages created: none in KB (shipping created `Son_Play_Pack_1000.md`, `Army_List_1000_Matched_Statted.md`, `How_Your_Army_Works_1000.md`, and print HTML)
+
+Pages updated: [[space_marines]], [[gladius_task_force]], [[techmarine]], [[sm_matched_vs_casual_starters]], [[index]], [[log]]
+
+Key additions: Exact 1000 / 1000 Gladius teaching list synchronized — shooting Terminators start on the battlefield; Chaplain + one-hammer/four-claw Assault Terminators Deep Strike; Chaplain modeled claw is a shield proxy using current relic-shield rules; independent Artificer-armoured Techmarine supports the Whirlwind. The stale Gladius stub was promoted to `draft` from current shipping teaching. KB remains paraphrase-only; Librarian did not write `raw/` or run git.
+
+## [2026-09-25] enhance | Necrons 1000 Cryptek Conclave play pack
+
+Pages created: none in KB (shipping created `Cryptek_Play_Pack_1000.md`, `How_Your_Army_Works_1000.md`, print HTML `40k_roster_1000_v1_doomstalker_conclave.html` (4 pp) and `40k_how_army_works_1000_conclave.html` (6 pp); `Army_List_1000_V1_Doomstalker_Conclave.md` expanded to a fully statted sheet v1.3)
+
+Pages updated: [[necrons]], [[cryptek_conclave]], [[index]], [[log]]
+
+Key additions: 1000 V1 Doomstalker + Hierotek list recorded as the active teaching pack — three Cryptek bricks (Warriors A with Warden + Geomancer, Warriors B with Technomancer, Immortals ×10 with Plasmancer) so every Support has a seat; enhancement bearers named with 975 / 960 / 935 totals at four / three / one enhancements; Doomstalker taught as direct-fire `[HEAVY]` / `[BLAST]` support with 5+ Overwatch and no Conclave menu. Guide shares headings with the Space Marines 1000 sheet (Battle-shock per unit, weapon keywords, CP timing); Battle-shock notes anchored to Core `01.06` / `01.07` / `08.03` (character Ld carries the brick; test precedes Reanimation; menu still works when shocked). Ownership rows for Doomstalker and 2nd Immortals refreshed on the detachment page. Conclave stratagem names beyond Syphon remain `draft`. Librarian did not write `raw/` or run git.
+
+## [2026-09-25] ingest | Megabattle prep notes (raw/Megabattle_prep/, owner Google chat)
+
+Pages created: [[megabattle_prep_notes_2026_09]]
+
+Pages updated: [[index]], [[log]] (shipping: both `How_Your_Army_Works_1000.md` guides + print HTML gain page 7; pack indexes and print READMEs at 7 pages)
+
+Key additions: Three-sector joint war plan (backline firebase / midboard push / pocket hammer) written from each seat's perspective, plus packing list, do / don't and turn-by-turn team beats. Rules checks: Oath of Moment buffs Marines only; Rapid Ingress not BR1; two Warrior 10s not one 20; Atomic Disintegrators 5+ value and Quantum Abacus trigger flagged unverified. Source read only; `raw/` untouched; no git. Point total in that note (975) was superseded the same day — see the 945 entry.
+
+## [2026-09-25] enhance | Necron 1000 list locked at 945 (two enhancements)
+
+Pages created: none
+
+Pages updated: [[necrons]], [[cryptek_conclave]], [[log]] (shipping: Army_List_1000_V1, How_Your_Army_Works_1000, Cryptek_Play_Pack_1000, Starter_Forces 1000 section, both print HTMLs; SM how-army page 7 point total synced)
+
+Key additions: Official app allows two enhancements. Kept Gauntlet of Compression on the Geomancer and Atomic Disintegrators on the Plasmancer. Dropped Gravitic Bolas and Quantum Abacus. Body 915 + 30 = **945**, matching the app. Librarian did not write `raw/` or run git.
+
+## [2026-09-25] enhance | Necron 1000 print aids condensed (guide 7 -> 5 pp, roster 4 -> 3 pp)
+
+Pages created: none
+
+Pages updated: [[log]] (shipping only: `print/40k_how_army_works_1000_conclave.html`, `print/40k_roster_1000_v1_doomstalker_conclave.html`, `print/_html_to_pdf.py`, `How_Your_Army_Works_1000.md` v1.3, `Army_List_1000_V1_Doomstalker_Conclave.md` v1.5, `Cryptek_Play_Pack_1000.md` v1.3, `print/README.md`)
+
+Key additions: Layout-only pass at the owner's request (too much white space). Forced per-section page breaks removed so content flows; tables / unit blocks / rows kept whole; GW non-endorsement notice moved into a repeating `<tfoot>` so it prints on every page; UNOFFICIAL banner stays on page 1. No rules or list content changed. Render script now deletes a stale PDF before rendering and reports a locked file instead of silently keeping the old one. No `raw/` writes, no git.
+
+## [2026-09-25] enhance | Space Marine 1000 guide condensed (7 -> 4 pp)
+
+Pages created: none
+
+Pages updated: [[megabattle_prep_notes_2026_09]], [[index]], [[log]] (shipping: `print/40k_sm_how_army_works_1000.html`, `How_Your_Army_Works_1000.md` v1.3, `Son_Play_Pack_1000.md` v1.3, `print/README.md`, `print/_html_to_pdf.py`; Necron guide phrase sync in `How_Your_Army_Works_1000.md` v1.4 and its print HTML)
+
+Key additions: Same flowing layout as the Necron guide — no forced page breaks, table rows kept whole, GW notice in a repeating footer. Space Marine guide is 4 Letter pages at about 90% fill. Do/don't lines in both guides no longer cite "page 6". No rules or list content changed. No `raw/` writes, no git.
