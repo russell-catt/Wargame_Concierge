@@ -4,59 +4,58 @@ type: detachment
 system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
-updated: 2026-08-16
-version: 0.5.0
-sources: [games/warhammer_40k_11e/armies/space_marines/README.md, reference/Initial_Prompt.md]
-confidence: stub
-tags: [detachment, space_marines, gladius, stub, s5]
+updated: 2026-09-25
+version: 0.9.1
+sources: [games/warhammer_40k_11e/armies/space_marines/Gladius_Task_Force.md, games/warhammer_40k_11e/armies/space_marines/How_Your_Army_Works_1000.md, games/warhammer_40k_11e/armies/space_marines/Army_List_1000_Matched_Statted.md, 40k_aug_2026_balance_package]
+confidence: draft
+tags: [detachment, space_marines, gladius, combat_doctrines, priority_assets]
 ---
 
 # Gladius Task Force
 
-The generalist Space Marine detachment named as the son's learning target. **Stub - no source read.**
+The generalist Space Marine teaching detachment: three once-per-battle movement permissions, flexible stratagems, and a Priority Assets mission identity.
 
 ---
 
-## Status: stub
+## Combat Doctrines
 
-This page exists so that [[space_marines]] and S5 have somewhere to link, and so the detachment is catalogued rather than discovered late. It records **what the project has decided**, not what the rules say.
+At the start of the player's Command phase, Gladius may activate one doctrine for the whole Astartes army. Each can be selected only once per battle:
 
-Two repo facts back the name:
+| Doctrine | Practical permission |
+|----------|----------------------|
+| Devastator | Advance and still shoot |
+| Tactical | Fall Back and still shoot and charge |
+| Assault | Advance and still charge |
 
-- `games/warhammer_40k_11e/armies/space_marines/README.md` sets "Gladius Task Force" as the default learning detachment, with details deferred to S5
-- The project's initial requirements list Gladius Task Force detachment rules as an explicit research target
-
-The Space Marines faction pack at `raw/pointers/faction_pack_space_marines.md` is unread. Nothing about the detachment rule, its enhancements, or its stratagems is known here.
-
----
-
-## Why it was chosen
-
-Gladius Task Force is the Space Marine generalist option - the detachment that makes the fewest demands of a list and is the hardest to build badly. For a second player learning alongside the first, from a box of **existing older kits** whose contents are not yet catalogued, that flexibility matters more than power level: a detachment that wants specific units cannot be built from an unknown collection.
-
-It also pairs cleanly with [[oath_of_moment]] for teaching. The army rule supplies the one big decision each turn; a generalist detachment keeps everything else quiet enough that a new player can actually see the effect of that decision.
+These permissions improve mobility rather than raw damage. The beginner habit is to skip a doctrine when it solves no problem, use Devastator to reposition guns, Tactical to free an engaged shooting unit, and Assault on the commitment turn.
 
 ---
 
-## What needs to happen before this page is useful
+## Why it fits this collection
 
-| Step | Blocked on | Slice |
-|------|-----------|-------|
-| Read the detachment rule, enhancements, and stratagems | Faction pack pointer | S5 |
-| Audit the Space Marine collection | Owner and son | S5 prep |
-| Confirm Gladius still fits once the models are known | Both of the above | S5 |
-| Write a starter list | All of the above | S5 |
+Gladius supports the owned mixed Firstborn collection without demanding one specialised unit family: objective Tacticals, direct-fire Devastators and Terminators, a melee Terminator reserve, and Whirlwind support.
 
-The collection audit is the real gate. The empty inventory worksheet is the reason this page cannot progress past a stub, and no amount of rules reading substitutes for knowing what is in the box.
+It pairs cleanly with [[oath_of_moment]]. Oath supplies the target-priority decision, while doctrines solve one movement problem per turn.
 
----
+## Tools used by the 1000-point pack
 
-## What is not known
+- **Adaptive Strategy** gives one unit a needed doctrine, including one already spent.
+- **Storm of Fire** helps a shooting unit defeat cover and improves under Devastator Doctrine.
+- **Honour the Chapter** helps the Assault Terminators and improves under Assault Doctrine.
+- **Armour of Contempt** protects a key objective brick.
+- **Squad Tactics** provides reactive movement when an enemy approaches.
+- **Rapid Ingress** is a Core tool, not a Gladius stratagem, but it is the default safe arrival for the Chaplain's Assault Terminators.
 
-- Everything about the detachment rule itself
-- Whether legacy and Firstborn datasheets are supported within it in 11th Edition
-- Whether chapter choice interacts with it
-- How it compares to the alternatives, none of which are catalogued
+The exact list uses **The Honour Vehement** on the Captain and **Artificer Armour** on the independent [[techmarine]]. Full teaching detail remains in `games/warhammer_40k_11e/armies/space_marines/Gladius_Task_Force.md`; the table pack is `How_Your_Army_Works_1000.md`.
+
+## Mission identity and currency
+
+MFM Marines v1.3 tags Gladius `3DP - PRIORITY ASSETS`, so the pack teaches all five Priority Assets pairings. Rules and points remain `draft` in KB until an owned-current pack cross-check. October Codex preview material does not change today's list early.
+
+## Open questions
+
+- Re-check the detachment and enhancement wording when Codex: Space Marines launches.
+- Confirm event-specific limits on enhancements and future Legendary Proxy / Legends use.
 
 ---
 
@@ -67,5 +66,5 @@ The collection audit is the real gate. The empty inventory worksheet is the reas
 - [[first_company_task_force]] · [[anvil_siege_force]] · [[sm_owned_detachment_fit]] - owned-shelf alternates
 - [[canoptek_court]] · [[cryptek_conclave]] - the Necron detachments it will play against
 - [[objective_control]] - the shared win condition
-- [[local_library_pointers]] - the unread faction pack
+- [[local_library_pointers]] - owned rules-library path pointers
 - [[index]] · [[glossary]]

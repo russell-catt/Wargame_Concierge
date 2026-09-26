@@ -4,9 +4,9 @@ type: detachment
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-08-19
-version: 0.5.2
-sources: [necron_lists_owner_notes, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, their_number_is_legion_potentiality_syphon_250]
+updated: 2026-09-25
+version: 0.9.1
+sources: [necron_lists_owner_notes, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_1000_V1_Doomstalker_Conclave.md, games/warhammer_40k_11e/armies/necrons/How_Your_Army_Works_1000.md, their_number_is_legion_potentiality_syphon_250]
 confidence: draft
 tags: [detachment, necrons, cryptek, technosorcerous_augmentations, expansion_path]
 ---
@@ -56,9 +56,10 @@ For a beginner this is the **more forgiving** of the two Necron paths. Fewer mov
 | Immortals (5, first box) | **Yes** - purchased, unassembled |
 | Plasmancer | No (Apprentek is a casual proxy only) |
 | Technomancer | **Yes** - Hierotek Circle |
+| Canoptek Doomstalker | **Yes** — assembled 2026-09-24, unprimed (fire support in the 1000 list) |
 | Illuminor Szeras | No |
 | Lychguard (10) | No |
-| Immortals (second box of 5) | No |
+| Immortals (second box) | **Yes** — tesla carbines, primed (2026-09-17); Immortals reach 10 in the 1000 list |
 
 **This is the cheaper path to a legal, playable list from what is already owned - and it is playable now.** The Geomancer is a real, owned, painted Cryptek leading a real, owned, painted squad of ten Warriors. The detachment no longer depends on an assumption about an unidentified box.
 
@@ -83,9 +84,31 @@ Worth stating plainly: **the weaker-rated detachment is the better beginner choi
 | 1 (~250 pts) | **Shipping Conclave list = 245:** Geomancer (75) + 10 Warriors (80) + 2 Tomb Crawlers (**50**, MFM v1.2) + 3 Scarabs (40). See `Army_List_250_Conclave.md`. Older owner notes said 260 without Scarabs / with wrong Crawler points. |
 | 2 (500 pts) | Hierotek proxies / Immortals / more Scarabs per `Starter_Forces_500_750_1000.md` V1; Macrocytes **70** MFM |
 | 3 (750 pts) | Expand toward Szeras / larger Warrior brick per shipping V1 path |
-| 4 (1,000 pts) | Lychguard / second Immortals per shipping V2 path |
+| 4 (1,000 pts) | **Active (2026-09-25): V1 Doomstalker path, $0** — owned Canoptek Doomstalker + Hierotek proxies; see below. V2 Lychguard / Szeras buy path retained as the alternate |
 
 Crypteks are **Support** (not Leader) in faction pack v1.1 — a Cryptek can stack with a Royal Warden / Overlord Leader on the same bodyguard. Warrior units of 10 or 20 and Immortal units of 5 or 10 are the legal sizes used in shipping lists.
+
+---
+
+## The 1000-point teaching list (shipping, 2026-09-25)
+
+`Army_List_1000_V1_Doomstalker_Conclave.md` is the detachment at its current ceiling on this collection (`draft`):
+
+| Brick | Characters | Enhancement | Menu default |
+|-------|-----------|-------------|--------------|
+| Warriors ×10 (A) | Royal Warden (Leader, Despotek proxy) + Geomancer (Support, Warlord) | Gauntlet of Compression → 30" flayers / 18" reapers | `[IGNORES COVER]` |
+| Warriors ×10 (B) | Technomancer (Support) | none | `[HEAVY]` — home brick beside the Doomstalker |
+| Immortals ×10 | Plasmancer (Support, Apprentek proxy) | Atomic Disintegrators — anti-Vehicle / anti-Monster menu | `[ANTI-INFANTRY 3+]` |
+
+Plus Canoptek Doomstalker (anti-tank, no menu), Scarabs ×6, Tomb Crawlers ×2, Macrocytes ×5. Body **915**; **945** with the two enhancements the official app allows (Gauntlet + Atomic Disintegrators). Gravitic Bolas and Quantum Abacus are off.
+
+**Teaching points the pack adds to this page:**
+
+- **Three seats, three picks.** Splitting Warriors into two 10s exists to seat all three Supports; a 20-brick strands a Cryptek. Each seat is also a Battle-shock test at the character's Ld 6+ (Core `01.06`) and a Potentiality Syphon target.
+- **Battle-shock vs the detachment.** A shocked unit cannot be targeted by Syphon, Microscarab Swarm, Untapped Power or Molecular Targeting (`01.07`), but the menu itself is a detachment rule and keeps working. The Royal Warden's once-per-battle un-shock is the free fix; Insane Bravery the paid one.
+- **Doomstalker is fire support, not a Conclave piece.** Vehicle → Synergistic Empowerment cannot grant it CRYPTEK. Its value is `[HEAVY]` 3+ from stillness, `[BLAST]` into 10-model squads, and Overwatch on 5+ — plus D3 Reanimation and the Technomancer's D3 heal keeping a 12-wound platform alive.
+
+Six-page paper guide with Battle-shock-per-unit, weapon-keyword and CP-timing cards: `How_Your_Army_Works_1000.md`; index `Cryptek_Play_Pack_1000.md`.
 
 ---
 

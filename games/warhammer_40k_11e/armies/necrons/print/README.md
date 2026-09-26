@@ -12,7 +12,10 @@ Filename prefix: `40k_`. Never commit `*.pdf` (repo gitignore).
 
 | HTML (this folder) | PDF (print folder) | Source | Pages |
 |--------------------|--------------------|--------|-------|
-| `40k_roster_500_conclave.html` | `40k_roster_500_conclave.pdf` | `../Army_List_500_V1_Conclave.md` | 2 |
+| `40k_roster_1000_v1_doomstalker_conclave.html` | `40k_roster_1000_v1_doomstalker_conclave.pdf` | `../Army_List_1000_V1_Doomstalker_Conclave.md` — **1000 megabattle list** (statted) | 3 |
+| `40k_how_army_works_1000_conclave.html` | `40k_how_army_works_1000_conclave.pdf` | `../How_Your_Army_Works_1000.md` — Doomstalker lanes, Battle-shock per unit, weapon keywords, CP spends, megabattle joint plan | 5 |
+| `40k_roster_500_v2_conclave.html` | `40k_roster_500_v2_conclave.pdf` | `../Army_List_500_V2_Conclave.md` — **the list actually played** | 2 |
+| `40k_roster_500_conclave.html` | `40k_roster_500_conclave.pdf` | `../Army_List_500_V1_Conclave.md` (older proxy list) | 2 |
 | `40k_how_army_works_500_conclave.html` | `40k_how_army_works_500_conclave.pdf` | `../How_Your_Army_Works_500.md` | 5 |
 | `40k_conclave_primary_missions.html` | `40k_conclave_primary_missions.pdf` | `../Cryptek_Conclave_Primary_Missions.md` | 2 |
 | `40k_roster_250_conclave.html` | `40k_roster_250_conclave.pdf` | `../Army_List_250_Conclave.md` | 2 |
@@ -21,6 +24,7 @@ Filename prefix: `40k_`. Never commit `*.pdf` (repo gitignore).
 | `40k_first_game_core.html` | `40k_first_game_core.pdf` | `../../rules/Turn_Structure.md` + `Key_Concepts.md` | 2 |
 | `40k_setup_terrain.html` | `40k_setup_terrain.pdf` | `../../setup/Board_Setup.md` + `Terrain_Basics.md` | 2 |
 
+**1000 play pack index:** [`../Cryptek_Play_Pack_1000.md`](../Cryptek_Play_Pack_1000.md) (roster 3 + guide 5 + shared Primaries 2 + system cheat 2 — the 1000 roster and guide use a **flowing layout**: no forced page breaks, `break-inside: avoid` on tables / unit blocks / rows, and the GW notice sits in a `<tfoot>` wrapper so Chrome repeats it on every printed page).  
 **500 play pack index:** [`../Cryptek_Play_Pack_500.md`](../Cryptek_Play_Pack_500.md).
 
 **Pack PDF folder:** `C:\Personal\print_aids\40k_11e\` (also cloud `/opt/cursor/artifacts/print_aids_40k_11e/`).  

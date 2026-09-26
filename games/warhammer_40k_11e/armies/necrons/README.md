@@ -33,9 +33,12 @@ Ancient undying machines waking from tomb worlds. Necrons excel at **reanimation
 
 **Start here:** [`Reanimation_Protocols.md`](Reanimation_Protocols.md) for the army rule, then [`Starter_250.md`](Starter_250.md) for a first game using the owned **Kill Team: Tomb World** force.
 
-### Cryptek 500 play pack (app backup)
+### Cryptek play packs (app backup)
 
-Statted list + how-the-army-works (RP, Conclave menu, Primaries, **CP spends**) + Primaries laminate: [`Cryptek_Play_Pack_500.md`](Cryptek_Play_Pack_500.md) · print HTML in [`print/`](print/).
+- **1000 (megabattle, Doomstalker + Hierotek):** statted list + six-page how-the-army-works (deployment, RP, Conclave menu, Primaries, Doomstalker lanes, **Battle-shock per unit**, **weapon keywords**, **CP spends**): [`Cryptek_Play_Pack_1000.md`](Cryptek_Play_Pack_1000.md).
+- **500:** statted list + how-the-army-works + Primaries laminate: [`Cryptek_Play_Pack_500.md`](Cryptek_Play_Pack_500.md).
+
+Print HTML for both in [`print/`](print/).
 
 > **FORCE DISPOSITION: PRIORITY ASSETS** · MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`  
 > Write it on every list. Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md).

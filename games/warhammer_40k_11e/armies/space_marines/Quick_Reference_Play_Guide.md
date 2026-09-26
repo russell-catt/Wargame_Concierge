@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Quick_Reference_Play_Guide.md
-VERSION: v0.7.2 (2026-08-27)
+VERSION: v0.8.0 (2026-09-25)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview; prior wd527_shipping S6)
 
@@ -29,6 +29,7 @@ PRINT_NOTE:
   folder yet — markdown is the laminate source (README claims md only).
 
 CHANGE_LOG:
+  - v0.8.0 (2026-09-25): Starter Snapshot synced to exact 1000 megabattle pack (shooting Terms on table; one-hammer Assault Terms + Chaplain in Deep Strike; Tech + Artificer; Whirlwind); page count unchanged.
   - v0.7.2 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** on Starter Snapshot heading; core costs re-verified unchanged vs v1.2; page count unchanged.
   - v0.7.1 (2026-08-27): dataslate_0826 S2b — one-line SM Codex October preview note (Tac/Dev → Legendary Proxy; Whirlwind → Legends) added to Starter Snapshot; 2-page count unchanged.
   - v0.7.0 (2026-08-25): wd527_shipping S6 — page-2 spine densify (S vs T bands, 6"/8"/9" triad, Mission 38 + system QR); OC footprint restated.
@@ -127,7 +128,7 @@ Against that unit, every model in your army with the ability gets:
 
 ## STARTER SNAPSHOT - owned Blood Ravens (MFM Marines v1.3)
 
-**Paint:** Blood Ravens · **Rules:** Codex SM + Gladius. Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md). Chaplain claw = **Storm Shield** in game.
+**Paint:** Blood Ravens · **Rules:** Codex SM + Gladius. Detail: [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md). Chaplain claw = shield proxy; use current **relic-shield** rules.
 
 | Unit | Models | Pts | Used in |
 |------|--------|-----|---------|
@@ -135,13 +136,15 @@ Against that unit, every model in your army with the ability gets:
 | Captain (Leader) | 1 | **80** | 250 · 500 · 750 · 1000 |
 | The Honour Vehement | - | **15** | 750 · 1000 |
 | Techmarine | 1 | **55** | 1000 |
+| Artificer Armour | - | **20** | exact 1000 |
 | Tactical Squad | 10 | **140** | all BR paths (Tac1 has flamer) |
 | Devastator Squad | 5 / 10 | **120 / 200** | 500+ (HB / MM / PC / LC / meltagun); **10** by reassigning Tactical bolters |
-| Terminator Squad | 5 | **160** | 250 · 500 · 750×2 · 1000×2 |
+| Terminator Squad | 5 | **160** | 250 · 500 · 750×2 · exact 1000×1 |
+| Terminator Assault Squad | 5 | **155 + 5/hammer** | exact 1000: one hammer = **160** |
 | Whirlwind (1st) | 1 | **175** | 1000 |
 
 **250 BR-1:** Chaplain 75 + Terminators 160 = **235**. **250 BR-2:** Captain 80 + Tactical 140 = **220**.
-**500:** Captain + Tac + Devs + Terms = **500**. **750:** + Chaplain + 2nd Terms + HV = **750**. **1000:** ~**980** with Tech + Whirlwind.
+**500:** Captain + Tac + Devs + Terms = **500**. **750:** + Chaplain + 2nd Terms + HV = **750**. **Exact 1000:** 500 core + Chaplain 75 + Assault Terms 160 + Tech 55 + Artificer 20 + Whirlwind 175 + HV 15 = **1000**.
 
 **Enhancements:** Honour Vehement 15 · Adept of the Codex 20 · Artificer Armour 20 · Fire Discipline 25. **Legends (friendly):** Bike Squad · Attack Bike.
 
