@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/README.md
-VERSION: v0.5.6 (2026-08-27)
+VERSION: v0.5.11 (2026-10-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S6; wd527_shipping; dataslate_0826 S2)
 
@@ -100,6 +100,8 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 | File | Purpose |
 |------|---------|
 | [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) | Physical model checklist - the ownership source of truth |
+| [`Shopping_List_2000_Cryptek_Conclave.md`](Shopping_List_2000_Cryptek_Conclave.md) | **~2,000 shopping** — Conclave priorities (Nightbringer, 2nd Doomstalker, Cryptek polish) |
+| [`Shopping_List_2000_Canoptek_Court.md`](Shopping_List_2000_Canoptek_Court.md) | **~2,000 shopping** — Court priorities (Wraiths first, 2nd Doomstalker) |
 | [`Necron_Lists.md`](Necron_Lists.md) | Expansion blueprint and shopping tracker (imported). **Its points are stale for units other than Tomb World - cost Warriors/Immortals/Scarabs from the starter lists instead** |
 | [`units/README.md`](units/README.md) | Unit research stub (S6) |
 
@@ -127,6 +129,7 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
 
 ## Change Log
+- v0.5.11 (2026-10-22): Indexed 2000 shopping lists — Conclave + Canoptek Court.
 - v0.5.10 (2026-09-24): Canoptek Doomstalker assembled (unprimed); Conclave 1000 Doomstalker path added.
 - v0.5.9 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed.
 - v0.5.8 (2026-09-17): 2nd Immortals (5) purchased — **tesla carbines**, primed; 1st Immortals box still on sprue.

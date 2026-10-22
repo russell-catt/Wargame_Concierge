@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Starter_Forces_500_750_1000.md
-VERSION: v1.8 (2026-09-25)
+VERSION: v1.9 (2026-10-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer, slice S2c; dataslate_0826)
 
@@ -273,6 +273,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 
 ## Related pages
 
+- [`Shopping_List_2000_Cryptek_Conclave.md`](Shopping_List_2000_Cryptek_Conclave.md) · [`Shopping_List_2000_Canoptek_Court.md`](Shopping_List_2000_Canoptek_Court.md) — next buys toward ~2,000
 - [`Cryptek_Conclave.md`](Cryptek_Conclave.md) - primary detachment (enhancements table)
 - [`Canoptek_Court.md`](Canoptek_Court.md) - alternate detachment
 - [`Starter_250.md`](Starter_250.md) · [`Starter_500.md`](Starter_500.md)
@@ -289,6 +290,7 @@ Doomstalker assembled 2026-09-24 (unprimed) closes the old “cannot fill 1,000 
 **Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
 
 ## Change Log
+- v1.9 (2026-10-22): Linked 2000 shopping lists (Conclave + Court).
 - v1.8 (2026-09-25): 1000 V1 locked at **945** — official app allows two enhancements (Gauntlet of Compression + Atomic Disintegrators). Bolas and Abacus dropped.
 - v1.7 (2026-09-24): 1000 V1 attachment fix — two Warrior 10s (body **915** / kitchen **975**) so Geomancer, Technomancer, and Plasmancer proxy all attach legally.
 - v1.6 (2026-09-24): Newbie-friendly events — grey plastic / primed OK; paint not required to field 1000 V1.
