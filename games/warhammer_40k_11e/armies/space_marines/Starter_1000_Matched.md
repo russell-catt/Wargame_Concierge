@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Starter_1000_Matched.md
-VERSION: v0.8.0 (2026-09-25)
+VERSION: v0.8.1 (2026-10-22)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — dataslate_0826 S2b SM Codex Oct preview)
 
@@ -141,6 +141,7 @@ Leave room for **Lieutenant with Combi-weapon (95)** instead of Techmarine if yo
 - System QR: [`../../setup/print/40k_system_quick_reference.html`](../../setup/print/40k_system_quick_reference.html)
 
 - Casual twin: [`Starter_1000_Casual.md`](Starter_1000_Casual.md)
+- Next buys: [`Shopping_List_2000_Gladius.md`](Shopping_List_2000_Gladius.md)
 
 - [`Starter_750_Matched.md`](Starter_750_Matched.md) · [`Starter_500_Matched.md`](Starter_500_Matched.md) · [`Starter_250_Matched.md`](Starter_250_Matched.md)
 - [`Gladius_Task_Force.md`](Gladius_Task_Force.md) · [`Oath_of_Moment.md`](Oath_of_Moment.md)
@@ -157,6 +158,7 @@ Preview note: Codex: Space Marines expected October (WarCom) · live lists still
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v0.8.1 (2026-10-22): Linked [`Shopping_List_2000_Gladius.md`](Shopping_List_2000_Gladius.md).
 - v0.8.0 (2026-09-25): Active exact-1000 megabattle path — one shooting Terminator unit on table; Chaplain + one-hammer/four-claw Assault Terminators in Deep Strike; Techmarine + Artificer Armour; full statted print pack.
 - v0.7.2 (2026-08-27): dataslate_0826 S2b — SM Codex October preview callout (Tac/Dev → future Legendary Proxies; Whirlwind → future Legends); preview footer line; no early points/stat swap.
 - v0.7.1 (2026-08-27): dataslate_0826 S2d — stamped **MFM Marines v1.3** (owner paste); Captain/Chaplain/Techmarine/Tactical/Devastator/Terminator/Whirlwind/Honour Vehement core costs re-verified **unchanged** vs v1.2; totals arithmetic re-checked (965/980/945/985).
