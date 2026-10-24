@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/README.md
-VERSION: v1.14 (2026-09-18)
+VERSION: v1.15 (2026-10-01)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — Indomitus SM half selection ownership 2026-09-12)
 
@@ -85,7 +85,9 @@ Old links to `Starter_{N}.md` are **shims** that point here. Tournament night �
 
 ## SM Codex October readiness (preview — do not play yet)
 
-> **Preview, not current rules.** WarCom previews a forthcoming **Codex: Space Marines** (App launch **October**). Every starter on this page stays **current Faction Pack v1.2 / MFM** until that Codex actually ships — nobody plays the October preview stats (Tacticus **T5**, Intercessor bolt rifle S5/S6, Phobos **M8"**) at the table yet. Research note: [`../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md`](../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md) (`draft`, owner paste 2026-08-27).
+> **Stale — MFM v1.5 is in, the Codex cards are not.** Live [Munitorum Field Manual](https://mfm.warhammer-community.com/en/space-marines) v1.5 (retrieved 2026-10-01) still prices Gladius at **3DP**. A 1000-point list may spend **2DP**, so the 1000 Matched list is over budget and stays stamped **MFM v1.3** until the Codex datasheets are in hand. That manual's current roster does not list Tactical Squad or Devastator Squad. The owner paste places the Whirlwind in Legends. Bike Squad, Attack Bike, and Astartes Servitors are absent, so the Casual starters have lost their points rows and are not rewritten in this pass. No Intercessor or Desolation swap. Fit note: [`docs/handoffs/dataslate_0930/research/sm_1dp_owned_fit.md`](../../../../docs/handoffs/dataslate_0930/research/sm_1dp_owned_fit.md).
+
+> **Preview, not current rules.** WarCom previews a forthcoming **Codex: Space Marines** (App launch **October**). Every starter on this page stays **current Faction Pack v1.2 / MFM v1.3** until that Codex actually ships — nobody plays the October preview stats (Tacticus **T5**, Intercessor bolt rifle S5/S6, Phobos **M8"**) at the table yet. Research note: [`../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md`](../../../../docs/handoffs/dataslate_0826/research/sm_codex_oct_preview.md) (`draft`, owner paste 2026-08-27).
 
 ### Legendary Proxies (teaching paraphrase)
 
@@ -105,7 +107,7 @@ When the Codex ships, these datasheets leave it and become **Legendary Proxies**
 
 These datasheets leave the Codex and move to **Warhammer Legends** support (App, alongside the Codex): Centurion Assault Squad · Centurion Devastator Squad · Razorback · Predator Destructor · Predator Annihilator · **Vindicator** · **Whirlwind** · **Dreadnought** · Stormhawk Interceptor · Stormtalon Gunship · Stormraven Gunship · Hammerfall Bunker.
 
-**Bold** = owned in this collection (see [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) Step 2 table). **Whirlwind stays Matched-legal today** — it fields on [`Starter_1000_Matched.md`](Starter_1000_Matched.md) with **no** Legends tag, and only becomes a Legends unit once the Codex ships, same timing as Tactical / Devastator above.
+**Bold** = owned in this collection (see [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) Step 2 table). The live MFM v1.5 already places the **Whirlwind** in Legends and no longer lists Tactical Squad or Devastator Squad. This page does not recost them.
 
 Preview note: Codex: Space Marines expected October (WarCom) · live lists still current Faction Pack / MFM until Codex — Legendary Proxies / Legends honesty on Firstborn paths.
 
@@ -175,6 +177,7 @@ See **Dual-path starter index** above. Plus [`Quick_Reference_Play_Guide.md`](Qu
 **Rules currency:** Munitorum Field Manual — Space Marines v1.3 (WarCom/App) · **Faction Pack v1.2** (legal 26 Aug 2026) · teaching paraphrase · verify owned PDF.
 
 ## Change Log
+- v1.15 (2026-10-01): dataslate_0930 S2 — stale banner on the Codex-readiness section. 1000 list stays MFM v1.3. Gladius 3DP is over the 1000-point 2DP budget. Casual bikes, Attack Bike, and Servitors named as losing their MFM rows. No list rewrite.
 - v1.14 (2026-09-18): Son 500 play pack — statted army list, how-army-works, 11e cheat sheet with wound matrix (`Son_Play_Pack_500.md` + `print/`).
 - v1.13 (2026-09-12): Collection status — Indomitus SM half selection (assembled, unprimed); Captain with relic shield already owned from that box.
 - v1.12 (2026-08-27): dataslate_0826 S2 — stamped **Faction Pack v1.2** (legal 26 Aug 2026; supersedes v1.1) across the SOURCES header and Rules currency line. No teaching-fact change: Gladius's Adaptive Strategy FAQ and the Squad Tactics 8" range were already correctly taught on [`Gladius_Task_Force.md`](Gladius_Task_Force.md) from the v1.1 errata pass. Terminator Teleport Homer (9"→8"), Outrider Thunderous Impact, Guilliman/Uriel Ventris stratagem-cost interactions, Wardens of Ultramar, and Armoured Speartip Rapid Embarkation are not taught on any owned-collection page — waived, see `docs/handoffs/dataslate_0826/slices/S2_implementer.md`. This section's own "SM Codex October readiness" banner already cited Faction Pack v1.2 correctly (S2b); only the header SOURCES/currency line lagged.

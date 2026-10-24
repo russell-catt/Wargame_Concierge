@@ -4,9 +4,9 @@ type: detachment
 system: warhammer_40k_11e
 faction: Necrons
 created: 2026-08-16
-updated: 2026-09-25
+updated: 2026-10-01
 version: 0.9.1
-sources: [necron_lists_owner_notes, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_1000_V1_Doomstalker_Conclave.md, games/warhammer_40k_11e/armies/necrons/How_Your_Army_Works_1000.md, their_number_is_legion_potentiality_syphon_250]
+sources: [necron_lists_owner_notes, kill_team_necron_photos, games/warhammer_40k_11e/armies/necrons/Cryptek_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_250_Conclave.md, games/warhammer_40k_11e/armies/necrons/Army_List_1000_V1_Doomstalker_Conclave.md, games/warhammer_40k_11e/armies/necrons/How_Your_Army_Works_1000.md, their_number_is_legion_potentiality_syphon_250, mfm_v1_5_2026_09_30]
 confidence: draft
 tags: [detachment, necrons, cryptek, technosorcerous_augmentations, expansion_path]
 ---
@@ -81,7 +81,7 @@ Worth stating plainly: **the weaker-rated detachment is the better beginner choi
 
 | Phase | Adds |
 |-------|------|
-| 1 (~250 pts) | **Shipping Conclave list = 245:** Geomancer (75) + 10 Warriors (80) + 2 Tomb Crawlers (**50**, MFM v1.2) + 3 Scarabs (40). See `Army_List_250_Conclave.md`. Older owner notes said 260 without Scarabs / with wrong Crawler points. |
+| 1 (~250 pts) | **Shipping Conclave list is 260/250 and over cap** after MFM v1.5 priced Tomb Crawlers (2) at **60**. Geomancer 75 + Warriors 85 + Crawlers 60 + Scarabs 40. No unit removed. See [[mfm_v1_5_2026_09_30]]. |
 | 2 (500 pts) | Hierotek proxies / Immortals / more Scarabs per `Starter_Forces_500_750_1000.md` V1; Macrocytes **70** MFM |
 | 3 (750 pts) | Expand toward Szeras / larger Warrior brick per shipping V1 path |
 | 4 (1,000 pts) | **Active (2026-09-25): V1 Doomstalker path, $0** — owned Canoptek Doomstalker + Hierotek proxies; see below. V2 Lychguard / Szeras buy path retained as the alternate |
@@ -90,7 +90,7 @@ Crypteks are **Support** (not Leader) in faction pack v1.1 — a Cryptek can sta
 
 ---
 
-## The 1000-point teaching list (shipping, 2026-09-25)
+## The 1000-point teaching list (shipping, 2026-10-01)
 
 `Army_List_1000_V1_Doomstalker_Conclave.md` is the detachment at its current ceiling on this collection (`draft`):
 
@@ -100,7 +100,7 @@ Crypteks are **Support** (not Leader) in faction pack v1.1 — a Cryptek can sta
 | Warriors ×10 (B) | Technomancer (Support) | none | `[HEAVY]` — home brick beside the Doomstalker |
 | Immortals ×10 | Plasmancer (Support, Apprentek proxy) | Atomic Disintegrators — anti-Vehicle / anti-Monster menu | `[ANTI-INFANTRY 3+]` |
 
-Plus Canoptek Doomstalker (anti-tank, no menu), Scarabs ×6, Tomb Crawlers ×2, Macrocytes ×5. Body **915**; **945** with the two enhancements the official app allows (Gauntlet + Atomic Disintegrators). Gravitic Bolas and Quantum Abacus are off.
+Plus Canoptek Doomstalker (anti-tank, no menu), Scarabs ×6, Tomb Crawlers ×2, Macrocytes ×5. Body **905**; **935** with the two enhancements the list is allowed (Gauntlet + Atomic Disintegrators). Gravitic Bolas and Quantum Abacus are off. Doomstalker is 130 on MFM v1.5. See [[mfm_v1_5_2026_09_30]].
 
 **Teaching points the pack adds to this page:**
 
@@ -137,4 +137,5 @@ Six-page paper guide with Battle-shock-per-unit, weapon-keyword and CP-timing ca
 - [[necron_lists_owner_notes]] - the source
 - [[kill_team_necron_photos]] - Hierotek Technomancer owned; Plasmancer/Warden proxy-only
 - [[local_library_pointers]] - the faction pack that would verify this
+- [[mfm_v1_5_2026_09_30]] - MFM v1.5 points, 2026-10-01
 - [[index]] · [[glossary]]

@@ -4,16 +4,16 @@ type: faction
 system: warhammer_40k_11e
 faction: Space Marines
 created: 2026-08-16
-updated: 2026-09-25
+updated: 2026-10-01
 version: 0.9.1
-sources: [source_library, local_library_pointers, games/warhammer_40k_11e/armies/space_marines/README.md, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md, games/warhammer_40k_11e/armies/space_marines/Son_Play_Pack_1000.md, legends_field_manual_sm_2026_08, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview]
+sources: [source_library, local_library_pointers, games/warhammer_40k_11e/armies/space_marines/README.md, games/warhammer_40k_11e/armies/space_marines/Owned_Models_Inventory.md, games/warhammer_40k_11e/armies/space_marines/Son_Play_Pack_1000.md, legends_field_manual_sm_2026_08, 40k_aug_2026_balance_package, sm_codex_oct_2026_preview, mfm_v1_5_2026_09_30]
 confidence: draft
 tags: [faction, space_marines, blood_ravens, gladius, secondary, opposing_force]
 ---
 
 # Space Marines
 
-Blood Ravens Codex SM Gladius force; exact 1000 pack splits turn-one shooters from the Chaplain-led Assault Terminator reserve.
+Blood Ravens Codex SM Gladius force; exact 1000 pack stays on MFM v1.3 after the v1.5 review (Gladius is 3DP, over the 1000 budget).
 
 Blood Ravens–painted Codex Space Marines force for the owner's son: Gladius Task Force teaching lists split into **Matched** (no Legends) and **Casual** (Legends allowed) paths.
 
@@ -67,7 +67,7 @@ The exact Matched pack is **1000 / 1000**: the 500-point Captain/Tactical/Devast
 
 ## Currency — Aug 2026 balance package (no owned point change)
 
-Re-stamped to **Munitorum Field Manual — Space Marines v1.3** (owner paste, retrieved 2026-08-27, `draft`) in shipping slice S2d, 2026-08-27. **Every Blood Ravens Matched and Casual core cost is unchanged** — the only v1.3 ▲ deltas (Centurion Devastator Squad, Land Raider Redeemer, Librarian in Terminator Armour) land on units not owned and not fielded on any starter. See [[40k_aug_2026_balance_package]].
+Re-stamped to **Munitorum Field Manual — Space Marines v1.3** (owner paste, retrieved 2026-08-27, `draft`) in shipping slice S2d, 2026-08-27. **Every Blood Ravens Matched and Casual core cost is unchanged** — the only v1.3 ▲ deltas (Centurion Devastator Squad, Land Raider Redeemer, Librarian in Terminator Armour) land on units not owned and not fielded on any starter. See [[40k_aug_2026_balance_package]]. MFM v1.5 (2026-10-01) was reviewed and the 1000 list was not recosted; Gladius at 3DP is over a 1000-point list's 2DP budget ([[mfm_v1_5_2026_09_30]]).
 
 ## Codex: Space Marines — October 2026 preview (readiness only)
 
@@ -87,5 +87,5 @@ WarCom previews a **Codex: Space Marines** launching October 2026: Tacticus infa
 
 - [[oath_of_moment]] · [[gladius_task_force]] · [[first_company_task_force]] · [[anvil_siege_force]] · [[astartes_servitors]] · [[techmarine]]
 - [[sm_matched_vs_casual_starters]] · [[sm_owned_detachment_fit]] · [[legends_field_manual_sm_2026_08]]
-- [[40k_aug_2026_balance_package]] · [[sm_codex_oct_2026_preview]] - Aug 2026 currency + October readiness
+- [[40k_aug_2026_balance_package]] · [[mfm_v1_5_2026_09_30]] · [[sm_codex_oct_2026_preview]] - Aug 2026 currency, Sep 30 points review, October readiness
 - [[space_marines_unit_index]] · [[glossary]]

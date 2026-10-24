@@ -102,7 +102,8 @@ See also [[sm_codex_oct_2026_preview]] — a **separate product** (October Codex
 
 - [[warcom_free_core_rules_11e]] — prior (July v1.0) Universal Rules source page; superseded on the same topics by this package
 - [[necron_warriors]] · [[necrons]] — points-impacted unit/faction pages
-- [[space_marines]] — confirmed-unchanged faction page
+- [[space_marines]] — confirmed-unchanged faction page at v1.3; v1.5 reviewed and not applied
+- [[mfm_v1_5_2026_09_30]] — later points stamp (30 Sep 2026)
 - [[sm_codex_oct_2026_preview]] — separate October product
 - [[kt_aug_2026_balance_package]] — the Kill Team sibling package
 - [[glossary]] — Assault Disembark Move / Shock Disembark Move stubs

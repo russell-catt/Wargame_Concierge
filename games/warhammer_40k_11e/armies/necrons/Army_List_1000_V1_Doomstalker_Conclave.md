@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Army_List_1000_V1_Doomstalker_Conclave.md
-VERSION: v1.5 (2026-09-25)
+VERSION: v1.6 (2026-10-01)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor (Implementer — Doomstalker ownership + Conclave 1000 rethink; full stat pass for the 1000 play pack)
 
@@ -9,7 +9,7 @@ PROJECT_NAME: Wargame_Concierge
 GAME_SYSTEM: Warhammer 40,000 - 11th Edition
 FACTION: Necrons
 DETACHMENT: Cryptek Conclave
-REFERENCE_STATUS: Active - 1000 V1 Doomstalker path (no Szeras/Lychguard buy). Owned + Hierotek proxies. Two Warrior 10s so Geomancer, Technomancer, and Plasmancer proxy each have a legal bodyguard. Points: Warriors/Plasmancer MFM Necrons v1.3 owner paste 2026-08-27 draft; Doomstalker 140 MFM v1.2 / Wahapedia 2026-09-24 (verify owned MFM — some mirrors 145). confidence: draft.
+REFERENCE_STATUS: Active - 1000 V1 Doomstalker path (no Szeras/Lychguard buy). Owned + Hierotek proxies. Two Warrior 10s so Geomancer, Technomancer, and Plasmancer proxy each have a legal bodyguard. Points: MFM Necrons v1.5 live site 2026-10-01 draft (Immortals 10 = 130, Tomb Crawlers 2 = 60, Doomstalker 130). confidence: draft.
 
 SOURCES:
   - games/warhammer_40k_11e/armies/necrons/Owned_Models_Inventory.md
@@ -41,12 +41,12 @@ UPDATE_TRIGGER:
 
 | Field | Value |
 |-------|-------|
-| **Points** | **945 / 1,000** — official app, **two enhancements** (Gauntlet of Compression + Atomic Disintegrators) |
+| **Points** | **935 / 1,000** — official shape, **two enhancements** (Gauntlet of Compression + Atomic Disintegrators). MFM v1.5. |
 | **Buy** | **$0** — Hierotek proxies OK (opponent OK). Optional later: real Plasmancer / Warden for events |
 | **Bench** | Hobby only — prime/paint when you want. **Newbie-friendly events: grey plastic / primed OK to field** |
 | **vs old V2** | Replaces **Illuminor Szeras + Lychguard** shopping with owned **Doomstalker** |
 | **Warlord** | Cryptek Geomancer |
-| **confidence** | draft — Warriors / Plasmancer MFM v1.3 (owner paste 2026-08-27); Doomstalker 140 (MFM v1.2 / Wahapedia 2026-09-24; some mirrors 145); other points MFM v1.2; profiles Wahapedia wh40k11ed |
+| **confidence** | draft — MFM Necrons v1.5 live site, retrieved 2026-10-01; profiles Wahapedia wh40k11ed |
 
 ---
 
@@ -60,17 +60,17 @@ UPDATE_TRIGGER:
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 | OWNED proxy — Hierotek |
 | 5 | Necron Warriors *(brick A)* | 10 | 85 | OWNED — Tomb World painted |
 | 6 | Necron Warriors *(brick B)* | 10 | 85 | OWNED — 2nd squad primed |
-| 7 | Immortals | 10 | 140 | OWNED — Hierotek Guardians + primed boxes (prefer one gun type per unit) |
+| 7 | Immortals | 10 | 130 | OWNED — Hierotek Guardians + primed boxes (prefer one gun type per unit) |
 | 8 | Canoptek Scarab Swarms | 6 | 80 | OWNED (3 painted + 3 primed) |
-| 9 | Canoptek Tomb Crawlers | 2 | 50 | OWNED — Tomb World |
+| 9 | Canoptek Tomb Crawlers | 2 | 60 | OWNED — Tomb World |
 | 10 | Canoptek Macrocytes | 5 | 70 | OWNED — Tomb World |
-| 11 | **Canoptek Doomstalker** | 1 | **140** | **OWNED — assembled, unprimed** |
-| | **Body total** | | **915** | Two Warrior *units* of 10 = 85+85 (**not** the 190 twenty-model band) |
+| 11 | **Canoptek Doomstalker** | 1 | **130** | **OWNED — assembled, unprimed** |
+| | **Body total** | | **905** | Two Warrior *units* of 10 = 85+85 (**not** the 190 twenty-model band) |
 | 12 | Gauntlet of Compression → **Geomancer** | — | 20 | Enhancement — +6" range to every gun in Warriors A |
 | 13 | Atomic Disintegrators → **Plasmancer** | — | 10 | Enhancement — anti-Vehicle / anti-Monster on the Immortals' menu |
-| | | | **945** | Official app total. Two-enhancement cap. Gravitic Bolas and Quantum Abacus are **not** on this list. |
+| | | | **935** | Two-enhancement cap. Gravitic Bolas and Quantum Abacus are **not** on this list. |
 
-**Points arithmetic:** 75 + 80 + 60 + 50 + 85 + 85 + 140 + 80 + 50 + 70 + 140 = **915** body · + 20 + 10 = **945**.
+**Points arithmetic:** 75 + 80 + 60 + 50 + 85 + 85 + 130 + 80 + 60 + 70 + 130 = **905** body · + 20 + 10 = **935**. MFM v1.5 (live site, 2026-10-01): Immortals 10 are 130 (−10), Tomb Crawlers are 60 (+10), Doomstalker is 130 (−10). The old 140-versus-145 question is closed.
 
 **Why two Warrior 10s (not one 20):** you own **three** Cryptek Supports (Geomancer, Technomancer, Plasmancer proxy) plus a Warden. Each Support needs a bodyguard. Two Warrior squads + Immortals = three legal seats — three menu picks, three Battle-shock tests at the character's Ld 6+, three Syphon targets. A single 20-Warrior brick can only take Warden + one Cryptek, which leaves a Cryptek with nowhere legal to attach.
 
@@ -82,8 +82,6 @@ UPDATE_TRIGGER:
 | **Atomic Disintegrators** | Plasmancer (Immortals) | 10 |
 
 Gravitic Bolas and Quantum Abacus are off the list. The Technomancer and the Royal Warden carry no enhancement.
-
-**If owned MFM lists Doomstalker at 145:** body **920** · list **950**. The official app currently totals **945** at 140.
 
 ---
 
@@ -201,7 +199,7 @@ Same profile and weapons as brick A **without** the Gauntlet: flayers **24"**, r
 
 **Atomic Disintegrators (10):** adds **anti-Vehicle** and **anti-Monster** options to this unit's Conclave menu. Twenty S5 Lethal Hits shots wounding a tank on a fixed number is the list's second anti-armour tool after the Doomstalker. One of the two enhancements the app allows.
 
-### Immortals (10) — 140 pts
+### Immortals (10) — 130 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -219,7 +217,7 @@ Same profile and weapons as brick A **without** the Gauntlet: flayers **24"**, r
 
 ## Fire support and Canoptek bodies — no Conclave menu
 
-### Canoptek Doomstalker — 140 pts
+### Canoptek Doomstalker — 130 pts
 
 | Model | M | T | SV | W | LD | OC | Inv |
 |-------|---|---|----|---|----|----|-----|
@@ -258,7 +256,7 @@ Detail: [`units/research/Canoptek-Doomstalker.md`](units/research/Canoptek-Dooms
 
 **Abilities** (Wahapedia 11e, retrieved 2026-09-24, `draft`): Reanimation Protocols; **Self-destruction** — start of the Fight phase, destroy **one** base, then D6 (+1 vs VEHICLE) against one enemy in Engagement Range of it: 2–5 → D3 mortal wounds, 6+ → 3 mortal wounds; one base per unit per Fight phase; **Chittering swarm** — enemy models in Engagement Range are −1 OC (min 1). 24 wounds for 80 points — the cheapest screen you own. No Conclave gun buff. Detail: [`units/research/Canoptek-Scarab-Swarms.md`](units/research/Canoptek-Scarab-Swarms.md).
 
-### Canoptek Tomb Crawlers (2) — 50 pts
+### Canoptek Tomb Crawlers (2) — 60 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -296,7 +294,7 @@ Detail: [`units/research/Canoptek-Doomstalker.md`](units/research/Canoptek-Dooms
 | Apprentek (Hierotek) | Plasmancer | 60 | Kitchen-table only; buy a real Plasmancer for events |
 | Despotek (Hierotek) | Royal Warden | 50 | Kitchen-table only |
 | Immortal Guardians (3) | Immortals (gauss) | in the 10 | Legal bodies; note any gauss / tesla mix |
-| Doomstalker, unprimed | Canoptek Doomstalker | 140 | Grey plastic OK at newbie-friendly tables |
+| Doomstalker, unprimed | Canoptek Doomstalker | 130 | Grey plastic OK at newbie-friendly tables |
 
 ---
 
@@ -332,7 +330,7 @@ Full guide — deployment, Primaries, Doomstalker lanes, Battle-shock per unit, 
 - [ ] Two Warrior units of 10 + Immortals 10 assembled enough to tell apart; Immortals gun type declared
 - [ ] Attachments written: Warriors A ← Warden + Geomancer; Warriors B ← Technomancer; Immortals ← Plasmancer proxy
 - [ ] Opponent agrees Apprentek→Plasmancer and Despotek→Warden proxies; Doomstalker unprimed OK
-- [ ] Enhancements locked: **Gauntlet → Geomancer**, **Atomic Disintegrators → Plasmancer** (two, the app cap). No Bolas, no Abacus. **945**.
+- [ ] Enhancements locked: **Gauntlet → Geomancer**, **Atomic Disintegrators → Plasmancer** (two, the app cap). No Bolas, no Abacus. **935**.
 - [ ] Macrocytes: **Scout 8"** before the first turn
 - [ ] Token: **end of Command → REANIMATE** (Warriors re-roll the D3)
 - [ ] Print [`How_Your_Army_Works_1000.md`](How_Your_Army_Works_1000.md) · pack index [`Cryptek_Play_Pack_1000.md`](Cryptek_Play_Pack_1000.md)
@@ -355,9 +353,10 @@ Full guide — deployment, Primaries, Doomstalker lanes, Battle-shock per unit, 
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · Doomstalker pts **140** (v1.2 / Wahapedia 2026-09-24) · verify owned PDFs.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · Cryptek Conclave **2DP** · verify in the app before a tournament.
 
 ## Change Log
+- v1.6 (2026-10-01): MFM v1.5 recost (dataslate_0930 S1) — Immortals 10: 140→**130**, Tomb Crawlers 2: 50→**60**, Doomstalker 140→**130**. Body **905** + 30 enhancements = **935 / 1000**. Same attachments, same two enhancements. 140-versus-145 closed.
 - v1.5 (2026-09-25): Print aid condensed 4 → 3 Letter pages (flowing layout, unit blocks kept whole, GW notice repeated per page). No list content change.
 - v1.4 (2026-09-25): App cap is **two** enhancements. Kept Gauntlet of Compression (Geomancer) and Atomic Disintegrators (Plasmancer). Dropped Gravitic Bolas and Quantum Abacus. Official app total **945**.
 - v1.3 (2026-09-25): Full stat pass for the Cryptek 1000 play pack — every unit statted on this page (characters with Gauntlet ranges, both Warrior bricks, Immortals gauss / tesla, Doomstalker with target math, Scarabs, Crawlers, Macrocytes); enhancement bearers named with a 4 / 3 / 1 cap table (975 / 960 / 935); menu-eligibility table; proxy honesty; turn-one firing order. Print HTML `print/40k_roster_1000_v1_doomstalker_conclave.html` (4 pages). Companion `How_Your_Army_Works_1000.md`; pack index `Cryptek_Play_Pack_1000.md`.

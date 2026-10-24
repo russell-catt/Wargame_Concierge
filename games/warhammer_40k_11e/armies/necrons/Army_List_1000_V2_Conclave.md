@@ -31,7 +31,7 @@ UPDATE_TRIGGER:
 
 | Field | Value |
 |-------|-------|
-| **Points** | **1,000 / 1,000** |
+| **Points** | **1,005 / 1,000 — over cap.** MFM v1.5. No unit or enhancement removed. Smallest cut, not applied: drop Gauntlet of Compression (20) → **985**. |
 | **Buy** | Plasmancer + Illuminor Szeras + Lychguard (5) |
 | **Prior lists** | [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md) |
 
@@ -46,14 +46,14 @@ UPDATE_TRIGGER:
 | 3 | **Plasmancer** | 1 | 60 | **BUY** |
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 | OWNED proxy |
 | 5 | Necron Warriors | 20 | 190 | OWNED (merge) — 20-model band unchanged by v1.3 |
-| 6 | Immortals | 5 | 70 | OWNED |
+| 6 | Immortals | 5 | 65 | OWNED |
 | 7 | Canoptek Scarab Swarms | 6 | 80 | OWNED |
-| 8 | Canoptek Tomb Crawlers | 2 | 50 | OWNED |
+| 8 | Canoptek Tomb Crawlers | 2 | 60 | OWNED |
 | 9 | Canoptek Macrocytes | 5 | 70 | OWNED |
 | 10 | **Illuminor Szeras** | 1 | 175 | **BUY** |
 | 11 | **Lychguard** | 5 | 80 | **BUY** |
 | 12 | **Gauntlet of Compression** | — | 20 | Enhancement |
-| | | | **1,000** | MFM v1.3 — Plasmancer ▲+5; Atomic Disintegrators + Gravitic Bolas dropped (owner-safe cut, -25) to land exactly on 1,000. *(The v1.0 printing's three-enhancement total also had a pre-existing arithmetic slip — this row is now checked to add up.)* |
+| | | | **1,005** | **Over cap by 5.** MFM v1.5: Immortals −5, Crawlers +10. Drop Gauntlet of Compression (20) → 985 is the smallest cut, and it is **not** applied. |
 
 **Attachments:** Warden + Geomancer on 20 Warriors; Technomancer or Plasmancer on Immortals; Szeras behind Warrior phalanx; Lychguard screen characters.
 
@@ -109,9 +109,10 @@ See [`Army_List_750_V1_Conclave.md`](Army_List_750_V1_Conclave.md) and [`Army_Li
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · Cryptek Conclave **2DP**. List is **1,005 / 1,000** until the owner accepts a cut.
 
 ## Change Log
+- v1.2 (2026-10-01): MFM v1.5 — Immortals 5: 70→**65**, Tomb Crawlers 2: 50→**60**. Total **1,005 / 1,000**. Smallest cut (drop Gauntlet of Compression, −20 → 985) is written and **not** applied.
 - v1.1 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Plasmancer 55→**60** (Warriors 20-band unchanged). Dropped Atomic Disintegrators + Gravitic Bolas (owner-safe cut, keep Gauntlet of Compression only; also fixes a pre-existing v1.0 arithmetic slip) to land exactly on 1,000.
 - v1.0 (2026-08-19): Initial fully statted 1000 V2. Rebalanced vs stale Crawler/Macrocyte points; Macrocytes included; three enhancements to 1,000.
 

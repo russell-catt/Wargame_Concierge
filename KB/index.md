@@ -4,9 +4,9 @@ type: index
 system: multi_system
 systems: [warhammer_40k_11e, kill_team_2024, the_warcode]
 created: 2026-08-16
-updated: 2026-09-25
+updated: 2026-10-01
 version: 0.9.1
-sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, warcode_gamefound_campaign_2026_09, warcode_kickstarter_relaunch_2026_09, warcode_campaign_transition_2026_09, white_dwarf_527, 40k_aug_2026_balance_package, kt_aug_2026_balance_package, sm_codex_oct_2026_preview]
+sources: [necron_lists_owner_notes, source_library, local_library_pointers, kill_team_2024_core_rules, kill_team_necron_photos, uml_diagrams_org, warcom_free_core_rules_11e, wahapedia, their_number_is_legion_potentiality_syphon_250, kill_team_kommandos_teams_pdf, legends_field_manual_sm_2026_08, gw_ip_guidelines, warcode_rulebook_v087f, warcode_rulebook_v089f, warcode_tactical_doctrine_field_edition, warcode_web_prelaunch_2026_08, warcode_gamefound_campaign_2026_09, warcode_kickstarter_relaunch_2026_09, warcode_campaign_transition_2026_09, white_dwarf_527, 40k_aug_2026_balance_package, kt_aug_2026_balance_package, sm_codex_oct_2026_preview, mfm_v1_5_2026_09_30]
 confidence: verified
 tags: [index, catalog, kb, kill_team_2024, the_warcode]
 ---
@@ -69,6 +69,7 @@ One page per ingested source. Location: `KB/sources/`.
 | [[gw_ip_guidelines]] | Paraphrase of GW community IP guidelines + WarCom download licence; unofficial footer policy for games/ shipping | draft | 2026-08-23 |
 | [[white_dwarf_527]] | Owned WD527 tier 1.5 — commentary shipped to rules/setup/armies; system 2-pager + Mission 38 | verified | 2026-08-25 |
 | [[40k_aug_2026_balance_package]] | No singular dataslate: Universal Rules v1.1 + Faction Pack v1.2 (Necrons/SM) + MFM v1.3 — Necron Warriors 80→85, SM cores unchanged, disembark move typing | draft | 2026-08-27 |
+| [[mfm_v1_5_2026_09_30]] | Live MFM v1.5 (2026-10-01): Necron 1000 V1 is 935; Immortals, Tomb Crawlers, and Doomstalker moved; Space Marine 1000 list reviewed and not recosted | draft | 2026-10-01 |
 | [[sm_codex_oct_2026_preview]] | Separate product: Codex SM October 2026 preview — Legendary Proxies / Legends honesty, no early stat rewrite | draft | 2026-08-27 |
 
 ---
@@ -110,8 +111,8 @@ One page per army. Location: `KB/factions/`.
 
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
-| [[necrons]] | Primary army: attrition + Reanimation Protocols; Conclave lists from 250 up to the active 1000-point Doomstalker + Hierotek teaching pack (MFM v1.3, Aug 2026 package) | draft | 2026-09-25 |
-| [[space_marines]] | Blood Ravens Codex SM Gladius force; exact 1000 pack splits turn-one shooters from the Chaplain-led Assault Terminator reserve | draft | 2026-09-25 |
+| [[necrons]] | Primary army: attrition + Reanimation Protocols; Conclave lists from the 250 shelf up to the active 1000-point Doomstalker + Hierotek teaching pack (MFM v1.5, 935 points, draft) | draft | 2026-10-01 |
+| [[space_marines]] | Blood Ravens Codex SM Gladius force; exact 1000 pack stays on MFM v1.3 after the v1.5 review (Gladius is 3DP, over the 1000 budget) | draft | 2026-10-01 |
 
 ---
 
@@ -122,7 +123,7 @@ One page per detachment and its rules package. Location: `KB/detachments/`.
 | Page | Summary | Confidence | Updated |
 |------|---------|------------|---------|
 | [[canoptek_court]] | Canoptek constructs + Power Matrix (two-tier from shipping); Phase 1 shared 245-pt Tomb World force | draft | 2026-08-20 |
-| [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 250 list through the 1000 three-brick + Doomstalker teaching list | draft | 2026-09-25 |
+| [[cryptek_conclave]] | Cryptek infantry castle; Technosorcerous Augmentations + Potentiality Syphon; 2DP; active 1000 list is 935 on MFM v1.5 | draft | 2026-10-01 |
 | [[gladius_task_force]] | The generalist Space Marine teaching detachment: three once-per-battle movement permissions, flexible stratagems, and a Priority Assets mission identity | draft | 2026-09-25 |
 | [[first_company_task_force]] | Elite Terminator / veteran detachment; best owned-shelf alternate to Gladius | draft | 2026-08-22 |
 | [[anvil_siege_force]] | Gunline Remain-Stationary detachment; second owned-shelf alternate (Devs + Whirlwind) | draft | 2026-08-22 |

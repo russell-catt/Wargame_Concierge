@@ -35,7 +35,7 @@ UPDATE_TRIGGER:
 
 | Field | Value |
 |-------|-------|
-| **Points** | **750 / 750** |
+| **Points** | **755 / 750 — over cap.** MFM v1.5. No unit or enhancement removed. Smallest cut, not applied: drop Atomic Disintegrators (10) → **745**. |
 | **Purchases** | **$0** — Hierotek proxies OK |
 | **Bench first** | 2nd Warriors, 2nd Scarabs, Immortals sprue |
 | **Prior list** | [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) |
@@ -52,16 +52,16 @@ UPDATE_TRIGGER:
 | 4 | Royal Warden *(Despotek proxy)* | 1 | 50 |
 | 5 | Necron Warriors | 10 | 85 |
 | 6 | Necron Warriors *(2nd squad — build)* | 10 | 85 |
-| 7 | Canoptek Tomb Crawlers | 2 | 50 |
+| 7 | Canoptek Tomb Crawlers | 2 | 60 |
 | 8 | Canoptek Macrocytes | 5 | 70 |
 | 9 | Canoptek Scarab Swarms | 6 | 80 |
-| 10 | Immortals | 5 | 70 |
+| 10 | Immortals | 5 | 65 |
 | 11 | **Gauntlet of Compression** | — | 20 |
 | 12 | **Gravitic Bolas** | — | 15 |
 | 13 | **Atomic Disintegrators** | — | 10 |
-| | | | **750** |
+| | | | **755** | **Over cap by 5.** MFM v1.5: Immortals −5, Crawlers +10. Drop Atomic Disintegrators (10) → 745 is the smallest cut, and it is **not** applied. |
 
-MFM v1.3 — Warriors ▲+5 ×2, Plasmancer ▲+5; enhancement stack swapped (Quantum Abacus → Atomic Disintegrators, -5) to land exactly on 750. *(The v1.0 printing's four-line total also had a pre-existing arithmetic slip — this row is now checked to add up.)*
+MFM v1.5 — Immortals 5: 70→**65**, Tomb Crawlers 2: 50→**60**. Net **+5**, so the list is **755 / 750**. The three enhancements stay. Smallest cut, waiting on the owner: drop Atomic Disintegrators (−10) → **745**.
 
 **Attachments:** Warden + Geomancer on one Warrior squad; Technomancer or Plasmancer proxy on Immortals. Second Warriors, Macrocytes, Crawlers, Scarabs for board control.
 
@@ -71,7 +71,7 @@ MFM v1.3 — Warriors ▲+5 ×2, Plasmancer ▲+5; enhancement stack swapped (Qu
 
 Duplicate profiles match [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Conclave.md) for: Geomancer, Technomancer, Plasmancer proxy, Royal Warden proxy, Warriors, Immortals, Scarabs.
 
-### Canoptek Tomb Crawlers (2) — 50 pts
+### Canoptek Tomb Crawlers (2) — 60 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -125,9 +125,10 @@ Duplicate profiles match [`Army_List_500_V1_Conclave.md`](Army_List_500_V1_Concl
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · Cryptek Conclave **2DP**. List is **755 / 750** until the owner accepts a cut.
 
 ## Change Log
+- v1.2 (2026-10-01): MFM v1.5 — Immortals 5: 70→**65**, Tomb Crawlers 2: 50→**60**. Total **755 / 750**. Smallest cut (drop Atomic Disintegrators, −10 → 745) is written and **not** applied.
 - v1.1 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85** ×2, Plasmancer 55→**60**; enhancement stack swapped (Quantum Abacus → Atomic Disintegrators, -5) to land exactly on 750 (also fixes a pre-existing v1.0 arithmetic slip in that stack).
 - v1.0 (2026-08-19): Initial fully statted 750 V1. MFM v1.2 re-cost (Crawlers 50, Macrocytes 70); enhancements rebalance to 750.
 
