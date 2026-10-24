@@ -39,12 +39,12 @@ UPDATE_TRIGGER:
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
 | **FORCE DISPOSITION** | **PRIORITY ASSETS** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
-| **Points** | **500 / 500** |
+| **Points** | **495 / 500** |
+| **confidence** | draft — MFM Necrons v1.5 live site, retrieved 2026-10-01 |
 | **Warlord** | Cryptek Geomancer |
 | **Purchases** | **$0** - Hierotek proxies allowed (opponent OK) |
 | **Bench first** | Paint primed 2nd Scarabs; paint primed Immortals (gauss or tesla) to finish a 5 with Hierotek Guardians |
 | **Companion guide** | [`Reference_Guide_500_V1_Conclave.md`](Reference_Guide_500_V1_Conclave.md) |
-| **confidence** | draft — MFM v1.2 + Wahapedia 2026-08-19; Warriors/Plasmancer MFM v1.3 owner paste 2026-08-27 |
 
 ---
 
@@ -57,9 +57,9 @@ UPDATE_TRIGGER:
 | 3 | **Plasmancer** *(Apprentek proxy)* | 1 | 60 | OWNED proxy — Hierotek |
 | 4 | **Royal Warden** *(Despotek proxy)* | 1 | 50 | OWNED proxy — Hierotek |
 | 5 | **Necron Warriors** | 10 | 85 | OWNED — Tomb World |
-| 6 | **Immortals** | 5 | 70 | 3 Guardians + 2 from primed 1st box (gauss blasters) |
+| 6 | **Immortals** | 5 | 65 | 3 Guardians + 2 from primed 1st box (gauss blasters) |
 | 7 | **Canoptek Scarab Swarms** | 6 | 80 | OWNED — both sets merged |
-| | | | **500** | MFM v1.3 — Warriors ▲+5, Plasmancer ▲+5; **Atomic Disintegrators enhancement dropped** (owner-safe cut, -10) to absorb the delta and stay exactly on 500 |
+| | | | **495** | MFM v1.5 — Immortals 5: 70→**65** (−5). Under the 500 cap. No unit removed. |
 
 ### Battle Formations (declare before deployment)
 
@@ -159,7 +159,7 @@ Put the spare Cryptek on the Immortals brick. Scarabs are independent.
 
 ---
 
-## Immortals (5) — 70 pts
+## Immortals (5) — 65 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -232,9 +232,10 @@ You have **two shooting bricks** (Warriors + Immortals) and **Scarab speed bumps
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · Cryptek Conclave **2DP**.
 
 ## Change Log
+- v1.5 (2026-10-01): MFM v1.5 — Immortals 5: 70→**65**. List **495 / 500**. No unit removed.
 - v1.4 (2026-09-19): FORCE DISPOSITION banner in all caps; link Cryptek 500 play pack / how-army-works CP sheet.
 - v1.3 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**, Plasmancer 55→**60**; dropped the Atomic Disintegrators enhancement (owner-safe cut, -10) to stay exactly on 500.
 - v1.2 (2026-08-19): Full Wahapedia stat pass for all characters; MFM v1.2 verified 500 total. confidence: draft.

@@ -715,3 +715,12 @@ Pages created: none
 Pages updated: [[megabattle_prep_notes_2026_09]], [[index]], [[log]] (shipping: `print/40k_sm_how_army_works_1000.html`, `How_Your_Army_Works_1000.md` v1.3, `Son_Play_Pack_1000.md` v1.3, `print/README.md`, `print/_html_to_pdf.py`; Necron guide phrase sync in `How_Your_Army_Works_1000.md` v1.4 and its print HTML)
 
 Key additions: Same flowing layout as the Necron guide — no forced page breaks, table rows kept whole, GW notice in a repeating footer. Space Marine guide is 4 Letter pages at about 90% fill. Do/don't lines in both guides no longer cite "page 6". No rules or list content changed. No `raw/` writes, no git.
+
+## [2026-10-01] enhance | MFM v1.5 Necron recost and Space Marine hold
+
+Pages created: [[mfm_v1_5_2026_09_30]]
+
+Pages updated: [[necrons]], [[cryptek_conclave]], [[space_marines]], [[40k_aug_2026_balance_package]], [[index]], [[log]]
+
+Key additions: Live MFM v1.5 (retrieved 2026-10-01, draft). Necron 1000 V1 is 935 (Immortals 10 = 130, Tomb Crawlers 2 = 60, Doomstalker 130). The 250, played 500 V2, 750 V1, and 1000 V2 lists are over cap; no unit was removed. Space Marine 1000 list reviewed and not recosted; Gladius 3DP is over the 1000-point 2DP budget. Librarian did not write `raw/` or run git.
+

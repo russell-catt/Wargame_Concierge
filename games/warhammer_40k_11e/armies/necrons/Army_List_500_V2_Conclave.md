@@ -41,7 +41,7 @@ UPDATE_TRIGGER:
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
 | **FORCE DISPOSITION** | **PRIORITY ASSETS** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
-| **Points** | **500 / 500** |
+| **Points** | **505 / 500 — over cap.** MFM v1.5. No unit or enhancement removed. Smallest cut, not applied: drop Atomic Disintegrators (10) → **495**. |
 | **Warlord** | Cryptek Geomancer |
 | **Proxies** | **None** — every model on this list is its own datasheet |
 | **Enhancements** | Gauntlet of Compression (20) + Atomic Disintegrators (10) |
@@ -59,13 +59,13 @@ UPDATE_TRIGGER:
 | 1 | **Cryptek Geomancer** *(Warlord)* + **Gauntlet of Compression** | 1 | 75 + 20 | OWNED — Tomb World |
 | 2 | **Technomancer** (Canoptek Cloak) + **Atomic Disintegrators** | 1 | 80 + 10 | OWNED — Hierotek |
 | 3 | **Necron Warriors** | 10 | 85 | OWNED — Tomb World (painted) |
-| 4 | **Immortals** | 5 | 70 | OWNED — 1st squad, gauss blasters |
-| 5 | **Canoptek Tomb Crawlers** | 2 | 50 | OWNED — Tomb World |
+| 4 | **Immortals** | 5 | 65 | OWNED — 1st squad, gauss blasters |
+| 5 | **Canoptek Tomb Crawlers** | 2 | 60 | OWNED — Tomb World |
 | 6 | **Canoptek Macrocytes** | 5 | 70 | OWNED — Tomb World |
 | 7 | **Canoptek Scarab Swarms** | 3 | 40 | OWNED — Tomb World (1st set, painted) |
-| | | | **500** | Exactly on budget — no cuts needed |
+| | | | **505** | **Over cap by 5.** MFM v1.5. Drop Atomic Disintegrators (10) → 495 is the smallest cut, and it is **not** applied. |
 
-**Points arithmetic:** 75 + 20 + 80 + 10 + 85 + 70 + 50 + 70 + 40 = **500**.
+**Points arithmetic:** 75 + 20 + 80 + 10 + 85 + 65 + 60 + 70 + 40 = **505**. MFM v1.5: Immortals −5, Tomb Crawlers +10. **Over the 500 cap by 5.** Smallest legal cut, waiting on the owner: drop Atomic Disintegrators (10) → **495**. That enhancement is still on this list.
 
 > **Scarabs must be 3, not 6.** The 6-swarm block is 80 points. That pushes this list to 510 before enhancements. The 2nd Scarab set is also still off-base and unpainted — keep it on the bench.
 
@@ -160,7 +160,7 @@ Three of your five non-character units buy **board control and bodies**, not buf
 
 ---
 
-## Immortals (5) — 70 pts
+## Immortals (5) — 65 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -177,7 +177,7 @@ Three of your five non-character units buy **board control and bodies**, not buf
 
 ---
 
-## Canoptek Tomb Crawlers (2) — 50 pts
+## Canoptek Tomb Crawlers (2) — 60 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -273,9 +273,10 @@ V2 is **two buffed shooting bricks plus a Canoptek board-control package**. You 
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (Warriors, owner paste 2026-08-27) · **v1.2** for all other entries (read 2026-08-19) · verify owned PDF.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · Cryptek Conclave **2DP**. List is **505 / 500** until the owner accepts a cut.
 
 ## Change Log
+- v1.1 (2026-10-01): MFM v1.5 — Immortals 5: 70→**65**, Tomb Crawlers 2: 50→**60**. Total **505 / 500**. Smallest cut (drop Atomic Disintegrators, −10 → 495) is written and **not** applied.
 - v1.0 (2026-09-19): Initial V2 list — the force the owner actually brought. Proxies removed (no Plasmancer, no Royal Warden); Tomb Crawlers (50) and Macrocytes (70) added; Scarab block cut 6→3 (80→40); Immortals confirmed as the gauss-blaster 1st squad; two enhancements (Gauntlet of Compression 20 + Atomic Disintegrators 10). Totals exactly 500.
 
 ## Attribution

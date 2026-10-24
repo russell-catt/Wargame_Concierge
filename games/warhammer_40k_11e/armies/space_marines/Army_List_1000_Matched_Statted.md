@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/space_marines/Army_List_1000_Matched_Statted.md
-VERSION: v1.0 (2026-09-25)
+VERSION: v1.1 (2026-10-01)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor
 
@@ -23,6 +23,8 @@ PURPOSE:
 -->
 
 # Army list — 1000 pts Matched — Gladius (statted) | Page 1 of 4
+
+> **Stale — do not recost from this page.** Points and Firstborn datasheets here are still **MFM Marines v1.3**. Gladius is stamped **3DP**. A 1000-point list may spend **2DP**, so this detachment is over budget. Live MFM v1.5 (retrieved 2026-10-01) does not list Tactical Squad, Devastator Squad, or The Honour Vehement, and the owner paste places the Whirlwind in Legends. Bike Squad, Attack Bike, and Astartes Servitors are also absent, so the Casual starters have lost their points rows and are not rewritten here. No point, profile, or detachment on this page was changed. Fit note, not a new list: [`docs/handoffs/dataslate_0930/research/sm_1dp_owned_fit.md`](../../../../docs/handoffs/dataslate_0930/research/sm_1dp_owned_fit.md). The owner picks before this list changes detachment.
 
 > **FORCE DISPOSITION: PRIORITY ASSETS**  
 > MFM: `GLADIUS TASK FORCE - 3DP - PRIORITY ASSETS`  
@@ -238,6 +240,7 @@ Indomitus Primaris Captain — heavy bolt pistol, master-crafted power weapon, R
 
 ## Change Log
 
+- v1.1 (2026-10-01): Stale banner only (dataslate_0930 S2). List still totals **1000** on MFM v1.3. Gladius **3DP** is over the 1000-point 2DP budget. No points, profiles, or detachment change.
 - v1.0 (2026-09-25): Initial exact-1000 megabattle pack. Shooting Terminators start on table; Chaplain + Assault Terminators Deep Strike; Chaplain claw is shield proxy; Assault squad pays for one hammer.
 
 ## Attribution

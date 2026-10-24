@@ -46,7 +46,7 @@ UPDATE_TRIGGER:
 
 > **FORCE DISPOSITION: PRIORITY ASSETS**  
 > MFM: `CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`  
-> List: [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md) — **945** official app, two enhancements (Gauntlet + Atomic Disintegrators) · Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Pack index: [`Cryptek_Play_Pack_1000.md`](Cryptek_Play_Pack_1000.md)
+> List: [`Army_List_1000_V1_Doomstalker_Conclave.md`](Army_List_1000_V1_Doomstalker_Conclave.md) — **935**, two enhancements (Gauntlet + Atomic Disintegrators) · Matching: [`../../setup/Chapter_Approved_Force_Dispositions.md`](../../setup/Chapter_Approved_Force_Dispositions.md) · Pack index: [`Cryptek_Play_Pack_1000.md`](Cryptek_Play_Pack_1000.md)
 
 **Plan:** Three Cryptek gun bricks (Warriors A, Warriors B, Immortals) stand on Expansion / Central / home and refuse to die, Scarabs and Macrocytes run Actions and screens, Tomb Crawlers guard the backfield, and the **Doomstalker** deletes the biggest enemy unit from a 48" lane. Reanimate every Command; **Potentiality Syphon** off-turn. Caps: **15VP**/round · **45VP**/game.
 
@@ -188,7 +188,7 @@ You always play **your** Priority Assets Primary; the opponent's Disposition pic
 - [ ] List says **FORCE DISPOSITION: PRIORITY ASSETS**
 - [ ] Opponent Disposition → circle the Primary on page 2
 - [ ] Attachments written: A ← Warden + Geomancer · B ← Technomancer · Immortals ← Plasmancer
-- [ ] Enhancements locked: **Gauntlet → Geomancer**, **Atomic Disintegrators → Plasmancer**. No Bolas, no Abacus. **945**.
+- [ ] Enhancements locked: **Gauntlet → Geomancer**, **Atomic Disintegrators → Plasmancer**. No Bolas, no Abacus. **935**.
 - [ ] Proxies agreed: Apprentek = Plasmancer, Despotek = Royal Warden
 - [ ] Doomstalker unprimed OK for this game
 - [ ] Macrocytes **Scout 8"** before turn 1
@@ -328,7 +328,7 @@ Teaching paraphrase; the current Core card / Faction Pack wins. Conclave names *
 
 # Megabattle — joint war plan with the Blood Ravens + table etiquette
 
-Team game: your 945 Necrons + your son's 1000 Marines on one side. Source: megabattle prep notes at `raw/Megabattle_prep/` (2026-09-25), rules-checked against this pack. **confidence: draft.**
+Team game: your 935 Necrons + your son's 1000 Marines on one side. Source: megabattle prep notes at `raw/Megabattle_prep/` (2026-09-25), rules-checked against this pack. **confidence: draft.** Points on the Necron side are MFM v1.5 (2026-10-01); the megabattle note still says 945.
 
 **The team plan in one line:** a shared **backline firebase** (your Doomstalker + Brick B beside his Whirlwind + Techmarine), a shared **midboard push** (your Brick A + Immortals beside his Captain + Tacticals + Devastators), and a **pocket hammer** (your Scarabs set the trap; his Chaplain + Assault Terminators spring it). Your bricks give his Marines a wall that regrows; his Marines give your bricks the killing power they lack.
 
@@ -342,7 +342,7 @@ Team game: your 945 Necrons + your son's 1000 Marines on one side. Source: megab
 
 ### Packing list
 
-- [ ] Printed rosters — Marines 1000, Necrons 945 (this pack)
+- [ ] Printed rosters — Marines 1000, Necrons 935 (this pack)
 - [ ] Stat pages with weapon profiles (roster pages 2–4)
 - [ ] Two clearly different dice sets — one per player
 - [ ] Two tape measures
@@ -396,6 +396,7 @@ Marine side of the same plan: the megabattle section of [`../space_marines/How_Y
 
 - v1.4 (2026-09-25): Do/don't line and the Marine cross-link no longer cite a page number (the print aid flows, so page numbers move).
 - v1.3 (2026-09-25): Print aid condensed 7 → 5 Letter pages (flowing layout); page labels dropped from section headings.
+- v1.5 (2026-10-01): MFM v1.5 — list total **935** (was 945). Same two enhancements.
 - v1.2 (2026-09-25): App cap is two enhancements. List locked at **945** — Gauntlet (Geomancer) + Atomic Disintegrators (Plasmancer). Bolas and Abacus removed from jobs, Battle-shock, CP card, and the megabattle packing line.
 - v1.1 (2026-09-25): Page 7 — megabattle joint war plan with the Blood Ravens (firebase / midboard push / pocket hammer from the Necron seat), packing list, do / don't, turn-by-turn team beats. Incorporated from the owner's `raw/Megabattle_prep/` notes with rules checks (Oath buffs Marines only; Rapid Ingress not BR1; Atomic 5+ and Abacus trigger flagged verify).
 - v1.0 (2026-09-25): Initial 6-pager for the Cryptek 1000 play pack — same headings as the Space Marines 1000 guide (pieces, deployment, command script, Primaries, toolkit, battle plan, Doomstalker lanes / Heavy / Blast / Overwatch in place of the Whirlwind indirect-fire section, Battle-shock per unit, weapon keywords, CP spends with timing).

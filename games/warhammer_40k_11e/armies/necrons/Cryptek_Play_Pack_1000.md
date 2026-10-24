@@ -1,6 +1,6 @@
 <!--
 FILE: games/warhammer_40k_11e/armies/necrons/Cryptek_Play_Pack_1000.md
-VERSION: v1.3 (2026-09-25)
+VERSION: v1.4 (2026-10-01)
 OWNER: Russell Catt
 AUTHOR_OF_NOTES: Cursor
 
@@ -28,11 +28,11 @@ Print these Letter aids (HTML → PDF outside the repo). All are **UNOFFICIAL** 
 
 No aid is a stack of half-empty sheets: the roster and guide flow continuously (no forced page breaks; tables, unit blocks and table rows kept whole; GW notice repeated on every page); the shared system guide uses page 1 for turn / attack rules and page 2 for the full wound matrix.
 
-## List — 945 / 1000 (official app, two enhancements)
+## List — 935 / 1000 (two enhancements)
 
-Geomancer **75** + Gauntlet of Compression **20** + Royal Warden (Despotek proxy) **50** + Technomancer **80** + Plasmancer (Apprentek proxy) **60** + Atomic Disintegrators **10** + Warriors A (10) **85** + Warriors B (10) **85** + Immortals (10) **140** + Scarabs (6) **80** + Tomb Crawlers (2) **50** + Macrocytes (5) **70** + Canoptek Doomstalker **140** = **945**.
+Geomancer **75** + Gauntlet of Compression **20** + Royal Warden (Despotek proxy) **50** + Technomancer **80** + Plasmancer (Apprentek proxy) **60** + Atomic Disintegrators **10** + Warriors A (10) **85** + Warriors B (10) **85** + Immortals (10) **130** + Scarabs (6) **80** + Tomb Crawlers (2) **60** + Macrocytes (5) **70** + Canoptek Doomstalker **130** = **935**.
 
-**Enhancements locked:** Gauntlet of Compression → Geomancer · Atomic Disintegrators → Plasmancer. The app allows two. Gravitic Bolas and Quantum Abacus are off. If the owned MFM lists the Doomstalker at 145, the total becomes **950**.
+**Enhancements locked:** Gauntlet of Compression → Geomancer · Atomic Disintegrators → Plasmancer. The app allows two. Gravitic Bolas and Quantum Abacus are off. Doomstalker is **130** on MFM v1.5.
 
 **Attachment lock:** Warriors A ← Royal Warden (Leader) + Geomancer (Support) · Warriors B ← Technomancer (Support) · Immortals ← Plasmancer (Support). Doomstalker, Scarabs, Crawlers, Macrocytes independent — no Conclave menu.
 
@@ -62,6 +62,7 @@ Geomancer **75** + Gauntlet of Compression **20** + Royal Warden (Despotek proxy
 
 ## Change Log
 
+- v1.4 (2026-10-01): List recosted to **935** under MFM v1.5. Same two enhancements.
 - v1.3 (2026-09-25): Condensed print aids — roster 4 → 3 pages, guide 7 → 5 pages (flowing layout, no forced breaks, far less white space).
 - v1.2 (2026-09-25): List locked at **945** — app allows two enhancements (Gauntlet + Atomic Disintegrators). Bolas and Abacus dropped.
 - v1.1 (2026-09-25): Army guide page 7 — megabattle joint war plan with the Blood Ravens, packing list, do / don't (from `raw/Megabattle_prep/`).

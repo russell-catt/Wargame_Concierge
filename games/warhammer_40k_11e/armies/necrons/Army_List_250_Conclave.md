@@ -39,12 +39,12 @@ UPDATE_TRIGGER:
 |-------|-------|
 | **Detachment** | Cryptek Conclave (Technosorcerous Augmentations) |
 | **Force Disposition** | **Priority Assets** (`CRYPTEK CONCLAVE - 2DP - PRIORITY ASSETS`) |
-| **Points** | **250 / 250** *(exact)* |
+| **Points** | **260 / 250 — over cap.** MFM v1.5. No unit removed. Smallest cut, not applied: drop the 3 Scarabs (40) → Geomancer 75 + Warriors 85 + Crawlers 60 = **220**. |
 | **Warlord** | Cryptek Geomancer |
 | **Playable tonight?** | Yes — all four units game-ready (Tomb World) |
 | **Companion guide** | [`Reference_Guide_250_Conclave.md`](Reference_Guide_250_Conclave.md) |
 
-> **MFM Necrons v1.3 (owner paste 2026-08-27, draft):** Necron Warriors (10) are **85** pts (▲+5 vs v1.2's 80). Tomb Crawlers are **50** pts, Macrocytes **70** pts (both unchanged, per MFM v1.2 correction 2026-08-19). The Warriors ▲ takes this list from 245/250 to **exactly 250** — no enhancement pad needed.
+> **MFM Necrons v1.5 (live site, 2026-10-01, draft):** Tomb Crawlers (2) are **60** (was 50). Warriors (10) stay **85**. This list is **260 / 250**. No enhancement is on it, so the smallest cut is dropping the 3 Scarabs (40), which lands at **220**. That cut is **not** applied.
 
 ---
 
@@ -54,13 +54,13 @@ UPDATE_TRIGGER:
 |---|------|--------|-----|------|
 | 1 | **Cryptek Geomancer** *(Warlord)* | 1 | 75 | Support — attaches to Warriors |
 | 2 | **Necron Warriors** | 10 | 85 | Battleline / home objective |
-| 3 | **Canoptek Tomb Crawlers** | 2 | 50 | Screen / midfield |
+| 3 | **Canoptek Tomb Crawlers** | 2 | 60 | Screen / midfield |
 | 4 | **Canoptek Scarab Swarms** | 3 | 40 | Wide OC / harassment |
-| | | | **250** | |
+| | | | **260** | **Over cap by 10.** |
 
 **Battle Formations:** Geomancer (**Support**) attaches to Warriors before deployment (**19.01**). Deploy them as **one unit** in coherency (**03.03**) — not as two separate units. Crawlers and Scarabs are separate. At 500+ you can often add a **Leader** to the same Warrior brick alongside this Support.
 
-**Already exact at 250 — do not add an enhancement**, or the list goes over cap. Three-unit variant (drop Scarabs): Geomancer + Warriors + Crawlers = **210**; +Atomic Disintegrators (10) → **220**.
+**Over cap at 260.** Do not add an enhancement. Smallest cut, waiting on the owner: drop Scarabs → Geomancer + Warriors + Crawlers = **220**. Three-unit note from the old exact list (drop Scarabs, then add Atomic Disintegrators) is stale until that cut is accepted.
 
 **Owned wargear:** Warriors — mixed gauss flayer / gauss reaper. Tomb Crawlers — 1× twin gauss reapers, 1× transdimensional isolator.
 
@@ -105,7 +105,7 @@ UPDATE_TRIGGER:
 
 ---
 
-## Unit 3 — Canoptek Tomb Crawlers (2) — 50 pts
+## Unit 3 — Canoptek Tomb Crawlers (2) — 60 pts
 
 | Model | M | T | SV | W | LD | OC |
 |-------|---|---|----|---|----|----|
@@ -174,9 +174,10 @@ Detail: [`units/research/Canoptek-Scarab-Swarms.md`](units/research/Canoptek-Sca
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · verify owned PDF.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · Cryptek Conclave **2DP**. List is **260 / 250** until the owner accepts a cut.
 
 ## Change Log
+- v1.5 (2026-10-01): MFM v1.5 — Tomb Crawlers 2: 50→**60**. List **260 / 250**. Smallest cut (drop 3 Scarabs, −40 → 220) is written and **not** applied.
 - v1.4 (2026-08-27): MFM Necrons v1.3 recost (dataslate_0826 S2c) — Necron Warriors (10) 80→**85**. List now lands exactly on **250** (was 245/250); removed the now-moot Atomic Disintegrators pad note.
 - v1.3 (2026-08-19): Plain-language play section; rule ID cites for phases and core rules.
 - v1.1 (2026-08-19): Policy — Wahapedia allowed for stats when WarCom unavailable.

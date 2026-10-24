@@ -124,9 +124,10 @@ See [`Owned_Models_Inventory.md`](Owned_Models_Inventory.md) for the checklist.
 
 **UNOFFICIAL.** This document is completely unofficial and in no way endorsed by Games Workshop Limited. Personal / no-charge use only — never for sale. Warhammer, Warhammer 40,000 and associated marks are trademarks of Games Workshop Limited. Used without permission. No challenge to their status intended. Warhammer 40,000 is Copyright Games Workshop Limited. Teaching notes by Russell Catt (Wargame Concierge). Games Workshop retains IP in the settings and characters. No official logos.
 
-**Rules currency:** Munitorum Field Manual Necrons **v1.3** (owner paste 2026-08-27) · **Faction Pack v1.2** (legal 26 Aug 2026) · verify owned PDF.
+**Rules currency:** Munitorum Field Manual Necrons **v1.5** (live site, retrieved 2026-10-01, draft) · **Faction Pack v1.2** (legal 26 Aug 2026) · Cryptek Conclave **2DP** · verify in the app before a tournament.
 
 ## Change Log
+- v0.5.11 (2026-10-01): Rules currency — MFM Necrons **v1.5** (live site, retrieved 2026-10-01, draft). List recosts live on the army lists (dataslate_0930 S1).
 - v0.5.10 (2026-09-24): Canoptek Doomstalker assembled (unprimed); Conclave 1000 Doomstalker path added.
 - v0.5.9 (2026-09-24): 2nd Warriors + Scarabs based + primed; 1st Immortals (**gauss blasters**) assembled + primed.
 - v0.5.8 (2026-09-17): 2nd Immortals (5) purchased — **tesla carbines**, primed; 1st Immortals box still on sprue.
